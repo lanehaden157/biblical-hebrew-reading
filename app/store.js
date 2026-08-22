@@ -14,8 +14,7 @@ const SCHEMA_VERSION = 1;
 
 export const DEFAULT_SETTINGS = {
   theme: 'system',      // 'system' | 'light' | 'dark'
-  haptics: true,
-  sound: false,         // off by default: iOS mutes Web Audio on the silent switch
+  sound: true,           // muted by the iPhone silent switch, so this is harmless when off-limits
   newPerDay: 5,         // 600 lemmas at 5/day is ~4 months of introductions
   dailyCap: 40,         // hard rule 5: never show a wall of due cards
 };

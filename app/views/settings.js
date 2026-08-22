@@ -22,7 +22,6 @@ export function render(root, deck, rerender) {
   root.appendChild(statsBlock(deck));
 
   const s = settings();
-  const caps = feedback.capabilities();
 
   const appearance = group([
     seg('Theme', null, ['system', 'light', 'dark'], ['System', 'Light', 'Dark'], s.theme, (v) => {
@@ -33,15 +32,10 @@ export function render(root, deck, rerender) {
   root.appendChild(appearance);
 
   const feel = group([
-    seg('Haptics', hapticNote(caps), ['off', 'on'], ['Off', 'On'], s.haptics ? 'on' : 'off', (v) => {
-      setSetting('haptics', v === 'on');
-      if (v === 'on') feedback.tap();
-      rerender();
-    }),
     seg('Sound', 'Muted by the ring/silent switch on iPhone.', ['off', 'on'], ['Off', 'On'],
       s.sound ? 'on' : 'off', (v) => {
         setSetting('sound', v === 'on');
-        if (v === 'on') feedback.right();
+        if (v === 'on') feedback.grade('good');
         rerender();
       }),
   ]);
@@ -72,11 +66,6 @@ export function render(root, deck, rerender) {
   note.className = 'note';
   note.textContent = 'Progress is stored on this device only — it does not sync between your phone and computer. Export writes a JSON file you can keep as a backup.';
   root.appendChild(note);
-}
-
-function hapticNote(caps) {
-  if (caps.vibrateApi) return 'Using the standard vibration API.';
-  return 'Tries an undocumented iOS trick for haptics — not guaranteed to work on your phone or iOS version.';
 }
 
 function statsBlock(deck) {

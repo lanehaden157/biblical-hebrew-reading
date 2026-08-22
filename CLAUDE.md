@@ -161,7 +161,9 @@ three-stage card reveal (Hebrew → transliteration → gloss, so a failure iden
 decoding or meaning broke); three grade buttons (Again / Good / Easy — `Hard` dropped as the
 button people grade inconsistently); bottom tab bar with `Parse` and `Read` stubbed for later
 tiers; light and dark themes following the system setting with a persisted manual override;
-optional haptics and sound, both defaulting off, behind one `feedback.js` shim.
+optional sound (default on) behind one `feedback.js` shim. Haptics were attempted (standard
+vibration API, then an undocumented iOS switch-click trick) and dropped after real-device
+testing confirmed neither works in iOS Safari — no haptics toggle exists.
 
 **Next.** Log actual time-per-session so pacing estimates can be corrected against real data
 rather than assumed. Then Phase 3: parsing gym (Qal strong). Phase 4: reader, Jonah 1.

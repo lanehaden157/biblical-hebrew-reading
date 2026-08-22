@@ -338,21 +338,6 @@ h1.title { font-size: 22px; font-weight: 500; margin: 8px 0 20px; }
 .stat b { display: block; font-size: 22px; font-weight: 500; font-variant-numeric: tabular-nums; }
 .stat span { font-size: 12px; color: var(--text-faint); }
 
-/* Effectively invisible but kept inside the viewport and painted (not
-   display:none, not opacity:0, not pushed off-canvas) -- an element WebKit
-   never composites is one plausible reason the iOS switch haptic trick can
-   fail to fire at all. 1x1px, opacity near-zero, pinned off any real content. */
-.haptic-probe {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 1px;
-  height: 1px;
-  opacity: 0.01;
-  pointer-events: none;
-  z-index: -1;
-}
-
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; }
 }
