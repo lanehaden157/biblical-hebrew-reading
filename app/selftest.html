@@ -22,7 +22,7 @@
 </main>
 
 <script type="module">
-import { DECK_URL, loadDeck } from './main.js';
+import { DECK_URL, loadDeck, PARSE_DECK_URL, loadParseDeck } from './main.js';
 import { newCard, applyGrade, describeInterval, GRADES } from './srs.js';
 
 const out = document.getElementById('out');
@@ -53,7 +53,7 @@ const HEBREW_RE = /[\u05D0-\u05EA]/;
 
 const APP_FILES = [
   'main.js', 'store.js', 'srs.js', 'theme.js', 'feedback.js', 'app.css',
-  'views/vocab.js', 'views/settings.js', 'selftest.html',
+  'views/vocab.js', 'views/parse.js', 'views/settings.js', 'selftest.html',
 ];
 
 async function run() {
@@ -92,6 +92,40 @@ async function run() {
     if (sorted[i].frequency > sorted[i - 1].frequency) { descending = false; break; }
   }
   check(descending, 'frequency is non-increasing as rank rises');
+
+  let parseDeck;
+  try {
+    parseDeck = await loadParseDeck();
+    ok(`parse deck loaded from ${PARSE_DECK_URL.pathname}`);
+  } catch (e) {
+    bad(`parse deck failed to load: ${e.message}`);
+    parseDeck = [];
+  }
+  if (parseDeck.length) {
+    const CONJS = new Set(['qatal', 'wayyiqtol', 'yiqtol', 'participle', 'infinitive_construct']);
+    let badForm = 0, badGloss = 0, badConj = 0, badPgn = 0, dupIds = 0;
+    const seenIds = new Set();
+    for (const e of parseDeck) {
+      if (!e.surface_form || !HEBREW_RE.test(e.surface_form)) badForm++;
+      if (!e.transliteration || !TRANSLIT_RE.test(e.transliteration)) badForm++;
+      if (!e.root_citation_form || !HEBREW_RE.test(e.root_citation_form)) badForm++;
+      if (!e.root_transliteration || !TRANSLIT_RE.test(e.root_transliteration)) badForm++;
+      if (!e.gloss || !e.gloss.trim()) badGloss++;
+      if (!CONJS.has(e.conjugation)) badConj++;
+      if (e.conjugation === 'infinitive_construct') {
+        if (e.person || e.gender || e.number || e.state) badPgn++;
+      } else if (e.conjugation === 'participle') {
+        if (e.person || !e.gender || !e.number || !e.state) badPgn++;
+      } else if (!e.person || !e.gender || !e.number || e.state) badPgn++;
+      if (seenIds.has(e.id)) dupIds++;
+      seenIds.add(e.id);
+    }
+    check(badForm === 0, `every parse entry has well-formed Hebrew + transliteration (${badForm} bad)`);
+    check(badGloss === 0, `every parse entry has a gloss — hard rule 4 (${badGloss} bad)`);
+    check(badConj === 0, `every parse entry has a recognized conjugation (${badConj} bad)`);
+    check(badPgn === 0, `every parse entry's person/gender/number/state matches its conjugation's shape (${badPgn} bad)`);
+    check(dupIds === 0, `no duplicate parse entry ids (${dupIds} dupes)`);
+  }
 
   // Hard rule 1, app-side: no Hebrew letters anywhere in /app/ source.
   for (const f of APP_FILES) {

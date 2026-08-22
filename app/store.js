@@ -23,7 +23,9 @@ function emptyState() {
   return {
     schemaVersion: SCHEMA_VERSION,
     settings: { ...DEFAULT_SETTINGS },
-    cards: {},     // lemma_id -> { due, stability, ..., introducedOn }
+    cards: {},     // key -> { due, stability, ..., introducedOn }; vocab keys
+                   // by lemma_id, parse keys by "parse:<entry id>" (see srs.js
+                   // buildQueue's keyFn) -- one flat map, two decks, disjoint keys
   };
 }
 

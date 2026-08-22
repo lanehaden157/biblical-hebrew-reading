@@ -158,6 +158,11 @@ body {
   word-break: break-word;
 }
 
+.card-root {
+  font-size: 34px;
+  margin: 0;
+}
+
 .card-translit {
   font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
   font-size: 19px;

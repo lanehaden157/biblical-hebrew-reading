@@ -97,21 +97,29 @@ export function isDue(stored, now = new Date()) {
  * New cards are introduced in frequency order (rank 1 first), which is also
  * roughly easiest-first, and are spread evenly through the reviews rather than
  * front-loaded, so a session does not open with a run of unfamiliar words.
+ *
+ * `keyFn` maps a deck entry to its card key in store.cards. Defaults to
+ * lemma_id (vocab's key). Parse decks pass their own, since parse cards key
+ * by word occurrence, not lemma -- multiple entries share a lemma_id there.
+ * newPerDay/dailyCap counting is scoped to this deck's own keys, not every
+ * card in storage, so two decks sharing one cards object (vocab and parse)
+ * get independent pacing budgets rather than silently competing for one.
  */
-export function buildQueue(deck, now = new Date()) {
+export function buildQueue(deck, now = new Date(), keyFn = (e) => e.lemma_id) {
   const state = load();
   const { dailyCap, newPerDay } = state.settings;
   const cards = state.cards;
+  const deckKeys = new Set(deck.map(keyFn));
 
   const due = [];
   for (const entry of deck) {
-    const c = cards[entry.lemma_id];
+    const c = cards[keyFn(entry)];
     if (c && isDue(c, now)) due.push({ entry, card: c, isNew: false });
   }
   due.sort((a, b) => new Date(a.card.due) - new Date(b.card.due));
 
-  const introducedToday = Object.values(cards)
-    .filter((c) => c.introducedOn === today(now)).length;
+  const introducedToday = Object.keys(cards)
+    .filter((k) => deckKeys.has(k) && cards[k].introducedOn === today(now)).length;
   const newBudget = Math.max(0, Math.min(
     newPerDay - introducedToday,
     dailyCap - due.length
@@ -120,7 +128,7 @@ export function buildQueue(deck, now = new Date()) {
   const fresh = [];
   for (const entry of deck) {
     if (fresh.length >= newBudget) break;
-    if (!cards[entry.lemma_id]) fresh.push({ entry, card: null, isNew: true });
+    if (!cards[keyFn(entry)]) fresh.push({ entry, card: null, isNew: true });
   }
 
   const reviews = due.slice(0, Math.max(0, dailyCap - fresh.length));
@@ -147,11 +155,11 @@ function interleave(reviews, fresh) {
 
 /** Counts for the settings screen. Not shown during a drill -- no streaks, no
  *  progress bars to feel bad about (hard rule 5). */
-export function stats(deck, now = new Date()) {
+export function stats(deck, now = new Date(), keyFn = (e) => e.lemma_id) {
   const cards = load().cards;
   let seen = 0, learning = 0, review = 0, dueNow = 0;
   for (const entry of deck) {
-    const c = cards[entry.lemma_id];
+    const c = cards[keyFn(entry)];
     if (!c) continue;
     seen++;
     if (c.state === State.Review) review++;

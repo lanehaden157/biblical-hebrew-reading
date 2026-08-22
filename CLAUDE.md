@@ -155,29 +155,44 @@ This section is rewritten at each phase boundary; `git log` is the real history.
 lemmas curated across six gloss batches, reviewed, verified. Transliteration generator
 complete and verified against all 600 forms. `data/vocab_deck_600.json` built. Vocab SRS app
 shipped and live at the Pages URL: three-stage card reveal (Hebrew → transliteration →
-gloss), three grade buttons (Again/Good/Easy, `Hard` dropped), bottom tab bar (`Parse` and
-`Read` still disabled stubs), light/dark theme following the system setting, sound feedback
-(default on, per-grade tones) behind `feedback.js`. Haptics were attempted (standard
-vibration API, then an undocumented iOS switch-click trick) and dropped after real-device
-testing confirmed neither fires in iOS Safari — there is no haptics toggle or code path.
-Session-length tracking was built and then deliberately removed: this is a casual hobby
-project, and a persisted timing log is the kind of quantified-self mechanic hard rule 5
-(no streaks, no guilt mechanics) exists to keep out. `store.js` has no `sessions` field.
+gloss), three grade buttons (Again/Good/Easy, `Hard` dropped), light/dark theme following
+the system setting, sound feedback (default on, per-grade tones) behind `feedback.js`.
+Haptics were attempted (standard vibration API, then an undocumented iOS switch-click trick)
+and dropped after real-device testing confirmed neither fires in iOS Safari — there is no
+haptics toggle or code path. Session-length tracking was built and then deliberately
+removed: this is a casual hobby project, and a persisted timing log is the kind of
+quantified-self mechanic hard rule 5 (no streaks, no guilt mechanics) exists to keep out.
+`store.js` has no `sessions` field.
 
-**Next — Phase 3: parsing gym, Qal strong verbs (Tier 2 content).** Not started. Needs, in
-order: (1) a `/pipeline` step that pulls Qal forms in the locked conjugation-priority order
-(qatal, wayyiqtol, yiqtol, participle, then infinitive construct) from OSHB by `morph` code
-(`Vqp*`, `Vqw*`, `Vqi*`, `Vqrq*`/`Vqrmp` etc. — confirm exact codes against the corpus rather
-than assuming), restricted to **strong** roots only (no guttural, I-Nun, I-Vav/Yod, hollow,
-geminate, or III-He radicals — weak classes are Tier 3, drilled one class at a time later);
-(2) a verify script per hard rule 3, since a bad morph regex has already produced
-plausible-wrong output once during Tier 0; (3) a generated `data/parse_*.json` answer-keyed
-by root + stem + conjugation + PGN, reverse-parse direction (form → analysis, not the
-textbook direction — see locked decisions); (4) `app/views/parse.js` and un-stubbing the
-`Parse` tab in `index.html`/`main.js`. No UI decisions are locked yet for this view — treat
-card layout, reveal staging, and grading as open, the way vocab's UI was before that build.
+**Done — Phase 3 (Tier 2 build): parsing gym, Qal strong verbs.** `pipeline/build_parse_qal.py`
+pulls Qal forms in the locked conjugation-priority order (qatal, wayyiqtol, yiqtol,
+participle, infinitive construct — confirmed exact `morph` codes against the whole corpus
+rather than assuming: `Vq` + one of `pwqrc` + a person/gender/number or gender/number/state
+suffix) restricted to **strong** roots. Strong-root test: triliteral, no radical in
+{alef,he,het,ayin} (covers I/II/III-guttural and III-He/III-Aleph in one check), first
+radical not nun, first radical not vav/yod, second radical not vav/yod or equal to the
+third (hollow/geminate). Root lemmas are restricted to the 181 verb lemmas already in the
+curated top-600 vocab deck, not all Qal-attested lemmas in the corpus — reuses their
+lexicon-sourced citation form, transliteration and gloss rather than a second curation
+pass, and keeps parsing practice anchored to vocabulary already being learned. Yields 41
+strong-root lemmas, 34 of which are actually attested in Qal in the corpus (the other 7 —
+בקש, שלך, קטר, שרת, מלט, שמד, סתר — are cited in Qal-perfect form by convention but
+essentially never occur in Qal; confirmed against BDB usage, not a pipeline bug), 2,211
+parse entries total. `pipeline/verify_parse_qal.py` independently re-derives every count
+via its own regex scan and its own copy of the strong-root rule (rule 3). `app/views/parse.js`
+un-stubs the `Parse` tab: same three-stage reveal pattern as vocab (surface form →
+transliteration → root + gloss + parse label, e.g. "Qal infinitive construct"), same
+three-grade SRS. `srs.js` `buildQueue`/`stats` took a `keyFn` parameter so vocab (keyed by
+lemma_id) and parse (keyed by `parse:<entry id>`, since one lemma has many inflected
+entries) share one `store.cards` map with independent daily new-card budgets rather than
+competing for one. `app/selftest.html` gained structural checks for the parse deck.
+Verified end-to-end in-browser: tab switch, all three reveal stages, grading, queue
+advance, Settings stats unaffected by parse review activity.
 
-Phase 4 (reader, Jonah 1) and Phase 5 (Tiers 3–5) come after Phase 3 and are not yet scoped.
+**Next — Phase 4: reader, Jonah 1.** Not started, not yet scoped in detail. Per the locked
+reading order this is the first connected-text reading after the vocab/parsing-gym
+foundation. Phase 5 (Tiers 3–5: weak verbs, derived stems, sustained reading) comes after
+and is further out.
 
 ## Working style
 

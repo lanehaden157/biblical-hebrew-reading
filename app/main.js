@@ -10,11 +10,14 @@
 
 import * as theme from './theme.js';
 import * as vocab from './views/vocab.js';
+import * as parseView from './views/parse.js';
 import * as settingsView from './views/settings.js';
 
 export const DECK_URL = new URL('../data/vocab_deck_600.json', import.meta.url);
+export const PARSE_DECK_URL = new URL('../data/parse_qal_strong.json', import.meta.url);
 
 let deck = null;
+let parseDeck = null;
 let tab = 'vocab';
 
 export async function loadDeck() {
@@ -27,6 +30,16 @@ export async function loadDeck() {
   return json.entries;
 }
 
+export async function loadParseDeck() {
+  const res = await fetch(PARSE_DECK_URL, { cache: 'no-cache' });
+  if (!res.ok) throw new Error(`parse deck fetch failed: ${res.status} ${res.statusText}`);
+  const json = await res.json();
+  if (!Array.isArray(json.entries) || !json.entries.length) {
+    throw new Error('parse deck contains no entries');
+  }
+  return json.entries;
+}
+
 function view() {
   return document.getElementById('view');
 }
@@ -35,15 +48,30 @@ function rerender() {
   const root = view();
   if (!deck) return;
   if (tab === 'settings') settingsView.render(root, deck, rerender);
-  else vocab.render(root, deck);
+  else if (tab === 'parse') {
+    if (!parseDeck) { root.textContent = 'Loading…'; return; }
+    parseView.render(root, parseDeck);
+  } else vocab.render(root, deck);
   window.scrollTo(0, 0);
 }
 
-function selectTab(name) {
+async function selectTab(name) {
   tab = name;
   for (const b of document.querySelectorAll('.tab')) {
     if (b.dataset.tab === name) b.setAttribute('aria-current', 'page');
     else b.removeAttribute('aria-current');
+  }
+  // Lazily loaded, not fetched at boot alongside the vocab deck: most
+  // sessions only ever open Vocab, and this keeps that critical path to one
+  // fetch.
+  if (name === 'parse' && !parseDeck) {
+    try {
+      parseDeck = await loadParseDeck();
+    } catch (err) {
+      console.error(err);
+      view().textContent = `Could not load the parsing deck: ${err.message || err}`;
+      return;
+    }
   }
   rerender();
 }
@@ -68,6 +96,7 @@ function fail(err) {
 async function boot() {
   theme.init();
   vocab.setRerender(rerender);
+  parseView.setRerender(rerender);
 
   for (const b of document.querySelectorAll('.tab')) {
     if (b.disabled) continue;
