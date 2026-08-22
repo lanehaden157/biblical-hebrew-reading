@@ -24,7 +24,6 @@ function emptyState() {
     schemaVersion: SCHEMA_VERSION,
     settings: { ...DEFAULT_SETTINGS },
     cards: {},     // lemma_id -> { due, stability, ..., introducedOn }
-    sessions: [],  // { date, ms, reviewed, again }
   };
 }
 
@@ -72,7 +71,6 @@ export function load() {
     cache = migrate(raw);
     cache.settings = { ...DEFAULT_SETTINGS, ...(cache.settings || {}) };
     cache.cards = cache.cards || {};
-    cache.sessions = cache.sessions || [];
   }
   return cache;
 }

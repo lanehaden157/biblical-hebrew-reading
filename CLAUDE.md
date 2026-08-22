@@ -151,23 +151,33 @@ path problem.
 
 This section is rewritten at each phase boundary; `git log` is the real history.
 
-**Done.** Tier 0 prototype confirmed niqqud renders correctly on device (disposable, not in
-this repo). Pipeline builds `data/top600.json` from OSHB. All 600 lemmas curated across six
-gloss batches, reviewed, verified. Transliteration generator complete and verified against
-all 600 forms. `data/vocab_deck_600.json` built. Repo live on GitHub; Pages not yet enabled.
-
-**In progress.** Vocab SRS app — the first real `/app/` code. Locked UI decisions:
-three-stage card reveal (Hebrew → transliteration → gloss, so a failure identifies whether
-decoding or meaning broke); three grade buttons (Again / Good / Easy — `Hard` dropped as the
-button people grade inconsistently); bottom tab bar with `Parse` and `Read` stubbed for later
-tiers; light and dark themes following the system setting with a persisted manual override;
-optional sound (default on) behind one `feedback.js` shim. Haptics were attempted (standard
+**Done — Phases 1–2 (Tier 0–1 build).** Pipeline builds `data/top600.json` from OSHB. All 600
+lemmas curated across six gloss batches, reviewed, verified. Transliteration generator
+complete and verified against all 600 forms. `data/vocab_deck_600.json` built. Vocab SRS app
+shipped and live at the Pages URL: three-stage card reveal (Hebrew → transliteration →
+gloss), three grade buttons (Again/Good/Easy, `Hard` dropped), bottom tab bar (`Parse` and
+`Read` still disabled stubs), light/dark theme following the system setting, sound feedback
+(default on, per-grade tones) behind `feedback.js`. Haptics were attempted (standard
 vibration API, then an undocumented iOS switch-click trick) and dropped after real-device
-testing confirmed neither works in iOS Safari — no haptics toggle exists.
+testing confirmed neither fires in iOS Safari — there is no haptics toggle or code path.
+Session-length tracking was built and then deliberately removed: this is a casual hobby
+project, and a persisted timing log is the kind of quantified-self mechanic hard rule 5
+(no streaks, no guilt mechanics) exists to keep out. `store.js` has no `sessions` field.
 
-**Next.** Log actual time-per-session so pacing estimates can be corrected against real data
-rather than assumed. Then Phase 3: parsing gym (Qal strong). Phase 4: reader, Jonah 1.
-Phase 5: Tiers 3–5.
+**Next — Phase 3: parsing gym, Qal strong verbs (Tier 2 content).** Not started. Needs, in
+order: (1) a `/pipeline` step that pulls Qal forms in the locked conjugation-priority order
+(qatal, wayyiqtol, yiqtol, participle, then infinitive construct) from OSHB by `morph` code
+(`Vqp*`, `Vqw*`, `Vqi*`, `Vqrq*`/`Vqrmp` etc. — confirm exact codes against the corpus rather
+than assuming), restricted to **strong** roots only (no guttural, I-Nun, I-Vav/Yod, hollow,
+geminate, or III-He radicals — weak classes are Tier 3, drilled one class at a time later);
+(2) a verify script per hard rule 3, since a bad morph regex has already produced
+plausible-wrong output once during Tier 0; (3) a generated `data/parse_*.json` answer-keyed
+by root + stem + conjugation + PGN, reverse-parse direction (form → analysis, not the
+textbook direction — see locked decisions); (4) `app/views/parse.js` and un-stubbing the
+`Parse` tab in `index.html`/`main.js`. No UI decisions are locked yet for this view — treat
+card layout, reveal staging, and grading as open, the way vocab's UI was before that build.
+
+Phase 4 (reader, Jonah 1) and Phase 5 (Tiers 3–5) come after Phase 3 and are not yet scoped.
 
 ## Working style
 

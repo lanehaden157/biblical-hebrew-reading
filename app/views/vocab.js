@@ -186,21 +186,6 @@ function doneScreen(deck) {
   const mins = Math.max(1, Math.round((Date.now() - session.start) / 60000));
   const reviewed = session.reviewed;
 
-  // Phase 2 step 4: log real time-per-session so pacing estimates can be
-  // corrected against data instead of assumption.
-  if (reviewed > 0 && !session.logged) {
-    session.logged = true;
-    update((s) => {
-      s.sessions.push({
-        date: new Date().toISOString(),
-        ms: Date.now() - session.start,
-        reviewed,
-        again: session.again,
-      });
-      if (s.sessions.length > 400) s.sessions = s.sessions.slice(-400);
-    });
-  }
-
   const h = document.createElement('h1');
   h.textContent = reviewed > 0 ? 'Done for now' : 'Nothing due';
   wrap.appendChild(h);
