@@ -76,8 +76,7 @@ export function render(root, deck, rerender) {
 
 function hapticNote(caps) {
   if (caps.vibrateApi) return 'Using the standard vibration API.';
-  if (caps.iosSwitch) return 'Using the iOS switch haptic. If a future iOS release removes it, haptics simply stop.';
-  return 'This device reports no haptic support — the switch will do nothing.';
+  return 'Tries an undocumented iOS trick for haptics — not guaranteed to work on your phone or iOS version.';
 }
 
 function statsBlock(deck) {

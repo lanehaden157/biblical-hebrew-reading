@@ -165,14 +165,12 @@ function grade(item, gradeKey, deck) {
   });
 
   session.reviewed++;
+  feedback.grade(gradeKey);
   if (gradeKey === 'again') {
     session.again++;
-    feedback.wrong();
     // Missed cards come back at the end of this session rather than waiting for
     // tomorrow -- that is what the learning steps are for.
     queue.push({ ...item, card: null, isNew: false, repeat: true });
-  } else {
-    feedback.right();
   }
 
   pos++;
