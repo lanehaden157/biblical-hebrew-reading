@@ -1,0 +1,354 @@
+/* Theme tokens. Light is the base; dark is applied by [data-theme="dark"],
+   which theme.js sets explicitly for all three modes (system/light/dark) so
+   there is exactly one source of truth for what is currently showing. */
+
+:root {
+  --bg: #faf9f5;
+  --surface: #ffffff;
+  --surface-2: #f0efe9;
+  --text: #1a1a18;
+  --text-dim: #6b6a64;
+  --text-faint: #9b9a93;
+  --border: rgba(0, 0, 0, 0.10);
+  --border-strong: rgba(0, 0, 0, 0.22);
+  --accent: #3b6d11;
+  --accent-bg: rgba(59, 109, 17, 0.10);
+  --again: #a32d2d;
+  --again-bg: rgba(163, 45, 45, 0.10);
+  --tap-highlight: rgba(0, 0, 0, 0.04);
+
+  --radius: 14px;
+  --pad: 20px;
+  --tabbar-h: 58px;
+}
+
+:root[data-theme="dark"] {
+  --bg: #111110;
+  --surface: #1c1c1a;
+  --surface-2: #262624;
+  --text: #f2f1ec;
+  --text-dim: #a3a29b;
+  --text-faint: #6e6d67;
+  --border: rgba(255, 255, 255, 0.12);
+  --border-strong: rgba(255, 255, 255, 0.26);
+  --accent: #97c459;
+  --accent-bg: rgba(151, 196, 89, 0.14);
+  --again: #f09595;
+  --again-bg: rgba(240, 149, 149, 0.14);
+  --tap-highlight: rgba(255, 255, 255, 0.05);
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: var(--bg);
+  color: var(--text);
+}
+
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: transparent;
+  overscroll-behavior: none;
+}
+
+/* Hebrew is never styled with a bundled webfont -- CLAUDE.md locks the system
+   default, verified for niqqud placement on iPhone/WebKit. `serif` first because
+   iOS maps it to a face with better vowel-point positioning than the UI font. */
+.heb {
+  font-family: serif;
+  direction: rtl;
+  unicode-bidi: isolate;
+  line-height: 1.75;
+  font-variant-ligatures: none;
+}
+
+.view {
+  min-height: 100%;
+  padding: calc(env(safe-area-inset-top) + 8px) var(--pad)
+           calc(var(--tabbar-h) + env(safe-area-inset-bottom) + 16px);
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+/* ---- tab bar ---- */
+
+.tabs {
+  position: fixed;
+  left: 0; right: 0; bottom: 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  background: var(--surface);
+  border-top: 0.5px solid var(--border);
+  padding-bottom: env(safe-area-inset-bottom);
+  z-index: 10;
+}
+
+.tab {
+  appearance: none;
+  background: none;
+  border: 0;
+  color: var(--text-faint);
+  font: inherit;
+  font-size: 12px;
+  height: var(--tabbar-h);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  cursor: pointer;
+  padding: 0;
+}
+
+.tab-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: currentColor;
+  opacity: 0.45;
+}
+
+.tab[aria-current="page"] { color: var(--text); }
+.tab[aria-current="page"] .tab-dot { opacity: 1; background: var(--accent); }
+.tab:disabled { opacity: 0.34; cursor: default; }
+
+/* ---- drill card ---- */
+
+.deck-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--text-faint);
+  font-size: 13px;
+  min-height: 24px;
+  margin-bottom: 4px;
+}
+
+.card {
+  background: var(--surface);
+  border: 0.5px solid var(--border);
+  border-radius: var(--radius);
+  padding: 32px 20px;
+  margin-top: 8px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+  min-height: 46vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  transition: background 90ms ease;
+}
+
+.card:active { background: var(--tap-highlight); }
+.card.is-open { cursor: default; }
+.card.is-open:active { background: var(--surface); }
+
+.card-heb {
+  font-size: 62px;
+  margin: 0;
+  word-break: break-word;
+}
+
+.card-translit {
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 19px;
+  color: var(--text-dim);
+  margin: 0;
+  letter-spacing: 0.02em;
+}
+
+.card-gloss {
+  font-size: 21px;
+  margin: 0;
+  max-width: 22ch;
+}
+
+.card-meta {
+  font-size: 13px;
+  color: var(--text-faint);
+  margin: 0;
+}
+
+.card-hint {
+  font-size: 13px;
+  color: var(--text-faint);
+  margin: 0;
+}
+
+.rule {
+  width: 34px;
+  height: 0.5px;
+  background: var(--border-strong);
+  border: 0;
+  margin: 0;
+}
+
+/* ---- grade buttons ---- */
+
+.grades {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-top: 14px;
+}
+
+.grade {
+  appearance: none;
+  font: inherit;
+  font-size: 15px;
+  padding: 15px 6px 13px;
+  border-radius: var(--radius);
+  border: 0.5px solid var(--border-strong);
+  background: var(--surface);
+  color: var(--text);
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+}
+
+.grade:active { transform: scale(0.98); }
+.grade small { font-size: 11px; color: var(--text-faint); font-variant-numeric: tabular-nums; }
+.grade[data-g="again"] { border-color: var(--again); color: var(--again); background: var(--again-bg); }
+.grade[data-g="again"] small { color: var(--again); opacity: 0.75; }
+.grade[data-g="easy"] { border-color: var(--accent); color: var(--accent); background: var(--accent-bg); }
+.grade[data-g="easy"] small { color: var(--accent); opacity: 0.75; }
+
+.badge {
+  display: inline-block;
+  font-size: 11px;
+  padding: 2px 8px;
+  border-radius: 20px;
+  background: var(--accent-bg);
+  color: var(--accent);
+}
+
+/* ---- done / empty state ---- */
+
+.done {
+  text-align: center;
+  padding: 18vh 0 0;
+}
+.done h1 { font-size: 22px; font-weight: 500; margin: 0 0 8px; }
+.done p { color: var(--text-dim); margin: 0 0 6px; }
+
+/* ---- settings ---- */
+
+h1.title { font-size: 22px; font-weight: 500; margin: 8px 0 20px; }
+
+.group {
+  background: var(--surface);
+  border: 0.5px solid var(--border);
+  border-radius: var(--radius);
+  margin-bottom: 18px;
+  overflow: hidden;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  padding: 13px 16px;
+  border-top: 0.5px solid var(--border);
+}
+.row:first-child { border-top: 0; }
+.row-label { font-size: 15px; }
+.row-sub { font-size: 12px; color: var(--text-faint); margin: 2px 0 0; }
+
+.seg {
+  display: inline-flex;
+  border: 0.5px solid var(--border-strong);
+  border-radius: 9px;
+  overflow: hidden;
+  flex: none;
+}
+.seg button {
+  appearance: none;
+  font: inherit;
+  font-size: 13px;
+  padding: 7px 13px;
+  background: none;
+  border: 0;
+  border-left: 0.5px solid var(--border-strong);
+  color: var(--text-dim);
+  cursor: pointer;
+}
+.seg button:first-child { border-left: 0; }
+.seg button[aria-pressed="true"] { background: var(--accent-bg); color: var(--accent); }
+
+.btn {
+  appearance: none;
+  font: inherit;
+  font-size: 15px;
+  width: 100%;
+  padding: 13px 16px;
+  background: none;
+  border: 0;
+  border-top: 0.5px solid var(--border);
+  color: var(--text);
+  text-align: left;
+  cursor: pointer;
+}
+.btn:first-child { border-top: 0; }
+.btn:active { background: var(--tap-highlight); }
+.btn.danger { color: var(--again); }
+
+.num {
+  font: inherit;
+  font-size: 15px;
+  width: 68px;
+  padding: 7px 10px;
+  text-align: center;
+  border: 0.5px solid var(--border-strong);
+  border-radius: 9px;
+  background: var(--bg);
+  color: var(--text);
+}
+
+.note {
+  font-size: 13px;
+  color: var(--text-faint);
+  line-height: 1.55;
+  margin: 0 0 18px;
+}
+
+.stat-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-bottom: 18px;
+}
+.stat {
+  background: var(--surface-2);
+  border-radius: var(--radius);
+  padding: 13px 10px;
+  text-align: center;
+}
+.stat b { display: block; font-size: 22px; font-weight: 500; font-variant-numeric: tabular-nums; }
+.stat span { font-size: 12px; color: var(--text-faint); }
+
+/* Offscreen but still rendered -- iOS only fires switch haptics for an element
+   that is actually laid out, so display:none would silently disable them. */
+.haptic-probe {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+  pointer-events: none;
+  left: -9999px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Biblical Hebrew",
+  "short_name": "Hebrew",
+  "description": "Reading curriculum: vocabulary, parsing, and text.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#111110",
+  "theme_color": "#111110"
+}

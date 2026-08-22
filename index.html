@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1">
+<title>Hebrew</title>
+<meta name="description" content="Biblical Hebrew reading curriculum">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Hebrew">
+<meta name="theme-color" content="#111110" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#faf9f5" media="(prefers-color-scheme: light)">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="stylesheet" href="app/app.css">
+</head>
+<body>
+
+<main id="view" class="view"></main>
+
+<nav id="tabs" class="tabs" aria-label="Sections">
+  <button class="tab" data-tab="vocab" aria-current="page">
+    <span class="tab-dot"></span>
+    <span class="tab-label">Vocab</span>
+  </button>
+  <button class="tab" data-tab="parse" disabled title="Tier 2">
+    <span class="tab-dot"></span>
+    <span class="tab-label">Parse</span>
+  </button>
+  <button class="tab" data-tab="read" disabled title="Tier 5">
+    <span class="tab-dot"></span>
+    <span class="tab-label">Read</span>
+  </button>
+  <button class="tab" data-tab="settings">
+    <span class="tab-dot"></span>
+    <span class="tab-label">Settings</span>
+  </button>
+</nav>
+
+<script type="module" src="app/main.js"></script>
+</body>
+</html>

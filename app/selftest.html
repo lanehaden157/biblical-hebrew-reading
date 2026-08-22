@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Self-test</title>
+<link rel="stylesheet" href="app.css">
+<style>
+  .view { padding: 20px; }
+  .t { font-family: ui-monospace, Menlo, Consolas, monospace; font-size: 13px; line-height: 1.7; }
+  .ok { color: var(--accent); }
+  .bad { color: var(--again); }
+  .sum { font-size: 17px; margin: 0 0 16px; }
+</style>
+</head>
+<body data-theme="light">
+<main class="view">
+  <h1 class="title">Self-test</h1>
+  <p class="note">The app-side half of hard rule 3. Asserts the data invariants the UI depends on, and greps the app source for Hebrew characters (hard rule 1). Open this after any data regeneration. Must be served over http — <code>file://</code> blocks the source fetches.</p>
+  <p class="sum" id="sum">Running…</p>
+  <div class="t" id="out"></div>
+</main>
+
+<script type="module">
+import { DECK_URL, loadDeck } from './main.js';
+import { newCard, applyGrade, describeInterval, GRADES } from './srs.js';
+
+const out = document.getElementById('out');
+const failures = [];
+let checks = 0;
+
+function ok(msg) {
+  checks++;
+  const d = document.createElement('div');
+  d.className = 'ok';
+  d.textContent = 'pass  ' + msg;
+  out.appendChild(d);
+}
+function bad(msg) {
+  checks++;
+  failures.push(msg);
+  const d = document.createElement('div');
+  d.className = 'bad';
+  d.textContent = 'FAIL  ' + msg;
+  out.appendChild(d);
+}
+function check(cond, msg) { cond ? ok(msg) : bad(msg); }
+
+const TRANSLIT_RE = /^['`a-z]+$/;
+// Escapes, not literals: hard rule 1 forbids Hebrew characters in app source,
+// and this file is not exempt from the rule it enforces.
+const HEBREW_RE = /[\u05D0-\u05EA]/;
+
+const APP_FILES = [
+  'main.js', 'store.js', 'srs.js', 'theme.js', 'feedback.js', 'app.css',
+  'views/vocab.js', 'views/settings.js', 'selftest.html',
+];
+
+async function run() {
+  let deck;
+  try {
+    deck = await loadDeck();
+    ok(`deck loaded from ${DECK_URL.pathname}`);
+  } catch (e) {
+    bad(`deck failed to load: ${e.message}`);
+    return finish();
+  }
+
+  check(deck.length === 600, `deck has 600 entries (got ${deck.length})`);
+
+  const ranks = new Set(deck.map(e => e.rank));
+  const missing = [];
+  for (let r = 1; r <= 600; r++) if (!ranks.has(r)) missing.push(r);
+  check(missing.length === 0, `ranks 1-600 with no gaps${missing.length ? ` (missing ${missing.slice(0,8).join(',')}…)` : ''}`);
+  check(ranks.size === deck.length, 'no duplicate ranks');
+
+  let noHeb = 0, badTrans = 0, noGloss = 0, noPos = 0;
+  for (const e of deck) {
+    if (!e.citation_form || !HEBREW_RE.test(e.citation_form)) noHeb++;
+    if (!e.transliteration || !TRANSLIT_RE.test(e.transliteration)) badTrans++;
+    if (!e.gloss || !e.gloss.trim()) noGloss++;
+    if (!e.pos) noPos++;
+  }
+  check(noHeb === 0, `every entry has Hebrew in citation_form (${noHeb} bad)`);
+  check(badTrans === 0, `every transliteration is in the locked ASCII scheme (${badTrans} bad)`);
+  check(noGloss === 0, `every entry has a gloss — hard rule 4 (${noGloss} bad)`);
+  check(noPos === 0, `every entry has a part of speech (${noPos} bad)`);
+
+  const sorted = [...deck].sort((a, b) => a.rank - b.rank);
+  let descending = true;
+  for (let i = 1; i < sorted.length; i++) {
+    if (sorted[i].frequency > sorted[i - 1].frequency) { descending = false; break; }
+  }
+  check(descending, 'frequency is non-increasing as rank rises');
+
+  // Hard rule 1, app-side: no Hebrew letters anywhere in /app/ source.
+  for (const f of APP_FILES) {
+    try {
+      const res = await fetch(new URL(f, import.meta.url), { cache: 'no-cache' });
+      const text = await res.text();
+      const hits = text.match(new RegExp('[\\u05D0-\\u05EA]', 'g'));
+      check(!hits, `no Hebrew letters in app/${f}${hits ? ` (${hits.length} found)` : ''}`);
+    } catch (e) {
+      bad(`could not read app/${f} to check for Hebrew: ${e.message}`);
+    }
+  }
+
+  // Scheduler sanity. Not testing FSRS itself -- testing that our serialise /
+  // deserialise round-trip keeps it working, which is the part we wrote.
+  const now = new Date();
+  const fresh = newCard(now);
+  check(new Date(fresh.due).toString() !== 'Invalid Date', 'a new card has a valid due date');
+
+  const good = applyGrade(fresh, 'good', now);
+  const again = applyGrade(fresh, 'again', now);
+  check(new Date(good.due) > new Date(again.due), 'Good schedules further out than Again');
+
+  const roundTripped = JSON.parse(JSON.stringify(good));
+  const second = applyGrade(roundTripped, 'good', new Date(roundTripped.due));
+  check(new Date(second.due) > new Date(roundTripped.due),
+    'a card survives a JSON round-trip and still schedules forward');
+
+  let prev = fresh, at = now, growing = true;
+  for (let i = 0; i < 5; i++) {
+    const next = applyGrade(JSON.parse(JSON.stringify(prev)), 'good', at);
+    const gap = new Date(next.due) - at;
+    const prevGap = new Date(prev.due) - at;
+    if (i > 1 && gap <= prevGap) growing = false;
+    at = new Date(next.due);
+    prev = next;
+  }
+  check(growing, 'repeated Good produces growing intervals');
+
+  check(GRADES.length === 3, `three grade buttons, not four (got ${GRADES.length})`);
+  check(describeInterval(now, new Date(now.getTime() + 86400000)) === '1d',
+    'interval formatting: 24h reads as 1d');
+
+  finish();
+}
+
+function finish() {
+  const sum = document.getElementById('sum');
+  if (failures.length) {
+    sum.className = 'sum bad';
+    sum.textContent = `${failures.length} of ${checks} checks FAILED.`;
+  } else {
+    sum.className = 'sum ok';
+    sum.textContent = `All ${checks} checks passed.`;
+  }
+}
+
+run();
+</script>
+</body>
+</html>
