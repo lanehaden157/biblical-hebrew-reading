@@ -1,0 +1,911 @@
+{
+  "metadata": {
+    "batch_rank_range": [
+      501,
+      600
+    ],
+    "status": "curated and reviewed"
+  },
+  "entries": [
+    {
+      "rank": 501,
+      "lemma_id": "H5641",
+      "citation_form": "סָתַר",
+      "pos": "Verb",
+      "frequency": 82,
+      "gloss": "hide, conceal",
+      "reviewed": true
+    },
+    {
+      "rank": 502,
+      "lemma_id": "H5826",
+      "citation_form": "עָזַר",
+      "pos": "Verb",
+      "frequency": 82,
+      "gloss": "help",
+      "reviewed": true
+    },
+    {
+      "rank": 503,
+      "lemma_id": "H6311",
+      "citation_form": "פֹּה",
+      "pos": "Adverb",
+      "frequency": 82,
+      "gloss": "here",
+      "reviewed": true
+    },
+    {
+      "rank": 504,
+      "lemma_id": "H7043",
+      "citation_form": "קָלַל",
+      "pos": "Verb",
+      "frequency": 82,
+      "gloss": "be light, be swift; curse",
+      "reviewed": true
+    },
+    {
+      "rank": 505,
+      "lemma_id": "H7133",
+      "citation_form": "קׇרְבָּן",
+      "pos": "Noun",
+      "frequency": 82,
+      "gloss": "offering, sacrifice",
+      "reviewed": true
+    },
+    {
+      "rank": 506,
+      "lemma_id": "H7819",
+      "citation_form": "שָׁחַט",
+      "pos": "Verb",
+      "frequency": 82,
+      "gloss": "slaughter",
+      "reviewed": true
+    },
+    {
+      "rank": 507,
+      "lemma_id": "H3064",
+      "citation_form": "יְהוּדִי",
+      "pos": "Noun",
+      "frequency": 81,
+      "gloss": "Jew, Judean",
+      "reviewed": true
+    },
+    {
+      "rank": 508,
+      "lemma_id": "H738",
+      "citation_form": "אֲרִי",
+      "pos": "Noun",
+      "frequency": 81,
+      "gloss": "lion",
+      "reviewed": true
+    },
+    {
+      "rank": 509,
+      "lemma_id": "H1168",
+      "citation_form": "בַּעַל",
+      "pos": "Noun",
+      "frequency": 80,
+      "gloss": "Baal",
+      "reviewed": true
+    },
+    {
+      "rank": 510,
+      "lemma_id": "H1964",
+      "citation_form": "הֵיכָל",
+      "pos": "Noun",
+      "frequency": 80,
+      "gloss": "palace, temple",
+      "reviewed": true
+    },
+    {
+      "rank": 511,
+      "lemma_id": "H2822",
+      "citation_form": "חֹשֶׁךְ",
+      "pos": "Noun",
+      "frequency": 80,
+      "gloss": "darkness",
+      "reviewed": true
+    },
+    {
+      "rank": 512,
+      "lemma_id": "H3083",
+      "citation_form": "יְהוֹנָתָן",
+      "pos": "Noun",
+      "frequency": 80,
+      "gloss": "Jonathan",
+      "reviewed": true
+    },
+    {
+      "rank": 513,
+      "lemma_id": "H4376",
+      "citation_form": "מָכַר",
+      "pos": "Verb",
+      "frequency": 80,
+      "gloss": "sell",
+      "reviewed": true
+    },
+    {
+      "rank": 514,
+      "lemma_id": "H5782",
+      "citation_form": "עוּר",
+      "pos": "Verb",
+      "frequency": 80,
+      "gloss": "wake, rouse, stir up",
+      "reviewed": true
+    },
+    {
+      "rank": 515,
+      "lemma_id": "H205",
+      "citation_form": "אָוֶן",
+      "pos": "Noun",
+      "frequency": 79,
+      "gloss": "wickedness, iniquity, trouble; idol",
+      "reviewed": true
+    },
+    {
+      "rank": 516,
+      "lemma_id": "H214",
+      "citation_form": "אוֹצָר",
+      "pos": "Noun",
+      "frequency": 79,
+      "gloss": "storehouse, treasury",
+      "reviewed": true
+    },
+    {
+      "rank": 517,
+      "lemma_id": "H226",
+      "citation_form": "אוֹת",
+      "pos": "Noun",
+      "frequency": 79,
+      "gloss": "sign, signal",
+      "reviewed": true
+    },
+    {
+      "rank": 518,
+      "lemma_id": "H2603",
+      "citation_form": "חָנַן",
+      "pos": "Verb",
+      "frequency": 79,
+      "gloss": "be gracious, show favor; implore favor",
+      "reviewed": true
+    },
+    {
+      "rank": 519,
+      "lemma_id": "H3289",
+      "citation_form": "יָעַץ",
+      "pos": "Verb",
+      "frequency": 79,
+      "gloss": "advise, counsel",
+      "reviewed": true
+    },
+    {
+      "rank": 520,
+      "lemma_id": "H6041",
+      "citation_form": "עָנִי",
+      "pos": "Adjective",
+      "frequency": 79,
+      "gloss": "poor, afflicted, humble",
+      "reviewed": true
+    },
+    {
+      "rank": 521,
+      "lemma_id": "H7794",
+      "citation_form": "שׁוֹר",
+      "pos": "Noun",
+      "frequency": 79,
+      "gloss": "bull, ox",
+      "reviewed": true
+    },
+    {
+      "rank": 522,
+      "lemma_id": "H4931",
+      "citation_form": "מִשְׁמֶרֶת",
+      "pos": "Noun",
+      "frequency": 78,
+      "gloss": "watch, charge, duty, obligation",
+      "reviewed": true
+    },
+    {
+      "rank": 523,
+      "lemma_id": "H5061",
+      "citation_form": "נֶגַע",
+      "pos": "Noun",
+      "frequency": 78,
+      "gloss": "plague, mark, spot (esp. skin disease)",
+      "reviewed": true
+    },
+    {
+      "rank": 524,
+      "lemma_id": "H6697",
+      "citation_form": "צוּר",
+      "pos": "Noun",
+      "frequency": 78,
+      "gloss": "rock, cliff; refuge",
+      "reviewed": true
+    },
+    {
+      "rank": 525,
+      "lemma_id": "H7138",
+      "citation_form": "קָרוֹב",
+      "pos": "Adjective",
+      "frequency": 78,
+      "gloss": "near",
+      "reviewed": true
+    },
+    {
+      "rank": 526,
+      "lemma_id": "H7392",
+      "citation_form": "רָכַב",
+      "pos": "Verb",
+      "frequency": 78,
+      "gloss": "ride",
+      "reviewed": true
+    },
+    {
+      "rank": 527,
+      "lemma_id": "H1486",
+      "citation_form": "גּוֹרָל",
+      "pos": "Noun",
+      "frequency": 77,
+      "gloss": "lot (cast for decision); portion, destiny",
+      "reviewed": true
+    },
+    {
+      "rank": 528,
+      "lemma_id": "H2114",
+      "citation_form": "זוּר",
+      "pos": "Adjective",
+      "frequency": 77,
+      "gloss": "be a stranger, be strange",
+      "reviewed": true
+    },
+    {
+      "rank": 529,
+      "lemma_id": "H3444",
+      "citation_form": "יְשׁוּעָה",
+      "pos": "Noun",
+      "frequency": 77,
+      "gloss": "salvation, deliverance, victory",
+      "reviewed": true
+    },
+    {
+      "rank": 530,
+      "lemma_id": "H8605",
+      "citation_form": "תְּפִלָּה",
+      "pos": "Noun",
+      "frequency": 77,
+      "gloss": "prayer",
+      "reviewed": true
+    },
+    {
+      "rank": 531,
+      "lemma_id": "H1270",
+      "citation_form": "בַּרְזֶל",
+      "pos": "Noun",
+      "frequency": 76,
+      "gloss": "iron",
+      "reviewed": true
+    },
+    {
+      "rank": 532,
+      "lemma_id": "H3988",
+      "citation_form": "מָאַס",
+      "pos": "Verb",
+      "frequency": 76,
+      "gloss": "reject, despise, refuse",
+      "reviewed": true
+    },
+    {
+      "rank": 533,
+      "lemma_id": "H4713",
+      "citation_form": "מִצְרִי",
+      "pos": "Noun",
+      "frequency": 76,
+      "gloss": "Egyptian",
+      "reviewed": true
+    },
+    {
+      "rank": 534,
+      "lemma_id": "H4735",
+      "citation_form": "מִקְנֶה",
+      "pos": "Noun",
+      "frequency": 76,
+      "gloss": "livestock, cattle, property",
+      "reviewed": true
+    },
+    {
+      "rank": 535,
+      "lemma_id": "H5291",
+      "citation_form": "נַעֲרָה",
+      "pos": "Noun",
+      "frequency": 76,
+      "gloss": "girl, young woman",
+      "reviewed": true
+    },
+    {
+      "rank": 536,
+      "lemma_id": "H6186",
+      "citation_form": "עָרַךְ",
+      "pos": "Verb",
+      "frequency": 76,
+      "gloss": "arrange, set in order, draw up (for battle)",
+      "reviewed": true
+    },
+    {
+      "rank": 537,
+      "lemma_id": "H7161",
+      "citation_form": "קֶרֶן",
+      "pos": "Noun",
+      "frequency": 76,
+      "gloss": "horn",
+      "reviewed": true
+    },
+    {
+      "rank": 538,
+      "lemma_id": "H7198",
+      "citation_form": "קֶשֶׁת",
+      "pos": "Noun",
+      "frequency": 76,
+      "gloss": "bow (weapon)",
+      "reviewed": true
+    },
+    {
+      "rank": 539,
+      "lemma_id": "H8641",
+      "citation_form": "תְּרוּמָה",
+      "pos": "Noun",
+      "frequency": 76,
+      "gloss": "contribution, offering",
+      "reviewed": true
+    },
+    {
+      "rank": 540,
+      "lemma_id": "H2470",
+      "citation_form": "חָלָה",
+      "pos": "Verb",
+      "frequency": 75,
+      "gloss": "be sick, be weak; entreat",
+      "reviewed": true
+    },
+    {
+      "rank": 541,
+      "lemma_id": "H2654",
+      "citation_form": "חָפֵץ",
+      "pos": "Verb",
+      "frequency": 75,
+      "gloss": "delight in, desire, be pleased with",
+      "reviewed": true
+    },
+    {
+      "rank": 542,
+      "lemma_id": "H3240",
+      "citation_form": "יָנַח",
+      "pos": "Verb",
+      "frequency": 75,
+      "gloss": "leave, deposit, set down; allow to rest",
+      "reviewed": true
+    },
+    {
+      "rank": 543,
+      "lemma_id": "H5324",
+      "citation_form": "נָצַב",
+      "pos": "Verb",
+      "frequency": 75,
+      "gloss": "stand, take one's stand, station",
+      "reviewed": true
+    },
+    {
+      "rank": 544,
+      "lemma_id": "H4217",
+      "citation_form": "מִזְרָח",
+      "pos": "Noun",
+      "frequency": 74,
+      "gloss": "sunrise, east",
+      "reviewed": true
+    },
+    {
+      "rank": 545,
+      "lemma_id": "H4720",
+      "citation_form": "מִקְדָּשׁ",
+      "pos": "Noun",
+      "frequency": 74,
+      "gloss": "sanctuary, holy place",
+      "reviewed": true
+    },
+    {
+      "rank": 546,
+      "lemma_id": "H5542",
+      "citation_form": "סֶלָה",
+      "pos": "Particle",
+      "frequency": 74,
+      "gloss": "selah (liturgical pause, meaning uncertain)",
+      "reviewed": true
+    },
+    {
+      "rank": 547,
+      "lemma_id": "H5795",
+      "citation_form": "עֵז",
+      "pos": "Noun",
+      "frequency": 74,
+      "gloss": "goat, she-goat",
+      "reviewed": true
+    },
+    {
+      "rank": 548,
+      "lemma_id": "H7023",
+      "citation_form": "קִיר",
+      "pos": "Noun",
+      "frequency": 74,
+      "gloss": "wall",
+      "reviewed": true
+    },
+    {
+      "rank": 549,
+      "lemma_id": "H7998",
+      "citation_form": "שָׁלָל",
+      "pos": "Noun",
+      "frequency": 74,
+      "gloss": "plunder, spoil, booty",
+      "reviewed": true
+    },
+    {
+      "rank": 550,
+      "lemma_id": "H1892",
+      "citation_form": "הֶבֶל",
+      "pos": "Noun",
+      "frequency": 73,
+      "gloss": "breath, vapor; vanity, futility",
+      "reviewed": true
+    },
+    {
+      "rank": 551,
+      "lemma_id": "H2199",
+      "citation_form": "זָעַק",
+      "pos": "Verb",
+      "frequency": 73,
+      "gloss": "cry out",
+      "reviewed": true
+    },
+    {
+      "rank": 552,
+      "lemma_id": "H2781",
+      "citation_form": "חֶרְפָּה",
+      "pos": "Noun",
+      "frequency": 73,
+      "gloss": "reproach, disgrace, scorn",
+      "reviewed": true
+    },
+    {
+      "rank": 553,
+      "lemma_id": "H3001",
+      "citation_form": "יָבֵשׁ",
+      "pos": "Verb",
+      "frequency": 73,
+      "gloss": "be dry, wither; be ashamed, disappointed",
+      "reviewed": true
+    },
+    {
+      "rank": 554,
+      "lemma_id": "H3669",
+      "citation_form": "כְּנַעַנִי",
+      "pos": "Noun",
+      "frequency": 73,
+      "gloss": "Canaanite",
+      "reviewed": true
+    },
+    {
+      "rank": 555,
+      "lemma_id": "H631",
+      "citation_form": "אָסַר",
+      "pos": "Verb",
+      "frequency": 73,
+      "gloss": "bind, tie, imprison",
+      "reviewed": true
+    },
+    {
+      "rank": 556,
+      "lemma_id": "H6869",
+      "citation_form": "צָרָה",
+      "pos": "Noun",
+      "frequency": 73,
+      "gloss": "distress, trouble, anguish",
+      "reviewed": true
+    },
+    {
+      "rank": 557,
+      "lemma_id": "H730",
+      "citation_form": "אֶרֶז",
+      "pos": "Noun",
+      "frequency": 73,
+      "gloss": "cedar",
+      "reviewed": true
+    },
+    {
+      "rank": 558,
+      "lemma_id": "H1077",
+      "citation_form": "בַּל",
+      "pos": "Particle",
+      "frequency": 72,
+      "gloss": "not (poetic negative particle)",
+      "reviewed": true
+    },
+    {
+      "rank": 559,
+      "lemma_id": "H1410",
+      "citation_form": "גָּד",
+      "pos": "Noun",
+      "frequency": 72,
+      "gloss": "Gad",
+      "reviewed": true
+    },
+    {
+      "rank": 560,
+      "lemma_id": "H2790",
+      "citation_form": "חָרַשׁ",
+      "pos": "Verb",
+      "frequency": 72,
+      "gloss": "engrave, plow, devise; be silent, be deaf",
+      "reviewed": true
+    },
+    {
+      "rank": 561,
+      "lemma_id": "H4069",
+      "citation_form": "מַדּוּעַ",
+      "pos": "Particle",
+      "frequency": 72,
+      "gloss": "why?",
+      "reviewed": true
+    },
+    {
+      "rank": 562,
+      "lemma_id": "H499",
+      "citation_form": "אֶלְעָזָר",
+      "pos": "Noun",
+      "frequency": 72,
+      "gloss": "Eleazar",
+      "reviewed": true
+    },
+    {
+      "rank": 563,
+      "lemma_id": "H7205",
+      "citation_form": "רְאוּבֵן",
+      "pos": "Noun",
+      "frequency": 72,
+      "gloss": "Reuben",
+      "reviewed": true
+    },
+    {
+      "rank": 564,
+      "lemma_id": "H7364",
+      "citation_form": "רָחַץ",
+      "pos": "Verb",
+      "frequency": 72,
+      "gloss": "wash",
+      "reviewed": true
+    },
+    {
+      "rank": 565,
+      "lemma_id": "H7782",
+      "citation_form": "שׁוֹפָר",
+      "pos": "Noun",
+      "frequency": 72,
+      "gloss": "ram's horn, trumpet",
+      "reviewed": true
+    },
+    {
+      "rank": 566,
+      "lemma_id": "H990",
+      "citation_form": "בֶּטֶן",
+      "pos": "Noun",
+      "frequency": 72,
+      "gloss": "belly, womb",
+      "reviewed": true
+    },
+    {
+      "rank": 567,
+      "lemma_id": "H1389",
+      "citation_form": "גִּבְעָה",
+      "pos": "Noun",
+      "frequency": 71,
+      "gloss": "hill",
+      "reviewed": true
+    },
+    {
+      "rank": 568,
+      "lemma_id": "H1934",
+      "citation_form": "הָוָא",
+      "pos": "Verb",
+      "frequency": 71,
+      "gloss": "be, become (Aramaic)",
+      "reviewed": true
+    },
+    {
+      "rank": 569,
+      "lemma_id": "H2275",
+      "citation_form": "חֶבְרוֹן",
+      "pos": "Noun",
+      "frequency": 71,
+      "gloss": "Hebron",
+      "reviewed": true
+    },
+    {
+      "rank": 570,
+      "lemma_id": "H3844",
+      "citation_form": "לְבָנוֹן",
+      "pos": "Noun",
+      "frequency": 71,
+      "gloss": "Lebanon",
+      "reviewed": true
+    },
+    {
+      "rank": 571,
+      "lemma_id": "H452",
+      "citation_form": "אֵלִיָּה",
+      "pos": "Noun",
+      "frequency": 71,
+      "gloss": "Elijah",
+      "reviewed": true
+    },
+    {
+      "rank": 572,
+      "lemma_id": "H560",
+      "citation_form": "אֲמַר",
+      "pos": "Verb",
+      "frequency": 71,
+      "gloss": "say (Aramaic)",
+      "reviewed": true
+    },
+    {
+      "rank": 573,
+      "lemma_id": "H5775",
+      "citation_form": "עוֹף",
+      "pos": "Noun",
+      "frequency": 71,
+      "gloss": "bird, flying creature",
+      "reviewed": true
+    },
+    {
+      "rank": 574,
+      "lemma_id": "H6381",
+      "citation_form": "פָּלָא",
+      "pos": "Verb",
+      "frequency": 71,
+      "gloss": "be extraordinary, be wonderful; do wonders",
+      "reviewed": true
+    },
+    {
+      "rank": 575,
+      "lemma_id": "H7673",
+      "citation_form": "שָׁבַת",
+      "pos": "Verb",
+      "frequency": 71,
+      "gloss": "cease, rest",
+      "reviewed": true
+    },
+    {
+      "rank": 576,
+      "lemma_id": "H7979",
+      "citation_form": "שֻׁלְחָן",
+      "pos": "Noun",
+      "frequency": 71,
+      "gloss": "table",
+      "reviewed": true
+    },
+    {
+      "rank": 577,
+      "lemma_id": "H1835",
+      "citation_form": "דָּן",
+      "pos": "Noun",
+      "frequency": 70,
+      "gloss": "Dan",
+      "reviewed": true
+    },
+    {
+      "rank": 578,
+      "lemma_id": "H3684",
+      "citation_form": "כְּסִיל",
+      "pos": "Adjective",
+      "frequency": 70,
+      "gloss": "fool, stupid person",
+      "reviewed": true
+    },
+    {
+      "rank": 579,
+      "lemma_id": "H5027",
+      "citation_form": "נָבַט",
+      "pos": "Verb",
+      "frequency": 70,
+      "gloss": "look, look intently, regard",
+      "reviewed": true
+    },
+    {
+      "rank": 580,
+      "lemma_id": "H5707",
+      "citation_form": "עֵד",
+      "pos": "Noun",
+      "frequency": 70,
+      "gloss": "witness",
+      "reviewed": true
+    },
+    {
+      "rank": 581,
+      "lemma_id": "H7378",
+      "citation_form": "רִיב",
+      "pos": "Verb",
+      "frequency": 70,
+      "gloss": "strive, contend, quarrel; bring a legal case",
+      "reviewed": true
+    },
+    {
+      "rank": 582,
+      "lemma_id": "H8628",
+      "citation_form": "תָּקַע",
+      "pos": "Verb",
+      "frequency": 70,
+      "gloss": "blow (a trumpet), thrust, clap",
+      "reviewed": true
+    },
+    {
+      "rank": 583,
+      "lemma_id": "H1293",
+      "citation_form": "בְּרָכָה",
+      "pos": "Noun",
+      "frequency": 69,
+      "gloss": "blessing",
+      "reviewed": true
+    },
+    {
+      "rank": 584,
+      "lemma_id": "H2580",
+      "citation_form": "חֵן",
+      "pos": "Noun",
+      "frequency": 69,
+      "gloss": "favor, grace",
+      "reviewed": true
+    },
+    {
+      "rank": 585,
+      "lemma_id": "H441",
+      "citation_form": "אַלּוּף",
+      "pos": "Noun",
+      "frequency": 69,
+      "gloss": "chief, leader; friend, companion",
+      "reviewed": true
+    },
+    {
+      "rank": 586,
+      "lemma_id": "H4886",
+      "citation_form": "מָשַׁח",
+      "pos": "Verb",
+      "frequency": 69,
+      "gloss": "anoint",
+      "reviewed": true
+    },
+    {
+      "rank": 587,
+      "lemma_id": "H6010",
+      "citation_form": "עֵמֶק",
+      "pos": "Noun",
+      "frequency": 69,
+      "gloss": "valley",
+      "reviewed": true
+    },
+    {
+      "rank": 588,
+      "lemma_id": "H6921",
+      "citation_form": "קָדִים",
+      "pos": "Noun",
+      "frequency": 69,
+      "gloss": "east, east wind",
+      "reviewed": true
+    },
+    {
+      "rank": 589,
+      "lemma_id": "H7495",
+      "citation_form": "רָפָא",
+      "pos": "Verb",
+      "frequency": 69,
+      "gloss": "heal",
+      "reviewed": true
+    },
+    {
+      "rank": 590,
+      "lemma_id": "H270",
+      "citation_form": "אָחַז",
+      "pos": "Verb",
+      "frequency": 68,
+      "gloss": "seize, grasp, take hold of",
+      "reviewed": true
+    },
+    {
+      "rank": 591,
+      "lemma_id": "H3603",
+      "citation_form": "כִּכָּר",
+      "pos": "Noun",
+      "frequency": 68,
+      "gloss": "district, circle; talent (weight); loaf",
+      "reviewed": true
+    },
+    {
+      "rank": 592,
+      "lemma_id": "H6327",
+      "citation_form": "פּוּץ",
+      "pos": "Verb",
+      "frequency": 68,
+      "gloss": "scatter, disperse",
+      "reviewed": true
+    },
+    {
+      "rank": 593,
+      "lemma_id": "H884",
+      "citation_form": "בְּאֵר שֶׁבַע",
+      "pos": "Noun",
+      "frequency": 68,
+      "gloss": "Beersheba",
+      "reviewed": true
+    },
+    {
+      "rank": 594,
+      "lemma_id": "H953",
+      "citation_form": "בּוֹר",
+      "pos": "Noun",
+      "frequency": 68,
+      "gloss": "pit, cistern",
+      "reviewed": true
+    },
+    {
+      "rank": 595,
+      "lemma_id": "H2506",
+      "citation_form": "חֵלֶק",
+      "pos": "Noun",
+      "frequency": 67,
+      "gloss": "portion, share, territory",
+      "reviewed": true
+    },
+    {
+      "rank": 596,
+      "lemma_id": "H3802",
+      "citation_form": "כָּתֵף",
+      "pos": "Noun",
+      "frequency": 67,
+      "gloss": "shoulder",
+      "reviewed": true
+    },
+    {
+      "rank": 597,
+      "lemma_id": "H40",
+      "citation_form": "אֲבִימֶלֶךְ",
+      "pos": "Noun",
+      "frequency": 67,
+      "gloss": "Abimelech",
+      "reviewed": true
+    },
+    {
+      "rank": 598,
+      "lemma_id": "H5117",
+      "citation_form": "נוּחַ",
+      "pos": "Verb",
+      "frequency": 67,
+      "gloss": "rest, settle down",
+      "reviewed": true
+    },
+    {
+      "rank": 599,
+      "lemma_id": "H6566",
+      "citation_form": "פָּרַשׂ",
+      "pos": "Verb",
+      "frequency": 67,
+      "gloss": "spread out",
+      "reviewed": true
+    },
+    {
+      "rank": 600,
+      "lemma_id": "H6913",
+      "citation_form": "קֶבֶר",
+      "pos": "Noun",
+      "frequency": 67,
+      "gloss": "grave, tomb",
+      "reviewed": true
+    }
+  ]
+}

@@ -1,0 +1,1914 @@
+{
+  "metadata": {
+    "batch_rank_range": [
+      301,
+      400
+    ],
+    "status": "draft -- unreviewed Strong's/BDB extraction, see CLAUDE.md gloss curation notes"
+  },
+  "entries": [
+    {
+      "rank": 301,
+      "lemma_id": "H3680",
+      "citation_form": "כָּסָה",
+      "pos": "Verb",
+      "frequency": 153,
+      "oshb_codes": [
+        "3680"
+      ],
+      "meaning_text": "properly, to plump, i.e. fill up hollows; by implication, to cover (for clothing or secrecy)",
+      "defs": [
+        "plump",
+        "fill up",
+        "cover"
+      ],
+      "usage": "clad self, close, clothe, conceal, cover (self), (flee to) hide, overwhelm. Compare",
+      "source": "a primitive root;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 302,
+      "lemma_id": "H6726",
+      "citation_form": "צִיּוֹן",
+      "pos": "Noun",
+      "frequency": 153,
+      "oshb_codes": [
+        "6726"
+      ],
+      "meaning_text": "Tsijon (as a permanent capital), a mountain of Jerusalem",
+      "defs": [
+        "Tsijon",
+        "capital"
+      ],
+      "usage": "Zion.",
+      "source": "the same (regularly) as 6725;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 303,
+      "lemma_id": "H6828",
+      "citation_form": "צָפוֹן",
+      "pos": "Noun",
+      "frequency": 153,
+      "oshb_codes": [
+        "6828"
+      ],
+      "meaning_text": "properly, hidden, i.e. dark; used only of the north as a quarter (gloomy and unknown)",
+      "defs": [
+        "hidden",
+        "dark",
+        "north"
+      ],
+      "usage": "north(-ern, side, -ward, wind).",
+      "source": "or צָפֹן; from 6845;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 304,
+      "lemma_id": "H804",
+      "citation_form": "אַשּׁוּר",
+      "pos": "Noun",
+      "frequency": 151,
+      "oshb_codes": [
+        "804"
+      ],
+      "meaning_text": "Ashshur, the second son of Shem; also his descendants and the country occupied by them (i.e. Assyria), its region and its empire",
+      "defs": [
+        "Ashshur"
+      ],
+      "usage": "Asshur, Assur, Assyria, Assyrians. See",
+      "source": "or אַשֻּׁר; apparently from 833 (in the sense of successful);",
+      "curated_gloss": null
+    },
+    {
+      "rank": 305,
+      "lemma_id": "H5048",
+      "citation_form": "נֶגֶד",
+      "pos": "Preposition",
+      "frequency": 150,
+      "oshb_codes": [
+        "5048"
+      ],
+      "meaning_text": "a front, i.e. part opposite; specifically a counterpart, or mate; usually (adverbial, especially with preposition) over against or before",
+      "defs": [
+        "front",
+        "part opposite",
+        "counterpart",
+        "mate",
+        "over against",
+        "before"
+      ],
+      "usage": "about, (over) against, × aloof, × far (off), × from, over, presence, × other side, sight, × to view.",
+      "source": "from 5046;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 306,
+      "lemma_id": "H5060",
+      "citation_form": "נָגַע",
+      "pos": "Verb",
+      "frequency": 150,
+      "oshb_codes": [
+        "5060"
+      ],
+      "meaning_text": "properly, to touch, i.e. lay the hand upon (for any purpose; euphemistically, to lie with a woman); by implication, to reach (figuratively, to arrive, acquire); violently, to strike (punish, defeat, destroy, etc.)",
+      "defs": [
+        "touch",
+        "lay the hand upon",
+        "reach",
+        "arrive",
+        "acquire",
+        "strike"
+      ],
+      "usage": "beat, (× be able to) bring (down), cast, come (nigh), draw near (nigh), get up, happen, join, near, plague, reach (up), smite, strike, touch.",
+      "source": "a primitive root;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 307,
+      "lemma_id": "H7230",
+      "citation_form": "רֹב",
+      "pos": "Noun",
+      "frequency": 150,
+      "oshb_codes": [
+        "7230"
+      ],
+      "meaning_text": "abundance (in any respect)",
+      "defs": [
+        "abundance"
+      ],
+      "usage": "abundance(-antly), all, × common (sort), excellent, great(-ly, -ness, number), huge, be increased, long, many, more in number, most, much, multitude, plenty(-ifully), × very (age).",
+      "source": "from 7231;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 308,
+      "lemma_id": "H2451",
+      "citation_form": "חׇכְמָה",
+      "pos": "Noun",
+      "frequency": 149,
+      "oshb_codes": [
+        "2451"
+      ],
+      "meaning_text": "wisdom (in a good sense)",
+      "defs": [
+        "wisdom"
+      ],
+      "usage": "skilful, wisdom, wisely, wit.",
+      "source": "from 2449;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 309,
+      "lemma_id": "H5712",
+      "citation_form": "עֵדָה",
+      "pos": "Noun",
+      "frequency": 149,
+      "oshb_codes": [
+        "5712"
+      ],
+      "meaning_text": "a stated assemblage (specifically, a concourse, or generally, a family or crowd)",
+      "defs": [
+        "assemblage",
+        "concourse",
+        "family",
+        "crowd"
+      ],
+      "usage": "assembly, company, congregation, multitude, people, swarm. Compare",
+      "source": "feminine of 5707 in the original sense of fixture;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 310,
+      "lemma_id": "H7665",
+      "citation_form": "שָׁבַר",
+      "pos": "Verb",
+      "frequency": 149,
+      "oshb_codes": [
+        "7665"
+      ],
+      "meaning_text": "to burst (literally or figuratively)",
+      "defs": [
+        "burst"
+      ],
+      "usage": "break (down, off, in pieces, up), broken (-hearted), bring to the birth, crush, destroy, hurt, quench, × quite, tear, view (by mistake for",
+      "source": "a primitive root;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 311,
+      "lemma_id": "H8130",
+      "citation_form": "שָׂנֵא",
+      "pos": "Verb",
+      "frequency": 148,
+      "oshb_codes": [
+        "8130"
+      ],
+      "meaning_text": "to hate (personally)",
+      "defs": [
+        "hate"
+      ],
+      "usage": "enemy, foe, (be) hate(-ful, -r), odious, × utterly.",
+      "source": "a primitive root;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 312,
+      "lemma_id": "H3414",
+      "citation_form": "יִרְמְיָה",
+      "pos": "Noun",
+      "frequency": 147,
+      "oshb_codes": [
+        "3414"
+      ],
+      "meaning_text": "Jirmejah, the name of eight or nine Israelites",
+      "defs": [
+        "Jirmejah"
+      ],
+      "usage": "Jeremiah.",
+      "source": "or יִרְמְיָהוּ; from 7311 and 3050; Jah will rise;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 313,
+      "lemma_id": "H7843",
+      "citation_form": "שָׁחַת",
+      "pos": "Verb",
+      "frequency": 147,
+      "oshb_codes": [
+        "7843"
+      ],
+      "meaning_text": "to decay, i.e. (causatively) ruin (literally or figuratively)",
+      "defs": [
+        "decay",
+        "ruin"
+      ],
+      "usage": "batter, cast off, corrupt(-er, thing), destroy(-er, -uction), lose, mar, perish, spill, spoiler, × utterly, waste(-r).",
+      "source": "a primitive root;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 314,
+      "lemma_id": "H4519",
+      "citation_form": "מְנַשֶּׁה",
+      "pos": "Noun",
+      "frequency": 146,
+      "oshb_codes": [
+        "4519"
+      ],
+      "meaning_text": "Menashsheh, a grandson of Jacob, also the tribe descended from him, and its territory",
+      "defs": [
+        "Menashsheh"
+      ],
+      "usage": "Manasseh.",
+      "source": "from 5382; causing to forget;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 315,
+      "lemma_id": "H5265",
+      "citation_form": "נָסַע",
+      "pos": "Verb",
+      "frequency": 146,
+      "oshb_codes": [
+        "5265"
+      ],
+      "meaning_text": "properly, to pull up, especially the tent-pins, i.e. start on a journey",
+      "defs": [
+        "pull",
+        "start"
+      ],
+      "usage": "cause to blow, bring, get, (make to) go (away, forth, forward, onward, out), (take) journey, march, remove, set aside (forward), × still, be on his (go their) way.",
+      "source": "a primitive root;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 316,
+      "lemma_id": "H3097",
+      "citation_form": "יוֹאָב",
+      "pos": "Noun",
+      "frequency": 145,
+      "oshb_codes": [
+        "3097"
+      ],
+      "meaning_text": "Joab, the name of three Israelites",
+      "defs": [
+        "Joab"
+      ],
+      "usage": "Joab.",
+      "source": "from 3068 and 1; Jehovah-fathered;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 317,
+      "lemma_id": "H5656",
+      "citation_form": "עֲבֹדָה",
+      "pos": "Noun",
+      "frequency": 145,
+      "oshb_codes": [
+        "5656"
+      ],
+      "meaning_text": "work of any kind",
+      "defs": [
+        "work"
+      ],
+      "usage": "act, bondage,   bondservant, effect, labour, ministering(-try), office, service(-ile, -itude), tillage, use, work, × wrought.",
+      "source": "or עֲבוֹדָה; from 5647;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 318,
+      "lemma_id": "H6605",
+      "citation_form": "פָּתַח",
+      "pos": "Verb",
+      "frequency": 145,
+      "oshb_codes": [
+        "6605 a",
+        "6605 b"
+      ],
+      "meaning_text": "to open wide (literally or figuratively); specifically, to loosen, begin, plough, carve",
+      "defs": [
+        "open wide",
+        "loosen",
+        "begin",
+        "plough",
+        "carve"
+      ],
+      "usage": "appear, break forth, draw (out), let go free, (en-) grave(-n), loose (self), (be, be set) open(-ing), put off, ungird, unstop, have vent.",
+      "source": "a primitive root;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 319,
+      "lemma_id": "H1008",
+      "citation_form": "בֵּית־אֵל",
+      "pos": "Noun",
+      "frequency": 144,
+      "oshb_codes": [
+        "1008",
+        "1008+"
+      ],
+      "meaning_text": "Beth-El, a place in Palestine",
+      "defs": [
+        "Beth-El"
+      ],
+      "usage": "Beth-el.",
+      "source": "from 1004 and 410; house of God;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 320,
+      "lemma_id": "H7291",
+      "citation_form": "רָדַף",
+      "pos": "Verb",
+      "frequency": 144,
+      "oshb_codes": [
+        "7291"
+      ],
+      "meaning_text": "to run after (usually with hostile intent; figuratively [of time] gone by)",
+      "defs": [
+        "run after",
+        "gone by"
+      ],
+      "usage": "chase, put to flight, follow (after, on), hunt, (be under) persecute(-ion, -or), pursue(-r).",
+      "source": "a primitive root;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 321,
+      "lemma_id": "H2490",
+      "citation_form": "חָלַל",
+      "pos": "Verb",
+      "frequency": 143,
+      "oshb_codes": [
+        "2490 a",
+        "2490 b",
+        "2490 c"
+      ],
+      "meaning_text": "properly, to bore, i.e. (by implication) to wound, to dissolve; figuratively, to profane (a person, place or thing), to break (one's word), to begin (as if by an 'opening wedge'); to play (the flute)",
+      "defs": [
+        "bore",
+        "wound",
+        "dissolve",
+        "profane",
+        "break",
+        "begin",
+        "play"
+      ],
+      "usage": "begin (× men began), defile, × break, defile, × eat (as common things), × first, × gather the grape thereof, × take inheritance, pipe, player on instruments, pollute, (cast as) profane (self), prostitute, slay (slain), sorrow, stain, wound.",
+      "source": "a primitive root (compare 2470); also denominative (from 2485)",
+      "curated_gloss": null
+    },
+    {
+      "rank": 322,
+      "lemma_id": "H2583",
+      "citation_form": "חָנָה",
+      "pos": "Verb",
+      "frequency": 143,
+      "oshb_codes": [
+        "2583"
+      ],
+      "meaning_text": "properly, to incline; by implication, to decline (of the slanting rays of evening); specifically, to pitch a tent; generally to encamp (for abode or siege)",
+      "defs": [
+        "incline",
+        "decline",
+        "pitch",
+        "encamp"
+      ],
+      "usage": "abide (in tents), camp, dwell, encamp, grow to an end, lie, pitch (tent), rest in tent.",
+      "source": "a primitive root (compare 2603);",
+      "curated_gloss": null
+    },
+    {
+      "rank": 323,
+      "lemma_id": "F-s",
+      "citation_form": "שֶׁ",
+      "pos": "Relative particle",
+      "frequency": 142,
+      "oshb_codes": [
+        "s"
+      ],
+      "defs": [
+        "that, which"
+      ],
+      "meaning_text": null,
+      "usage": null,
+      "source": "hand-typed function-word gloss, not from Strong's",
+      "curated_gloss": null
+    },
+    {
+      "rank": 324,
+      "lemma_id": "H3162",
+      "citation_form": "יַחַד",
+      "pos": "Adverb",
+      "frequency": 142,
+      "oshb_codes": [
+        "3162 a",
+        "3162 b"
+      ],
+      "meaning_text": "properly, a unit, i.e. (adverb) unitedly",
+      "defs": [
+        "unit",
+        "unitedly"
+      ],
+      "usage": "alike, at all (once), both, likewise, only, (al-) together, withal.",
+      "source": "from 3161;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 325,
+      "lemma_id": "H3644",
+      "citation_form": "כְּמוֹ",
+      "pos": "Preposition",
+      "frequency": 142,
+      "oshb_codes": [
+        "3644"
+      ],
+      "meaning_text": "as, thus, so",
+      "defs": [
+        "as",
+        "thus",
+        "so"
+      ],
+      "usage": "according to, (such) as (it were, well as), in comparison of, like (as, to, unto), thus, when, worth.",
+      "source": "or כָּמוֹ; a form of the prefix k, but used separately [compare 3651];",
+      "curated_gloss": null
+    },
+    {
+      "rank": 326,
+      "lemma_id": "H227",
+      "citation_form": "אָז",
+      "pos": "Adverb",
+      "frequency": 141,
+      "oshb_codes": [
+        "227 a",
+        "227 b"
+      ],
+      "meaning_text": "at that time or place; also as a conjunction, therefore",
+      "defs": [
+        "at that time",
+        "place",
+        "therefore"
+      ],
+      "usage": "beginning, for, from, hitherto, now, of old, once, since, then, at which time, yet.",
+      "source": "a demonstrative adverb;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 327,
+      "lemma_id": "H3196",
+      "citation_form": "יַיִן",
+      "pos": "Noun",
+      "frequency": 141,
+      "oshb_codes": [
+        "3196"
+      ],
+      "meaning_text": "wine (as fermented); by implication, intoxication",
+      "defs": [
+        "wine",
+        "intoxication"
+      ],
+      "usage": "banqueting, wine, wine(-bibber).",
+      "source": "from an unused root meaning to effervesce;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 328,
+      "lemma_id": "H3225",
+      "citation_form": "יָמִין",
+      "pos": "Noun",
+      "frequency": 141,
+      "oshb_codes": [
+        "3225"
+      ],
+      "meaning_text": "the right hand or side (leg, eye) of a person or other object (as the stronger and more dexterous); locally, the south",
+      "defs": [
+        "right",
+        "stronger",
+        "south"
+      ],
+      "usage": "left-handed, right (hand, side), south.",
+      "source": "from 3231;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 329,
+      "lemma_id": "H5158",
+      "citation_form": "נַחַל",
+      "pos": "Noun",
+      "frequency": 141,
+      "oshb_codes": [
+        "5158 a",
+        "5158 b"
+      ],
+      "meaning_text": "a stream, especially a winter torrent; (by implication) a (narrow) valley (in which a brook runs); also a shaft (of a mine)",
+      "defs": [
+        "stream",
+        "torrent",
+        "valley",
+        "shaft"
+      ],
+      "usage": "brook, flood, river, stream, valley.",
+      "source": "or (feminine) נַחְלָה; (Psalm 124:4), or נַחֲלָה; (Ezekiel 47:19; Ezekiel 48:28), from 5157 in its original sense;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 330,
+      "lemma_id": "H5483",
+      "citation_form": "סוּס",
+      "pos": "Noun",
+      "frequency": 141,
+      "oshb_codes": [
+        "5483 a",
+        "5483 b"
+      ],
+      "meaning_text": "a horse (as leaping); also a swallow (from its rapid flight)",
+      "defs": [
+        "horse",
+        "swallow",
+        "flight"
+      ],
+      "usage": "crane, horse (-back, -hoof). Compare",
+      "source": "or סֻס; from an unused root meaning to skip (properly, for joy);",
+      "curated_gloss": null
+    },
+    {
+      "rank": 331,
+      "lemma_id": "H4605",
+      "citation_form": "מַעַל",
+      "pos": "Adverb",
+      "frequency": 140,
+      "oshb_codes": [
+        "4605"
+      ],
+      "meaning_text": "properly,the upper part, used only adverbially with prefix upward, above, overhead, from the top, etc.",
+      "defs": [
+        "upper part",
+        "upward",
+        "above",
+        "overhead",
+        "from the top"
+      ],
+      "usage": "above, exceeding(-ly), forward, on (× very) high, over, up(-on, -ward), very.",
+      "source": "from 5927;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 332,
+      "lemma_id": "H5178",
+      "citation_form": "נְחֹשֶׁת",
+      "pos": "Noun",
+      "frequency": 140,
+      "oshb_codes": [
+        "5178 a",
+        "5178 b"
+      ],
+      "meaning_text": "copper, hence, something made of that metal, i.e. coin, a fetter; figuratively, base (as compared with gold or silver)",
+      "defs": [
+        "copper",
+        "coin",
+        "fetter",
+        "base"
+      ],
+      "usage": "brasen, brass, chain, copper, fetter (of brass), filthiness, steel.",
+      "source": "for 5154;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 333,
+      "lemma_id": "H8050",
+      "citation_form": "שְׁמוּאֵל",
+      "pos": "Noun",
+      "frequency": 140,
+      "oshb_codes": [
+        "8050"
+      ],
+      "meaning_text": "Shemuël, the name of three Israelites",
+      "defs": [
+        "Shemuël"
+      ],
+      "usage": "Samuel, Shemuel.",
+      "source": "from the passive participle of 8085 and 410; heard of God;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 334,
+      "lemma_id": "H4908",
+      "citation_form": "מִשְׁכָּן",
+      "pos": "Noun",
+      "frequency": 139,
+      "oshb_codes": [
+        "4908"
+      ],
+      "meaning_text": "a residence (including a shepherd's hut, the lair of animals, figuratively, the grave; also the Temple); specifically, the Tabernacle (properly, its wooden walls)",
+      "defs": [
+        "residence",
+        "hut",
+        "lair",
+        "grave",
+        "Temple",
+        "the Tabernacle"
+      ],
+      "usage": "dwelleth, dwelling (place), habitation, tabernacle, tent.",
+      "source": "from 7931;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 335,
+      "lemma_id": "H3426",
+      "citation_form": "יֵשׁ",
+      "pos": "Particle",
+      "frequency": 138,
+      "oshb_codes": [
+        "3426"
+      ],
+      "meaning_text": "there is or are (or any other form of the verb to be, as may suit the connection)",
+      "defs": [
+        "is",
+        "are",
+        "be"
+      ],
+      "usage": "(there) are, (he, it, shall, there, there may, there shall, there should) be, thou do, had, hast, (which) hath, (I, shalt, that) have, (he, it, there) is, substance, it (there) was, (there) were, ye will, thou wilt, wouldest.",
+      "source": "perhaps from an unused root meaning to stand out, or exist; entity; used adverbially or as a copula for the substantive verb (1961);",
+      "curated_gloss": null
+    },
+    {
+      "rank": 336,
+      "lemma_id": "H2450",
+      "citation_form": "חָכָם",
+      "pos": "Adjective",
+      "frequency": 137,
+      "oshb_codes": [
+        "2450"
+      ],
+      "meaning_text": "wise, (i.e. intelligent, skilful or artful)",
+      "defs": [
+        "wise"
+      ],
+      "usage": "cunning (man), subtil, (un-), wise((hearted), man).",
+      "source": "from 2449;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 337,
+      "lemma_id": "H3678",
+      "citation_form": "כִּסֵּא",
+      "pos": "Noun",
+      "frequency": 135,
+      "oshb_codes": [
+        "3678"
+      ],
+      "meaning_text": "properly, covered, i.e. a throne (as canopied)",
+      "defs": [
+        "covered",
+        "throne",
+        "canopied"
+      ],
+      "usage": "seat, stool, throne.",
+      "source": "or כִּסֵּה; from 3680;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 338,
+      "lemma_id": "H6437",
+      "citation_form": "פָּנָה",
+      "pos": "Verb",
+      "frequency": 135,
+      "oshb_codes": [
+        "6437"
+      ],
+      "meaning_text": "to turn; by implication, to face, i.e. appear, look, etc.",
+      "defs": [
+        "turn",
+        "face",
+        "appear",
+        "look"
+      ],
+      "usage": "appear, at (even-) tide, behold, cast out, come on, × corner, dawning, empty, go away, lie, look, mark, pass away, prepare, regard, (have) respect (to), (re-) turn (aside, away, back, face, self), × right (early).",
+      "source": "a primitive root;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 339,
+      "lemma_id": "H705",
+      "citation_form": "אַרְבָּעִים",
+      "pos": "Adjective",
+      "frequency": 135,
+      "oshb_codes": [
+        "705"
+      ],
+      "meaning_text": "forty",
+      "defs": [
+        "forty"
+      ],
+      "usage": "forty.",
+      "source": "multiple of 702;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 340,
+      "lemma_id": "H1568",
+      "citation_form": "גִּלְעָד",
+      "pos": "Noun",
+      "frequency": 134,
+      "oshb_codes": [
+        "1568"
+      ],
+      "meaning_text": "Gilad, a region East of the Jordan; also the name of three Israelites",
+      "defs": [
+        "Gilad"
+      ],
+      "usage": "Gilead, Gileadite.",
+      "source": "probably from 1567;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 341,
+      "lemma_id": "H2076",
+      "citation_form": "זָבַח",
+      "pos": "Verb",
+      "frequency": 134,
+      "oshb_codes": [
+        "2076"
+      ],
+      "meaning_text": "to slaughter an animal (usually in sacrifice)",
+      "defs": [
+        "slaughter"
+      ],
+      "usage": "kill, offer, (do) sacrifice, slay.",
+      "source": "a primitive root;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 342,
+      "lemma_id": "H4557",
+      "citation_form": "מִסְפָּר",
+      "pos": "Noun",
+      "frequency": 134,
+      "oshb_codes": [
+        "4557"
+      ],
+      "meaning_text": "a number, definite (arithmetical) or indefinite (large, innumerable; small, a few); also (abstractly) narration",
+      "defs": [
+        "number",
+        "innumerable",
+        "few",
+        "narration"
+      ],
+      "usage": "abundance, account, × all, × few, (in-) finite, (certain) number(-ed), tale, telling,   time.",
+      "source": "from 5608;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 343,
+      "lemma_id": "H5387",
+      "citation_form": "נָשִׂיא",
+      "pos": "Noun",
+      "frequency": 134,
+      "oshb_codes": [
+        "5387 a",
+        "5387 b"
+      ],
+      "meaning_text": "properly, an exalted one, i.e. a king or sheik; also a rising mist",
+      "defs": [
+        "exalted",
+        "king",
+        "sheik",
+        "mist"
+      ],
+      "usage": "captain, chief, cloud, governor, prince, ruler, vapour.",
+      "source": "or נָשִׂא; from 5375;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 344,
+      "lemma_id": "H6153",
+      "citation_form": "עֶרֶב",
+      "pos": "Noun",
+      "frequency": 134,
+      "oshb_codes": [
+        "6153"
+      ],
+      "meaning_text": "dusk",
+      "defs": [
+        "dusk"
+      ],
+      "usage": "day, even(-ing, tide), night.",
+      "source": "from 6150;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 345,
+      "lemma_id": "H637",
+      "citation_form": "אַף",
+      "pos": "Particle",
+      "frequency": 134,
+      "oshb_codes": [
+        "637"
+      ],
+      "meaning_text": "meaning accession (used as an adverb or conjunction); also or yea; adversatively though",
+      "defs": [
+        "accession",
+        "yea",
+        "though"
+      ],
+      "usage": "also, + although, and (furthermore, yet), but, even, + how much less (more, rather than), moreover, with, yea.",
+      "source": "a primitive particle;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 346,
+      "lemma_id": "H8121",
+      "citation_form": "שֶׁמֶשׁ",
+      "pos": "Noun",
+      "frequency": 134,
+      "oshb_codes": [
+        "8121"
+      ],
+      "meaning_text": "the sun; by implication, the east; figuratively, a ray, i.e. (architectural) a notched battlement",
+      "defs": [
+        "sun",
+        "east",
+        "ray",
+        "battlement"
+      ],
+      "usage": "east side(-ward), sun (rising),   west(-ward), window. See also",
+      "source": "from an unused root meaning to be brilliant;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 347,
+      "lemma_id": "H2346",
+      "citation_form": "חוֹמָה",
+      "pos": "Noun",
+      "frequency": 133,
+      "oshb_codes": [
+        "2346"
+      ],
+      "meaning_text": "a wall of protection",
+      "defs": [
+        "wall"
+      ],
+      "usage": "wall, walled.",
+      "source": "feminine active participle of an unused root apparently meaning to join;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 348,
+      "lemma_id": "H6435",
+      "citation_form": "פֵּן",
+      "pos": "Conjunction",
+      "frequency": 133,
+      "oshb_codes": [
+        "6435"
+      ],
+      "meaning_text": "properly, removal; used only (in the construction) adverb as conjunction, lest",
+      "defs": [
+        "removal",
+        "lest"
+      ],
+      "usage": "(lest) (peradventure), that...not.",
+      "source": "from 6437;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 349,
+      "lemma_id": "H6499",
+      "citation_form": "פַּר",
+      "pos": "Noun",
+      "frequency": 133,
+      "oshb_codes": [
+        "6499"
+      ],
+      "meaning_text": "a bullock (apparently as breaking forth in wild strength, or perhaps as dividing the hoof)",
+      "defs": [
+        "bullock",
+        "breaking",
+        "dividing"
+      ],
+      "usage": "(  young) bull(-ock), calf, ox.",
+      "source": "or פָּר; from 6565;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 350,
+      "lemma_id": "H6912",
+      "citation_form": "קָבַר",
+      "pos": "Verb",
+      "frequency": 133,
+      "oshb_codes": [
+        "6912"
+      ],
+      "meaning_text": "to inter",
+      "defs": [
+        "inter"
+      ],
+      "usage": "× in any wise, bury(-ier).",
+      "source": "a primitive root;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 351,
+      "lemma_id": "H758",
+      "citation_form": "אֲרָם",
+      "pos": "Noun",
+      "frequency": 133,
+      "oshb_codes": [
+        "758"
+      ],
+      "meaning_text": "Aram or Syria, and its inhabitants; also the name of the son of Shem, a grandson of Nahor, and of an Israelite",
+      "defs": [
+        "Aram",
+        "Syria"
+      ],
+      "usage": "Aram, Mesopotamia, Syria, Syrians.",
+      "source": "from the same as 759; the highland;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 352,
+      "lemma_id": "H7604",
+      "citation_form": "שָׁאַר",
+      "pos": "Verb",
+      "frequency": 133,
+      "oshb_codes": [
+        "7604"
+      ],
+      "meaning_text": "properly, to swell up, i.e. be (causatively, make) redundant",
+      "defs": [
+        "swell",
+        "be",
+        "make",
+        "redundant"
+      ],
+      "usage": "leave, (be) left, let, remain, remnant, reserve, the rest.",
+      "source": "a primitive root;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 353,
+      "lemma_id": "H2396",
+      "citation_form": "חִזְקִיָּה",
+      "pos": "Noun",
+      "frequency": 130,
+      "oshb_codes": [
+        "2396"
+      ],
+      "meaning_text": "Chizkijah, a king of Judah, also the name of two other Israelites",
+      "defs": [
+        "Chizkijah"
+      ],
+      "usage": "Hezekiah, Hizkiah, Hizkijah. Compare",
+      "source": "or חִזְקִיָּהוּ; also יְחִזְקִיָּה; or יְחִזְקִיָּהוּ; from 2388 and 3050; strengthened of Jah;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 354,
+      "lemma_id": "H7931",
+      "citation_form": "שָׁכַן",
+      "pos": "Verb",
+      "frequency": 129,
+      "oshb_codes": [
+        "7931"
+      ],
+      "meaning_text": "to reside or permanently stay (literally or figuratively)",
+      "defs": [
+        "reside",
+        "permanently stay"
+      ],
+      "usage": "abide, continue, (cause to, make to) dwell(-er), have habitation, inhabit, lay, place, (cause to) remain, rest, set (up).",
+      "source": "a primitive root (apparently akin (by transmission) to 7901 through the idea of lodging; compare 5531, 7925);",
+      "curated_gloss": null
+    },
+    {
+      "rank": 355,
+      "lemma_id": "H2706",
+      "citation_form": "חֹק",
+      "pos": "Noun",
+      "frequency": 128,
+      "oshb_codes": [
+        "2706"
+      ],
+      "meaning_text": "an enactment; hence, an appointment (of time, space, quantity, labor or usage)",
+      "defs": [
+        "enactment",
+        "appointment"
+      ],
+      "usage": "appointed, bound, commandment, convenient, custom, decree(-d), due, law, measure, × necessary, ordinance(-nary), portion, set time, statute, task.",
+      "source": "from 2710;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 356,
+      "lemma_id": "H3581",
+      "citation_form": "כֹּחַ",
+      "pos": "Noun",
+      "frequency": 127,
+      "oshb_codes": [
+        "3581 a",
+        "3581 b"
+      ],
+      "meaning_text": "vigor, literally (force, in a good or a bad sense) or figuratively (capacity, means, produce); also (from its hardiness) a large lizard",
+      "defs": [
+        "vigor",
+        "large lizard"
+      ],
+      "usage": "ability, able, chameleon, force, fruits, might, power(-ful), strength, substance, wealth.",
+      "source": "or (Daniel 11:6) כּוֹחַ; from an unused root meaning to be firm;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 357,
+      "lemma_id": "H571",
+      "citation_form": "אֶמֶת",
+      "pos": "Noun",
+      "frequency": 127,
+      "oshb_codes": [
+        "571"
+      ],
+      "meaning_text": "stability; (figuratively) certainty, truth, trustworthiness",
+      "defs": [
+        "stability",
+        "certainty",
+        "truth",
+        "trustworthiness"
+      ],
+      "usage": "assured(-ly), establishment, faithful, right, sure, true (-ly, -th), verity.",
+      "source": "contracted from 539;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 358,
+      "lemma_id": "H6908",
+      "citation_form": "קָבַץ",
+      "pos": "Verb",
+      "frequency": 127,
+      "oshb_codes": [
+        "6908"
+      ],
+      "meaning_text": "to grasp, i.e. collect",
+      "defs": [
+        "grasp",
+        "collect"
+      ],
+      "usage": "assemble (selves), gather (bring) (together, selves together, up), heap, resort, × surely, take up.",
+      "source": "a primitive root;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 359,
+      "lemma_id": "H6106",
+      "citation_form": "עֶצֶם",
+      "pos": "Noun",
+      "frequency": 126,
+      "oshb_codes": [
+        "6106"
+      ],
+      "meaning_text": "a bone (as strong); by extension, the body; figuratively, the substance, i.e. (as pron.) selfsame",
+      "defs": [
+        "bone",
+        "strong",
+        "body",
+        "substance",
+        "selfsame"
+      ],
+      "usage": "body, bone, × life, (self-) same, strength, × very.",
+      "source": "from 6105;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 360,
+      "lemma_id": "H5066",
+      "citation_form": "נָגַשׁ",
+      "pos": "Verb",
+      "frequency": 125,
+      "oshb_codes": [
+        "5066"
+      ],
+      "meaning_text": "to be or come (causatively, bring) near (for any purpose); euphemistically, to lie with a woman; as an enemy, to attack; religious to worship; causatively, to present; figuratively, to adduce an argument; by reversal, to stand back",
+      "defs": [
+        "be",
+        "come",
+        "bring",
+        "near",
+        "lie with",
+        "attack",
+        "worship",
+        "present",
+        "adduce",
+        "stand back"
+      ],
+      "usage": "(make to) approach (nigh), bring (forth, hither, near), (cause to) come (hither, near, nigh), give place, go hard (up), (be, draw, go) near (nigh), offer, overtake, present, put, stand.",
+      "source": "a primitive root;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 361,
+      "lemma_id": "H7993",
+      "citation_form": "שָׁלַךְ",
+      "pos": "Verb",
+      "frequency": 125,
+      "oshb_codes": [
+        "7993"
+      ],
+      "meaning_text": "to throw out, down or away (literally or figuratively)",
+      "defs": [
+        "throw"
+      ],
+      "usage": "adventure, cast (away, down, forth, off, out), hurl, pluck, throw.",
+      "source": "a primitive root;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 362,
+      "lemma_id": "H2534",
+      "citation_form": "חֵמָה",
+      "pos": "Noun",
+      "frequency": 124,
+      "oshb_codes": [
+        "2534"
+      ],
+      "meaning_text": "heat; figuratively, anger, poison (from its fever)",
+      "defs": [
+        "heat",
+        "anger",
+        "poison"
+      ],
+      "usage": "anger, bottles, hot displeasure, furious(-ly, -ry), heat, indignation, poison, rage, wrath(-ful). See",
+      "source": "or (Daniel 11:44) חֵמָא; from 3179;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 363,
+      "lemma_id": "H2803",
+      "citation_form": "חָשַׁב",
+      "pos": "Verb",
+      "frequency": 124,
+      "oshb_codes": [
+        "2803"
+      ],
+      "meaning_text": "properly, to plait or interpenetrate, i.e. (literally) to weave or (generally) to fabricate; figuratively, to plot or contrive (usually in a malicious sense); hence (from the mental effort) to think, regard, value, compute",
+      "defs": [
+        "plait",
+        "interpenetrate",
+        "weave",
+        "fabricate",
+        "plot",
+        "contrive",
+        "think",
+        "regard",
+        "value",
+        "compute"
+      ],
+      "usage": "(make) account (of), conceive, consider, count, cunning (man, work, workman), devise, esteem, find out, forecast, hold, imagine, impute, invent, be like, mean, purpose, reckon(-ing be made), regard, think.",
+      "source": "a primitive root;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 364,
+      "lemma_id": "H2677",
+      "citation_form": "חֵצִי",
+      "pos": "Noun",
+      "frequency": 123,
+      "oshb_codes": [
+        "2677"
+      ],
+      "meaning_text": "the half or middle",
+      "defs": [
+        "half",
+        "middle"
+      ],
+      "usage": "half, middle, mid(-night), midst, part, two parts.",
+      "source": "from 2673;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 365,
+      "lemma_id": "H6951",
+      "citation_form": "קָהָל",
+      "pos": "Noun",
+      "frequency": 123,
+      "oshb_codes": [
+        "6951"
+      ],
+      "meaning_text": "assemblage (usually concretely)",
+      "defs": [
+        "assemblage"
+      ],
+      "usage": "assembly, company, congregation, multitude.",
+      "source": "from 6950;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 366,
+      "lemma_id": "H216",
+      "citation_form": "אוֹר",
+      "pos": "Noun",
+      "frequency": 121,
+      "oshb_codes": [
+        "216"
+      ],
+      "meaning_text": "illumination or (concrete) luminary (in every sense, including lightning, happiness, etc.)",
+      "defs": [
+        "illumination",
+        "luminary"
+      ],
+      "usage": "bright, clear,   day, light (-ning), morning, sun.",
+      "source": "from 215;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 367,
+      "lemma_id": "H3920",
+      "citation_form": "לָכַד",
+      "pos": "Verb",
+      "frequency": 121,
+      "oshb_codes": [
+        "3920"
+      ],
+      "meaning_text": "to catch (in a net, trap or pit); generally, to capture or occupy; also to choose (by lot); figuratively, to cohere",
+      "defs": [
+        "catch",
+        "capture",
+        "choose",
+        "cohere"
+      ],
+      "usage": "× at all, catch (self), be frozen, be holden, stick together, take.",
+      "source": "a primitive root;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 368,
+      "lemma_id": "H587",
+      "citation_form": "אֲנַחְנוּ",
+      "pos": "Pronoun",
+      "frequency": 121,
+      "oshb_codes": [
+        "587"
+      ],
+      "meaning_text": "we",
+      "defs": [
+        "we"
+      ],
+      "usage": "ourselves, us, we.",
+      "source": "apparently from 595;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 369,
+      "lemma_id": "H7393",
+      "citation_form": "רֶכֶב",
+      "pos": "Noun",
+      "frequency": 120,
+      "oshb_codes": [
+        "7393"
+      ],
+      "meaning_text": "a vehicle; by implication, a team; by extension, cavalry; by analogy a rider, i.e. the upper millstone",
+      "defs": [
+        "vehicle",
+        "team",
+        "cavalry",
+        "rider",
+        "the upper millstone"
+      ],
+      "usage": "chariot, (upper) millstone, multitude (from the margin), wagon.",
+      "source": "from 7392;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 370,
+      "lemma_id": "H982",
+      "citation_form": "בָּטַח",
+      "pos": "Verb",
+      "frequency": 120,
+      "oshb_codes": [
+        "982"
+      ],
+      "meaning_text": "properly, to hie for refuge (but not so precipitately as 2620); figuratively, to trust, be confident or sure",
+      "defs": [
+        "hie",
+        "precipitately",
+        "trust",
+        "confident",
+        "sure"
+      ],
+      "usage": "be bold (confident, secure, sure), careless (one, woman), put confidence, (make to) hope, (put, make to) trust.",
+      "source": "a primitive root;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 371,
+      "lemma_id": "H269",
+      "citation_form": "אָחוֹת",
+      "pos": "Noun",
+      "frequency": 119,
+      "oshb_codes": [
+        "269"
+      ],
+      "meaning_text": "a sister (used very widely [like 251number 250, corrected to 251], literally and figuratively)",
+      "defs": [
+        "sister"
+      ],
+      "usage": "(an-) other, sister, together.",
+      "source": "irregular feminine of 251;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 372,
+      "lemma_id": "H3477",
+      "citation_form": "יָשָׁר",
+      "pos": "Adjective",
+      "frequency": 119,
+      "oshb_codes": [
+        "3477"
+      ],
+      "meaning_text": "straight (literally or figuratively)",
+      "defs": [
+        "straight"
+      ],
+      "usage": "convenient, equity, Jasher, just, meet(-est),   pleased well right(-eous), straight, (most) upright(-ly, -ness).",
+      "source": "from 3474;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 373,
+      "lemma_id": "H5104",
+      "citation_form": "נָהָר",
+      "pos": "Noun",
+      "frequency": 119,
+      "oshb_codes": [
+        "5104"
+      ],
+      "meaning_text": "a stream (including the sea; expectation the Nile, Euphrates, etc.); figuratively, prosperity",
+      "defs": [
+        "stream",
+        "prosperity"
+      ],
+      "usage": "flood, river.",
+      "source": "from 5102;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 374,
+      "lemma_id": "H6529",
+      "citation_form": "פְּרִי",
+      "pos": "Noun",
+      "frequency": 119,
+      "oshb_codes": [
+        "6529"
+      ],
+      "meaning_text": "fruit (literally or figuratively)",
+      "defs": [
+        "fruit"
+      ],
+      "usage": "bough, (first-)fruit(-ful), reward.",
+      "source": "from 6509;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 375,
+      "lemma_id": "H6664",
+      "citation_form": "צֶדֶק",
+      "pos": "Noun",
+      "frequency": 119,
+      "oshb_codes": [
+        "6664"
+      ],
+      "meaning_text": "the right (natural, moral or legal); also (abstractly) equity or (figuratively) prosperity",
+      "defs": [
+        "right",
+        "equity",
+        "prosperity"
+      ],
+      "usage": "× even, (× that which is altogether) just(-ice), (un-)right(-eous) (cause, -ly, -ness).",
+      "source": "from 6663;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 376,
+      "lemma_id": "H6918",
+      "citation_form": "קָדוֹשׁ",
+      "pos": "Adjective",
+      "frequency": 119,
+      "oshb_codes": [
+        "6918"
+      ],
+      "meaning_text": "sacred (ceremonially or morally); (as noun) God (by eminence), an angel, a saint, a sanctuary",
+      "defs": [
+        "sacred",
+        "God",
+        "angel",
+        "saint",
+        "sanctuary"
+      ],
+      "usage": "holy (One), saint.",
+      "source": "or קָדֹשׁ; from 6942;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 377,
+      "lemma_id": "H1060",
+      "citation_form": "בְּכוֹר",
+      "pos": "Noun",
+      "frequency": 118,
+      "oshb_codes": [
+        "1060"
+      ],
+      "meaning_text": "first-born; hence, chief",
+      "defs": [
+        "first-born",
+        "chief"
+      ],
+      "usage": "eldest (son), firstborn(-ling).",
+      "source": "from 1069;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 378,
+      "lemma_id": "H6471",
+      "citation_form": "פַּעַם",
+      "pos": "Noun",
+      "frequency": 118,
+      "oshb_codes": [
+        "6471"
+      ],
+      "meaning_text": "a stroke, literally or figuratively (in various applications, as follow)",
+      "defs": [
+        "stroke"
+      ],
+      "usage": "anvil, corner, foot(-step), going, (hundred-) fold, × now, (this)   once, order, rank, step,   thrice, (often-), second, this, two) time(-s), twice, wheel.",
+      "source": "or (feminine) פַּעֲמָה; from 6470;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 379,
+      "lemma_id": "H8441",
+      "citation_form": "תּוֹעֵבַה",
+      "pos": "Noun",
+      "frequency": 118,
+      "oshb_codes": [
+        "8441"
+      ],
+      "meaning_text": "properly, something disgusting (morally), i.e. (as noun) an abhorrence; especially idolatry or (concretely) an idol",
+      "defs": [
+        "disgusting",
+        "abhorrence",
+        "idolatry",
+        "idol"
+      ],
+      "usage": "abominable (custom, thing), abomination.",
+      "source": "or תֹּעֵבַה; feminine active participle of 8581;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 380,
+      "lemma_id": "H3956",
+      "citation_form": "לָשׁוֹן",
+      "pos": "Noun",
+      "frequency": 117,
+      "oshb_codes": [
+        "3956"
+      ],
+      "meaning_text": "the tongue (of man or animals), used literally (as the instrument of licking, eating, or speech), and figuratively (speech, an ingot, a fork of flame, a cove of water)",
+      "defs": [
+        "tongue"
+      ],
+      "usage": "babbler, bay,   evil speaker, language, talker, tongue, wedge.",
+      "source": "or לָשֹׁן; also (in plural) feminine לְשֹׁנָה; from 3960;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 381,
+      "lemma_id": "H4467",
+      "citation_form": "מַמְלָכָה",
+      "pos": "Noun",
+      "frequency": 117,
+      "oshb_codes": [
+        "4467"
+      ],
+      "meaning_text": "dominion, i.e. (abstractly) the estate (rule) or (concretely) the country (realm)",
+      "defs": [
+        "dominion",
+        "rule",
+        "realm"
+      ],
+      "usage": "kingdom, king's, reign, royal.",
+      "source": "from 4427;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 382,
+      "lemma_id": "H6999",
+      "citation_form": "קָטַר",
+      "pos": "Verb",
+      "frequency": 117,
+      "oshb_codes": [
+        "6999 a",
+        "6999 b",
+        "6999 c"
+      ],
+      "meaning_text": "to smoke, i.e. turn into fragrance by fire (especially as an act of worship)",
+      "defs": [
+        "smoke",
+        "turn into fragrance by fire"
+      ],
+      "usage": "burn (incense, sacrifice) (upon), (altar for) incense, kindle, offer (incense, a sacrifice).",
+      "source": "a primitive root (identical with through the idea of fumigation in a close place and perhaps thus driving out the occupants);",
+      "curated_gloss": null
+    },
+    {
+      "rank": 383,
+      "lemma_id": "H8210",
+      "citation_form": "שָׁפַךְ",
+      "pos": "Verb",
+      "frequency": 117,
+      "oshb_codes": [
+        "8210"
+      ],
+      "meaning_text": "to spill forth (blood, a libation, liquid metal; or even a solid, i.e. to mound up); also (figuratively) to expend (life, soul, complaint, money, etc.); intensively, to sprawl out",
+      "defs": [
+        "spill forth",
+        "expend",
+        "sprawl out"
+      ],
+      "usage": "cast (up), gush out, pour (out), shed(-der, out), slip.",
+      "source": "a primitive root;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 384,
+      "lemma_id": "H8313",
+      "citation_form": "שָׂרַף",
+      "pos": "Verb",
+      "frequency": 117,
+      "oshb_codes": [
+        "8313"
+      ],
+      "meaning_text": "to be (causatively, set) on fire",
+      "defs": [
+        "be",
+        "set",
+        "on fire"
+      ],
+      "usage": "(cause to, make a) burn((-ing), up) kindle, × utterly.",
+      "source": "a primitive root;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 385,
+      "lemma_id": "H1058",
+      "citation_form": "בָּכָה",
+      "pos": "Verb",
+      "frequency": 116,
+      "oshb_codes": [
+        "1058"
+      ],
+      "meaning_text": "to weep; generally to bemoan",
+      "defs": [
+        "weep",
+        "bemoan"
+      ],
+      "usage": "× at all, bewail, complain, make lamentation, × more, mourn, × sore, × with tears, weep.",
+      "source": "a primitive root;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 386,
+      "lemma_id": "H1431",
+      "citation_form": "גָּדַל",
+      "pos": "Verb",
+      "frequency": 116,
+      "oshb_codes": [
+        "1431"
+      ],
+      "meaning_text": "to be (causatively make) large (in various senses, as in body, mind, estate or honor, also in pride)",
+      "defs": [
+        "be",
+        "make",
+        "large"
+      ],
+      "usage": "advance, boast, bring up, exceed, excellent, be(-come, do, give, make, wax), great(-er, come to... estate,   things), grow(up), increase, lift up, magnify(-ifical), be much set by, nourish (up), pass, promote, proudly (spoken), tower.",
+      "source": "a primitive root; properly, to twist (compare 1434), i.e.",
+      "curated_gloss": null
+    },
+    {
+      "rank": 387,
+      "lemma_id": "H3513",
+      "citation_form": "כָּבַד",
+      "pos": "Verb",
+      "frequency": 116,
+      "oshb_codes": [
+        "3513"
+      ],
+      "meaning_text": "to be heavy, i.e. in a bad sense (burdensome, severe, dull) or in a good sense (numerous, rich, honorable); causatively, to make weighty (in the same two senses)",
+      "defs": [
+        "be heavy",
+        "burdensome",
+        "severe",
+        "dull",
+        "numerous",
+        "rich",
+        "honorable",
+        "make weighty"
+      ],
+      "usage": "abounding with, more grievously afflict, boast, be chargeable, × be dim, glorify, be (make) glorious (things), glory, (very) great, be grievous, harden, be (make) heavy, be heavier, lay heavily, (bring to, come to, do, get, be had in) honour (self), (be) honourable (man), lade, × more be laid, make self many, nobles, prevail, promote (to honour), be rich, be (go) sore, stop.",
+      "source": "or כָּבֵד; a primitive root;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 388,
+      "lemma_id": "H4481",
+      "citation_form": "מִן",
+      "pos": "Preposition",
+      "frequency": 116,
+      "oshb_codes": [
+        "4481"
+      ],
+      "defs": [],
+      "meaning_text": null,
+      "usage": "according, after,   because,   before, by, for, from, × him, × more than, (out) of, part, since, × these, to, upon,   when.",
+      "source": "(Aramaic) corresponding to 4480",
+      "curated_gloss": null
+    },
+    {
+      "rank": 389,
+      "lemma_id": "H7999",
+      "citation_form": "שָׁלַם",
+      "pos": "Verb",
+      "frequency": 116,
+      "oshb_codes": [
+        "7999 a",
+        "7999 b"
+      ],
+      "meaning_text": "to be safe (in mind, body or estate); figuratively, to be (causatively, make) completed; by implication, to be friendly; by extension, to reciprocate (in various applications)",
+      "defs": [
+        "be safe",
+        "be",
+        "make",
+        "completed",
+        "be friendly",
+        "reciprocate"
+      ],
+      "usage": "make amends, (make an) end, finish, full, give again, make good, (re-) pay (again), (make) (to) (be at) peace(-able), that is perfect, perform, (make) prosper(-ous), recompense, render, requite, make restitution, restore, reward, × surely.",
+      "source": "a primitive root;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 390,
+      "lemma_id": "H4054",
+      "citation_form": "מִגְרָשׁ",
+      "pos": "Noun",
+      "frequency": 115,
+      "oshb_codes": [
+        "4054"
+      ],
+      "meaning_text": "a suburb (i.e. open country whither flocks are driven from pasture); hence, the area around a building, or the margin of the sea",
+      "defs": [
+        "suburb",
+        "area around a building",
+        "margin of the sea"
+      ],
+      "usage": "cast out, suburb.",
+      "source": "also (in plural) feminine (Ezekiel 27:28) מִגְרָשָׁה; from 1644;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 391,
+      "lemma_id": "H5012",
+      "citation_form": "נָבָא",
+      "pos": "Verb",
+      "frequency": 115,
+      "oshb_codes": [
+        "5012"
+      ],
+      "meaning_text": "to prophesy, i.e. speak (or sing) by inspiration (in prediction or simple discourse)",
+      "defs": [
+        "prophesy",
+        "speak",
+        "by inspiration"
+      ],
+      "usage": "prophesy(-ing), make self a prophet.",
+      "source": "a primitive root;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 392,
+      "lemma_id": "H3034",
+      "citation_form": "יָדָה",
+      "pos": "Verb",
+      "frequency": 114,
+      "oshb_codes": [
+        "3034"
+      ],
+      "meaning_text": "physically, to throw (a stone, an arrow) at or away; especially to revere or worship (with extended hands); intensively, to bemoan (by wringing the hands)",
+      "defs": [
+        "throw",
+        "revere",
+        "worship",
+        "bemoan"
+      ],
+      "usage": "cast (out), (make) confess(-ion), praise, shoot, (give) thank(-ful, -s, -sgiving).",
+      "source": "a primitive root; used only as denominative from 3027; literally, to use (i.e. hold out) the hand;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 393,
+      "lemma_id": "H954",
+      "citation_form": "בּוּשׁ",
+      "pos": "Verb",
+      "frequency": 114,
+      "oshb_codes": [
+        "954"
+      ],
+      "meaning_text": "properly, to pale, i.e. by implication to be ashamed; also (by implication) to be disappointed or delayed",
+      "defs": [
+        "pale",
+        "be ashamed",
+        "be disappointed",
+        "delayed"
+      ],
+      "usage": "(be, make, bring to, cause, put to, with, a-) shamed(-d), be (put to) confounded(-fusion), become dry, delay, be long.",
+      "source": "a primitive root;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 394,
+      "lemma_id": "H8267",
+      "citation_form": "שֶׁקֶר",
+      "pos": "Noun",
+      "frequency": 113,
+      "oshb_codes": [
+        "8267"
+      ],
+      "meaning_text": "an untruth; by implication, a sham (often adverbial)",
+      "defs": [
+        "untruth",
+        "sham"
+      ],
+      "usage": "without a cause, deceit(-ful), false(-hood, -ly), feignedly, liar,   lie, lying, vain (thing), wrongfully.",
+      "source": "from 8266;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 395,
+      "lemma_id": "H1115",
+      "citation_form": "בִּלְתִּי",
+      "pos": "Conjunction",
+      "frequency": 112,
+      "oshb_codes": [
+        "1115"
+      ],
+      "meaning_text": "properly, a failure of, i.e. (used only as a negative particle, usually with a prepositional prefix) not, except, without, unless, besides, because not, until, etc.",
+      "defs": [
+        "failure of",
+        "not",
+        "except",
+        "without",
+        "unless",
+        "besides",
+        "because not",
+        "until"
+      ],
+      "usage": "because un(satiable), beside, but,   continual, except, from, lest, neither, no more, none, not, nothing, save, that no, without.",
+      "source": "constructive feminine of 1086 (equivalent to 1097);",
+      "curated_gloss": null
+    },
+    {
+      "rank": 396,
+      "lemma_id": "H3190",
+      "citation_form": "יָטַב",
+      "pos": "Verb",
+      "frequency": 112,
+      "oshb_codes": [
+        "3190"
+      ],
+      "meaning_text": "to be (causative) make well, literally (sound, beautiful) or figuratively (happy, successful, right)",
+      "defs": [
+        "be",
+        "make well"
+      ],
+      "usage": "be accepted, amend, use aright, benefit, be (make) better, seem best, make cheerful, be comely,   be content, diligent(-ly), dress, earnestly, find favour, give, be glad, do (be, make) good(-ness), be (make) merry, please (  well), shew more (kindness), skilfully, × very small, surely, make sweet, thoroughly, tire, trim, very, be (can, deal, entreat, go, have) well (said, seen).",
+      "source": "a primitive root;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 397,
+      "lemma_id": "H5982",
+      "citation_form": "עַמּוּד",
+      "pos": "Noun",
+      "frequency": 112,
+      "oshb_codes": [
+        "5982"
+      ],
+      "meaning_text": "a column (as standing); also a stand, i.e. platform",
+      "defs": [
+        "column",
+        "standing",
+        "stand"
+      ],
+      "usage": "× apiece, pillar.",
+      "source": "or עַמֻּד; from 5975;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 398,
+      "lemma_id": "H3671",
+      "citation_form": "כָּנָף",
+      "pos": "Noun",
+      "frequency": 111,
+      "oshb_codes": [
+        "3671"
+      ],
+      "meaning_text": "an edge or extremity; specifically (of a bird or army) a wing, (of a garment or bedclothing) a flap, (of the earth) a quarter, (of a building) a pinnacle",
+      "defs": [
+        "edge",
+        "extremity",
+        "wing",
+        "flap",
+        "quarter",
+        "pinnacle"
+      ],
+      "usage": "bird, border, corner, end, feather(-ed), × flying,   (one an-) other, overspreading, × quarters, skirt, × sort, uttermost part, wing(-ed).",
+      "source": "from 3670;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 399,
+      "lemma_id": "H3847",
+      "citation_form": "לָבַשׁ",
+      "pos": "Verb",
+      "frequency": 111,
+      "oshb_codes": [
+        "3847"
+      ],
+      "meaning_text": "properly, wrap around, i.e. (by implication) to put on a garment or clothe (oneself, or another), literally or figuratively",
+      "defs": [
+        "wrap around",
+        "put on a garment",
+        "clothe"
+      ],
+      "usage": "(in) apparel, arm, array (self), clothe (self), come upon, put (on, upon), wear.",
+      "source": "or לָבֵשׁ; a primitive root;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 400,
+      "lemma_id": "H5045",
+      "citation_form": "נֶגֶב",
+      "pos": "Noun",
+      "frequency": 111,
+      "oshb_codes": [
+        "5045"
+      ],
+      "meaning_text": "the south (from its drought); specifically, the Negeb or southern district of Judah, occasionally, Egypt (as south to Palestine)",
+      "defs": [
+        "south",
+        "Negeb",
+        "Egypt"
+      ],
+      "usage": "south (country, side, -ward).",
+      "source": "from an unused root meaning to be parched;",
+      "curated_gloss": null
+    }
+  ]
+}

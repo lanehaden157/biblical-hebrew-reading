@@ -1,0 +1,911 @@
+{
+  "metadata": {
+    "batch_rank_range": [
+      1,
+      100
+    ],
+    "status": "curated and reviewed"
+  },
+  "entries": [
+    {
+      "rank": 1,
+      "lemma_id": "F-c",
+      "citation_form": "וְ",
+      "pos": "Conjunction",
+      "frequency": 51272,
+      "gloss": "and",
+      "reviewed": true
+    },
+    {
+      "rank": 2,
+      "lemma_id": "F-d",
+      "citation_form": "הַ",
+      "pos": "Definite article",
+      "frequency": 24060,
+      "gloss": "the",
+      "reviewed": true
+    },
+    {
+      "rank": 3,
+      "lemma_id": "F-l",
+      "citation_form": "לְ",
+      "pos": "Preposition",
+      "frequency": 20851,
+      "gloss": "to, for",
+      "reviewed": true
+    },
+    {
+      "rank": 4,
+      "lemma_id": "F-b",
+      "citation_form": "בְּ",
+      "pos": "Preposition",
+      "frequency": 15848,
+      "gloss": "in, on, with",
+      "reviewed": true
+    },
+    {
+      "rank": 5,
+      "lemma_id": "H853",
+      "citation_form": "אֵת",
+      "pos": "Particle",
+      "frequency": 10979,
+      "gloss": "(marks a definite direct object -- usually untranslated)",
+      "reviewed": true
+    },
+    {
+      "rank": 6,
+      "lemma_id": "H3068",
+      "citation_form": "יְהֹוָה",
+      "pos": "Noun",
+      "frequency": 6521,
+      "gloss": "YHWH",
+      "reviewed": true
+    },
+    {
+      "rank": 7,
+      "lemma_id": "F-m",
+      "citation_form": "מִ",
+      "pos": "Preposition",
+      "frequency": 6415,
+      "gloss": "from",
+      "reviewed": true
+    },
+    {
+      "rank": 8,
+      "lemma_id": "H5921",
+      "citation_form": "עַל",
+      "pos": "Preposition",
+      "frequency": 5781,
+      "gloss": "on, over, against",
+      "reviewed": true
+    },
+    {
+      "rank": 9,
+      "lemma_id": "H413",
+      "citation_form": "אֵל",
+      "pos": "Preposition",
+      "frequency": 5516,
+      "gloss": "to, toward",
+      "reviewed": true
+    },
+    {
+      "rank": 10,
+      "lemma_id": "H834",
+      "citation_form": "אֲשֶׁר",
+      "pos": "Particle",
+      "frequency": 5503,
+      "gloss": "who, which, that",
+      "reviewed": true
+    },
+    {
+      "rank": 11,
+      "lemma_id": "H3605",
+      "citation_form": "כֹּל",
+      "pos": "Noun",
+      "frequency": 5417,
+      "gloss": "all, every",
+      "reviewed": true
+    },
+    {
+      "rank": 12,
+      "lemma_id": "H559",
+      "citation_form": "אָמַר",
+      "pos": "Verb",
+      "frequency": 5318,
+      "gloss": "say",
+      "reviewed": true
+    },
+    {
+      "rank": 13,
+      "lemma_id": "H3808",
+      "citation_form": "לֹא",
+      "pos": "Particle",
+      "frequency": 5191,
+      "gloss": "not",
+      "reviewed": true
+    },
+    {
+      "rank": 14,
+      "lemma_id": "H1121",
+      "citation_form": "בֵּן",
+      "pos": "Noun",
+      "frequency": 4942,
+      "gloss": "son",
+      "reviewed": true
+    },
+    {
+      "rank": 15,
+      "lemma_id": "H3588",
+      "citation_form": "כִּי",
+      "pos": "Conjunction",
+      "frequency": 4488,
+      "gloss": "for, that, because, when",
+      "reviewed": true
+    },
+    {
+      "rank": 16,
+      "lemma_id": "H1961",
+      "citation_form": "הָיָה",
+      "pos": "Verb",
+      "frequency": 3576,
+      "gloss": "be, become, happen",
+      "reviewed": true
+    },
+    {
+      "rank": 17,
+      "lemma_id": "F-k",
+      "citation_form": "כְּ",
+      "pos": "Preposition",
+      "frequency": 2973,
+      "gloss": "like, as",
+      "reviewed": true
+    },
+    {
+      "rank": 18,
+      "lemma_id": "H6213",
+      "citation_form": "עָשָׂה",
+      "pos": "Verb",
+      "frequency": 2640,
+      "gloss": "do, make",
+      "reviewed": true
+    },
+    {
+      "rank": 19,
+      "lemma_id": "H430",
+      "citation_form": "אֱלֹהִים",
+      "pos": "Noun",
+      "frequency": 2600,
+      "gloss": "God, gods",
+      "reviewed": true
+    },
+    {
+      "rank": 20,
+      "lemma_id": "H935",
+      "citation_form": "בּוֹא",
+      "pos": "Verb",
+      "frequency": 2592,
+      "gloss": "come, go, enter",
+      "reviewed": true
+    },
+    {
+      "rank": 21,
+      "lemma_id": "H4428",
+      "citation_form": "מֶלֶךְ",
+      "pos": "Noun",
+      "frequency": 2526,
+      "gloss": "king",
+      "reviewed": true
+    },
+    {
+      "rank": 22,
+      "lemma_id": "H3478",
+      "citation_form": "יִשְׂרָאֵל",
+      "pos": "Noun",
+      "frequency": 2507,
+      "gloss": "Israel",
+      "reviewed": true
+    },
+    {
+      "rank": 23,
+      "lemma_id": "H776",
+      "citation_form": "אֶרֶץ",
+      "pos": "Noun",
+      "frequency": 2505,
+      "gloss": "land, earth",
+      "reviewed": true
+    },
+    {
+      "rank": 24,
+      "lemma_id": "H3117",
+      "citation_form": "יוֹם",
+      "pos": "Noun",
+      "frequency": 2304,
+      "gloss": "day",
+      "reviewed": true
+    },
+    {
+      "rank": 25,
+      "lemma_id": "H376",
+      "citation_form": "אִישׁ",
+      "pos": "Noun",
+      "frequency": 2187,
+      "gloss": "man",
+      "reviewed": true
+    },
+    {
+      "rank": 26,
+      "lemma_id": "H6440",
+      "citation_form": "פָּנִים",
+      "pos": "Noun",
+      "frequency": 2127,
+      "gloss": "face",
+      "reviewed": true
+    },
+    {
+      "rank": 27,
+      "lemma_id": "H1004",
+      "citation_form": "בַּיִת",
+      "pos": "Noun",
+      "frequency": 2056,
+      "gloss": "house",
+      "reviewed": true
+    },
+    {
+      "rank": 28,
+      "lemma_id": "H5414",
+      "citation_form": "נָתַן",
+      "pos": "Verb",
+      "frequency": 2015,
+      "gloss": "give",
+      "reviewed": true
+    },
+    {
+      "rank": 29,
+      "lemma_id": "H1931",
+      "citation_form": "הוּא",
+      "pos": "Pronoun",
+      "frequency": 1889,
+      "gloss": "he, it",
+      "reviewed": true
+    },
+    {
+      "rank": 30,
+      "lemma_id": "H5971",
+      "citation_form": "עַם",
+      "pos": "Noun",
+      "frequency": 1870,
+      "gloss": "people",
+      "reviewed": true
+    },
+    {
+      "rank": 31,
+      "lemma_id": "H3027",
+      "citation_form": "יָד",
+      "pos": "Noun",
+      "frequency": 1627,
+      "gloss": "hand",
+      "reviewed": true
+    },
+    {
+      "rank": 32,
+      "lemma_id": "H1697",
+      "citation_form": "דָּבָר",
+      "pos": "Noun",
+      "frequency": 1455,
+      "gloss": "word, thing",
+      "reviewed": true
+    },
+    {
+      "rank": 33,
+      "lemma_id": "H7200",
+      "citation_form": "רָאָה",
+      "pos": "Verb",
+      "frequency": 1314,
+      "gloss": "see",
+      "reviewed": true
+    },
+    {
+      "rank": 34,
+      "lemma_id": "H5704",
+      "citation_form": "עַד",
+      "pos": "Preposition",
+      "frequency": 1263,
+      "gloss": "until, as far as",
+      "reviewed": true
+    },
+    {
+      "rank": 35,
+      "lemma_id": "H4480",
+      "citation_form": "מִן",
+      "pos": "Preposition",
+      "frequency": 1230,
+      "gloss": "from",
+      "reviewed": true
+    },
+    {
+      "rank": 36,
+      "lemma_id": "H1",
+      "citation_form": "אָב",
+      "pos": "Noun",
+      "frequency": 1213,
+      "gloss": "father",
+      "reviewed": true
+    },
+    {
+      "rank": 37,
+      "lemma_id": "H2088",
+      "citation_form": "זֶה",
+      "pos": "Pronoun",
+      "frequency": 1178,
+      "gloss": "this",
+      "reviewed": true
+    },
+    {
+      "rank": 38,
+      "lemma_id": "H8085",
+      "citation_form": "שָׁמַע",
+      "pos": "Verb",
+      "frequency": 1165,
+      "gloss": "hear, listen, obey",
+      "reviewed": true
+    },
+    {
+      "rank": 39,
+      "lemma_id": "H1696",
+      "citation_form": "דָבַר",
+      "pos": "Verb",
+      "frequency": 1144,
+      "gloss": "speak",
+      "reviewed": true
+    },
+    {
+      "rank": 40,
+      "lemma_id": "H859",
+      "citation_form": "אַתָּה",
+      "pos": "Pronoun",
+      "frequency": 1104,
+      "gloss": "you (m.s.)",
+      "reviewed": true
+    },
+    {
+      "rank": 41,
+      "lemma_id": "H5892",
+      "citation_form": "עִיר",
+      "pos": "Noun",
+      "frequency": 1095,
+      "gloss": "city",
+      "reviewed": true
+    },
+    {
+      "rank": 42,
+      "lemma_id": "H3427",
+      "citation_form": "יָשַׁב",
+      "pos": "Verb",
+      "frequency": 1092,
+      "gloss": "sit, dwell, live",
+      "reviewed": true
+    },
+    {
+      "rank": 43,
+      "lemma_id": "H3318",
+      "citation_form": "יָצָא",
+      "pos": "Verb",
+      "frequency": 1076,
+      "gloss": "go out, come out",
+      "reviewed": true
+    },
+    {
+      "rank": 44,
+      "lemma_id": "H1732",
+      "citation_form": "דָּוִד",
+      "pos": "Noun",
+      "frequency": 1075,
+      "gloss": "David",
+      "reviewed": true
+    },
+    {
+      "rank": 45,
+      "lemma_id": "H7725",
+      "citation_form": "שׁוּב",
+      "pos": "Verb",
+      "frequency": 1073,
+      "gloss": "return, turn back",
+      "reviewed": true
+    },
+    {
+      "rank": 46,
+      "lemma_id": "H518",
+      "citation_form": "אִם",
+      "pos": "Conjunction",
+      "frequency": 1070,
+      "gloss": "if",
+      "reviewed": true
+    },
+    {
+      "rank": 47,
+      "lemma_id": "H5973",
+      "citation_form": "עִם",
+      "pos": "Preposition",
+      "frequency": 1049,
+      "gloss": "with",
+      "reviewed": true
+    },
+    {
+      "rank": 48,
+      "lemma_id": "H3212",
+      "citation_form": "יָלַךְ",
+      "pos": "Verb",
+      "frequency": 1044,
+      "gloss": "go, walk",
+      "reviewed": true
+    },
+    {
+      "rank": 49,
+      "lemma_id": "H259",
+      "citation_form": "אֶחָד",
+      "pos": "Adjective",
+      "frequency": 976,
+      "gloss": "one",
+      "reviewed": true
+    },
+    {
+      "rank": 50,
+      "lemma_id": "H3947",
+      "citation_form": "לָקַח",
+      "pos": "Verb",
+      "frequency": 967,
+      "gloss": "take",
+      "reviewed": true
+    },
+    {
+      "rank": 51,
+      "lemma_id": "H3045",
+      "citation_form": "יָדַע",
+      "pos": "Verb",
+      "frequency": 953,
+      "gloss": "know",
+      "reviewed": true
+    },
+    {
+      "rank": 52,
+      "lemma_id": "H5869",
+      "citation_form": "עַיִן",
+      "pos": "Noun",
+      "frequency": 897,
+      "gloss": "eye, spring",
+      "reviewed": true
+    },
+    {
+      "rank": 53,
+      "lemma_id": "H5927",
+      "citation_form": "עָלָה",
+      "pos": "Verb",
+      "frequency": 894,
+      "gloss": "go up, ascend",
+      "reviewed": true
+    },
+    {
+      "rank": 54,
+      "lemma_id": "H854",
+      "citation_form": "אֵת",
+      "pos": "Preposition",
+      "frequency": 889,
+      "gloss": "with",
+      "reviewed": true
+    },
+    {
+      "rank": 55,
+      "lemma_id": "H8141",
+      "citation_form": "שָׁנֶה",
+      "pos": "Noun",
+      "frequency": 880,
+      "gloss": "year",
+      "reviewed": true
+    },
+    {
+      "rank": 56,
+      "lemma_id": "H589",
+      "citation_form": "אֲנִי",
+      "pos": "Pronoun",
+      "frequency": 874,
+      "gloss": "I",
+      "reviewed": true
+    },
+    {
+      "rank": 57,
+      "lemma_id": "H8034",
+      "citation_form": "שֵׁם",
+      "pos": "Noun",
+      "frequency": 864,
+      "gloss": "name",
+      "reviewed": true
+    },
+    {
+      "rank": 58,
+      "lemma_id": "H7971",
+      "citation_form": "שָׁלַח",
+      "pos": "Verb",
+      "frequency": 847,
+      "gloss": "send",
+      "reviewed": true
+    },
+    {
+      "rank": 59,
+      "lemma_id": "H2009",
+      "citation_form": "הִנֵּה",
+      "pos": "Particle",
+      "frequency": 843,
+      "gloss": "behold, here is",
+      "reviewed": true
+    },
+    {
+      "rank": 60,
+      "lemma_id": "H4191",
+      "citation_form": "מוּת",
+      "pos": "Verb",
+      "frequency": 839,
+      "gloss": "die",
+      "reviewed": true
+    },
+    {
+      "rank": 61,
+      "lemma_id": "H8033",
+      "citation_form": "שָׁם",
+      "pos": "Adverb",
+      "frequency": 835,
+      "gloss": "there",
+      "reviewed": true
+    },
+    {
+      "rank": 62,
+      "lemma_id": "H3063",
+      "citation_form": "יְהוּדָה",
+      "pos": "Noun",
+      "frequency": 819,
+      "gloss": "Judah",
+      "reviewed": true
+    },
+    {
+      "rank": 63,
+      "lemma_id": "H398",
+      "citation_form": "אָכַל",
+      "pos": "Verb",
+      "frequency": 815,
+      "gloss": "eat",
+      "reviewed": true
+    },
+    {
+      "rank": 64,
+      "lemma_id": "H5650",
+      "citation_form": "עֶבֶד",
+      "pos": "Noun",
+      "frequency": 803,
+      "gloss": "servant, slave",
+      "reviewed": true
+    },
+    {
+      "rank": 65,
+      "lemma_id": "H369",
+      "citation_form": "אַיִן",
+      "pos": "Particle",
+      "frequency": 790,
+      "gloss": "there is not, no",
+      "reviewed": true
+    },
+    {
+      "rank": 66,
+      "lemma_id": "H802",
+      "citation_form": "אִשָּׁה",
+      "pos": "Noun",
+      "frequency": 781,
+      "gloss": "woman, wife",
+      "reviewed": true
+    },
+    {
+      "rank": 67,
+      "lemma_id": "H3651",
+      "citation_form": "כֵּן",
+      "pos": "Particle",
+      "frequency": 771,
+      "gloss": "so, thus, right",
+      "reviewed": true
+    },
+    {
+      "rank": 68,
+      "lemma_id": "H1571",
+      "citation_form": "גַּם",
+      "pos": "Particle",
+      "frequency": 769,
+      "gloss": "also, even",
+      "reviewed": true
+    },
+    {
+      "rank": 69,
+      "lemma_id": "H8147",
+      "citation_form": "שְׁנַיִם",
+      "pos": "Adjective",
+      "frequency": 769,
+      "gloss": "two",
+      "reviewed": true
+    },
+    {
+      "rank": 70,
+      "lemma_id": "H4872",
+      "citation_form": "מֹשֶׁה",
+      "pos": "Noun",
+      "frequency": 766,
+      "gloss": "Moses",
+      "reviewed": true
+    },
+    {
+      "rank": 71,
+      "lemma_id": "H5315",
+      "citation_form": "נֶפֶשׁ",
+      "pos": "Noun",
+      "frequency": 757,
+      "gloss": "soul, self, life, person",
+      "reviewed": true
+    },
+    {
+      "rank": 72,
+      "lemma_id": "H3548",
+      "citation_form": "כֹּהֵן",
+      "pos": "Noun",
+      "frequency": 750,
+      "gloss": "priest",
+      "reviewed": true
+    },
+    {
+      "rank": 73,
+      "lemma_id": "H4100",
+      "citation_form": "מָה",
+      "pos": "Particle",
+      "frequency": 750,
+      "gloss": "what?",
+      "reviewed": true
+    },
+    {
+      "rank": 74,
+      "lemma_id": "H428",
+      "citation_form": "אֵלֶּה",
+      "pos": "Pronoun",
+      "frequency": 747,
+      "gloss": "these",
+      "reviewed": true
+    },
+    {
+      "rank": 75,
+      "lemma_id": "H7121",
+      "citation_form": "קָרָא",
+      "pos": "Verb",
+      "frequency": 739,
+      "gloss": "call, call out, proclaim, read aloud",
+      "reviewed": true
+    },
+    {
+      "rank": 76,
+      "lemma_id": "H408",
+      "citation_form": "אַל",
+      "pos": "Particle",
+      "frequency": 725,
+      "gloss": "do not, no",
+      "reviewed": true
+    },
+    {
+      "rank": 77,
+      "lemma_id": "H310",
+      "citation_form": "אַחַר",
+      "pos": "Preposition",
+      "frequency": 718,
+      "gloss": "after, behind",
+      "reviewed": true
+    },
+    {
+      "rank": 78,
+      "lemma_id": "H1870",
+      "citation_form": "דֶּרֶךְ",
+      "pos": "Noun",
+      "frequency": 712,
+      "gloss": "way, road, journey",
+      "reviewed": true
+    },
+    {
+      "rank": 79,
+      "lemma_id": "H7451",
+      "citation_form": "רַע",
+      "pos": "Adjective",
+      "frequency": 666,
+      "gloss": "evil, bad",
+      "reviewed": true
+    },
+    {
+      "rank": 80,
+      "lemma_id": "F-i",
+      "citation_form": "הֲ",
+      "pos": "Interrogative particle",
+      "frequency": 662,
+      "gloss": "(marks a yes/no question)",
+      "reviewed": true
+    },
+    {
+      "rank": 81,
+      "lemma_id": "H5375",
+      "citation_form": "נָשָׂא",
+      "pos": "Verb",
+      "frequency": 654,
+      "gloss": "lift, carry, bear",
+      "reviewed": true
+    },
+    {
+      "rank": 82,
+      "lemma_id": "H3389",
+      "citation_form": "יְרוּשָׁלִַ͏ם",
+      "pos": "Noun",
+      "frequency": 643,
+      "gloss": "Jerusalem",
+      "reviewed": true
+    },
+    {
+      "rank": 83,
+      "lemma_id": "H4714",
+      "citation_form": "מִצְרַיִם",
+      "pos": "Noun",
+      "frequency": 635,
+      "gloss": "Egypt",
+      "reviewed": true
+    },
+    {
+      "rank": 84,
+      "lemma_id": "H251",
+      "citation_form": "אָח",
+      "pos": "Noun",
+      "frequency": 630,
+      "gloss": "brother",
+      "reviewed": true
+    },
+    {
+      "rank": 85,
+      "lemma_id": "H6965",
+      "citation_form": "קוּם",
+      "pos": "Verb",
+      "frequency": 628,
+      "gloss": "rise, stand up",
+      "reviewed": true
+    },
+    {
+      "rank": 86,
+      "lemma_id": "H2063",
+      "citation_form": "זֹאת",
+      "pos": "Pronoun",
+      "frequency": 605,
+      "gloss": "this (f.)",
+      "reviewed": true
+    },
+    {
+      "rank": 87,
+      "lemma_id": "H7218",
+      "citation_form": "רֹאשׁ",
+      "pos": "Noun",
+      "frequency": 600,
+      "gloss": "head, top, chief",
+      "reviewed": true
+    },
+    {
+      "rank": 88,
+      "lemma_id": "H3820",
+      "citation_form": "לֵב",
+      "pos": "Noun",
+      "frequency": 596,
+      "gloss": "heart, mind",
+      "reviewed": true
+    },
+    {
+      "rank": 89,
+      "lemma_id": "H1323",
+      "citation_form": "בַּת",
+      "pos": "Noun",
+      "frequency": 590,
+      "gloss": "daughter",
+      "reviewed": true
+    },
+    {
+      "rank": 90,
+      "lemma_id": "H7760",
+      "citation_form": "שׂוּם",
+      "pos": "Verb",
+      "frequency": 586,
+      "gloss": "put, place, set",
+      "reviewed": true
+    },
+    {
+      "rank": 91,
+      "lemma_id": "H3967",
+      "citation_form": "מֵאָה",
+      "pos": "Adjective",
+      "frequency": 583,
+      "gloss": "hundred",
+      "reviewed": true
+    },
+    {
+      "rank": 92,
+      "lemma_id": "H4325",
+      "citation_form": "מַיִם",
+      "pos": "Noun",
+      "frequency": 582,
+      "gloss": "water",
+      "reviewed": true
+    },
+    {
+      "rank": 93,
+      "lemma_id": "H3541",
+      "citation_form": "כֹּה",
+      "pos": "Adverb",
+      "frequency": 577,
+      "gloss": "thus, so",
+      "reviewed": true
+    },
+    {
+      "rank": 94,
+      "lemma_id": "H1471",
+      "citation_form": "גּוֹי",
+      "pos": "Noun",
+      "frequency": 567,
+      "gloss": "nation, people",
+      "reviewed": true
+    },
+    {
+      "rank": 95,
+      "lemma_id": "H1992",
+      "citation_form": "הֵם",
+      "pos": "Pronoun",
+      "frequency": 566,
+      "gloss": "they (m.)",
+      "reviewed": true
+    },
+    {
+      "rank": 96,
+      "lemma_id": "H2896",
+      "citation_form": "טוֹב",
+      "pos": "Adjective",
+      "frequency": 565,
+      "gloss": "good",
+      "reviewed": true
+    },
+    {
+      "rank": 97,
+      "lemma_id": "H5674",
+      "citation_form": "עָבַר",
+      "pos": "Verb",
+      "frequency": 562,
+      "gloss": "cross over, pass through",
+      "reviewed": true
+    },
+    {
+      "rank": 98,
+      "lemma_id": "H120",
+      "citation_form": "אָדָם",
+      "pos": "Noun",
+      "frequency": 552,
+      "gloss": "man, mankind, Adam",
+      "reviewed": true
+    },
+    {
+      "rank": 99,
+      "lemma_id": "H2022",
+      "citation_form": "הַר",
+      "pos": "Noun",
+      "frequency": 547,
+      "gloss": "mountain, hill",
+      "reviewed": true
+    },
+    {
+      "rank": 100,
+      "lemma_id": "H1419",
+      "citation_form": "גָּדוֹל",
+      "pos": "Adjective",
+      "frequency": 530,
+      "gloss": "great, big",
+      "reviewed": true
+    }
+  ]
+}

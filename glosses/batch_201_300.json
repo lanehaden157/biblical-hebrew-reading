@@ -1,0 +1,911 @@
+{
+  "metadata": {
+    "batch_rank_range": [
+      201,
+      300
+    ],
+    "status": "curated and reviewed"
+  },
+  "entries": [
+    {
+      "rank": 201,
+      "lemma_id": "H520",
+      "citation_form": "אַמָּה",
+      "pos": "Noun",
+      "frequency": 249,
+      "gloss": "cubit",
+      "reviewed": true
+    },
+    {
+      "rank": 202,
+      "lemma_id": "H410",
+      "citation_form": "אֵל",
+      "pos": "Noun",
+      "frequency": 245,
+      "gloss": "God, god, mighty one",
+      "reviewed": true
+    },
+    {
+      "rank": 203,
+      "lemma_id": "H1366",
+      "citation_form": "גְּבוּל",
+      "pos": "Noun",
+      "frequency": 241,
+      "gloss": "border, territory, boundary",
+      "reviewed": true
+    },
+    {
+      "rank": 204,
+      "lemma_id": "H2398",
+      "citation_form": "חָטָא",
+      "pos": "Verb",
+      "frequency": 240,
+      "gloss": "sin, miss the mark, do wrong",
+      "reviewed": true
+    },
+    {
+      "rank": 205,
+      "lemma_id": "H5288",
+      "citation_form": "נַעַר",
+      "pos": "Noun",
+      "frequency": 239,
+      "gloss": "boy, young man, servant",
+      "reviewed": true
+    },
+    {
+      "rank": 206,
+      "lemma_id": "H7965",
+      "citation_form": "שָׁלוֹם",
+      "pos": "Noun",
+      "frequency": 237,
+      "gloss": "peace, well-being, completeness",
+      "reviewed": true
+    },
+    {
+      "rank": 207,
+      "lemma_id": "H2142",
+      "citation_form": "זָכַר",
+      "pos": "Verb",
+      "frequency": 235,
+      "gloss": "remember, mention",
+      "reviewed": true
+    },
+    {
+      "rank": 208,
+      "lemma_id": "H3915",
+      "citation_form": "לַיִל",
+      "pos": "Noun",
+      "frequency": 235,
+      "gloss": "night",
+      "reviewed": true
+    },
+    {
+      "rank": 209,
+      "lemma_id": "H4639",
+      "citation_form": "מַעֲשֶׂה",
+      "pos": "Noun",
+      "frequency": 235,
+      "gloss": "deed, work, action",
+      "reviewed": true
+    },
+    {
+      "rank": 210,
+      "lemma_id": "H7235",
+      "citation_form": "רָבָה",
+      "pos": "Verb",
+      "frequency": 235,
+      "gloss": "increase, multiply",
+      "reviewed": true
+    },
+    {
+      "rank": 211,
+      "lemma_id": "H2428",
+      "citation_form": "חַיִל",
+      "pos": "Noun",
+      "frequency": 234,
+      "gloss": "strength, army, wealth",
+      "reviewed": true
+    },
+    {
+      "rank": 212,
+      "lemma_id": "H3423",
+      "citation_form": "יָרַשׁ",
+      "pos": "Verb",
+      "frequency": 232,
+      "gloss": "take possession of, inherit, dispossess",
+      "reviewed": true
+    },
+    {
+      "rank": 213,
+      "lemma_id": "H5771",
+      "citation_form": "עָוֺן",
+      "pos": "Noun",
+      "frequency": 232,
+      "gloss": "iniquity, guilt, sin",
+      "reviewed": true
+    },
+    {
+      "rank": 214,
+      "lemma_id": "H2233",
+      "citation_form": "זֶרַע",
+      "pos": "Noun",
+      "frequency": 229,
+      "gloss": "seed, offspring, descendants",
+      "reviewed": true
+    },
+    {
+      "rank": 215,
+      "lemma_id": "H3789",
+      "citation_form": "כָּתַב",
+      "pos": "Verb",
+      "frequency": 227,
+      "gloss": "write",
+      "reviewed": true
+    },
+    {
+      "rank": 216,
+      "lemma_id": "H7130",
+      "citation_form": "קֶרֶב",
+      "pos": "Noun",
+      "frequency": 227,
+      "gloss": "midst, inward part",
+      "reviewed": true
+    },
+    {
+      "rank": 217,
+      "lemma_id": "H1245",
+      "citation_form": "בָּקַשׁ",
+      "pos": "Verb",
+      "frequency": 225,
+      "gloss": "seek, search for",
+      "reviewed": true
+    },
+    {
+      "rank": 218,
+      "lemma_id": "H127",
+      "citation_form": "אֲדָמָה",
+      "pos": "Noun",
+      "frequency": 225,
+      "gloss": "ground, land, soil",
+      "reviewed": true
+    },
+    {
+      "rank": 219,
+      "lemma_id": "H4150",
+      "citation_form": "מוֹעֵד",
+      "pos": "Noun",
+      "frequency": 223,
+      "gloss": "appointed time, festival, meeting",
+      "reviewed": true
+    },
+    {
+      "rank": 220,
+      "lemma_id": "H5159",
+      "citation_form": "נַחֲלָה",
+      "pos": "Noun",
+      "frequency": 222,
+      "gloss": "inheritance, possession",
+      "reviewed": true
+    },
+    {
+      "rank": 221,
+      "lemma_id": "H8451",
+      "citation_form": "תּוֹרָה",
+      "pos": "Noun",
+      "frequency": 222,
+      "gloss": "law, instruction, teaching",
+      "reviewed": true
+    },
+    {
+      "rank": 222,
+      "lemma_id": "H517",
+      "citation_form": "אֵם",
+      "pos": "Noun",
+      "frequency": 220,
+      "gloss": "mother",
+      "reviewed": true
+    },
+    {
+      "rank": 223,
+      "lemma_id": "H3559",
+      "citation_form": "כּוּן",
+      "pos": "Verb",
+      "frequency": 219,
+      "gloss": "be firm, establish, prepare",
+      "reviewed": true
+    },
+    {
+      "rank": 224,
+      "lemma_id": "H3091",
+      "citation_form": "יְהוֹשׁוּעַ",
+      "pos": "Noun",
+      "frequency": 218,
+      "gloss": "Joshua",
+      "reviewed": true
+    },
+    {
+      "rank": 225,
+      "lemma_id": "H899",
+      "citation_form": "בֶּגֶד",
+      "pos": "Noun",
+      "frequency": 218,
+      "gloss": "garment, clothing",
+      "reviewed": true
+    },
+    {
+      "rank": 226,
+      "lemma_id": "H8354",
+      "citation_form": "שָׁתָה",
+      "pos": "Verb",
+      "frequency": 217,
+      "gloss": "drink",
+      "reviewed": true
+    },
+    {
+      "rank": 227,
+      "lemma_id": "H4264",
+      "citation_form": "מַחֲנֶה",
+      "pos": "Noun",
+      "frequency": 216,
+      "gloss": "camp, army",
+      "reviewed": true
+    },
+    {
+      "rank": 228,
+      "lemma_id": "H5186",
+      "citation_form": "נָטָה",
+      "pos": "Verb",
+      "frequency": 216,
+      "gloss": "stretch out, extend, turn aside",
+      "reviewed": true
+    },
+    {
+      "rank": 229,
+      "lemma_id": "H5800",
+      "citation_form": "עָזַב",
+      "pos": "Verb",
+      "frequency": 215,
+      "gloss": "abandon, forsake, leave",
+      "reviewed": true
+    },
+    {
+      "rank": 230,
+      "lemma_id": "H8337",
+      "citation_form": "שֵׁשׁ",
+      "pos": "Adjective",
+      "frequency": 215,
+      "gloss": "six",
+      "reviewed": true
+    },
+    {
+      "rank": 231,
+      "lemma_id": "H1242",
+      "citation_form": "בֹּקֶר",
+      "pos": "Noun",
+      "frequency": 214,
+      "gloss": "morning",
+      "reviewed": true
+    },
+    {
+      "rank": 232,
+      "lemma_id": "H3130",
+      "citation_form": "יוֹסֵף",
+      "pos": "Noun",
+      "frequency": 213,
+      "gloss": "Joseph",
+      "reviewed": true
+    },
+    {
+      "rank": 233,
+      "lemma_id": "H4397",
+      "citation_form": "מַלְאָךְ",
+      "pos": "Noun",
+      "frequency": 213,
+      "gloss": "messenger, angel",
+      "reviewed": true
+    },
+    {
+      "rank": 234,
+      "lemma_id": "H5337",
+      "citation_form": "נָצַל",
+      "pos": "Verb",
+      "frequency": 213,
+      "gloss": "deliver, rescue, snatch away",
+      "reviewed": true
+    },
+    {
+      "rank": 235,
+      "lemma_id": "H7901",
+      "citation_form": "שָׁכַב",
+      "pos": "Verb",
+      "frequency": 213,
+      "gloss": "lie down",
+      "reviewed": true
+    },
+    {
+      "rank": 236,
+      "lemma_id": "H157",
+      "citation_form": "אָהַב",
+      "pos": "Verb",
+      "frequency": 211,
+      "gloss": "love",
+      "reviewed": true
+    },
+    {
+      "rank": 237,
+      "lemma_id": "H4503",
+      "citation_form": "מִנְחָה",
+      "pos": "Noun",
+      "frequency": 211,
+      "gloss": "gift, offering, tribute",
+      "reviewed": true
+    },
+    {
+      "rank": 238,
+      "lemma_id": "H3254",
+      "citation_form": "יָסַף",
+      "pos": "Verb",
+      "frequency": 210,
+      "gloss": "add, do again, continue",
+      "reviewed": true
+    },
+    {
+      "rank": 239,
+      "lemma_id": "H3467",
+      "citation_form": "יָשַׁע",
+      "pos": "Verb",
+      "frequency": 206,
+      "gloss": "save, deliver, help",
+      "reviewed": true
+    },
+    {
+      "rank": 240,
+      "lemma_id": "H6662",
+      "citation_form": "צַדִּיק",
+      "pos": "Adjective",
+      "frequency": 206,
+      "gloss": "righteous, just",
+      "reviewed": true
+    },
+    {
+      "rank": 241,
+      "lemma_id": "H3615",
+      "citation_form": "כָּלָה",
+      "pos": "Verb",
+      "frequency": 205,
+      "gloss": "finish, complete, come to an end",
+      "reviewed": true
+    },
+    {
+      "rank": 242,
+      "lemma_id": "H8199",
+      "citation_form": "שָׁפַט",
+      "pos": "Verb",
+      "frequency": 204,
+      "gloss": "judge, govern",
+      "reviewed": true
+    },
+    {
+      "rank": 243,
+      "lemma_id": "H622",
+      "citation_form": "אָסַף",
+      "pos": "Verb",
+      "frequency": 202,
+      "gloss": "gather",
+      "reviewed": true
+    },
+    {
+      "rank": 244,
+      "lemma_id": "H727",
+      "citation_form": "אָרוֹן",
+      "pos": "Noun",
+      "frequency": 202,
+      "gloss": "ark, chest",
+      "reviewed": true
+    },
+    {
+      "rank": 245,
+      "lemma_id": "H905",
+      "citation_form": "בַּד",
+      "pos": "Noun",
+      "frequency": 202,
+      "gloss": "part, portion; bar, pole (for carrying); alone, apart",
+      "reviewed": true
+    },
+    {
+      "rank": 246,
+      "lemma_id": "H3519",
+      "citation_form": "כָּבוֹד",
+      "pos": "Noun",
+      "frequency": 200,
+      "gloss": "glory, honor",
+      "reviewed": true
+    },
+    {
+      "rank": 247,
+      "lemma_id": "H352",
+      "citation_form": "אַיִל",
+      "pos": "Noun",
+      "frequency": 196,
+      "gloss": "ram; pillar, pilaster; leader, chief",
+      "reviewed": true
+    },
+    {
+      "rank": 248,
+      "lemma_id": "H3709",
+      "citation_form": "כַּף",
+      "pos": "Noun",
+      "frequency": 195,
+      "gloss": "palm (of hand), sole (of foot)",
+      "reviewed": true
+    },
+    {
+      "rank": 249,
+      "lemma_id": "H3201",
+      "citation_form": "יָכֹל",
+      "pos": "Verb",
+      "frequency": 194,
+      "gloss": "be able, can, prevail",
+      "reviewed": true
+    },
+    {
+      "rank": 250,
+      "lemma_id": "H7311",
+      "citation_form": "רוּם",
+      "pos": "Verb",
+      "frequency": 193,
+      "gloss": "be high, be exalted, rise",
+      "reviewed": true
+    },
+    {
+      "rank": 251,
+      "lemma_id": "H8081",
+      "citation_form": "שֶׁמֶן",
+      "pos": "Noun",
+      "frequency": 193,
+      "gloss": "oil, fat",
+      "reviewed": true
+    },
+    {
+      "rank": 252,
+      "lemma_id": "H2691",
+      "citation_form": "חָצֵר",
+      "pos": "Noun",
+      "frequency": 190,
+      "gloss": "courtyard, settlement, village",
+      "reviewed": true
+    },
+    {
+      "rank": 253,
+      "lemma_id": "H7626",
+      "citation_form": "שֵׁבֶט",
+      "pos": "Noun",
+      "frequency": 190,
+      "gloss": "tribe, rod, staff",
+      "reviewed": true
+    },
+    {
+      "rank": 254,
+      "lemma_id": "H929",
+      "citation_form": "בְּהֵמָה",
+      "pos": "Noun",
+      "frequency": 190,
+      "gloss": "animal, beast, cattle",
+      "reviewed": true
+    },
+    {
+      "rank": 255,
+      "lemma_id": "H7453",
+      "citation_form": "רֵעַ",
+      "pos": "Noun",
+      "frequency": 189,
+      "gloss": "friend, companion, neighbor",
+      "reviewed": true
+    },
+    {
+      "rank": 256,
+      "lemma_id": "H241",
+      "citation_form": "אֹזֶן",
+      "pos": "Noun",
+      "frequency": 188,
+      "gloss": "ear",
+      "reviewed": true
+    },
+    {
+      "rank": 257,
+      "lemma_id": "H5612",
+      "citation_form": "סֵפֶר",
+      "pos": "Noun",
+      "frequency": 188,
+      "gloss": "book, scroll, document",
+      "reviewed": true
+    },
+    {
+      "rank": 258,
+      "lemma_id": "H1540",
+      "citation_form": "גָּלָה",
+      "pos": "Verb",
+      "frequency": 186,
+      "gloss": "uncover, reveal; go into exile",
+      "reviewed": true
+    },
+    {
+      "rank": 259,
+      "lemma_id": "H7650",
+      "citation_form": "שָׁבַע",
+      "pos": "Verb",
+      "frequency": 186,
+      "gloss": "swear, take an oath",
+      "reviewed": true
+    },
+    {
+      "rank": 260,
+      "lemma_id": "H6",
+      "citation_form": "אָבַד",
+      "pos": "Verb",
+      "frequency": 185,
+      "gloss": "perish, be destroyed; destroy",
+      "reviewed": true
+    },
+    {
+      "rank": 261,
+      "lemma_id": "H4687",
+      "citation_form": "מִצְוָה",
+      "pos": "Noun",
+      "frequency": 184,
+      "gloss": "commandment",
+      "reviewed": true
+    },
+    {
+      "rank": 262,
+      "lemma_id": "H1241",
+      "citation_form": "בָּקָר",
+      "pos": "Noun",
+      "frequency": 183,
+      "gloss": "cattle, herd, ox",
+      "reviewed": true
+    },
+    {
+      "rank": 263,
+      "lemma_id": "H3383",
+      "citation_form": "יַרְדֵּן",
+      "pos": "Noun",
+      "frequency": 183,
+      "gloss": "Jordan",
+      "reviewed": true
+    },
+    {
+      "rank": 264,
+      "lemma_id": "H7223",
+      "citation_form": "רִאשׁוֹן",
+      "pos": "Adjective",
+      "frequency": 182,
+      "gloss": "first, former",
+      "reviewed": true
+    },
+    {
+      "rank": 265,
+      "lemma_id": "H4124",
+      "citation_form": "מוֹאָב",
+      "pos": "Noun",
+      "frequency": 181,
+      "gloss": "Moab",
+      "reviewed": true
+    },
+    {
+      "rank": 266,
+      "lemma_id": "H4430",
+      "citation_form": "מֶלֶךְ",
+      "pos": "Noun",
+      "frequency": 180,
+      "gloss": "king (Aramaic)",
+      "reviewed": true
+    },
+    {
+      "rank": 267,
+      "lemma_id": "H669",
+      "citation_form": "אֶפְרַיִם",
+      "pos": "Noun",
+      "frequency": 180,
+      "gloss": "Ephraim",
+      "reviewed": true
+    },
+    {
+      "rank": 268,
+      "lemma_id": "H2205",
+      "citation_form": "זָקֵן",
+      "pos": "Adjective",
+      "frequency": 179,
+      "gloss": "old, elder",
+      "reviewed": true
+    },
+    {
+      "rank": 269,
+      "lemma_id": "H3898",
+      "citation_form": "לָחַם",
+      "pos": "Verb",
+      "frequency": 177,
+      "gloss": "fight, wage war",
+      "reviewed": true
+    },
+    {
+      "rank": 270,
+      "lemma_id": "H6235",
+      "citation_form": "עֶשֶׂר",
+      "pos": "Adjective",
+      "frequency": 177,
+      "gloss": "ten",
+      "reviewed": true
+    },
+    {
+      "rank": 271,
+      "lemma_id": "H8193",
+      "citation_form": "שָׂפָה",
+      "pos": "Noun",
+      "frequency": 177,
+      "gloss": "lip, language, edge",
+      "reviewed": true
+    },
+    {
+      "rank": 272,
+      "lemma_id": "H7592",
+      "citation_form": "שָׁאַל",
+      "pos": "Verb",
+      "frequency": 176,
+      "gloss": "ask, inquire, request",
+      "reviewed": true
+    },
+    {
+      "rank": 273,
+      "lemma_id": "H7812",
+      "citation_form": "שָׁחָה",
+      "pos": "Verb",
+      "frequency": 175,
+      "gloss": "bow down, worship",
+      "reviewed": true
+    },
+    {
+      "rank": 274,
+      "lemma_id": "H7970",
+      "citation_form": "שְׁלוֹשִׁים",
+      "pos": "Adjective",
+      "frequency": 175,
+      "gloss": "thirty",
+      "reviewed": true
+    },
+    {
+      "rank": 275,
+      "lemma_id": "H85",
+      "citation_form": "אַבְרָהָם",
+      "pos": "Noun",
+      "frequency": 175,
+      "gloss": "Abraham",
+      "reviewed": true
+    },
+    {
+      "rank": 276,
+      "lemma_id": "H6942",
+      "citation_form": "קָדַשׁ",
+      "pos": "Verb",
+      "frequency": 173,
+      "gloss": "be holy, consecrate, sanctify",
+      "reviewed": true
+    },
+    {
+      "rank": 277,
+      "lemma_id": "H995",
+      "citation_form": "בִּין",
+      "pos": "Verb",
+      "frequency": 171,
+      "gloss": "understand, discern",
+      "reviewed": true
+    },
+    {
+      "rank": 278,
+      "lemma_id": "H977",
+      "citation_form": "בָּחַר",
+      "pos": "Verb",
+      "frequency": 170,
+      "gloss": "choose",
+      "reviewed": true
+    },
+    {
+      "rank": 279,
+      "lemma_id": "H1755",
+      "citation_form": "דּוֹר",
+      "pos": "Noun",
+      "frequency": 168,
+      "gloss": "generation",
+      "reviewed": true
+    },
+    {
+      "rank": 280,
+      "lemma_id": "H1144",
+      "citation_form": "בִּנְיָמִין",
+      "pos": "Noun",
+      "frequency": 167,
+      "gloss": "Benjamin",
+      "reviewed": true
+    },
+    {
+      "rank": 281,
+      "lemma_id": "H2026",
+      "citation_form": "הָרַג",
+      "pos": "Verb",
+      "frequency": 167,
+      "gloss": "kill, slay",
+      "reviewed": true
+    },
+    {
+      "rank": 282,
+      "lemma_id": "H4399",
+      "citation_form": "מְלָאכָה",
+      "pos": "Noun",
+      "frequency": 167,
+      "gloss": "work, occupation, labor",
+      "reviewed": true
+    },
+    {
+      "rank": 283,
+      "lemma_id": "H312",
+      "citation_form": "אַחֵר",
+      "pos": "Adjective",
+      "frequency": 166,
+      "gloss": "other, another",
+      "reviewed": true
+    },
+    {
+      "rank": 284,
+      "lemma_id": "H1875",
+      "citation_form": "דָּרַשׁ",
+      "pos": "Verb",
+      "frequency": 165,
+      "gloss": "seek, inquire, require",
+      "reviewed": true
+    },
+    {
+      "rank": 285,
+      "lemma_id": "H1984",
+      "citation_form": "הָלַל",
+      "pos": "Verb",
+      "frequency": 165,
+      "gloss": "praise",
+      "reviewed": true
+    },
+    {
+      "rank": 286,
+      "lemma_id": "H2351",
+      "citation_form": "חוּץ",
+      "pos": "Noun",
+      "frequency": 164,
+      "gloss": "outside, street",
+      "reviewed": true
+    },
+    {
+      "rank": 287,
+      "lemma_id": "H6607",
+      "citation_form": "פֶּתַח",
+      "pos": "Noun",
+      "frequency": 164,
+      "gloss": "entrance, doorway, opening",
+      "reviewed": true
+    },
+    {
+      "rank": 288,
+      "lemma_id": "H7462",
+      "citation_form": "רָעָה",
+      "pos": "Verb",
+      "frequency": 164,
+      "gloss": "shepherd, tend, pasture",
+      "reviewed": true
+    },
+    {
+      "rank": 289,
+      "lemma_id": "H2572",
+      "citation_form": "חֲמִשִּׁים",
+      "pos": "Adjective",
+      "frequency": 163,
+      "gloss": "fifty",
+      "reviewed": true
+    },
+    {
+      "rank": 290,
+      "lemma_id": "H2077",
+      "citation_form": "זֶבַח",
+      "pos": "Noun",
+      "frequency": 162,
+      "gloss": "sacrifice",
+      "reviewed": true
+    },
+    {
+      "rank": 291,
+      "lemma_id": "H2930",
+      "citation_form": "טָמֵא",
+      "pos": "Verb",
+      "frequency": 162,
+      "gloss": "be unclean, defiled",
+      "reviewed": true
+    },
+    {
+      "rank": 292,
+      "lemma_id": "H389",
+      "citation_form": "אַךְ",
+      "pos": "Particle",
+      "frequency": 161,
+      "gloss": "surely, only, but",
+      "reviewed": true
+    },
+    {
+      "rank": 293,
+      "lemma_id": "H5127",
+      "citation_form": "נוּס",
+      "pos": "Verb",
+      "frequency": 161,
+      "gloss": "flee",
+      "reviewed": true
+    },
+    {
+      "rank": 294,
+      "lemma_id": "H5608",
+      "citation_form": "סָפַר",
+      "pos": "Verb",
+      "frequency": 161,
+      "gloss": "count, recount, tell",
+      "reviewed": true
+    },
+    {
+      "rank": 295,
+      "lemma_id": "H1368",
+      "citation_form": "גִּבּוֹר",
+      "pos": "Adjective",
+      "frequency": 160,
+      "gloss": "mighty, warrior, hero",
+      "reviewed": true
+    },
+    {
+      "rank": 296,
+      "lemma_id": "H6666",
+      "citation_form": "צְדָקָה",
+      "pos": "Noun",
+      "frequency": 159,
+      "gloss": "righteousness",
+      "reviewed": true
+    },
+    {
+      "rank": 297,
+      "lemma_id": "H4194",
+      "citation_form": "מָוֶת",
+      "pos": "Noun",
+      "frequency": 158,
+      "gloss": "death",
+      "reviewed": true
+    },
+    {
+      "rank": 298,
+      "lemma_id": "H5437",
+      "citation_form": "סָבַב",
+      "pos": "Verb",
+      "frequency": 158,
+      "gloss": "turn, surround, go around",
+      "reviewed": true
+    },
+    {
+      "rank": 299,
+      "lemma_id": "H8055",
+      "citation_form": "שָׂמַח",
+      "pos": "Verb",
+      "frequency": 158,
+      "gloss": "rejoice, be glad",
+      "reviewed": true
+    },
+    {
+      "rank": 300,
+      "lemma_id": "H8145",
+      "citation_form": "שֵׁנִי",
+      "pos": "Adjective",
+      "frequency": 157,
+      "gloss": "second",
+      "reviewed": true
+    }
+  ]
+}

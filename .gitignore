@@ -1,0 +1,3 @@
+pipeline/corpus/
+__pycache__/
+*.pyc
