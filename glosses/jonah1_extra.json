@@ -1,0 +1,341 @@
+{
+  "metadata": {
+    "source": "lemmas in Jonah 1 (Hebrew/WLC versification, 16 verses) not already in data/vocab_deck_600.json",
+    "status": "curated and reviewed",
+    "count": 31
+  },
+  "entries": [
+    {
+      "lemma_id": "H1272",
+      "citation_form": "בָּרַח",
+      "pos": "Verb",
+      "strongs_defs_for_reference": [
+        "bolt",
+        "flee"
+      ],
+      "gloss": "flee",
+      "reviewed": true
+    },
+    {
+      "lemma_id": "H194",
+      "citation_form": "אוּלַי",
+      "pos": "Adverb",
+      "strongs_defs_for_reference": [
+        "if not"
+      ],
+      "gloss": "perhaps, maybe",
+      "reviewed": true
+    },
+    {
+      "lemma_id": "H2197",
+      "citation_form": "זַעַף",
+      "pos": "Verb",
+      "strongs_defs_for_reference": [
+        "anger"
+      ],
+      "gloss": "rage, storm (verb; Jonah 1:15 is an infinitive construct, \"from its raging\")",
+      "reviewed": true
+    },
+    {
+      "lemma_id": "H2259",
+      "citation_form": "חֹבֵל",
+      "pos": "Noun",
+      "strongs_defs_for_reference": [
+        "sailor"
+      ],
+      "gloss": "sailor (rav ha-khovel: ship's captain)",
+      "reviewed": true
+    },
+    {
+      "lemma_id": "H2864",
+      "citation_form": "חָתַר",
+      "pos": "Verb",
+      "strongs_defs_for_reference": [
+        "force a passage",
+        "with oars"
+      ],
+      "gloss": "row (a boat)",
+      "reviewed": true
+    },
+    {
+      "lemma_id": "H2904",
+      "citation_form": "טוּל",
+      "pos": "Verb",
+      "strongs_defs_for_reference": [
+        "pitch",
+        "reel",
+        "cast"
+      ],
+      "gloss": "hurl, throw, cast",
+      "reviewed": true
+    },
+    {
+      "lemma_id": "H3004",
+      "citation_form": "יַבָּשָׁה",
+      "pos": "Noun",
+      "strongs_defs_for_reference": [
+        "dry ground"
+      ],
+      "gloss": "dry ground, dry land",
+      "reviewed": true
+    },
+    {
+      "lemma_id": "H3124",
+      "citation_form": "יוֹנָה",
+      "pos": "Noun",
+      "strongs_defs_for_reference": [
+        "Jonah"
+      ],
+      "gloss": "Jonah (proper name)",
+      "reviewed": true
+    },
+    {
+      "lemma_id": "H3305",
+      "citation_form": "יָפוֹ",
+      "pos": "Noun",
+      "strongs_defs_for_reference": [
+        "Japho"
+      ],
+      "gloss": "Joppa (place name)",
+      "reviewed": true
+    },
+    {
+      "lemma_id": "H335",
+      "citation_form": "אַי",
+      "pos": "Particle",
+      "strongs_defs_for_reference": [
+        "where?",
+        "how?"
+      ],
+      "gloss": "where? what sort?",
+      "reviewed": true
+    },
+    {
+      "lemma_id": "H3373",
+      "citation_form": "יָרֵא",
+      "pos": "Noun",
+      "strongs_defs_for_reference": [
+        "fearing",
+        "reverent"
+      ],
+      "gloss": "fear, be afraid; (fem. noun) fear, dread",
+      "reviewed": true
+    },
+    {
+      "lemma_id": "H3411",
+      "citation_form": "יְרֵכָה",
+      "pos": "Noun",
+      "strongs_defs_for_reference": [
+        "flank",
+        "rear",
+        "recess"
+      ],
+      "gloss": "innermost part, side, recess",
+      "reviewed": true
+    },
+    {
+      "lemma_id": "H370",
+      "citation_form": "אַיִן",
+      "pos": "Particle",
+      "strongs_defs_for_reference": [
+        "where?"
+      ],
+      "gloss": "where? whence?",
+      "reviewed": true
+    },
+    {
+      "lemma_id": "H4419",
+      "citation_form": "מַלָּח",
+      "pos": "Noun",
+      "strongs_defs_for_reference": [
+        "sailor"
+      ],
+      "gloss": "sailor",
+      "reviewed": true
+    },
+    {
+      "lemma_id": "H5087",
+      "citation_form": "נָדַר",
+      "pos": "Verb",
+      "strongs_defs_for_reference": [
+        "promise"
+      ],
+      "gloss": "vow",
+      "reviewed": true
+    },
+    {
+      "lemma_id": "H5088",
+      "citation_form": "נֶדֶר",
+      "pos": "Noun",
+      "strongs_defs_for_reference": [
+        "promise",
+        "thing promised"
+      ],
+      "gloss": "vow (the thing promised)",
+      "reviewed": true
+    },
+    {
+      "lemma_id": "H5210",
+      "citation_form": "נִינְוֵה",
+      "pos": "Noun",
+      "strongs_defs_for_reference": [
+        "Nineveh"
+      ],
+      "gloss": "Nineveh (place name)",
+      "reviewed": true
+    },
+    {
+      "lemma_id": "H5355",
+      "citation_form": "נָקִי",
+      "pos": "Adjective",
+      "strongs_defs_for_reference": [
+        "innocent"
+      ],
+      "gloss": "innocent, free of guilt",
+      "reviewed": true
+    },
+    {
+      "lemma_id": "H5590",
+      "citation_form": "סָעַר",
+      "pos": "Verb",
+      "strongs_defs_for_reference": [
+        "rush upon",
+        "toss"
+      ],
+      "gloss": "storm, rage",
+      "reviewed": true
+    },
+    {
+      "lemma_id": "H5591",
+      "citation_form": "סַעַר",
+      "pos": "Noun",
+      "strongs_defs_for_reference": [
+        "hurricane"
+      ],
+      "gloss": "storm, tempest",
+      "reviewed": true
+    },
+    {
+      "lemma_id": "H5600",
+      "citation_form": "סְפִינָה",
+      "pos": "Noun",
+      "strongs_defs_for_reference": [
+        "vessel"
+      ],
+      "gloss": "ship, vessel",
+      "reviewed": true
+    },
+    {
+      "lemma_id": "H5680",
+      "citation_form": "עִבְרִי",
+      "pos": "Noun",
+      "strongs_defs_for_reference": [
+        "Eberite"
+      ],
+      "gloss": "Hebrew (person)",
+      "reviewed": true
+    },
+    {
+      "lemma_id": "H573",
+      "citation_form": "אֲמִתַּי",
+      "pos": "Noun",
+      "strongs_defs_for_reference": [
+        "Amittai"
+      ],
+      "gloss": "Amittai (proper name)",
+      "reviewed": true
+    },
+    {
+      "lemma_id": "H577",
+      "citation_form": "אָנָּא",
+      "pos": "Particle",
+      "strongs_defs_for_reference": [
+        "oh now!"
+      ],
+      "gloss": "please! (interjection of entreaty)",
+      "reviewed": true
+    },
+    {
+      "lemma_id": "H591",
+      "citation_form": "אֳנִיָּה",
+      "pos": "Noun",
+      "strongs_defs_for_reference": [
+        "ship"
+      ],
+      "gloss": "ship",
+      "reviewed": true
+    },
+    {
+      "lemma_id": "H6245",
+      "citation_form": "עָשַׁת",
+      "pos": "Verb",
+      "strongs_defs_for_reference": [
+        "sleek",
+        "glossy",
+        "polishing",
+        "excogitate",
+        "forming"
+      ],
+      "gloss": "think, take notice (hitpael)",
+      "reviewed": true
+    },
+    {
+      "lemma_id": "H7290",
+      "citation_form": "רָדַם",
+      "pos": "Verb",
+      "strongs_defs_for_reference": [
+        "stun",
+        "stupefy"
+      ],
+      "gloss": "be sound asleep, fall into a deep sleep",
+      "reviewed": true
+    },
+    {
+      "lemma_id": "H7939",
+      "citation_form": "שָׂכָר",
+      "pos": "Noun",
+      "strongs_defs_for_reference": [
+        "payment of contract",
+        "salary",
+        "fare",
+        "maintenance",
+        "compensation",
+        "benefit"
+      ],
+      "gloss": "wages, hire, fare",
+      "reviewed": true
+    },
+    {
+      "lemma_id": "H7945",
+      "citation_form": "שֶׁל",
+      "pos": "Suffix",
+      "strongs_defs_for_reference": [
+        "on account of",
+        "whatsoever",
+        "whichsoever"
+      ],
+      "gloss": "of whom, which, whose (relative)",
+      "reviewed": true
+    },
+    {
+      "lemma_id": "H8367",
+      "citation_form": "שָׁתַק",
+      "pos": "Verb",
+      "strongs_defs_for_reference": [
+        "subside"
+      ],
+      "gloss": "grow calm, subside",
+      "reviewed": true
+    },
+    {
+      "lemma_id": "H8659",
+      "citation_form": "תַּרְשִׁישׁ",
+      "pos": "Noun",
+      "strongs_defs_for_reference": [
+        "Tarshish"
+      ],
+      "gloss": "Tarshish (place name)",
+      "reviewed": true
+    }
+  ]
+}

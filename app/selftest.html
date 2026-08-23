@@ -22,7 +22,7 @@
 </main>
 
 <script type="module">
-import { DECK_URL, loadDeck, PARSE_DECK_URL, loadParseDeck } from './main.js';
+import { DECK_URL, loadDeck, PARSE_DECK_URL, loadParseDeck, READER_DATA_URL, loadReaderData } from './main.js';
 import { newCard, applyGrade, describeInterval, GRADES } from './srs.js';
 
 const out = document.getElementById('out');
@@ -53,7 +53,7 @@ const HEBREW_RE = /[\u05D0-\u05EA]/;
 
 const APP_FILES = [
   'main.js', 'store.js', 'srs.js', 'theme.js', 'feedback.js', 'app.css',
-  'views/vocab.js', 'views/parse.js', 'views/settings.js', 'selftest.html',
+  'views/vocab.js', 'views/parse.js', 'views/read.js', 'views/settings.js', 'selftest.html',
 ];
 
 async function run() {
@@ -125,6 +125,39 @@ async function run() {
     check(badConj === 0, `every parse entry has a recognized conjugation (${badConj} bad)`);
     check(badPgn === 0, `every parse entry's person/gender/number/state matches its conjugation's shape (${badPgn} bad)`);
     check(dupIds === 0, `no duplicate parse entry ids (${dupIds} dupes)`);
+  }
+
+  let readerData;
+  try {
+    readerData = await loadReaderData();
+    ok(`reader data loaded from ${READER_DATA_URL.pathname}`);
+  } catch (e) {
+    bad(`reader data failed to load: ${e.message}`);
+    readerData = null;
+  }
+  if (readerData) {
+    const words = readerData.verses.flatMap(v => v.words);
+    check(readerData.verses.length === readerData.metadata.verse_count,
+      `reader verse count matches metadata (${readerData.verses.length} vs ${readerData.metadata.verse_count})`);
+    check(words.length === readerData.metadata.word_count,
+      `reader word count matches metadata (${words.length} vs ${readerData.metadata.word_count})`);
+
+    let badForm = 0, badGloss = 0, badKnown = 0, dupIds = 0;
+    const seenIds = new Set();
+    const vocabIds = new Set(deck.map(e => e.lemma_id));
+    for (const w of words) {
+      if (!w.surface_form || !HEBREW_RE.test(w.surface_form)) badForm++;
+      if (!w.transliteration || !TRANSLIT_RE.test(w.transliteration)) badForm++;
+      if (!w.gloss || !w.gloss.trim()) badGloss++;
+      const expectedKnown = w.lemma_ids.every(id => vocabIds.has(id));
+      if (w.is_known !== expectedKnown) badKnown++;
+      if (seenIds.has(w.id)) dupIds++;
+      seenIds.add(w.id);
+    }
+    check(badForm === 0, `every reader word has well-formed Hebrew + transliteration (${badForm} bad)`);
+    check(badGloss === 0, `every reader word has a gloss — hard rule 4 (${badGloss} bad)`);
+    check(badKnown === 0, `every reader word's is_known matches vocab_deck_600 membership (${badKnown} bad)`);
+    check(dupIds === 0, `no duplicate reader word ids (${dupIds} dupes)`);
   }
 
   // Hard rule 1, app-side: no Hebrew letters anywhere in /app/ source.

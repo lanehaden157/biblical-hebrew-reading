@@ -11,13 +11,16 @@
 import * as theme from './theme.js';
 import * as vocab from './views/vocab.js';
 import * as parseView from './views/parse.js';
+import * as readView from './views/read.js';
 import * as settingsView from './views/settings.js';
 
 export const DECK_URL = new URL('../data/vocab_deck_600.json', import.meta.url);
 export const PARSE_DECK_URL = new URL('../data/parse_qal_strong.json', import.meta.url);
+export const READER_DATA_URL = new URL('../data/jonah1_reader.json', import.meta.url);
 
 let deck = null;
 let parseDeck = null;
+let readerData = null;
 let tab = 'vocab';
 
 export async function loadDeck() {
@@ -40,6 +43,16 @@ export async function loadParseDeck() {
   return json.entries;
 }
 
+export async function loadReaderData() {
+  const res = await fetch(READER_DATA_URL, { cache: 'no-cache' });
+  if (!res.ok) throw new Error(`reader data fetch failed: ${res.status} ${res.statusText}`);
+  const json = await res.json();
+  if (!Array.isArray(json.verses) || !json.verses.length) {
+    throw new Error('reader data contains no verses');
+  }
+  return json;
+}
+
 function view() {
   return document.getElementById('view');
 }
@@ -51,6 +64,9 @@ function rerender() {
   else if (tab === 'parse') {
     if (!parseDeck) { root.textContent = 'Loading…'; return; }
     parseView.render(root, parseDeck);
+  } else if (tab === 'read') {
+    if (!readerData) { root.textContent = 'Loading…'; return; }
+    readView.render(root, readerData);
   } else vocab.render(root, deck);
   window.scrollTo(0, 0);
 }
@@ -70,6 +86,15 @@ async function selectTab(name) {
     } catch (err) {
       console.error(err);
       view().textContent = `Could not load the parsing deck: ${err.message || err}`;
+      return;
+    }
+  }
+  if (name === 'read' && !readerData) {
+    try {
+      readerData = await loadReaderData();
+    } catch (err) {
+      console.error(err);
+      view().textContent = `Could not load the reader: ${err.message || err}`;
       return;
     }
   }
@@ -97,6 +122,7 @@ async function boot() {
   theme.init();
   vocab.setRerender(rerender);
   parseView.setRerender(rerender);
+  readView.setRerender(rerender);
 
   for (const b of document.querySelectorAll('.tab')) {
     if (b.disabled) continue;

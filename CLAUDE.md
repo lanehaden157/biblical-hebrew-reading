@@ -189,10 +189,39 @@ competing for one. `app/selftest.html` gained structural checks for the parse de
 Verified end-to-end in-browser: tab switch, all three reveal stages, grading, queue
 advance, Settings stats unaffected by parse review activity.
 
-**Next — Phase 4: reader, Jonah 1.** Not started, not yet scoped in detail. Per the locked
-reading order this is the first connected-text reading after the vocab/parsing-gym
-foundation. Phase 5 (Tiers 3–5: weak verbs, derived stems, sustained reading) comes after
-and is further out.
+**Done — Phase 4: reader, Jonah 1.** `pipeline/curate_jonah1_extra.py` diffs Jonah 1's
+distinct lemmas (Hebrew/WLC versification: 16 verses -- English 1:17, the fish-swallowing
+verse, is Hebrew 2:1 and is deliberately left for the chapter 2 reading, not stitched on
+here) against `data/vocab_deck_600.json` and curates glosses for the 31 lemmas not already
+in the top-600 deck, same method as the Phase 2 gloss batches (lexicon-sourced citation
+form, hand-curated English gloss checked against, not copied from, the Strong's draft).
+`pipeline/build_jonah1_reader.py` builds `data/jonah1_reader.json`: one entry per printed
+word (254 words), splitting each word's lemma/morph/text attributes on "/" per morpheme
+(same technique `rank_lemmas.py` and `build_parse_qal.py` already use) to compose a
+per-word gloss from its morphemes' individual glosses joined with " + ", while keeping the
+*displayed* Hebrew as the real, unsplit printed word -- a prefixed vav or preposition is
+never pulled into its own visual token, since that would show Hebrew that doesn't actually
+look like Hebrew. Deliberately does not compute or show a part-of-speech or parse label per
+word: Jonah 1 contains weak roots and non-Qal stems outside Tier 2's Qal-strong coverage,
+and a lemma-level POS guess can be flatly wrong for a specific occurrence -- confirmed by
+H3373 in this very chapter, tagged under one Strong's number across both a finite verb
+(1:9) and a noun (1:10, 1:16). `pipeline/verify_jonah1_reader.py` independently re-scans
+the raw WLC XML with its own regex and its own gloss lookup and diffs every word
+entry-by-entry against the shipped JSON, not just aggregate counts. `app/views/read.js`
+un-stubs the Read tab: no grading, no scheduler state, no queue -- every word in the
+chapter is tap-to-reveal (transliteration + gloss) every time the page opens, and multiple
+words can be open at once, since reading needs to check several words in one verse without
+losing earlier reveals. Words not yet in the vocab deck get a subtle underline so new
+vocabulary stands out without demanding anything. `app/selftest.html` gained structural
+checks for the reader data (verse/word counts against metadata, gloss non-emptiness,
+`is_known` cross-checked against `vocab_deck_600.json`, no duplicate word ids). Verified
+in-browser via selftest (39/39 passing) and by scripting a tap -- open, reveal, tap again,
+close -- and confirming the DOM state at each step.
+
+**Next — Phase 5: Tiers 3–5** (weak verbs, derived stems, sustained reading) is further out
+and not yet scoped. A natural near-term next step is expanding the reader beyond Jonah 1
+(Jonah 2-4, then Ruth, per the locked reading order) using the same pipeline now that it
+exists, rather than treating Jonah 1 as a one-off.
 
 ## Working style
 

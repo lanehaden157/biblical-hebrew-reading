@@ -343,6 +343,68 @@ h1.title { font-size: 22px; font-weight: 500; margin: 8px 0 20px; }
 .stat b { display: block; font-size: 22px; font-weight: 500; font-variant-numeric: tabular-nums; }
 .stat span { font-size: 12px; color: var(--text-faint); }
 
+/* ---- reader ---- */
+
+.reader-verse {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.reader-vnum {
+  flex: none;
+  font-size: 12px;
+  color: var(--text-faint);
+  font-variant-numeric: tabular-nums;
+  padding-top: 3px;
+}
+
+.reader-line {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  direction: rtl;
+  gap: 2px 3px;
+}
+
+.reader-word {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2px 3px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.reader-word:active { background: var(--tap-highlight); }
+.reader-word.is-open { background: var(--surface-2); }
+
+.reader-word-heb {
+  font-size: 26px;
+}
+
+.reader-word.is-new .reader-word-heb {
+  box-shadow: 0 2px 0 0 var(--accent);
+}
+
+.reader-word-translit {
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 12px;
+  color: var(--text-dim);
+  direction: ltr;
+  white-space: nowrap;
+}
+
+.reader-word-gloss {
+  font-size: 12px;
+  direction: ltr;
+  white-space: nowrap;
+  max-width: 28ch;
+  white-space: normal;
+  text-align: center;
+}
+
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; }
 }
