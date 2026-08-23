@@ -1,40 +1,60 @@
 """
-Independent verification of data/parse_qal_strong.json (rule 3: every
-generation step ships a verification script).
+Independent verification of data/parse_qal_strong.json (suggestion 3:
+every generation step ships a verification script).
 
 Deliberately does NOT import build_parse_qal.py's extraction or
 classification code -- everything here is re-derived with its own regex
 over the raw corpus bytes and its own copy of the strong-root rule, so a
 bug specific to one implementation (an off-by-one in the morph regex, a
 wrong guttural set) is unlikely to be invisible to both. This is exactly
-the class of bug CLAUDE.md's rule 3 warns is always present: a bad morph
-regex has already once silently selected a construct-plural where a
-different form was wanted, during Tier 0.
+the class of bug CLAUDE.md warns is always present: a bad morph regex has
+already once silently selected a construct-plural where a different form
+was wanted, during Tier 0 -- and a swapped conjugation-letter mapping
+(weqatal 'q' mislabeled "yiqtol", real yiqtol 'i' not matched at all) a
+second time, during Phase 3, caught only because both build and verify
+shared the same wrong belief about the OSHB spec. That's why part 0 below
+pins a handful of real corpus references against the OSHB morphology spec
+itself (hb.openscriptures.org/parsing/HebrewMorphologyCodes.html), not
+against this file's own re-derivation -- a shared-author bug is invisible
+to two implementations that both encode the same misunderstanding, but not
+to a check anchored on a third, external source.
 
 Checks performed:
+  0. Golden regression set: a handful of real (ref, lemma_id) forms with
+     conjugation externally confirmed against the OSHB spec, keyed by OSIS
+     reference (never hand-typed Hebrew -- rule 1).
   1. Structural integrity: metadata counts match the entry list, every
      entry's PGN fields are shaped correctly for its conjugation (finite
      forms need person+gender+number and no state; participles need
      gender+number+state and no person; infinitive construct needs none).
-  2. Character-set sanity on every surface_form / root_citation_form /
-     transliteration.
+  2. Character-set sanity on every surface_form / verb_form / prefix_form /
+     suffix_form / root_citation_form / transliteration.
   3. Every entry's (lemma_id, root_citation_form, gloss,
      root_transliteration) matches the corresponding verb entry in
      data/vocab_deck_600.json exactly -- no drift between the two files.
-  4. Independent regex re-scan of the WLC corpus for Vq<conj><suffix>
-     morph codes restricted to an independently-recomputed strong-root set,
+  4. Whole-word reconstruction: prefix_form + verb_form + suffix_form must
+     equal surface_form exactly -- this is the mechanical check that would
+     have caught the old truncated-card bug (a fragment like a bare verb
+     morpheme, missing its wayyiqtol vav or its pronominal suffix, fails
+     this by construction since there'd be nothing to reconstruct it from).
+  5. Every prefix_morphemes entry matches a curated F-<letter> entry in
+     vocab_deck_600.json exactly (citation form, transliteration, gloss) --
+     no invented prefix glosses.
+  6. suffix_kind/suffix_pgn shape: "pronominal" always carries a PGN,
+     "paragogic_nun"/"directional_he" never do, and neither does no suffix.
+  7. Independent regex re-scan of the WLC corpus for Vq<conj><suffix> morph
+     codes restricted to an independently-recomputed strong-root set,
      compared against the JSON for exact per-conjugation and per-root
      frequency counts (not just totals).
-  5. Every entry's ref (osisID) exists in the corresponding book file.
+  8. Every entry's ref (osisID) exists in the corresponding book file.
 """
-import glob
 import json
 import os
 import re
 import sys
 from collections import Counter, defaultdict
 
-from hebrew_corpus import BOOK_ORDER, WLC_DIR
+from hebrew_corpus import BOOK_ORDER, FUNCTION_CODES, WLC_DIR
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 DECK_PATH = os.path.join(HERE, "..", "data", "vocab_deck_600.json")
@@ -55,9 +75,28 @@ ATTR_RE = lambda name: re.compile(rf'{name}="([^"]*)"')
 LEMMA_ATTR_RE = ATTR_RE("lemma")
 MORPH_ATTR_RE = ATTR_RE("morph")
 
-MORPH_RE = re.compile(r"^Vq([pwqrc])([123]?[mfc]?[spd]?[ac]?)$")
-FINITE = {"p", "w", "q"}
-CONJ_LABEL = {"p": "qatal", "w": "wayyiqtol", "q": "yiqtol", "r": "participle", "c": "infinitive_construct"}
+# Confirmed against hb.openscriptures.org/parsing/HebrewMorphologyCodes.html:
+# p=perfect(qatal), q=sequential perfect(weqatal), i=imperfect(yiqtol),
+# w=sequential imperfect(wayyiqtol), r=participle active, c=infinitive
+# construct. See the golden set in part 0 for corpus-anchored proof, not
+# just the label mapping repeated a second time.
+MORPH_RE = re.compile(r"^Vq([pqwirc])([123]?[mfc]?[spd]?[ac]?)$")
+FINITE = {"p", "q", "w", "i"}
+CONJ_LABEL = {"p": "qatal", "q": "weqatal", "w": "wayyiqtol", "i": "yiqtol", "r": "participle", "c": "infinitive_construct"}
+SUFFIX_PGN_RE = re.compile(r"^Sp([123])([mfc])([spd])$")
+
+# Part 0: real corpus references, one per conjugation, with the expected
+# label confirmed against the external OSHB spec page rather than against
+# this project's own prior (buggy) belief about it. lemma_id and ref are
+# both plain ASCII -- never hand-typed Hebrew (rule 1).
+GOLDEN = [
+    ("Gen.1.18", "H4910", "infinitive_construct"),
+    ("Gen.2.2", "H7673", "wayyiqtol"),
+    ("Gen.2.3", "H7673", "qatal"),
+    ("Gen.3.16", "H4910", "yiqtol"),       # regression: 'i' was unmatched entirely before the fix
+    ("Gen.4.9", "H8104", "participle"),
+    ("Gen.6.14", "H3722", "weqatal"),      # regression: 'q' was mislabeled "yiqtol" before the fix
+]
 
 failures = []
 
@@ -85,10 +124,12 @@ def is_strong_root(citation_form):
     return True
 
 
-def load_deck_verbs():
+def load_deck():
     with open(DECK_PATH, encoding="utf-8") as f:
         deck = json.load(f)
-    return {e["lemma_id"]: e for e in deck["entries"] if e["pos"] == "Verb"}
+    verbs = {e["lemma_id"]: e for e in deck["entries"] if e["pos"] == "Verb"}
+    functional = {e["lemma_id"]: e for e in deck["entries"] if e["lemma_id"].startswith("F-")}
+    return verbs, functional
 
 
 def scan_corpus(strong_lemma_ids):
@@ -135,10 +176,36 @@ def scan_corpus(strong_lemma_ids):
                         continue
                     if conj == "c" and suffix:
                         continue
+                    # Same trailing-morpheme gate as build_parse_qal.py: only
+                    # no suffix, a clean pronominal suffix, a paragogic nun,
+                    # or a directional he are accepted -- anything else was
+                    # skipped as an anomaly at build time, so it must not be
+                    # counted as expected here either.
+                    rest = morph_parts[i + 1:]
+                    if rest:
+                        if len(rest) != 1:
+                            continue
+                        if not (SUFFIX_PGN_RE.match(rest[0]) or rest[0] in ("Sn", "Sh")):
+                            continue
                     counts[(lemma_id, CONJ_LABEL[conj])] += 1
                     root_counts[lemma_id] += 1
 
     return counts, root_counts, verse_ids_by_book
+
+
+def check_golden(entries):
+    by_ref_lemma = defaultdict(list)
+    for e in entries:
+        by_ref_lemma[(e["ref"], e["lemma_id"])].append(e)
+
+    for ref, lemma_id, expected_conj in GOLDEN:
+        matches = by_ref_lemma.get((ref, lemma_id), [])
+        if not matches:
+            fail(f"golden case {ref}/{lemma_id}: no entry found (expected {expected_conj})")
+            continue
+        got_conjs = {m["conjugation"] for m in matches}
+        if expected_conj not in got_conjs:
+            fail(f"golden case {ref}/{lemma_id}: expected conjugation {expected_conj!r}, got {sorted(got_conjs)}")
 
 
 def main():
@@ -149,6 +216,9 @@ def main():
         data = json.load(f)
     meta = data["metadata"]
     entries = data["entries"]
+
+    # --- 0. golden regression set ------------------------------------------
+    check_golden(entries)
 
     # --- 1. structural integrity -----------------------------------------
     if meta["count"] != len(entries):
@@ -162,7 +232,10 @@ def main():
     if len(ids) != len(set(ids)):
         fail("duplicate entry ids present")
 
-    deck_verbs = load_deck_verbs()
+    deck_verbs, deck_functional = load_deck()
+    missing_fn = set("F-" + c for c in FUNCTION_CODES) - set(deck_functional)
+    if missing_fn:
+        fail(f"vocab_deck_600.json missing curated function-word entries: {missing_fn}")
 
     for e in entries:
         tag = f"{e['id']} ({e['ref']})"
@@ -171,7 +244,7 @@ def main():
             fail(f"{tag}: unrecognized conjugation {conj!r}")
             continue
 
-        if conj in ("qatal", "wayyiqtol", "yiqtol"):
+        if conj in ("qatal", "weqatal", "wayyiqtol", "yiqtol"):
             if not (e["person"] and e["gender"] and e["number"]) or e["state"] is not None:
                 fail(f"{tag}: {conj} entry has wrong PGN shape (expected person+gender+number, no state): {e}")
         elif conj == "participle":
@@ -184,6 +257,12 @@ def main():
         # --- 2. character-set sanity --------------------------------------
         if not e["surface_form"] or not ALLOWED_HEB_RE.match(e["surface_form"]):
             fail(f"{tag}: surface_form missing or has unexpected characters: {e['surface_form']!r}")
+        if not e["verb_form"] or not ALLOWED_HEB_RE.match(e["verb_form"]):
+            fail(f"{tag}: verb_form missing or has unexpected characters: {e['verb_form']!r}")
+        for field in ("prefix_form", "suffix_form"):
+            v = e.get(field, "")
+            if v and not ALLOWED_HEB_RE.match(v):
+                fail(f"{tag}: {field} has unexpected characters: {v!r}")
         if not e["root_citation_form"] or not ALLOWED_HEB_RE.match(e["root_citation_form"]):
             fail(f"{tag}: root_citation_form missing or has unexpected characters: {e['root_citation_form']!r}")
         for field in ("transliteration", "root_transliteration"):
@@ -207,7 +286,36 @@ def main():
         if not is_strong_root(deck_e["citation_form"]):
             fail(f"{tag}: lemma_id {e['lemma_id']} ({deck_e['citation_form']}) is not a strong root by independent re-check")
 
-    # --- 4. independent regex re-scan of the corpus -----------------------
+        # --- 4. whole-word reconstruction ----------------------------------
+        reconstructed = (e.get("prefix_form") or "") + e["verb_form"] + (e.get("suffix_form") or "")
+        if reconstructed != e["surface_form"]:
+            fail(f"{tag}: prefix_form+verb_form+suffix_form {reconstructed!r} != surface_form {e['surface_form']!r}")
+
+        # --- 5. prefix morphemes match curated function-word entries ------
+        for pm in e.get("prefix_morphemes") or []:
+            match = next((fe for fe in deck_functional.values() if fe["citation_form"] == pm["citation_form"]), None)
+            if match is None:
+                fail(f"{tag}: prefix morpheme {pm['citation_form']!r} not found among curated F-<letter> deck entries")
+                continue
+            if match["transliteration"] != pm["transliteration"] or match["gloss"] != pm["gloss"]:
+                fail(f"{tag}: prefix morpheme {pm['citation_form']!r} translit/gloss mismatch vs deck")
+
+        # --- 6. suffix_kind/suffix_pgn shape --------------------------------
+        kind = e.get("suffix_kind")
+        pgn = e.get("suffix_pgn")
+        if kind == "pronominal":
+            if not pgn or not all(k in pgn for k in ("person", "gender", "number")):
+                fail(f"{tag}: suffix_kind pronominal but suffix_pgn malformed: {pgn!r}")
+        elif kind in ("paragogic_nun", "directional_he"):
+            if pgn is not None:
+                fail(f"{tag}: suffix_kind {kind} should carry no PGN, got {pgn!r}")
+        elif kind is None:
+            if pgn is not None:
+                fail(f"{tag}: suffix_kind is None but suffix_pgn is set: {pgn!r}")
+        else:
+            fail(f"{tag}: unrecognized suffix_kind {kind!r}")
+
+    # --- 7. independent regex re-scan of the corpus -----------------------
     print("Re-scanning corpus independently (regex-based)...")
     strong_lemma_ids = {lid for lid, e in deck_verbs.items() if is_strong_root(e["citation_form"])}
     expected_pair_counts, expected_root_counts, verse_ids_by_book = scan_corpus(strong_lemma_ids)
@@ -238,7 +346,7 @@ def main():
     if meta["count"] != sum(expected_pair_counts.values()):
         fail(f"metadata.count={meta['count']} but independent recount got {sum(expected_pair_counts.values())}")
 
-    # --- 5. every ref exists in its book -----------------------------------
+    # --- 8. every ref exists in its book -----------------------------------
     book_by_name = {name: code for code, name in BOOK_ORDER}
     for e in entries:
         code = book_by_name.get(e["book"])

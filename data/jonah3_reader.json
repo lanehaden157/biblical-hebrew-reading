@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated": "2026-08-23T01:13:32.976233+00:00",
+    "generated": "2026-08-23T03:56:04.149196+00:00",
     "chapter": "Jonah 3",
     "versification": "Hebrew/WLC (10 verses; no divergence from English here)",
     "verse_count": 10,
@@ -906,7 +906,7 @@
         {
           "id": "325eq",
           "surface_form": "וּגְדֹלָיו",
-          "transliteration": "wgdolayw",
+          "transliteration": "ugdolayw",
           "gloss": "and + great, big",
           "is_known": true,
           "lemma_ids": [
@@ -1024,7 +1024,7 @@
         {
           "id": "32jv3",
           "surface_form": "וּמַיִם",
-          "transliteration": "wmayim",
+          "transliteration": "umayim",
           "gloss": "and + water",
           "is_known": true,
           "lemma_ids": [
@@ -1190,7 +1190,7 @@
         {
           "id": "326RX",
           "surface_form": "וּמִן",
-          "transliteration": "wmin",
+          "transliteration": "umin",
           "gloss": "and + from",
           "is_known": true,
           "lemma_ids": [

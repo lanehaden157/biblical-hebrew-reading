@@ -1,0 +1,305 @@
+{
+  "metadata": {
+    "generated": "2026-08-23T04:53:36.344038+00:00",
+    "group": 5,
+    "group_title": "Sentence-level syntax",
+    "source": "Jonah 1, 2, and 4 (WLC)",
+    "lesson_count": 3,
+    "example_count": 6
+  },
+  "lessons": [
+    {
+      "id": "word-order",
+      "order": 1,
+      "title": "Default word order — verb first",
+      "kind": "chain",
+      "paragraphs": [
+        "Hebrew narrative's default clause order is verb-subject-object -- the opposite habit from English, which leads with the subject. This is especially consistent right after a wayyiqtol (group 3's narrative-chain form), which already starts with the verb by construction.",
+        "When the SUBJECT moves in front of the verb instead, that's usually not random -- it signals emphasis, contrast, or a scene change, the way English might switch to “as for Jonah, he...”."
+      ],
+      "examples": [
+        {
+          "ref": "Jonah.2.1",
+          "tokens": [
+            {
+              "surface_form": "וַיְמַן",
+              "transliteration": "wayman",
+              "prefix_form": "וַ",
+              "prefix_morphemes": [
+                {
+                  "citation_form": "וְ",
+                  "transliteration": "we",
+                  "gloss": "and"
+                }
+              ],
+              "base_form": "יְמַן",
+              "suffix_form": "",
+              "suffix_kind": null,
+              "suffix_pgn": null,
+              "lemma_citation_form": "מָנָה",
+              "lemma_transliteration": "manah",
+              "gloss": "appoint, ordain (piel)",
+              "role": "plain"
+            },
+            {
+              "surface_form": "יְהוָה",
+              "transliteration": "yehwah",
+              "prefix_form": "",
+              "prefix_morphemes": [],
+              "base_form": "יְהוָה",
+              "suffix_form": "",
+              "suffix_kind": null,
+              "suffix_pgn": null,
+              "lemma_citation_form": "יְהֹוָה",
+              "lemma_transliteration": "yehowah",
+              "gloss": "YHWH",
+              "role": "plain"
+            },
+            {
+              "surface_form": "דָּג",
+              "transliteration": "dag",
+              "prefix_form": "",
+              "prefix_morphemes": [],
+              "base_form": "דָּג",
+              "suffix_form": "",
+              "suffix_kind": null,
+              "suffix_pgn": null,
+              "lemma_citation_form": "דָּג",
+              "lemma_transliteration": "dag",
+              "gloss": "fish",
+              "role": "plain"
+            },
+            {
+              "surface_form": "גָּדוֹל",
+              "transliteration": "gadol",
+              "prefix_form": "",
+              "prefix_morphemes": [],
+              "base_form": "גָּדוֹל",
+              "suffix_form": "",
+              "suffix_kind": null,
+              "suffix_pgn": null,
+              "lemma_citation_form": "גָּדוֹל",
+              "lemma_transliteration": "gadol",
+              "gloss": "great, big",
+              "role": "plain"
+            }
+          ],
+          "phrase_gloss": "and the LORD appointed a great fish",
+          "note": "The default order: verb first (“appointed”), then the subject (“the LORD”), then the object (“a fish”, with its adjective “great” following it, same as every noun-adjective pair). English default order is subject-verb-object; Hebrew narrative, especially after a wayyiqtol like this one, leads with the verb."
+        },
+        {
+          "ref": "Jonah.1.5",
+          "tokens": [
+            {
+              "surface_form": "וְיוֹנָה",
+              "transliteration": "weyonah",
+              "prefix_form": "וְ",
+              "prefix_morphemes": [
+                {
+                  "citation_form": "וְ",
+                  "transliteration": "we",
+                  "gloss": "and"
+                }
+              ],
+              "base_form": "יוֹנָה",
+              "suffix_form": "",
+              "suffix_kind": null,
+              "suffix_pgn": null,
+              "lemma_citation_form": "יוֹנָה",
+              "lemma_transliteration": "yonah",
+              "gloss": "Jonah (proper name)",
+              "role": "plain"
+            },
+            {
+              "surface_form": "יָרַד",
+              "transliteration": "yarad",
+              "prefix_form": "",
+              "prefix_morphemes": [],
+              "base_form": "יָרַד",
+              "suffix_form": "",
+              "suffix_kind": null,
+              "suffix_pgn": null,
+              "lemma_citation_form": "יָרַד",
+              "lemma_transliteration": "yarad",
+              "gloss": "go down, descend",
+              "role": "plain"
+            }
+          ],
+          "phrase_gloss": "but Jonah had gone down",
+          "note": "The subject moved in FRONT of the verb here -- a deviation from the default that signals a shift: the story is cutting away from the frantic sailors on deck to what Jonah, specifically, is doing below. Fronting the subject like this is how Hebrew marks that kind of turn without a special word for “meanwhile”."
+        }
+      ]
+    },
+    {
+      "id": "verbless-clauses",
+      "order": 2,
+      "title": "Verbless clauses — “X is Y” with no verb at all",
+      "kind": "chain",
+      "paragraphs": [
+        "Hebrew has no present-tense verb “to be”. A statement like “I am a Hebrew” or “you are gracious” is just two words -- a subject and whatever describes it -- placed next to each other, with the “is/am/are” entirely implied.",
+        "This is easy to misread as an incomplete sentence if you're expecting a verb; it's actually the normal, complete way to make this kind of statement."
+      ],
+      "examples": [
+        {
+          "ref": "Jonah.1.9",
+          "tokens": [
+            {
+              "surface_form": "עִבְרִי",
+              "transliteration": "`ivri",
+              "prefix_form": "",
+              "prefix_morphemes": [],
+              "base_form": "עִבְרִי",
+              "suffix_form": "",
+              "suffix_kind": null,
+              "suffix_pgn": null,
+              "lemma_citation_form": "עִבְרִי",
+              "lemma_transliteration": "`ivri",
+              "gloss": "Hebrew (person)",
+              "role": "plain"
+            },
+            {
+              "surface_form": "אָנֹכִי",
+              "transliteration": "'anokhi",
+              "prefix_form": "",
+              "prefix_morphemes": [],
+              "base_form": "אָנֹכִי",
+              "suffix_form": "",
+              "suffix_kind": null,
+              "suffix_pgn": null,
+              "lemma_citation_form": "אָנֹכִי",
+              "lemma_transliteration": "'anokhi",
+              "gloss": "I (emphatic)",
+              "role": "plain"
+            }
+          ],
+          "phrase_gloss": "I am a Hebrew",
+          "note": "No verb “to be” anywhere -- literally “a Hebrew, I”. Two words, a noun and a pronoun, sitting side by side, is a complete sentence in Hebrew for present-tense “X is Y”."
+        },
+        {
+          "ref": "Jonah.4.2",
+          "tokens": [
+            {
+              "surface_form": "אַתָּה",
+              "transliteration": "'atah",
+              "prefix_form": "",
+              "prefix_morphemes": [],
+              "base_form": "אַתָּה",
+              "suffix_form": "",
+              "suffix_kind": null,
+              "suffix_pgn": null,
+              "lemma_citation_form": "אַתָּה",
+              "lemma_transliteration": "'atah",
+              "gloss": "you (m.s.)",
+              "role": "plain"
+            },
+            {
+              "surface_form": "אֵֽל",
+              "transliteration": "'el",
+              "prefix_form": "",
+              "prefix_morphemes": [],
+              "base_form": "אֵֽל",
+              "suffix_form": "",
+              "suffix_kind": null,
+              "suffix_pgn": null,
+              "lemma_citation_form": "אֵל",
+              "lemma_transliteration": "'el",
+              "gloss": "God, god, mighty one",
+              "role": "plain"
+            },
+            {
+              "surface_form": "חַנּוּן",
+              "transliteration": "khanun",
+              "prefix_form": "",
+              "prefix_morphemes": [],
+              "base_form": "חַנּוּן",
+              "suffix_form": "",
+              "suffix_kind": null,
+              "suffix_pgn": null,
+              "lemma_citation_form": "חַנּוּן",
+              "lemma_transliteration": "khanun",
+              "gloss": "gracious",
+              "role": "plain"
+            },
+            {
+              "surface_form": "וְרַחוּם",
+              "transliteration": "werakhum",
+              "prefix_form": "וְ",
+              "prefix_morphemes": [
+                {
+                  "citation_form": "וְ",
+                  "transliteration": "we",
+                  "gloss": "and"
+                }
+              ],
+              "base_form": "רַחוּם",
+              "suffix_form": "",
+              "suffix_kind": null,
+              "suffix_pgn": null,
+              "lemma_citation_form": "רַחוּם",
+              "lemma_transliteration": "rakhum",
+              "gloss": "compassionate, merciful",
+              "role": "plain"
+            }
+          ],
+          "phrase_gloss": "you are a gracious and compassionate God",
+          "note": "Same construction, longer: pronoun, then a noun with two adjectives describing it, still no verb “are” anywhere. Jonah's own complaint to God, describing exactly the mercy he resents."
+        }
+      ]
+    },
+    {
+      "id": "vav-connector",
+      "order": 3,
+      "title": "What vav is really doing between clauses",
+      "kind": "single",
+      "paragraphs": [
+        "Group 1's very first lesson covered vav as “and”. That's always grammatically true, but between whole clauses vav's actual function stretches further: depending on context it can read as “but” (contrast), “so/then” (result or sequence), or simply move the narrative forward -- English usually needs a different word for each of these, but Hebrew reuses the same one letter throughout."
+      ],
+      "examples": [
+        {
+          "ref": "Jonah.1.5",
+          "surface_form": "וְיוֹנָה",
+          "transliteration": "weyonah",
+          "prefix_form": "וְ",
+          "prefix_morphemes": [
+            {
+              "citation_form": "וְ",
+              "transliteration": "we",
+              "gloss": "and"
+            }
+          ],
+          "base_form": "יוֹנָה",
+          "suffix_form": "",
+          "suffix_kind": null,
+          "suffix_pgn": null,
+          "lemma_citation_form": "יוֹנָה",
+          "lemma_transliteration": "yonah",
+          "gloss": "Jonah (proper name)",
+          "highlight": "base",
+          "note": "Grammatically this is still just “and” -- the same prefix group 1's very first lesson covered. But in context (everyone else is panicking on deck while this happens) it reads far more naturally as a contrastive “BUT Jonah had gone down [and lain down and was fast asleep]” -- Hebrew doesn't have a separate word for that shift, the vav just carries it."
+        },
+        {
+          "ref": "Jonah.1.6",
+          "surface_form": "וְלֹא",
+          "transliteration": "welo'",
+          "prefix_form": "וְ",
+          "prefix_morphemes": [
+            {
+              "citation_form": "וְ",
+              "transliteration": "we",
+              "gloss": "and"
+            }
+          ],
+          "base_form": "לֹא",
+          "suffix_form": "",
+          "suffix_kind": null,
+          "suffix_pgn": null,
+          "lemma_citation_form": "לֹא",
+          "lemma_transliteration": "lo'",
+          "gloss": "not",
+          "highlight": "base",
+          "note": "Another vav doing more than “and”: “...so that we don't perish”, expressing a hoped-for result rather than simply adding a fact. Same prefix, a purpose/result sense instead of a contrast."
+        }
+      ]
+    }
+  ]
+}

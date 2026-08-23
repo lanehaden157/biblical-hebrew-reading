@@ -21,11 +21,20 @@ Verification for transliterate.py, in two parts:
    every one must transliterate without raising, produce non-empty output,
    and use only the locked scheme's alphabet -- catches crashes and
    mapping gaps that the curated list, being only ~15 words, can't.
+
+3. Word-initial-shuruq regression checks -- keyed by OSIS word id, pulled
+   straight from the raw WLC XML (not from any already-generated JSON, so
+   this stays independent of the reader/parse-deck build scripts). No
+   top600.json citation form exhibits this pattern (it's a surface-level
+   vav-conjunctive allomorph, never how a lemma is cited), so it needs its
+   own corpus-anchored source.
 """
 import json
 import os
 import re
+import xml.etree.ElementTree as ET
 
+from hebrew_corpus import OSIS_NS, WLC_DIR
 from transliterate import transliterate
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -62,6 +71,36 @@ EXPECTED = {
 
 # Only ASCII the locked scheme can ever produce.
 ALLOWED_OUTPUT_RE = re.compile(r"^['`a-z]*$")
+
+# (book_code, osisID word id) -> (label, hand-verified expected ASCII).
+# Both worked out by hand from the raw codepoints, per the same standard as
+# EXPECTED above -- never copied from transliterate()'s own output.
+WORD_EXPECTED = {
+    ("Jonah", "32V27"): ("Jonah 1:8 'and from where' -- word-initial shuruq (BuMP rule), not bare 'w'", "ume'ayin"),
+    ("Jonah", "32ewe"): ("Jonah 1:8 'and where' -- ordinary vav-conjunctive shva, unaffected by the shuruq fix", "we'ey"),
+}
+
+
+def run_word_checks():
+    failures = []
+    checked = 0
+    by_book = {}
+    for (book, wid), (label, expected) in WORD_EXPECTED.items():
+        if book not in by_book:
+            path = os.path.join(WLC_DIR, f"{book}.xml")
+            by_book[book] = {
+                w.get("id"): (w.text or "").replace("/", "")
+                for w in ET.parse(path).getroot().iter(f"{OSIS_NS}w")
+            }
+        form = by_book[book].get(wid)
+        if form is None:
+            failures.append(f"{book}/{wid} ({label}): word id not found")
+            continue
+        got = transliterate(form)
+        checked += 1
+        if got != expected:
+            failures.append(f"{book}/{wid} ({label}): expected {expected!r}, got {got!r}")
+    return checked, failures
 
 
 def run_spot_checks(by_id):
@@ -104,10 +143,12 @@ def main():
 
     spot_checked, spot_failures = run_spot_checks(by_id)
     stress_checked, stress_failures = run_stress_test(top600["lemmas"])
+    word_checked, word_failures = run_word_checks()
 
     lines = [
         f"Spot checks: {spot_checked}/{len(EXPECTED)} forms checked, {len(spot_failures)} failures.",
         f"Stress test: {stress_checked}/{len(top600['lemmas'])} corpus forms checked, {len(stress_failures)} failures.",
+        f"Word checks: {word_checked}/{len(WORD_EXPECTED)} corpus words checked, {len(word_failures)} failures.",
     ]
     if spot_failures:
         lines.append("SPOT CHECK FAILURES:")
@@ -117,13 +158,16 @@ def main():
         lines += [f" - {f}" for f in stress_failures[:50]]
         if len(stress_failures) > 50:
             lines.append(f"   ... and {len(stress_failures) - 50} more")
-    if not spot_failures and not stress_failures:
+    if word_failures:
+        lines.append("WORD CHECK FAILURES:")
+        lines += [f" - {f}" for f in word_failures]
+    if not spot_failures and not stress_failures and not word_failures:
         lines.append("All checks passed.")
 
     with open(RESULT_PATH, "w", encoding="utf-8") as f:
         f.write("\n".join(lines) + "\n")
 
-    if spot_failures or stress_failures:
+    if spot_failures or stress_failures or word_failures:
         raise SystemExit(1)
 
 

@@ -82,7 +82,7 @@ body {
   position: fixed;
   left: 0; right: 0; bottom: 0;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   background: var(--surface);
   border-top: 0.5px solid var(--border);
   padding-bottom: env(safe-area-inset-bottom);
@@ -156,6 +156,23 @@ body {
   font-size: 62px;
   margin: 0;
   word-break: break-word;
+}
+
+/* The parsing gym shows the whole printed word; these pick the verb's own
+   morpheme out from any prefix/suffix wrapped around it. */
+.card-heb-verb {
+  color: var(--accent);
+}
+
+.card-heb-affix {
+  color: var(--text-dim);
+}
+
+.card-affix-gloss {
+  font-size: 15px;
+  color: var(--text-dim);
+  font-style: italic;
+  margin: 0;
 }
 
 .card-root {
@@ -403,6 +420,63 @@ h1.title { font-size: 22px; font-weight: 500; margin: 8px 0 20px; }
   max-width: 28ch;
   white-space: normal;
   text-align: center;
+}
+
+/* ---- learn ---- */
+
+.lesson-back {
+  width: auto;
+  border-top: 0;
+  padding: 0 0 14px;
+  color: var(--text-dim);
+  font-size: 14px;
+}
+.lesson-back:active { background: none; opacity: 0.6; }
+
+.lesson-p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 0 0 16px;
+}
+
+.lesson-example {
+  background: var(--surface);
+  border: 0.5px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px;
+  margin-bottom: 14px;
+}
+
+.lesson-example-heb {
+  font-size: 34px;
+  margin: 0 0 8px;
+}
+
+.lesson-example-citation {
+  font-size: 13px;
+  color: var(--text-faint);
+  margin: 4px 0 0;
+}
+.lesson-example-citation .heb {
+  font-size: 15px;
+}
+
+.lesson-example-gloss {
+  font-size: 15px;
+  margin: 6px 0 0;
+}
+
+.lesson-example-note {
+  font-size: 14px;
+  color: var(--text-dim);
+  line-height: 1.5;
+  margin: 8px 0 0;
+}
+
+.lesson-example-ref {
+  font-size: 12px;
+  color: var(--text-faint);
+  margin: 8px 0 0;
 }
 
 @media (prefers-reduced-motion: reduce) {

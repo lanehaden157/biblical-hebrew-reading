@@ -1,0 +1,486 @@
+{
+  "metadata": {
+    "generated": "2026-08-23T04:29:37.515615+00:00",
+    "group": 1,
+    "group_title": "Prefixes and suffixes",
+    "source": "Jonah 1 and Jonah 4:2 (WLC)",
+    "lesson_count": 6,
+    "example_count": 18
+  },
+  "lessons": [
+    {
+      "id": "vav-conjunction",
+      "order": 1,
+      "title": "Vav — “and”",
+      "paragraphs": [
+        "The letter vav attached to the front of a word is the single most common prefix in the Bible -- about 1 word in 5 in Jonah alone. Its default reading is “ve-”.",
+        "It changes to “u-” in two situations, both there to avoid an awkward run of shva sounds: before the labial consonants bet, mem, vav, or pe (nicknamed the “BuMP” rule), and before any consonant that itself starts with a vocal shva.",
+        "This is purely mechanical -- the pointed text always shows you which one it is, so there's nothing to guess. It's also the exact rule this app's own transliteration script got wrong until recently: a word-initial “u-” was rendering as a bare “w”."
+      ],
+      "examples": [
+        {
+          "ref": "Jonah.1.5",
+          "surface_form": "וְיוֹנָה",
+          "transliteration": "weyonah",
+          "prefix_form": "וְ",
+          "prefix_morphemes": [
+            {
+              "citation_form": "וְ",
+              "transliteration": "we",
+              "gloss": "and"
+            }
+          ],
+          "base_form": "יוֹנָה",
+          "suffix_form": "",
+          "suffix_kind": null,
+          "suffix_pgn": null,
+          "lemma_citation_form": "יוֹנָה",
+          "lemma_transliteration": "yonah",
+          "gloss": "Jonah (proper name)",
+          "highlight": "prefix",
+          "note": "Plain “ve-” before an ordinary consonant -- the default case."
+        },
+        {
+          "ref": "Jonah.1.2",
+          "surface_form": "וּקְרָא",
+          "transliteration": "uqra'",
+          "prefix_form": "וּ",
+          "prefix_morphemes": [
+            {
+              "citation_form": "וְ",
+              "transliteration": "we",
+              "gloss": "and"
+            }
+          ],
+          "base_form": "קְרָא",
+          "suffix_form": "",
+          "suffix_kind": null,
+          "suffix_pgn": null,
+          "lemma_citation_form": "קָרָא",
+          "lemma_transliteration": "qara'",
+          "gloss": "call, call out, proclaim, read aloud",
+          "highlight": "prefix",
+          "note": "Shifts to “u-” because the next consonant (qof) itself carries a vocal shva -- Hebrew avoids two shvas in a row."
+        },
+        {
+          "ref": "Jonah.1.8",
+          "surface_form": "וּמֵאַיִן",
+          "transliteration": "ume'ayin",
+          "prefix_form": "וּמֵ",
+          "prefix_morphemes": [
+            {
+              "citation_form": "וְ",
+              "transliteration": "we",
+              "gloss": "and"
+            },
+            {
+              "citation_form": "מִ",
+              "transliteration": "mi",
+              "gloss": "from"
+            }
+          ],
+          "base_form": "אַיִן",
+          "suffix_form": "",
+          "suffix_kind": null,
+          "suffix_pgn": null,
+          "lemma_citation_form": "אַיִן",
+          "lemma_transliteration": "'ayin",
+          "gloss": "where? whence?",
+          "highlight": "prefix",
+          "note": "Shifts to “u-” again, this time because the next consonant (mem) is one of the “BuMP” labials (bet/mem/vav/pe)."
+        }
+      ]
+    },
+    {
+      "id": "definite-article",
+      "order": 2,
+      "title": "The definite article — “the”",
+      "paragraphs": [
+        "A heh attached to the front of a noun or adjective marks it as definite -- “the city”, not “a city”. About 1 word in 10 in Jonah carries it.",
+        "It usually causes the very next consonant to double (written as a dot inside that letter, a dagesh forte) -- that doubling is part of how the article is pronounced, not a separate thing to learn.",
+        "Adjectives describing a definite noun get their own copy of the article too, and it can fuse directly into a preceding preposition (be-/ke-/le-) rather than the two stacking separately."
+      ],
+      "examples": [
+        {
+          "ref": "Jonah.1.2",
+          "surface_form": "הָעִיר",
+          "transliteration": "ha`ir",
+          "prefix_form": "הָ",
+          "prefix_morphemes": [
+            {
+              "citation_form": "הַ",
+              "transliteration": "ha",
+              "gloss": "the"
+            }
+          ],
+          "base_form": "עִיר",
+          "suffix_form": "",
+          "suffix_kind": null,
+          "suffix_pgn": null,
+          "lemma_citation_form": "עִיר",
+          "lemma_transliteration": "`ir",
+          "gloss": "city",
+          "highlight": "prefix",
+          "note": "The plain case: “ha-” + noun."
+        },
+        {
+          "ref": "Jonah.1.2",
+          "surface_form": "הַגְּדוֹלָה",
+          "transliteration": "hagdolah",
+          "prefix_form": "הַ",
+          "prefix_morphemes": [
+            {
+              "citation_form": "הַ",
+              "transliteration": "ha",
+              "gloss": "the"
+            }
+          ],
+          "base_form": "גְּדוֹלָה",
+          "suffix_form": "",
+          "suffix_kind": null,
+          "suffix_pgn": null,
+          "lemma_citation_form": "גָּדוֹל",
+          "lemma_transliteration": "gadol",
+          "gloss": "great, big",
+          "highlight": "prefix",
+          "note": "The article also attaches to adjectives, agreeing with the noun it describes -- “the great [city]”, from the same verse."
+        },
+        {
+          "ref": "Jonah.1.4",
+          "surface_form": "הַיָּם",
+          "transliteration": "hayam",
+          "prefix_form": "הַ",
+          "prefix_morphemes": [
+            {
+              "citation_form": "הַ",
+              "transliteration": "ha",
+              "gloss": "the"
+            }
+          ],
+          "base_form": "יָּם",
+          "suffix_form": "",
+          "suffix_kind": null,
+          "suffix_pgn": null,
+          "lemma_citation_form": "יָם",
+          "lemma_transliteration": "yam",
+          "gloss": "sea",
+          "highlight": "prefix",
+          "note": "Notice the doubled consonant right after “ha-” (a dagesh forte) -- that doubling is how the article marks the noun as definite."
+        },
+        {
+          "ref": "Jonah.1.4",
+          "surface_form": "בַּיָּם",
+          "transliteration": "bayam",
+          "prefix_form": "בַּ",
+          "prefix_morphemes": [
+            {
+              "citation_form": "בְּ",
+              "transliteration": "be",
+              "gloss": "in, on, with"
+            }
+          ],
+          "base_form": "יָּם",
+          "suffix_form": "",
+          "suffix_kind": null,
+          "suffix_pgn": null,
+          "lemma_citation_form": "יָם",
+          "lemma_transliteration": "yam",
+          "gloss": "sea",
+          "highlight": "prefix",
+          "note": "Bonus: when a preposition (here “be-”, “in”) lands directly on an article-marked noun, they often fuse into one prefix instead of stacking -- still “in the sea”, not two separate pieces."
+        }
+      ]
+    },
+    {
+      "id": "prepositions",
+      "order": 3,
+      "title": "Prepositions that attach: le-, be-, ke-, min-",
+      "paragraphs": [
+        "Four of the most common prepositions never stand alone as separate words -- they glue directly onto the front of whatever they govern: ל́ (le-, “to/for”), ב́ (be-, “in/on/with”), כ́ (ke-, “like/as”), and מִן/מִ- (min-/mi-, “from”). Together they account for roughly 1 word in 7 in Jonah.",
+        "They can stack (“from before” = min- + le-), ride on top of the definite article (fusing rather than stacking), or attach to a verb's infinitive construct to express purpose -- “to flee”, “in order to do X”."
+      ],
+      "examples": [
+        {
+          "ref": "Jonah.1.2",
+          "surface_form": "לְפָנָֽי",
+          "transliteration": "lefanay",
+          "prefix_form": "לְ",
+          "prefix_morphemes": [
+            {
+              "citation_form": "לְ",
+              "transliteration": "le",
+              "gloss": "to, for"
+            }
+          ],
+          "base_form": "פָנָֽ",
+          "suffix_form": "י",
+          "suffix_kind": "pronominal",
+          "suffix_pgn": {
+            "person": "1",
+            "gender": "c",
+            "number": "s"
+          },
+          "lemma_citation_form": "פָּנִים",
+          "lemma_transliteration": "panim",
+          "gloss": "face",
+          "highlight": "prefix",
+          "note": "“le-” (to/for) attached to a noun that itself carries a suffix -- “to my face”, idiomatically “before me”."
+        },
+        {
+          "ref": "Jonah.1.3",
+          "surface_form": "מִלִּפְנֵי",
+          "transliteration": "milifney",
+          "prefix_form": "מִלִּ",
+          "prefix_morphemes": [
+            {
+              "citation_form": "מִ",
+              "transliteration": "mi",
+              "gloss": "from"
+            },
+            {
+              "citation_form": "לְ",
+              "transliteration": "le",
+              "gloss": "to, for"
+            }
+          ],
+          "base_form": "פְנֵי",
+          "suffix_form": "",
+          "suffix_kind": null,
+          "suffix_pgn": null,
+          "lemma_citation_form": "פָּנִים",
+          "lemma_transliteration": "panim",
+          "gloss": "face",
+          "highlight": "prefix",
+          "note": "Two prepositions can stack: “mi-” (from) + “li-” (to/for) read together as “from before”."
+        },
+        {
+          "ref": "Jonah.1.3",
+          "surface_form": "לִבְרֹחַ",
+          "transliteration": "livroakh",
+          "prefix_form": "לִ",
+          "prefix_morphemes": [
+            {
+              "citation_form": "לְ",
+              "transliteration": "le",
+              "gloss": "to, for"
+            }
+          ],
+          "base_form": "בְרֹחַ",
+          "suffix_form": "",
+          "suffix_kind": null,
+          "suffix_pgn": null,
+          "lemma_citation_form": "בָּרַח",
+          "lemma_transliteration": "barakh",
+          "gloss": "flee",
+          "highlight": "prefix",
+          "note": "“li-” + an infinitive construct verb form -- this is how Hebrew expresses purpose, “to flee”."
+        },
+        {
+          "ref": "Jonah.1.5",
+          "surface_form": "בָּֽאֳנִיָּה",
+          "transliteration": "ba'oniyah",
+          "prefix_form": "בָּֽ",
+          "prefix_morphemes": [
+            {
+              "citation_form": "בְּ",
+              "transliteration": "be",
+              "gloss": "in, on, with"
+            }
+          ],
+          "base_form": "אֳנִיָּה",
+          "suffix_form": "",
+          "suffix_kind": null,
+          "suffix_pgn": null,
+          "lemma_citation_form": "אֳנִיָּה",
+          "lemma_transliteration": "'oniyah",
+          "gloss": "ship",
+          "highlight": "prefix",
+          "note": "“be-” (in) fused directly onto an article-marked noun, same fusion as the definite-article lesson's bonus example."
+        }
+      ]
+    },
+    {
+      "id": "pronominal-suffixes",
+      "order": 4,
+      "title": "Pronoun suffixes — “his/her/their...”",
+      "paragraphs": [
+        "A short tail glued onto the END of a noun, preposition, or verb stands in for a possessive or object pronoun -- no separate word needed. About 1 word in 7 in Jonah carries one.",
+        "On a noun it usually means possession (“X of his/hers/theirs”); on a preposition or a verb it usually means the object (“...him”, “...it”, “...them”). The Parse tab already shows you the grammatical shape (person/gender/number) of these when they land on a verb."
+      ],
+      "examples": [
+        {
+          "ref": "Jonah.1.2",
+          "surface_form": "רָעָתָם",
+          "transliteration": "ra`atam",
+          "prefix_form": "",
+          "prefix_morphemes": [],
+          "base_form": "רָעָתָ",
+          "suffix_form": "ם",
+          "suffix_kind": "pronominal",
+          "suffix_pgn": {
+            "person": "3",
+            "gender": "m",
+            "number": "p"
+          },
+          "lemma_citation_form": "רַע",
+          "lemma_transliteration": "ra`",
+          "gloss": "evil, bad",
+          "highlight": "suffix",
+          "note": "A 3rd-plural possessive suffix on a noun -- “their evil”."
+        },
+        {
+          "ref": "Jonah.1.2",
+          "surface_form": "עָלֶיהָ",
+          "transliteration": "`aleyha",
+          "prefix_form": "",
+          "prefix_morphemes": [],
+          "base_form": "עָלֶי",
+          "suffix_form": "הָ",
+          "suffix_kind": "pronominal",
+          "suffix_pgn": {
+            "person": "3",
+            "gender": "f",
+            "number": "s"
+          },
+          "lemma_citation_form": "עַל",
+          "lemma_transliteration": "`al",
+          "gloss": "on, over, against",
+          "highlight": "suffix",
+          "note": "A 3rd-feminine-singular suffix on a preposition, not a noun -- prepositions take these too: “against it”."
+        },
+        {
+          "ref": "Jonah.1.3",
+          "surface_form": "שְׂכָרָהּ",
+          "transliteration": "sekharah",
+          "prefix_form": "",
+          "prefix_morphemes": [],
+          "base_form": "שְׂכָרָ",
+          "suffix_form": "הּ",
+          "suffix_kind": "pronominal",
+          "suffix_pgn": {
+            "person": "3",
+            "gender": "f",
+            "number": "s"
+          },
+          "lemma_citation_form": "שָׂכָר",
+          "lemma_transliteration": "sakhar",
+          "gloss": "wages, hire, fare",
+          "highlight": "suffix",
+          "note": "3rd-feminine-singular again, this time on a noun -- “its fare”."
+        },
+        {
+          "ref": "Jonah.1.5",
+          "surface_form": "אֱלֹהָיו",
+          "transliteration": "'elohayw",
+          "prefix_form": "",
+          "prefix_morphemes": [],
+          "base_form": "אֱלֹהָי",
+          "suffix_form": "ו",
+          "suffix_kind": "pronominal",
+          "suffix_pgn": {
+            "person": "3",
+            "gender": "m",
+            "number": "s"
+          },
+          "lemma_citation_form": "אֱלֹהִים",
+          "lemma_transliteration": "'elohim",
+          "gloss": "God, gods",
+          "highlight": "suffix",
+          "note": "A 3rd-masculine-singular suffix on a plural noun -- “his god(s)” (the noun for God/gods is grammatically plural in Hebrew even when singular in meaning)."
+        }
+      ]
+    },
+    {
+      "id": "relative",
+      "order": 5,
+      "title": "The relative — “that/which/who”",
+      "paragraphs": [
+        "Hebrew has two ways to say “that/which/who” introducing a description: the full standalone word אֲשֶׁר (‘asher), and a short prefix שֶׁ- (sheh-) glued onto the front of the next word.",
+        "Jonah is one of the few books that uses the short sheh- form at all -- most of the Bible sticks to ‘asher exclusively. It's one of the small clues scholars point to when discussing the book's date and style."
+      ],
+      "examples": [
+        {
+          "ref": "Jonah.1.7",
+          "surface_form": "בְּשֶׁלְּמִי",
+          "transliteration": "beshelmi",
+          "prefix_form": "בְּשֶׁלְּ",
+          "prefix_morphemes": [
+            {
+              "citation_form": "בְּ",
+              "transliteration": "be",
+              "gloss": "in, on, with"
+            },
+            {
+              "citation_form": "שֶׁ",
+              "transliteration": "she",
+              "gloss": "that, which, who"
+            },
+            {
+              "citation_form": "לְ",
+              "transliteration": "le",
+              "gloss": "to, for"
+            }
+          ],
+          "base_form": "מִי",
+          "suffix_form": "",
+          "suffix_kind": null,
+          "suffix_pgn": null,
+          "lemma_citation_form": "מִי",
+          "lemma_transliteration": "mi",
+          "gloss": "who?",
+          "highlight": "prefix",
+          "note": "The relative ‘sheh-’ stacked between two prepositions in one word -- “on whose account”, literally “in-that-to-whom”. Jonah is known among Hebraists for preferring this short form over the more formal standalone word below."
+        },
+        {
+          "ref": "Jonah.1.9",
+          "surface_form": "אֲשֶׁר",
+          "transliteration": "'asher",
+          "prefix_form": "",
+          "prefix_morphemes": [],
+          "base_form": "אֲשֶׁר",
+          "suffix_form": "",
+          "suffix_kind": null,
+          "suffix_pgn": null,
+          "lemma_citation_form": "אֲשֶׁר",
+          "lemma_transliteration": "'asher",
+          "gloss": "who, which, that",
+          "highlight": "base",
+          "note": "The full standalone form, ‘asher’ -- “who/which/that”, introducing a description: “...whom I fear, who made the sea...”."
+        }
+      ]
+    },
+    {
+      "id": "interrogative-he",
+      "order": 6,
+      "title": "The interrogative heh — turning a statement into a question",
+      "paragraphs": [
+        "A heh attached to the very front of a sentence turns a plain statement into a yes/no question -- there's no separate word for “do/does/is” the way English needs one.",
+        "It's rare: across the entire book of Jonah, it happens exactly once. But it's not a throwaway example -- it opens one of the book's most famous lines."
+      ],
+      "examples": [
+        {
+          "ref": "Jonah.4.2",
+          "surface_form": "הֲלוֹא",
+          "transliteration": "halo'",
+          "prefix_form": "הֲ",
+          "prefix_morphemes": [
+            {
+              "citation_form": "הֲ",
+              "transliteration": "ha",
+              "gloss": "(marks a yes/no question)"
+            }
+          ],
+          "base_form": "לוֹא",
+          "suffix_form": "",
+          "suffix_kind": null,
+          "suffix_pgn": null,
+          "lemma_citation_form": "לֹא",
+          "lemma_transliteration": "lo'",
+          "gloss": "not",
+          "highlight": "prefix",
+          "note": "The entire book of Jonah: this is the ONLY time this prefix appears. It turns a plain statement into a yes/no question -- here, opening Jonah's angry complaint to God in chapter 4: “Is it not...?”"
+        }
+      ]
+    }
+  ]
+}

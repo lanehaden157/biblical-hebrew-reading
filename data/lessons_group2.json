@@ -1,0 +1,366 @@
+{
+  "metadata": {
+    "generated": "2026-08-23T04:35:24.524705+00:00",
+    "group": 2,
+    "group_title": "Construct chains",
+    "source": "Jonah 1 and Jonah 3 (WLC)",
+    "lesson_count": 5,
+    "example_count": 11
+  },
+  "lessons": [
+    {
+      "id": "basic-chain",
+      "order": 1,
+      "title": "The basic chain — two nouns, no “of”",
+      "kind": "chain",
+      "paragraphs": [
+        "Hebrew has no word for “of”. To say “word of the LORD”, it just puts the two nouns next to each other: the first noun (called “construct state”) leans on the second (“absolute state”) for its meaning.",
+        "This is enormously common -- 72 of the 205 nouns in the book of Jonah (35%) are in construct state. Once you can spot the pattern, you can read straight through it without stopping to look for a missing word."
+      ],
+      "examples": [
+        {
+          "ref": "Jonah.1.1",
+          "tokens": [
+            {
+              "surface_form": "דְּבַר",
+              "transliteration": "devar",
+              "prefix_form": "",
+              "prefix_morphemes": [],
+              "base_form": "דְּבַר",
+              "suffix_form": "",
+              "suffix_kind": null,
+              "suffix_pgn": null,
+              "lemma_citation_form": "דָּבָר",
+              "lemma_transliteration": "davar",
+              "gloss": "word, thing",
+              "role": "construct"
+            },
+            {
+              "surface_form": "יְהוָה",
+              "transliteration": "yehwah",
+              "prefix_form": "",
+              "prefix_morphemes": [],
+              "base_form": "יְהוָה",
+              "suffix_form": "",
+              "suffix_kind": null,
+              "suffix_pgn": null,
+              "lemma_citation_form": "יְהֹוָה",
+              "lemma_transliteration": "yehowah",
+              "gloss": "YHWH",
+              "role": "absolute"
+            }
+          ],
+          "phrase_gloss": "word of the LORD",
+          "note": "The very first words of the book. No word here means “of” -- the two nouns sitting next to each other IS the “of” relationship."
+        },
+        {
+          "ref": "Jonah.1.1",
+          "tokens": [
+            {
+              "surface_form": "בֶן",
+              "transliteration": "ven",
+              "prefix_form": "",
+              "prefix_morphemes": [],
+              "base_form": "בֶן",
+              "suffix_form": "",
+              "suffix_kind": null,
+              "suffix_pgn": null,
+              "lemma_citation_form": "בֵּן",
+              "lemma_transliteration": "ben",
+              "gloss": "son",
+              "role": "construct"
+            },
+            {
+              "surface_form": "אֲמִתַּי",
+              "transliteration": "'amitay",
+              "prefix_form": "",
+              "prefix_morphemes": [],
+              "base_form": "אֲמִתַּי",
+              "suffix_form": "",
+              "suffix_kind": null,
+              "suffix_pgn": null,
+              "lemma_citation_form": "אֲמִתַּי",
+              "lemma_transliteration": "'amitay",
+              "gloss": "Amittai (proper name)",
+              "role": "absolute"
+            }
+          ],
+          "phrase_gloss": "son of Amittai",
+          "note": "Jonah's patronymic, immediately after -- “son of Amittai”, the same pattern back to back."
+        }
+      ]
+    },
+    {
+      "id": "shrinks",
+      "order": 2,
+      "title": "The construct form often shrinks",
+      "kind": "single",
+      "paragraphs": [
+        "Leaning on the next word for meaning often costs the construct noun some of its own stress, and an unstressed long vowel tends to shorten. That's why “word” is דָּבָר (davar) on its own but דְּבַר (devar) in “word of the LORD”.",
+        "It's a tendency, not an iron rule -- short, one-syllable nouns often show no visible change at all. The pointing always tells you which case you're looking at; there's no need to guess."
+      ],
+      "examples": [
+        {
+          "ref": "Jonah.1.1",
+          "surface_form": "דְּבַר",
+          "transliteration": "devar",
+          "prefix_form": "",
+          "prefix_morphemes": [],
+          "base_form": "דְּבַר",
+          "suffix_form": "",
+          "suffix_kind": null,
+          "suffix_pgn": null,
+          "lemma_citation_form": "דָּבָר",
+          "lemma_transliteration": "davar",
+          "gloss": "word, thing",
+          "highlight": "base",
+          "note": "Same word as the opening-line example above, looked at differently: the construct form's vowel is visibly shorter than the dictionary form."
+        },
+        {
+          "ref": "Jonah.2.5",
+          "surface_form": "הֵיכַל",
+          "transliteration": "heykhal",
+          "prefix_form": "",
+          "prefix_morphemes": [],
+          "base_form": "הֵיכַל",
+          "suffix_form": "",
+          "suffix_kind": null,
+          "suffix_pgn": null,
+          "lemma_citation_form": "הֵיכָל",
+          "lemma_transliteration": "heykhal",
+          "gloss": "palace, temple",
+          "highlight": "base",
+          "note": "Another vowel shrink, same pattern: the citation form's long vowel shortens once the word is put in construct state."
+        },
+        {
+          "ref": "Jonah.3.6",
+          "surface_form": "מֶלֶך",
+          "transliteration": "melekh",
+          "prefix_form": "",
+          "prefix_morphemes": [],
+          "base_form": "מֶלֶך",
+          "suffix_form": "",
+          "suffix_kind": null,
+          "suffix_pgn": null,
+          "lemma_citation_form": "מֶלֶךְ",
+          "lemma_transliteration": "melekh",
+          "gloss": "king",
+          "highlight": "base",
+          "note": "Not every construct noun changes shape -- short one-syllable nouns like this one sound and look almost identical to their citation form. (The one tiny difference you may see here is just a silent trailing shva, a spelling convention some editions mark and others don't -- not a grammatical change, and not audible either way.)"
+        }
+      ]
+    },
+    {
+      "id": "definiteness",
+      "order": 3,
+      "title": "Definiteness travels through the chain",
+      "kind": "chain",
+      "paragraphs": [
+        "A construct noun never takes the definite article itself -- there's no such thing as הַדְּבַר. Instead, the WHOLE chain becomes definite (“the X of Y”) exactly when the last word in it is definite: because it has the article, because it's a proper name, or because it carries a pronoun suffix.",
+        "This means you have to look at the END of a construct chain to know whether the beginning should be read as “a” or “the” -- the opposite order from English."
+      ],
+      "examples": [
+        {
+          "ref": "Jonah.1.9",
+          "tokens": [
+            {
+              "surface_form": "אֱלֹהֵי",
+              "transliteration": "'elohey",
+              "prefix_form": "",
+              "prefix_morphemes": [],
+              "base_form": "אֱלֹהֵי",
+              "suffix_form": "",
+              "suffix_kind": null,
+              "suffix_pgn": null,
+              "lemma_citation_form": "אֱלֹהִים",
+              "lemma_transliteration": "'elohim",
+              "gloss": "God, gods",
+              "role": "construct"
+            },
+            {
+              "surface_form": "הַשָּׁמַיִם",
+              "transliteration": "hashamayim",
+              "prefix_form": "הַ",
+              "prefix_morphemes": [
+                {
+                  "citation_form": "הַ",
+                  "transliteration": "ha",
+                  "gloss": "the"
+                }
+              ],
+              "base_form": "שָּׁמַיִם",
+              "suffix_form": "",
+              "suffix_kind": null,
+              "suffix_pgn": null,
+              "lemma_citation_form": "שָׁמַיִם",
+              "lemma_transliteration": "shamayim",
+              "gloss": "heaven, sky",
+              "role": "absolute"
+            }
+          ],
+          "phrase_gloss": "the God of the heavens",
+          "note": "“God” (construct) itself never takes the article -- it's definite only because “the heavens” (the second word) has one. That's the rule: definiteness of the whole chain always comes from the LAST word."
+        },
+        {
+          "ref": "Jonah.3.6",
+          "tokens": [
+            {
+              "surface_form": "מֶלֶך",
+              "transliteration": "melekh",
+              "prefix_form": "",
+              "prefix_morphemes": [],
+              "base_form": "מֶלֶך",
+              "suffix_form": "",
+              "suffix_kind": null,
+              "suffix_pgn": null,
+              "lemma_citation_form": "מֶלֶךְ",
+              "lemma_transliteration": "melekh",
+              "gloss": "king",
+              "role": "construct"
+            },
+            {
+              "surface_form": "נִֽינְוֵה",
+              "transliteration": "ninweh",
+              "prefix_form": "",
+              "prefix_morphemes": [],
+              "base_form": "נִֽינְוֵה",
+              "suffix_form": "",
+              "suffix_kind": null,
+              "suffix_pgn": null,
+              "lemma_citation_form": "נִינְוֵה",
+              "lemma_transliteration": "ninweh",
+              "gloss": "Nineveh (place name)",
+              "role": "absolute"
+            }
+          ],
+          "phrase_gloss": "the king of Nineveh",
+          "note": "Same rule, different source of definiteness: proper names are inherently definite, so “king” is “the king” even with no article anywhere in sight."
+        }
+      ]
+    },
+    {
+      "id": "three-chain",
+      "order": 4,
+      "title": "Chains of three",
+      "kind": "chain",
+      "paragraphs": [
+        "Construct chains aren't limited to two words -- a construct noun can itself be followed by another construct noun, stacking the relationship. Only the very last word in the chain is absolute; everything before it is construct."
+      ],
+      "examples": [
+        {
+          "ref": "Jonah.3.3",
+          "tokens": [
+            {
+              "surface_form": "מַהֲלַךְ",
+              "transliteration": "mahalakh",
+              "prefix_form": "",
+              "prefix_morphemes": [],
+              "base_form": "מַהֲלַךְ",
+              "suffix_form": "",
+              "suffix_kind": null,
+              "suffix_pgn": null,
+              "lemma_citation_form": "מַהֲלָךְ",
+              "lemma_transliteration": "mahalakh",
+              "gloss": "journey, walking distance",
+              "role": "construct"
+            },
+            {
+              "surface_form": "שְׁלֹשֶׁת",
+              "transliteration": "sheloshet",
+              "prefix_form": "",
+              "prefix_morphemes": [],
+              "base_form": "שְׁלֹשֶׁת",
+              "suffix_form": "",
+              "suffix_kind": null,
+              "suffix_pgn": null,
+              "lemma_citation_form": "שָׁלוֹשׁ",
+              "lemma_transliteration": "shalosh",
+              "gloss": "three",
+              "role": "construct"
+            },
+            {
+              "surface_form": "יָמִֽים",
+              "transliteration": "yamim",
+              "prefix_form": "",
+              "prefix_morphemes": [],
+              "base_form": "יָמִֽים",
+              "suffix_form": "",
+              "suffix_kind": null,
+              "suffix_pgn": null,
+              "lemma_citation_form": "יוֹם",
+              "lemma_transliteration": "yom",
+              "gloss": "day",
+              "role": "absolute"
+            }
+          ],
+          "phrase_gloss": "a three-day journey (lit. “journey of three of days”)",
+          "note": "Chains can stack: “journey” is construct because it's followed by “three”, and “three” is ITSELF construct because it's followed by “days”. Only the very last word (“days”) is absolute."
+        }
+      ]
+    },
+    {
+      "id": "special-endings",
+      "order": 5,
+      "title": "Special construct endings",
+      "kind": "single",
+      "paragraphs": [
+        "Two endings shift in a recognizable way when a noun goes construct: feminine nouns ending in ה swap it for a ת, and masculine plural nouns ending in ־ִים swap it for ־ֵי.",
+        "Both are worth recognizing on sight -- they're common enough, and different enough from the noun's dictionary form, that they can otherwise look like a completely different word."
+      ],
+      "examples": [
+        {
+          "ref": "Jonah.3.6",
+          "surface_form": "אַדַּרְתּוֹ",
+          "transliteration": "'adarto",
+          "prefix_form": "",
+          "prefix_morphemes": [],
+          "base_form": "אַדַּרְתּ",
+          "suffix_form": "וֹ",
+          "suffix_kind": "pronominal",
+          "suffix_pgn": {
+            "person": "3",
+            "gender": "m",
+            "number": "s"
+          },
+          "lemma_citation_form": "אַדֶּרֶת",
+          "lemma_transliteration": "'aderet",
+          "gloss": "robe, mantle",
+          "highlight": "base",
+          "note": "Feminine nouns ending in ה swap it for a ת the moment anything (a second noun, or here a suffix) attaches -- the same environment that produces a construct chain."
+        },
+        {
+          "ref": "Jonah.1.9",
+          "surface_form": "אֱלֹהֵי",
+          "transliteration": "'elohey",
+          "prefix_form": "",
+          "prefix_morphemes": [],
+          "base_form": "אֱלֹהֵי",
+          "suffix_form": "",
+          "suffix_kind": null,
+          "suffix_pgn": null,
+          "lemma_citation_form": "אֱלֹהִים",
+          "lemma_transliteration": "'elohim",
+          "gloss": "God, gods",
+          "highlight": "base",
+          "note": "Same word used in the definiteness lesson, looked at differently: masculine plural ־ִים becomes ־ֵי in construct -- a clean ending swap, same stem throughout."
+        },
+        {
+          "ref": "Jonah.3.5",
+          "surface_form": "אַנְשֵׁי",
+          "transliteration": "'anshey",
+          "prefix_form": "",
+          "prefix_morphemes": [],
+          "base_form": "אַנְשֵׁי",
+          "suffix_form": "",
+          "suffix_kind": null,
+          "suffix_pgn": null,
+          "lemma_citation_form": "אִישׁ",
+          "lemma_transliteration": "'ish",
+          "gloss": "man",
+          "highlight": "base",
+          "note": "A rougher case, worth knowing about honestly: this plural doesn't just swap its ending -- the singular “man” and the plural “men” are built on two different stems entirely. Not every plural is a simple ending swap."
+        }
+      ]
+    }
+  ]
+}

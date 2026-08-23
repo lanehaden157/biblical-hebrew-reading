@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated": "2026-08-23T00:47:17.947230+00:00",
+    "generated": "2026-08-23T03:56:03.456608+00:00",
     "chapter": "Jonah 1",
     "versification": "Hebrew/WLC (16 verses; English 1:17 = Hebrew 2:1, not included)",
     "verse_count": 16,
@@ -171,7 +171,7 @@
         {
           "id": "32PB6",
           "surface_form": "וּקְרָא",
-          "transliteration": "wqra'",
+          "transliteration": "uqra'",
           "gloss": "and + call, call out, proclaim, read aloud",
           "is_known": true,
           "lemma_ids": [
@@ -1371,7 +1371,7 @@
         {
           "id": "32V27",
           "surface_form": "וּמֵאַיִן",
-          "transliteration": "wme'ayin",
+          "transliteration": "ume'ayin",
           "gloss": "and + from + where? whence?",
           "is_known": false,
           "lemma_ids": [

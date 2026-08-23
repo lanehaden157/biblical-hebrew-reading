@@ -1,0 +1,308 @@
+{
+  "metadata": {
+    "generated": "2026-08-23T04:51:59.865913+00:00",
+    "group": 4,
+    "group_title": "Noun-phrase grammar",
+    "source": "Jonah 1, 2, and 3 (WLC)",
+    "lesson_count": 4,
+    "example_count": 11
+  },
+  "lessons": [
+    {
+      "id": "gender-number",
+      "order": 1,
+      "title": "Noun gender and number, on sight",
+      "kind": "single",
+      "paragraphs": [
+        "Every Hebrew noun is grammatically masculine or feminine, and singular, plural, or (rarely) dual. Two endings are common enough to recognize immediately: feminine singular often ends in ה, and masculine plural often ends in ים.",
+        "These are strong tendencies, not guarantees -- there are feminine nouns with no ה, and a handful of masculine nouns that still pluralize with the “feminine-looking” ות ending. When they conflict, the actual agreement pattern (see the adjective-agreement lesson) is the more reliable signal."
+      ],
+      "examples": [
+        {
+          "ref": "Jonah.1.7",
+          "surface_form": "הָרָעָה",
+          "transliteration": "hara`ah",
+          "prefix_form": "הָ",
+          "prefix_morphemes": [
+            {
+              "citation_form": "הַ",
+              "transliteration": "ha",
+              "gloss": "the"
+            }
+          ],
+          "base_form": "רָעָה",
+          "suffix_form": "",
+          "suffix_kind": null,
+          "suffix_pgn": null,
+          "lemma_citation_form": "רַע",
+          "lemma_transliteration": "ra`",
+          "gloss": "evil, bad",
+          "highlight": "base",
+          "note": "Feminine singular nouns very often end in ה -- “the disaster/evil” (the same word group 1's relative-particle lesson and group 3's binyan lesson both already used, from a third angle: its own gender marking)."
+        },
+        {
+          "ref": "Jonah.1.5",
+          "surface_form": "הַמַּלָּחִים",
+          "transliteration": "hamalakhim",
+          "prefix_form": "הַ",
+          "prefix_morphemes": [
+            {
+              "citation_form": "הַ",
+              "transliteration": "ha",
+              "gloss": "the"
+            }
+          ],
+          "base_form": "מַּלָּחִים",
+          "suffix_form": "",
+          "suffix_kind": null,
+          "suffix_pgn": null,
+          "lemma_citation_form": "מַלָּח",
+          "lemma_transliteration": "malakh",
+          "gloss": "sailor",
+          "highlight": "base",
+          "note": "Masculine plural nouns very often end in ים -- “the sailors”."
+        },
+        {
+          "ref": "Jonah.1.7",
+          "surface_form": "גּֽוֹרָלוֹת",
+          "transliteration": "goralot",
+          "prefix_form": "",
+          "prefix_morphemes": [],
+          "base_form": "גּֽוֹרָלוֹת",
+          "suffix_form": "",
+          "suffix_kind": null,
+          "suffix_pgn": null,
+          "lemma_citation_form": "גּוֹרָל",
+          "lemma_transliteration": "goral",
+          "gloss": "lot (cast for decision); portion, destiny",
+          "highlight": "base",
+          "note": "Worth knowing as an exception, not a rule-breaker: “lots” (plural of a MASCULINE noun) still takes the ות ending that looks feminine. A handful of common masculine nouns pluralize this way -- the ending alone doesn't always tell you the noun's gender."
+        }
+      ]
+    },
+    {
+      "id": "direct-object",
+      "order": 2,
+      "title": "The direct object marker אֵת",
+      "kind": "single",
+      "paragraphs": [
+        "אֵת (or its shortened form אֶת) marks the noun right after it as a definite direct object -- the thing an action is being done TO. It carries no meaning of its own and is never translated; its only job is to flag “this is the object, and it's definite”.",
+        "It only appears before a DEFINITE object (one with the article, a proper name, a suffix, or otherwise already specific) -- an indefinite object (“a fish”, not “the fish”) never gets one."
+      ],
+      "examples": [
+        {
+          "ref": "Jonah.1.5",
+          "surface_form": "אֶת",
+          "transliteration": "'et",
+          "prefix_form": "",
+          "prefix_morphemes": [],
+          "base_form": "אֶת",
+          "suffix_form": "",
+          "suffix_kind": null,
+          "suffix_pgn": null,
+          "lemma_citation_form": "אֵת",
+          "lemma_transliteration": "'et",
+          "gloss": "(marks a definite direct object -- usually untranslated)",
+          "highlight": "base",
+          "note": "אֵת marks the noun right after it (“the vessels”) as a definite direct object. It has no meaning of its own to translate -- drop it entirely in English."
+        },
+        {
+          "ref": "Jonah.1.9",
+          "surface_form": "אֶת",
+          "transliteration": "'et",
+          "prefix_form": "",
+          "prefix_morphemes": [],
+          "base_form": "אֶת",
+          "suffix_form": "",
+          "suffix_kind": null,
+          "suffix_pgn": null,
+          "lemma_citation_form": "אֵת",
+          "lemma_transliteration": "'et",
+          "gloss": "(marks a definite direct object -- usually untranslated)",
+          "highlight": "base",
+          "note": "The same marker, a different verse: “[I fear]... the sea”."
+        },
+        {
+          "ref": "Jonah.1.9",
+          "surface_form": "וְאֶת",
+          "transliteration": "we'et",
+          "prefix_form": "וְ",
+          "prefix_morphemes": [
+            {
+              "citation_form": "וְ",
+              "transliteration": "we",
+              "gloss": "and"
+            }
+          ],
+          "base_form": "אֶת",
+          "suffix_form": "",
+          "suffix_kind": null,
+          "suffix_pgn": null,
+          "lemma_citation_form": "אֵת",
+          "lemma_transliteration": "'et",
+          "gloss": "(marks a definite direct object -- usually untranslated)",
+          "highlight": "base",
+          "note": "אֵת can itself carry the vav-conjunction prefix, same as any other word: “and [the dry land]” -- two objects of the same verb, each one separately marked."
+        }
+      ]
+    },
+    {
+      "id": "adjective-agreement",
+      "order": 3,
+      "title": "Adjectives agree with their noun",
+      "kind": "chain",
+      "paragraphs": [
+        "A Hebrew adjective normally follows the noun it describes (the reverse of English) and matches it in gender, number, and definiteness. If the noun has the article, the adjective gets its own copy of the article too -- both words carry it, not just the noun."
+      ],
+      "examples": [
+        {
+          "ref": "Jonah.3.3",
+          "tokens": [
+            {
+              "surface_form": "עִיר",
+              "transliteration": "`ir",
+              "prefix_form": "",
+              "prefix_morphemes": [],
+              "base_form": "עִיר",
+              "suffix_form": "",
+              "suffix_kind": null,
+              "suffix_pgn": null,
+              "lemma_citation_form": "עִיר",
+              "lemma_transliteration": "`ir",
+              "gloss": "city",
+              "role": "plain"
+            },
+            {
+              "surface_form": "גְּדוֹלָה",
+              "transliteration": "gedolah",
+              "prefix_form": "",
+              "prefix_morphemes": [],
+              "base_form": "גְּדוֹלָה",
+              "suffix_form": "",
+              "suffix_kind": null,
+              "suffix_pgn": null,
+              "lemma_citation_form": "גָּדוֹל",
+              "lemma_transliteration": "gadol",
+              "gloss": "great, big",
+              "role": "plain"
+            }
+          ],
+          "phrase_gloss": "a great city",
+          "note": "The adjective follows the noun and matches it in gender and number -- both feminine singular here. Neither word is “leaning on” the other the way a construct chain works; they're simply describing the same thing and agreeing about it."
+        },
+        {
+          "ref": "Jonah.1.2",
+          "tokens": [
+            {
+              "surface_form": "הָעִיר",
+              "transliteration": "ha`ir",
+              "prefix_form": "הָ",
+              "prefix_morphemes": [
+                {
+                  "citation_form": "הַ",
+                  "transliteration": "ha",
+                  "gloss": "the"
+                }
+              ],
+              "base_form": "עִיר",
+              "suffix_form": "",
+              "suffix_kind": null,
+              "suffix_pgn": null,
+              "lemma_citation_form": "עִיר",
+              "lemma_transliteration": "`ir",
+              "gloss": "city",
+              "role": "plain"
+            },
+            {
+              "surface_form": "הַגְּדוֹלָה",
+              "transliteration": "hagdolah",
+              "prefix_form": "הַ",
+              "prefix_morphemes": [
+                {
+                  "citation_form": "הַ",
+                  "transliteration": "ha",
+                  "gloss": "the"
+                }
+              ],
+              "base_form": "גְּדוֹלָה",
+              "suffix_form": "",
+              "suffix_kind": null,
+              "suffix_pgn": null,
+              "lemma_citation_form": "גָּדוֹל",
+              "lemma_transliteration": "gadol",
+              "gloss": "great, big",
+              "role": "plain"
+            }
+          ],
+          "phrase_gloss": "the great city",
+          "note": "Same noun-adjective pair, definite this time -- and the agreement extends to definiteness too: the article appears on BOTH words, not just the noun."
+        }
+      ]
+    },
+    {
+      "id": "demonstratives-numbers",
+      "order": 4,
+      "title": "Demonstratives and numbers",
+      "kind": "single",
+      "paragraphs": [
+        "A demonstrative (“this”/“that”) works like an adjective: it follows its noun and agrees with it in gender. Numbers, similarly, sit beside the noun they count and often show their own gender agreement (not shown in the examples here, but worth knowing to expect)."
+      ],
+      "examples": [
+        {
+          "ref": "Jonah.1.7",
+          "surface_form": "הַזֹּאת",
+          "transliteration": "hazo't",
+          "prefix_form": "הַ",
+          "prefix_morphemes": [
+            {
+              "citation_form": "הַ",
+              "transliteration": "ha",
+              "gloss": "the"
+            }
+          ],
+          "base_form": "זֹּאת",
+          "suffix_form": "",
+          "suffix_kind": null,
+          "suffix_pgn": null,
+          "lemma_citation_form": "זֹאת",
+          "lemma_transliteration": "zo't",
+          "gloss": "this (f.)",
+          "highlight": "base",
+          "note": "A demonstrative (“this”) follows the noun it points to, and agrees with it in gender the same way an adjective does -- feminine הַזֹּאת because “disaster” (רָעָה) is a feminine noun."
+        },
+        {
+          "ref": "Jonah.2.1",
+          "surface_form": "שְׁלֹשָׁה",
+          "transliteration": "sheloshah",
+          "prefix_form": "",
+          "prefix_morphemes": [],
+          "base_form": "שְׁלֹשָׁה",
+          "suffix_form": "",
+          "suffix_kind": null,
+          "suffix_pgn": null,
+          "lemma_citation_form": "שָׁלוֹשׁ",
+          "lemma_transliteration": "shalosh",
+          "gloss": "three",
+          "highlight": "base",
+          "note": "A number -- “three”, opening the book's most famous span of time: “three days and three nights” in the fish."
+        },
+        {
+          "ref": "Jonah.3.4",
+          "surface_form": "אַרְבָּעִים",
+          "transliteration": "'arba`im",
+          "prefix_form": "",
+          "prefix_morphemes": [],
+          "base_form": "אַרְבָּעִים",
+          "suffix_form": "",
+          "suffix_kind": null,
+          "suffix_pgn": null,
+          "lemma_citation_form": "אַרְבָּעִים",
+          "lemma_transliteration": "'arba`im",
+          "gloss": "forty",
+          "highlight": "base",
+          "note": "The other iconic number in the book: “forty” -- the days Nineveh is given before God's decreed judgment."
+        }
+      ]
+    }
+  ]
+}

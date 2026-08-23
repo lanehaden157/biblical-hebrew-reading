@@ -8,9 +8,17 @@
  * (surface form -> its own reading -> the analysis), so a miss says which
  * half broke: could you sound out the form, or could you parse it.
  *
+ * The card shows the WHOLE printed word (entry.surface_form), not just the
+ * verb's own morpheme -- a prefixed vav or preposition, or a pronominal
+ * suffix, is never stripped out (matches how the Jonah reader already
+ * displays words). entry.verb_form is highlighted within it so it's clear
+ * which part is the thing actually being parsed; prefix/suffix glosses are
+ * revealed alongside the root+gloss+parse at stage 2, since recognizing a
+ * prefix's own meaning is part of the parse, not the initial read.
+ *
  * Hard rule 1 applies here: not one Hebrew character appears in this file.
  * Every glyph is read from data/parse_qal_strong.json at runtime.
- * Hard rule 4: transliteration and gloss both always arrive, on every card.
+ * Every Hebrew form shown gets a transliteration + gloss, per CLAUDE.md.
  */
 
 import { update, today, load } from '../store.js';
@@ -21,6 +29,7 @@ const keyFn = (entry) => `parse:${entry.id}`;
 
 const CONJ_NAMES = {
   qatal: 'qatal (perfect)',
+  weqatal: 'weqatal (sequential perfect)',
   wayyiqtol: 'wayyiqtol (narrative)',
   yiqtol: 'yiqtol (imperfect)',
   participle: 'participle',
@@ -30,6 +39,10 @@ const PERSON_NAMES = { 1: '1st', 2: '2nd', 3: '3rd' };
 const GENDER_NAMES = { m: 'masc.', f: 'fem.', c: 'common' };
 const NUMBER_NAMES = { s: 'sing.', p: 'pl.', d: 'dual' };
 const STATE_NAMES = { absolute: 'absolute', construct: 'construct' };
+const SUFFIX_KIND_NAMES = {
+  paragogic_nun: 'paragogic nun',
+  directional_he: 'directional/paragogic he',
+};
 
 function parseLabel(entry) {
   const pgn = [
@@ -39,7 +52,19 @@ function parseLabel(entry) {
     entry.state && STATE_NAMES[entry.state],
   ].filter(Boolean).join(' ');
   const conj = CONJ_NAMES[entry.conjugation] || entry.conjugation;
-  return `${entry.stem} ${conj}${pgn ? ', ' + pgn : ''}`;
+  let label = `${entry.stem} ${conj}${pgn ? ', ' + pgn : ''}`;
+  if (entry.suffix_kind === 'pronominal' && entry.suffix_pgn) {
+    const p = entry.suffix_pgn;
+    label += ` + ${PERSON_NAMES[p.person]} ${GENDER_NAMES[p.gender]} ${NUMBER_NAMES[p.number]} suffix`;
+  } else if (entry.suffix_kind) {
+    label += ` + ${SUFFIX_KIND_NAMES[entry.suffix_kind] || entry.suffix_kind}`;
+  }
+  return label;
+}
+
+function prefixGlossLine(entry) {
+  if (!entry.prefix_morphemes || !entry.prefix_morphemes.length) return '';
+  return entry.prefix_morphemes.map((m) => m.gloss).join(' + ');
 }
 
 let queue = [];
@@ -103,7 +128,24 @@ function cardEl(item) {
   const heb = document.createElement('p');
   heb.className = 'card-heb heb';
   heb.lang = 'he';
-  heb.textContent = entry.surface_form;   // from /data, never a literal
+  // Whole printed word, verb morpheme highlighted -- all three spans from
+  // /data, never a literal (hard rule 1).
+  if (entry.prefix_form) {
+    const pre = document.createElement('span');
+    pre.className = 'card-heb-affix';
+    pre.textContent = entry.prefix_form;
+    heb.appendChild(pre);
+  }
+  const verbSpan = document.createElement('span');
+  verbSpan.className = 'card-heb-verb';
+  verbSpan.textContent = entry.verb_form;
+  heb.appendChild(verbSpan);
+  if (entry.suffix_form) {
+    const suf = document.createElement('span');
+    suf.className = 'card-heb-affix';
+    suf.textContent = entry.suffix_form;
+    heb.appendChild(suf);
+  }
   el.appendChild(heb);
 
   if (stage >= 1) {
@@ -132,6 +174,14 @@ function cardEl(item) {
     g.className = 'card-gloss';
     g.textContent = entry.gloss;
     el.appendChild(g);
+
+    const prefixGloss = prefixGlossLine(entry);
+    if (prefixGloss) {
+      const pg = document.createElement('p');
+      pg.className = 'card-affix-gloss';
+      pg.textContent = prefixGloss;
+      el.appendChild(pg);
+    }
 
     const m = document.createElement('p');
     m.className = 'card-meta';

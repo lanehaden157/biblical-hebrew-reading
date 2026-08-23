@@ -2,14 +2,17 @@
 Phase 3 step 1: OSHB corpus -> Qal strong-verb parsing deck ->
 data/parse_qal_strong.json.
 
-Scope, per CLAUDE.md's locked decisions:
+Scope, per CLAUDE.md:
   - Stem: Qal only (69.0% of verb forms -- Tier 2's binyan).
-  - Conjugations, in the locked priority order: qatal, wayyiqtol, yiqtol,
-    participle, infinitive construct (= 80.8% cumulative of verb forms).
-    Imperative, jussive, cohortative, infinitive absolute, veqatal (waw-
-    consecutive perfect) and the passive participle are real OSHB categories
-    but are out of the locked list, so they are skipped here -- not a bug,
-    a scope decision, matching how Pual/Hophal are recognition-only.
+  - Conjugations: qatal, weqatal, wayyiqtol, yiqtol, participle,
+    infinitive construct. Imperative, jussive, cohortative, infinitive
+    absolute, and the passive participle are real OSHB categories but
+    stay out of scope here -- not a bug, matching how Pual/Hophal are
+    recognition-only. Weqatal (sequential perfect) was added alongside
+    qatal: it's morphologically identical to qatal and is disambiguated
+    only by its vav-conjunctive prefix and narrative context, so it's the
+    direct counterpart of the wayyiqtol/yiqtol pair and belongs in the
+    same deck once the whole printed word (prefix included) is shown.
   - Roots: strong only. A root is weak (and excluded) if any radical is
     guttural (alef/he/het/ayin -- the four "true gutturals" of first-year
     grammar; resh is deliberately NOT treated as guttural here, since its
@@ -19,19 +22,41 @@ Scope, per CLAUDE.md's locked decisions:
     radical is vav/yod (hollow) or repeats the third (geminate). III-He and
     III-Aleph roots need no separate rule: he and alef are already in the
     guttural set, so "any radical is guttural" catches them for free.
-  - Lemmas: restricted to the 181 verb lemmas already in the curated top-600
+  - Lemmas: restricted to the verb lemmas already in the curated top-600
     vocab deck (data/vocab_deck_600.json), not all ~700 Qal-attested lemmas
     in the corpus. This is deliberate, not a limitation of the corpus scan:
-    those 181 already carry a curated gloss and a lexicon-sourced citation
-    form (verified 100% "lexicon"-sourced below, never a surface-form
-    fallback, which could carry stray affixes into what's supposed to be a
-    bare root). Reusing them means rule 4 (transliteration + gloss on every
-    Hebrew form) is satisfied without a second curation pass, and it keeps
-    parsing practice anchored to vocabulary Lane is already learning rather
-    than introducing ~500 more unglossed roots incidentally.
+    those lemmas already carry a curated gloss and a lexicon-sourced
+    citation form (verified 100% "lexicon"-sourced below, never a
+    surface-form fallback, which could carry stray affixes into what's
+    supposed to be a bare root). Reusing them means every Hebrew form shown
+    gets transliteration + gloss without a second curation pass, and it
+    keeps parsing practice anchored to vocabulary Lane is already learning.
 
-The root's own transliteration/gloss come straight from the vocab deck; only
-the inflected surface form's transliteration is computed here.
+Card display shows the WHOLE printed word, not just the verb's own
+morpheme -- matching how the Jonah readers already do it (see
+build_jonah1_reader.py's docstring: "a prefixed vav or preposition is
+never pulled out into its own visual token -- that would show Hebrew that
+doesn't actually look like Hebrew"). A form like wayyiqtol's defining vav,
+or a pronominal-suffixed infinitive construct, is meaningless with its
+prefix/suffix stripped -- and stripping it was the source of the parse-tab
+bug this rewrite fixes. `surface_form`/`transliteration` are therefore the
+full word; `verb_form` isolates just the verb's own consonants (for
+highlighting), and `prefix_form`/`suffix_form` hold whatever surrounds it,
+built by re-joining the OSHB word's own "/"-separated morpheme spans, not
+by regenerating Hebrew text. `prefix_glosses` resolves any function-word
+prefix (conjunction/article/preposition/relative/interrogative -- the
+closed 8-code set in hebrew_corpus.FUNCTION_CODES) against the same
+curated F-<letter> entries the Jonah readers already use, so no new
+curation happens here. `suffix_kind`/`suffix_pgn` records a pronominal
+suffix's own person/gender/number (paragogic nun/he get a kind but no
+PGN, since they aren't pronouns).
+
+The root's own transliteration/gloss come straight from the vocab deck;
+the word's transliteration is computed here from the FULL word in one
+pass, not per-morpheme, since Hebrew phonology (shva na/nach in
+particular) doesn't respect the OSHB morpheme boundary -- transliterating
+a lone verb morpheme in isolation was exactly how the old truncated cards
+got a wrong transliteration too, not just a wrong Hebrew string.
 
 Text is never NFC/NFD-normalized (CLAUDE.md rule 2) -- only cantillation
 (U+0591-U+05AF) is stripped, which is deletion, not normalization.
@@ -46,7 +71,7 @@ import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from hebrew_corpus import BOOK_ORDER, OSIS_NS, WLC_DIR
+from hebrew_corpus import BOOK_ORDER, FUNCTION_CODES, OSIS_NS, WLC_DIR
 from transliterate import transliterate
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -67,17 +92,22 @@ FINAL_TO_BASE = {
 }
 HEB_CONSONANT_RE = re.compile("[א-ת]")
 
-# Conjugation letter (position 2 of a Vq... morph code) -> our label, in the
-# locked priority order. 'r' (participle) and 'c' (infinitive construct)
-# carry no person; the others carry a 3-char person+gender+number suffix.
+# Conjugation letter (position 2 of a Vq... morph code) -> our label.
+# Confirmed against the OSHB morphology spec (hb.openscriptures.org) and
+# against the raw corpus: 'q' is sequential perfect (weqatal), 'i' is
+# imperfect (yiqtol) -- these were swapped/missing in the version of this
+# script that shipped the wrong yiqtol cards. 'r' (participle) and 'c'
+# (infinitive construct) carry no person; the rest carry a 3-char
+# person+gender+number suffix.
 CONJUGATIONS = {
     "p": "qatal",
+    "q": "weqatal",
     "w": "wayyiqtol",
-    "q": "yiqtol",
+    "i": "yiqtol",
     "r": "participle",
     "c": "infinitive_construct",
 }
-FINITE_CONJUGATIONS = {"p", "w", "q"}
+FINITE_CONJUGATIONS = {"p", "q", "w", "i"}
 
 GENDER_LABEL = {"m": "m", "f": "f", "c": "c"}
 NUMBER_LABEL = {"s": "s", "p": "p", "d": "d"}
@@ -86,7 +116,15 @@ STATE_LABEL = {"a": "absolute", "c": "construct"}
 # HVq<conj><suffix> where conj is one of our locked letters. Suffix is
 # 3 chars (person+gender+number) for finite forms, 3 chars
 # (gender+number+state) for participles, absent for infinitive construct.
-MORPH_RE = re.compile(r"^Vq([pwqrc])([123]?[mfc]?[spd]?[ac]?)$")
+MORPH_RE = re.compile(r"^Vq([pqwirc])([123]?[mfc]?[spd]?[ac]?)$")
+
+# What can trail a verb morpheme (morph_parts after the Vq... one).
+# Confirmed against the corpus, restricted to strong roots: NONE (no
+# trailing morpheme), a pronominal object suffix (Sp<person><gender>
+# <number>), a paragogic nun (Sn), or a paragogic/directional he (Sh).
+# Anything else is rare enough (2 occurrences project-wide) to skip and
+# log rather than guess at.
+SUFFIX_PGN_RE = re.compile(r"^Sp([123])([mfc])([spd])$")
 
 
 def strip_cantillation(s):
@@ -150,8 +188,12 @@ def load_strong_verb_roots():
     with open(DECK_PATH, encoding="utf-8") as f:
         deck = json.load(f)
     roots = {}
+    functional = {}
     weak_count = 0
     for e in deck["entries"]:
+        if e["lemma_id"].startswith("F-"):
+            functional[e["lemma_id"]] = e
+            continue
         if e["pos"] != "Verb":
             continue
         reasons = weakness_reasons(e["citation_form"])
@@ -160,7 +202,48 @@ def load_strong_verb_roots():
             continue
         roots[e["lemma_id"]] = e
     print(f"Top-600 verb lemmas: strong-root count {len(roots)}, weak-root count {weak_count}")
-    return roots
+    missing_fn = set("F-" + c for c in FUNCTION_CODES) - set(functional)
+    if missing_fn:
+        sys.exit(f"vocab_deck_600.json is missing curated entries for function codes: {missing_fn}")
+    return roots, functional
+
+
+def resolve_prefix(lemma_parts, verb_index, functional):
+    """Every function-morpheme lemma before the verb -> its curated deck
+    entry, in reading order. Returns (list_of_entries, anomaly_or_None)."""
+    resolved = []
+    for lp_raw in lemma_parts[:verb_index]:
+        lp = lp_raw.strip()
+        if not lp:
+            continue
+        if not re.match(r"^[a-z]$", lp):
+            return None, f"unrecognized prefix lemma part {lp!r}"
+        fn_id = "F-" + lp
+        entry = functional.get(fn_id)
+        if entry is None:
+            return None, f"prefix lemma {fn_id!r} not in curated function-word set"
+        resolved.append(entry)
+    return resolved, None
+
+
+def resolve_suffix(morph_parts, verb_index):
+    """Classify whatever trails the verb's own morph part. Returns
+    (kind, pgn_or_None, anomaly_or_None)."""
+    rest = morph_parts[verb_index + 1:]
+    if not rest:
+        return None, None, None
+    if len(rest) == 1:
+        m = SUFFIX_PGN_RE.match(rest[0])
+        if m:
+            person, g, n = m.groups()
+            return "pronominal", {
+                "person": person, "gender": GENDER_LABEL[g], "number": NUMBER_LABEL[n],
+            }, None
+        if rest[0] == "Sn":
+            return "paragogic_nun", None, None
+        if rest[0] == "Sh":
+            return "directional_he", None, None
+    return None, None, f"unhandled trailing morpheme(s) {rest!r}"
 
 
 def main():
@@ -169,10 +252,11 @@ def main():
     if not os.path.isdir(WLC_DIR):
         sys.exit("pipeline/corpus/wlc not found -- run pipeline/fetch_corpus.py first")
 
-    roots = load_strong_verb_roots()
+    roots, functional = load_strong_verb_roots()
 
     entries = []
     skipped_suffix = []
+    skipped_anomaly = []
     conj_counts = {label: 0 for label in CONJUGATIONS.values()}
 
     for book_code, book_name in BOOK_ORDER:
@@ -218,17 +302,49 @@ def main():
                         skipped_suffix.append({"verse": vid, "morph": mp, "lemma_id": lemma_id})
                         continue
 
-                    surface_raw = word_parts[i] if i < len(word_parts) else ""
-                    surface = strip_cantillation(surface_raw.replace("/", ""))
-                    if not surface:
+                    verb_form = strip_cantillation((word_parts[i] if i < len(word_parts) else "").replace("/", ""))
+                    if not verb_form:
+                        continue
+
+                    prefix_entries, prefix_err = resolve_prefix(lemma_parts, i, functional)
+                    if prefix_err:
+                        skipped_anomaly.append({"verse": vid, "reason": prefix_err, "lemma": raw_lemma, "morph": raw_morph})
+                        continue
+
+                    suffix_kind, suffix_pgn, suffix_err = resolve_suffix(morph_parts, i)
+                    if suffix_err:
+                        skipped_anomaly.append({"verse": vid, "reason": suffix_err, "lemma": raw_lemma, "morph": raw_morph})
+                        continue
+
+                    prefix_form = strip_cantillation("".join(word_parts[:i]))
+                    suffix_form = strip_cantillation("".join(word_parts[i + 1:]))
+                    full_word = strip_cantillation("".join(word_parts))
+                    if prefix_form + verb_form + suffix_form != full_word:
+                        skipped_anomaly.append({
+                            "verse": vid, "reason": "prefix+verb+suffix != full word",
+                            "lemma": raw_lemma, "morph": raw_morph,
+                        })
                         continue
 
                     entries.append({
                         "id": f"{wid or vid}-{i}",
                         "ref": vid,
                         "book": book_name,
-                        "surface_form": surface,
-                        "transliteration": transliterate(surface),
+                        "surface_form": full_word,
+                        "transliteration": transliterate(full_word),
+                        "verb_form": verb_form,
+                        "prefix_form": prefix_form,
+                        "suffix_form": suffix_form,
+                        "prefix_morphemes": [
+                            {
+                                "citation_form": e["citation_form"],
+                                "transliteration": e["transliteration"],
+                                "gloss": e["gloss"],
+                            }
+                            for e in prefix_entries
+                        ],
+                        "suffix_kind": suffix_kind,
+                        "suffix_pgn": suffix_pgn,
                         "lemma_id": lemma_id,
                         "root_citation_form": root_entry["citation_form"],
                         "root_transliteration": root_entry["transliteration"],
@@ -247,6 +363,8 @@ def main():
         print(f"  {label}: {n}")
     if skipped_suffix:
         print(f"WARNING: {len(skipped_suffix)} matches had an unparseable PGN suffix, skipped", file=sys.stderr)
+    if skipped_anomaly:
+        print(f"WARNING: {len(skipped_anomaly)} matches had an unresolved prefix/suffix, skipped", file=sys.stderr)
 
     out = {
         "metadata": {
@@ -263,6 +381,7 @@ def main():
             "conjugation_counts": conj_counts,
             "distinct_roots": len({e["lemma_id"] for e in entries}),
             "skipped_unparseable_suffix": len(skipped_suffix),
+            "skipped_anomaly": len(skipped_anomaly),
         },
         "entries": entries,
     }
@@ -271,10 +390,10 @@ def main():
         json.dump(out, f, ensure_ascii=False, indent=2)
     print(f"Wrote {len(entries)} entries to {OUT_PATH}")
 
-    if skipped_suffix:
+    if skipped_suffix or skipped_anomaly:
         anomaly_path = os.path.join(HERE, "build_parse_qal_anomalies.json")
         with open(anomaly_path, "w", encoding="utf-8") as f:
-            json.dump(skipped_suffix, f, ensure_ascii=False, indent=2)
+            json.dump({"skipped_suffix": skipped_suffix, "skipped_anomaly": skipped_anomaly}, f, ensure_ascii=False, indent=2)
         print(f"Anomaly detail written to {anomaly_path}")
 
 

@@ -12,11 +12,24 @@ import * as theme from './theme.js';
 import * as vocab from './views/vocab.js';
 import * as parseView from './views/parse.js';
 import * as readView from './views/read.js';
+import * as learnView from './views/learn.js';
 import * as settingsView from './views/settings.js';
 import * as feedback from './feedback.js';
 
 export const DECK_URL = new URL('../data/vocab_deck_600.json', import.meta.url);
 export const PARSE_DECK_URL = new URL('../data/parse_qal_strong.json', import.meta.url);
+
+// Lesson groups in teaching order (see STATUS.md for why group 2 -- construct
+// chains -- followed group 1 -- prefixes/suffixes). Add a new group here once
+// its data/*.json exists -- everything else (tab loading, the Learn tab's
+// grouped list) is generic over this list, same pattern as READER_CHAPTERS.
+export const LESSON_GROUPS = [
+  { key: 'group1', url: new URL('../data/lessons_group1.json', import.meta.url) },
+  { key: 'group2', url: new URL('../data/lessons_group2.json', import.meta.url) },
+  { key: 'group3', url: new URL('../data/lessons_group3.json', import.meta.url) },
+  { key: 'group4', url: new URL('../data/lessons_group4.json', import.meta.url) },
+  { key: 'group5', url: new URL('../data/lessons_group5.json', import.meta.url) },
+];
 
 // Reader chapters in reading order (CLAUDE.md's locked order: Jonah, then
 // Ruth, then Genesis narrative, then Exodus 3/14). Add a new chapter here
@@ -31,12 +44,13 @@ export const READER_CHAPTERS = [
 
 // Left-to-right tab bar order, for the directional switch-view sweep --
 // matches index.html's button order exactly.
-const TAB_ORDER = ['vocab', 'parse', 'read', 'settings'];
+const TAB_ORDER = ['vocab', 'parse', 'read', 'learn', 'settings'];
 
 let deck = null;
 let parseDeck = null;
 const readerCache = {}; // chapter key -> loaded reader JSON
 let readerChapterKey = READER_CHAPTERS[0].key;
+const lessonGroupCache = {}; // group key -> loaded lessons JSON
 let tab = 'vocab';
 
 export async function loadDeck() {
@@ -57,6 +71,18 @@ export async function loadParseDeck() {
     throw new Error('parse deck contains no entries');
   }
   return json.entries;
+}
+
+export async function loadLessonGroup(key) {
+  const group = LESSON_GROUPS.find((g) => g.key === key);
+  if (!group) throw new Error(`unknown lesson group: ${key}`);
+  const res = await fetch(group.url, { cache: 'no-cache' });
+  if (!res.ok) throw new Error(`lessons fetch failed: ${res.status} ${res.statusText}`);
+  const json = await res.json();
+  if (!Array.isArray(json.lessons) || !json.lessons.length) {
+    throw new Error('lessons contain no entries');
+  }
+  return json;
 }
 
 export async function loadReaderData(key) {
@@ -89,6 +115,10 @@ function rerender() {
       currentKey: readerChapterKey,
       data: readerCache[readerChapterKey],
     });
+  } else if (tab === 'learn') {
+    const groups = LESSON_GROUPS.map((g) => lessonGroupCache[g.key]);
+    if (groups.some((g) => !g)) { root.textContent = 'Loading…'; return; }
+    learnView.render(root, groups);
   } else vocab.render(root, deck);
   window.scrollTo(0, 0);
 }
@@ -144,6 +174,17 @@ async function selectTab(name) {
       return;
     }
   }
+  if (name === 'learn') {
+    try {
+      for (const g of LESSON_GROUPS) {
+        if (!lessonGroupCache[g.key]) lessonGroupCache[g.key] = await loadLessonGroup(g.key);
+      }
+    } catch (err) {
+      console.error(err);
+      view().textContent = `Could not load the lessons: ${err.message || err}`;
+      return;
+    }
+  }
   rerender();
 }
 
@@ -170,6 +211,7 @@ async function boot() {
   parseView.setRerender(rerender);
   readView.setRerender(rerender);
   readView.setSelectChapter(selectReaderChapter);
+  learnView.setRerender(rerender);
 
   for (const b of document.querySelectorAll('.tab')) {
     if (b.disabled) continue;

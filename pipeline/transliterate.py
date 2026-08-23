@@ -243,7 +243,23 @@ def transliterate(word):
             if prev_vowel in (PATACH, QAMATS):
                 is_furtive = False
 
-        if own_vowel[i] == SHVA:
+        # Word-initial shuruq: a vav+dagesh with no vowel of its own is
+        # normally absorbed as the *preceding* consonant's vowel (Pass 1),
+        # but when it's the word's own first letter there is no preceding
+        # consonant to absorb into -- the vav+dagesh pair IS the syllable,
+        # pronounced "u" with no consonant sound at all (e.g. the vav-
+        # conjunctive BuMP-rule allomorph in "u-vayom", not "ve-"). Only
+        # possible at pos==0: a mid-word vav+dagesh with no vowel is always
+        # caught by Pass 1's forward-looking absorption instead.
+        is_word_initial_shuruq = (
+            pos == 0 and base == VAV and own_vowel[i] is None and DAGESH in marks
+        )
+        if is_word_initial_shuruq:
+            cons = ""
+
+        if is_word_initial_shuruq:
+            vowel = "u"
+        elif own_vowel[i] == SHVA:
             is_word_initial = pos == 0
             is_word_final = is_last_real
             pj, nj = prev_real(pos), next_real(pos)

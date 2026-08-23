@@ -10,36 +10,43 @@ Lane is starting from zero; no prior Hebrew assumed.
 
 Horizon: roughly 11–13 months at a loose daily habit. There is no deadline and no exam.
 
-## Hard rules
+## Hard rule
 
-1. **Never hand-type pointed Hebrew.** Every Hebrew string and every parse answer key is
+Always be extremely careful when you:
+
+1. **hand-type pointed Hebrew.** Every Hebrew string and every parse answer key is ideally
    generated from the OSHB corpus and verified against it programmatically.
    Source: `npm pack morphhb` (CC BY 4.0, ~20 MB, ~30s). WLC text is public domain.
    This extends to app source: **no Hebrew letters in any `/app/` file.** Every glyph the
    user sees is fetched from `/data` at runtime. Mechanically checkable — grep `/app/` for
-   U+05D0–U+05EA and expect zero hits. If a view needs Hebrew that isn't in a data file yet
-   (an alphabet chart, a paradigm table), generate that file in `/pipeline` rather than
-   typing the letters into the view.
-2. **Never apply NFC or NFD normalization to Hebrew text.** OSHB explicitly warns against it.
-   Normalizing reorders combining marks and breaks display silently — the text still looks
-   plausible. This is not theoretical; it alters the current data files.
+   U+05D0–U+05EA and expect zero hits.Mistakes are very easy to make here so its worth double checking and paying close attention when youre typing, only for benign tasks like copying and transferring texts try to source whenever possible
+
+## Strong suggestions
+
+Everything below is a default worth following, not a wall. Deviate when there's a good
+reason, and say what the reason was.
+
+2. **Avoid applying NFC or NFD normalization to Hebrew text.** OSHB explicitly warns against
+   it. Normalizing reorders combining marks and breaks display silently — the text still
+   looks plausible. This is not theoretical; it has altered the current data files before.
    Stripping characters (e.g. cantillation U+0591–U+05AF) is deletion, not normalization, and is fine.
-3. **Every generation step ships a verification script.** Not optional. The two bugs found
-   during Tier 0 (a morph regex matching construct plurals; an unpointed defective spelling
+3. **Every generation step should ship a verification script.** The two bugs found during
+   Tier 0 (a morph regex matching construct plurals; an unpointed defective spelling
    selected as a teaching example) both produced plausible-looking wrong output and were
-   caught only by checking. Assume the same class of bug is always present.
-4. **Every Hebrew form shown to the user gets transliteration + gloss.**
-5. **No fixed session length, no streaks, no guilt mechanics.** Lane skips days and doubles up.
-   Cap the daily review queue (~40 cards) and quietly defer the rest, so returning after a
-   gap never shows a wall of due cards.
-6. **Persisted state is versioned; review history is never silently destroyed.** Every
+   caught only by checking. Assume the same class of bug can be present.
+4. **Every Hebrew form shown to the user should get transliteration + gloss.**
+5. **Prefer no fixed session length, no streaks, no guilt mechanics.** Lane skips days and
+   doubles up. Cap the daily review queue (~40 cards) and quietly defer the rest, so
+   returning after a gap never shows a wall of due cards.
+6. **Persisted state should be versioned; try not to silently destroy review history.** Every
    localStorage object carries a `schemaVersion`. Review history is the only data in this
    project that cannot be regenerated from the corpus — the corpus, glosses, and every
    generated file can be rebuilt from `/pipeline` in minutes; six months of FSRS scheduling
-   state cannot. Before any migration the app copies the old state to a separate
-   localStorage key (`hebrew:backup:v<n>`), not to a file download — downloads are awkward
-   to retrieve inside an iOS home-screen app. Pre-1.0, a schema change may reset state
-   rather than migrate, but only with a visible warning and an export offered first.
+   state cannot. Before a migration, prefer copying the old state to a separate localStorage
+   key (`hebrew:backup:v<n>`) rather than a file download — downloads are awkward to
+   retrieve inside an iOS home-screen app. Pre-1.0, a schema change resetting state instead
+   of migrating is acceptable, but should come with a visible warning and an export offered
+   first.
 
 ## Transliteration scheme
 
@@ -65,7 +72,7 @@ data file afterward, since transliterations are never hand-typed.
   the plosive form applies, so its absence is a reliable signal, not a guess). Soft kaf
   intentionally renders the same "kh" as het — they're the same sound in standard
   pronunciation, so this is a correct merge, not a lost distinction; the Hebrew letters
-  shown alongside every transliteration (rule 4) still disambiguate which one it was. The
+  shown alongside every transliteration (suggestion 4) still disambiguate which one it was. The
   other three BGDKPT letters (gimel/dalet/tav) are deliberately left alone: their spirant
   forms don't survive outside Yemenite pronunciation. Was widespread before the fix: 146 of
   the 600 vocab-deck citation forms (24%) contained at least one affected letter.
@@ -90,7 +97,10 @@ rebuilt and re-verified afterward, per this file's own instruction above.
   calling pipeline script to detect the maqqef in the verse XML and pass stress context
   in, which is a bigger, separately-scoped change, not a `transliterate.py`-only fix.
 
-## Locked decisions — do not re-litigate
+## Strong suggestions — established decisions, worth reconsidering only with a real reason
+
+These were reasoned through already; re-derive from scratch only if something's actually
+changed, not out of habit.
 
 - **Vocabulary target: ~600 lemmas** (= 80% token coverage). Not 1000. The next 400 lemmas
   buy 5 percentage points for 40% more memorization.
@@ -116,7 +126,7 @@ rebuilt and re-verified afterward, per this file's own instruction above.
   Do not reimplement a scheduler. Note the CDN is the one thing preventing true offline
   use; when offline matters, vendor the file into the repo rather than dropping ts-fsrs.
 - **Persistence: localStorage + a JSON export button.** Per-device; no sync. Accepted.
-- **Cut from v1:** poetry, Pual/Hophal drilling, infinitive absolute nuance, audio.
+
 
 ## Tiers
 
@@ -150,7 +160,7 @@ runs. One module per concern (`store.js`, `srs.js`, `feedback.js`, `theme.js`) p
 per view. No analytics, no telemetry, no external requests other than the pinned ts-fsrs
 CDN URL.
 
-Rule 3 (every generation step ships verification) has an app-side form: `/app/selftest.html`
+Suggestion 3 (every generation step ships verification) has an app-side form: `/app/selftest.html`
 asserts the data invariants the UI depends on — deck loads, 600 entries, ranks 1–600 with
 no gaps, every entry has a non-empty transliteration and gloss. It is a page, not a test
 framework; open it after any data regeneration.
@@ -200,7 +210,17 @@ python pipeline/verify_jonah3_reader.py # independent re-scan check for reader d
 python pipeline/curate_jonah4_extra.py  # curate glosses for Jonah 4 lemmas not yet covered
 python pipeline/build_jonah4_reader.py  # build data/jonah4_reader.json
 python pipeline/verify_jonah4_reader.py # independent re-scan check for reader data
-open app/selftest.html                  # structural checks: deck/parse/reader invariants
+python pipeline/build_lessons_group1.py # build data/lessons_group1.json (Learn tab, prefixes/suffixes)
+python pipeline/verify_lessons_group1.py # independent re-derivation check for lesson data
+python pipeline/build_lessons_group2.py # build data/lessons_group2.json (Learn tab, construct chains)
+python pipeline/verify_lessons_group2.py # independent re-derivation check for lesson data
+python pipeline/build_lessons_group3.py # build data/lessons_group3.json (Learn tab, the verb system)
+python pipeline/verify_lessons_group3.py # independent re-derivation check for lesson data
+python pipeline/build_lessons_group4.py # build data/lessons_group4.json (Learn tab, noun-phrase grammar)
+python pipeline/verify_lessons_group4.py # independent re-derivation check for lesson data
+python pipeline/build_lessons_group5.py # build data/lessons_group5.json (Learn tab, sentence-level syntax)
+python pipeline/verify_lessons_group5.py # independent re-derivation check for lesson data
+open app/selftest.html                  # structural checks: deck/parse/reader/lesson invariants
 ```
 
 Any change to `pipeline/transliterate.py` requires re-running every build script above,
@@ -211,13 +231,19 @@ per Hard Rule 1 — transliterations are never hand-typed.
 Phase history (what was built, verified, and why) lives in `STATUS.md`, not here, so this
 file stays short and doesn't go stale mid-phase. `git log` is the real commit-level history.
 
-**Current phase — Phase 5: Tiers 3–5** (weak verbs, derived stems, sustained reading).
-Not yet scoped. Near-term: the reader can keep growing (Ruth next, per the locked reading
-order) using the existing pipeline, independent of when the grammar tiers get scoped.
+**Current phase — Phase 5: Tiers 3–5** (weak verbs, derived stems, sustained reading), plus
+a new Learn tab (grammar lessons, started because Lane doesn't yet know the rules behind
+what the other tabs already have him recognizing by pattern). Grammar tiers not yet scoped.
+The Learn tab's original concept-list scope is now fully built (see `STATUS.md`); further
+lesson groups would be a new, not-yet-scoped addition. The reader can keep growing (Ruth
+next, per the suggested reading order) using the existing pipeline, independent of when
+the grammar tiers get scoped.
 
 **Shipped and live:** vocab SRS (Tier 0–1), parsing gym for Qal-strong verbs (Tier 2),
-full reader for the book of Jonah, chapters 1–4 (Phase 4, extended through Phase 5). See
-`STATUS.md` for what each phase actually built and how it was verified.
+full reader for the book of Jonah, chapters 1–4 (Phase 4, extended through Phase 5), Learn
+tab with lesson groups 1–5 (prefixes/suffixes, construct chains, the verb system,
+noun-phrase grammar, sentence-level syntax). See `STATUS.md` for what each phase actually
+built and how it was verified.
 
 ## Working style
 

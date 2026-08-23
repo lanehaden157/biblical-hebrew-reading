@@ -22,7 +22,7 @@
 </main>
 
 <script type="module">
-import { DECK_URL, loadDeck, PARSE_DECK_URL, loadParseDeck, READER_CHAPTERS, loadReaderData } from './main.js';
+import { DECK_URL, loadDeck, PARSE_DECK_URL, loadParseDeck, READER_CHAPTERS, loadReaderData, LESSON_GROUPS, loadLessonGroup } from './main.js';
 import { newCard, applyGrade, describeInterval, GRADES } from './srs.js';
 
 const out = document.getElementById('out');
@@ -53,7 +53,7 @@ const HEBREW_RE = /[\u05D0-\u05EA]/;
 
 const APP_FILES = [
   'main.js', 'store.js', 'srs.js', 'theme.js', 'feedback.js', 'app.css',
-  'views/vocab.js', 'views/parse.js', 'views/read.js', 'views/settings.js', 'selftest.html',
+  'views/vocab.js', 'views/parse.js', 'views/read.js', 'views/learn.js', 'views/settings.js', 'selftest.html',
 ];
 
 async function run() {
@@ -102,12 +102,13 @@ async function run() {
     parseDeck = [];
   }
   if (parseDeck.length) {
-    const CONJS = new Set(['qatal', 'wayyiqtol', 'yiqtol', 'participle', 'infinitive_construct']);
-    let badForm = 0, badGloss = 0, badConj = 0, badPgn = 0, dupIds = 0;
+    const CONJS = new Set(['qatal', 'weqatal', 'wayyiqtol', 'yiqtol', 'participle', 'infinitive_construct']);
+    let badForm = 0, badGloss = 0, badConj = 0, badPgn = 0, badWhole = 0, dupIds = 0;
     const seenIds = new Set();
     for (const e of parseDeck) {
       if (!e.surface_form || !HEBREW_RE.test(e.surface_form)) badForm++;
       if (!e.transliteration || !TRANSLIT_RE.test(e.transliteration)) badForm++;
+      if (!e.verb_form || !HEBREW_RE.test(e.verb_form)) badForm++;
       if (!e.root_citation_form || !HEBREW_RE.test(e.root_citation_form)) badForm++;
       if (!e.root_transliteration || !TRANSLIT_RE.test(e.root_transliteration)) badForm++;
       if (!e.gloss || !e.gloss.trim()) badGloss++;
@@ -117,12 +118,19 @@ async function run() {
       } else if (e.conjugation === 'participle') {
         if (e.person || !e.gender || !e.number || !e.state) badPgn++;
       } else if (!e.person || !e.gender || !e.number || e.state) badPgn++;
+      // Mechanical check for the old truncated-card bug: the verb's own
+      // morpheme, wrapped by whatever prefix/suffix surrounds it, must
+      // reconstruct the whole displayed word exactly -- a fragment (a
+      // stripped wayyiqtol vav, a dropped pronominal suffix) fails this.
+      const whole = (e.prefix_form || '') + e.verb_form + (e.suffix_form || '');
+      if (whole !== e.surface_form) badWhole++;
       if (seenIds.has(e.id)) dupIds++;
       seenIds.add(e.id);
     }
     check(badForm === 0, `every parse entry has well-formed Hebrew + transliteration (${badForm} bad)`);
     check(badGloss === 0, `every parse entry has a gloss — hard rule 4 (${badGloss} bad)`);
     check(badConj === 0, `every parse entry has a recognized conjugation (${badConj} bad)`);
+    check(badWhole === 0, `every parse entry's prefix+verb+suffix reconstructs its surface_form (${badWhole} bad)`);
     check(badPgn === 0, `every parse entry's person/gender/number/state matches its conjugation's shape (${badPgn} bad)`);
     check(dupIds === 0, `no duplicate parse entry ids (${dupIds} dupes)`);
   }
@@ -159,6 +167,62 @@ async function run() {
     check(badGloss === 0, `${chapter.label}: every word has a gloss — hard rule 4 (${badGloss} bad)`);
     check(badKnown === 0, `${chapter.label}: every word's is_known matches vocab_deck_600 membership (${badKnown} bad)`);
     check(dupIds === 0, `${chapter.label}: no duplicate word ids (${dupIds} dupes)`);
+  }
+
+  // Every example is either single-word (surface_form/base_form/highlight at
+  // the top level, like group 1) or a multi-word chain (a `tokens` array,
+  // each shaped like a single-word example plus its own `role`, and a
+  // phrase_gloss instead of a top-level gloss, like group 2's construct
+  // chains). Both shapes get the same well-formedness checks, just applied
+  // per-token for chains.
+  function checkWordShape(w, counters) {
+    if (!w.surface_form || !HEBREW_RE.test(w.surface_form)) counters.badForm++;
+    if (!w.transliteration || !TRANSLIT_RE.test(w.transliteration)) counters.badForm++;
+    const whole = (w.prefix_form || '') + w.base_form + (w.suffix_form || '');
+    if (whole !== w.surface_form) counters.badWhole++;
+  }
+
+  for (const group of LESSON_GROUPS) {
+    let lessons;
+    try {
+      lessons = await loadLessonGroup(group.key);
+      ok(`lessons (${group.key}) loaded from ${group.url.pathname}`);
+    } catch (e) {
+      bad(`lessons (${group.key}) failed to load: ${e.message}`);
+      continue;
+    }
+    check(lessons.lessons.length === lessons.metadata.lesson_count,
+      `lessons (${group.key}): lesson count matches metadata (${lessons.lessons.length} vs ${lessons.metadata.lesson_count})`);
+    const allExamples = lessons.lessons.flatMap((l) => l.examples);
+    check(allExamples.length === lessons.metadata.example_count,
+      `lessons (${group.key}): example count matches metadata (${allExamples.length} vs ${lessons.metadata.example_count})`);
+
+    const c = { badForm: 0, badWhole: 0 };
+    let badTitle = 0, badParagraphs = 0, badGloss = 0, badHighlight = 0;
+    for (const l of lessons.lessons) {
+      if (!l.title || !l.title.trim()) badTitle++;
+      if (!l.paragraphs || !l.paragraphs.length || l.paragraphs.some((p) => !p.trim())) badParagraphs++;
+      for (const ex of l.examples) {
+        if (!ex.note || !ex.note.trim()) badGloss++;
+        if (ex.tokens) {
+          if (!ex.phrase_gloss || !ex.phrase_gloss.trim()) badGloss++;
+          for (const tok of ex.tokens) {
+            checkWordShape(tok, c);
+            if (!['construct', 'absolute', 'plain'].includes(tok.role)) badHighlight++;
+          }
+        } else {
+          checkWordShape(ex, c);
+          if (!ex.gloss || !ex.gloss.trim()) badGloss++;
+          if (!['prefix', 'base', 'suffix'].includes(ex.highlight)) badHighlight++;
+        }
+      }
+    }
+    check(badTitle === 0, `lessons (${group.key}): every lesson has a title (${badTitle} bad)`);
+    check(badParagraphs === 0, `lessons (${group.key}): every lesson has non-empty paragraphs (${badParagraphs} bad)`);
+    check(c.badForm === 0, `lessons (${group.key}): every example has well-formed Hebrew + transliteration (${c.badForm} bad)`);
+    check(c.badWhole === 0, `lessons (${group.key}): every example's prefix+base+suffix reconstructs its surface_form (${c.badWhole} bad)`);
+    check(badGloss === 0, `lessons (${group.key}): every example has a gloss and a note — hard rule 4 (${badGloss} bad)`);
+    check(badHighlight === 0, `lessons (${group.key}): every example names a valid highlight/role (${badHighlight} bad)`);
   }
 
   // Hard rule 1, app-side: no Hebrew letters anywhere in /app/ source.

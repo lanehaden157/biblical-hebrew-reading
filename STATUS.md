@@ -141,8 +141,187 @@ chapters, chapter switcher lists all four labels, tap-to-reveal confirmed on Jon
 final word (`רַבָּה` -> "rabah" -> "much, many, great", the closing "much cattle" of 4:11).
 The book of Jonah is now fully readable in the app, cover to cover.
 
-## Next — Phase 5: Tiers 3–5
+## Done — Phase 5 progress: parse-tab bug fixes
 
-Weak verbs, derived stems, sustained reading. Still further out and not yet scoped. Reading
-order (CLAUDE.md, locked) goes to Ruth next for reader expansion, whenever that's picked up,
+Lane flagged real errors in the Parse tab. Two conjugation-letter bugs, confirmed against
+the OSHB morphology spec directly (not just re-derived from this project's own prior
+belief about it): the morph code for sequential perfect (weqatal, letter `q`) was
+mislabeled "yiqtol"; genuine imperfect (yiqtol, letter `i`) wasn't matched by the regex at
+all, so those forms were silently absent rather than wrong. Also, `surface_form` was only
+the verb's own "/"-separated morpheme -- any prefix (a wayyiqtol's defining vav, a
+preposition) or suffix (a pronominal object) was stripped, sometimes leaving a fragment
+that isn't a real Hebrew word. `build_parse_qal.py` now shows the whole printed word
+(matching how the Jonah readers already display words), splitting it into
+`prefix_form`/`verb_form`/`suffix_form` for highlighting, resolving any prefix against the
+same curated `F-<letter>` function-word entries the readers use, and capturing a trailing
+pronominal suffix's person/gender/number (or paragogic nun/he) where present. Weqatal
+added as its own labeled conjugation (Lane's call -- it's weqatal's direct pairing with
+wayyiqtol/yiqtol that makes the whole-word display worth having). Deck grew from 2,211 to
+2,819 entries. `app/views/parse.js` highlights the verb morpheme in accent color within
+the full word and reveals prefix glosses + suffix PGN at stage 2.
+
+While rebuilding, a related transliteration bug surfaced: a word-initial shuruq vav (e.g.
+וּבַיּוֹם) was rendering as a bare "w" instead of "u-" -- the BuMP-rule case
+`transliteration-reference.md` had flagged as "probably not live" turned out to affect 159
+of 2,819 parse cards (5.6%). Fixed in `transliterate.py` (a vav+dagesh with no vowel of
+its own and nothing preceding it is now read as the syllable "u", not a consonant); final-
+he stayed as-is per Lane's explicit preference (keep "torah"/"malkah", don't add the
+mappiq-silent distinction). `verify_parse_qal.py` gained a golden regression set (six real
+corpus refs, one per conjugation, checked against the external OSHB spec page) and a
+whole-word reconstruction check; `verify_transliterate.py` gained a corpus-word regression
+pair for the shuruq fix. `selftest.html` gained the same reconstruction check. Every data
+file that bakes in a transliteration was rebuilt and re-verified. Verified in-browser: the
+original bug's own example (`יִּשְׁבֹּת`, cited in `morphology-reference.md`) now shows as
+the full word `וַיִּשְׁבֹּת`, transliterates "wayishbot", and labels "Qal wayyiqtol
+(narrative), 3rd masc. sing."
+
+## Done — Phase 5 progress: Learn tab, lesson group 1 (prefixes and suffixes)
+
+Lane doesn't yet know the grammar rules behind what Vocab/Parse/Read already have him
+recognizing by pattern. Rather than guess at a curriculum, `pipeline/hebrew_corpus.py`'s
+Jonah word dump was used to count what actually shows up in the text: prefixed/suffixed
+function morphemes touch a large fraction of every sentence (conjunction vav 132/688
+words, definite article 72, the four inseparable prepositions 102 combined, pronominal
+suffixes 99), so that became lesson group 1, with construct chains (72/205 nouns, 35%),
+the verb system, and sentence-level syntax queued as later groups -- see the concept list
+given to Lane in-conversation for the full breakdown. Lane chose the format (a dedicated
+Learn tab with short lessons, not just-in-time popups) and the starting group.
+
+`pipeline/build_lessons_group1.py` builds `data/lessons_group1.json`: 6 lessons (vav,
+definite article, the ל/ב/כ/מן prepositions, pronominal suffixes, the relative
+אֲשֶׁר/שֶׁ-, the interrogative הֲ prefix -- the latter appears exactly once in the whole
+book, in Jonah's complaint at 4:2), 18 examples total, every one a real word pulled from
+Jonah 1 or 4:2 by its OSIS word id (never typed by hand) and decomposed generically
+(works for a noun/preposition/verb base, not just Qal verbs like `build_parse_qal.py`) into
+prefix/base/suffix spans, with prefix glosses resolved against the same curated
+`F-<letter>` entries the readers use and whole-word transliteration computed once (not
+per-morpheme, per the parse-tab lesson above). `pipeline/verify_lessons_group1.py`
+independently re-implements the decomposition against a fresh XML re-scan and diffs every
+field. `app/views/learn.js` adds the 5th tab: a lesson list, and a detail view that
+highlights whichever span (prefix/base/suffix) the lesson is actually about, in the same
+accent-color convention Parse already uses. Not gated behind completion, matching the Read
+tab's philosophy (no progress bar, no streaks). Verified in-browser: selftest 71/71
+passing, all six lessons render, prefix- and suffix-highlighted examples both confirmed
+via DOM inspection.
+
+## Done — Phase 5 progress: Learn tab, lesson group 2 (construct chains)
+
+Lane asked for this one directly (construct chains were flagged as the single biggest
+untaught gap: 72 of 205 nouns in Jonah, 35%, are in construct state). Two example shapes
+needed this time, not one: a construct chain is written as two or three separate `<w>`
+elements, not one word's internal "/" morphemes, so highlighting "which word is
+construct" is a genuinely different operation from group 1's "which part of this one word
+is the prefix" -- `build_lessons_group2.py` reuses group 1's `decompose()` per token
+(imported directly -- sharing logic between *build* scripts is fine; it's *verify*
+scripts that must stay independent, and `verify_lessons_group2.py` re-implements
+everything from scratch same as every other verifier) and adds a `noun_role()` classifier
+that reads a token's own grammatical state (construct/absolute) directly off its morph
+code's trailing state letter -- never inferred from word order, which would silently get
+a proper-noun-final chain wrong (proper nouns carry no state letter at all).
+
+5 lessons, 11 examples, real words/phrases from Jonah 1 and 3: the basic two-noun chain
+(דְּבַר יְהוָה, "word of the LORD" -- the book's opening words), the construct form's
+vowel shrink (compared directly against the word's own dictionary citation form, which
+`lemma_citation_form` already captured for group 1 -- no new field needed, just a UI rule:
+show a comparison line whenever the two differ), definiteness traveling through the chain
+from its last word only (אֱלֹהֵי הַשָּׁמַיִם / מֶלֶךְ נִינְוֵה), a genuine three-noun
+stacked chain (מַהֲלַךְ שְׁלֹשֶׁת יָמִים, "a three-day journey"), and the feminine
+ה→ת / plural ־ִים→־ֵי construct endings (including אַנְשֵׁי, flagged honestly as a
+suppletive plural -- singular "man" and plural "men" don't share a stem at all, not just
+a swapped ending). One example needed a note correction after a first in-browser check:
+`melekh`'s construct and citation forms differ by an invisible trailing shva (an
+orthographic convention, not a grammatical one) that the "completely identical" note text
+hadn't accounted for -- caught by actually reading the rendered page, not just running the
+verifier, which only checks that shipped and recomputed data agree with each other.
+
+`load_lookups()` (shared by both group scripts) widened from two curated gloss files to
+all four `jonah*_extra.json`, since group 2's examples draw on chapter 3's curated extras
+-- confirmed as a no-op for group 1's own output before shipping it. `main.js` replaced
+its group-1-specific loader with a generic `LESSON_GROUPS` list (same pattern as
+`READER_CHAPTERS`); `learn.js`'s list view now sections lessons by group, and its detail
+view renders either shape (single-word or multi-token chain, colored by role instead of
+by highlight span). Verified in-browser: selftest 80/80 passing, both groups list
+correctly, all 5 new lessons opened and read, construct/absolute role coloring confirmed
+via DOM inspection on both the 2-token and 3-token chain examples.
+
+## Done — Phase 5 progress: Learn tab, lesson group 3 (the verb system)
+
+The biggest conceptual group so far: binyan semantics, the qatal/yiqtol aspect
+distinction, vav-consecutive (wayyiqtol/weqatal), participles, infinitive construct, and
+the imperative/cohortative/jussive command forms. All single-word examples (no new
+example shape needed this time -- `build_lessons_group3.py` reuses group 1's
+`decompose()` directly, same import pattern group 2 used for its own single-word
+lessons), so the build script is close to group 1's in shape, just with a new curated set.
+
+6 lessons, 22 examples, all real Jonah words. The binyan lesson's anchor pair wasn't
+assumed -- every lemma's set of attested stems was cross-tabulated across the whole book
+first, to find a root genuinely attested in more than one binyan rather than picking two
+unrelated "typical" forms and implying a contrast that isn't actually in this text. That
+turned up נָפַל (Qal "fall") used in both Hiphil and Qal in the *same verse*, Jonah 1:7
+("...so they cast [Hiphil, causative: made [the lots] fall] lots, and the lot fell [Qal]
+on Jonah") -- a better illustration than anything that would have been picked by
+assumption. `verify_lessons_group3.py` re-confirms this specific claim independently (not
+just via the generic per-field diff): it re-scans the whole book itself and checks that
+H5307 genuinely has both stems attested, and that the two curated word ids really are
+that lemma in those two stems. The other four locked-priority stems (Niphal, Piel,
+Hiphil again, Hitpael) each get their own single real-word example too. The
+vav-consecutive lesson leads with the raw number that motivates the whole lesson: 84 of
+202 verb-morphs in Jonah (42%) are wayyiqtol.
+
+One deferred wrinkle, noted rather than silently fixed: בֹרֵחַ ("fleeing", Jonah 1:10)
+transliterates with a soft "v" despite being word-initial, because the actual Masoretic
+pointing genuinely omits dagesh lene there (confirmed against the raw codepoints, not a
+transliterate.py bug) -- a real, if secondary, phonetic-convention detail past this
+lesson's own scope, left as an accurate-but-unexplained data point rather than a tangent
+in the lesson prose.
+
+`main.js`'s `LESSON_GROUPS` list now has all three groups; no other app code needed to
+change, since `learn.js` and `selftest.html` were already written generically over that
+list in the group-2 pass. Verified in-browser: selftest 89/89 passing, all three groups
+list correctly under their own headings, the binyan lesson's Hiphil/Qal pair and the
+commands lesson's four command types all confirmed by reading the actual rendered page.
+
+## Done — Phase 5 progress: Learn tab, lesson groups 4–5 (the rest of the concept list)
+
+Lane asked for the whole original concept list finished, not just the next single group.
+Two groups, built and shipped together: group 4 picks up the noun-phrase items group 2
+(construct chains) had left over -- gender/number markers, the direct object marker אֵת,
+adjective agreement, demonstratives and numbers; group 5 is sentence-level syntax --
+default verb-subject-object word order, verbless/nominal clauses, and what vav is doing
+between whole clauses beyond a bare "and". Between them, every item from the concept list
+given to Lane in conversation is now built.
+
+Both groups needed multi-word phrase examples again (adjective-agreement pairs, full
+verbless clauses, word-order contrasts) -- reusing group 2's "chain" shape (a `tokens`
+array, one entry per printed word), but none of these phrases have a construct-chain's
+lean-on-the-next-word relationship, so forcing them into "construct"/"absolute" roles
+would have been a false claim. Added a third role, "plain" (no accent/dim split -- the
+words are just read in sequence), rather than stretch the existing two to cover a
+different relationship. `app/views/learn.js` and `app/selftest.html` both updated to
+accept it; group 2's own construct/absolute chains are untouched and still render exactly
+as before.
+
+Group 4's clearest example needed a genuine exception, not a rule stated as absolute:
+גּוֹרָלוֹת ("lots", Jonah 1:7) is a MASCULINE noun that still pluralizes with the
+"feminine-looking" ות ending -- included specifically so the gender/number lesson doesn't
+overclaim that the ending alone always tells you the gender. Group 5's word-order lesson
+pairs the default (וַיְמַן יְהוָה דָּג גָּדוֹל, "and the LORD appointed a great fish" --
+verb-subject-object) directly against a real deviation from it (וְיוֹנָה יָרַד, "but Jonah
+had gone down" -- subject fronted for a scene change), rather than only showing the
+default and asserting the exception exists.
+
+10 lessons, 17 examples, all real Jonah words/phrases across chapters 1, 2, and 4. Both
+`verify_lessons_group4.py` and `verify_lessons_group5.py` follow the same independent
+re-derivation discipline as every other lesson verifier. `main.js`'s `LESSON_GROUPS` list
+now has all five groups; no other app code needed structural changes beyond the new
+"plain" role. Verified in-browser: selftest 107/107 passing, all five groups list under
+their own headings, the 4-token word-order and verbless-clause phrases both confirmed
+rendering with zero highlight spans (plain text, as intended) via direct DOM inspection.
+
+## Next — Phase 5: Tiers 3–5 (grammar tiers), further lesson groups if scoped
+
+The Learn tab's original concept-list scope is now fully built across five groups. Any
+further lesson group would be a new addition, not yet scoped. Weak verbs and derived
+stems (Tiers 3–4) are still further out and not yet scoped either. Reading order
+(CLAUDE.md) goes to Ruth next for reader expansion, whenever that's picked up,
 independent of when the grammar tiers get scoped.

@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated": "2026-08-23T01:13:34.350400+00:00",
+    "generated": "2026-08-23T03:56:04.496512+00:00",
     "chapter": "Jonah 4",
     "versification": "Hebrew/WLC (11 verses; no divergence from English here)",
     "verse_count": 11,
@@ -1707,7 +1707,7 @@
         {
           "id": "32fv8",
           "surface_form": "וּבִן",
-          "transliteration": "wvin",
+          "transliteration": "uvin",
           "gloss": "and + son",
           "is_known": true,
           "lemma_ids": [
@@ -1959,7 +1959,7 @@
         {
           "id": "32nps",
           "surface_form": "וּבְהֵמָה",
-          "transliteration": "wvhemah",
+          "transliteration": "uvhemah",
           "gloss": "and + animal, beast, cattle",
           "is_known": true,
           "lemma_ids": [
