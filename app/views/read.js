@@ -23,6 +23,8 @@
  * chapter's data/*.json file at runtime.
  */
 
+import * as feedback from '../feedback.js';
+
 const openIds = new Set();
 let lastChapterKey = null;
 
@@ -116,8 +118,12 @@ function wordEl(word) {
   }
 
   const toggle = () => {
-    if (openIds.has(word.id)) openIds.delete(word.id);
-    else openIds.add(word.id);
+    const opening = !openIds.has(word.id);
+    if (opening) openIds.add(word.id);
+    else openIds.delete(word.id);
+    // Only the reveal gets a sound, same one-directional rule as the vocab
+    // card's advance() -- closing a word back up is silent.
+    if (opening) feedback.readReveal(word.is_known);
     rerender();
   };
   chip.addEventListener('click', toggle);

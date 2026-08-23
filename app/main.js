@@ -13,6 +13,7 @@ import * as vocab from './views/vocab.js';
 import * as parseView from './views/parse.js';
 import * as readView from './views/read.js';
 import * as settingsView from './views/settings.js';
+import * as feedback from './feedback.js';
 
 export const DECK_URL = new URL('../data/vocab_deck_600.json', import.meta.url);
 export const PARSE_DECK_URL = new URL('../data/parse_qal_strong.json', import.meta.url);
@@ -27,6 +28,10 @@ export const READER_CHAPTERS = [
   { key: 'jonah3', label: 'Jonah 3', url: new URL('../data/jonah3_reader.json', import.meta.url) },
   { key: 'jonah4', label: 'Jonah 4', url: new URL('../data/jonah4_reader.json', import.meta.url) },
 ];
+
+// Left-to-right tab bar order, for the directional switch-view sweep --
+// matches index.html's button order exactly.
+const TAB_ORDER = ['vocab', 'parse', 'read', 'settings'];
 
 let deck = null;
 let parseDeck = null;
@@ -111,6 +116,10 @@ async function selectReaderChapter(key) {
 }
 
 async function selectTab(name) {
+  const prevIndex = TAB_ORDER.indexOf(tab);
+  const nextIndex = TAB_ORDER.indexOf(name);
+  if (nextIndex !== prevIndex) feedback.switchView(nextIndex > prevIndex ? 1 : -1);
+
   tab = name;
   for (const b of document.querySelectorAll('.tab')) {
     if (b.dataset.tab === name) b.setAttribute('aria-current', 'page');

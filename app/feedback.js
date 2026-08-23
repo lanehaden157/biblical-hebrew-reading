@@ -45,6 +45,22 @@ function scheduleTone(ctx, freq, startAt, ms, gain) {
   osc.stop(startAt + ms / 1000 + 0.02);
 }
 
+function scheduleSweep(ctx, f1, f2, startAt, ms, gain) {
+  const osc = ctx.createOscillator();
+  const amp = ctx.createGain();
+  osc.type = 'sine';
+  osc.frequency.setValueAtTime(f1, startAt);
+  // Exponential, not linear -- pitch is perceived logarithmically, so this
+  // is the ramp shape that actually sounds like a smooth glide.
+  osc.frequency.exponentialRampToValueAtTime(f2, startAt + ms / 1000);
+  amp.gain.setValueAtTime(0, startAt);
+  amp.gain.linearRampToValueAtTime(gain, startAt + 0.012);
+  amp.gain.exponentialRampToValueAtTime(0.0001, startAt + ms / 1000);
+  osc.connect(amp).connect(ctx.destination);
+  osc.start(startAt);
+  osc.stop(startAt + ms / 1000 + 0.02);
+}
+
 /** Plays a short sequence of [freq, ms] notes back to back. Awaits resume()
  *  before touching currentTime -- see the sound note above for why. */
 async function playTones(specs, gain = 0.05) {
@@ -63,10 +79,46 @@ async function playTones(specs, gain = 0.05) {
   }
 }
 
-/** Card advanced a stage. Deliberately silent -- grading is the only moment
- *  with sound. Kept as a no-op call site so views don't need to special-case
- *  the stage-advance moment. */
-export function tap() {}
+/** One glissando from f1 to f2 -- used for motion (switching views), where a
+ *  pitch glide reads as "moving" in a way a static tone doesn't. */
+async function playSweep(f1, f2, ms, gain = 0.035) {
+  if (!settings().sound) return;
+  const ctx = ensureAudioCtx();
+  if (!ctx) return;
+  try {
+    if (ctx.state === 'suspended') await ctx.resume();
+    scheduleSweep(ctx, f1, f2, ctx.currentTime + 0.005, ms, gain);
+  } catch (e) {
+    console.warn('sound unavailable', e);
+  }
+}
+
+/** Card advanced a stage. One tone per stage, pitched to rise across the
+ *  reveal (stage 1: transliteration: A4; stage 2: gloss: C#5) so decoding
+ *  then meaning read as two steps up, not one repeated blip -- and stay
+ *  clear of the grade tones (300/660/784+988/finish) so a review session
+ *  never confuses "revealed" with "graded". */
+export function tap(stage) {
+  if (stage === 1) playTones([[440, 70]], 0.032);
+  else if (stage === 2) playTones([[554, 90]], 0.032);
+}
+
+/** Tab bar navigation. A short pitch glide rather than a tone -- reads as
+ *  motion, matching the tab bar's left-to-right layout: sweeping up for a
+ *  tab to the right, down for a tab to the left. dir is +1 or -1. */
+export function switchView(dir) {
+  if (dir > 0) playSweep(320, 500, 90);
+  else playSweep(500, 320, 90);
+}
+
+/** Reader tap-to-reveal. Deliberately different for a word already in the
+ *  vocab deck (a quiet, low confirm -- "yes, you know this one") vs. one
+ *  that isn't (a brighter two-note sparkle -- flags it as worth noticing,
+ *  echoing the underline read.js already draws under new-vocabulary words). */
+export function readReveal(isKnown) {
+  if (isKnown) playTones([[500, 55]], 0.03);
+  else playTones([[880, 45], [1175, 65]], 0.035);
+}
 
 /** One distinct tone per grade, so the sound carries information rather than
  *  being one repeated blip: a low buzz for Again, a clean confirm for Good,
