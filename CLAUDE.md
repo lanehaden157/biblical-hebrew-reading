@@ -194,6 +194,12 @@ python pipeline/verify_jonah1_reader.py # independent re-scan check for reader d
 python pipeline/curate_jonah2_extra.py  # curate glosses for Jonah 2 lemmas not yet covered
 python pipeline/build_jonah2_reader.py  # build data/jonah2_reader.json
 python pipeline/verify_jonah2_reader.py # independent re-scan check for reader data
+python pipeline/curate_jonah3_extra.py  # curate glosses for Jonah 3 lemmas not yet covered
+python pipeline/build_jonah3_reader.py  # build data/jonah3_reader.json
+python pipeline/verify_jonah3_reader.py # independent re-scan check for reader data
+python pipeline/curate_jonah4_extra.py  # curate glosses for Jonah 4 lemmas not yet covered
+python pipeline/build_jonah4_reader.py  # build data/jonah4_reader.json
+python pipeline/verify_jonah4_reader.py # independent re-scan check for reader data
 open app/selftest.html                  # structural checks: deck/parse/reader invariants
 ```
 
@@ -206,12 +212,12 @@ Phase history (what was built, verified, and why) lives in `STATUS.md`, not here
 file stays short and doesn't go stale mid-phase. `git log` is the real commit-level history.
 
 **Current phase — Phase 5: Tiers 3–5** (weak verbs, derived stems, sustained reading).
-Not yet scoped. Near-term: keep growing the reader (Jonah 3–4, then Ruth, per the locked
-reading order) using the existing pipeline, independent of when the grammar tiers get scoped.
+Not yet scoped. Near-term: the reader can keep growing (Ruth next, per the locked reading
+order) using the existing pipeline, independent of when the grammar tiers get scoped.
 
 **Shipped and live:** vocab SRS (Tier 0–1), parsing gym for Qal-strong verbs (Tier 2),
-reader for Jonah 1–2 (Phase 4, extended in Phase 5). See `STATUS.md` for what each phase
-actually built and how it was verified.
+full reader for the book of Jonah, chapters 1–4 (Phase 4, extended through Phase 5). See
+`STATUS.md` for what each phase actually built and how it was verified.
 
 ## Working style
 

@@ -24,6 +24,8 @@ export const PARSE_DECK_URL = new URL('../data/parse_qal_strong.json', import.me
 export const READER_CHAPTERS = [
   { key: 'jonah1', label: 'Jonah 1', url: new URL('../data/jonah1_reader.json', import.meta.url) },
   { key: 'jonah2', label: 'Jonah 2', url: new URL('../data/jonah2_reader.json', import.meta.url) },
+  { key: 'jonah3', label: 'Jonah 3', url: new URL('../data/jonah3_reader.json', import.meta.url) },
+  { key: 'jonah4', label: 'Jonah 4', url: new URL('../data/jonah4_reader.json', import.meta.url) },
 ];
 
 let deck = null;

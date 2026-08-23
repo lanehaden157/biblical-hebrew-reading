@@ -1,0 +1,1983 @@
+{
+  "metadata": {
+    "generated": "2026-08-23T01:13:34.350400+00:00",
+    "chapter": "Jonah 4",
+    "versification": "Hebrew/WLC (11 verses; no divergence from English here)",
+    "verse_count": 11,
+    "word_count": 183,
+    "distinct_lemma_count": 101,
+    "unknown_lemma_count": 23,
+    "words_already_known_count": 147,
+    "gloss_sources": [
+      "data/vocab_deck_600.json",
+      "glosses/jonah1_extra.json",
+      "glosses/jonah2_extra.json",
+      "glosses/jonah3_extra.json",
+      "glosses/jonah4_extra.json"
+    ]
+  },
+  "verses": [
+    {
+      "ref": "Jonah.4.1",
+      "verse_num": 1,
+      "words": [
+        {
+          "id": "32FyK",
+          "surface_form": "וַיֵּרַע",
+          "transliteration": "wayera`",
+          "gloss": "and + be evil, be bad; do evil, harm",
+          "is_known": true,
+          "lemma_ids": [
+            "F-c",
+            "H7489"
+          ]
+        },
+        {
+          "id": "32XjR",
+          "surface_form": "אֶל",
+          "transliteration": "'el",
+          "gloss": "to, toward",
+          "is_known": true,
+          "lemma_ids": [
+            "H413"
+          ]
+        },
+        {
+          "id": "32jaD",
+          "surface_form": "יוֹנָה",
+          "transliteration": "yonah",
+          "gloss": "Jonah (proper name)",
+          "is_known": false,
+          "lemma_ids": [
+            "H3124"
+          ]
+        },
+        {
+          "id": "32W7V",
+          "surface_form": "רָעָה",
+          "transliteration": "ra`ah",
+          "gloss": "evil, bad",
+          "is_known": true,
+          "lemma_ids": [
+            "H7451"
+          ]
+        },
+        {
+          "id": "32U2Y",
+          "surface_form": "גְדוֹלָה",
+          "transliteration": "gedolah",
+          "gloss": "great, big",
+          "is_known": true,
+          "lemma_ids": [
+            "H1419"
+          ]
+        },
+        {
+          "id": "328na",
+          "surface_form": "וַיִּחַר",
+          "transliteration": "wayikhar",
+          "gloss": "and + burn, be kindled (of anger)",
+          "is_known": true,
+          "lemma_ids": [
+            "F-c",
+            "H2734"
+          ]
+        },
+        {
+          "id": "32sgw",
+          "surface_form": "לֽוֹ",
+          "transliteration": "lo",
+          "gloss": "to, for",
+          "is_known": true,
+          "lemma_ids": [
+            "F-l"
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "Jonah.4.2",
+      "verse_num": 2,
+      "words": [
+        {
+          "id": "32MDX",
+          "surface_form": "וַיִּתְפַּלֵּל",
+          "transliteration": "wayitpalel",
+          "gloss": "and + pray, intercede",
+          "is_known": true,
+          "lemma_ids": [
+            "F-c",
+            "H6419"
+          ]
+        },
+        {
+          "id": "32pPp",
+          "surface_form": "אֶל",
+          "transliteration": "'el",
+          "gloss": "to, toward",
+          "is_known": true,
+          "lemma_ids": [
+            "H413"
+          ]
+        },
+        {
+          "id": "32ieN",
+          "surface_form": "יְהוָה",
+          "transliteration": "yehwah",
+          "gloss": "YHWH",
+          "is_known": true,
+          "lemma_ids": [
+            "H3068"
+          ]
+        },
+        {
+          "id": "32Csj",
+          "surface_form": "וַיֹּאמַר",
+          "transliteration": "wayo'mar",
+          "gloss": "and + say",
+          "is_known": true,
+          "lemma_ids": [
+            "F-c",
+            "H559"
+          ]
+        },
+        {
+          "id": "32rHn",
+          "surface_form": "אָנָּה",
+          "transliteration": "'anah",
+          "gloss": "please! (interjection of entreaty)",
+          "is_known": false,
+          "lemma_ids": [
+            "H577"
+          ]
+        },
+        {
+          "id": "32ViB",
+          "surface_form": "יְהוָה",
+          "transliteration": "yehwah",
+          "gloss": "YHWH",
+          "is_known": true,
+          "lemma_ids": [
+            "H3068"
+          ]
+        },
+        {
+          "id": "32CFo",
+          "surface_form": "הֲלוֹא",
+          "transliteration": "halo'",
+          "gloss": "(marks a yes/no question) + not",
+          "is_known": true,
+          "lemma_ids": [
+            "F-i",
+            "H3808"
+          ]
+        },
+        {
+          "id": "325Ja",
+          "surface_form": "זֶה",
+          "transliteration": "zeh",
+          "gloss": "this",
+          "is_known": true,
+          "lemma_ids": [
+            "H2088"
+          ]
+        },
+        {
+          "id": "32UXS",
+          "surface_form": "דְבָרִי",
+          "transliteration": "devari",
+          "gloss": "word, thing",
+          "is_known": true,
+          "lemma_ids": [
+            "H1697"
+          ]
+        },
+        {
+          "id": "32YQ8",
+          "surface_form": "עַד",
+          "transliteration": "`ad",
+          "gloss": "until, as far as",
+          "is_known": true,
+          "lemma_ids": [
+            "H5704"
+          ]
+        },
+        {
+          "id": "32Abd",
+          "surface_form": "הֱיוֹתִי",
+          "transliteration": "heyoti",
+          "gloss": "be, become, happen",
+          "is_known": true,
+          "lemma_ids": [
+            "H1961"
+          ]
+        },
+        {
+          "id": "322UV",
+          "surface_form": "עַל",
+          "transliteration": "`al",
+          "gloss": "on, over, against",
+          "is_known": true,
+          "lemma_ids": [
+            "H5921"
+          ]
+        },
+        {
+          "id": "32ZtS",
+          "surface_form": "אַדְמָתִי",
+          "transliteration": "'admati",
+          "gloss": "ground, land, soil",
+          "is_known": true,
+          "lemma_ids": [
+            "H127"
+          ]
+        },
+        {
+          "id": "32gMU",
+          "surface_form": "עַל",
+          "transliteration": "`al",
+          "gloss": "on, over, against",
+          "is_known": true,
+          "lemma_ids": [
+            "H5921"
+          ]
+        },
+        {
+          "id": "32nWb",
+          "surface_form": "כֵּן",
+          "transliteration": "ken",
+          "gloss": "so, thus, right",
+          "is_known": true,
+          "lemma_ids": [
+            "H3651"
+          ]
+        },
+        {
+          "id": "32GXk",
+          "surface_form": "קִדַּמְתִּי",
+          "transliteration": "qidamti",
+          "gloss": "anticipate, be quick to act, go before",
+          "is_known": false,
+          "lemma_ids": [
+            "H6923"
+          ]
+        },
+        {
+          "id": "32TZa",
+          "surface_form": "לִבְרֹחַ",
+          "transliteration": "livroakh",
+          "gloss": "to, for + flee",
+          "is_known": false,
+          "lemma_ids": [
+            "F-l",
+            "H1272"
+          ]
+        },
+        {
+          "id": "325qp",
+          "surface_form": "תַּרְשִׁישָׁה",
+          "transliteration": "tarshishah",
+          "gloss": "Tarshish (place name)",
+          "is_known": false,
+          "lemma_ids": [
+            "H8659"
+          ]
+        },
+        {
+          "id": "32uHZ",
+          "surface_form": "כִּי",
+          "transliteration": "ki",
+          "gloss": "for, that, because, when",
+          "is_known": true,
+          "lemma_ids": [
+            "H3588"
+          ]
+        },
+        {
+          "id": "32pAL",
+          "surface_form": "יָדַעְתִּי",
+          "transliteration": "yada`ti",
+          "gloss": "know",
+          "is_known": true,
+          "lemma_ids": [
+            "H3045"
+          ]
+        },
+        {
+          "id": "32hSr",
+          "surface_form": "כִּי",
+          "transliteration": "ki",
+          "gloss": "for, that, because, when",
+          "is_known": true,
+          "lemma_ids": [
+            "H3588"
+          ]
+        },
+        {
+          "id": "32ZMk",
+          "surface_form": "אַתָּה",
+          "transliteration": "'atah",
+          "gloss": "you (m.s.)",
+          "is_known": true,
+          "lemma_ids": [
+            "H859"
+          ]
+        },
+        {
+          "id": "32irW",
+          "surface_form": "אֵֽל",
+          "transliteration": "'el",
+          "gloss": "God, god, mighty one",
+          "is_known": true,
+          "lemma_ids": [
+            "H410"
+          ]
+        },
+        {
+          "id": "32x72",
+          "surface_form": "חַנּוּן",
+          "transliteration": "khanun",
+          "gloss": "gracious",
+          "is_known": false,
+          "lemma_ids": [
+            "H2587"
+          ]
+        },
+        {
+          "id": "32FYV",
+          "surface_form": "וְרַחוּם",
+          "transliteration": "werakhum",
+          "gloss": "and + compassionate, merciful",
+          "is_known": false,
+          "lemma_ids": [
+            "F-c",
+            "H7349"
+          ]
+        },
+        {
+          "id": "32Uoo",
+          "surface_form": "אֶרֶךְ",
+          "transliteration": "'erekh",
+          "gloss": "slow, long (erekh appayim = slow to anger)",
+          "is_known": false,
+          "lemma_ids": [
+            "H750"
+          ]
+        },
+        {
+          "id": "32sC3",
+          "surface_form": "אַפַּיִם",
+          "transliteration": "'apayim",
+          "gloss": "nose, anger",
+          "is_known": true,
+          "lemma_ids": [
+            "H639"
+          ]
+        },
+        {
+          "id": "324CS",
+          "surface_form": "וְרַב",
+          "transliteration": "werav",
+          "gloss": "and + much, many, great",
+          "is_known": true,
+          "lemma_ids": [
+            "F-c",
+            "H7227"
+          ]
+        },
+        {
+          "id": "326n2",
+          "surface_form": "חֶסֶד",
+          "transliteration": "khesed",
+          "gloss": "kindness, loyalty, faithful love",
+          "is_known": true,
+          "lemma_ids": [
+            "H2617"
+          ]
+        },
+        {
+          "id": "32HqY",
+          "surface_form": "וְנִחָם",
+          "transliteration": "wenikham",
+          "gloss": "and + comfort, console; be sorry, regret",
+          "is_known": true,
+          "lemma_ids": [
+            "F-c",
+            "H5162"
+          ]
+        },
+        {
+          "id": "32BFZ",
+          "surface_form": "עַל",
+          "transliteration": "`al",
+          "gloss": "on, over, against",
+          "is_known": true,
+          "lemma_ids": [
+            "H5921"
+          ]
+        },
+        {
+          "id": "32shy",
+          "surface_form": "הָרָעָֽה",
+          "transliteration": "hara`ah",
+          "gloss": "the + evil, bad",
+          "is_known": true,
+          "lemma_ids": [
+            "F-d",
+            "H7451"
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "Jonah.4.3",
+      "verse_num": 3,
+      "words": [
+        {
+          "id": "32nzj",
+          "surface_form": "וְעַתָּה",
+          "transliteration": "we`atah",
+          "gloss": "and + now",
+          "is_known": true,
+          "lemma_ids": [
+            "F-c",
+            "H6258"
+          ]
+        },
+        {
+          "id": "32vpT",
+          "surface_form": "יְהוָה",
+          "transliteration": "yehwah",
+          "gloss": "YHWH",
+          "is_known": true,
+          "lemma_ids": [
+            "H3068"
+          ]
+        },
+        {
+          "id": "323Sx",
+          "surface_form": "קַח",
+          "transliteration": "qakh",
+          "gloss": "take",
+          "is_known": true,
+          "lemma_ids": [
+            "H3947"
+          ]
+        },
+        {
+          "id": "32qVv",
+          "surface_form": "נָא",
+          "transliteration": "na'",
+          "gloss": "please, now (particle of entreaty)",
+          "is_known": true,
+          "lemma_ids": [
+            "H4994"
+          ]
+        },
+        {
+          "id": "32Kov",
+          "surface_form": "אֶת",
+          "transliteration": "'et",
+          "gloss": "(marks a definite direct object -- usually untranslated)",
+          "is_known": true,
+          "lemma_ids": [
+            "H853"
+          ]
+        },
+        {
+          "id": "32HNy",
+          "surface_form": "נַפְשִׁי",
+          "transliteration": "nafshi",
+          "gloss": "soul, self, life, person",
+          "is_known": true,
+          "lemma_ids": [
+            "H5315"
+          ]
+        },
+        {
+          "id": "32Ta6",
+          "surface_form": "מִמֶּנִּי",
+          "transliteration": "mimeni",
+          "gloss": "from",
+          "is_known": true,
+          "lemma_ids": [
+            "H4480"
+          ]
+        },
+        {
+          "id": "32ER2",
+          "surface_form": "כִּי",
+          "transliteration": "ki",
+          "gloss": "for, that, because, when",
+          "is_known": true,
+          "lemma_ids": [
+            "H3588"
+          ]
+        },
+        {
+          "id": "32yP1",
+          "surface_form": "טוֹב",
+          "transliteration": "tov",
+          "gloss": "good",
+          "is_known": true,
+          "lemma_ids": [
+            "H2896"
+          ]
+        },
+        {
+          "id": "32w4T",
+          "surface_form": "מוֹתִי",
+          "transliteration": "moti",
+          "gloss": "death",
+          "is_known": true,
+          "lemma_ids": [
+            "H4194"
+          ]
+        },
+        {
+          "id": "32Cyx",
+          "surface_form": "מֵחַיָּֽי",
+          "transliteration": "mekhayay",
+          "gloss": "from + living, alive",
+          "is_known": true,
+          "lemma_ids": [
+            "F-m",
+            "H2416"
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "Jonah.4.4",
+      "verse_num": 4,
+      "words": [
+        {
+          "id": "32qTT",
+          "surface_form": "וַיֹּאמֶר",
+          "transliteration": "wayo'mer",
+          "gloss": "and + say",
+          "is_known": true,
+          "lemma_ids": [
+            "F-c",
+            "H559"
+          ]
+        },
+        {
+          "id": "32m55",
+          "surface_form": "יְהוָה",
+          "transliteration": "yehwah",
+          "gloss": "YHWH",
+          "is_known": true,
+          "lemma_ids": [
+            "H3068"
+          ]
+        },
+        {
+          "id": "32AF1",
+          "surface_form": "הַהֵיטֵב",
+          "transliteration": "haheytev",
+          "gloss": "the + be good, go well; do well, make good",
+          "is_known": true,
+          "lemma_ids": [
+            "F-d",
+            "H3190"
+          ]
+        },
+        {
+          "id": "325ED",
+          "surface_form": "חָרָה",
+          "transliteration": "kharah",
+          "gloss": "burn, be kindled (of anger)",
+          "is_known": true,
+          "lemma_ids": [
+            "H2734"
+          ]
+        },
+        {
+          "id": "32zCS",
+          "surface_form": "לָֽךְ",
+          "transliteration": "lakh",
+          "gloss": "to, for",
+          "is_known": true,
+          "lemma_ids": [
+            "F-l"
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "Jonah.4.5",
+      "verse_num": 5,
+      "words": [
+        {
+          "id": "32LsC",
+          "surface_form": "וַיֵּצֵא",
+          "transliteration": "wayetse'",
+          "gloss": "and + go out, come out",
+          "is_known": true,
+          "lemma_ids": [
+            "F-c",
+            "H3318"
+          ]
+        },
+        {
+          "id": "32B4x",
+          "surface_form": "יוֹנָה",
+          "transliteration": "yonah",
+          "gloss": "Jonah (proper name)",
+          "is_known": false,
+          "lemma_ids": [
+            "H3124"
+          ]
+        },
+        {
+          "id": "32JB6",
+          "surface_form": "מִן",
+          "transliteration": "min",
+          "gloss": "from",
+          "is_known": true,
+          "lemma_ids": [
+            "H4480"
+          ]
+        },
+        {
+          "id": "32LzS",
+          "surface_form": "הָעִיר",
+          "transliteration": "ha`ir",
+          "gloss": "the + city",
+          "is_known": true,
+          "lemma_ids": [
+            "F-d",
+            "H5892"
+          ]
+        },
+        {
+          "id": "3283E",
+          "surface_form": "וַיֵּשֶׁב",
+          "transliteration": "wayeshev",
+          "gloss": "and + sit, dwell, live",
+          "is_known": true,
+          "lemma_ids": [
+            "F-c",
+            "H3427"
+          ]
+        },
+        {
+          "id": "32hQD",
+          "surface_form": "מִקֶּדֶם",
+          "transliteration": "miqedem",
+          "gloss": "from + east; ancient time, of old",
+          "is_known": true,
+          "lemma_ids": [
+            "F-m",
+            "H6924"
+          ]
+        },
+        {
+          "id": "32LZD",
+          "surface_form": "לָעִיר",
+          "transliteration": "la`ir",
+          "gloss": "to, for + city",
+          "is_known": true,
+          "lemma_ids": [
+            "F-l",
+            "H5892"
+          ]
+        },
+        {
+          "id": "326bH",
+          "surface_form": "וַיַּעַשׂ",
+          "transliteration": "waya`as",
+          "gloss": "and + do, make",
+          "is_known": true,
+          "lemma_ids": [
+            "F-c",
+            "H6213"
+          ]
+        },
+        {
+          "id": "32Ekx",
+          "surface_form": "לוֹ",
+          "transliteration": "lo",
+          "gloss": "to, for",
+          "is_known": true,
+          "lemma_ids": [
+            "F-l"
+          ]
+        },
+        {
+          "id": "32PG7",
+          "surface_form": "שָׁם",
+          "transliteration": "sham",
+          "gloss": "there",
+          "is_known": true,
+          "lemma_ids": [
+            "H8033"
+          ]
+        },
+        {
+          "id": "32EL8",
+          "surface_form": "סֻכָּה",
+          "transliteration": "sukah",
+          "gloss": "booth, shelter",
+          "is_known": false,
+          "lemma_ids": [
+            "H5521"
+          ]
+        },
+        {
+          "id": "32ufm",
+          "surface_form": "וַיֵּשֶׁב",
+          "transliteration": "wayeshev",
+          "gloss": "and + sit, dwell, live",
+          "is_known": true,
+          "lemma_ids": [
+            "F-c",
+            "H3427"
+          ]
+        },
+        {
+          "id": "32XSi",
+          "surface_form": "תַּחְתֶּיהָ",
+          "transliteration": "takhteyha",
+          "gloss": "under, instead of, in place of",
+          "is_known": true,
+          "lemma_ids": [
+            "H8478"
+          ]
+        },
+        {
+          "id": "32ELV",
+          "surface_form": "בַּצֵּל",
+          "transliteration": "batsel",
+          "gloss": "in, on, with + shade, shadow",
+          "is_known": false,
+          "lemma_ids": [
+            "F-b",
+            "H6738"
+          ]
+        },
+        {
+          "id": "32Y6w",
+          "surface_form": "עַד",
+          "transliteration": "`ad",
+          "gloss": "until, as far as",
+          "is_known": true,
+          "lemma_ids": [
+            "H5704"
+          ]
+        },
+        {
+          "id": "32qLR",
+          "surface_form": "אֲשֶׁר",
+          "transliteration": "'asher",
+          "gloss": "who, which, that",
+          "is_known": true,
+          "lemma_ids": [
+            "H834"
+          ]
+        },
+        {
+          "id": "32vfq",
+          "surface_form": "יִרְאֶה",
+          "transliteration": "yir'eh",
+          "gloss": "see",
+          "is_known": true,
+          "lemma_ids": [
+            "H7200"
+          ]
+        },
+        {
+          "id": "32Qsx",
+          "surface_form": "מַה",
+          "transliteration": "mah",
+          "gloss": "what?",
+          "is_known": true,
+          "lemma_ids": [
+            "H4100"
+          ]
+        },
+        {
+          "id": "328KZ",
+          "surface_form": "יִּהְיֶה",
+          "transliteration": "yihyeh",
+          "gloss": "be, become, happen",
+          "is_known": true,
+          "lemma_ids": [
+            "H1961"
+          ]
+        },
+        {
+          "id": "32GXq",
+          "surface_form": "בָּעִֽיר",
+          "transliteration": "ba`ir",
+          "gloss": "in, on, with + city",
+          "is_known": true,
+          "lemma_ids": [
+            "F-b",
+            "H5892"
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "Jonah.4.6",
+      "verse_num": 6,
+      "words": [
+        {
+          "id": "32iCi",
+          "surface_form": "וַיְמַן",
+          "transliteration": "wayman",
+          "gloss": "and + appoint, ordain (piel)",
+          "is_known": false,
+          "lemma_ids": [
+            "F-c",
+            "H4487"
+          ]
+        },
+        {
+          "id": "32vwH",
+          "surface_form": "יְהוָֽה",
+          "transliteration": "yehwah",
+          "gloss": "YHWH",
+          "is_known": true,
+          "lemma_ids": [
+            "H3068"
+          ]
+        },
+        {
+          "id": "32dbM",
+          "surface_form": "אֱלֹהִים",
+          "transliteration": "'elohim",
+          "gloss": "God, gods",
+          "is_known": true,
+          "lemma_ids": [
+            "H430"
+          ]
+        },
+        {
+          "id": "32Dqb",
+          "surface_form": "קִיקָיוֹן",
+          "transliteration": "qiqayon",
+          "gloss": "qiqayon plant (a fast-growing vine/gourd)",
+          "is_known": false,
+          "lemma_ids": [
+            "H7021"
+          ]
+        },
+        {
+          "id": "32kCD",
+          "surface_form": "וַיַּעַל",
+          "transliteration": "waya`al",
+          "gloss": "and + go up, ascend",
+          "is_known": true,
+          "lemma_ids": [
+            "F-c",
+            "H5927"
+          ]
+        },
+        {
+          "id": "32XgW",
+          "surface_form": "מֵעַל",
+          "transliteration": "me`al",
+          "gloss": "from + on, over, against",
+          "is_known": true,
+          "lemma_ids": [
+            "F-m",
+            "H5921"
+          ]
+        },
+        {
+          "id": "326PV",
+          "surface_form": "לְיוֹנָה",
+          "transliteration": "leyonah",
+          "gloss": "to, for + Jonah (proper name)",
+          "is_known": false,
+          "lemma_ids": [
+            "F-l",
+            "H3124"
+          ]
+        },
+        {
+          "id": "32qGs",
+          "surface_form": "לִֽהְיוֹת",
+          "transliteration": "lihyot",
+          "gloss": "to, for + be, become, happen",
+          "is_known": true,
+          "lemma_ids": [
+            "F-l",
+            "H1961"
+          ]
+        },
+        {
+          "id": "32w7p",
+          "surface_form": "צֵל",
+          "transliteration": "tsel",
+          "gloss": "shade, shadow",
+          "is_known": false,
+          "lemma_ids": [
+            "H6738"
+          ]
+        },
+        {
+          "id": "32k7H",
+          "surface_form": "עַל",
+          "transliteration": "`al",
+          "gloss": "on, over, against",
+          "is_known": true,
+          "lemma_ids": [
+            "H5921"
+          ]
+        },
+        {
+          "id": "32r6F",
+          "surface_form": "רֹאשׁוֹ",
+          "transliteration": "ro'sho",
+          "gloss": "head, top, chief",
+          "is_known": true,
+          "lemma_ids": [
+            "H7218"
+          ]
+        },
+        {
+          "id": "32Ugz",
+          "surface_form": "לְהַצִּיל",
+          "transliteration": "lehatsil",
+          "gloss": "to, for + deliver, rescue, snatch away",
+          "is_known": true,
+          "lemma_ids": [
+            "F-l",
+            "H5337"
+          ]
+        },
+        {
+          "id": "32Mjg",
+          "surface_form": "לוֹ",
+          "transliteration": "lo",
+          "gloss": "to, for",
+          "is_known": true,
+          "lemma_ids": [
+            "F-l"
+          ]
+        },
+        {
+          "id": "32mdR",
+          "surface_form": "מֵרָֽעָתוֹ",
+          "transliteration": "mera`ato",
+          "gloss": "from + evil, bad",
+          "is_known": true,
+          "lemma_ids": [
+            "F-m",
+            "H7451"
+          ]
+        },
+        {
+          "id": "32eWA",
+          "surface_form": "וַיִּשְׂמַח",
+          "transliteration": "wayismakh",
+          "gloss": "and + rejoice, be glad",
+          "is_known": true,
+          "lemma_ids": [
+            "F-c",
+            "H8055"
+          ]
+        },
+        {
+          "id": "32CqN",
+          "surface_form": "יוֹנָה",
+          "transliteration": "yonah",
+          "gloss": "Jonah (proper name)",
+          "is_known": false,
+          "lemma_ids": [
+            "H3124"
+          ]
+        },
+        {
+          "id": "32Cpt",
+          "surface_form": "עַל",
+          "transliteration": "`al",
+          "gloss": "on, over, against",
+          "is_known": true,
+          "lemma_ids": [
+            "H5921"
+          ]
+        },
+        {
+          "id": "32aSi",
+          "surface_form": "הַקִּֽיקָיוֹן",
+          "transliteration": "haqiqayon",
+          "gloss": "the + qiqayon plant (a fast-growing vine/gourd)",
+          "is_known": false,
+          "lemma_ids": [
+            "F-d",
+            "H7021"
+          ]
+        },
+        {
+          "id": "327VU",
+          "surface_form": "שִׂמְחָה",
+          "transliteration": "simkhah",
+          "gloss": "joy, gladness",
+          "is_known": true,
+          "lemma_ids": [
+            "H8057"
+          ]
+        },
+        {
+          "id": "32eK3",
+          "surface_form": "גְדוֹלָֽה",
+          "transliteration": "gedolah",
+          "gloss": "great, big",
+          "is_known": true,
+          "lemma_ids": [
+            "H1419"
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "Jonah.4.7",
+      "verse_num": 7,
+      "words": [
+        {
+          "id": "32c63",
+          "surface_form": "וַיְמַן",
+          "transliteration": "wayman",
+          "gloss": "and + appoint, ordain (piel)",
+          "is_known": false,
+          "lemma_ids": [
+            "F-c",
+            "H4487"
+          ]
+        },
+        {
+          "id": "32TuL",
+          "surface_form": "הָֽאֱלֹהִים",
+          "transliteration": "ha'elohim",
+          "gloss": "the + God, gods",
+          "is_known": true,
+          "lemma_ids": [
+            "F-d",
+            "H430"
+          ]
+        },
+        {
+          "id": "32emQ",
+          "surface_form": "תּוֹלַעַת",
+          "transliteration": "tola`at",
+          "gloss": "worm",
+          "is_known": false,
+          "lemma_ids": [
+            "H8438"
+          ]
+        },
+        {
+          "id": "32uf4",
+          "surface_form": "בַּעֲלוֹת",
+          "transliteration": "ba`alot",
+          "gloss": "in, on, with + go up, ascend",
+          "is_known": true,
+          "lemma_ids": [
+            "F-b",
+            "H5927"
+          ]
+        },
+        {
+          "id": "32jQv",
+          "surface_form": "הַשַּׁחַר",
+          "transliteration": "hashakhar",
+          "gloss": "the + dawn",
+          "is_known": false,
+          "lemma_ids": [
+            "F-d",
+            "H7837"
+          ]
+        },
+        {
+          "id": "32ME1",
+          "surface_form": "לַֽמָּחֳרָת",
+          "transliteration": "lamakhorat",
+          "gloss": "to, for + next day, morrow",
+          "is_known": false,
+          "lemma_ids": [
+            "F-l",
+            "H4283"
+          ]
+        },
+        {
+          "id": "32ht4",
+          "surface_form": "וַתַּךְ",
+          "transliteration": "watakh",
+          "gloss": "and + strike, hit, kill",
+          "is_known": true,
+          "lemma_ids": [
+            "F-c",
+            "H5221"
+          ]
+        },
+        {
+          "id": "323Yo",
+          "surface_form": "אֶת",
+          "transliteration": "'et",
+          "gloss": "(marks a definite direct object -- usually untranslated)",
+          "is_known": true,
+          "lemma_ids": [
+            "H853"
+          ]
+        },
+        {
+          "id": "32pYb",
+          "surface_form": "הַקִּֽיקָיוֹן",
+          "transliteration": "haqiqayon",
+          "gloss": "the + qiqayon plant (a fast-growing vine/gourd)",
+          "is_known": false,
+          "lemma_ids": [
+            "F-d",
+            "H7021"
+          ]
+        },
+        {
+          "id": "32g5u",
+          "surface_form": "וַיִּיבָֽשׁ",
+          "transliteration": "wayivash",
+          "gloss": "and + be dry, wither; be ashamed, disappointed",
+          "is_known": true,
+          "lemma_ids": [
+            "F-c",
+            "H3001"
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "Jonah.4.8",
+      "verse_num": 8,
+      "words": [
+        {
+          "id": "32w6U",
+          "surface_form": "וַיְהִי",
+          "transliteration": "wayhi",
+          "gloss": "and + be, become, happen",
+          "is_known": true,
+          "lemma_ids": [
+            "F-c",
+            "H1961"
+          ]
+        },
+        {
+          "id": "32ifL",
+          "surface_form": "כִּזְרֹחַ",
+          "transliteration": "kizroakh",
+          "gloss": "like, as + rise, shine (of the sun)",
+          "is_known": false,
+          "lemma_ids": [
+            "F-k",
+            "H2224"
+          ]
+        },
+        {
+          "id": "32LZU",
+          "surface_form": "הַשֶּׁמֶשׁ",
+          "transliteration": "hashemesh",
+          "gloss": "the + sun",
+          "is_known": true,
+          "lemma_ids": [
+            "F-d",
+            "H8121"
+          ]
+        },
+        {
+          "id": "32yHT",
+          "surface_form": "וַיְמַן",
+          "transliteration": "wayman",
+          "gloss": "and + appoint, ordain (piel)",
+          "is_known": false,
+          "lemma_ids": [
+            "F-c",
+            "H4487"
+          ]
+        },
+        {
+          "id": "329Dq",
+          "surface_form": "אֱלֹהִים",
+          "transliteration": "'elohim",
+          "gloss": "God, gods",
+          "is_known": true,
+          "lemma_ids": [
+            "H430"
+          ]
+        },
+        {
+          "id": "327Vg",
+          "surface_form": "רוּחַ",
+          "transliteration": "ruakh",
+          "gloss": "wind, breath, spirit",
+          "is_known": true,
+          "lemma_ids": [
+            "H7307"
+          ]
+        },
+        {
+          "id": "323LR",
+          "surface_form": "קָדִים",
+          "transliteration": "qadim",
+          "gloss": "east, east wind",
+          "is_known": true,
+          "lemma_ids": [
+            "H6921"
+          ]
+        },
+        {
+          "id": "32vdQ",
+          "surface_form": "חֲרִישִׁית",
+          "transliteration": "kharishit",
+          "gloss": "scorching, sultry (of a wind)",
+          "is_known": false,
+          "lemma_ids": [
+            "H2759"
+          ]
+        },
+        {
+          "id": "32zAa",
+          "surface_form": "וַתַּךְ",
+          "transliteration": "watakh",
+          "gloss": "and + strike, hit, kill",
+          "is_known": true,
+          "lemma_ids": [
+            "F-c",
+            "H5221"
+          ]
+        },
+        {
+          "id": "32HK3",
+          "surface_form": "הַשֶּׁמֶשׁ",
+          "transliteration": "hashemesh",
+          "gloss": "the + sun",
+          "is_known": true,
+          "lemma_ids": [
+            "F-d",
+            "H8121"
+          ]
+        },
+        {
+          "id": "32sCi",
+          "surface_form": "עַל",
+          "transliteration": "`al",
+          "gloss": "on, over, against",
+          "is_known": true,
+          "lemma_ids": [
+            "H5921"
+          ]
+        },
+        {
+          "id": "32S3d",
+          "surface_form": "רֹאשׁ",
+          "transliteration": "ro'sh",
+          "gloss": "head, top, chief",
+          "is_known": true,
+          "lemma_ids": [
+            "H7218"
+          ]
+        },
+        {
+          "id": "32RFe",
+          "surface_form": "יוֹנָה",
+          "transliteration": "yonah",
+          "gloss": "Jonah (proper name)",
+          "is_known": false,
+          "lemma_ids": [
+            "H3124"
+          ]
+        },
+        {
+          "id": "32PfQ",
+          "surface_form": "וַיִּתְעַלָּף",
+          "transliteration": "wayit`alaf",
+          "gloss": "and + grow faint, be overcome (hitpael)",
+          "is_known": false,
+          "lemma_ids": [
+            "F-c",
+            "H5968"
+          ]
+        },
+        {
+          "id": "32AwN",
+          "surface_form": "וַיִּשְׁאַל",
+          "transliteration": "wayish'al",
+          "gloss": "and + ask, inquire, request",
+          "is_known": true,
+          "lemma_ids": [
+            "F-c",
+            "H7592"
+          ]
+        },
+        {
+          "id": "32khc",
+          "surface_form": "אֶת",
+          "transliteration": "'et",
+          "gloss": "(marks a definite direct object -- usually untranslated)",
+          "is_known": true,
+          "lemma_ids": [
+            "H853"
+          ]
+        },
+        {
+          "id": "32kYA",
+          "surface_form": "נַפְשׁוֹ",
+          "transliteration": "nafsho",
+          "gloss": "soul, self, life, person",
+          "is_known": true,
+          "lemma_ids": [
+            "H5315"
+          ]
+        },
+        {
+          "id": "32u6F",
+          "surface_form": "לָמוּת",
+          "transliteration": "lamut",
+          "gloss": "to, for + die",
+          "is_known": true,
+          "lemma_ids": [
+            "F-l",
+            "H4191"
+          ]
+        },
+        {
+          "id": "32PYJ",
+          "surface_form": "וַיֹּאמֶר",
+          "transliteration": "wayo'mer",
+          "gloss": "and + say",
+          "is_known": true,
+          "lemma_ids": [
+            "F-c",
+            "H559"
+          ]
+        },
+        {
+          "id": "321Za",
+          "surface_form": "טוֹב",
+          "transliteration": "tov",
+          "gloss": "good",
+          "is_known": true,
+          "lemma_ids": [
+            "H2896"
+          ]
+        },
+        {
+          "id": "32gam",
+          "surface_form": "מוֹתִי",
+          "transliteration": "moti",
+          "gloss": "die",
+          "is_known": true,
+          "lemma_ids": [
+            "H4191"
+          ]
+        },
+        {
+          "id": "32un5",
+          "surface_form": "מֵחַיָּֽי",
+          "transliteration": "mekhayay",
+          "gloss": "from + living, alive",
+          "is_known": true,
+          "lemma_ids": [
+            "F-m",
+            "H2416"
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "Jonah.4.9",
+      "verse_num": 9,
+      "words": [
+        {
+          "id": "32WSe",
+          "surface_form": "וַיֹּאמֶר",
+          "transliteration": "wayo'mer",
+          "gloss": "and + say",
+          "is_known": true,
+          "lemma_ids": [
+            "F-c",
+            "H559"
+          ]
+        },
+        {
+          "id": "32AFs",
+          "surface_form": "אֱלֹהִים",
+          "transliteration": "'elohim",
+          "gloss": "God, gods",
+          "is_known": true,
+          "lemma_ids": [
+            "H430"
+          ]
+        },
+        {
+          "id": "32aJe",
+          "surface_form": "אֶל",
+          "transliteration": "'el",
+          "gloss": "to, toward",
+          "is_known": true,
+          "lemma_ids": [
+            "H413"
+          ]
+        },
+        {
+          "id": "32g2t",
+          "surface_form": "יוֹנָה",
+          "transliteration": "yonah",
+          "gloss": "Jonah (proper name)",
+          "is_known": false,
+          "lemma_ids": [
+            "H3124"
+          ]
+        },
+        {
+          "id": "328HV",
+          "surface_form": "הַהֵיטֵב",
+          "transliteration": "haheytev",
+          "gloss": "the + be good, go well; do well, make good",
+          "is_known": true,
+          "lemma_ids": [
+            "F-d",
+            "H3190"
+          ]
+        },
+        {
+          "id": "32j8W",
+          "surface_form": "חָרָֽה",
+          "transliteration": "kharah",
+          "gloss": "burn, be kindled (of anger)",
+          "is_known": true,
+          "lemma_ids": [
+            "H2734"
+          ]
+        },
+        {
+          "id": "32h73",
+          "surface_form": "לְךָ",
+          "transliteration": "lekha",
+          "gloss": "to, for",
+          "is_known": true,
+          "lemma_ids": [
+            "F-l"
+          ]
+        },
+        {
+          "id": "329Yh",
+          "surface_form": "עַל",
+          "transliteration": "`al",
+          "gloss": "on, over, against",
+          "is_known": true,
+          "lemma_ids": [
+            "H5921"
+          ]
+        },
+        {
+          "id": "32SkM",
+          "surface_form": "הַקִּֽיקָיוֹן",
+          "transliteration": "haqiqayon",
+          "gloss": "the + qiqayon plant (a fast-growing vine/gourd)",
+          "is_known": false,
+          "lemma_ids": [
+            "F-d",
+            "H7021"
+          ]
+        },
+        {
+          "id": "32yXK",
+          "surface_form": "וַיֹּאמֶר",
+          "transliteration": "wayo'mer",
+          "gloss": "and + say",
+          "is_known": true,
+          "lemma_ids": [
+            "F-c",
+            "H559"
+          ]
+        },
+        {
+          "id": "32hDf",
+          "surface_form": "הֵיטֵב",
+          "transliteration": "heytev",
+          "gloss": "be good, go well; do well, make good",
+          "is_known": true,
+          "lemma_ids": [
+            "H3190"
+          ]
+        },
+        {
+          "id": "32PuA",
+          "surface_form": "חָֽרָה",
+          "transliteration": "kharah",
+          "gloss": "burn, be kindled (of anger)",
+          "is_known": true,
+          "lemma_ids": [
+            "H2734"
+          ]
+        },
+        {
+          "id": "32myi",
+          "surface_form": "לִי",
+          "transliteration": "li",
+          "gloss": "to, for",
+          "is_known": true,
+          "lemma_ids": [
+            "F-l"
+          ]
+        },
+        {
+          "id": "32YLn",
+          "surface_form": "עַד",
+          "transliteration": "`ad",
+          "gloss": "until, as far as",
+          "is_known": true,
+          "lemma_ids": [
+            "H5704"
+          ]
+        },
+        {
+          "id": "32AXU",
+          "surface_form": "מָֽוֶת",
+          "transliteration": "mawet",
+          "gloss": "death",
+          "is_known": true,
+          "lemma_ids": [
+            "H4194"
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "Jonah.4.10",
+      "verse_num": 10,
+      "words": [
+        {
+          "id": "32reD",
+          "surface_form": "וַיֹּאמֶר",
+          "transliteration": "wayo'mer",
+          "gloss": "and + say",
+          "is_known": true,
+          "lemma_ids": [
+            "F-c",
+            "H559"
+          ]
+        },
+        {
+          "id": "32VFM",
+          "surface_form": "יְהוָה",
+          "transliteration": "yehwah",
+          "gloss": "YHWH",
+          "is_known": true,
+          "lemma_ids": [
+            "H3068"
+          ]
+        },
+        {
+          "id": "32SGf",
+          "surface_form": "אַתָּה",
+          "transliteration": "'atah",
+          "gloss": "you (m.s.)",
+          "is_known": true,
+          "lemma_ids": [
+            "H859"
+          ]
+        },
+        {
+          "id": "329jX",
+          "surface_form": "חַסְתָּ",
+          "transliteration": "khasta",
+          "gloss": "have compassion/pity, spare",
+          "is_known": false,
+          "lemma_ids": [
+            "H2347"
+          ]
+        },
+        {
+          "id": "326t4",
+          "surface_form": "עַל",
+          "transliteration": "`al",
+          "gloss": "on, over, against",
+          "is_known": true,
+          "lemma_ids": [
+            "H5921"
+          ]
+        },
+        {
+          "id": "32Yu7",
+          "surface_form": "הַקִּיקָיוֹן",
+          "transliteration": "haqiqayon",
+          "gloss": "the + qiqayon plant (a fast-growing vine/gourd)",
+          "is_known": false,
+          "lemma_ids": [
+            "F-d",
+            "H7021"
+          ]
+        },
+        {
+          "id": "32vL9",
+          "surface_form": "אֲשֶׁר",
+          "transliteration": "'asher",
+          "gloss": "who, which, that",
+          "is_known": true,
+          "lemma_ids": [
+            "H834"
+          ]
+        },
+        {
+          "id": "32G2d",
+          "surface_form": "לֹא",
+          "transliteration": "lo'",
+          "gloss": "not",
+          "is_known": true,
+          "lemma_ids": [
+            "H3808"
+          ]
+        },
+        {
+          "id": "32xY3",
+          "surface_form": "עָמַלְתָּ",
+          "transliteration": "`amalta",
+          "gloss": "labor, toil, work hard",
+          "is_known": false,
+          "lemma_ids": [
+            "H5998"
+          ]
+        },
+        {
+          "id": "32Zmd",
+          "surface_form": "בּוֹ",
+          "transliteration": "bo",
+          "gloss": "in, on, with",
+          "is_known": true,
+          "lemma_ids": [
+            "F-b"
+          ]
+        },
+        {
+          "id": "32Wyn",
+          "surface_form": "וְלֹא",
+          "transliteration": "welo'",
+          "gloss": "and + not",
+          "is_known": true,
+          "lemma_ids": [
+            "F-c",
+            "H3808"
+          ]
+        },
+        {
+          "id": "32njg",
+          "surface_form": "גִדַּלְתּוֹ",
+          "transliteration": "gidalto",
+          "gloss": "grow, become great",
+          "is_known": true,
+          "lemma_ids": [
+            "H1431"
+          ]
+        },
+        {
+          "id": "32L6G",
+          "surface_form": "שֶׁבִּן",
+          "transliteration": "shebin",
+          "gloss": "that, which, who + son",
+          "is_known": true,
+          "lemma_ids": [
+            "F-s",
+            "H1121"
+          ]
+        },
+        {
+          "id": "32EDP",
+          "surface_form": "לַיְלָה",
+          "transliteration": "laylah",
+          "gloss": "night",
+          "is_known": true,
+          "lemma_ids": [
+            "H3915"
+          ]
+        },
+        {
+          "id": "32QUP",
+          "surface_form": "הָיָה",
+          "transliteration": "hayah",
+          "gloss": "be, become, happen",
+          "is_known": true,
+          "lemma_ids": [
+            "H1961"
+          ]
+        },
+        {
+          "id": "32fv8",
+          "surface_form": "וּבִן",
+          "transliteration": "wvin",
+          "gloss": "and + son",
+          "is_known": true,
+          "lemma_ids": [
+            "F-c",
+            "H1121"
+          ]
+        },
+        {
+          "id": "322SX",
+          "surface_form": "לַיְלָה",
+          "transliteration": "laylah",
+          "gloss": "night",
+          "is_known": true,
+          "lemma_ids": [
+            "H3915"
+          ]
+        },
+        {
+          "id": "32pwZ",
+          "surface_form": "אָבָֽד",
+          "transliteration": "'avad",
+          "gloss": "perish, be destroyed; destroy",
+          "is_known": true,
+          "lemma_ids": [
+            "H6"
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "Jonah.4.11",
+      "verse_num": 11,
+      "words": [
+        {
+          "id": "32KKJ",
+          "surface_form": "וַֽאֲנִי",
+          "transliteration": "wa'ani",
+          "gloss": "and + I",
+          "is_known": true,
+          "lemma_ids": [
+            "F-c",
+            "H589"
+          ]
+        },
+        {
+          "id": "32U9v",
+          "surface_form": "לֹא",
+          "transliteration": "lo'",
+          "gloss": "not",
+          "is_known": true,
+          "lemma_ids": [
+            "H3808"
+          ]
+        },
+        {
+          "id": "323V4",
+          "surface_form": "אָחוּס",
+          "transliteration": "'akhus",
+          "gloss": "have compassion/pity, spare",
+          "is_known": false,
+          "lemma_ids": [
+            "H2347"
+          ]
+        },
+        {
+          "id": "32gJ1",
+          "surface_form": "עַל",
+          "transliteration": "`al",
+          "gloss": "on, over, against",
+          "is_known": true,
+          "lemma_ids": [
+            "H5921"
+          ]
+        },
+        {
+          "id": "32rWk",
+          "surface_form": "נִינְוֵה",
+          "transliteration": "ninweh",
+          "gloss": "Nineveh (place name)",
+          "is_known": false,
+          "lemma_ids": [
+            "H5210"
+          ]
+        },
+        {
+          "id": "326gQ",
+          "surface_form": "הָעִיר",
+          "transliteration": "ha`ir",
+          "gloss": "the + city",
+          "is_known": true,
+          "lemma_ids": [
+            "F-d",
+            "H5892"
+          ]
+        },
+        {
+          "id": "32mSF",
+          "surface_form": "הַגְּדוֹלָה",
+          "transliteration": "hagdolah",
+          "gloss": "the + great, big",
+          "is_known": true,
+          "lemma_ids": [
+            "F-d",
+            "H1419"
+          ]
+        },
+        {
+          "id": "32awX",
+          "surface_form": "אֲשֶׁר",
+          "transliteration": "'asher",
+          "gloss": "who, which, that",
+          "is_known": true,
+          "lemma_ids": [
+            "H834"
+          ]
+        },
+        {
+          "id": "32wik",
+          "surface_form": "יֶשׁ",
+          "transliteration": "yesh",
+          "gloss": "there is, there are",
+          "is_known": true,
+          "lemma_ids": [
+            "H3426"
+          ]
+        },
+        {
+          "id": "32CVM",
+          "surface_form": "בָּהּ",
+          "transliteration": "bah",
+          "gloss": "in, on, with",
+          "is_known": true,
+          "lemma_ids": [
+            "F-b"
+          ]
+        },
+        {
+          "id": "32gbT",
+          "surface_form": "הַרְבֵּה",
+          "transliteration": "harbeh",
+          "gloss": "increase, multiply",
+          "is_known": true,
+          "lemma_ids": [
+            "H7235"
+          ]
+        },
+        {
+          "id": "32wMq",
+          "surface_form": "מִֽשְׁתֵּים",
+          "transliteration": "mishteym",
+          "gloss": "from + two",
+          "is_known": true,
+          "lemma_ids": [
+            "F-m",
+            "H8147"
+          ]
+        },
+        {
+          "id": "322GY",
+          "surface_form": "עֶשְׂרֵה",
+          "transliteration": "`esreh",
+          "gloss": "ten, -teen",
+          "is_known": true,
+          "lemma_ids": [
+            "H6240"
+          ]
+        },
+        {
+          "id": "32Doj",
+          "surface_form": "רִבּוֹ",
+          "transliteration": "ribo",
+          "gloss": "ten thousand, myriad",
+          "is_known": false,
+          "lemma_ids": [
+            "H7239"
+          ]
+        },
+        {
+          "id": "32m3h",
+          "surface_form": "אָדָם",
+          "transliteration": "'adam",
+          "gloss": "man, mankind, Adam",
+          "is_known": true,
+          "lemma_ids": [
+            "H120"
+          ]
+        },
+        {
+          "id": "32Djb",
+          "surface_form": "אֲשֶׁר",
+          "transliteration": "'asher",
+          "gloss": "who, which, that",
+          "is_known": true,
+          "lemma_ids": [
+            "H834"
+          ]
+        },
+        {
+          "id": "32F5r",
+          "surface_form": "לֹֽא",
+          "transliteration": "lo'",
+          "gloss": "not",
+          "is_known": true,
+          "lemma_ids": [
+            "H3808"
+          ]
+        },
+        {
+          "id": "32V4p",
+          "surface_form": "יָדַע",
+          "transliteration": "yada`",
+          "gloss": "know",
+          "is_known": true,
+          "lemma_ids": [
+            "H3045"
+          ]
+        },
+        {
+          "id": "32HsZ",
+          "surface_form": "בֵּין",
+          "transliteration": "beyn",
+          "gloss": "between",
+          "is_known": true,
+          "lemma_ids": [
+            "H996"
+          ]
+        },
+        {
+          "id": "32DgA",
+          "surface_form": "יְמִינוֹ",
+          "transliteration": "yemino",
+          "gloss": "right hand, right side, south",
+          "is_known": true,
+          "lemma_ids": [
+            "H3225"
+          ]
+        },
+        {
+          "id": "32QCa",
+          "surface_form": "לִשְׂמֹאלוֹ",
+          "transliteration": "lismo'lo",
+          "gloss": "to, for + left (hand/side)",
+          "is_known": false,
+          "lemma_ids": [
+            "F-l",
+            "H8040"
+          ]
+        },
+        {
+          "id": "32nps",
+          "surface_form": "וּבְהֵמָה",
+          "transliteration": "wvhemah",
+          "gloss": "and + animal, beast, cattle",
+          "is_known": true,
+          "lemma_ids": [
+            "F-c",
+            "H929"
+          ]
+        },
+        {
+          "id": "32oA2",
+          "surface_form": "רַבָּֽה",
+          "transliteration": "rabah",
+          "gloss": "much, many, great",
+          "is_known": true,
+          "lemma_ids": [
+            "H7227"
+          ]
+        }
+      ]
+    }
+  ]
+}

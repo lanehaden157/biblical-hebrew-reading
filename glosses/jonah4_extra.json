@@ -1,0 +1,198 @@
+{
+  "metadata": {
+    "source": "lemmas in Jonah 4 (11 verses) not already in data/vocab_deck_600.json, glosses/jonah1_extra.json, glosses/jonah2_extra.json, or glosses/jonah3_extra.json",
+    "status": "curated and reviewed",
+    "count": 17
+  },
+  "entries": [
+    {
+      "lemma_id": "H2224",
+      "citation_form": "זָרַח",
+      "pos": "Verb",
+      "strongs_defs_for_reference": [
+        "irradiate",
+        "rise",
+        "appear"
+      ],
+      "gloss": "rise, shine (of the sun)",
+      "reviewed": true
+    },
+    {
+      "lemma_id": "H2347",
+      "citation_form": "חוּס",
+      "pos": "Verb",
+      "strongs_defs_for_reference": [
+        "cover",
+        "compassionate"
+      ],
+      "gloss": "have compassion/pity, spare",
+      "reviewed": true
+    },
+    {
+      "lemma_id": "H2587",
+      "citation_form": "חַנּוּן",
+      "pos": "Adjective",
+      "strongs_defs_for_reference": [
+        "gracious"
+      ],
+      "gloss": "gracious",
+      "reviewed": true
+    },
+    {
+      "lemma_id": "H2759",
+      "citation_form": "חֲרִישִׁי",
+      "pos": "Adjective",
+      "strongs_defs_for_reference": [
+        "quiet",
+        "sultry"
+      ],
+      "gloss": "scorching, sultry (of a wind)",
+      "reviewed": true
+    },
+    {
+      "lemma_id": "H4283",
+      "citation_form": "מׇחֳרָת",
+      "pos": "Noun",
+      "strongs_defs_for_reference": [
+        "morrow",
+        "tomorrow"
+      ],
+      "gloss": "next day, morrow",
+      "reviewed": true
+    },
+    {
+      "lemma_id": "H5521",
+      "citation_form": "סֻכָּה",
+      "pos": "Noun",
+      "strongs_defs_for_reference": [
+        "hut",
+        "lair"
+      ],
+      "gloss": "booth, shelter",
+      "reviewed": true
+    },
+    {
+      "lemma_id": "H5968",
+      "citation_form": "עָלַף",
+      "pos": "Verb",
+      "strongs_defs_for_reference": [
+        "veil",
+        "cover",
+        "be languid"
+      ],
+      "gloss": "grow faint, be overcome (hitpael)",
+      "reviewed": true
+    },
+    {
+      "lemma_id": "H5998",
+      "citation_form": "עָמַל",
+      "pos": "Verb",
+      "strongs_defs_for_reference": [
+        "toil",
+        "work severely and with irksomeness"
+      ],
+      "gloss": "labor, toil, work hard",
+      "reviewed": true
+    },
+    {
+      "lemma_id": "H6738",
+      "citation_form": "צֵל",
+      "pos": "Noun",
+      "strongs_defs_for_reference": [
+        "shade"
+      ],
+      "gloss": "shade, shadow",
+      "reviewed": true
+    },
+    {
+      "lemma_id": "H6923",
+      "citation_form": "קָדַם",
+      "pos": "Verb",
+      "strongs_defs_for_reference": [
+        "project",
+        "precede",
+        "anticipate",
+        "hasten",
+        "meet"
+      ],
+      "gloss": "anticipate, be quick to act, go before",
+      "reviewed": true
+    },
+    {
+      "lemma_id": "H7021",
+      "citation_form": "קִיקָיוֹן",
+      "pos": "Noun",
+      "strongs_defs_for_reference": [
+        "gourd"
+      ],
+      "gloss": "qiqayon plant (a fast-growing vine/gourd)",
+      "reviewed": true
+    },
+    {
+      "lemma_id": "H7239",
+      "citation_form": "רִבּוֹ",
+      "pos": "Adjective",
+      "strongs_defs_for_reference": [
+        "myriad",
+        "large number"
+      ],
+      "gloss": "ten thousand, myriad",
+      "reviewed": true
+    },
+    {
+      "lemma_id": "H7349",
+      "citation_form": "רַחוּם",
+      "pos": "Adjective",
+      "strongs_defs_for_reference": [
+        "compassionate"
+      ],
+      "gloss": "compassionate, merciful",
+      "reviewed": true
+    },
+    {
+      "lemma_id": "H750",
+      "citation_form": "אָרֵךְ",
+      "pos": "Adjective",
+      "strongs_defs_for_reference": [
+        "long"
+      ],
+      "gloss": "slow, long (erekh appayim = slow to anger)",
+      "reviewed": true
+    },
+    {
+      "lemma_id": "H7837",
+      "citation_form": "שַׁחַר",
+      "pos": "Noun",
+      "strongs_defs_for_reference": [
+        "dawn"
+      ],
+      "gloss": "dawn",
+      "reviewed": true
+    },
+    {
+      "lemma_id": "H8040",
+      "citation_form": "שְׂמֹאול",
+      "pos": "Noun",
+      "strongs_defs_for_reference": [
+        "dark",
+        "enveloped",
+        "north",
+        "left"
+      ],
+      "gloss": "left (hand/side)",
+      "reviewed": true
+    },
+    {
+      "lemma_id": "H8438",
+      "citation_form": "תּוֹלָע",
+      "pos": "Noun",
+      "strongs_defs_for_reference": [
+        "maggot",
+        "voracious",
+        "grub"
+      ],
+      "gloss": "worm",
+      "reviewed": true
+    }
+  ]
+}

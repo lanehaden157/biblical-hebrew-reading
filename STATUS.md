@@ -111,8 +111,38 @@ in-browser: selftest 46/46 passing, chapter switcher renders both chapters and t
 `aria-pressed` correctly, tap-to-reveal confirmed on Jonah 2:1's first word (`וַיְמַן` ->
 "wayman" -> "and + appoint, ordain (piel)").
 
+## Done — Phase 5 progress: reader finishes the book of Jonah (chapters 3-4)
+
+Same pipeline again, applied to the last two chapters: `curate_jonah3_extra.py` (12 new
+lemmas; chapter 3 has no versification divergence from English, 10 verses) and
+`curate_jonah4_extra.py` (17 new lemmas; 11 verses, also no divergence). No lemma overlap
+between the two chapters' new-lemma sets, so nothing was reused between them, though both
+scripts diff against all prior chapters' curated glosses (rule 3's "assume the same class
+of bug is always present" extends to "assume a word recurs unless checked" -- worth
+checking every time, even when it turns out not to apply). `build_jonah3_reader.py` and
+`build_jonah4_reader.py` each merge the vocab deck plus every glosses/jonah*_extra.json
+curated so far (chapter 4's build pulls from all four). `verify_jonah3_reader.py` and
+`verify_jonah4_reader.py` independently re-derive both, same method as the first two
+chapters. Jonah 3: 139 words, 114/139 (82.0%) already known. Jonah 4: 183 words, 147/183
+(80.3%) already known.
+
+A few glosses needed a specific-occurrence check rather than the Strong's draft's lead
+sense, same discipline as the chapter 2 curation: H2940 (ta'am) is "decree" in "by decree
+of the king" (3:7), not its more common literal "taste" sense; H6923 (qadam) is "anticipate,
+be quick to act" in "I was quick to flee" (4:2), not its more common spatial "go before/
+meet" sense. Also confirmed H5968 (`alaph`) and H5848 (`ataph`, curated for chapter 2) are
+genuinely different roots that both happen to mean "grow faint" in their respective
+contexts -- kept as separate lemma entries, not merged.
+
+`main.js`'s `READER_CHAPTERS` list now has all four Jonah chapters; no other app code
+needed to change; the multi-chapter plumbing built for the Jonah 2 add (Phase 5's first
+step) generalized cleanly. Verified in-browser: selftest 60/60 passing across all four
+chapters, chapter switcher lists all four labels, tap-to-reveal confirmed on Jonah 4's
+final word (`רַבָּה` -> "rabah" -> "much, many, great", the closing "much cattle" of 4:11).
+The book of Jonah is now fully readable in the app, cover to cover.
+
 ## Next — Phase 5: Tiers 3–5
 
-Weak verbs, derived stems, sustained reading. Still further out and not yet scoped. The
-reader can keep growing the same way (Jonah 3-4, then Ruth, per the locked reading order)
+Weak verbs, derived stems, sustained reading. Still further out and not yet scoped. Reading
+order (CLAUDE.md, locked) goes to Ruth next for reader expansion, whenever that's picked up,
 independent of when the grammar tiers get scoped.

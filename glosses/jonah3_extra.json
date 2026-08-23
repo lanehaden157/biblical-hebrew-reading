@@ -1,0 +1,142 @@
+{
+  "metadata": {
+    "source": "lemmas in Jonah 3 (10 verses) not already in data/vocab_deck_600.json, glosses/jonah1_extra.json, or glosses/jonah2_extra.json",
+    "status": "curated and reviewed",
+    "count": 12
+  },
+  "entries": [
+    {
+      "lemma_id": "H155",
+      "citation_form": "אַדֶּרֶת",
+      "pos": "Noun",
+      "strongs_defs_for_reference": [
+        "ample"
+      ],
+      "gloss": "robe, mantle",
+      "reviewed": true
+    },
+    {
+      "lemma_id": "H2394",
+      "citation_form": "חׇזְקָה",
+      "pos": "Noun",
+      "strongs_defs_for_reference": [
+        "vehemence"
+      ],
+      "gloss": "force, urgency (adverbial: forcefully, urgently)",
+      "reviewed": true
+    },
+    {
+      "lemma_id": "H2555",
+      "citation_form": "חָמָס",
+      "pos": "Noun",
+      "strongs_defs_for_reference": [
+        "violence",
+        "wrong",
+        "unjust gain"
+      ],
+      "gloss": "violence, wrong",
+      "reviewed": true
+    },
+    {
+      "lemma_id": "H2740",
+      "citation_form": "חָרוֹן",
+      "pos": "Noun",
+      "strongs_defs_for_reference": [
+        "burning"
+      ],
+      "gloss": "burning anger, fierce wrath",
+      "reviewed": true
+    },
+    {
+      "lemma_id": "H2938",
+      "citation_form": "טָעַם",
+      "pos": "Verb",
+      "strongs_defs_for_reference": [
+        "taste",
+        "perceive"
+      ],
+      "gloss": "taste, eat",
+      "reviewed": true
+    },
+    {
+      "lemma_id": "H2940",
+      "citation_form": "טַעַם",
+      "pos": "Noun",
+      "strongs_defs_for_reference": [
+        "taste",
+        "perception",
+        "intelligence",
+        "mandate"
+      ],
+      "gloss": "decree, command (also: taste, perception)",
+      "reviewed": true
+    },
+    {
+      "lemma_id": "H3972",
+      "citation_form": "מְאוּמָה",
+      "pos": "Noun",
+      "strongs_defs_for_reference": [
+        "speck",
+        "point",
+        "nothing"
+      ],
+      "gloss": "anything (used with a negative: nothing)",
+      "reviewed": true
+    },
+    {
+      "lemma_id": "H4109",
+      "citation_form": "מַהֲלָךְ",
+      "pos": "Noun",
+      "strongs_defs_for_reference": [
+        "walk",
+        "passage",
+        "distance"
+      ],
+      "gloss": "journey, walking distance",
+      "reviewed": true
+    },
+    {
+      "lemma_id": "H665",
+      "citation_form": "אֵפֶר",
+      "pos": "Noun",
+      "strongs_defs_for_reference": [
+        "ashes"
+      ],
+      "gloss": "ashes",
+      "reviewed": true
+    },
+    {
+      "lemma_id": "H6685",
+      "citation_form": "צוֹם",
+      "pos": "Noun",
+      "strongs_defs_for_reference": [
+        "fast"
+      ],
+      "gloss": "fast (abstaining from food)",
+      "reviewed": true
+    },
+    {
+      "lemma_id": "H7150",
+      "citation_form": "קְרִיאָה",
+      "pos": "Noun",
+      "strongs_defs_for_reference": [
+        "proclamation"
+      ],
+      "gloss": "proclamation, message",
+      "reviewed": true
+    },
+    {
+      "lemma_id": "H8242",
+      "citation_form": "שַׂק",
+      "pos": "Noun",
+      "strongs_defs_for_reference": [
+        "mesh",
+        "run",
+        "sacking",
+        "bag"
+      ],
+      "gloss": "sackcloth",
+      "reviewed": true
+    }
+  ]
+}
