@@ -184,12 +184,12 @@ function syncBlock(rerender) {
       'Optional. Stores your progress in a private GitHub Gist so opening the app on another device picks it up. The token stays in this browser and is sent only to GitHub.'));
 
     const link = document.createElement('a');
-    link.href = 'https://github.com/settings/personal-access-tokens/new';
+    link.href = 'https://github.com/settings/tokens/new';
     link.target = '_blank';
     link.rel = 'noopener noreferrer';
     link.className = 'row-sub';
     link.style.display = 'block';
-    link.textContent = 'Create a fine-grained token scoped to “Gists: read and write” only (no repo access) →';
+    link.textContent = 'Create a classic token, scope checkbox: “gist” only (nothing else) →';
     row.appendChild(link);
 
     const input = document.createElement('input');

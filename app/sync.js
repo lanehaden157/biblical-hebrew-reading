@@ -18,8 +18,12 @@
  *
  * Security note (surfaced in Settings, not just here): the token sits in
  * this browser's storage so the app can use it on every save. Recommend a
- * FINE-GRAINED token scoped to Gists only (no repo access), so a leaked
- * token can't do more than read/write this one blob.
+ * CLASSIC token with only the "gist" scope checkbox checked (nothing else),
+ * so a leaked token can't do more than read/write gists -- fine-grained
+ * tokens would be the more modern choice, but as of this writing their
+ * creation UI doesn't reliably expose a Gists permission at all, so classic
+ * is the one that actually works today, not a weaker fallback chosen for
+ * convenience.
  *
  * Merge strategy: per-card, not whole-blob. Card records are independent
  * (keyed by lemma_id or "parse:<id>") and each carries `reps` (monotonic:

@@ -127,7 +127,9 @@ changed, not out of habit.
   use; when offline matters, vendor the file into the repo rather than dropping ts-fsrs.
 - **Persistence: localStorage + a JSON export button, plus optional cross-device sync.**
   Per-device by default. `app/sync.js` adds an opt-in path: paste a GitHub token (a
-  fine-grained one scoped to Gists only, never full repo access) into Settings, and
+  classic one with only the "gist" scope checked, never repo access — fine-grained
+  tokens are the more modern choice but their creation UI doesn't reliably expose a
+  Gists permission, confirmed while building this) into Settings, and
   progress round-trips through a private Gist — connect merges per-card by whichever side
   has more/newer review activity (`reps`, then `last_review`), never a blind whole-blob
   overwrite, so reviewing on two devices between syncs doesn't cost either session. The

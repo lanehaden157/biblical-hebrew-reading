@@ -349,20 +349,32 @@ Two things worth calling out:
 
 Settings gained a "Sync across devices" block: paste-a-token-and-Connect when
 disconnected, or a status line ("Synced Xm ago" / a plain-language error) plus "Sync now"
-and "Disconnect this device" when connected. The disconnected state links straight to
-GitHub's fine-grained-token creation page with the exact scope needed (Gists only, no
-repo access) already explained in the surrounding text. Verified in-browser: selftest
-108/108 passing (sync.js added to both the Hard-Rule-1 grep list and confirmed
-Hebrew-free); an intentionally invalid token produces a clean inline error with nothing
-written to localStorage; a simulated connected state renders the status/Sync-now/
-Disconnect UI correctly, including the automatic pull-on-boot failing gracefully in the
-background without breaking the rest of the app; Disconnect clears local sync state
-without touching the export path.
+and "Disconnect this device" when connected. The disconnected state links straight to a
+token creation page with the exact scope needed already explained in the surrounding
+text. Verified in-browser: selftest 108/108 passing (sync.js added to both the
+Hard-Rule-1 grep list and confirmed Hebrew-free); an intentionally invalid token produces
+a clean inline error with nothing written to localStorage; a simulated connected state
+renders the status/Sync-now/Disconnect UI correctly, including the automatic
+pull-on-boot failing gracefully in the background without breaking the rest of the app;
+Disconnect clears local sync state without touching the export path.
 
 Known, accepted limitation (documented in `sync.js`'s own docstring, not silently
 assumed away): no optimistic-concurrency check on the Gist write, so two devices syncing
 within the same few seconds of each other could race. Fine for one person's couple of
 devices; would need real handling before this could serve independent multi-user sync.
+
+**Correction, caught by Lane actually trying it:** shipped pointing at GitHub's
+fine-grained-token creation page with instructions to scope it to Gists. Lane reported
+the Gists option wasn't there. Checked directly rather than re-guessing: fine-grained
+PATs' own permissions reference lists a Gists entry, but multiple independent reports
+describe the *token-creation UI itself* not exposing it -- a real, apparently
+still-live gap between what the API supports and what the web form offers, not
+something Lane was missing. Switched the link and every doc reference to a classic
+token with only the "gist" scope checkbox checked, which has worked unchanged for
+years. The security property this was meant to guarantee (a leaked token can't touch
+anything but gists) holds exactly the same either way -- classic scopes are additive
+checkboxes, not all-or-nothing, so checking only "gist" is just as narrow as the
+fine-grained version would have been.
 
 ## Next — Phase 5: Tiers 3–5 (grammar tiers), further lesson groups if scoped
 
