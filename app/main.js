@@ -9,6 +9,8 @@
  */
 
 import * as theme from './theme.js';
+import * as store from './store.js';
+import * as sync from './sync.js';
 import * as vocab from './views/vocab.js';
 import * as parseView from './views/parse.js';
 import * as readView from './views/read.js';
@@ -207,6 +209,7 @@ function fail(err) {
 
 async function boot() {
   theme.init();
+  store.setSyncHook(sync.scheduleSync);
   vocab.setRerender(rerender);
   parseView.setRerender(rerender);
   readView.setRerender(rerender);
@@ -225,6 +228,17 @@ async function boot() {
     return;
   }
   rerender();
+
+  // One pull-and-merge on boot, not blocking the initial render -- opening
+  // the app on a second device should pick up the first device's latest
+  // progress without waiting for a local change to trigger scheduleSync.
+  // No-ops (no network request at all) when sync was never configured.
+  if (sync.status().connected) {
+    sync.syncNow().then(rerender).catch((err) => {
+      console.warn('sync-on-boot failed', err);
+      rerender();
+    });
+  }
 }
 
 // Boot only when this module is loaded by a page that actually hosts the app.

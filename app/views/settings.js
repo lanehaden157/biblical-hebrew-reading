@@ -7,9 +7,10 @@
  */
 
 import { settings, setSetting, exportBlob, exportFilename, resetAll, load } from '../store.js';
-import { stats } from '../srs.js';
+import { stats, describeInterval } from '../srs.js';
 import * as theme from '../theme.js';
 import * as feedback from '../feedback.js';
+import * as sync from '../sync.js';
 
 export function render(root, deck, rerender) {
   root.textContent = '';
@@ -49,6 +50,8 @@ export function render(root, deck, rerender) {
   ]);
   root.appendChild(pace);
 
+  root.appendChild(syncBlock(rerender));
+
   const data = document.createElement('div');
   data.className = 'group';
   data.appendChild(button('Export progress', doExport));
@@ -64,7 +67,7 @@ export function render(root, deck, rerender) {
 
   const note = document.createElement('p');
   note.className = 'note';
-  note.textContent = 'Progress is stored on this device only — it does not sync between your phone and computer. Export writes a JSON file you can keep as a backup.';
+  note.textContent = 'Progress is stored on this device by default — set up sync above to share it across devices. Export writes a JSON file you can keep as a backup either way.';
   root.appendChild(note);
 }
 
@@ -160,6 +163,98 @@ function button(text, onClick, danger) {
   b.textContent = text;
   b.addEventListener('click', onClick);
   return b;
+}
+
+let connecting = false;
+let connectError = null;
+
+function syncBlock(rerender) {
+  const st = sync.status();
+  const wrap = document.createElement('div');
+  wrap.className = 'group';
+
+  if (!st.connected) {
+    const row = document.createElement('div');
+    row.className = 'row';
+    row.style.flexDirection = 'column';
+    row.style.alignItems = 'stretch';
+    row.style.gap = '10px';
+
+    row.appendChild(labelCell('Sync across devices',
+      'Optional. Stores your progress in a private GitHub Gist so opening the app on another device picks it up. The token stays in this browser and is sent only to GitHub.'));
+
+    const link = document.createElement('a');
+    link.href = 'https://github.com/settings/personal-access-tokens/new';
+    link.target = '_blank';
+    link.rel = 'noopener noreferrer';
+    link.className = 'row-sub';
+    link.style.display = 'block';
+    link.textContent = 'Create a fine-grained token scoped to “Gists: read and write” only (no repo access) →';
+    row.appendChild(link);
+
+    const input = document.createElement('input');
+    input.className = 'text-input';
+    input.type = 'password';
+    input.autocomplete = 'off';
+    input.spellcheck = false;
+    input.placeholder = 'github_pat_...';
+    row.appendChild(input);
+
+    if (connectError) {
+      const err = document.createElement('p');
+      err.className = 'row-sub';
+      err.style.color = 'var(--again)';
+      err.textContent = connectError;
+      row.appendChild(err);
+    }
+
+    const btn = button(connecting ? 'Connecting…' : 'Connect', async () => {
+      if (connecting) return;
+      const token = input.value;
+      if (!token.trim()) return;
+      connecting = true;
+      connectError = null;
+      rerender();
+      try {
+        await sync.connect(token);
+      } catch (e) {
+        connectError = String(e.message || e);
+      } finally {
+        connecting = false;
+        rerender();
+      }
+    });
+    if (connecting) btn.disabled = true;
+    row.appendChild(btn);
+
+    wrap.appendChild(row);
+    return wrap;
+  }
+
+  const statusRow = document.createElement('div');
+  statusRow.className = 'row';
+  const label = st.syncing ? 'Syncing…'
+    : st.lastError ? `Sync error: ${st.lastError}`
+    : st.lastSyncedAt ? `Synced ${describeInterval(st.lastSyncedAt, new Date())} ago`
+    : 'Connected';
+  statusRow.appendChild(labelCell('Sync across devices', label));
+  wrap.appendChild(statusRow);
+
+  wrap.appendChild(button('Sync now', async () => {
+    try {
+      await sync.syncNow();
+    } catch (e) {
+      connectError = String(e.message || e);
+    }
+    rerender();
+  }));
+  wrap.appendChild(button('Disconnect this device', () => {
+    if (!confirm('Stop syncing on this device?\n\nYour progress stays exactly as it is here, and the gist on GitHub is untouched -- this only removes the link between them. The token itself isn\'t revoked; do that on GitHub if you want it fully gone.')) return;
+    sync.disconnect();
+    rerender();
+  }, true));
+
+  return wrap;
 }
 
 function doExport() {

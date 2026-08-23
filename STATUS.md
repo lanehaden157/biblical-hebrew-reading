@@ -318,9 +318,55 @@ now has all five groups; no other app code needed structural changes beyond the 
 their own headings, the 4-token word-order and verbless-clause phrases both confirmed
 rendering with zero highlight spans (plain text, as intended) via direct DOM inspection.
 
+## Done — Phase 5 progress: optional cross-device sync via GitHub Gist
+
+Lane asked whether export could "save progress to the site" via a token. Clarified first
+(this is a static site with no backend, so the only way is the browser talking to an API
+directly) and asked what he actually wanted before building anything — auto-sync, or just
+a manual Import button with no token/network involved. He chose auto-sync.
+
+`app/sync.js` is new and entirely opt-in: with no token configured it makes zero network
+requests, so CLAUDE.md's "no external requests other than the pinned ts-fsrs CDN" default
+still holds for anyone who never opens Settings and pastes one in. Once configured, it
+round-trips `store.js`'s state through a private GitHub Gist (not the app's own repo --
+committing a progress blob into the site's source history on every review would spam it
+with noise unrelated to the app itself).
+
+Two things worth calling out:
+- **The token never touches exported files.** It lives in its own localStorage key
+  (`hebrew:sync:v1`), completely separate from the `hebrew:v1` key `exportBlob()` reads --
+  confirmed directly in-browser (fetched the real export blob and grepped it for
+  "token"/"gistId": absent). A credential leaking into a backup file the user might
+  later share or upload somewhere else would be exactly the kind of quiet, easy-to-miss
+  mistake worth checking for directly rather than assuming the separation held.
+- **Merge is per-card, not per-blob.** Card records are independent and each carries
+  `reps` (only grows through review) and `last_review`, so `mergeStates()` keeps whichever
+  side of *each individual card* represents more/newer review activity, rather than one
+  whole device's session silently overwriting the other's the moment they next sync.
+  Reviewing on your phone and then your laptop before either one syncs keeps both
+  sessions' progress. Settings (theme/sound/daily cap) are deliberately NOT merged --
+  they're a per-device preference, not progress, so each device keeps its own.
+
+Settings gained a "Sync across devices" block: paste-a-token-and-Connect when
+disconnected, or a status line ("Synced Xm ago" / a plain-language error) plus "Sync now"
+and "Disconnect this device" when connected. The disconnected state links straight to
+GitHub's fine-grained-token creation page with the exact scope needed (Gists only, no
+repo access) already explained in the surrounding text. Verified in-browser: selftest
+108/108 passing (sync.js added to both the Hard-Rule-1 grep list and confirmed
+Hebrew-free); an intentionally invalid token produces a clean inline error with nothing
+written to localStorage; a simulated connected state renders the status/Sync-now/
+Disconnect UI correctly, including the automatic pull-on-boot failing gracefully in the
+background without breaking the rest of the app; Disconnect clears local sync state
+without touching the export path.
+
+Known, accepted limitation (documented in `sync.js`'s own docstring, not silently
+assumed away): no optimistic-concurrency check on the Gist write, so two devices syncing
+within the same few seconds of each other could race. Fine for one person's couple of
+devices; would need real handling before this could serve independent multi-user sync.
+
 ## Next — Phase 5: Tiers 3–5 (grammar tiers), further lesson groups if scoped
 
-The Learn tab's original concept-list scope is now fully built across five groups. Any
+The Learn tab's original concept-list scope is fully built across five groups. Any
 further lesson group would be a new addition, not yet scoped. Weak verbs and derived
 stems (Tiers 3–4) are still further out and not yet scoped either. Reading order
 (CLAUDE.md) goes to Ruth next for reader expansion, whenever that's picked up,

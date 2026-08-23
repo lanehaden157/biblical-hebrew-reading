@@ -125,7 +125,16 @@ changed, not out of habit.
 - **SRS: ts-fsrs** (MIT, via jsDelivr CDN, pinned version — never `@latest`).
   Do not reimplement a scheduler. Note the CDN is the one thing preventing true offline
   use; when offline matters, vendor the file into the repo rather than dropping ts-fsrs.
-- **Persistence: localStorage + a JSON export button.** Per-device; no sync. Accepted.
+- **Persistence: localStorage + a JSON export button, plus optional cross-device sync.**
+  Per-device by default. `app/sync.js` adds an opt-in path: paste a GitHub token (a
+  fine-grained one scoped to Gists only, never full repo access) into Settings, and
+  progress round-trips through a private Gist — connect merges per-card by whichever side
+  has more/newer review activity (`reps`, then `last_review`), never a blind whole-blob
+  overwrite, so reviewing on two devices between syncs doesn't cost either session. The
+  token lives in its own localStorage key, never inside the state object `exportBlob()`
+  reads — export must never leak it into a file Lane might back up or share. No token
+  configured means zero network calls, so this doesn't change the app's behavior for
+  anyone who never opens Settings and pastes one in.
 
 
 ## Tiers
@@ -156,9 +165,11 @@ expanded without touching app code.
 ### App conventions
 
 Vanilla ES modules. No framework, no bundler, no build step — what's in the repo is what
-runs. One module per concern (`store.js`, `srs.js`, `feedback.js`, `theme.js`) plus one
-per view. No analytics, no telemetry, no external requests other than the pinned ts-fsrs
-CDN URL.
+runs. One module per concern (`store.js`, `srs.js`, `feedback.js`, `theme.js`, `sync.js`)
+plus one per view. No analytics, no telemetry. The only external requests are the pinned
+ts-fsrs CDN URL, and — only once Lane pastes a token into Settings — `sync.js` talking
+directly to `api.github.com` for the optional cross-device Gist sync (see the Persistence
+entry below). With no token configured, `sync.js` makes zero network calls.
 
 Suggestion 3 (every generation step ships verification) has an app-side form: `/app/selftest.html`
 asserts the data invariants the UI depends on — deck loads, 600 entries, ranks 1–600 with

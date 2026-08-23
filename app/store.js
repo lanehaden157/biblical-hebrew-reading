@@ -58,6 +58,15 @@ function migrate(raw) {
 
 let cache = null;
 
+// Injected by main.js at boot (-> sync.js's scheduleSync), rather than
+// importing sync.js directly here: sync.js already imports load/update/
+// SCHEMA from this file, and this file has no need to know sync.js exists
+// at all when nothing has ever configured it. Defaults to a no-op so
+// store.js works standalone (e.g. from selftest.html, which never boots
+// main.js's wiring).
+let onSave = () => {};
+export function setSyncHook(fn) { onSave = fn; }
+
 export function load() {
   if (cache) return cache;
   let raw = null;
@@ -86,7 +95,9 @@ export function save() {
     // the one failure mode hard rule 6 exists to prevent.
     console.error('COULD NOT SAVE review state', e);
     alert('Could not save your progress. Export a backup from Settings.');
+    return;
   }
+  onSave();
 }
 
 export function update(fn) {

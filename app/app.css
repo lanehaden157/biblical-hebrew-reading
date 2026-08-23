@@ -338,6 +338,19 @@ h1.title { font-size: 22px; font-weight: 500; margin: 8px 0 20px; }
   color: var(--text);
 }
 
+.text-input {
+  font: inherit;
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 14px;
+  width: 100%;
+  padding: 9px 12px;
+  text-align: left;
+  border: 0.5px solid var(--border-strong);
+  border-radius: 9px;
+  background: var(--bg);
+  color: var(--text);
+}
+
 .note {
   font-size: 13px;
   color: var(--text-faint);
