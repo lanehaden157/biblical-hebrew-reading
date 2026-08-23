@@ -16,11 +16,20 @@ import * as settingsView from './views/settings.js';
 
 export const DECK_URL = new URL('../data/vocab_deck_600.json', import.meta.url);
 export const PARSE_DECK_URL = new URL('../data/parse_qal_strong.json', import.meta.url);
-export const READER_DATA_URL = new URL('../data/jonah1_reader.json', import.meta.url);
+
+// Reader chapters in reading order (CLAUDE.md's locked order: Jonah, then
+// Ruth, then Genesis narrative, then Exodus 3/14). Add a new chapter here
+// once its data/*.json exists -- everything else (tab loading, the chapter
+// switcher in read.js) is generic over this list.
+export const READER_CHAPTERS = [
+  { key: 'jonah1', label: 'Jonah 1', url: new URL('../data/jonah1_reader.json', import.meta.url) },
+  { key: 'jonah2', label: 'Jonah 2', url: new URL('../data/jonah2_reader.json', import.meta.url) },
+];
 
 let deck = null;
 let parseDeck = null;
-let readerData = null;
+const readerCache = {}; // chapter key -> loaded reader JSON
+let readerChapterKey = READER_CHAPTERS[0].key;
 let tab = 'vocab';
 
 export async function loadDeck() {
@@ -43,8 +52,10 @@ export async function loadParseDeck() {
   return json.entries;
 }
 
-export async function loadReaderData() {
-  const res = await fetch(READER_DATA_URL, { cache: 'no-cache' });
+export async function loadReaderData(key) {
+  const chapter = READER_CHAPTERS.find((c) => c.key === key);
+  if (!chapter) throw new Error(`unknown reader chapter: ${key}`);
+  const res = await fetch(chapter.url, { cache: 'no-cache' });
   if (!res.ok) throw new Error(`reader data fetch failed: ${res.status} ${res.statusText}`);
   const json = await res.json();
   if (!Array.isArray(json.verses) || !json.verses.length) {
@@ -65,10 +76,36 @@ function rerender() {
     if (!parseDeck) { root.textContent = 'Loading…'; return; }
     parseView.render(root, parseDeck);
   } else if (tab === 'read') {
-    if (!readerData) { root.textContent = 'Loading…'; return; }
-    readView.render(root, readerData);
+    if (!readerCache[readerChapterKey]) { root.textContent = 'Loading…'; return; }
+    readView.render(root, {
+      chapters: READER_CHAPTERS,
+      currentKey: readerChapterKey,
+      data: readerCache[readerChapterKey],
+    });
   } else vocab.render(root, deck);
   window.scrollTo(0, 0);
+}
+
+async function loadReaderChapter(key) {
+  try {
+    readerCache[key] = await loadReaderData(key);
+  } catch (err) {
+    console.error(err);
+    view().textContent = `Could not load the reader: ${err.message || err}`;
+    throw err;
+  }
+}
+
+async function selectReaderChapter(key) {
+  readerChapterKey = key;
+  if (!readerCache[key]) {
+    try {
+      await loadReaderChapter(key);
+    } catch {
+      return;
+    }
+  }
+  rerender();
 }
 
 async function selectTab(name) {
@@ -89,12 +126,10 @@ async function selectTab(name) {
       return;
     }
   }
-  if (name === 'read' && !readerData) {
+  if (name === 'read' && !readerCache[readerChapterKey]) {
     try {
-      readerData = await loadReaderData();
-    } catch (err) {
-      console.error(err);
-      view().textContent = `Could not load the reader: ${err.message || err}`;
+      await loadReaderChapter(readerChapterKey);
+    } catch {
       return;
     }
   }
@@ -123,6 +158,7 @@ async function boot() {
   vocab.setRerender(rerender);
   parseView.setRerender(rerender);
   readView.setRerender(rerender);
+  readView.setSelectChapter(selectReaderChapter);
 
   for (const b of document.querySelectorAll('.tab')) {
     if (b.disabled) continue;

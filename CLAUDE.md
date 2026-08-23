@@ -180,81 +180,38 @@ path problem.
   Strong's `meaning` is a usable draft but archaic and sometimes misleading
   (*nefesh* as "a breathing creature", *chesed* as "mercy"). Always curate before shipping.
 
+## Commands
+
+```
+npm pack morphhb                        # pull/refresh the OSHB corpus source
+python pipeline/rank_lemmas.py          # build data/top600.json from OSHB
+python pipeline/build_vocab_deck.py     # build data/vocab_deck_600.json
+python pipeline/build_parse_qal.py      # build Qal-strong parsing entries
+python pipeline/verify_parse_qal.py     # independent re-derivation check for parse data
+python pipeline/curate_jonah1_extra.py  # curate glosses for Jonah 1 lemmas not in top-600
+python pipeline/build_jonah1_reader.py  # build data/jonah1_reader.json
+python pipeline/verify_jonah1_reader.py # independent re-scan check for reader data
+python pipeline/curate_jonah2_extra.py  # curate glosses for Jonah 2 lemmas not yet covered
+python pipeline/build_jonah2_reader.py  # build data/jonah2_reader.json
+python pipeline/verify_jonah2_reader.py # independent re-scan check for reader data
+open app/selftest.html                  # structural checks: deck/parse/reader invariants
+```
+
+Any change to `pipeline/transliterate.py` requires re-running every build script above,
+per Hard Rule 1 — transliterations are never hand-typed.
+
 ## Current status
 
-This section is rewritten at each phase boundary; `git log` is the real history.
+Phase history (what was built, verified, and why) lives in `STATUS.md`, not here, so this
+file stays short and doesn't go stale mid-phase. `git log` is the real commit-level history.
 
-**Done — Phases 1–2 (Tier 0–1 build).** Pipeline builds `data/top600.json` from OSHB. All 600
-lemmas curated across six gloss batches, reviewed, verified. Transliteration generator
-complete and verified against all 600 forms. `data/vocab_deck_600.json` built. Vocab SRS app
-shipped and live at the Pages URL: three-stage card reveal (Hebrew → transliteration →
-gloss), three grade buttons (Again/Good/Easy, `Hard` dropped), light/dark theme following
-the system setting, sound feedback (default on, per-grade tones) behind `feedback.js`.
-Haptics were attempted (standard vibration API, then an undocumented iOS switch-click trick)
-and dropped after real-device testing confirmed neither fires in iOS Safari — there is no
-haptics toggle or code path. Session-length tracking was built and then deliberately
-removed: this is a casual hobby project, and a persisted timing log is the kind of
-quantified-self mechanic hard rule 5 (no streaks, no guilt mechanics) exists to keep out.
-`store.js` has no `sessions` field.
+**Current phase — Phase 5: Tiers 3–5** (weak verbs, derived stems, sustained reading).
+Not yet scoped. Near-term: keep growing the reader (Jonah 3–4, then Ruth, per the locked
+reading order) using the existing pipeline, independent of when the grammar tiers get scoped.
 
-**Done — Phase 3 (Tier 2 build): parsing gym, Qal strong verbs.** `pipeline/build_parse_qal.py`
-pulls Qal forms in the locked conjugation-priority order (qatal, wayyiqtol, yiqtol,
-participle, infinitive construct — confirmed exact `morph` codes against the whole corpus
-rather than assuming: `Vq` + one of `pwqrc` + a person/gender/number or gender/number/state
-suffix) restricted to **strong** roots. Strong-root test: triliteral, no radical in
-{alef,he,het,ayin} (covers I/II/III-guttural and III-He/III-Aleph in one check), first
-radical not nun, first radical not vav/yod, second radical not vav/yod or equal to the
-third (hollow/geminate). Root lemmas are restricted to the 181 verb lemmas already in the
-curated top-600 vocab deck, not all Qal-attested lemmas in the corpus — reuses their
-lexicon-sourced citation form, transliteration and gloss rather than a second curation
-pass, and keeps parsing practice anchored to vocabulary already being learned. Yields 41
-strong-root lemmas, 34 of which are actually attested in Qal in the corpus (the other 7 —
-בקש, שלך, קטר, שרת, מלט, שמד, סתר — are cited in Qal-perfect form by convention but
-essentially never occur in Qal; confirmed against BDB usage, not a pipeline bug), 2,211
-parse entries total. `pipeline/verify_parse_qal.py` independently re-derives every count
-via its own regex scan and its own copy of the strong-root rule (rule 3). `app/views/parse.js`
-un-stubs the `Parse` tab: same three-stage reveal pattern as vocab (surface form →
-transliteration → root + gloss + parse label, e.g. "Qal infinitive construct"), same
-three-grade SRS. `srs.js` `buildQueue`/`stats` took a `keyFn` parameter so vocab (keyed by
-lemma_id) and parse (keyed by `parse:<entry id>`, since one lemma has many inflected
-entries) share one `store.cards` map with independent daily new-card budgets rather than
-competing for one. `app/selftest.html` gained structural checks for the parse deck.
-Verified end-to-end in-browser: tab switch, all three reveal stages, grading, queue
-advance, Settings stats unaffected by parse review activity.
-
-**Done — Phase 4: reader, Jonah 1.** `pipeline/curate_jonah1_extra.py` diffs Jonah 1's
-distinct lemmas (Hebrew/WLC versification: 16 verses -- English 1:17, the fish-swallowing
-verse, is Hebrew 2:1 and is deliberately left for the chapter 2 reading, not stitched on
-here) against `data/vocab_deck_600.json` and curates glosses for the 31 lemmas not already
-in the top-600 deck, same method as the Phase 2 gloss batches (lexicon-sourced citation
-form, hand-curated English gloss checked against, not copied from, the Strong's draft).
-`pipeline/build_jonah1_reader.py` builds `data/jonah1_reader.json`: one entry per printed
-word (254 words), splitting each word's lemma/morph/text attributes on "/" per morpheme
-(same technique `rank_lemmas.py` and `build_parse_qal.py` already use) to compose a
-per-word gloss from its morphemes' individual glosses joined with " + ", while keeping the
-*displayed* Hebrew as the real, unsplit printed word -- a prefixed vav or preposition is
-never pulled into its own visual token, since that would show Hebrew that doesn't actually
-look like Hebrew. Deliberately does not compute or show a part-of-speech or parse label per
-word: Jonah 1 contains weak roots and non-Qal stems outside Tier 2's Qal-strong coverage,
-and a lemma-level POS guess can be flatly wrong for a specific occurrence -- confirmed by
-H3373 in this very chapter, tagged under one Strong's number across both a finite verb
-(1:9) and a noun (1:10, 1:16). `pipeline/verify_jonah1_reader.py` independently re-scans
-the raw WLC XML with its own regex and its own gloss lookup and diffs every word
-entry-by-entry against the shipped JSON, not just aggregate counts. `app/views/read.js`
-un-stubs the Read tab: no grading, no scheduler state, no queue -- every word in the
-chapter is tap-to-reveal (transliteration + gloss) every time the page opens, and multiple
-words can be open at once, since reading needs to check several words in one verse without
-losing earlier reveals. Words not yet in the vocab deck get a subtle underline so new
-vocabulary stands out without demanding anything. `app/selftest.html` gained structural
-checks for the reader data (verse/word counts against metadata, gloss non-emptiness,
-`is_known` cross-checked against `vocab_deck_600.json`, no duplicate word ids). Verified
-in-browser via selftest (39/39 passing) and by scripting a tap -- open, reveal, tap again,
-close -- and confirming the DOM state at each step.
-
-**Next — Phase 5: Tiers 3–5** (weak verbs, derived stems, sustained reading) is further out
-and not yet scoped. A natural near-term next step is expanding the reader beyond Jonah 1
-(Jonah 2-4, then Ruth, per the locked reading order) using the same pipeline now that it
-exists, rather than treating Jonah 1 as a one-off.
+**Shipped and live:** vocab SRS (Tier 0–1), parsing gym for Qal-strong verbs (Tier 2),
+reader for Jonah 1–2 (Phase 4, extended in Phase 5). See `STATUS.md` for what each phase
+actually built and how it was verified.
 
 ## Working style
 

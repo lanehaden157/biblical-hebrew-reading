@@ -1,0 +1,267 @@
+{
+  "metadata": {
+    "source": "lemmas in Jonah 2 (Hebrew/WLC versification, 11 verses) not already in data/vocab_deck_600.json or glosses/jonah1_extra.json",
+    "status": "curated and reviewed",
+    "count": 22
+  },
+  "entries": [
+    {
+      "lemma_id": "H1104",
+      "citation_form": "בָּלַע",
+      "pos": "Verb",
+      "strongs_defs_for_reference": [
+        "make away with",
+        "swallowing",
+        "destroy"
+      ],
+      "gloss": "swallow",
+      "reviewed": true
+    },
+    {
+      "lemma_id": "H1280",
+      "citation_form": "בְּרִיחַ",
+      "pos": "Noun",
+      "strongs_defs_for_reference": [
+        "bolt"
+      ],
+      "gloss": "bar, bolt",
+      "reviewed": true
+    },
+    {
+      "lemma_id": "H1530",
+      "citation_form": "גַּל",
+      "pos": "Noun",
+      "strongs_defs_for_reference": [
+        "rolled",
+        "heap",
+        "ruins",
+        "spring",
+        "waves"
+      ],
+      "gloss": "wave, billow",
+      "reviewed": true
+    },
+    {
+      "lemma_id": "H1644",
+      "citation_form": "גָּרַשׁ",
+      "pos": "Verb",
+      "strongs_defs_for_reference": [
+        "drive out",
+        "expatriate",
+        "divorce"
+      ],
+      "gloss": "drive out, banish, expel",
+      "reviewed": true
+    },
+    {
+      "lemma_id": "H1709",
+      "citation_form": "דָּג",
+      "pos": "Noun",
+      "strongs_defs_for_reference": [
+        "fish"
+      ],
+      "gloss": "fish",
+      "reviewed": true
+    },
+    {
+      "lemma_id": "H1710",
+      "citation_form": "דָּגָה",
+      "pos": "Noun",
+      "strongs_defs_for_reference": [],
+      "gloss": "fish (collective/generic)",
+      "reviewed": true
+    },
+    {
+      "lemma_id": "H2280",
+      "citation_form": "חָבַשׁ",
+      "pos": "Verb",
+      "strongs_defs_for_reference": [
+        "wrap",
+        "saddle",
+        "stop",
+        "rule"
+      ],
+      "gloss": "bind, wrap around",
+      "reviewed": true
+    },
+    {
+      "lemma_id": "H4487",
+      "citation_form": "מָנָה",
+      "pos": "Verb",
+      "strongs_defs_for_reference": [
+        "weigh out",
+        "allot",
+        "constitute",
+        "enumerate",
+        "enroll"
+      ],
+      "gloss": "appoint, ordain (piel)",
+      "reviewed": true
+    },
+    {
+      "lemma_id": "H4578",
+      "citation_form": "מֵעֶה",
+      "pos": "Noun",
+      "strongs_defs_for_reference": [
+        "intestines",
+        "abdomen",
+        "sympathy",
+        "vest",
+        "stomach",
+        "uterus",
+        "heart"
+      ],
+      "gloss": "belly, stomach, innards",
+      "reviewed": true
+    },
+    {
+      "lemma_id": "H4688",
+      "citation_form": "מְצוֹלָה",
+      "pos": "Noun",
+      "strongs_defs_for_reference": [
+        "deep"
+      ],
+      "gloss": "the deep, the depths (of the sea)",
+      "reviewed": true
+    },
+    {
+      "lemma_id": "H4867",
+      "citation_form": "מִשְׁבָּר",
+      "pos": "Noun",
+      "strongs_defs_for_reference": [
+        "breaker"
+      ],
+      "gloss": "breaker (wave)",
+      "reviewed": true
+    },
+    {
+      "lemma_id": "H5488",
+      "citation_form": "סוּף",
+      "pos": "Noun",
+      "strongs_defs_for_reference": [
+        "reed",
+        "papyrus"
+      ],
+      "gloss": "reed, seaweed",
+      "reviewed": true
+    },
+    {
+      "lemma_id": "H5848",
+      "citation_form": "עָטַף",
+      "pos": "Verb",
+      "strongs_defs_for_reference": [
+        "shroud",
+        "clothe",
+        "darkness",
+        "languish"
+      ],
+      "gloss": "grow faint, be overwhelmed (hitpael)",
+      "reviewed": true
+    },
+    {
+      "lemma_id": "H661",
+      "citation_form": "אָפַף",
+      "pos": "Verb",
+      "strongs_defs_for_reference": [
+        "surround"
+      ],
+      "gloss": "surround, encompass",
+      "reviewed": true
+    },
+    {
+      "lemma_id": "H6958",
+      "citation_form": "קוֹא",
+      "pos": "Verb",
+      "strongs_defs_for_reference": [
+        "vomit"
+      ],
+      "gloss": "vomit (hiphil: vomit out)",
+      "reviewed": true
+    },
+    {
+      "lemma_id": "H7095",
+      "citation_form": "קֶצֶב",
+      "pos": "Noun",
+      "strongs_defs_for_reference": [
+        "shape",
+        "base"
+      ],
+      "gloss": "base, root (of a mountain)",
+      "reviewed": true
+    },
+    {
+      "lemma_id": "H7585",
+      "citation_form": "שְׁאוֹל",
+      "pos": "Noun",
+      "strongs_defs_for_reference": [
+        "hades",
+        "retreat"
+      ],
+      "gloss": "Sheol (realm of the dead)",
+      "reviewed": true
+    },
+    {
+      "lemma_id": "H7723",
+      "citation_form": "שָׁוְא",
+      "pos": "Noun",
+      "strongs_defs_for_reference": [
+        "evil",
+        "destructive",
+        "ruin",
+        "guile",
+        "idolatry",
+        "uselessness",
+        "vain"
+      ],
+      "gloss": "worthless thing, vanity, idol",
+      "reviewed": true
+    },
+    {
+      "lemma_id": "H7768",
+      "citation_form": "שָׁוַע",
+      "pos": "Verb",
+      "strongs_defs_for_reference": [
+        "be free",
+        "halloo",
+        "freedom"
+      ],
+      "gloss": "cry out (for help)",
+      "reviewed": true
+    },
+    {
+      "lemma_id": "H7845",
+      "citation_form": "שַׁחַת",
+      "pos": "Noun",
+      "strongs_defs_for_reference": [
+        "pit",
+        "destruction"
+      ],
+      "gloss": "pit, the grave, destruction",
+      "reviewed": true
+    },
+    {
+      "lemma_id": "H8415",
+      "citation_form": "תְּהוֹם",
+      "pos": "Noun",
+      "strongs_defs_for_reference": [
+        "abyss",
+        "deep"
+      ],
+      "gloss": "the deep, the abyss",
+      "reviewed": true
+    },
+    {
+      "lemma_id": "H8426",
+      "citation_form": "תּוֹדָה",
+      "pos": "Noun",
+      "strongs_defs_for_reference": [
+        "extension",
+        "avowal",
+        "adoration",
+        "choir"
+      ],
+      "gloss": "thanksgiving",
+      "reviewed": true
+    }
+  ]
+}
