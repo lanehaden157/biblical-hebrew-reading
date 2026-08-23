@@ -147,7 +147,7 @@ function cardEl(item) {
   const advance = () => {
     if (stage >= 2) return;
     stage++;
-    feedback.tap();
+    feedback.tap(stage);
     rerender();
   };
   el.addEventListener('click', advance);

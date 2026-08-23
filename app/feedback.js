@@ -63,7 +63,7 @@ function scheduleSweep(ctx, f1, f2, startAt, ms, gain) {
 
 /** Plays a short sequence of [freq, ms] notes back to back. Awaits resume()
  *  before touching currentTime -- see the sound note above for why. */
-async function playTones(specs, gain = 0.05) {
+async function playTones(specs, gain = 0.1) {
   if (!settings().sound) return;
   const ctx = ensureAudioCtx();
   if (!ctx) return;
@@ -81,7 +81,7 @@ async function playTones(specs, gain = 0.05) {
 
 /** One glissando from f1 to f2 -- used for motion (switching views), where a
  *  pitch glide reads as "moving" in a way a static tone doesn't. */
-async function playSweep(f1, f2, ms, gain = 0.035) {
+async function playSweep(f1, f2, ms, gain = 0.07) {
   if (!settings().sound) return;
   const ctx = ensureAudioCtx();
   if (!ctx) return;
@@ -99,8 +99,8 @@ async function playSweep(f1, f2, ms, gain = 0.035) {
  *  clear of the grade tones (300/660/784+988/finish) so a review session
  *  never confuses "revealed" with "graded". */
 export function tap(stage) {
-  if (stage === 1) playTones([[440, 70]], 0.032);
-  else if (stage === 2) playTones([[554, 90]], 0.032);
+  if (stage === 1) playTones([[440, 70]], 0.064);
+  else if (stage === 2) playTones([[554, 90]], 0.064);
 }
 
 /** Tab bar navigation. A short pitch glide rather than a tone -- reads as
@@ -116,8 +116,8 @@ export function switchView(dir) {
  *  that isn't (a brighter two-note sparkle -- flags it as worth noticing,
  *  echoing the underline read.js already draws under new-vocabulary words). */
 export function readReveal(isKnown) {
-  if (isKnown) playTones([[500, 55]], 0.03);
-  else playTones([[880, 45], [1175, 65]], 0.035);
+  if (isKnown) playTones([[500, 55]], 0.06);
+  else playTones([[880, 45], [1175, 65]], 0.07);
 }
 
 /** One distinct tone per grade, so the sound carries information rather than
