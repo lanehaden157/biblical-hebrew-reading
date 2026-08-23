@@ -58,6 +58,16 @@ function migrate(raw) {
 
 let cache = null;
 
+// A deep copy of `cards` as they stood the moment this page load first read
+// them -- captured once, below, the first time load() actually parses
+// localStorage (every later call hits the `if (cache) return cache` early
+// return and never touches this). Deliberately a plain JS variable, not
+// anything persisted: it is lost the moment the tab closes or reloads,
+// which is exactly what "this session" should mean here. undoSession()
+// below uses it to revert only what changed since the app was opened --
+// distinct from resetAll(), which wipes everything ever reviewed.
+let sessionBaseline = null;
+
 // Injected by main.js at boot (-> sync.js's scheduleSync), rather than
 // importing sync.js directly here: sync.js already imports load/update/
 // SCHEMA from this file, and this file has no need to know sync.js exists
@@ -83,6 +93,7 @@ export function load() {
     cache.settings = { ...DEFAULT_SETTINGS, ...(cache.settings || {}) };
     cache.cards = cache.cards || {};
   }
+  sessionBaseline = JSON.parse(JSON.stringify(cache.cards));
   return cache;
 }
 
@@ -132,6 +143,32 @@ export function introducedOn(day) {
   return n;
 }
 
+/** True once anything in `cards` has changed since this page load started
+ *  -- a new card introduced, a grade recorded, anything. Settings uses this
+ *  to only show the undo button when there's actually something to undo. */
+export function hasSessionChanges() {
+  if (!sessionBaseline) return false;
+  return JSON.stringify(load().cards) !== JSON.stringify(sessionBaseline);
+}
+
+/** Revert `cards` to how they stood when this page load started, discarding
+ *  only this session's reviews/introductions -- everything from before you
+ *  opened the app this time is untouched. The state being discarded is
+ *  still backed up first (same convention as resetAll()), so an accidental
+ *  undo isn't itself unrecoverable. */
+export function undoSession() {
+  if (!sessionBaseline) return;
+  const s = load();
+  try {
+    localStorage.setItem(`hebrew:backup:session-undo-${Date.now()}`, JSON.stringify(s));
+  } catch (e) {
+    console.warn('could not write pre-undo backup', e);
+  }
+  s.cards = JSON.parse(JSON.stringify(sessionBaseline));
+  save();
+  return s;
+}
+
 export function resetAll() {
   const s = load();
   try {
@@ -140,6 +177,11 @@ export function resetAll() {
     console.warn('could not write manual-reset backup', e);
   }
   cache = emptyState();
+  // A full reset IS the new session baseline -- without this, "Undo this
+  // session's reviews" would immediately reappear offering to undo the
+  // reset itself, which is exactly the confusing double-negative this
+  // button must never produce.
+  sessionBaseline = {};
   save();
   return cache;
 }

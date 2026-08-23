@@ -376,6 +376,21 @@ anything but gists) holds exactly the same either way -- classic scopes are addi
 checkboxes, not all-or-nothing, so checking only "gist" is just as narrow as the
 fine-grained version would have been.
 
+## Done — Phase 5 progress: undo this session's reviews
+
+A narrower sibling to "Reset all progress." `store.js` now captures a one-time, in-memory
+snapshot of `cards` the first time a page load actually reads them from localStorage --
+never written anywhere, so it's naturally scoped to "since I opened the app this time"
+and disappears on reload without any extra cleanup code. Settings shows "Undo this
+session's reviews" only once something has actually changed relative to that snapshot
+(`hasSessionChanges()`), and undoing (`undoSession()`) backs up the about-to-be-discarded
+state first, same convention `resetAll()` already used. `resetAll()` itself now also
+resets the snapshot to empty, so it doesn't leave a stray "undo the reset" button behind
+-- confusing double-negative UI caught and fixed before it shipped, not after. Verified
+in-browser: selftest 108/108 unaffected; button absent on a fresh load, appears after
+grading one real card, reverts the card count to zero on click, disappears again after,
+and a `hebrew:backup:session-undo-*` key is confirmed written before the revert.
+
 ## Next — Phase 5: Tiers 3–5 (grammar tiers), further lesson groups if scoped
 
 The Learn tab's original concept-list scope is fully built across five groups. Any

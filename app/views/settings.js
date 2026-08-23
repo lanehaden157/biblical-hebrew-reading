@@ -6,7 +6,7 @@
  * you review is exactly that. Here they are something you go and look at.
  */
 
-import { settings, setSetting, exportBlob, exportFilename, resetAll, load } from '../store.js';
+import { settings, setSetting, exportBlob, exportFilename, resetAll, load, hasSessionChanges, undoSession } from '../store.js';
 import { stats, describeInterval } from '../srs.js';
 import * as theme from '../theme.js';
 import * as feedback from '../feedback.js';
@@ -55,6 +55,13 @@ export function render(root, deck, rerender) {
   const data = document.createElement('div');
   data.className = 'group';
   data.appendChild(button('Export progress', doExport));
+  if (hasSessionChanges()) {
+    data.appendChild(button('Undo this session\'s reviews', () => {
+      if (!confirm('Undo everything reviewed or introduced since you opened the app just now?\n\nOnly this session is affected -- anything from before stays exactly as it was. A copy of the current state is kept in this browser\'s storage either way.')) return;
+      undoSession();
+      rerender();
+    }, true));
+  }
   data.appendChild(button('Reset all progress', () => {
     const st = load();
     const n = Object.keys(st.cards).length;

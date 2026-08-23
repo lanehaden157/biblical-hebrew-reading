@@ -137,6 +137,13 @@ changed, not out of habit.
   reads — export must never leak it into a file Lane might back up or share. No token
   configured means zero network calls, so this doesn't change the app's behavior for
   anyone who never opens Settings and pastes one in.
+- **Undo, scoped narrower than Reset.** `resetAll()` wipes every card ever reviewed
+  (backed up first, per hard rule 6). `undoSession()` is gentler: `store.js` snapshots
+  `cards` once, the first time a page load actually reads them, entirely in memory — lost
+  on reload by construction, which is what makes it "this session" rather than needing a
+  separate storage mechanism. Settings only shows "Undo this session's reviews" once
+  something's actually changed since that snapshot, and undoing backs up the
+  about-to-be-discarded state first, same as Reset.
 
 
 ## Tiers
