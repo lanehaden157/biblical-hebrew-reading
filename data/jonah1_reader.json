@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated": "2026-08-23T00:17:51.099813+00:00",
+    "generated": "2026-08-23T00:47:17.947230+00:00",
     "chapter": "Jonah 1",
     "versification": "Hebrew/WLC (16 verses; English 1:17 = Hebrew 2:1, not included)",
     "verse_count": 16,
@@ -32,7 +32,7 @@
         {
           "id": "32Nvk",
           "surface_form": "דְּבַר",
-          "transliteration": "debar",
+          "transliteration": "devar",
           "gloss": "word, thing",
           "is_known": true,
           "lemma_ids": [
@@ -72,7 +72,7 @@
         {
           "id": "32k5P",
           "surface_form": "בֶן",
-          "transliteration": "ben",
+          "transliteration": "ven",
           "gloss": "son",
           "is_known": true,
           "lemma_ids": [
@@ -119,7 +119,7 @@
         {
           "id": "32aPd",
           "surface_form": "לֵךְ",
-          "transliteration": "lek",
+          "transliteration": "lekh",
           "gloss": "go, walk",
           "is_known": true,
           "lemma_ids": [
@@ -222,7 +222,7 @@
         {
           "id": "32KZG",
           "surface_form": "לְפָנָֽי",
-          "transliteration": "lepanay",
+          "transliteration": "lefanay",
           "gloss": "to, for + face",
           "is_known": true,
           "lemma_ids": [
@@ -260,7 +260,7 @@
         {
           "id": "32JM7",
           "surface_form": "לִבְרֹחַ",
-          "transliteration": "librokha",
+          "transliteration": "livroakh",
           "gloss": "to, for + flee",
           "is_known": false,
           "lemma_ids": [
@@ -281,7 +281,7 @@
         {
           "id": "32W26",
           "surface_form": "מִלִּפְנֵי",
-          "transliteration": "milipney",
+          "transliteration": "milifney",
           "gloss": "from + to, for + face",
           "is_known": true,
           "lemma_ids": [
@@ -314,7 +314,7 @@
         {
           "id": "32USR",
           "surface_form": "יָפוֹ",
-          "transliteration": "yapo",
+          "transliteration": "yafo",
           "gloss": "Joppa (place name)",
           "is_known": false,
           "lemma_ids": [
@@ -376,7 +376,7 @@
         {
           "id": "32jQb",
           "surface_form": "שְׂכָרָהּ",
-          "transliteration": "sekarah",
+          "transliteration": "sekharah",
           "gloss": "wages, hire, fare",
           "is_known": false,
           "lemma_ids": [
@@ -407,7 +407,7 @@
         {
           "id": "32XR4",
           "surface_form": "לָבוֹא",
-          "transliteration": "labo'",
+          "transliteration": "lavo'",
           "gloss": "to, for + come, go, enter",
           "is_known": true,
           "lemma_ids": [
@@ -438,7 +438,7 @@
         {
           "id": "32nAB",
           "surface_form": "מִלִּפְנֵי",
-          "transliteration": "milipney",
+          "transliteration": "milifney",
           "gloss": "from + to, for + face",
           "is_known": true,
           "lemma_ids": [
@@ -487,7 +487,7 @@
         {
           "id": "323TL",
           "surface_form": "רֽוּחַ",
-          "transliteration": "rukha",
+          "transliteration": "ruakh",
           "gloss": "wind, breath, spirit",
           "is_known": true,
           "lemma_ids": [
@@ -582,7 +582,7 @@
         {
           "id": "327am",
           "surface_form": "חִשְּׁבָה",
-          "transliteration": "khishbah",
+          "transliteration": "khishvah",
           "gloss": "think, consider, plan, reckon",
           "is_known": true,
           "lemma_ids": [
@@ -592,7 +592,7 @@
         {
           "id": "32hh7",
           "surface_form": "לְהִשָּׁבֵֽר",
-          "transliteration": "lehishaber",
+          "transliteration": "lehishaver",
           "gloss": "to, for + break, shatter",
           "is_known": true,
           "lemma_ids": [
@@ -809,7 +809,7 @@
         {
           "id": "32mwU",
           "surface_form": "הַסְּפִינָה",
-          "transliteration": "haspinah",
+          "transliteration": "hasfinah",
           "gloss": "the + ship, vessel",
           "is_known": false,
           "lemma_ids": [
@@ -820,7 +820,7 @@
         {
           "id": "32tKT",
           "surface_form": "וַיִּשְׁכַּב",
-          "transliteration": "wayishkab",
+          "transliteration": "wayishkav",
           "gloss": "and + lie down",
           "is_known": true,
           "lemma_ids": [
@@ -848,7 +848,7 @@
         {
           "id": "32sRU",
           "surface_form": "וַיִּקְרַב",
-          "transliteration": "wayiqrab",
+          "transliteration": "wayiqrav",
           "gloss": "and + come near, approach",
           "is_known": true,
           "lemma_ids": [
@@ -869,7 +869,7 @@
         {
           "id": "329qY",
           "surface_form": "רַב",
-          "transliteration": "rab",
+          "transliteration": "rav",
           "gloss": "much, many, great",
           "is_known": true,
           "lemma_ids": [
@@ -879,7 +879,7 @@
         {
           "id": "32n5f",
           "surface_form": "הַחֹבֵל",
-          "transliteration": "hakhobel",
+          "transliteration": "hakhovel",
           "gloss": "the + sailor (rav ha-khovel: ship's captain)",
           "is_known": false,
           "lemma_ids": [
@@ -921,7 +921,7 @@
         {
           "id": "32A74",
           "surface_form": "לְּךָ",
-          "transliteration": "leka",
+          "transliteration": "lekha",
           "gloss": "to, for",
           "is_known": true,
           "lemma_ids": [
@@ -971,7 +971,7 @@
         {
           "id": "32Snp",
           "surface_form": "אֱלֹהֶיךָ",
-          "transliteration": "'eloheyka",
+          "transliteration": "'eloheykha",
           "gloss": "God, gods",
           "is_known": true,
           "lemma_ids": [
@@ -1033,7 +1033,7 @@
         {
           "id": "32BYa",
           "surface_form": "נֹאבֵֽד",
-          "transliteration": "no'bed",
+          "transliteration": "no'ved",
           "gloss": "perish, be destroyed; destroy",
           "is_known": true,
           "lemma_ids": [
@@ -1090,7 +1090,7 @@
         {
           "id": "32QwM",
           "surface_form": "לְכוּ",
-          "transliteration": "leku",
+          "transliteration": "lekhu",
           "gloss": "go, walk",
           "is_known": true,
           "lemma_ids": [
@@ -1361,7 +1361,7 @@
         {
           "id": "32Sov",
           "surface_form": "מְּלַאכְתְּךָ",
-          "transliteration": "mela'kteka",
+          "transliteration": "mela'khtekha",
           "gloss": "work, occupation, labor",
           "is_known": true,
           "lemma_ids": [
@@ -1383,7 +1383,7 @@
         {
           "id": "32ifp",
           "surface_form": "תָּבוֹא",
-          "transliteration": "tabo'",
+          "transliteration": "tavo'",
           "gloss": "come, go, enter",
           "is_known": true,
           "lemma_ids": [
@@ -1403,7 +1403,7 @@
         {
           "id": "32B2d",
           "surface_form": "אַרְצֶךָ",
-          "transliteration": "'artseka",
+          "transliteration": "'artsekha",
           "gloss": "land, earth",
           "is_known": true,
           "lemma_ids": [
@@ -1482,7 +1482,7 @@
         {
           "id": "32TXw",
           "surface_form": "עִבְרִי",
-          "transliteration": "`ibri",
+          "transliteration": "`ivri",
           "gloss": "Hebrew (person)",
           "is_known": false,
           "lemma_ids": [
@@ -1492,7 +1492,7 @@
         {
           "id": "32Y4K",
           "surface_form": "אָנֹכִי",
-          "transliteration": "'anoki",
+          "transliteration": "'anokhi",
           "gloss": "I (emphatic)",
           "is_known": true,
           "lemma_ids": [
@@ -1767,7 +1767,7 @@
         {
           "id": "32zpy",
           "surface_form": "מִלִּפְנֵי",
-          "transliteration": "milipney",
+          "transliteration": "milifney",
           "gloss": "from + to, for + face",
           "is_known": true,
           "lemma_ids": [
@@ -1799,7 +1799,7 @@
         {
           "id": "3292v",
           "surface_form": "בֹרֵחַ",
-          "transliteration": "borekha",
+          "transliteration": "voreakh",
           "gloss": "flee",
           "is_known": false,
           "lemma_ids": [
@@ -1886,7 +1886,7 @@
         {
           "id": "32VuH",
           "surface_form": "לָּךְ",
-          "transliteration": "lak",
+          "transliteration": "lakh",
           "gloss": "to, for",
           "is_known": true,
           "lemma_ids": [
@@ -1950,7 +1950,7 @@
         {
           "id": "32FMU",
           "surface_form": "הוֹלֵךְ",
-          "transliteration": "holek",
+          "transliteration": "holekh",
           "gloss": "walk, go",
           "is_known": true,
           "lemma_ids": [
@@ -2062,7 +2062,7 @@
         {
           "id": "32iee",
           "surface_form": "מֵֽעֲלֵיכֶם",
-          "transliteration": "me`aleykem",
+          "transliteration": "me`aleykhem",
           "gloss": "from + on, over, against",
           "is_known": true,
           "lemma_ids": [
@@ -2083,7 +2083,7 @@
         {
           "id": "32ddd",
           "surface_form": "יוֹדֵעַ",
-          "transliteration": "yode`a",
+          "transliteration": "yodea`",
           "gloss": "know",
           "is_known": true,
           "lemma_ids": [
@@ -2113,7 +2113,7 @@
         {
           "id": "32PVx",
           "surface_form": "בְשֶׁלִּי",
-          "transliteration": "besheli",
+          "transliteration": "vesheli",
           "gloss": "in, on, with + that, which, who + to, for + of whom, which, whose (relative)",
           "is_known": false,
           "lemma_ids": [
@@ -2159,7 +2159,7 @@
         {
           "id": "32Qbs",
           "surface_form": "עֲלֵיכֶֽם",
-          "transliteration": "`aleykem",
+          "transliteration": "`aleykhem",
           "gloss": "on, over, against",
           "is_known": true,
           "lemma_ids": [
@@ -2197,7 +2197,7 @@
         {
           "id": "323yJ",
           "surface_form": "לְהָשִׁיב",
-          "transliteration": "lehashib",
+          "transliteration": "lehashiv",
           "gloss": "to, for + return, turn back",
           "is_known": true,
           "lemma_ids": [
@@ -2240,7 +2240,7 @@
         {
           "id": "327mS",
           "surface_form": "יָכֹלוּ",
-          "transliteration": "yakolu",
+          "transliteration": "yakholu",
           "gloss": "be able, can, prevail",
           "is_known": true,
           "lemma_ids": [
@@ -2271,7 +2271,7 @@
         {
           "id": "32RXg",
           "surface_form": "הוֹלֵךְ",
-          "transliteration": "holek",
+          "transliteration": "holekh",
           "gloss": "walk, go",
           "is_known": true,
           "lemma_ids": [
@@ -2390,7 +2390,7 @@
         {
           "id": "326qf",
           "surface_form": "נֹאבְדָה",
-          "transliteration": "no'bdah",
+          "transliteration": "no'vdah",
           "gloss": "perish, be destroyed; destroy",
           "is_known": true,
           "lemma_ids": [
@@ -2400,7 +2400,7 @@
         {
           "id": "32efz",
           "surface_form": "בְּנֶפֶשׁ",
-          "transliteration": "benepesh",
+          "transliteration": "benefesh",
           "gloss": "in, on, with + soul, self, life, person",
           "is_known": true,
           "lemma_ids": [
@@ -2525,7 +2525,7 @@
         {
           "id": "32Ddq",
           "surface_form": "חָפַצְתָּ",
-          "transliteration": "khapatsta",
+          "transliteration": "khafatsta",
           "gloss": "delight in, desire, be pleased with",
           "is_known": true,
           "lemma_ids": [
@@ -2726,7 +2726,7 @@
         {
           "id": "32qg1",
           "surface_form": "זֶבַח",
-          "transliteration": "zebakh",
+          "transliteration": "zevakh",
           "gloss": "sacrifice",
           "is_known": true,
           "lemma_ids": [

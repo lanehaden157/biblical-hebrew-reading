@@ -199,7 +199,7 @@
       "rank": 21,
       "lemma_id": "H4428",
       "citation_form": "מֶלֶךְ",
-      "transliteration": "melek",
+      "transliteration": "melekh",
       "pos": "Noun",
       "frequency": 2526,
       "gloss": "king"
@@ -298,7 +298,7 @@
       "rank": 32,
       "lemma_id": "H1697",
       "citation_form": "דָּבָר",
-      "transliteration": "dabar",
+      "transliteration": "davar",
       "pos": "Noun",
       "frequency": 1455,
       "gloss": "word, thing"
@@ -334,7 +334,7 @@
       "rank": 36,
       "lemma_id": "H1",
       "citation_form": "אָב",
-      "transliteration": "'ab",
+      "transliteration": "'av",
       "pos": "Noun",
       "frequency": 1213,
       "gloss": "father"
@@ -361,7 +361,7 @@
       "rank": 39,
       "lemma_id": "H1696",
       "citation_form": "דָבַר",
-      "transliteration": "dabar",
+      "transliteration": "davar",
       "pos": "Verb",
       "frequency": 1144,
       "gloss": "speak"
@@ -388,7 +388,7 @@
       "rank": 42,
       "lemma_id": "H3427",
       "citation_form": "יָשַׁב",
-      "transliteration": "yashab",
+      "transliteration": "yashav",
       "pos": "Verb",
       "frequency": 1092,
       "gloss": "sit, dwell, live"
@@ -415,7 +415,7 @@
       "rank": 45,
       "lemma_id": "H7725",
       "citation_form": "שׁוּב",
-      "transliteration": "shub",
+      "transliteration": "shuv",
       "pos": "Verb",
       "frequency": 1073,
       "gloss": "return, turn back"
@@ -442,7 +442,7 @@
       "rank": 48,
       "lemma_id": "H3212",
       "citation_form": "יָלַךְ",
-      "transliteration": "yalak",
+      "transliteration": "yalakh",
       "pos": "Verb",
       "frequency": 1044,
       "gloss": "go, walk"
@@ -577,7 +577,7 @@
       "rank": 63,
       "lemma_id": "H398",
       "citation_form": "אָכַל",
-      "transliteration": "'akal",
+      "transliteration": "'akhal",
       "pos": "Verb",
       "frequency": 815,
       "gloss": "eat"
@@ -586,7 +586,7 @@
       "rank": 64,
       "lemma_id": "H5650",
       "citation_form": "עֶבֶד",
-      "transliteration": "`ebed",
+      "transliteration": "`eved",
       "pos": "Noun",
       "frequency": 803,
       "gloss": "servant, slave"
@@ -649,7 +649,7 @@
       "rank": 71,
       "lemma_id": "H5315",
       "citation_form": "נֶפֶשׁ",
-      "transliteration": "nepesh",
+      "transliteration": "nefesh",
       "pos": "Noun",
       "frequency": 757,
       "gloss": "soul, self, life, person"
@@ -712,7 +712,7 @@
       "rank": 78,
       "lemma_id": "H1870",
       "citation_form": "דֶּרֶךְ",
-      "transliteration": "derek",
+      "transliteration": "derekh",
       "pos": "Noun",
       "frequency": 712,
       "gloss": "way, road, journey"
@@ -802,7 +802,7 @@
       "rank": 88,
       "lemma_id": "H3820",
       "citation_form": "לֵב",
-      "transliteration": "leb",
+      "transliteration": "lev",
       "pos": "Noun",
       "frequency": 596,
       "gloss": "heart, mind"
@@ -874,7 +874,7 @@
       "rank": 96,
       "lemma_id": "H2896",
       "citation_form": "טוֹב",
-      "transliteration": "tob",
+      "transliteration": "tov",
       "pos": "Adjective",
       "frequency": 565,
       "gloss": "good"
@@ -883,7 +883,7 @@
       "rank": 97,
       "lemma_id": "H5674",
       "citation_form": "עָבַר",
-      "transliteration": "`abar",
+      "transliteration": "`avar",
       "pos": "Verb",
       "frequency": 562,
       "gloss": "cross over, pass through"
@@ -928,7 +928,7 @@
       "rank": 102,
       "lemma_id": "H1980",
       "citation_form": "הָלַךְ",
-      "transliteration": "halak",
+      "transliteration": "halakh",
       "pos": "Verb",
       "frequency": 511,
       "gloss": "walk, go"
@@ -946,7 +946,7 @@
       "rank": 104,
       "lemma_id": "H505",
       "citation_form": "אֶלֶף",
-      "transliteration": "'elep",
+      "transliteration": "'elef",
       "pos": "Adjective",
       "frequency": 507,
       "gloss": "thousand"
@@ -973,7 +973,7 @@
       "rank": 107,
       "lemma_id": "H5221",
       "citation_form": "נָכָה",
-      "transliteration": "nakah",
+      "transliteration": "nakhah",
       "pos": "Verb",
       "frequency": 502,
       "gloss": "strike, hit, kill"
@@ -1018,7 +1018,7 @@
       "rank": 112,
       "lemma_id": "H6635",
       "citation_form": "צָבָא",
-      "transliteration": "tsaba'",
+      "transliteration": "tsava'",
       "pos": "Noun",
       "frequency": 487,
       "gloss": "army, host"
@@ -1045,7 +1045,7 @@
       "rank": 115,
       "lemma_id": "H7227",
       "citation_form": "רַב",
-      "transliteration": "rab",
+      "transliteration": "rav",
       "pos": "Adjective",
       "frequency": 461,
       "gloss": "much, many, great"
@@ -1081,7 +1081,7 @@
       "rank": 119,
       "lemma_id": "H5307",
       "citation_form": "נָפַל",
-      "transliteration": "napal",
+      "transliteration": "nafal",
       "pos": "Verb",
       "frequency": 435,
       "gloss": "fall"
@@ -1144,7 +1144,7 @@
       "rank": 126,
       "lemma_id": "H8432",
       "citation_form": "תָּוֶךְ",
-      "transliteration": "tawek",
+      "transliteration": "tawekh",
       "pos": "Noun",
       "frequency": 420,
       "gloss": "midst, middle"
@@ -1153,7 +1153,7 @@
       "rank": 127,
       "lemma_id": "H2719",
       "citation_form": "חֶרֶב",
-      "transliteration": "khereb",
+      "transliteration": "kherev",
       "pos": "Noun",
       "frequency": 413,
       "gloss": "sword"
@@ -1180,7 +1180,7 @@
       "rank": 130,
       "lemma_id": "H3701",
       "citation_form": "כֶּסֶף",
-      "transliteration": "kesep",
+      "transliteration": "kesef",
       "pos": "Noun",
       "frequency": 403,
       "gloss": "silver, money"
@@ -1189,7 +1189,7 @@
       "rank": 131,
       "lemma_id": "H4196",
       "citation_form": "מִזְבֵּחַ",
-      "transliteration": "mizbekha",
+      "transliteration": "mizbeakh",
       "pos": "Noun",
       "frequency": 403,
       "gloss": "altar"
@@ -1225,7 +1225,7 @@
       "rank": 135,
       "lemma_id": "H7651",
       "citation_form": "שֶׁבַע",
-      "transliteration": "sheba`",
+      "transliteration": "sheva`",
       "pos": "Adjective",
       "frequency": 394,
       "gloss": "seven"
@@ -1234,7 +1234,7 @@
       "rank": 136,
       "lemma_id": "H2091",
       "citation_form": "זָהָב",
-      "transliteration": "zahab",
+      "transliteration": "zahav",
       "pos": "Noun",
       "frequency": 389,
       "gloss": "gold"
@@ -1252,7 +1252,7 @@
       "rank": 138,
       "lemma_id": "H7307",
       "citation_form": "רוּחַ",
-      "transliteration": "rukha",
+      "transliteration": "ruakh",
       "pos": "Noun",
       "frequency": 378,
       "gloss": "wind, breath, spirit"
@@ -1315,7 +1315,7 @@
       "rank": 145,
       "lemma_id": "H595",
       "citation_form": "אָנֹכִי",
-      "transliteration": "'anoki",
+      "transliteration": "'anokhi",
       "pos": "Pronoun",
       "frequency": 359,
       "gloss": "I (emphatic)"
@@ -1324,7 +1324,7 @@
       "rank": 146,
       "lemma_id": "H4427",
       "citation_form": "מָלַךְ",
-      "transliteration": "malak",
+      "transliteration": "malakh",
       "pos": "Verb",
       "frequency": 351,
       "gloss": "reign, be king, become king"
@@ -1333,7 +1333,7 @@
       "rank": 147,
       "lemma_id": "H3290",
       "citation_form": "יַעֲקֹב",
-      "transliteration": "ya`aqob",
+      "transliteration": "ya`aqov",
       "pos": "Noun",
       "frequency": 349,
       "gloss": "Jacob"
@@ -1387,7 +1387,7 @@
       "rank": 153,
       "lemma_id": "H5439",
       "citation_form": "סָבִיב",
-      "transliteration": "sabib",
+      "transliteration": "saviv",
       "pos": "Noun",
       "frequency": 337,
       "gloss": "around, surrounding"
@@ -1405,7 +1405,7 @@
       "rank": 155,
       "lemma_id": "H1288",
       "citation_form": "בָּרַךְ",
-      "transliteration": "barak",
+      "transliteration": "barakh",
       "pos": "Verb",
       "frequency": 330,
       "gloss": "bless"
@@ -1495,7 +1495,7 @@
       "rank": 165,
       "lemma_id": "H5030",
       "citation_form": "נָבִיא",
-      "transliteration": "nabi'",
+      "transliteration": "navi'",
       "pos": "Noun",
       "frequency": 317,
       "gloss": "prophet"
@@ -1621,7 +1621,7 @@
       "rank": 179,
       "lemma_id": "H5647",
       "citation_form": "עָבַד",
-      "transliteration": "`abad",
+      "transliteration": "`avad",
       "pos": "Verb",
       "frequency": 289,
       "gloss": "serve, work"
@@ -1657,7 +1657,7 @@
       "rank": 183,
       "lemma_id": "H341",
       "citation_form": "אֹיֵב",
-      "transliteration": "'oyeb",
+      "transliteration": "'oyev",
       "pos": "Verb",
       "frequency": 284,
       "gloss": "enemy"
@@ -1675,7 +1675,7 @@
       "rank": 185,
       "lemma_id": "H7126",
       "citation_form": "קָרַב",
-      "transliteration": "qarab",
+      "transliteration": "qarav",
       "pos": "Verb",
       "frequency": 283,
       "gloss": "come near, approach"
@@ -1684,7 +1684,7 @@
       "rank": 186,
       "lemma_id": "H639",
       "citation_form": "אַף",
-      "transliteration": "'ap",
+      "transliteration": "'af",
       "pos": "Noun",
       "frequency": 276,
       "gloss": "nose, anger"
@@ -1702,7 +1702,7 @@
       "rank": 188,
       "lemma_id": "H68",
       "citation_form": "אֶבֶן",
-      "transliteration": "'eben",
+      "transliteration": "'even",
       "pos": "Noun",
       "frequency": 273,
       "gloss": "stone"
@@ -1765,7 +1765,7 @@
       "rank": 195,
       "lemma_id": "H894",
       "citation_form": "בָּבֶל",
-      "transliteration": "babel",
+      "transliteration": "bavel",
       "pos": "Noun",
       "frequency": 262,
       "gloss": "Babylon"
@@ -1774,7 +1774,7 @@
       "rank": 196,
       "lemma_id": "H3824",
       "citation_form": "לֵבָב",
-      "transliteration": "lebab",
+      "transliteration": "levav",
       "pos": "Noun",
       "frequency": 252,
       "gloss": "heart, mind"
@@ -1837,7 +1837,7 @@
       "rank": 203,
       "lemma_id": "H1366",
       "citation_form": "גְּבוּל",
-      "transliteration": "gebul",
+      "transliteration": "gevul",
       "pos": "Noun",
       "frequency": 241,
       "gloss": "border, territory, boundary"
@@ -1873,7 +1873,7 @@
       "rank": 207,
       "lemma_id": "H2142",
       "citation_form": "זָכַר",
-      "transliteration": "zakar",
+      "transliteration": "zakhar",
       "pos": "Verb",
       "frequency": 235,
       "gloss": "remember, mention"
@@ -1900,7 +1900,7 @@
       "rank": 210,
       "lemma_id": "H7235",
       "citation_form": "רָבָה",
-      "transliteration": "rabah",
+      "transliteration": "ravah",
       "pos": "Verb",
       "frequency": 235,
       "gloss": "increase, multiply"
@@ -1945,7 +1945,7 @@
       "rank": 215,
       "lemma_id": "H3789",
       "citation_form": "כָּתַב",
-      "transliteration": "katab",
+      "transliteration": "katav",
       "pos": "Verb",
       "frequency": 227,
       "gloss": "write"
@@ -1954,7 +1954,7 @@
       "rank": 216,
       "lemma_id": "H7130",
       "citation_form": "קֶרֶב",
-      "transliteration": "qereb",
+      "transliteration": "qerev",
       "pos": "Noun",
       "frequency": 227,
       "gloss": "midst, inward part"
@@ -2026,7 +2026,7 @@
       "rank": 224,
       "lemma_id": "H3091",
       "citation_form": "יְהוֹשׁוּעַ",
-      "transliteration": "yehoshu`a",
+      "transliteration": "yehoshua`",
       "pos": "Noun",
       "frequency": 218,
       "gloss": "Joshua"
@@ -2071,7 +2071,7 @@
       "rank": 229,
       "lemma_id": "H5800",
       "citation_form": "עָזַב",
-      "transliteration": "`azab",
+      "transliteration": "`azav",
       "pos": "Verb",
       "frequency": 215,
       "gloss": "abandon, forsake, leave"
@@ -2098,7 +2098,7 @@
       "rank": 232,
       "lemma_id": "H3130",
       "citation_form": "יוֹסֵף",
-      "transliteration": "yosep",
+      "transliteration": "yosef",
       "pos": "Noun",
       "frequency": 213,
       "gloss": "Joseph"
@@ -2107,7 +2107,7 @@
       "rank": 233,
       "lemma_id": "H4397",
       "citation_form": "מַלְאָךְ",
-      "transliteration": "mal'ak",
+      "transliteration": "mal'akh",
       "pos": "Noun",
       "frequency": 213,
       "gloss": "messenger, angel"
@@ -2125,7 +2125,7 @@
       "rank": 235,
       "lemma_id": "H7901",
       "citation_form": "שָׁכַב",
-      "transliteration": "shakab",
+      "transliteration": "shakhav",
       "pos": "Verb",
       "frequency": 213,
       "gloss": "lie down"
@@ -2134,7 +2134,7 @@
       "rank": 236,
       "lemma_id": "H157",
       "citation_form": "אָהַב",
-      "transliteration": "'ahab",
+      "transliteration": "'ahav",
       "pos": "Verb",
       "frequency": 211,
       "gloss": "love"
@@ -2152,7 +2152,7 @@
       "rank": 238,
       "lemma_id": "H3254",
       "citation_form": "יָסַף",
-      "transliteration": "yasap",
+      "transliteration": "yasaf",
       "pos": "Verb",
       "frequency": 210,
       "gloss": "add, do again, continue"
@@ -2188,7 +2188,7 @@
       "rank": 242,
       "lemma_id": "H8199",
       "citation_form": "שָׁפַט",
-      "transliteration": "shapat",
+      "transliteration": "shafat",
       "pos": "Verb",
       "frequency": 204,
       "gloss": "judge, govern"
@@ -2197,7 +2197,7 @@
       "rank": 243,
       "lemma_id": "H622",
       "citation_form": "אָסַף",
-      "transliteration": "'asap",
+      "transliteration": "'asaf",
       "pos": "Verb",
       "frequency": 202,
       "gloss": "gather"
@@ -2224,7 +2224,7 @@
       "rank": 246,
       "lemma_id": "H3519",
       "citation_form": "כָּבוֹד",
-      "transliteration": "kabod",
+      "transliteration": "kavod",
       "pos": "Noun",
       "frequency": 200,
       "gloss": "glory, honor"
@@ -2242,7 +2242,7 @@
       "rank": 248,
       "lemma_id": "H3709",
       "citation_form": "כַּף",
-      "transliteration": "kap",
+      "transliteration": "kaf",
       "pos": "Noun",
       "frequency": 195,
       "gloss": "palm (of hand), sole (of foot)"
@@ -2251,7 +2251,7 @@
       "rank": 249,
       "lemma_id": "H3201",
       "citation_form": "יָכֹל",
-      "transliteration": "yakol",
+      "transliteration": "yakhol",
       "pos": "Verb",
       "frequency": 194,
       "gloss": "be able, can, prevail"
@@ -2287,7 +2287,7 @@
       "rank": 253,
       "lemma_id": "H7626",
       "citation_form": "שֵׁבֶט",
-      "transliteration": "shebet",
+      "transliteration": "shevet",
       "pos": "Noun",
       "frequency": 190,
       "gloss": "tribe, rod, staff"
@@ -2305,7 +2305,7 @@
       "rank": 255,
       "lemma_id": "H7453",
       "citation_form": "רֵעַ",
-      "transliteration": "re`a",
+      "transliteration": "rea`",
       "pos": "Noun",
       "frequency": 189,
       "gloss": "friend, companion, neighbor"
@@ -2323,7 +2323,7 @@
       "rank": 257,
       "lemma_id": "H5612",
       "citation_form": "סֵפֶר",
-      "transliteration": "seper",
+      "transliteration": "sefer",
       "pos": "Noun",
       "frequency": 188,
       "gloss": "book, scroll, document"
@@ -2341,7 +2341,7 @@
       "rank": 259,
       "lemma_id": "H7650",
       "citation_form": "שָׁבַע",
-      "transliteration": "shaba`",
+      "transliteration": "shava`",
       "pos": "Verb",
       "frequency": 186,
       "gloss": "swear, take an oath"
@@ -2350,7 +2350,7 @@
       "rank": 260,
       "lemma_id": "H6",
       "citation_form": "אָבַד",
-      "transliteration": "'abad",
+      "transliteration": "'avad",
       "pos": "Verb",
       "frequency": 185,
       "gloss": "perish, be destroyed; destroy"
@@ -2395,7 +2395,7 @@
       "rank": 265,
       "lemma_id": "H4124",
       "citation_form": "מוֹאָב",
-      "transliteration": "mo'ab",
+      "transliteration": "mo'av",
       "pos": "Noun",
       "frequency": 181,
       "gloss": "Moab"
@@ -2404,7 +2404,7 @@
       "rank": 266,
       "lemma_id": "H4430",
       "citation_form": "מֶלֶךְ",
-      "transliteration": "melek",
+      "transliteration": "melekh",
       "pos": "Noun",
       "frequency": 180,
       "gloss": "king (Aramaic)"
@@ -2413,7 +2413,7 @@
       "rank": 267,
       "lemma_id": "H669",
       "citation_form": "אֶפְרַיִם",
-      "transliteration": "'eprayim",
+      "transliteration": "'efrayim",
       "pos": "Noun",
       "frequency": 180,
       "gloss": "Ephraim"
@@ -2449,7 +2449,7 @@
       "rank": 271,
       "lemma_id": "H8193",
       "citation_form": "שָׂפָה",
-      "transliteration": "sapah",
+      "transliteration": "safah",
       "pos": "Noun",
       "frequency": 177,
       "gloss": "lip, language, edge"
@@ -2485,7 +2485,7 @@
       "rank": 275,
       "lemma_id": "H85",
       "citation_form": "אַבְרָהָם",
-      "transliteration": "'abraham",
+      "transliteration": "'avraham",
       "pos": "Noun",
       "frequency": 175,
       "gloss": "Abraham"
@@ -2548,7 +2548,7 @@
       "rank": 282,
       "lemma_id": "H4399",
       "citation_form": "מְלָאכָה",
-      "transliteration": "mela'kah",
+      "transliteration": "mela'khah",
       "pos": "Noun",
       "frequency": 167,
       "gloss": "work, occupation, labor"
@@ -2620,7 +2620,7 @@
       "rank": 290,
       "lemma_id": "H2077",
       "citation_form": "זֶבַח",
-      "transliteration": "zebakh",
+      "transliteration": "zevakh",
       "pos": "Noun",
       "frequency": 162,
       "gloss": "sacrifice"
@@ -2638,7 +2638,7 @@
       "rank": 292,
       "lemma_id": "H389",
       "citation_form": "אַךְ",
-      "transliteration": "'ak",
+      "transliteration": "'akh",
       "pos": "Particle",
       "frequency": 161,
       "gloss": "surely, only, but"
@@ -2656,7 +2656,7 @@
       "rank": 294,
       "lemma_id": "H5608",
       "citation_form": "סָפַר",
-      "transliteration": "sapar",
+      "transliteration": "safar",
       "pos": "Verb",
       "frequency": 161,
       "gloss": "count, recount, tell"
@@ -2692,7 +2692,7 @@
       "rank": 298,
       "lemma_id": "H5437",
       "citation_form": "סָבַב",
-      "transliteration": "sabab",
+      "transliteration": "savav",
       "pos": "Verb",
       "frequency": 158,
       "gloss": "turn, surround, go around"
@@ -2737,7 +2737,7 @@
       "rank": 303,
       "lemma_id": "H6828",
       "citation_form": "צָפוֹן",
-      "transliteration": "tsapon",
+      "transliteration": "tsafon",
       "pos": "Noun",
       "frequency": 153,
       "gloss": "north"
@@ -2773,7 +2773,7 @@
       "rank": 307,
       "lemma_id": "H7230",
       "citation_form": "רֹב",
-      "transliteration": "rob",
+      "transliteration": "rov",
       "pos": "Noun",
       "frequency": 150,
       "gloss": "abundance, multitude"
@@ -2782,7 +2782,7 @@
       "rank": 308,
       "lemma_id": "H2451",
       "citation_form": "חׇכְמָה",
-      "transliteration": "khokmah",
+      "transliteration": "khokhmah",
       "pos": "Noun",
       "frequency": 149,
       "gloss": "wisdom"
@@ -2800,7 +2800,7 @@
       "rank": 310,
       "lemma_id": "H7665",
       "citation_form": "שָׁבַר",
-      "transliteration": "shabar",
+      "transliteration": "shavar",
       "pos": "Verb",
       "frequency": 149,
       "gloss": "break, shatter"
@@ -2854,7 +2854,7 @@
       "rank": 316,
       "lemma_id": "H3097",
       "citation_form": "יוֹאָב",
-      "transliteration": "yo'ab",
+      "transliteration": "yo'av",
       "pos": "Noun",
       "frequency": 145,
       "gloss": "Joab"
@@ -2863,7 +2863,7 @@
       "rank": 317,
       "lemma_id": "H5656",
       "citation_form": "עֲבֹדָה",
-      "transliteration": "`abodah",
+      "transliteration": "`avodah",
       "pos": "Noun",
       "frequency": 145,
       "gloss": "service, work, labor"
@@ -2890,7 +2890,7 @@
       "rank": 320,
       "lemma_id": "H7291",
       "citation_form": "רָדַף",
-      "transliteration": "radap",
+      "transliteration": "radaf",
       "pos": "Verb",
       "frequency": 144,
       "gloss": "pursue, chase"
@@ -3034,7 +3034,7 @@
       "rank": 336,
       "lemma_id": "H2450",
       "citation_form": "חָכָם",
-      "transliteration": "khakam",
+      "transliteration": "khakham",
       "pos": "Adjective",
       "frequency": 137,
       "gloss": "wise"
@@ -3079,7 +3079,7 @@
       "rank": 341,
       "lemma_id": "H2076",
       "citation_form": "זָבַח",
-      "transliteration": "zabakh",
+      "transliteration": "zavakh",
       "pos": "Verb",
       "frequency": 134,
       "gloss": "slaughter, sacrifice"
@@ -3106,7 +3106,7 @@
       "rank": 344,
       "lemma_id": "H6153",
       "citation_form": "עֶרֶב",
-      "transliteration": "`ereb",
+      "transliteration": "`erev",
       "pos": "Noun",
       "frequency": 134,
       "gloss": "evening"
@@ -3115,7 +3115,7 @@
       "rank": 345,
       "lemma_id": "H637",
       "citation_form": "אַף",
-      "transliteration": "'ap",
+      "transliteration": "'af",
       "pos": "Particle",
       "frequency": 134,
       "gloss": "also, even, moreover"
@@ -3160,7 +3160,7 @@
       "rank": 350,
       "lemma_id": "H6912",
       "citation_form": "קָבַר",
-      "transliteration": "qabar",
+      "transliteration": "qavar",
       "pos": "Verb",
       "frequency": 133,
       "gloss": "bury"
@@ -3196,7 +3196,7 @@
       "rank": 354,
       "lemma_id": "H7931",
       "citation_form": "שָׁכַן",
-      "transliteration": "shakan",
+      "transliteration": "shakhan",
       "pos": "Verb",
       "frequency": 129,
       "gloss": "dwell, settle, abide"
@@ -3214,7 +3214,7 @@
       "rank": 356,
       "lemma_id": "H3581",
       "citation_form": "כֹּחַ",
-      "transliteration": "kokha",
+      "transliteration": "koakh",
       "pos": "Noun",
       "frequency": 127,
       "gloss": "strength, power"
@@ -3232,7 +3232,7 @@
       "rank": 358,
       "lemma_id": "H6908",
       "citation_form": "קָבַץ",
-      "transliteration": "qabats",
+      "transliteration": "qavats",
       "pos": "Verb",
       "frequency": 127,
       "gloss": "gather"
@@ -3259,7 +3259,7 @@
       "rank": 361,
       "lemma_id": "H7993",
       "citation_form": "שָׁלַךְ",
-      "transliteration": "shalak",
+      "transliteration": "shalakh",
       "pos": "Verb",
       "frequency": 125,
       "gloss": "throw, cast"
@@ -3277,7 +3277,7 @@
       "rank": 363,
       "lemma_id": "H2803",
       "citation_form": "חָשַׁב",
-      "transliteration": "khashab",
+      "transliteration": "khashav",
       "pos": "Verb",
       "frequency": 124,
       "gloss": "think, consider, plan, reckon"
@@ -3313,7 +3313,7 @@
       "rank": 367,
       "lemma_id": "H3920",
       "citation_form": "לָכַד",
-      "transliteration": "lakad",
+      "transliteration": "lakhad",
       "pos": "Verb",
       "frequency": 121,
       "gloss": "capture, seize"
@@ -3331,7 +3331,7 @@
       "rank": 369,
       "lemma_id": "H7393",
       "citation_form": "רֶכֶב",
-      "transliteration": "rekeb",
+      "transliteration": "rekhev",
       "pos": "Noun",
       "frequency": 120,
       "gloss": "chariot, chariotry"
@@ -3403,7 +3403,7 @@
       "rank": 377,
       "lemma_id": "H1060",
       "citation_form": "בְּכוֹר",
-      "transliteration": "bekor",
+      "transliteration": "bekhor",
       "pos": "Noun",
       "frequency": 118,
       "gloss": "firstborn"
@@ -3421,7 +3421,7 @@
       "rank": 379,
       "lemma_id": "H8441",
       "citation_form": "תּוֹעֵבַה",
-      "transliteration": "to`ebah",
+      "transliteration": "to`evah",
       "pos": "Noun",
       "frequency": 118,
       "gloss": "abomination, detestable thing"
@@ -3439,7 +3439,7 @@
       "rank": 381,
       "lemma_id": "H4467",
       "citation_form": "מַמְלָכָה",
-      "transliteration": "mamlakah",
+      "transliteration": "mamlakhah",
       "pos": "Noun",
       "frequency": 117,
       "gloss": "kingdom, dominion, reign"
@@ -3457,7 +3457,7 @@
       "rank": 383,
       "lemma_id": "H8210",
       "citation_form": "שָׁפַךְ",
-      "transliteration": "shapak",
+      "transliteration": "shafakh",
       "pos": "Verb",
       "frequency": 117,
       "gloss": "pour out"
@@ -3466,7 +3466,7 @@
       "rank": 384,
       "lemma_id": "H8313",
       "citation_form": "שָׂרַף",
-      "transliteration": "sarap",
+      "transliteration": "saraf",
       "pos": "Verb",
       "frequency": 117,
       "gloss": "burn"
@@ -3475,7 +3475,7 @@
       "rank": 385,
       "lemma_id": "H1058",
       "citation_form": "בָּכָה",
-      "transliteration": "bakah",
+      "transliteration": "bakhah",
       "pos": "Verb",
       "frequency": 116,
       "gloss": "weep, cry"
@@ -3493,7 +3493,7 @@
       "rank": 387,
       "lemma_id": "H3513",
       "citation_form": "כָּבַד",
-      "transliteration": "kabad",
+      "transliteration": "kavad",
       "pos": "Verb",
       "frequency": 116,
       "gloss": "be heavy, be honored; make heavy, honor"
@@ -3529,7 +3529,7 @@
       "rank": 391,
       "lemma_id": "H5012",
       "citation_form": "נָבָא",
-      "transliteration": "naba'",
+      "transliteration": "nava'",
       "pos": "Verb",
       "frequency": 115,
       "gloss": "prophesy"
@@ -3574,7 +3574,7 @@
       "rank": 396,
       "lemma_id": "H3190",
       "citation_form": "יָטַב",
-      "transliteration": "yatab",
+      "transliteration": "yatav",
       "pos": "Verb",
       "frequency": 112,
       "gloss": "be good, go well; do well, make good"
@@ -3592,7 +3592,7 @@
       "rank": 398,
       "lemma_id": "H3671",
       "citation_form": "כָּנָף",
-      "transliteration": "kanap",
+      "transliteration": "kanaf",
       "pos": "Noun",
       "frequency": 111,
       "gloss": "wing, edge, extremity"
@@ -3601,7 +3601,7 @@
       "rank": 399,
       "lemma_id": "H3847",
       "citation_form": "לָבַשׁ",
-      "transliteration": "labash",
+      "transliteration": "lavash",
       "pos": "Verb",
       "frequency": 111,
       "gloss": "wear, put on, clothe"
@@ -3610,7 +3610,7 @@
       "rank": 400,
       "lemma_id": "H5045",
       "citation_form": "נֶגֶב",
-      "transliteration": "negeb",
+      "transliteration": "negev",
       "pos": "Noun",
       "frequency": 111,
       "gloss": "south, Negev"
@@ -3619,7 +3619,7 @@
       "rank": 401,
       "lemma_id": "H53",
       "citation_form": "אֲבִישָׁלוֹם",
-      "transliteration": "'abishalom",
+      "transliteration": "'avishalom",
       "pos": "Noun",
       "frequency": 111,
       "gloss": "Absalom"
@@ -3646,7 +3646,7 @@
       "rank": 404,
       "lemma_id": "H6083",
       "citation_form": "עָפָר",
-      "transliteration": "`apar",
+      "transliteration": "`afar",
       "pos": "Noun",
       "frequency": 110,
       "gloss": "dust"
@@ -3736,7 +3736,7 @@
       "rank": 414,
       "lemma_id": "H3532",
       "citation_form": "כֶּבֶשׂ",
-      "transliteration": "kebes",
+      "transliteration": "keves",
       "pos": "Noun",
       "frequency": 107,
       "gloss": "lamb"
@@ -3781,7 +3781,7 @@
       "rank": 419,
       "lemma_id": "H3379",
       "citation_form": "יָרׇבְעָם",
-      "transliteration": "yarob`am",
+      "transliteration": "yarov`am",
       "pos": "Noun",
       "frequency": 104,
       "gloss": "Jeroboam"
@@ -3835,7 +3835,7 @@
       "rank": 425,
       "lemma_id": "H3722",
       "citation_form": "כָּפַר",
-      "transliteration": "kapar",
+      "transliteration": "kafar",
       "pos": "Verb",
       "frequency": 103,
       "gloss": "cover, atone, make atonement"
@@ -3862,7 +3862,7 @@
       "rank": 428,
       "lemma_id": "H7911",
       "citation_form": "שָׁכַח",
-      "transliteration": "shakakh",
+      "transliteration": "shakhakh",
       "pos": "Verb",
       "frequency": 102,
       "gloss": "forget"
@@ -3889,7 +3889,7 @@
       "rank": 431,
       "lemma_id": "H7341",
       "citation_form": "רֹחַב",
-      "transliteration": "rokhab",
+      "transliteration": "rokhav",
       "pos": "Noun",
       "frequency": 101,
       "gloss": "width, breadth"
@@ -3898,7 +3898,7 @@
       "rank": 432,
       "lemma_id": "H7458",
       "citation_form": "רָעָב",
-      "transliteration": "ra`ab",
+      "transliteration": "ra`av",
       "pos": "Noun",
       "frequency": 101,
       "gloss": "hunger, famine"
@@ -3952,7 +3952,7 @@
       "rank": 438,
       "lemma_id": "H7637",
       "citation_form": "שְׁבִיעִי",
-      "transliteration": "shebi`i",
+      "transliteration": "shevi`i",
       "pos": "Adjective",
       "frequency": 98,
       "gloss": "seventh"
@@ -3997,7 +3997,7 @@
       "rank": 443,
       "lemma_id": "H7646",
       "citation_form": "שָׂבַע",
-      "transliteration": "saba`",
+      "transliteration": "sava`",
       "pos": "Verb",
       "frequency": 97,
       "gloss": "be satisfied, be full"
@@ -4033,7 +4033,7 @@
       "rank": 447,
       "lemma_id": "H753",
       "citation_form": "אֹרֶךְ",
-      "transliteration": "'orek",
+      "transliteration": "'orekh",
       "pos": "Noun",
       "frequency": 95,
       "gloss": "length"
@@ -4051,7 +4051,7 @@
       "rank": 449,
       "lemma_id": "H2015",
       "citation_form": "הָפַךְ",
-      "transliteration": "hapak",
+      "transliteration": "hafakh",
       "pos": "Verb",
       "frequency": 94,
       "gloss": "turn, overturn, change"
@@ -4114,7 +4114,7 @@
       "rank": 456,
       "lemma_id": "H256",
       "citation_form": "אַחְאָב",
-      "transliteration": "'akh'ab",
+      "transliteration": "'akh'av",
       "pos": "Noun",
       "frequency": 93,
       "gloss": "Ahab"
@@ -4141,7 +4141,7 @@
       "rank": 459,
       "lemma_id": "H2459",
       "citation_form": "חֶלֶב",
-      "transliteration": "kheleb",
+      "transliteration": "khelev",
       "pos": "Noun",
       "frequency": 92,
       "gloss": "fat"
@@ -4159,7 +4159,7 @@
       "rank": 461,
       "lemma_id": "H5676",
       "citation_form": "עֵבֶר",
-      "transliteration": "`eber",
+      "transliteration": "`ever",
       "pos": "Noun",
       "frequency": 92,
       "gloss": "region beyond, side, across"
@@ -4177,7 +4177,7 @@
       "rank": 463,
       "lemma_id": "H2220",
       "citation_form": "זְרוֹעַ",
-      "transliteration": "zero`a",
+      "transliteration": "zeroa`",
       "pos": "Noun",
       "frequency": 91,
       "gloss": "arm; strength"
@@ -4186,7 +4186,7 @@
       "rank": 464,
       "lemma_id": "H3742",
       "citation_form": "כְּרוּב",
-      "transliteration": "kerub",
+      "transliteration": "keruv",
       "pos": "Noun",
       "frequency": 91,
       "gloss": "cherub"
@@ -4195,7 +4195,7 @@
       "rank": 465,
       "lemma_id": "H4438",
       "citation_form": "מַלְכוּת",
-      "transliteration": "malkut",
+      "transliteration": "malkhut",
       "pos": "Noun",
       "frequency": 91,
       "gloss": "kingdom, royal power, reign"
@@ -4213,7 +4213,7 @@
       "rank": 467,
       "lemma_id": "H7657",
       "citation_form": "שִׁבְעִים",
-      "transliteration": "shib`im",
+      "transliteration": "shiv`im",
       "pos": "Adjective",
       "frequency": 91,
       "gloss": "seventy"
@@ -4429,7 +4429,7 @@
       "rank": 491,
       "lemma_id": "H3092",
       "citation_form": "יְהוֹשָׁפָט",
-      "transliteration": "yehoshapat",
+      "transliteration": "yehoshafat",
       "pos": "Noun",
       "frequency": 84,
       "gloss": "Jehoshaphat"
@@ -4474,7 +4474,7 @@
       "rank": 496,
       "lemma_id": "H2145",
       "citation_form": "זָכָר",
-      "transliteration": "zakar",
+      "transliteration": "zakhar",
       "pos": "Adjective",
       "frequency": 82,
       "gloss": "male"
@@ -4483,7 +4483,7 @@
       "rank": 497,
       "lemma_id": "H349",
       "citation_form": "אֵיךְ",
-      "transliteration": "'eyk",
+      "transliteration": "'eykh",
       "pos": "Particle",
       "frequency": 82,
       "gloss": "how?"
@@ -4600,7 +4600,7 @@
       "rank": 510,
       "lemma_id": "H1964",
       "citation_form": "הֵיכָל",
-      "transliteration": "heykal",
+      "transliteration": "heykhal",
       "pos": "Noun",
       "frequency": 80,
       "gloss": "palace, temple"
@@ -4609,7 +4609,7 @@
       "rank": 511,
       "lemma_id": "H2822",
       "citation_form": "חֹשֶׁךְ",
-      "transliteration": "khoshek",
+      "transliteration": "khoshekh",
       "pos": "Noun",
       "frequency": 80,
       "gloss": "darkness"
@@ -4627,7 +4627,7 @@
       "rank": 513,
       "lemma_id": "H4376",
       "citation_form": "מָכַר",
-      "transliteration": "makar",
+      "transliteration": "makhar",
       "pos": "Verb",
       "frequency": 80,
       "gloss": "sell"
@@ -4735,7 +4735,7 @@
       "rank": 525,
       "lemma_id": "H7138",
       "citation_form": "קָרוֹב",
-      "transliteration": "qarob",
+      "transliteration": "qarov",
       "pos": "Adjective",
       "frequency": 78,
       "gloss": "near"
@@ -4744,7 +4744,7 @@
       "rank": 526,
       "lemma_id": "H7392",
       "citation_form": "רָכַב",
-      "transliteration": "rakab",
+      "transliteration": "rakhav",
       "pos": "Verb",
       "frequency": 78,
       "gloss": "ride"
@@ -4780,7 +4780,7 @@
       "rank": 530,
       "lemma_id": "H8605",
       "citation_form": "תְּפִלָּה",
-      "transliteration": "tepilah",
+      "transliteration": "tefilah",
       "pos": "Noun",
       "frequency": 77,
       "gloss": "prayer"
@@ -4834,7 +4834,7 @@
       "rank": 536,
       "lemma_id": "H6186",
       "citation_form": "עָרַךְ",
-      "transliteration": "`arak",
+      "transliteration": "`arakh",
       "pos": "Verb",
       "frequency": 76,
       "gloss": "arrange, set in order, draw up (for battle)"
@@ -4879,7 +4879,7 @@
       "rank": 541,
       "lemma_id": "H2654",
       "citation_form": "חָפֵץ",
-      "transliteration": "khapets",
+      "transliteration": "khafets",
       "pos": "Verb",
       "frequency": 75,
       "gloss": "delight in, desire, be pleased with"
@@ -4897,7 +4897,7 @@
       "rank": 543,
       "lemma_id": "H5324",
       "citation_form": "נָצַב",
-      "transliteration": "natsab",
+      "transliteration": "natsav",
       "pos": "Verb",
       "frequency": 75,
       "gloss": "stand, take one's stand, station"
@@ -4960,7 +4960,7 @@
       "rank": 550,
       "lemma_id": "H1892",
       "citation_form": "הֶבֶל",
-      "transliteration": "hebel",
+      "transliteration": "hevel",
       "pos": "Noun",
       "frequency": 73,
       "gloss": "breath, vapor; vanity, futility"
@@ -4987,7 +4987,7 @@
       "rank": 553,
       "lemma_id": "H3001",
       "citation_form": "יָבֵשׁ",
-      "transliteration": "yabesh",
+      "transliteration": "yavesh",
       "pos": "Verb",
       "frequency": 73,
       "gloss": "be dry, wither; be ashamed, disappointed"
@@ -5059,7 +5059,7 @@
       "rank": 561,
       "lemma_id": "H4069",
       "citation_form": "מַדּוּעַ",
-      "transliteration": "madu`a",
+      "transliteration": "madua`",
       "pos": "Particle",
       "frequency": 72,
       "gloss": "why?"
@@ -5077,7 +5077,7 @@
       "rank": 563,
       "lemma_id": "H7205",
       "citation_form": "רְאוּבֵן",
-      "transliteration": "re'uben",
+      "transliteration": "re'uven",
       "pos": "Noun",
       "frequency": 72,
       "gloss": "Reuben"
@@ -5095,7 +5095,7 @@
       "rank": 565,
       "lemma_id": "H7782",
       "citation_form": "שׁוֹפָר",
-      "transliteration": "shopar",
+      "transliteration": "shofar",
       "pos": "Noun",
       "frequency": 72,
       "gloss": "ram's horn, trumpet"
@@ -5113,7 +5113,7 @@
       "rank": 567,
       "lemma_id": "H1389",
       "citation_form": "גִּבְעָה",
-      "transliteration": "gib`ah",
+      "transliteration": "giv`ah",
       "pos": "Noun",
       "frequency": 71,
       "gloss": "hill"
@@ -5131,7 +5131,7 @@
       "rank": 569,
       "lemma_id": "H2275",
       "citation_form": "חֶבְרוֹן",
-      "transliteration": "khebron",
+      "transliteration": "khevron",
       "pos": "Noun",
       "frequency": 71,
       "gloss": "Hebron"
@@ -5140,7 +5140,7 @@
       "rank": 570,
       "lemma_id": "H3844",
       "citation_form": "לְבָנוֹן",
-      "transliteration": "lebanon",
+      "transliteration": "levanon",
       "pos": "Noun",
       "frequency": 71,
       "gloss": "Lebanon"
@@ -5167,7 +5167,7 @@
       "rank": 573,
       "lemma_id": "H5775",
       "citation_form": "עוֹף",
-      "transliteration": "`op",
+      "transliteration": "`of",
       "pos": "Noun",
       "frequency": 71,
       "gloss": "bird, flying creature"
@@ -5185,7 +5185,7 @@
       "rank": 575,
       "lemma_id": "H7673",
       "citation_form": "שָׁבַת",
-      "transliteration": "shabat",
+      "transliteration": "shavat",
       "pos": "Verb",
       "frequency": 71,
       "gloss": "cease, rest"
@@ -5221,7 +5221,7 @@
       "rank": 579,
       "lemma_id": "H5027",
       "citation_form": "נָבַט",
-      "transliteration": "nabat",
+      "transliteration": "navat",
       "pos": "Verb",
       "frequency": 70,
       "gloss": "look, look intently, regard"
@@ -5239,7 +5239,7 @@
       "rank": 581,
       "lemma_id": "H7378",
       "citation_form": "רִיב",
-      "transliteration": "rib",
+      "transliteration": "riv",
       "pos": "Verb",
       "frequency": 70,
       "gloss": "strive, contend, quarrel; bring a legal case"
@@ -5257,7 +5257,7 @@
       "rank": 583,
       "lemma_id": "H1293",
       "citation_form": "בְּרָכָה",
-      "transliteration": "berakah",
+      "transliteration": "berakhah",
       "pos": "Noun",
       "frequency": 69,
       "gloss": "blessing"
@@ -5275,7 +5275,7 @@
       "rank": 585,
       "lemma_id": "H441",
       "citation_form": "אַלּוּף",
-      "transliteration": "'alup",
+      "transliteration": "'aluf",
       "pos": "Noun",
       "frequency": 69,
       "gloss": "chief, leader; friend, companion"
@@ -5311,7 +5311,7 @@
       "rank": 589,
       "lemma_id": "H7495",
       "citation_form": "רָפָא",
-      "transliteration": "rapa'",
+      "transliteration": "rafa'",
       "pos": "Verb",
       "frequency": 69,
       "gloss": "heal"
@@ -5347,7 +5347,7 @@
       "rank": 593,
       "lemma_id": "H884",
       "citation_form": "בְּאֵר שֶׁבַע",
-      "transliteration": "be'ersheba`",
+      "transliteration": "be'ersheva`",
       "pos": "Noun",
       "frequency": 68,
       "gloss": "Beersheba"
@@ -5374,7 +5374,7 @@
       "rank": 596,
       "lemma_id": "H3802",
       "citation_form": "כָּתֵף",
-      "transliteration": "katep",
+      "transliteration": "katef",
       "pos": "Noun",
       "frequency": 67,
       "gloss": "shoulder"
@@ -5383,7 +5383,7 @@
       "rank": 597,
       "lemma_id": "H40",
       "citation_form": "אֲבִימֶלֶךְ",
-      "transliteration": "'abimelek",
+      "transliteration": "'avimelekh",
       "pos": "Noun",
       "frequency": 67,
       "gloss": "Abimelech"
@@ -5392,7 +5392,7 @@
       "rank": 598,
       "lemma_id": "H5117",
       "citation_form": "נוּחַ",
-      "transliteration": "nukha",
+      "transliteration": "nuakh",
       "pos": "Verb",
       "frequency": 67,
       "gloss": "rest, settle down"
@@ -5410,7 +5410,7 @@
       "rank": 600,
       "lemma_id": "H6913",
       "citation_form": "קֶבֶר",
-      "transliteration": "qeber",
+      "transliteration": "qever",
       "pos": "Noun",
       "frequency": 67,
       "gloss": "grave, tomb"

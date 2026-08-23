@@ -41,7 +41,7 @@ Horizon: roughly 11–13 months at a loose daily habit. There is no deadline and
    to retrieve inside an iOS home-screen app. Pre-1.0, a schema change may reset state
    rather than migrate, but only with a visible warning and an export offered first.
 
-## Transliteration scheme — locked, never varied
+## Transliteration scheme
 
 Plain ASCII, chosen to survive copy-paste and phone keyboards:
 
@@ -54,8 +54,41 @@ Greek, if it ever appears, is always transliterated with a gloss — never bare 
 
 Implementation: `pipeline/transliterate.py`. Its docstring is the authority on the edge
 cases the scheme above doesn't state — shva na/nach rules, matres lectionis absorption,
-and the deliberate omissions (dagesh forte gemination, qamats gadol vs. qatan). Those are
-decided; read them there rather than re-deriving or re-deciding them.
+and its deliberate omissions. This isn't locked or off-limits for revision; "decided"
+means read the docstring before re-deriving a rule from scratch, not "never reopen this."
+If a gap below is worth fixing, fix it — a revision just has to re-run every generated
+data file afterward, since transliterations are never hand-typed.
+
+**Fixed (were gaps, confirmed against real output before and after):**
+- **Bet/kaf/pe spirantization.** Now dagesh-sensitive: b/v, k/kh, p/f, read directly off
+  whether a dagesh is written (Masoretic pointing always marks dagesh lene explicitly when
+  the plosive form applies, so its absence is a reliable signal, not a guess). Soft kaf
+  intentionally renders the same "kh" as het — they're the same sound in standard
+  pronunciation, so this is a correct merge, not a lost distinction; the Hebrew letters
+  shown alongside every transliteration (rule 4) still disambiguate which one it was. The
+  other three BGDKPT letters (gimel/dalet/tav) are deliberately left alone: their spirant
+  forms don't survive outside Yemenite pronunciation. Was widespread before the fix: 146 of
+  the 600 vocab-deck citation forms (24%) contained at least one affected letter.
+- **Furtive patach.** A patach on a word-final het/ayin/heh(+mappiq) now renders
+  vowel-then-consonant (`transliterate('רוּחַ')` → `ruakh`, not the old `rukha`), matching
+  how it's actually pronounced. Scoped to word-final position, the standard textbook case.
+
+Both fixes live in `pipeline/transliterate.py`; every generated data file that bakes in a
+transliteration (`vocab_deck_600.json`, `parse_qal_strong.json`, `jonah1_reader.json`) was
+rebuilt and re-verified afterward, per this file's own instruction above.
+
+**Known gap, not fixed — confirmed real, and confirmed why it's harder than the other two:**
+- **Qamats gadol vs. qamats qatan.** Always rendered "a" (gadol); qatan sounds like "o" and
+  requires knowing the syllable is both closed AND unaccented. `transliterate('כָּל')`
+  ("kol", all/every — rank 11 by frequency in the whole Bible) → `kal` is still wrong.
+  Accent position could in principle be read off cantillation before this project strips
+  it, but the single most common real-world trigger — a maqqef binding this word to the
+  next, which removes its independent stress — turns out to live in OSHB as a separate
+  `<seg type="x-maqqef">` element between `<w>` elements, not inside either word's own
+  text (confirmed against the raw corpus while investigating this). That means it's
+  invisible to `transliterate()` no matter what string it's given; a real fix needs the
+  calling pipeline script to detect the maqqef in the verse XML and pass stress context
+  in, which is a bigger, separately-scoped change, not a `transliterate.py`-only fix.
 
 ## Locked decisions — do not re-litigate
 

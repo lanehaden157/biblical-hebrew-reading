@@ -12,10 +12,10 @@ Verification for transliterate.py, in two parts:
    Covers every non-trivial code path: cholam-vav, shuruk, hiriq-yod,
    shin/sin dot (both with and without matres-lectionis interaction),
    alef/ayin, final letters, word-final silent shva, word-initial vocal
-   shva, a consecutive shva pair (first silent / second vocal), and two
-   rules that diverge from academic transliteration convention on purpose
-   (bet is always "b" never "v"; kaf is always "k" never "kh" -- the
-   locked scheme has no separate fricative letters).
+   shva, a consecutive shva pair (first silent / second vocal), dagesh-
+   sensitive bet/kaf/pe (soft forms render v/kh/f; soft kaf intentionally
+   shares "kh" with het -- see transliterate.py's docstring), and furtive
+   patach on a word-final het/ayin.
 
 2. A full-corpus stress test over all 600 top600.json citation forms:
    every one must transliterate without raising, produce non-empty output,
@@ -35,13 +35,12 @@ RESULT_PATH = os.path.join(HERE, "..", "scratch_verify_result.txt")
 # lemma_id -> (label, hand-verified expected ASCII, what it covers)
 EXPECTED = {
     "H7965": ("peace", "shalom", "cholam-vav; shin dot"),
-    "H4428": ("king", "melek", "final kaf = k, not kh; final shva silent"),
     "H3117": ("day", "yom", "word-initial yod absorbing cholam-vav"),
     "H430": ("God", "'elohim", "alef=', hataf segol, hiriq-yod"),
-    "H1": ("father", "'ab", "bet is always b, never v"),
+    "H1": ("father", "'av", "bet with no dagesh -> soft, v"),
     "H1121": ("son", "ben", "tsere, final nun"),
     "H8451": ("law", "torah", "cholam-vav, final heh always h"),
-    "H1697": ("word", "dabar", "bet is always b, never v"),
+    "H1697": ("word", "davar", "bet with no dagesh -> soft, v"),
     "H5971": ("people", "`am", "ayin = `"),
     "H776": ("land", "'erets", "segol, final tsadi"),
     "H3068": ("YHWH", "yehowah", "word-initial vocal shva; masoretic pointing"),
@@ -51,8 +50,14 @@ EXPECTED = {
     "H7760": ("put/set", "sum", "sin dot; shuruk absorbed by sin"),
     "H8269": ("official", "sar", "sin dot with a direct (non-absorbed) vowel"),
     "F-l": ("to/for prefix", "le", "lone consonant+shva: word-initial wins over word-final"),
-    "F-b": ("in/on/with prefix", "be", "lone consonant+shva: word-initial wins over word-final"),
-    "F-k": ("like/as prefix", "ke", "lone consonant+shva: word-initial wins over word-final"),
+    "F-b": ("in/on/with prefix", "be", "lone consonant+shva: word-initial wins over word-final; bet HAS a dagesh here, stays hard b"),
+    "F-k": ("like/as prefix", "ke", "lone consonant+shva: word-initial wins over word-final; kaf HAS a dagesh here, stays hard k"),
+    "H4428": ("king", "melekh", "final kaf with no dagesh -> soft, kh"),
+    "H5307": ("fall", "nafal", "pe with no dagesh -> soft, f"),
+    "H3130": ("Joseph", "yosef", "final pe with no dagesh -> soft, f"),
+    "H1293": ("blessing", "berakhah", "kaf with no dagesh -> soft, kh"),
+    "H7307": ("spirit/wind", "ruakh", "furtive patach on final het: vowel-then-consonant order"),
+    "H7453": ("friend/neighbor", "rea`", "furtive patach on final ayin: vowel-then-consonant order"),
 }
 
 # Only ASCII the locked scheme can ever produce.

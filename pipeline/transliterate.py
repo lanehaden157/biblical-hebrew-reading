@@ -49,6 +49,38 @@ Known simplifications (deliberately out of scope, not oversights):
     convention, e.g. "torah" not "tora"; mappiq -- a dagesh marking a
     final heh as consonantal rather than a silent vowel-length marker --
     doesn't change this, since heh is "h" either way).
+
+Bet/kaf/pe ARE dagesh-sensitive (b/v, k/kh, p/f) -- this is directly
+readable from the text (dagesh lene is always explicitly marked by the
+Masoretes whenever the plosive pronunciation applies, so its absence is a
+reliable signal, not a guess). Soft kaf renders "kh", same as het -- they
+are, in fact, the same sound in standard pronunciation, so this is a
+correct merge, not a lost distinction; the Hebrew letters themselves (shown
+alongside every transliteration, per rule 4) still disambiguate which one
+it was. The other three BGDKPT letters (gimel, dalet, tav) are NOT made
+dagesh-sensitive: their spirant forms don't survive in standard (non-
+Yemenite) pronunciation, so collapsing them doesn't diverge from what's
+actually said.
+
+Furtive patach IS handled: a patach on a word-final het, ayin, or heh
+(with mappiq) is pronounced *before* the guttural, not after, so the
+output order is swapped ("ru'akh" not "rukha" for רוּחַ). Scoped to
+word-final position only, per the standard textbook rule -- a guttural
+closing an internal syllable before a suffix is a rarer case not covered
+here.
+
+Known, NOT handled: qamats gadol vs. qamats qatan (distinct from the
+already-handled U+05C7 codepoint, which OSHB uses unambiguously). The
+qatan reading requires knowing the syllable is both closed AND unaccented.
+Accent position could in principle be read off cantillation before it's
+stripped, but the far more common trigger in running text -- a maqqef
+binding this word to the next, removing its independent stress -- lives
+in OSHB as a separate <seg type="x-maqqef"> element between <w> elements,
+not inside either word's own text (confirmed against the raw corpus), so
+it is invisible to this function no matter what the input string contains.
+Solving this properly needs the calling pipeline script to pass stress
+context in, not a change to this module alone -- deliberately left for
+that larger, separately-scoped change rather than guessed at here.
 """
 
 VAV, YOD = "ו", "י"
@@ -56,9 +88,24 @@ SHIN_BASE = "ש"
 SIN_DOT = "ׂ"
 SHIN_DOT = "ׁ"
 SHVA = "ְ"
-DAGESH = "ּ"
+DAGESH = "ּ"  # also mappiq, on heh -- same codepoint, disambiguated by base letter
 HOLAM = "ֹ"
 HOLAM_HASER = "ֺ"
+PATACH = "ַ"
+QAMATS = "ָ"
+
+# Dagesh-sensitive letters: (hard/plosive, soft/spirant). Only the three
+# BGDKPT letters whose spirant form survives in standard pronunciation --
+# see the module docstring for why gimel/dalet/tav are excluded, and why
+# soft kaf sharing "kh" with het is intentional, not a lost distinction.
+SPIRANTIZABLE = {
+    "ב": ("b", "v"),
+    "כ": ("k", "kh"), "ך": ("k", "kh"),
+    "פ": ("p", "f"), "ף": ("p", "f"),
+}
+
+# Word-final het/ayin/heh(+mappiq) take a furtive patach -- see docstring.
+FURTIVE_BASES = {"ח", "ע", "ה"}
 
 CONSONANTS = {
     "א": "'",   # alef
@@ -134,6 +181,9 @@ def _own_vowel_mark(marks):
 def _consonant_text(base, marks):
     if base == SHIN_BASE:
         return "s" if SIN_DOT in marks else "sh"
+    if base in SPIRANTIZABLE:
+        hard, soft = SPIRANTIZABLE[base]
+        return hard if DAGESH in marks else soft
     return CONSONANTS[base]
 
 
@@ -176,10 +226,26 @@ def transliterate(word):
     for pos, i in enumerate(real_indices):
         base, marks = cl[i]
         cons = _consonant_text(base, marks)
+        is_last_real = pos == len(real_indices) - 1
+
+        # Furtive patach: a patach on a word-final het/ayin/heh(+mappiq)
+        # glides in before the guttural sound, not after -- see docstring.
+        # Guarded against a preceding a-class vowel per the standard rule,
+        # though that combination shouldn't arise here in the first place.
+        is_furtive = (
+            is_last_real
+            and own_vowel[i] == PATACH
+            and (base in ("ח", "ע") or (base == "ה" and DAGESH in marks))
+        )
+        if is_furtive:
+            pj = prev_real(pos)
+            prev_vowel = own_vowel[pj] if pj is not None else None
+            if prev_vowel in (PATACH, QAMATS):
+                is_furtive = False
 
         if own_vowel[i] == SHVA:
             is_word_initial = pos == 0
-            is_word_final = pos == len(real_indices) - 1
+            is_word_final = is_last_real
             pj, nj = prev_real(pos), next_real(pos)
             prev_is_shva = pj is not None and own_vowel[pj] == SHVA
             next_is_shva = nj is not None and own_vowel[nj] == SHVA
@@ -203,6 +269,6 @@ def transliterate(word):
         else:
             vowel = ""
 
-        out.append(cons + vowel)
+        out.append(vowel + cons if is_furtive else cons + vowel)
 
     return "".join(out)
