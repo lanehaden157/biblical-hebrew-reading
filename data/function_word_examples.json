@@ -1,9 +1,10 @@
 {
   "metadata": {
-    "generated": "2026-08-24T17:22:07.860995+00:00",
+    "generated": "2026-08-24T17:48:35.280311+00:00",
     "scope": "F-<letter> prefix morphemes plus Preposition/Conjunction/Particle/Definite article/Interrogative particle/Relative particle vocab entries",
     "example_count_rule": "max(3, comma-separated senses in the curated gloss)",
     "phrase_rule": "Hebrew is trimmed to the phrase matching the curated English gloss, not the full verse",
+    "highlight_rule": "target_index marks the Hebrew word being taught; gloss_highlight marks the closest English word(s), with gloss_note explaining any non-obvious correspondence",
     "lemma_count": 51,
     "example_count": 155
   },
@@ -22,7 +23,10 @@
           "word_id": "01LN3",
           "phrase_hebrew": "וְהָאָרֶץ הָיְתָה תֹהוּ וָבֹהוּ",
           "phrase_transliteration": "weha'arets haytah tohu wavohu",
-          "gloss": "and the earth was without form and void"
+          "target_index": 0,
+          "gloss": "and the earth was without form and void",
+          "gloss_highlight": "and",
+          "gloss_note": null
         },
         {
           "ref": "Gen.1.3",
@@ -31,7 +35,10 @@
           "word_id": "01thY",
           "phrase_hebrew": "וַיֹּאמֶר אֱלֹהִים יְהִי אוֹר",
           "phrase_transliteration": "wayo'mer 'elohim yehi 'or",
-          "gloss": "and God said, 'Let there be light'"
+          "target_index": 0,
+          "gloss": "and God said, 'Let there be light'",
+          "gloss_highlight": "and",
+          "gloss_note": null
         },
         {
           "ref": "Gen.1.6",
@@ -40,7 +47,10 @@
           "word_id": "017am",
           "phrase_hebrew": "וַיֹּאמֶר אֱלֹהִים יְהִי רָקִיעַ",
           "phrase_transliteration": "wayo'mer 'elohim yehi raqia`",
-          "gloss": "and God said, 'Let there be a vault...'"
+          "target_index": 0,
+          "gloss": "and God said, 'Let there be a vault...'",
+          "gloss_highlight": "and",
+          "gloss_note": null
         }
       ]
     },
@@ -58,7 +68,10 @@
           "word_id": "01TSc",
           "phrase_hebrew": "בָּרָא אֱלֹהִים אֵת הַשָּׁמַיִם וְאֵת הָאָֽרֶץ",
           "phrase_transliteration": "bara' 'elohim 'et hashamayim we'et ha'arets",
-          "gloss": "God created the heavens and the earth"
+          "target_index": 3,
+          "gloss": "God created the heavens and the earth",
+          "gloss_highlight": "the",
+          "gloss_note": null
         },
         {
           "ref": "Gen.1.4",
@@ -67,7 +80,10 @@
           "word_id": "01GzE",
           "phrase_hebrew": "וַיַּרְא אֱלֹהִים אֶת הָאוֹר כִּי טוֹב",
           "phrase_transliteration": "wayar' 'elohim 'et ha'or ki tov",
-          "gloss": "God saw the light, that it was good"
+          "target_index": 3,
+          "gloss": "God saw the light, that it was good",
+          "gloss_highlight": "the",
+          "gloss_note": null
         },
         {
           "ref": "Gen.1.9",
@@ -76,7 +92,10 @@
           "word_id": "01d5m",
           "phrase_hebrew": "יִקָּווּ הַמַּיִם מִתַּחַת הַשָּׁמַיִם אֶל מָקוֹם אֶחָד",
           "phrase_transliteration": "yiqawu hamayim mitakhat hashamayim 'el maqom 'ekhad",
-          "gloss": "let the water under the sky be gathered to one place"
+          "target_index": 1,
+          "gloss": "let the water under the sky be gathered to one place",
+          "gloss_highlight": "the",
+          "gloss_note": null
         }
       ]
     },
@@ -94,7 +113,10 @@
           "word_id": "01Wkf",
           "phrase_hebrew": "וַיִּקְרָא אֱלֹהִים לָאוֹר יוֹם",
           "phrase_transliteration": "wayiqra' 'elohim la'or yom",
-          "gloss": "God called the light 'day'"
+          "target_index": 2,
+          "gloss": "God called the light 'day'",
+          "gloss_highlight": "the light",
+          "gloss_note": "le- marks the object of \"called\" here; Hebrew doesn't need a separate word for it."
         },
         {
           "ref": "Gen.1.29",
@@ -103,7 +125,10 @@
           "word_id": "01pAw",
           "phrase_hebrew": "הִנֵּה נָתַתִּי לָכֶם",
           "phrase_transliteration": "hineh natati lakhem",
-          "gloss": "I have given [every plant] to you"
+          "target_index": 2,
+          "gloss": "I have given [every plant] to you",
+          "gloss_highlight": "to",
+          "gloss_note": null
         },
         {
           "ref": "Gen.1.14",
@@ -112,7 +137,10 @@
           "word_id": "0192v",
           "phrase_hebrew": "מְאֹרֹת בִּרְקִיעַ הַשָּׁמַיִם לְהַבְדִּיל בֵּין הַיּוֹם וּבֵין הַלָּיְלָה",
           "phrase_transliteration": "me'orot birqia` hashamayim lehavdil beyn hayom uveyn halaylah",
-          "gloss": "lights in the sky, to separate day from night"
+          "target_index": 3,
+          "gloss": "lights in the sky, to separate day from night",
+          "gloss_highlight": "to",
+          "gloss_note": null
         }
       ]
     },
@@ -130,7 +158,10 @@
           "word_id": "01xeN",
           "phrase_hebrew": "בְּרֵאשִׁית בָּרָא אֱלֹהִים אֵת הַשָּׁמַיִם וְאֵת הָאָֽרֶץ",
           "phrase_transliteration": "bere'shit bara' 'elohim 'et hashamayim we'et ha'arets",
-          "gloss": "In the beginning God created the heavens and the earth"
+          "target_index": 0,
+          "gloss": "In the beginning God created the heavens and the earth",
+          "gloss_highlight": "In",
+          "gloss_note": null
         },
         {
           "ref": "Gen.1.26",
@@ -139,7 +170,10 @@
           "word_id": "01gtq",
           "phrase_hebrew": "נַֽעֲשֶׂה אָדָם בְּצַלְמֵנוּ",
           "phrase_transliteration": "na`aseh 'adam betsalmenu",
-          "gloss": "let us make man in our image"
+          "target_index": 2,
+          "gloss": "let us make man in our image",
+          "gloss_highlight": "in",
+          "gloss_note": null
         },
         {
           "ref": "Judg.15.15",
@@ -148,7 +182,10 @@
           "word_id": "071TR",
           "phrase_hebrew": "וַיַּךְ בָּהּ אֶלֶף אִֽישׁ",
           "phrase_transliteration": "wayakh bah 'elef 'ish",
-          "gloss": "he struck a thousand men with it"
+          "target_index": 1,
+          "gloss": "he struck a thousand men with it",
+          "gloss_highlight": "with",
+          "gloss_note": null
         }
       ]
     },
@@ -166,7 +203,10 @@
           "word_id": "01vuQ",
           "phrase_hebrew": "בָּרָא אֱלֹהִים אֵת הַשָּׁמַיִם וְאֵת הָאָֽרֶץ",
           "phrase_transliteration": "bara' 'elohim 'et hashamayim we'et ha'arets",
-          "gloss": "God created the heavens and the earth"
+          "target_index": 2,
+          "gloss": "God created the heavens and the earth",
+          "gloss_highlight": "the heavens",
+          "gloss_note": "'et itself has no English translation -- it just flags the direct object."
         },
         {
           "ref": "Gen.1.27",
@@ -175,7 +215,10 @@
           "word_id": "01Zuo",
           "phrase_hebrew": "וַיִּבְרָא אֱלֹהִים אֶת הָֽאָדָם בְּצַלְמוֹ",
           "phrase_transliteration": "wayivra' 'elohim 'et ha'adam betsalmo",
-          "gloss": "God created man in his own image"
+          "target_index": 2,
+          "gloss": "God created man in his own image",
+          "gloss_highlight": "man",
+          "gloss_note": "'et itself has no English translation -- it just flags the direct object."
         },
         {
           "ref": "Gen.1.31",
@@ -184,7 +227,10 @@
           "word_id": "01w6u",
           "phrase_hebrew": "וַיַּרְא אֱלֹהִים אֶת כָּל אֲשֶׁר עָשָׂה",
           "phrase_transliteration": "wayar' 'elohim 'et kal 'asher `asah",
-          "gloss": "God saw everything that he had made"
+          "target_index": 2,
+          "gloss": "God saw everything that he had made",
+          "gloss_highlight": "everything",
+          "gloss_note": "'et itself has no English translation -- it just flags the direct object."
         }
       ]
     },
@@ -202,7 +248,10 @@
           "word_id": "01L4k",
           "phrase_hebrew": "בֵּין הַמַּיִם אֲשֶׁר מִתַּחַת לָרָקִיעַ וּבֵין הַמַּיִם אֲשֶׁר מֵעַל לָרָקִיעַ",
           "phrase_transliteration": "beyn hamayim 'asher mitakhat laraqia` uveyn hamayim 'asher me`al laraqia`",
-          "gloss": "the water under the vault, and the water above"
+          "target_index": 3,
+          "gloss": "the water under the vault, and the water above",
+          "gloss_highlight": "under",
+          "gloss_note": "mi- is fused into \"under\" here -- mitakhat literally means \"from-under.\""
         },
         {
           "ref": "Gen.2.8",
@@ -211,7 +260,10 @@
           "word_id": "01ZMk",
           "phrase_hebrew": "וַיִּטַּע יְהוָה אֱלֹהִים גַּן בְעֵדֶן מִקֶּדֶם",
           "phrase_transliteration": "wayita` yehwah 'elohim gan ve`eden miqedem",
-          "gloss": "the LORD planted a garden in Eden, in the east"
+          "target_index": 5,
+          "gloss": "the LORD planted a garden in Eden, in the east",
+          "gloss_highlight": "the east",
+          "gloss_note": "mi- is fused into \"the east\" here -- miqedem literally means \"from the east.\""
         },
         {
           "ref": "Gen.2.21",
@@ -220,7 +272,10 @@
           "word_id": "01Dwm",
           "phrase_hebrew": "וַיִּקַּח אַחַת מִצַּלְעֹתָיו",
           "phrase_transliteration": "wayiqakh 'akhat mitsal`otayw",
-          "gloss": "he took one of his ribs"
+          "target_index": 2,
+          "gloss": "he took one of his ribs",
+          "gloss_highlight": "of",
+          "gloss_note": null
         }
       ]
     },
@@ -238,7 +293,10 @@
           "word_id": "01qNN",
           "phrase_hebrew": "וְחֹשֶׁךְ עַל פְּנֵי תְהוֹם",
           "phrase_transliteration": "wekhoshekh `al peney tehom",
-          "gloss": "darkness was over the face of the deep"
+          "target_index": 1,
+          "gloss": "darkness was over the face of the deep",
+          "gloss_highlight": "over",
+          "gloss_note": null
         },
         {
           "ref": "Gen.1.28",
@@ -247,7 +305,10 @@
           "word_id": "01G6E",
           "phrase_hebrew": "וּבְכָל חַיָּה הָֽרֹמֶשֶׂת עַל הָאָֽרֶץ",
           "phrase_transliteration": "uvkhal khayah haromeset `al ha'arets",
-          "gloss": "every living creature that moves on the earth"
+          "target_index": 3,
+          "gloss": "every living creature that moves on the earth",
+          "gloss_highlight": "on",
+          "gloss_note": null
         },
         {
           "ref": "Gen.2.16",
@@ -256,7 +317,10 @@
           "word_id": "01khc",
           "phrase_hebrew": "וַיְצַו יְהוָה אֱלֹהִים עַל הָֽאָדָם לֵאמֹר",
           "phrase_transliteration": "waytsaw yehwah 'elohim `al ha'adam le'mor",
-          "gloss": "the LORD God commanded the man, saying"
+          "target_index": 3,
+          "gloss": "the LORD God commanded the man, saying",
+          "gloss_highlight": "the man",
+          "gloss_note": "`al means \"concerning\" here; English just says \"commanded the man.\""
         }
       ]
     },
@@ -274,7 +338,10 @@
           "word_id": "01tRR",
           "phrase_hebrew": "יִקָּווּ הַמַּיִם מִתַּחַת הַשָּׁמַיִם אֶל מָקוֹם אֶחָד",
           "phrase_transliteration": "yiqawu hamayim mitakhat hashamayim 'el maqom 'ekhad",
-          "gloss": "let the water be gathered to one place"
+          "target_index": 4,
+          "gloss": "let the water be gathered to one place",
+          "gloss_highlight": "to",
+          "gloss_note": null
         },
         {
           "ref": "Gen.3.9",
@@ -283,7 +350,10 @@
           "word_id": "01dvY",
           "phrase_hebrew": "וַיִּקְרָא יְהוָה אֱלֹהִים אֶל הָֽאָדָם",
           "phrase_transliteration": "wayiqra' yehwah 'elohim 'el ha'adam",
-          "gloss": "the LORD called to the man"
+          "target_index": 3,
+          "gloss": "the LORD called to the man",
+          "gloss_highlight": "to",
+          "gloss_note": null
         },
         {
           "ref": "Gen.3.16",
@@ -292,7 +362,10 @@
           "word_id": "01ACV",
           "phrase_hebrew": "וְאֶל אִישֵׁךְ תְּשׁוּקָתֵךְ",
           "phrase_transliteration": "we'el 'ishekh teshuqatekh",
-          "gloss": "your desire will be for your husband"
+          "target_index": 0,
+          "gloss": "your desire will be for your husband",
+          "gloss_highlight": "for",
+          "gloss_note": "'el usually means \"to\"; here it reads naturally as \"for.\""
         }
       ]
     },
@@ -310,7 +383,10 @@
           "word_id": "01B2d",
           "phrase_hebrew": "אֲשֶׁר זַרְעוֹ בוֹ",
           "phrase_transliteration": "'asher zar`o vo",
-          "gloss": "whose seed is in itself"
+          "target_index": 0,
+          "gloss": "whose seed is in itself",
+          "gloss_highlight": "whose",
+          "gloss_note": "asher is rendered \"whose\" here for a natural possessive reading."
         },
         {
           "ref": "Gen.1.29",
@@ -319,7 +395,10 @@
           "word_id": "01HWo",
           "phrase_hebrew": "כָּל עֵשֶׂב זֹרֵעַ זֶרַע אֲשֶׁר עַל פְּנֵי כָל הָאָרֶץ",
           "phrase_transliteration": "kal `esev zorea` zera` 'asher `al peney khal ha'arets",
-          "gloss": "every plant that is on the face of the earth"
+          "target_index": 4,
+          "gloss": "every plant that is on the face of the earth",
+          "gloss_highlight": "that",
+          "gloss_note": null
         },
         {
           "ref": "Gen.2.19",
@@ -328,7 +407,10 @@
           "word_id": "01Doj",
           "phrase_hebrew": "וְכֹל אֲשֶׁר יִקְרָא לוֹ הָֽאָדָם",
           "phrase_transliteration": "wekhol 'asher yiqra' lo ha'adam",
-          "gloss": "whatever the man called each creature"
+          "target_index": 1,
+          "gloss": "whatever the man called each creature",
+          "gloss_highlight": "whatever",
+          "gloss_note": "asher combines with \"all\" (kol) to read as \"whatever.\""
         }
       ]
     },
@@ -346,7 +428,10 @@
           "word_id": "01j8W",
           "phrase_hebrew": "לֹא תֹאכַל מִמֶּנּוּ",
           "phrase_transliteration": "lo' to'khal mimenu",
-          "gloss": "you shall not eat from it"
+          "target_index": 0,
+          "gloss": "you shall not eat from it",
+          "gloss_highlight": "not",
+          "gloss_note": null
         },
         {
           "ref": "Gen.2.18",
@@ -355,7 +440,10 @@
           "word_id": "01SGf",
           "phrase_hebrew": "לֹא טוֹב הֱיוֹת הָֽאָדָם לְבַדּוֹ",
           "phrase_transliteration": "lo' tov heyot ha'adam levado",
-          "gloss": "it is not good for the man to be alone"
+          "target_index": 0,
+          "gloss": "it is not good for the man to be alone",
+          "gloss_highlight": "not",
+          "gloss_note": null
         },
         {
           "ref": "Gen.2.25",
@@ -364,7 +452,10 @@
           "word_id": "01fE2",
           "phrase_hebrew": "וְלֹא יִתְבֹּשָֽׁשׁוּ",
           "phrase_transliteration": "welo' yitboshashu",
-          "gloss": "and they were not ashamed"
+          "target_index": 0,
+          "gloss": "and they were not ashamed",
+          "gloss_highlight": "not",
+          "gloss_note": null
         }
       ]
     },
@@ -382,7 +473,10 @@
           "word_id": "01qCU",
           "phrase_hebrew": "וַיַּרְא אֱלֹהִים אֶת הָאוֹר כִּי טוֹב",
           "phrase_transliteration": "wayar' 'elohim 'et ha'or ki tov",
-          "gloss": "God saw the light, that it was good"
+          "target_index": 4,
+          "gloss": "God saw the light, that it was good",
+          "gloss_highlight": "that",
+          "gloss_note": null
         },
         {
           "ref": "Gen.2.5",
@@ -391,7 +485,10 @@
           "word_id": "01WJY",
           "phrase_hebrew": "כִּי לֹא הִמְטִיר יְהוָה אֱלֹהִים",
           "phrase_transliteration": "ki lo' himtir yehwah 'elohim",
-          "gloss": "because the LORD God had not sent rain"
+          "target_index": 0,
+          "gloss": "because the LORD God had not sent rain",
+          "gloss_highlight": "because",
+          "gloss_note": null
         },
         {
           "ref": "Gen.3.6",
@@ -400,7 +497,10 @@
           "word_id": "01T97",
           "phrase_hebrew": "וַתֵּרֶא הָֽאִשָּׁה כִּי טוֹב הָעֵץ",
           "phrase_transliteration": "watere' ha'ishah ki tov ha`ets",
-          "gloss": "she saw that the tree was good"
+          "target_index": 2,
+          "gloss": "she saw that the tree was good",
+          "gloss_highlight": "that",
+          "gloss_note": null
         },
         {
           "ref": "Gen.4.12",
@@ -409,7 +509,10 @@
           "word_id": "01tA5",
           "phrase_hebrew": "כִּי תַֽעֲבֹד אֶת הָאֲדָמָה לֹֽא תֹסֵף תֵּת כֹּחָהּ לָךְ",
           "phrase_transliteration": "ki ta`avod 'et ha'adamah lo' tosef tet kokhah lakh",
-          "gloss": "when you work the ground, it will no longer yield"
+          "target_index": 0,
+          "gloss": "when you work the ground, it will no longer yield",
+          "gloss_highlight": "when",
+          "gloss_note": null
         }
       ]
     },
@@ -427,7 +530,10 @@
           "word_id": "01HSQ",
           "phrase_hebrew": "נַֽעֲשֶׂה אָדָם בְּצַלְמֵנוּ כִּדְמוּתֵנוּ",
           "phrase_transliteration": "na`aseh 'adam betsalmenu kidmutenu",
-          "gloss": "let us make man in our image, as our likeness"
+          "target_index": 3,
+          "gloss": "let us make man in our image, as our likeness",
+          "gloss_highlight": "as",
+          "gloss_note": null
         },
         {
           "ref": "Gen.2.18",
@@ -436,7 +542,10 @@
           "word_id": "01Wyn",
           "phrase_hebrew": "אֶֽעֱשֶׂהּ לּוֹ עֵזֶר כְּנֶגְדּֽוֹ",
           "phrase_transliteration": "'e`eseh lo `ezer kenegdo",
-          "gloss": "I will make a helper corresponding to him"
+          "target_index": 3,
+          "gloss": "I will make a helper corresponding to him",
+          "gloss_highlight": "corresponding",
+          "gloss_note": "ke- fuses with neged (\"opposite\") into the idiom \"corresponding to.\""
         },
         {
           "ref": "Gen.3.5",
@@ -445,7 +554,10 @@
           "word_id": "01RUp",
           "phrase_hebrew": "וִהְיִיתֶם כֵּֽאלֹהִים יֹדְעֵי טוֹב וָרָֽע",
           "phrase_transliteration": "wihyitem ke'lohim yod`ey tov wara`",
-          "gloss": "you will be like God, knowing good and evil"
+          "target_index": 1,
+          "gloss": "you will be like God, knowing good and evil",
+          "gloss_highlight": "like",
+          "gloss_note": null
         }
       ]
     },
@@ -463,7 +575,10 @@
           "word_id": "01JyU",
           "phrase_hebrew": "עַד שֽׁוּבְךָ אֶל הָאֲדָמָה",
           "phrase_transliteration": "`ad shuvkha 'el ha'adamah",
-          "gloss": "until you return to the ground"
+          "target_index": 0,
+          "gloss": "until you return to the ground",
+          "gloss_highlight": "until",
+          "gloss_note": null
         },
         {
           "ref": "Gen.11.31",
@@ -472,7 +587,10 @@
           "word_id": "01euh",
           "phrase_hebrew": "וַיָּבֹאוּ עַד חָרָן וַיֵּשְׁבוּ שָֽׁם",
           "phrase_transliteration": "wayavo'u `ad kharan wayeshvu sham",
-          "gloss": "they came as far as Haran, and settled there"
+          "target_index": 1,
+          "gloss": "they came as far as Haran, and settled there",
+          "gloss_highlight": "as far as",
+          "gloss_note": null
         },
         {
           "ref": "Gen.13.15",
@@ -481,7 +599,10 @@
           "word_id": "01shT",
           "phrase_hebrew": "אֶתְּנֶנָּה וּֽלְזַרְעֲךָ עַד עוֹלָֽם",
           "phrase_transliteration": "'etnenah ulzar`akha `ad `olam",
-          "gloss": "I will give it to you and your offspring forever"
+          "target_index": 2,
+          "gloss": "I will give it to you and your offspring forever",
+          "gloss_highlight": "forever",
+          "gloss_note": "`ad pairs with `olam (\"eternity\") here to mean \"forever.\""
         }
       ]
     },
@@ -499,7 +620,10 @@
           "word_id": "01CFo",
           "phrase_hebrew": "אֶת הָֽאָדָם עָפָר מִן הָאֲדָמָה",
           "phrase_transliteration": "'et ha'adam `afar min ha'adamah",
-          "gloss": "the man, dust from the ground"
+          "target_index": 3,
+          "gloss": "the man, dust from the ground",
+          "gloss_highlight": "from",
+          "gloss_note": null
         },
         {
           "ref": "Gen.2.17",
@@ -508,7 +632,10 @@
           "word_id": "019Yh",
           "phrase_hebrew": "לֹא תֹאכַל מִמֶּנּוּ",
           "phrase_transliteration": "lo' to'khal mimenu",
-          "gloss": "you shall not eat from it"
+          "target_index": 2,
+          "gloss": "you shall not eat from it",
+          "gloss_highlight": "from",
+          "gloss_note": null
         },
         {
           "ref": "Gen.2.22",
@@ -517,7 +644,10 @@
           "word_id": "01x5W",
           "phrase_hebrew": "הַצֵּלָע אֲשֶׁר לָקַח מִן הָֽאָדָם",
           "phrase_transliteration": "hatsela` 'asher laqakh min ha'adam",
-          "gloss": "the rib that he had taken from the man"
+          "target_index": 3,
+          "gloss": "the rib that he had taken from the man",
+          "gloss_highlight": "from",
+          "gloss_note": null
         }
       ]
     },
@@ -535,7 +665,10 @@
           "word_id": "01DK9",
           "phrase_hebrew": "הֲלוֹא אִם תֵּיטִיב שְׂאֵת",
           "phrase_transliteration": "halo' 'im teytiv se'et",
-          "gloss": "if you do well, will you not be accepted?"
+          "target_index": 1,
+          "gloss": "if you do well, will you not be accepted?",
+          "gloss_highlight": "if",
+          "gloss_note": null
         },
         {
           "ref": "Gen.18.3",
@@ -544,7 +677,10 @@
           "word_id": "01cHs",
           "phrase_hebrew": "אִם נָא מָצָאתִי חֵן בְּעֵינֶיךָ",
           "phrase_transliteration": "'im na' matsa'ti khen be`eyneykha",
-          "gloss": "if now I have found favor in your eyes"
+          "target_index": 0,
+          "gloss": "if now I have found favor in your eyes",
+          "gloss_highlight": "if",
+          "gloss_note": null
         },
         {
           "ref": "Gen.18.26",
@@ -553,7 +689,10 @@
           "word_id": "01Vio",
           "phrase_hebrew": "אִם אֶמְצָא בִסְדֹם חֲמִשִּׁים צַדִּיקִם בְּתוֹךְ הָעִיר",
           "phrase_transliteration": "'im 'emtsa' visdom khamishim tsadiqim betokh ha`ir",
-          "gloss": "if I find fifty righteous within the city"
+          "target_index": 0,
+          "gloss": "if I find fifty righteous within the city",
+          "gloss_highlight": "if",
+          "gloss_note": null
         }
       ]
     },
@@ -571,7 +710,10 @@
           "word_id": "01eVQ",
           "phrase_hebrew": "וְלוֹט עִמּוֹ",
           "phrase_transliteration": "welot `imo",
-          "gloss": "Lot was with him"
+          "target_index": 1,
+          "gloss": "Lot was with him",
+          "gloss_highlight": "with",
+          "gloss_note": null
         },
         {
           "ref": "Gen.18.23",
@@ -580,7 +722,10 @@
           "word_id": "01dDG",
           "phrase_hebrew": "תִּסְפֶּה צַדִּיק עִם רָשָֽׁע",
           "phrase_transliteration": "tispeh tsadiq `im rasha`",
-          "gloss": "will you sweep away the righteous with the wicked?"
+          "target_index": 2,
+          "gloss": "will you sweep away the righteous with the wicked?",
+          "gloss_highlight": "with",
+          "gloss_note": null
         },
         {
           "ref": "Gen.24.12",
@@ -589,7 +734,10 @@
           "word_id": "01otC",
           "phrase_hebrew": "וַעֲשֵׂה חֶסֶד עִם אֲדֹנִי אַבְרָהָֽם",
           "phrase_transliteration": "wa`aseh khesed `im 'adoni 'avraham",
-          "gloss": "show steadfast love with my master"
+          "target_index": 2,
+          "gloss": "show steadfast love with my master",
+          "gloss_highlight": "with",
+          "gloss_note": null
         }
       ]
     },
@@ -607,7 +755,10 @@
           "word_id": "014Zw",
           "phrase_hebrew": "וַהֲקִמֹתִי אֶת בְּרִיתִי אִתָּךְ",
           "phrase_transliteration": "wahaqimoti 'et beriti 'itakh",
-          "gloss": "I will establish my covenant with you"
+          "target_index": 3,
+          "gloss": "I will establish my covenant with you",
+          "gloss_highlight": "with",
+          "gloss_note": null
         },
         {
           "ref": "Gen.7.7",
@@ -616,7 +767,10 @@
           "word_id": "012iX",
           "phrase_hebrew": "נֹחַ וּבָנָיו וְאִשְׁתּוֹ וּנְשֵֽׁי בָנָיו אִתּוֹ",
           "phrase_transliteration": "noakh uvanayw we'ishto unshey vanayw 'ito",
-          "gloss": "Noah, his sons, his wife, and his sons' wives -- with him"
+          "target_index": 5,
+          "gloss": "Noah, his sons, his wife, and his sons' wives -- with him",
+          "gloss_highlight": "with",
+          "gloss_note": null
         },
         {
           "ref": "Gen.9.9",
@@ -625,7 +779,10 @@
           "word_id": "014wk",
           "phrase_hebrew": "מֵקִים אֶת בְּרִיתִי אִתְּכֶם",
           "phrase_transliteration": "meqim 'et beriti 'itkhem",
-          "gloss": "I am establishing my covenant with you"
+          "target_index": 3,
+          "gloss": "I am establishing my covenant with you",
+          "gloss_highlight": "with",
+          "gloss_note": null
         }
       ]
     },
@@ -643,7 +800,10 @@
           "word_id": "01Ygn",
           "phrase_hebrew": "הִנֵּה נָתַתִּי לָכֶם",
           "phrase_transliteration": "hineh natati lakhem",
-          "gloss": "behold, I have given [it] to you"
+          "target_index": 0,
+          "gloss": "behold, I have given [it] to you",
+          "gloss_highlight": "behold",
+          "gloss_note": null
         },
         {
           "ref": "Gen.1.31",
@@ -652,7 +812,10 @@
           "word_id": "01JUf",
           "phrase_hebrew": "וְהִנֵּה טוֹב מְאֹד",
           "phrase_transliteration": "wehineh tov me'od",
-          "gloss": "and behold, it was very good"
+          "target_index": 0,
+          "gloss": "and behold, it was very good",
+          "gloss_highlight": "behold",
+          "gloss_note": null
         },
         {
           "ref": "Gen.6.17",
@@ -661,7 +824,10 @@
           "word_id": "01CXn",
           "phrase_hebrew": "וַאֲנִי הִנְנִי מֵבִיא אֶת הַמַּבּוּל",
           "phrase_transliteration": "wa'ani hinni mevi' 'et hamabul",
-          "gloss": "behold, I am bringing the flood"
+          "target_index": 1,
+          "gloss": "behold, I am bringing the flood",
+          "gloss_highlight": "behold",
+          "gloss_note": null
         }
       ]
     },
@@ -679,7 +845,10 @@
           "word_id": "01Pht",
           "phrase_hebrew": "וְאָדָם אַיִן לַֽעֲבֹד אֶת הָֽאֲדָמָֽה",
           "phrase_transliteration": "we'adam 'ayin la`avod 'et ha'adamah",
-          "gloss": "and there was no man to work the ground"
+          "target_index": 1,
+          "gloss": "and there was no man to work the ground",
+          "gloss_highlight": "no",
+          "gloss_note": null
         },
         {
           "ref": "Gen.5.24",
@@ -688,7 +857,10 @@
           "word_id": "01Mos",
           "phrase_hebrew": "וְאֵינֶנּוּ כִּֽי לָקַח אֹתוֹ אֱלֹהִֽים",
           "phrase_transliteration": "we'eynenu ki laqakh 'oto 'elohim",
-          "gloss": "and he was not, for God took him"
+          "target_index": 0,
+          "gloss": "and he was not, for God took him",
+          "gloss_highlight": "not",
+          "gloss_note": null
         },
         {
           "ref": "Gen.11.30",
@@ -697,7 +869,10 @@
           "word_id": "017pd",
           "phrase_hebrew": "שָׂרַי עֲקָרָה אֵין לָהּ וָלָֽד",
           "phrase_transliteration": "saray `aqarah 'eyn lah walad",
-          "gloss": "Sarai was barren; she had no child"
+          "target_index": 2,
+          "gloss": "Sarai was barren; she had no child",
+          "gloss_highlight": "no",
+          "gloss_note": null
         }
       ]
     },
@@ -715,7 +890,10 @@
           "word_id": "01n5f",
           "phrase_hebrew": "וַֽיְהִי כֵֽן",
           "phrase_transliteration": "wayhi khen",
-          "gloss": "and it was so"
+          "target_index": 1,
+          "gloss": "and it was so",
+          "gloss_highlight": "so",
+          "gloss_note": null
         },
         {
           "ref": "Gen.2.24",
@@ -724,7 +902,10 @@
           "word_id": "01d1k",
           "phrase_hebrew": "עַל כֵּן יַֽעֲזָב אִישׁ אֶת אָבִיו וְאֶת אִמּוֹ",
           "phrase_transliteration": "`al ken ya`azav 'ish 'et 'aviw we'et 'imo",
-          "gloss": "therefore a man leaves his father and mother"
+          "target_index": 1,
+          "gloss": "therefore a man leaves his father and mother",
+          "gloss_highlight": "therefore",
+          "gloss_note": "ken combines with `al (\"upon\") into the idiom \"therefore.\""
         },
         {
           "ref": "Gen.6.22",
@@ -733,7 +914,10 @@
           "word_id": "01VnV",
           "phrase_hebrew": "כְּכֹל אֲשֶׁר צִוָּה אֹתוֹ אֱלֹהִים כֵּן עָשָֽׂה",
           "phrase_transliteration": "kekhol 'asher tsiwah 'oto 'elohim ken `asah",
-          "gloss": "just as God commanded him, so he did"
+          "target_index": 5,
+          "gloss": "just as God commanded him, so he did",
+          "gloss_highlight": "so",
+          "gloss_note": null
         }
       ]
     },
@@ -751,7 +935,10 @@
           "word_id": "01Bxn",
           "phrase_hebrew": "וַתִּתֵּן גַּם לְאִישָׁהּ עִמָּהּ",
           "phrase_transliteration": "watiten gam le'ishah `imah",
-          "gloss": "she gave some to her husband also"
+          "target_index": 1,
+          "gloss": "she gave some to her husband also",
+          "gloss_highlight": "also",
+          "gloss_note": null
         },
         {
           "ref": "Gen.4.4",
@@ -760,7 +947,10 @@
           "word_id": "01xRR",
           "phrase_hebrew": "וְהֶבֶל הֵבִיא גַם",
           "phrase_transliteration": "wehevel hevi' gam",
-          "gloss": "Abel also brought [an offering]"
+          "target_index": 2,
+          "gloss": "Abel also brought [an offering]",
+          "gloss_highlight": "also",
+          "gloss_note": null
         },
         {
           "ref": "Gen.4.26",
@@ -769,7 +959,10 @@
           "word_id": "01cMr",
           "phrase_hebrew": "וּלְשֵׁת גַּם הוּא יֻלַּד בֵּן",
           "phrase_transliteration": "ulshet gam hu' yulad ben",
-          "gloss": "to Seth also a son was born"
+          "target_index": 1,
+          "gloss": "to Seth also a son was born",
+          "gloss_highlight": "also",
+          "gloss_note": null
         }
       ]
     },
@@ -787,7 +980,10 @@
           "word_id": "01gjk",
           "phrase_hebrew": "מַה זֹּאת עָשִׂית",
           "phrase_transliteration": "mah zo't `asit",
-          "gloss": "what is this you have done?"
+          "target_index": 0,
+          "gloss": "what is this you have done?",
+          "gloss_highlight": "what",
+          "gloss_note": null
         },
         {
           "ref": "Gen.4.10",
@@ -796,7 +992,10 @@
           "word_id": "01iQS",
           "phrase_hebrew": "מֶה עָשִׂיתָ",
           "phrase_transliteration": "meh `asita",
-          "gloss": "what have you done?"
+          "target_index": 0,
+          "gloss": "what have you done?",
+          "gloss_highlight": "what",
+          "gloss_note": null
         },
         {
           "ref": "Gen.15.8",
@@ -805,7 +1004,10 @@
           "word_id": "01TkZ",
           "phrase_hebrew": "בַּמָּה אֵדַע",
           "phrase_transliteration": "bamah 'eda`",
-          "gloss": "by what shall I know [that I will possess it]?"
+          "target_index": 0,
+          "gloss": "by what shall I know [that I will possess it]?",
+          "gloss_highlight": "what",
+          "gloss_note": null
         }
       ]
     },
@@ -823,7 +1025,10 @@
           "word_id": "013dA",
           "phrase_hebrew": "אַל תִּירָא אַבְרָם",
           "phrase_transliteration": "'al tira' 'avram",
-          "gloss": "do not be afraid, Abram"
+          "target_index": 0,
+          "gloss": "do not be afraid, Abram",
+          "gloss_highlight": "do not",
+          "gloss_note": null
         },
         {
           "ref": "Gen.19.17",
@@ -832,7 +1037,10 @@
           "word_id": "01jTj",
           "phrase_hebrew": "אַל תַּבִּיט אַחֲרֶיךָ",
           "phrase_transliteration": "'al tabit 'akhareykha",
-          "gloss": "do not look behind you"
+          "target_index": 0,
+          "gloss": "do not look behind you",
+          "gloss_highlight": "do not",
+          "gloss_note": null
         },
         {
           "ref": "Gen.22.12",
@@ -841,7 +1049,10 @@
           "word_id": "01XWM",
           "phrase_hebrew": "אַל תִּשְׁלַח יָֽדְךָ אֶל הַנַּעַר",
           "phrase_transliteration": "'al tishlakh yadkha 'el hana`ar",
-          "gloss": "do not stretch out your hand against the boy"
+          "target_index": 0,
+          "gloss": "do not stretch out your hand against the boy",
+          "gloss_highlight": "do not",
+          "gloss_note": null
         }
       ]
     },
@@ -859,7 +1070,10 @@
           "word_id": "01bcM",
           "phrase_hebrew": "יְמֵי אָדָם אַֽחֲרֵי הוֹלִידוֹ אֶת שֵׁת",
           "phrase_transliteration": "yemey 'adam 'akharey holido 'et shet",
-          "gloss": "the days of Adam, after he fathered Seth"
+          "target_index": 2,
+          "gloss": "the days of Adam, after he fathered Seth",
+          "gloss_highlight": "after",
+          "gloss_note": null
         },
         {
           "ref": "Gen.9.28",
@@ -868,7 +1082,10 @@
           "word_id": "013iU",
           "phrase_hebrew": "וַֽיְחִי נֹחַ אַחַר הַמַּבּוּל שְׁלֹשׁ מֵאוֹת שָׁנָה וַֽחֲמִשִּׁים שָׁנָֽה",
           "phrase_transliteration": "waykhi noakh 'akhar hamabul shelosh me'ot shanah wakhamishim shanah",
-          "gloss": "Noah lived after the flood 350 years"
+          "target_index": 2,
+          "gloss": "Noah lived after the flood 350 years",
+          "gloss_highlight": "after",
+          "gloss_note": null
         },
         {
           "ref": "Gen.10.18",
@@ -877,7 +1094,10 @@
           "word_id": "01Ps4",
           "phrase_hebrew": "וְאַחַר נָפֹצוּ מִשְׁפְּחוֹת הַֽכְּנַעֲנִֽי",
           "phrase_transliteration": "we'akhar nafotsu mishpekhot hakna`ani",
-          "gloss": "and afterward the clans of the Canaanites dispersed"
+          "target_index": 0,
+          "gloss": "and afterward the clans of the Canaanites dispersed",
+          "gloss_highlight": "afterward",
+          "gloss_note": null
         }
       ]
     },
@@ -895,7 +1115,10 @@
           "word_id": "01GYp",
           "phrase_hebrew": "הֲמִן הָעֵץ אֲשֶׁר צִוִּיתִיךָ לְבִלְתִּי אֲכָל מִמֶּנּוּ אָכָֽלְתָּ",
           "phrase_transliteration": "hamin ha`ets 'asher tsiwitikha levilti 'akhal mimenu 'akhalta",
-          "gloss": "have you eaten from the tree...?"
+          "target_index": 0,
+          "gloss": "have you eaten from the tree...?",
+          "gloss_highlight": "have",
+          "gloss_note": "the question marker itself isn't a separate word -- it's what makes this a question in English."
         },
         {
           "ref": "Gen.4.9",
@@ -904,7 +1127,10 @@
           "word_id": "01caE",
           "phrase_hebrew": "הֲשֹׁמֵר אָחִי אָנֹֽכִי",
           "phrase_transliteration": "hashomer 'akhi 'anokhi",
-          "gloss": "Am I my brother's keeper?"
+          "target_index": 0,
+          "gloss": "Am I my brother's keeper?",
+          "gloss_highlight": "Am",
+          "gloss_note": "the question marker itself isn't a separate word -- it's what makes this a question in English."
         },
         {
           "ref": "Gen.18.14",
@@ -913,7 +1139,10 @@
           "word_id": "01Kzw",
           "phrase_hebrew": "הֲיִפָּלֵא מֵיְהוָה דָּבָר",
           "phrase_transliteration": "hayipale' meyhwah davar",
-          "gloss": "Is anything too hard for the LORD?"
+          "target_index": 0,
+          "gloss": "Is anything too hard for the LORD?",
+          "gloss_highlight": "Is",
+          "gloss_note": "the question marker itself isn't a separate word -- it's what makes this a question in English."
         }
       ]
     },
@@ -931,7 +1160,10 @@
           "word_id": "01L4k",
           "phrase_hebrew": "הַמַּיִם אֲשֶׁר מִתַּחַת לָרָקִיעַ",
           "phrase_transliteration": "hamayim 'asher mitakhat laraqia`",
-          "gloss": "the water under the vault"
+          "target_index": 2,
+          "gloss": "the water under the vault",
+          "gloss_highlight": "under",
+          "gloss_note": null
         },
         {
           "ref": "Gen.4.25",
@@ -940,7 +1172,10 @@
           "word_id": "01vD2",
           "phrase_hebrew": "זֶרַע אַחֵר תַּחַת הֶבֶל",
           "phrase_transliteration": "zera` 'akher takhat hevel",
-          "gloss": "another offspring in place of Abel"
+          "target_index": 2,
+          "gloss": "another offspring in place of Abel",
+          "gloss_highlight": "in place of",
+          "gloss_note": null
         },
         {
           "ref": "Gen.22.13",
@@ -949,7 +1184,10 @@
           "word_id": "01oQN",
           "phrase_hebrew": "וַיַּעֲלֵהוּ לְעֹלָה תַּחַת בְּנֽוֹ",
           "phrase_transliteration": "waya`alehu le`olah takhat beno",
-          "gloss": "he offered it up... instead of his son"
+          "target_index": 2,
+          "gloss": "he offered it up... instead of his son",
+          "gloss_highlight": "instead of",
+          "gloss_note": null
         }
       ]
     },
@@ -967,7 +1205,10 @@
           "word_id": "01Cdg",
           "phrase_hebrew": "מִי הִגִּיד לְךָ כִּי עֵירֹם אָתָּה",
           "phrase_transliteration": "mi higid lekha ki `eyrom 'atah",
-          "gloss": "who told you that you were naked?"
+          "target_index": 0,
+          "gloss": "who told you that you were naked?",
+          "gloss_highlight": "who",
+          "gloss_note": null
         },
         {
           "ref": "Gen.32.18",
@@ -976,7 +1217,10 @@
           "word_id": "01J84",
           "phrase_hebrew": "לְמִי אַתָּה",
           "phrase_transliteration": "lemi 'atah",
-          "gloss": "to whom do you belong?"
+          "target_index": 0,
+          "gloss": "to whom do you belong?",
+          "gloss_highlight": "whom",
+          "gloss_note": null
         },
         {
           "ref": "Gen.33.5",
@@ -985,7 +1229,10 @@
           "word_id": "01mZS",
           "phrase_hebrew": "מִי אֵלֶּה לָּךְ",
           "phrase_transliteration": "mi 'eleh lakh",
-          "gloss": "who are these to you?"
+          "target_index": 0,
+          "gloss": "who are these to you?",
+          "gloss_highlight": "who",
+          "gloss_note": null
         }
       ]
     },
@@ -1003,7 +1250,10 @@
           "word_id": "01CsU",
           "phrase_hebrew": "וַיַּבְדֵּל אֱלֹהִים בֵּין הָאוֹר וּבֵין הַחֹֽשֶׁךְ",
           "phrase_transliteration": "wayavdel 'elohim beyn ha'or uveyn hakhoshekh",
-          "gloss": "God separated the light from the darkness"
+          "target_index": 2,
+          "gloss": "God separated the light from the darkness",
+          "gloss_highlight": "from",
+          "gloss_note": "beyn X and beyn Y (\"between X and between Y\") is idiomatic here for \"separated X from Y.\""
         },
         {
           "ref": "Gen.9.12",
@@ -1012,7 +1262,10 @@
           "word_id": "019QD",
           "phrase_hebrew": "אֽוֹת הַבְּרִית אֲשֶׁר אֲנִי נֹתֵן בֵּינִי וּבֵינֵיכֶם",
           "phrase_transliteration": "'ot habrit 'asher 'ani noten beyni uveyneykhem",
-          "gloss": "the sign of the covenant between me and you"
+          "target_index": 5,
+          "gloss": "the sign of the covenant between me and you",
+          "gloss_highlight": "between",
+          "gloss_note": null
         },
         {
           "ref": "Gen.13.7",
@@ -1021,7 +1274,10 @@
           "word_id": "01hPa",
           "phrase_hebrew": "וַֽיְהִי רִיב בֵּין רֹעֵי מִקְנֵֽה אַבְרָם וּבֵין רֹעֵי מִקְנֵה לוֹט",
           "phrase_transliteration": "wayhi riv beyn ro`ey miqneh 'avram uveyn ro`ey miqneh lot",
-          "gloss": "there was strife between the herdsmen"
+          "target_index": 2,
+          "gloss": "there was strife between the herdsmen",
+          "gloss_highlight": "between",
+          "gloss_note": null
         }
       ]
     },
@@ -1039,7 +1295,10 @@
           "word_id": "01S7G",
           "phrase_hebrew": "אִמְרִי נָא אֲחֹתִי אָתְּ",
           "phrase_transliteration": "'imri na' 'akhoti 'at",
-          "gloss": "please say you are my sister"
+          "target_index": 1,
+          "gloss": "please say you are my sister",
+          "gloss_highlight": "please",
+          "gloss_note": null
         },
         {
           "ref": "Gen.13.14",
@@ -1048,7 +1307,10 @@
           "word_id": "01aKv",
           "phrase_hebrew": "שָׂא נָא עֵינֶיךָ וּרְאֵה",
           "phrase_transliteration": "sa' na' `eyneykha ur'eh",
-          "gloss": "lift up your eyes, now, and look"
+          "target_index": 1,
+          "gloss": "lift up your eyes, now, and look",
+          "gloss_highlight": "now",
+          "gloss_note": null
         },
         {
           "ref": "Gen.18.4",
@@ -1057,7 +1319,10 @@
           "word_id": "01Xgr",
           "phrase_hebrew": "יֻקַּֽח נָא מְעַט מַיִם",
           "phrase_transliteration": "yuqakh na' me`at mayim",
-          "gloss": "let a little water now be brought"
+          "target_index": 1,
+          "gloss": "let a little water now be brought",
+          "gloss_highlight": "now",
+          "gloss_note": null
         }
       ]
     },
@@ -1075,7 +1340,10 @@
           "word_id": "15eWk",
           "phrase_hebrew": "וּשְׁאָר אֻמַּיָּא דִּי הַגְלִי",
           "phrase_transliteration": "ush'ar 'umaya' di hagli",
-          "gloss": "the nations whom he deported"
+          "target_index": 2,
+          "gloss": "the nations whom he deported",
+          "gloss_highlight": "whom",
+          "gloss_note": "di is a general relative particle, rendered \"whom\" since it refers to people."
         },
         {
           "ref": "Ezra.4.11",
@@ -1084,7 +1352,10 @@
           "word_id": "15F1H",
           "phrase_hebrew": "פַּרְשֶׁגֶן אִגַּרְתָּא דִּי שְׁלַחוּ",
           "phrase_transliteration": "parshegen 'igarta' di shelakhu",
-          "gloss": "the letter which they sent"
+          "target_index": 2,
+          "gloss": "the letter which they sent",
+          "gloss_highlight": "which",
+          "gloss_note": null
         },
         {
           "ref": "Ezra.5.11",
@@ -1093,7 +1364,10 @@
           "word_id": "15thm",
           "phrase_hebrew": "עַבְדוֹהִי דִֽי אֱלָהּ שְׁמַיָּא וְאַרְעָא",
           "phrase_transliteration": "`avdohi di 'elah shemaya' we'ar`a'",
-          "gloss": "servants of the God of heaven and earth"
+          "target_index": 1,
+          "gloss": "servants of the God of heaven and earth",
+          "gloss_highlight": "of",
+          "gloss_note": "di can also mark possession here, like English \"of.\""
         }
       ]
     },
@@ -1111,7 +1385,10 @@
           "word_id": "01es7",
           "phrase_hebrew": "לֹא נוּכַל דַּבֵּר אֵלֶיךָ רַע אוֹ טֽוֹב",
           "phrase_transliteration": "lo' nukhal daber 'eleykha ra` 'o tov",
-          "gloss": "can we speak to you bad or good?"
+          "target_index": 5,
+          "gloss": "can we speak to you bad or good?",
+          "gloss_highlight": "or",
+          "gloss_note": null
         },
         {
           "ref": "Gen.44.19",
@@ -1120,7 +1397,10 @@
           "word_id": "01Kgz",
           "phrase_hebrew": "הֲיֵשׁ לָכֶם אָב אוֹ אָֽח",
           "phrase_transliteration": "hayesh lakhem 'av 'o 'akh",
-          "gloss": "have you a father, or a brother?"
+          "target_index": 3,
+          "gloss": "have you a father, or a brother?",
+          "gloss_highlight": "or",
+          "gloss_note": null
         },
         {
           "ref": "Exod.21.4",
@@ -1129,7 +1409,10 @@
           "word_id": "02xFg",
           "phrase_hebrew": "אִם אֲדֹנָיו יִתֶּן לוֹ אִשָּׁה וְיָלְדָה לוֹ בָנִים אוֹ בָנוֹת",
           "phrase_transliteration": "'im 'adonayw yiten lo 'ishah weyaldah lo vanim 'o vanot",
-          "gloss": "if his master gives him a wife, and she bears him sons or daughters"
+          "target_index": 8,
+          "gloss": "if his master gives him a wife, and she bears him sons or daughters",
+          "gloss_highlight": "or",
+          "gloss_note": null
         }
       ]
     },
@@ -1147,7 +1430,10 @@
           "word_id": "01Zzk",
           "phrase_hebrew": "הֵן הָֽאָדָם הָיָה כְּאַחַד מִמֶּנּוּ",
           "phrase_transliteration": "hen ha'adam hayah ke'akhad mimenu",
-          "gloss": "behold, the man has become like one of us"
+          "target_index": 0,
+          "gloss": "behold, the man has become like one of us",
+          "gloss_highlight": "behold",
+          "gloss_note": null
         },
         {
           "ref": "Gen.15.3",
@@ -1156,7 +1442,10 @@
           "word_id": "01pVY",
           "phrase_hebrew": "הֵן לִי לֹא נָתַתָּה זָרַע",
           "phrase_transliteration": "hen li lo' natatah zara`",
-          "gloss": "behold, you have given me no offspring"
+          "target_index": 0,
+          "gloss": "behold, you have given me no offspring",
+          "gloss_highlight": "behold",
+          "gloss_note": null
         },
         {
           "ref": "Gen.4.14",
@@ -1165,7 +1454,10 @@
           "word_id": "01KGK",
           "phrase_hebrew": "הֵן גֵּרַשְׁתָּ אֹתִי הַיּוֹם",
           "phrase_transliteration": "hen gerashta 'oti hayom",
-          "gloss": "behold, you have driven me this day"
+          "target_index": 0,
+          "gloss": "behold, you have driven me this day",
+          "gloss_highlight": "behold",
+          "gloss_note": null
         }
       ]
     },
@@ -1183,7 +1475,10 @@
           "word_id": "01uDX",
           "phrase_hebrew": "לְמַעַן יִֽיטַב לִי",
           "phrase_transliteration": "lema`an yitav li",
-          "gloss": "so that it may go well with me"
+          "target_index": 0,
+          "gloss": "so that it may go well with me",
+          "gloss_highlight": "so that",
+          "gloss_note": null
         },
         {
           "ref": "Gen.18.19",
@@ -1192,7 +1487,10 @@
           "word_id": "01DF8",
           "phrase_hebrew": "לְמַעַן הָבִיא יְהוָה עַל אַבְרָהָם אֵת אֲשֶׁר דִּבֶּר",
           "phrase_transliteration": "lema`an havi' yehwah `al 'avraham 'et 'asher diber",
-          "gloss": "in order that the LORD may bring [what he promised]"
+          "target_index": 0,
+          "gloss": "in order that the LORD may bring [what he promised]",
+          "gloss_highlight": "in order that",
+          "gloss_note": null
         },
         {
           "ref": "Exod.9.16",
@@ -1201,7 +1499,10 @@
           "word_id": "02NvP",
           "phrase_hebrew": "וּלְמַעַן סַפֵּר שְׁמִי בְּכָל הָאָֽרֶץ",
           "phrase_transliteration": "ulma`an saper shemi bekhal ha'arets",
-          "gloss": "so that my name may be proclaimed in all the earth"
+          "target_index": 0,
+          "gloss": "so that my name may be proclaimed in all the earth",
+          "gloss_highlight": "so that",
+          "gloss_note": null
         }
       ]
     },
@@ -1219,7 +1520,10 @@
           "word_id": "01veg",
           "phrase_hebrew": "וַיִשָּׁאֶר אַךְ נֹחַ וַֽאֲשֶׁר אִתּוֹ",
           "phrase_transliteration": "wayisha'er 'akh noakh wa'asher 'ito",
-          "gloss": "only Noah was left, and those with him"
+          "target_index": 1,
+          "gloss": "only Noah was left, and those with him",
+          "gloss_highlight": "only",
+          "gloss_note": null
         },
         {
           "ref": "Gen.9.4",
@@ -1228,7 +1532,10 @@
           "word_id": "01CV5",
           "phrase_hebrew": "אַךְ בָּשָׂר בְּנַפְשׁוֹ דָמוֹ לֹא תֹאכֵֽלוּ",
           "phrase_transliteration": "'akh basar benafsho damo lo' to'khelu",
-          "gloss": "only, flesh with its life... you shall not eat"
+          "target_index": 0,
+          "gloss": "only, flesh with its life... you shall not eat",
+          "gloss_highlight": "only",
+          "gloss_note": null
         },
         {
           "ref": "Gen.26.9",
@@ -1237,7 +1544,10 @@
           "word_id": "01k4p",
           "phrase_hebrew": "אַךְ הִנֵּה אִשְׁתְּךָ הִוא",
           "phrase_transliteration": "'akh hineh 'ishtekha hiw'",
-          "gloss": "surely, this is your wife"
+          "target_index": 0,
+          "gloss": "surely, this is your wife",
+          "gloss_highlight": "surely",
+          "gloss_note": null
         }
       ]
     },
@@ -1255,7 +1565,10 @@
           "word_id": "01Wyn",
           "phrase_hebrew": "עֵזֶר כְּנֶגְדּֽוֹ",
           "phrase_transliteration": "`ezer kenegdo",
-          "gloss": "a helper corresponding to/opposite him"
+          "target_index": 1,
+          "gloss": "a helper corresponding to/opposite him",
+          "gloss_highlight": "opposite",
+          "gloss_note": null
         },
         {
           "ref": "Gen.21.16",
@@ -1264,7 +1577,10 @@
           "word_id": "01aiP",
           "phrase_hebrew": "וַתֵּשֶׁב לָהּ מִנֶּגֶד הַרְחֵק",
           "phrase_transliteration": "wateshev lah mineged harkheq",
-          "gloss": "she sat down at a distance, opposite him"
+          "target_index": 2,
+          "gloss": "she sat down at a distance, opposite him",
+          "gloss_highlight": "opposite",
+          "gloss_note": null
         },
         {
           "ref": "Gen.31.32",
@@ -1273,7 +1589,10 @@
           "word_id": "01gdC",
           "phrase_hebrew": "נֶגֶד אַחֵינוּ הַֽכֶּר לְךָ מָה עִמָּדִי",
           "phrase_transliteration": "neged 'akheynu haker lekha mah `imadi",
-          "gloss": "identify what is yours before our kinsmen"
+          "target_index": 0,
+          "gloss": "identify what is yours before our kinsmen",
+          "gloss_highlight": "before",
+          "gloss_note": null
         }
       ]
     },
@@ -1291,7 +1610,10 @@
           "word_id": "19mzp",
           "phrase_hebrew": "כְּעִיר שֶׁחֻבְּרָה לָּהּ יַחְדָּֽו",
           "phrase_transliteration": "ke`ir shekhubrah lah yakhdaw",
-          "gloss": "like a city that is bound firmly together"
+          "target_index": 1,
+          "gloss": "like a city that is bound firmly together",
+          "gloss_highlight": "that",
+          "gloss_note": null
         },
         {
           "ref": "Ps.124.1",
@@ -1300,7 +1622,10 @@
           "word_id": "19nWJ",
           "phrase_hebrew": "יְהוָה שֶׁהָיָה לָנוּ",
           "phrase_transliteration": "yehwah shehayah lanu",
-          "gloss": "the LORD, who was on our side"
+          "target_index": 1,
+          "gloss": "the LORD, who was on our side",
+          "gloss_highlight": "who",
+          "gloss_note": null
         },
         {
           "ref": "Ps.124.6",
@@ -1309,7 +1634,10 @@
           "word_id": "19imQ",
           "phrase_hebrew": "בָּרוּךְ יְהוָה שֶׁלֹּא נְתָנָנוּ טֶרֶף לְשִׁנֵּיהֶֽם",
           "phrase_transliteration": "barukh yehwah shelo' netananu teref leshineyhem",
-          "gloss": "blessed be the LORD, who did not give us as prey"
+          "target_index": 2,
+          "gloss": "blessed be the LORD, who did not give us as prey",
+          "gloss_highlight": "who",
+          "gloss_note": null
         }
       ]
     },
@@ -1327,7 +1655,10 @@
           "word_id": "02scM",
           "phrase_hebrew": "יָרְדוּ בִמְצוֹלֹת כְּמוֹ אָֽבֶן",
           "phrase_transliteration": "yardu vimtsolot kemo 'aven",
-          "gloss": "they went down into the depths like a stone"
+          "target_index": 2,
+          "gloss": "they went down into the depths like a stone",
+          "gloss_highlight": "like",
+          "gloss_note": null
         },
         {
           "ref": "Exod.15.11",
@@ -1336,7 +1667,10 @@
           "word_id": "02vvb",
           "phrase_hebrew": "מִֽי כָמֹכָה בָּֽאֵלִם יְהוָה",
           "phrase_transliteration": "mi khamokhah ba'elim yehwah",
-          "gloss": "who is like you among the gods, O LORD?"
+          "target_index": 1,
+          "gloss": "who is like you among the gods, O LORD?",
+          "gloss_highlight": "like",
+          "gloss_note": null
         },
         {
           "ref": "Lev.19.18",
@@ -1345,7 +1679,10 @@
           "word_id": "03PYm",
           "phrase_hebrew": "וְאָֽהַבְתָּ לְרֵעֲךָ כָּמוֹךָ",
           "phrase_transliteration": "we'ahavta lere`akha kamokha",
-          "gloss": "you shall love your neighbor as yourself"
+          "target_index": 2,
+          "gloss": "you shall love your neighbor as yourself",
+          "gloss_highlight": "as",
+          "gloss_note": null
         }
       ]
     },
@@ -1363,7 +1700,10 @@
           "word_id": "01Jv8",
           "phrase_hebrew": "אָכֵן יֵשׁ יְהוָה בַּמָּקוֹם הַזֶּה",
           "phrase_transliteration": "'akhen yesh yehwah bamaqom hazeh",
-          "gloss": "surely the LORD is in this place"
+          "target_index": 1,
+          "gloss": "surely the LORD is in this place",
+          "gloss_highlight": "is",
+          "gloss_note": "yesh just asserts presence here -- no literal \"there is\" in the English."
         },
         {
           "ref": "Gen.33.9",
@@ -1372,7 +1712,10 @@
           "word_id": "01XzD",
           "phrase_hebrew": "יֶשׁ לִי רָב אָחִי",
           "phrase_transliteration": "yesh li rav 'akhi",
-          "gloss": "I have enough, my brother"
+          "target_index": 0,
+          "gloss": "I have enough, my brother",
+          "gloss_highlight": "have",
+          "gloss_note": "yesh + \"to me/us\" is how Hebrew says \"I/we have\" -- no literal \"there is\" in the English."
         },
         {
           "ref": "Gen.44.20",
@@ -1381,7 +1724,10 @@
           "word_id": "01fMS",
           "phrase_hebrew": "יֶשׁ לָנוּ אָב זָקֵן וְיֶלֶד זְקֻנִים קָטָן",
           "phrase_transliteration": "yesh lanu 'av zaqen weyeled zequnim qatan",
-          "gloss": "we have an old father, and a young brother"
+          "target_index": 0,
+          "gloss": "we have an old father, and a young brother",
+          "gloss_highlight": "have",
+          "gloss_note": "yesh + \"to me/us\" is how Hebrew says \"I/we have\" -- no literal \"there is\" in the English."
         }
       ]
     },
@@ -1399,7 +1745,10 @@
           "word_id": "01x1q",
           "phrase_hebrew": "אַף כִּֽי אָמַר אֱלֹהִים לֹא תֹֽאכְלוּ מִכֹּל עֵץ הַגָּֽן",
           "phrase_transliteration": "'af ki 'amar 'elohim lo' to'khlu mikol `ets hagan",
-          "gloss": "indeed, has God said you shall not eat...?"
+          "target_index": 0,
+          "gloss": "indeed, has God said you shall not eat...?",
+          "gloss_highlight": "indeed",
+          "gloss_note": "'af adds emphasis here, rendered \"indeed\" in natural English."
         },
         {
           "ref": "Gen.40.16",
@@ -1408,7 +1757,10 @@
           "word_id": "01wDd",
           "phrase_hebrew": "אַף אֲנִי בַּחֲלוֹמִי",
           "phrase_transliteration": "'af 'ani bakhalomi",
-          "gloss": "I also had a dream"
+          "target_index": 0,
+          "gloss": "I also had a dream",
+          "gloss_highlight": "also",
+          "gloss_note": null
         },
         {
           "ref": "Lev.26.42",
@@ -1417,7 +1769,10 @@
           "word_id": "03gDx",
           "phrase_hebrew": "וְאַף אֶת בְּרִיתִי יִצְחָק",
           "phrase_transliteration": "we'af 'et beriti yitskhaq",
-          "gloss": "and also my covenant with Isaac"
+          "target_index": 0,
+          "gloss": "and also my covenant with Isaac",
+          "gloss_highlight": "also",
+          "gloss_note": null
         }
       ]
     },
@@ -1435,7 +1790,10 @@
           "word_id": "01UDg",
           "phrase_hebrew": "וְלֹא תִגְּעוּ בּוֹ פֶּן תְּמֻתֽוּן",
           "phrase_transliteration": "welo' tig`u bo pen temutun",
-          "gloss": "you shall not touch it, lest you die"
+          "target_index": 3,
+          "gloss": "you shall not touch it, lest you die",
+          "gloss_highlight": "lest",
+          "gloss_note": null
         },
         {
           "ref": "Gen.11.4",
@@ -1444,7 +1802,10 @@
           "word_id": "01wVX",
           "phrase_hebrew": "וְנַֽעֲשֶׂה לָּנוּ שֵׁם פֶּן נָפוּץ",
           "phrase_transliteration": "wena`aseh lanu shem pen nafuts",
-          "gloss": "let us make a name, lest we be scattered"
+          "target_index": 3,
+          "gloss": "let us make a name, lest we be scattered",
+          "gloss_highlight": "lest",
+          "gloss_note": null
         },
         {
           "ref": "Gen.19.17",
@@ -1453,7 +1814,10 @@
           "word_id": "01NnT",
           "phrase_hebrew": "וְאַֽל תַּעֲמֹד בְּכָל הַכִּכָּר הָהָרָה הִמָּלֵט פֶּן תִּסָּפֶֽה",
           "phrase_transliteration": "we'al ta`amod bekhal hakikar haharah himalet pen tisafeh",
-          "gloss": "do not stay in the valley -- flee to the mountain, lest you be swept away"
+          "target_index": 6,
+          "gloss": "do not stay in the valley -- flee to the mountain, lest you be swept away",
+          "gloss_highlight": "lest",
+          "gloss_note": null
         }
       ]
     },
@@ -1471,7 +1835,10 @@
           "word_id": "15f13",
           "phrase_hebrew": "יְהוּדָיֵא דִּי סְלִקוּ מִן לְוָתָךְ עֲלֶינָא",
           "phrase_transliteration": "yehudaye' di seliqu min lewatakh `aleyna'",
-          "gloss": "the Jews who came up from you to us"
+          "target_index": 3,
+          "gloss": "the Jews who came up from you to us",
+          "gloss_highlight": "from",
+          "gloss_note": null
         },
         {
           "ref": "Ezra.4.15",
@@ -1480,7 +1847,10 @@
           "word_id": "15FQu",
           "phrase_hebrew": "מִן יוֹמָת עָלְמָא",
           "phrase_transliteration": "min yomat `alma'",
-          "gloss": "from ancient days"
+          "target_index": 0,
+          "gloss": "from ancient days",
+          "gloss_highlight": "from",
+          "gloss_note": null
         },
         {
           "ref": "Ezra.5.14",
@@ -1489,7 +1859,10 @@
           "word_id": "15ik6",
           "phrase_hebrew": "הַנְפֵּק מִן הֵֽיכְלָא",
           "phrase_transliteration": "hanpeq min heykhla'",
-          "gloss": "brought out from the temple"
+          "target_index": 1,
+          "gloss": "brought out from the temple",
+          "gloss_highlight": "from",
+          "gloss_note": null
         }
       ]
     },
@@ -1507,7 +1880,10 @@
           "word_id": "01Sh8",
           "phrase_hebrew": "תִרְאוּ פָנַי בִּלְתִּי אֲחִיכֶם אִתְּכֶֽם",
           "phrase_transliteration": "tir'u fanay bilti 'akhikhem 'itkhem",
-          "gloss": "you shall not see my face except your brother is with you"
+          "target_index": 2,
+          "gloss": "you shall not see my face except your brother is with you",
+          "gloss_highlight": "except",
+          "gloss_note": null
         },
         {
           "ref": "Gen.4.15",
@@ -1516,7 +1892,10 @@
           "word_id": "01uCS",
           "phrase_hebrew": "לְבִלְתִּי הַכּוֹת אֹתוֹ כָּל מֹצְאֽוֹ",
           "phrase_transliteration": "levilti hakot 'oto kal mots'o",
-          "gloss": "so that no one finding him would strike him down"
+          "target_index": 0,
+          "gloss": "so that no one finding him would strike him down",
+          "gloss_highlight": "no one",
+          "gloss_note": "levilti (\"so as not to\") is spread across \"so that no one ... would\" here."
         },
         {
           "ref": "Exod.20.20",
@@ -1525,7 +1904,10 @@
           "word_id": "02CnF",
           "phrase_hebrew": "לְבִלְתִּי תֶחֱטָֽאוּ",
           "phrase_transliteration": "levilti tekheta'u",
-          "gloss": "so that you may not sin"
+          "target_index": 0,
+          "gloss": "so that you may not sin",
+          "gloss_highlight": "not",
+          "gloss_note": null
         }
       ]
     },
@@ -1543,7 +1925,10 @@
           "word_id": "15XRb",
           "phrase_hebrew": "כְּתַבוּ אִגְּרָה חֲדָה עַל יְרוּשְׁלֶם",
           "phrase_transliteration": "ketavu 'igrah khadah `al yerushlem",
-          "gloss": "they wrote a letter against Jerusalem"
+          "target_index": 3,
+          "gloss": "they wrote a letter against Jerusalem",
+          "gloss_highlight": "against",
+          "gloss_note": "`al reads as \"against\" here since the letter was hostile."
         },
         {
           "ref": "Ezra.4.17",
@@ -1552,7 +1937,10 @@
           "word_id": "15hHR",
           "phrase_hebrew": "שְׁלַח מַלְכָּא עַל רְחוּם",
           "phrase_transliteration": "shelakh malka' `al rekhum",
-          "gloss": "the king sent word to Rehum"
+          "target_index": 2,
+          "gloss": "the king sent word to Rehum",
+          "gloss_highlight": "to",
+          "gloss_note": "`al functions like \"to\" here -- a message directed at Rehum."
         },
         {
           "ref": "Ezra.6.7",
@@ -1561,7 +1949,10 @@
           "word_id": "157ej",
           "phrase_hebrew": "יִבְנוֹן עַל אַתְרֵֽהּ",
           "phrase_transliteration": "yivnon `al 'atreh",
-          "gloss": "let them build it on its site"
+          "target_index": 1,
+          "gloss": "let them build it on its site",
+          "gloss_highlight": "on",
+          "gloss_note": null
         }
       ]
     },
@@ -1579,7 +1970,10 @@
           "word_id": "01RH3",
           "phrase_hebrew": "וְכָל יֵצֶר מַחְשְׁבֹת לִבּוֹ רַק רַע כָּל הַיּֽוֹם",
           "phrase_transliteration": "wekhal yetser makhshevot libo raq ra` kal hayom",
-          "gloss": "every inclination... was only evil, continually"
+          "target_index": 4,
+          "gloss": "every inclination... was only evil, continually",
+          "gloss_highlight": "only",
+          "gloss_note": null
         },
         {
           "ref": "Gen.19.8",
@@ -1588,7 +1982,10 @@
           "word_id": "01y8F",
           "phrase_hebrew": "רַק לָֽאֲנָשִׁים הָאֵל אַל תַּעֲשׂוּ דָבָר",
           "phrase_transliteration": "raq la'anashim ha'el 'al ta`asu davar",
-          "gloss": "only to these men do nothing"
+          "target_index": 0,
+          "gloss": "only to these men do nothing",
+          "gloss_highlight": "only",
+          "gloss_note": null
         },
         {
           "ref": "Exod.10.24",
@@ -1597,7 +1994,10 @@
           "word_id": "02Fjh",
           "phrase_hebrew": "רַק צֹאנְכֶם וּבְקַרְכֶם יֻצָּג",
           "phrase_transliteration": "raq tso'nkhem uvqarkhem yutsag",
-          "gloss": "only your flocks and herds shall remain"
+          "target_index": 0,
+          "gloss": "only your flocks and herds shall remain",
+          "gloss_highlight": "only",
+          "gloss_note": null
         }
       ]
     },
@@ -1615,7 +2015,10 @@
           "word_id": "01roj",
           "phrase_hebrew": "וַיִּסְגֹּר יְהוָה בַּֽעֲדֽוֹ",
           "phrase_transliteration": "wayisgor yehwah ba`ado",
-          "gloss": "the LORD shut him in"
+          "target_index": 2,
+          "gloss": "the LORD shut him in",
+          "gloss_highlight": "in",
+          "gloss_note": "be`ado (\"behind/around him\") is folded into the phrasal verb \"shut ... in\" here."
         },
         {
           "ref": "Gen.26.8",
@@ -1624,7 +2027,10 @@
           "word_id": "015iT",
           "phrase_hebrew": "וַיַּשְׁקֵף אֲבִימֶלֶךְ מֶלֶךְ פְּלִשְׁתִּים בְּעַד הַֽחַלּוֹן",
           "phrase_transliteration": "wayashqef 'avimelekh melekh pelishtim be`ad hakhalon",
-          "gloss": "Abimelech looked out through the window"
+          "target_index": 4,
+          "gloss": "Abimelech looked out through the window",
+          "gloss_highlight": "through",
+          "gloss_note": null
         },
         {
           "ref": "Exod.32.30",
@@ -1633,7 +2039,10 @@
           "word_id": "02hZA",
           "phrase_hebrew": "אֲכַפְּרָה בְּעַד חַטַּאתְכֶֽם",
           "phrase_transliteration": "'akhaprah be`ad khata'tkhem",
-          "gloss": "let me make atonement for your sin"
+          "target_index": 1,
+          "gloss": "let me make atonement for your sin",
+          "gloss_highlight": "for",
+          "gloss_note": null
         },
         {
           "ref": "Judg.3.23",
@@ -1642,7 +2051,10 @@
           "word_id": "07tA5",
           "phrase_hebrew": "וַיֵּצֵא אֵהוּד הַֽמִּסְדְּרוֹנָה וַיִּסְגֹּר דַּלְתוֹת הָעַלִיָּה בַּעֲדוֹ",
           "phrase_transliteration": "wayetse' 'ehud hamisderonah wayisgor daltot ha`aliyah ba`ado",
-          "gloss": "Ehud went out... and shut the doors behind him"
+          "target_index": 6,
+          "gloss": "Ehud went out... and shut the doors behind him",
+          "gloss_highlight": "behind",
+          "gloss_note": null
         }
       ]
     },
@@ -1660,7 +2072,10 @@
           "word_id": "013ku",
           "phrase_hebrew": "יַעַן אֲשֶׁר עָשִׂיתָ אֶת הַדָּבָר הַזֶּה",
           "phrase_transliteration": "ya`an 'asher `asita 'et hadavar hazeh",
-          "gloss": "because you have done this thing"
+          "target_index": 0,
+          "gloss": "because you have done this thing",
+          "gloss_highlight": "because",
+          "gloss_note": null
         },
         {
           "ref": "Num.20.12",
@@ -1669,7 +2084,10 @@
           "word_id": "04h5B",
           "phrase_hebrew": "יַעַן לֹא הֶאֱמַנְתֶּם בִּי",
           "phrase_transliteration": "ya`an lo' he'emantem bi",
-          "gloss": "because you did not believe me"
+          "target_index": 0,
+          "gloss": "because you did not believe me",
+          "gloss_highlight": "because",
+          "gloss_note": null
         },
         {
           "ref": "1Kgs.11.11",
@@ -1678,7 +2096,10 @@
           "word_id": "11vNk",
           "phrase_hebrew": "יַעַן אֲשֶׁר הָֽיְתָה זֹּאת עִמָּךְ",
           "phrase_transliteration": "ya`an 'asher haytah zo't `imakh",
-          "gloss": "because this has been your practice"
+          "target_index": 0,
+          "gloss": "because this has been your practice",
+          "gloss_highlight": "because",
+          "gloss_note": null
         }
       ]
     },
@@ -1696,7 +2117,10 @@
           "word_id": "01hW5",
           "phrase_hebrew": "וְאֵיךְ אֶֽעֱשֶׂה הָרָעָה הַגְּדֹלָה הַזֹּאת",
           "phrase_transliteration": "we'eykh 'e`eseh hara`ah hagdolah hazo't",
-          "gloss": "how then could I do this great evil?"
+          "target_index": 0,
+          "gloss": "how then could I do this great evil?",
+          "gloss_highlight": "how",
+          "gloss_note": null
         },
         {
           "ref": "Deut.1.12",
@@ -1705,7 +2129,10 @@
           "word_id": "0592v",
           "phrase_hebrew": "אֵיכָה אֶשָּׂא לְבַדִּי טָרְחֲכֶם",
           "phrase_transliteration": "'eykhah 'esa' levadi tarkhakhem",
-          "gloss": "how can I bear your weight alone?"
+          "target_index": 0,
+          "gloss": "how can I bear your weight alone?",
+          "gloss_highlight": "how",
+          "gloss_note": null
         },
         {
           "ref": "2Sam.1.19",
@@ -1714,7 +2141,10 @@
           "word_id": "10eRa",
           "phrase_hebrew": "אֵיךְ נָפְלוּ גִבּוֹרִֽים",
           "phrase_transliteration": "'eykh naflu giborim",
-          "gloss": "how the mighty have fallen!"
+          "target_index": 0,
+          "gloss": "how the mighty have fallen!",
+          "gloss_highlight": "how",
+          "gloss_note": null
         }
       ]
     },
@@ -1732,7 +2162,10 @@
           "word_id": "15nk3",
           "phrase_hebrew": "מִנְדָּֽה בְלוֹ וַהֲלָךְ לָא יִנְתְּנוּן",
           "phrase_transliteration": "mindah velo wahalakh la' yintenun",
-          "gloss": "they will not pay tribute"
+          "target_index": 3,
+          "gloss": "they will not pay tribute",
+          "gloss_highlight": "not",
+          "gloss_note": null
         },
         {
           "ref": "Ezra.5.16",
@@ -1741,7 +2174,10 @@
           "word_id": "15U2p",
           "phrase_hebrew": "וְלָא שְׁלִֽם",
           "phrase_transliteration": "wela' shelim",
-          "gloss": "and it is not finished"
+          "target_index": 0,
+          "gloss": "and it is not finished",
+          "gloss_highlight": "not",
+          "gloss_note": null
         },
         {
           "ref": "Dan.2.27",
@@ -1750,7 +2186,10 @@
           "word_id": "27Amf",
           "phrase_hebrew": "לָא חַכִּימִין אָֽשְׁפִין חַרְטֻמִּין גָּזְרִין יָכְלִין",
           "phrase_transliteration": "la' khakimin 'ashfin khartumin gazrin yakhlin",
-          "gloss": "the wise men are not able [to tell it]"
+          "target_index": 0,
+          "gloss": "the wise men are not able [to tell it]",
+          "gloss_highlight": "not",
+          "gloss_note": null
         }
       ]
     },
@@ -1768,7 +2207,10 @@
           "word_id": "19FMU",
           "phrase_hebrew": "אֵין יְֽשׁוּעָתָה לּוֹ בֵֽאלֹהִים סֶֽלָה",
           "phrase_transliteration": "'eyn yeshu`atah lo ve'lohim selah",
-          "gloss": "'There is no salvation for him in God.' Selah"
+          "target_index": 4,
+          "gloss": "'There is no salvation for him in God.' Selah",
+          "gloss_highlight": "Selah",
+          "gloss_note": null
         },
         {
           "ref": "Ps.24.10",
@@ -1777,7 +2219,10 @@
           "word_id": "19E91",
           "phrase_hebrew": "מִי הוּא זֶה מֶלֶךְ הַכָּבוֹד יְהוָה צְבָאוֹת הוּא מֶלֶךְ הַכָּבוֹד סֶֽלָה",
           "phrase_transliteration": "mi hu' zeh melekh hakavod yehwah tseva'ot hu' melekh hakavod selah",
-          "gloss": "Who is this King of glory? ...Selah"
+          "target_index": 10,
+          "gloss": "Who is this King of glory? ...Selah",
+          "gloss_highlight": "Selah",
+          "gloss_note": null
         },
         {
           "ref": "Ps.46.8",
@@ -1786,7 +2231,10 @@
           "word_id": "19Fdk",
           "phrase_hebrew": "יְהוָה צְבָאוֹת עִמָּנוּ מִשְׂגָּֽב לָנוּ אֱלֹהֵי יַעֲקֹב סֶֽלָה",
           "phrase_transliteration": "yehwah tseva'ot `imanu misgav lanu 'elohey ya`aqov selah",
-          "gloss": "The LORD of hosts is with us. Selah"
+          "target_index": 7,
+          "gloss": "The LORD of hosts is with us. Selah",
+          "gloss_highlight": "Selah",
+          "gloss_note": null
         }
       ]
     },
@@ -1804,7 +2252,10 @@
           "word_id": "193v4",
           "phrase_hebrew": "בַּל אֶמּֽוֹט",
           "phrase_transliteration": "bal 'emot",
-          "gloss": "I shall not be moved"
+          "target_index": 0,
+          "gloss": "I shall not be moved",
+          "gloss_highlight": "not",
+          "gloss_note": null
         },
         {
           "ref": "Ps.21.3",
@@ -1813,7 +2264,10 @@
           "word_id": "19zbv",
           "phrase_hebrew": "בַּל מָנַעְתָּ",
           "phrase_transliteration": "bal mana`ta",
-          "gloss": "you have not withheld [what his lips desired]"
+          "target_index": 0,
+          "gloss": "you have not withheld [what his lips desired]",
+          "gloss_highlight": "not",
+          "gloss_note": null
         },
         {
           "ref": "Ps.10.4",
@@ -1822,7 +2276,10 @@
           "word_id": "199fJ",
           "phrase_hebrew": "כְּגֹבַהּ אַפּוֹ בַּל יִדְרֹשׁ",
           "phrase_transliteration": "kegovah 'apo bal yidrosh",
-          "gloss": "in the pride of his face... he will not seek [God]"
+          "target_index": 2,
+          "gloss": "in the pride of his face... he will not seek [God]",
+          "gloss_highlight": "not",
+          "gloss_note": null
         }
       ]
     },
@@ -1840,7 +2297,10 @@
           "word_id": "02kMZ",
           "phrase_hebrew": "מַדּוּעַ מִהַרְתֶּן בֹּא הַיּֽוֹם",
           "phrase_transliteration": "madua` miharten bo' hayom",
-          "gloss": "why have you come so soon today?"
+          "target_index": 0,
+          "gloss": "why have you come so soon today?",
+          "gloss_highlight": "why",
+          "gloss_note": null
         },
         {
           "ref": "Exod.3.3",
@@ -1849,7 +2309,10 @@
           "word_id": "02AwN",
           "phrase_hebrew": "מַדּוּעַ לֹא יִבְעַר הַסְּנֶֽה",
           "phrase_transliteration": "madua` lo' yiv`ar hasneh",
-          "gloss": "why the bush is not burnt up"
+          "target_index": 0,
+          "gloss": "why the bush is not burnt up",
+          "gloss_highlight": "why",
+          "gloss_note": null
         },
         {
           "ref": "Judg.5.28",
@@ -1858,7 +2321,10 @@
           "word_id": "07DUx",
           "phrase_hebrew": "מַדּוּעַ בֹּשֵׁשׁ רִכְבּוֹ לָבוֹא",
           "phrase_transliteration": "madua` boshesh rikhbo lavo'",
-          "gloss": "why is his chariot so long in coming?"
+          "target_index": 0,
+          "gloss": "why is his chariot so long in coming?",
+          "gloss_highlight": "why",
+          "gloss_note": null
         }
       ]
     }

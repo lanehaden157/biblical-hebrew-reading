@@ -198,6 +198,45 @@ function hr() {
   return r;
 }
 
+// Wraps the phrase's target word (by position, computed at build time from
+// the corpus -- never string-matched here) in the same root-highlight
+// green used elsewhere in the app, so the lemma being taught is visible
+// inside the surrounding phrase rather than just implied by the card.
+function hebPhraseFrag(text, targetIndex) {
+  const frag = document.createDocumentFragment();
+  text.split(' ').forEach((w, i) => {
+    if (i > 0) frag.appendChild(document.createTextNode(' '));
+    if (i === targetIndex) {
+      const span = document.createElement('span');
+      span.className = 'example-heb-target';
+      span.textContent = w;
+      frag.appendChild(span);
+    } else {
+      frag.appendChild(document.createTextNode(w));
+    }
+  });
+  return frag;
+}
+
+// Same idea on the English side: gloss_highlight is a literal substring of
+// gloss (checked at build time), so a plain indexOf split is safe here --
+// no need to search for word boundaries since the exact text is known.
+function glossFrag(gloss, highlight) {
+  const frag = document.createDocumentFragment();
+  const idx = gloss.indexOf(highlight);
+  if (idx === -1) {
+    frag.appendChild(document.createTextNode(gloss));
+    return frag;
+  }
+  frag.appendChild(document.createTextNode(gloss.slice(0, idx)));
+  const span = document.createElement('span');
+  span.className = 'example-gloss-target';
+  span.textContent = highlight;
+  frag.appendChild(span);
+  frag.appendChild(document.createTextNode(gloss.slice(idx + highlight.length)));
+  return frag;
+}
+
 function cardBackEl(wex) {
   const el = document.createElement('div');
   el.className = 'card card-back';
@@ -218,7 +257,7 @@ function cardBackEl(wex) {
     const heb = document.createElement('p');
     heb.className = 'example-heb heb';
     heb.lang = 'he';
-    heb.textContent = ex.phrase_hebrew;
+    heb.appendChild(hebPhraseFrag(ex.phrase_hebrew, ex.target_index));
     item.appendChild(heb);
 
     const translit = document.createElement('p');
@@ -228,8 +267,17 @@ function cardBackEl(wex) {
 
     const gloss = document.createElement('p');
     gloss.className = 'example-gloss';
-    gloss.textContent = `“${ex.gloss}”`;
+    gloss.appendChild(document.createTextNode('“'));
+    gloss.appendChild(glossFrag(ex.gloss, ex.gloss_highlight));
+    gloss.appendChild(document.createTextNode('”'));
     item.appendChild(gloss);
+
+    if (ex.gloss_note) {
+      const note = document.createElement('p');
+      note.className = 'example-note';
+      note.textContent = ex.gloss_note;
+      item.appendChild(note);
+    }
 
     const ref = document.createElement('p');
     ref.className = 'example-ref';

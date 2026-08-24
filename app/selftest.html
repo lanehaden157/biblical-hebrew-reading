@@ -153,7 +153,7 @@ async function run() {
   const wexEntries = Object.values(wex);
   if (wexEntries.length) {
     const VERSE_TRANSLIT_RE = /^['`a-z .,;:!?‘’]+$/;
-    let badCount = 0, badForm2 = 0, badGloss2 = 0, badSenseCount = 0;
+    let badCount = 0, badForm2 = 0, badGloss2 = 0, badSenseCount = 0, badIndex = 0, badHighlight = 0;
     for (const e of wexEntries) {
       const senses = e.full_gloss.split(',').map(s => s.trim()).filter(Boolean);
       const needed = Math.max(3, senses.length);
@@ -165,6 +165,10 @@ async function run() {
         if (!ex.transliteration || !TRANSLIT_RE.test(ex.transliteration)) badForm2++;
         if (!ex.phrase_transliteration || !VERSE_TRANSLIT_RE.test(ex.phrase_transliteration)) badForm2++;
         if (!ex.gloss || !ex.gloss.trim()) badGloss2++;
+        const words = ex.phrase_hebrew.split(' ');
+        if (!Number.isInteger(ex.target_index) || ex.target_index < 0 || ex.target_index >= words.length) badIndex++;
+        if (!ex.gloss_highlight || !ex.gloss.includes(ex.gloss_highlight)) badHighlight++;
+        if (ex.gloss_note != null && !ex.gloss_note.trim()) badHighlight++;
       }
     }
     check(wexEntries.length === 51, `function-word examples cover all 51 target lemmas (got ${wexEntries.length})`);
@@ -172,6 +176,8 @@ async function run() {
     check(badCount === 0, `every entry has >= max(3, sense count) examples (${badCount} bad)`);
     check(badForm2 === 0, `every example has well-formed Hebrew + transliteration (${badForm2} bad)`);
     check(badGloss2 === 0, `every example has a non-empty gloss (${badGloss2} bad)`);
+    check(badIndex === 0, `every example's target_index points at a real word in its phrase (${badIndex} bad)`);
+    check(badHighlight === 0, `every example's gloss_highlight is a real substring of its gloss, and gloss_note (if any) is non-empty (${badHighlight} bad)`);
   }
 
   const vocabIds = new Set(deck.map(e => e.lemma_id));

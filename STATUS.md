@@ -529,6 +529,43 @@ grading a card resets flip state for the next one; a rapid double-tap on the fli
 is correctly absorbed by the guard rather than wedging. selftest 115/115 (schema-renamed
 fields only; check count unchanged).
 
+## Done — Phase 5: highlight the target word, Hebrew and English, on the back face
+
+Lane's own trigger: a screenshot of the "mi" (`F-m`, prefixed "min") card, asking whether
+the attribution was wrong, since none of its three example glosses contain a standalone
+"from". They weren't wrong -- `mi-` is genuinely fused into "under" and "the east" in two
+of the three (only "one of his ribs" has a clean standalone "of") -- but with nothing on
+the card marking *which* word was even being illustrated, there was no way to tell a real
+error from an idiomatic translation without asking. Fix: highlight the exact Hebrew word
+being taught, and the closest English word(s) it corresponds to, both in the same root-
+highlight green (`var(--accent)`) used elsewhere in the app; add a short explainer only
+when the correspondence isn't a clean one-to-one match (Lane's own framing: "highlight the
+closest and maybe add a tiny short explainer if its not immediately clear").
+
+Every one of the 155 examples got two new hand-curated fields in
+`build_function_word_examples.py`'s `EXAMPLES` tuples: `gloss_highlight` (the closest
+English substring, checked at build time to actually appear in `gloss`) and an optional
+`gloss_note` (~24 of 155 needed one -- e.g. H853's direct-object marker `'et`, which has
+literally no English translation at all, or H3426 `yesh`'s "there is" surfacing as English
+"have" via the `yesh li` possession idiom). The Hebrew side needed no new curation: the
+word already being highlighted is the same `word_id` used for `surface_form` since the
+first version of this feature -- `build_function_word_examples.py` now also computes
+`target_index` (that word's position within the already-extracted phrase, purely
+mechanical) so the frontend never has to search Hebrew text to find it.
+`verify_function_word_examples.py` re-derives `target_index` independently (from its own
+re-sliced phrase, not the shipped one) and confirms every `gloss_highlight` is a literal
+substring of its own `gloss`.
+
+`vocab.js`'s `cardBackEl()` renders both sides as DOM fragments (`hebPhraseFrag`/
+`glossFrag`) rather than string concatenation -- splits `phrase_hebrew` on spaces and
+wraps the word at `target_index`, and slices `gloss` around the `gloss_highlight`
+substring -- so Hard Rule 1 still holds (every Hebrew character still comes from `/data`,
+none of this touches or reorders it, just wraps an existing span in a class). Verified
+in-browser: H853's three examples (the one lemma where every example needs a note) all
+show the correct Hebrew word and English span highlighted together, in the accent green,
+in both themes. selftest 117/117 (+2 checks: `target_index` bounds, `gloss_highlight`
+substring/`gloss_note` non-empty sanity).
+
 ## Next — Phase 5: Tiers 3–5 (grammar tiers), further lesson groups if scoped
 
 The Learn tab's original concept-list scope is fully built across five groups. Any

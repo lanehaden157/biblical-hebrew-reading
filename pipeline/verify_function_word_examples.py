@@ -22,10 +22,14 @@ Checks:
      phrase is re-sliced from the verse's own word list by finding the
      first and last word of phrase_hebrew's word count anchored at
      word_id's position, not by trusting the shipped text.
-  4. The target word_id actually falls inside its own claimed phrase.
+  4. The target word_id actually falls inside its own claimed phrase, and
+     target_index (the Hebrew word to highlight) is exactly its position
+     within that independently re-sliced phrase.
   5. Character-set sanity on every surface_form/phrase_hebrew/
      transliteration/phrase_transliteration.
   6. No duplicate (lemma_id, ref, word_id) example.
+  7. gloss_highlight (the English word(s) to highlight) is a literal
+     substring of gloss; gloss_note, when present, is non-empty.
 """
 import json
 import os
@@ -196,6 +200,9 @@ def main():
                     expected_translit = " ".join(transliterate(w) for w in window_clean)
                     if ex["phrase_transliteration"] != expected_translit:
                         fail(f"{tag}/{ex['ref']}: phrase_transliteration != per-word transliterate() rejoined with spaces")
+                    expected_target_index = target_pos - si
+                    if ex["target_index"] != expected_target_index:
+                        fail(f"{tag}/{ex['ref']}: target_index={ex['target_index']} but word_id sits at position {expected_target_index} in the re-sliced phrase")
                     break
             if not found:
                 fail(f"{tag}/{ex['ref']}: phrase_hebrew {ex['phrase_hebrew']!r} is not a contiguous span of {ex['word_id']!r}'s verse containing that word")
@@ -211,6 +218,13 @@ def main():
                     fail(f"{tag}/{ex['ref']}: {field} {v!r} is empty or outside the locked ASCII scheme")
             if not ex["gloss"] or not ex["gloss"].strip():
                 fail(f"{tag}/{ex['ref']}: empty gloss")
+
+            # --- 7. gloss_highlight / gloss_note sanity -----------------------
+            if not ex.get("gloss_highlight") or ex["gloss_highlight"] not in ex["gloss"]:
+                fail(f"{tag}/{ex['ref']}: gloss_highlight {ex.get('gloss_highlight')!r} is not a substring of gloss {ex['gloss']!r}")
+            note = ex.get("gloss_note")
+            if note is not None and not note.strip():
+                fail(f"{tag}/{ex['ref']}: gloss_note is present but empty/whitespace")
 
     total = sum(len(e["examples"]) for e in entries)
     if data["metadata"]["example_count"] != total:
