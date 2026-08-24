@@ -13,6 +13,7 @@
   --border-strong: rgba(0, 0, 0, 0.22);
   --accent: #3b6d11;
   --accent-bg: rgba(59, 109, 17, 0.10);
+  --accent-2: #93650f;
   --again: #a32d2d;
   --again-bg: rgba(163, 45, 45, 0.10);
   --tap-highlight: rgba(0, 0, 0, 0.04);
@@ -33,6 +34,7 @@
   --border-strong: rgba(255, 255, 255, 0.26);
   --accent: #97c459;
   --accent-bg: rgba(151, 196, 89, 0.14);
+  --accent-2: #d9a53f;
   --again: #f09595;
   --again-bg: rgba(240, 149, 149, 0.14);
   --tap-highlight: rgba(255, 255, 255, 0.05);
@@ -159,13 +161,22 @@ body {
 }
 
 /* The parsing gym shows the whole printed word; these pick the verb's own
-   morpheme out from any prefix/suffix wrapped around it. */
+   root out from everything wrapped around it. card-heb-affix marks
+   word-level function morphemes (a preposition, the article, a pronominal
+   suffix); card-heb-conj marks conjugation-marking material fused onto the
+   verb stem itself (a yiqtol preformative, a qatal person-suffix) -- that
+   is grammar, not the root, so it gets its own muted color rather than
+   sharing the root's highlight or the word-level affix's grey. */
 .card-heb-verb {
   color: var(--accent);
 }
 
 .card-heb-affix {
   color: var(--text-dim);
+}
+
+.card-heb-conj {
+  color: var(--accent-2);
 }
 
 .card-affix-gloss {

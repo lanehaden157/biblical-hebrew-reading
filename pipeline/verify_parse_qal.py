@@ -37,6 +37,10 @@ Checks performed:
      have caught the old truncated-card bug (a fragment like a bare verb
      morpheme, missing its wayyiqtol vav or its pronominal suffix, fails
      this by construction since there'd be nothing to reconstruct it from).
+  4b. Root span: preformative + root_span + afformative must equal
+      verb_form, and an independently-coded re-derivation of the
+      root-finding algorithm (tolerant of a plene-spelled vav/yod between
+      root letters) must agree with the shipped split exactly.
   5. Every prefix_morphemes entry matches a curated F-<letter> entry in
      vocab_deck_600.json exactly (citation form, transliteration, gloss) --
      no invented prefix glosses.
@@ -68,6 +72,7 @@ GUTTURAL = set("אהחע")
 NUN = "נ"
 VAVYOD = set("וי")
 FINAL_TO_BASE = {"ך": "כ", "ם": "מ", "ן": "נ", "ף": "פ", "ץ": "צ"}
+HEB_CONSONANT_RE = re.compile("[א-ת]")
 
 VERSE_RE = re.compile(r'<verse osisID="([^"]+)">(.*?)</verse>', re.S)
 WORD_RE = re.compile(r'<w\b([^>]*)>(.*?)</w>', re.S)
@@ -122,6 +127,53 @@ def is_strong_root(citation_form):
     if r2 in VAVYOD or r2 == r3:
         return False
     return True
+
+
+def root_consonants(citation_form):
+    return [FINAL_TO_BASE.get(ch, ch) for ch in citation_form if "א" <= ch <= "ת"]
+
+
+def find_root_span(verb_form, root_letters):
+    """Independent re-derivation of build_parse_qal.py's find_root_span --
+    same algorithm, coded separately, per this file's own rule against
+    importing the build script's logic. Allows a vav/yod between two
+    matched root letters (plene-spelled vowel), rejects any other filler."""
+    skeleton = [
+        (FINAL_TO_BASE.get(ch, ch), idx)
+        for idx, ch in enumerate(verb_form)
+        if HEB_CONSONANT_RE.match(ch)
+    ]
+    n = len(root_letters)
+    matres = set("וי")
+
+    def extend(pos, letter_idx):
+        if letter_idx == n:
+            return pos
+        target = root_letters[letter_idx]
+        i = pos
+        while i < len(skeleton):
+            ch, _ = skeleton[i]
+            if ch == target:
+                return extend(i + 1, letter_idx + 1)
+            if ch not in matres:
+                return None
+            i += 1
+        return None
+
+    matches = []
+    for start in range(len(skeleton)):
+        if skeleton[start][0] != root_letters[0]:
+            continue
+        end = extend(start + 1, 1)
+        if end is not None:
+            matches.append((start, end))
+
+    if len(matches) != 1:
+        return None
+    start, end = matches[0]
+    root_start_idx = skeleton[start][1]
+    root_end_idx = skeleton[end][1] if end < len(skeleton) else len(verb_form)
+    return verb_form[:root_start_idx], verb_form[root_start_idx:root_end_idx], verb_form[root_end_idx:]
 
 
 def load_deck():
@@ -290,6 +342,24 @@ def main():
         reconstructed = (e.get("prefix_form") or "") + e["verb_form"] + (e.get("suffix_form") or "")
         if reconstructed != e["surface_form"]:
             fail(f"{tag}: prefix_form+verb_form+suffix_form {reconstructed!r} != surface_form {e['surface_form']!r}")
+
+        # --- 4b. root span: independent re-derivation must match exactly --
+        # (the field the parse card highlight is actually keyed on -- see
+        # find_root_span's docstring for why plene spelling makes this the
+        # one field simple contiguous matching gets wrong.)
+        for field in ("preformative", "root_span", "afformative"):
+            if field not in e:
+                fail(f"{tag}: missing {field}")
+        pre, root_span, post = e.get("preformative", ""), e.get("root_span", ""), e.get("afformative", "")
+        if pre + root_span + post != e["verb_form"]:
+            fail(f"{tag}: preformative+root_span+afformative {pre + root_span + post!r} != verb_form {e['verb_form']!r}")
+        if not root_span:
+            fail(f"{tag}: root_span is empty")
+        independent = find_root_span(e["verb_form"], root_consonants(deck_e["citation_form"]))
+        if independent is None:
+            fail(f"{tag}: independent re-derivation found no unique root span in verb_form {e['verb_form']!r}")
+        elif independent != (pre, root_span, post):
+            fail(f"{tag}: root split {(pre, root_span, post)!r} != independent re-derivation {independent!r}")
 
         # --- 5. prefix morphemes match curated function-word entries ------
         for pm in e.get("prefix_morphemes") or []:

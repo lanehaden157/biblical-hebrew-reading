@@ -51,6 +51,16 @@ curation happens here. `suffix_kind`/`suffix_pgn` records a pronominal
 suffix's own person/gender/number (paragogic nun/he get a kind but no
 PGN, since they aren't pronouns).
 
+`verb_form` also gets a second-level split into `preformative` +
+`root_span` + `afformative` (see find_root_span()) -- the card highlight
+is meant to mark the 3-letter root specifically, and `verb_form` as a
+whole includes conjugation-marking material that is not the root (a
+yiqtol/wayyiqtol preformative letter, a qatal/weqatal person-suffix, a
+participle gender/number ending). Coloring all of verb_form the same as
+the root was flagged as wrong by inspection of real cards (yimshal's
+formative yod, wekhafarta's person-suffix tav both read as "root" even
+though neither is one of mem/shin/lamed or kaf/pe/resh) -- this is the fix.
+
 The root's own transliteration/gloss come straight from the vocab deck;
 the word's transliteration is computed here from the FULL word in one
 pass, not per-morpheme, since Hebrew phonology (shva na/nach in
@@ -208,6 +218,79 @@ def load_strong_verb_roots():
     return roots, functional
 
 
+def find_root_span(verb_form, root_letters):
+    """Locate the 3 root consonants in verb_form's own consonant skeleton,
+    splitting off whatever precedes them (a yiqtol/wayyiqtol preformative:
+    aleph/yod/nun/tav) and whatever follows them (a qatal/weqatal
+    person-suffix, or a participle gender/number ending) as separate spans
+    -- the highlighting the parse cards use to mark "this is the root" is
+    otherwise coloring the whole verb_form, formative letters included,
+    which is not the root.
+
+    The 3 root letters do not have to be strictly adjacent: Hebrew commonly
+    spells a long vowel "plene", with an extra vav or yod standing in for
+    the vowel point, and that mater lectionis can land between two root
+    consonants -- the Qal participle's cholam is the single biggest source
+    of this (moshel, "ruler", is spelled mem-VAV-shin-lamed for a root of
+    only mem/shin/lamed). A first version of this function required strict
+    contiguity and silently skipped 140 real entries over exactly this,
+    caught only by checking the actual skip count, not by the reconstruction
+    assert (mem+vav+shin+lamed still reconstructs the surface form whether
+    the vav is "misclassified into root_span" or handled correctly -- the
+    assert can't see which). So: only vav/yod are permitted filler between
+    two matched root letters; anything else breaks that candidate match.
+
+    Deliberately still NOT a per-conjugation lookup table of preformative/
+    afformative letters, which would need a cell for every conjugation x
+    person x gender x number combination -- exactly the kind of
+    hand-enumerated surface that produces plausible-looking wrong output
+    CLAUDE.md warns about. A genuine ambiguity (more than one way to place
+    the root, or no valid placement at all) fails loudly as a skipped
+    anomaly instead of guessing. Returns (preformative, root_span,
+    afformative) or None."""
+    skeleton = [
+        (FINAL_TO_BASE.get(ch, ch), idx)
+        for idx, ch in enumerate(verb_form)
+        if HEB_CONSONANT_RE.match(ch)
+    ]
+    n = len(root_letters)
+    matres = {VAV, YOD}
+
+    def extend(pos, letter_idx):
+        """Deterministic: from skeleton[pos], scan for root_letters[letter_idx],
+        treating any vav/yod passed along the way as a skippable mater
+        lectionis and any other letter as a hard mismatch. At most one
+        continuation is possible per starting position, since a mismatch
+        ends the search rather than branching."""
+        if letter_idx == n:
+            return pos
+        target = root_letters[letter_idx]
+        i = pos
+        while i < len(skeleton):
+            ch, _ = skeleton[i]
+            if ch == target:
+                return extend(i + 1, letter_idx + 1)
+            if ch not in matres:
+                return None
+            i += 1
+        return None
+
+    matches = []
+    for start in range(len(skeleton)):
+        if skeleton[start][0] != root_letters[0]:
+            continue
+        end = extend(start + 1, 1)
+        if end is not None:
+            matches.append((start, end))
+
+    if len(matches) != 1:
+        return None
+    start, end = matches[0]
+    root_start_idx = skeleton[start][1]
+    root_end_idx = skeleton[end][1] if end < len(skeleton) else len(verb_form)
+    return verb_form[:root_start_idx], verb_form[root_start_idx:root_end_idx], verb_form[root_end_idx:]
+
+
 def resolve_prefix(lemma_parts, verb_index, functional):
     """Every function-morpheme lemma before the verb -> its curated deck
     entry, in reading order. Returns (list_of_entries, anomaly_or_None)."""
@@ -326,6 +409,15 @@ def main():
                         })
                         continue
 
+                    root_split = find_root_span(verb_form, root_consonants(root_entry["citation_form"]))
+                    if root_split is None:
+                        skipped_anomaly.append({
+                            "verse": vid, "reason": "root not a unique contiguous run in verb_form",
+                            "lemma": raw_lemma, "morph": raw_morph, "verb_form": verb_form,
+                        })
+                        continue
+                    preformative, root_span, afformative = root_split
+
                     entries.append({
                         "id": f"{wid or vid}-{i}",
                         "ref": vid,
@@ -335,6 +427,9 @@ def main():
                         "verb_form": verb_form,
                         "prefix_form": prefix_form,
                         "suffix_form": suffix_form,
+                        "preformative": preformative,
+                        "root_span": root_span,
+                        "afformative": afformative,
                         "prefix_morphemes": [
                             {
                                 "citation_form": e["citation_form"],

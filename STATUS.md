@@ -391,6 +391,58 @@ in-browser: selftest 108/108 unaffected; button absent on a fresh load, appears 
 grading one real card, reverts the card count to zero on click, disappears again after,
 and a `hebrew:backup:session-undo-*` key is confirmed written before the revert.
 
+## Done — Phase 5: parse-card root highlight, sync flush, daily-count caption
+
+Three fixes from Lane using the shipped app on his phone, not from inspection.
+
+**Sync robustness.** `scheduleSync()` debounces 3s before pushing to the Gist, and
+nothing forced it to fire early -- closing the app or the phone locking inside that
+window meant the last review batch never reached the Gist, silently. Added
+`sync.flush()`, wired to `visibilitychange`/`pagehide` in `main.js`, so backgrounding or
+closing now forces any pending sync immediately (verified: a debounced sync that would
+otherwise wait 3000ms completed in ~60ms once flush ran). Added a reentrancy guard to
+`syncNow()` since flush and the debounce timer can now race. Also documented, since it's
+a real limit of the design rather than a bug: a full device reset wipes the sync token
+along with everything else (same localStorage), so recovery isn't automatic -- Settings
+now says to keep a copy of the token somewhere durable.
+
+**"New words per day" caption.** Always divided the *full* 600-word deck by the daily
+rate, so it never reflected actual progress -- "about 120 days to introduce them all" on
+day one and still on day 80. Now shows words started vs. remaining, with an "All N
+started" state once the deck is exhausted.
+
+**Parse card root highlight -- real bug, not a display glitch.** Lane flagged this
+directly against real cards: in `yimshal` (root מ-ש-ל, "mashal"), the yiqtol preformative
+yod was colored the same green as the root; in `wekhafarta` (root כ-פ-ר, "kafar"), the
+qatal person-suffix tav was too. The card's highlight span was `verb_form`, which is the
+whole inflected verb morpheme -- root letters plus whatever conjugation-marking material
+(a preformative, an afformative) is fused onto the stem. That's not the root; only the 3
+consonants are. Fixed by adding `find_root_span()` to `build_parse_qal.py`, splitting
+`verb_form` into `preformative` + `root_span` + `afformative`. Deliberately not a
+per-conjugation lookup table of preformative/afformative letters (would need a cell for
+every conjugation x person x gender x number combination -- exactly the hand-enumerated
+surface CLAUDE.md warns produces plausible-looking wrong output). Instead: since strong
+roots never assimilate or elide a radical, the 3 root consonants must appear in order in
+verb_form's own consonant skeleton; a first version required them strictly adjacent and
+silently dropped 140 real entries over Hebrew's plene spelling (a vowel written with an
+extra vav/yod letter instead of just a point -- `moshel`, "ruler," is spelled mem-VAV-
+shin-lamed for a root of only mem/shin/lamed, and the Qal participle's characteristic
+cholam vowel is very commonly spelled this way). Fixed to tolerate a vav/yod filler
+between two matched root letters while still rejecting any other filler and requiring the
+match be unique -- an entry that doesn't fit cleanly is skipped and logged, never guessed
+at. Zero entries skipped after the fix (2,819, same count as before this change).
+`verify_parse_qal.py` re-derives the same split independently and checks it matches the
+shipped data exactly, and `app/selftest.html` checks the reconstruction invariant.
+Rendering (`app/views/parse.js`) now splits the card's Hebrew into five possible spans;
+the new middle category (conjugation-marking material, neither root nor a word-level
+function morpheme) gets its own color (`--accent-2`, muted amber/gold) rather than
+sharing the root's green or the prefix/suffix's grey. Scoped to the Parse tab only --
+the Learn tab's construct-chain examples reuse the same `card-heb-verb`/`card-heb-affix`
+classes for an unrelated distinction (lean word vs. absolute word in a construct chain)
+and were left alone. Verified in-browser against the exact reported words: `yimshal`'s
+yod now renders amber with only מְשָׁל green; `wekhafarta`'s tav now renders amber with
+only כָֽפַרְ green. selftest 109/109.
+
 ## Next — Phase 5: Tiers 3–5 (grammar tiers), further lesson groups if scoped
 
 The Learn tab's original concept-list scope is fully built across five groups. Any

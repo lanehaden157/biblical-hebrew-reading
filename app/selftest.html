@@ -103,7 +103,7 @@ async function run() {
   }
   if (parseDeck.length) {
     const CONJS = new Set(['qatal', 'weqatal', 'wayyiqtol', 'yiqtol', 'participle', 'infinitive_construct']);
-    let badForm = 0, badGloss = 0, badConj = 0, badPgn = 0, badWhole = 0, dupIds = 0;
+    let badForm = 0, badGloss = 0, badConj = 0, badPgn = 0, badWhole = 0, dupIds = 0, badRootSpan = 0;
     const seenIds = new Set();
     for (const e of parseDeck) {
       if (!e.surface_form || !HEBREW_RE.test(e.surface_form)) badForm++;
@@ -124,6 +124,12 @@ async function run() {
       // stripped wayyiqtol vav, a dropped pronominal suffix) fails this.
       const whole = (e.prefix_form || '') + e.verb_form + (e.suffix_form || '');
       if (whole !== e.surface_form) badWhole++;
+      // The root-highlight fields (see build_parse_qal.py's find_root_span):
+      // preformative/root_span/afformative must reconstruct verb_form, and
+      // root_span itself must be non-empty -- an empty root_span would mean
+      // the card highlights nothing as the root at all.
+      const verbWhole = (e.preformative || '') + (e.root_span || '') + (e.afformative || '');
+      if (verbWhole !== e.verb_form || !e.root_span) badRootSpan++;
       if (seenIds.has(e.id)) dupIds++;
       seenIds.add(e.id);
     }
@@ -131,6 +137,7 @@ async function run() {
     check(badGloss === 0, `every parse entry has a gloss — hard rule 4 (${badGloss} bad)`);
     check(badConj === 0, `every parse entry has a recognized conjugation (${badConj} bad)`);
     check(badWhole === 0, `every parse entry's prefix+verb+suffix reconstructs its surface_form (${badWhole} bad)`);
+    check(badRootSpan === 0, `every parse entry's preformative+root_span+afformative reconstructs its verb_form (${badRootSpan} bad)`);
     check(badPgn === 0, `every parse entry's person/gender/number/state matches its conjugation's shape (${badPgn} bad)`);
     check(dupIds === 0, `no duplicate parse entry ids (${dupIds} dupes)`);
   }

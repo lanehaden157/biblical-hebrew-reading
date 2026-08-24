@@ -11,10 +11,14 @@
  * The card shows the WHOLE printed word (entry.surface_form), not just the
  * verb's own morpheme -- a prefixed vav or preposition, or a pronominal
  * suffix, is never stripped out (matches how the Jonah reader already
- * displays words). entry.verb_form is highlighted within it so it's clear
- * which part is the thing actually being parsed; prefix/suffix glosses are
- * revealed alongside the root+gloss+parse at stage 2, since recognizing a
- * prefix's own meaning is part of the parse, not the initial read.
+ * displays words). Within it, entry.root_span (just the 3 root letters) is
+ * highlighted, entry.preformative/afformative (conjugation-marking material
+ * fused onto the stem -- a yiqtol yod, a qatal person-suffix) get their own
+ * muted color since they are grammar, not the root, and entry.prefix_form/
+ * suffix_form (word-level function morphemes) stay the plainest of the
+ * three. Prefix/suffix glosses are revealed alongside the root+gloss+parse
+ * at stage 2, since recognizing a prefix's own meaning is part of the
+ * parse, not the initial read.
  *
  * Hard rule 1 applies here: not one Hebrew character appears in this file.
  * Every glyph is read from data/parse_qal_strong.json at runtime.
@@ -128,24 +132,27 @@ function cardEl(item) {
   const heb = document.createElement('p');
   heb.className = 'card-heb heb';
   heb.lang = 'he';
-  // Whole printed word, verb morpheme highlighted -- all three spans from
-  // /data, never a literal (hard rule 1).
-  if (entry.prefix_form) {
-    const pre = document.createElement('span');
-    pre.className = 'card-heb-affix';
-    pre.textContent = entry.prefix_form;
-    heb.appendChild(pre);
-  }
-  const verbSpan = document.createElement('span');
-  verbSpan.className = 'card-heb-verb';
-  verbSpan.textContent = entry.verb_form;
-  heb.appendChild(verbSpan);
-  if (entry.suffix_form) {
-    const suf = document.createElement('span');
-    suf.className = 'card-heb-affix';
-    suf.textContent = entry.suffix_form;
-    heb.appendChild(suf);
-  }
+  // Whole printed word, five possible spans, all from /data (hard rule 1):
+  // prefix_form/suffix_form are word-level function morphemes (a
+  // preposition, the article, a pronominal suffix); preformative/
+  // afformative are conjugation-marking material fused onto the verb stem
+  // (the yiqtol yod, a qatal person-suffix) that is NOT the root; root_span
+  // is the actual 3-letter root, the thing the highlight is meant to mark.
+  // Splitting preformative/afformative out of what used to be one
+  // "verb_form = highlight" span exists because coloring the whole verb
+  // form the same as the root was flagged as wrong by inspection of real
+  // cards -- see find_root_span() in build_parse_qal.py.
+  const span = (text, cls) => {
+    const s = document.createElement('span');
+    s.className = cls;
+    s.textContent = text;
+    return s;
+  };
+  if (entry.prefix_form) heb.appendChild(span(entry.prefix_form, 'card-heb-affix'));
+  if (entry.preformative) heb.appendChild(span(entry.preformative, 'card-heb-conj'));
+  heb.appendChild(span(entry.root_span, 'card-heb-verb'));
+  if (entry.afformative) heb.appendChild(span(entry.afformative, 'card-heb-conj'));
+  if (entry.suffix_form) heb.appendChild(span(entry.suffix_form, 'card-heb-affix'));
   el.appendChild(heb);
 
   if (stage >= 1) {
