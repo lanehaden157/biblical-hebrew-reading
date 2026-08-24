@@ -1,8 +1,9 @@
 {
   "metadata": {
-    "generated": "2026-08-24T16:49:32.877246+00:00",
+    "generated": "2026-08-24T17:22:07.860995+00:00",
     "scope": "F-<letter> prefix morphemes plus Preposition/Conjunction/Particle/Definite article/Interrogative particle/Relative particle vocab entries",
     "example_count_rule": "max(3, comma-separated senses in the curated gloss)",
+    "phrase_rule": "Hebrew is trimmed to the phrase matching the curated English gloss, not the full verse",
     "lemma_count": 51,
     "example_count": 155
   },
@@ -19,8 +20,8 @@
           "surface_form": "וְהָאָרֶץ",
           "transliteration": "weha'arets",
           "word_id": "01LN3",
-          "verse_hebrew": "וְהָאָרֶץ הָיְתָה תֹהוּ וָבֹהוּ וְחֹשֶׁךְ עַל פְּנֵי תְהוֹם וְרוּחַ אֱלֹהִים מְרַחֶפֶת עַל פְּנֵי הַמָּֽיִם",
-          "verse_transliteration": "weha'arets haytah tohu wavohu wekhoshekh `al peney tehom weruakh 'elohim merakhefet `al peney hamayim",
+          "phrase_hebrew": "וְהָאָרֶץ הָיְתָה תֹהוּ וָבֹהוּ",
+          "phrase_transliteration": "weha'arets haytah tohu wavohu",
           "gloss": "and the earth was without form and void"
         },
         {
@@ -28,18 +29,18 @@
           "surface_form": "וַיֹּאמֶר",
           "transliteration": "wayo'mer",
           "word_id": "01thY",
-          "verse_hebrew": "וַיֹּאמֶר אֱלֹהִים יְהִי אוֹר וַֽיְהִי אֽוֹר",
-          "verse_transliteration": "wayo'mer 'elohim yehi 'or wayhi 'or",
-          "gloss": "and God said, ‘Let there be light’"
+          "phrase_hebrew": "וַיֹּאמֶר אֱלֹהִים יְהִי אוֹר",
+          "phrase_transliteration": "wayo'mer 'elohim yehi 'or",
+          "gloss": "and God said, 'Let there be light'"
         },
         {
           "ref": "Gen.1.6",
           "surface_form": "וַיֹּאמֶר",
           "transliteration": "wayo'mer",
           "word_id": "017am",
-          "verse_hebrew": "וַיֹּאמֶר אֱלֹהִים יְהִי רָקִיעַ בְּתוֹךְ הַמָּיִם וִיהִי מַבְדִּיל בֵּין מַיִם לָמָֽיִם",
-          "verse_transliteration": "wayo'mer 'elohim yehi raqia` betokh hamayim wihi mavdil beyn mayim lamayim",
-          "gloss": "and God said, ‘Let there be a vault...’"
+          "phrase_hebrew": "וַיֹּאמֶר אֱלֹהִים יְהִי רָקִיעַ",
+          "phrase_transliteration": "wayo'mer 'elohim yehi raqia`",
+          "gloss": "and God said, 'Let there be a vault...'"
         }
       ]
     },
@@ -55,8 +56,8 @@
           "surface_form": "הַשָּׁמַיִם",
           "transliteration": "hashamayim",
           "word_id": "01TSc",
-          "verse_hebrew": "בְּרֵאשִׁית בָּרָא אֱלֹהִים אֵת הַשָּׁמַיִם וְאֵת הָאָֽרֶץ",
-          "verse_transliteration": "bere'shit bara' 'elohim 'et hashamayim we'et ha'arets",
+          "phrase_hebrew": "בָּרָא אֱלֹהִים אֵת הַשָּׁמַיִם וְאֵת הָאָֽרֶץ",
+          "phrase_transliteration": "bara' 'elohim 'et hashamayim we'et ha'arets",
           "gloss": "God created the heavens and the earth"
         },
         {
@@ -64,8 +65,8 @@
           "surface_form": "הָאוֹר",
           "transliteration": "ha'or",
           "word_id": "01GzE",
-          "verse_hebrew": "וַיַּרְא אֱלֹהִים אֶת הָאוֹר כִּי טוֹב וַיַּבְדֵּל אֱלֹהִים בֵּין הָאוֹר וּבֵין הַחֹֽשֶׁךְ",
-          "verse_transliteration": "wayar' 'elohim 'et ha'or ki tov wayavdel 'elohim beyn ha'or uveyn hakhoshekh",
+          "phrase_hebrew": "וַיַּרְא אֱלֹהִים אֶת הָאוֹר כִּי טוֹב",
+          "phrase_transliteration": "wayar' 'elohim 'et ha'or ki tov",
           "gloss": "God saw the light, that it was good"
         },
         {
@@ -73,9 +74,9 @@
           "surface_form": "הַמַּיִם",
           "transliteration": "hamayim",
           "word_id": "01d5m",
-          "verse_hebrew": "וַיֹּאמֶר אֱלֹהִים יִקָּווּ הַמַּיִם מִתַּחַת הַשָּׁמַיִם אֶל מָקוֹם אֶחָד וְתֵרָאֶה הַיַּבָּשָׁה וַֽיְהִי כֵֽן",
-          "verse_transliteration": "wayo'mer 'elohim yiqawu hamayim mitakhat hashamayim 'el maqom 'ekhad wetera'eh hayabashah wayhi khen",
-          "gloss": "let there be a vault in the middle of the water"
+          "phrase_hebrew": "יִקָּווּ הַמַּיִם מִתַּחַת הַשָּׁמַיִם אֶל מָקוֹם אֶחָד",
+          "phrase_transliteration": "yiqawu hamayim mitakhat hashamayim 'el maqom 'ekhad",
+          "gloss": "let the water under the sky be gathered to one place"
         }
       ]
     },
@@ -91,26 +92,26 @@
           "surface_form": "לָאוֹר",
           "transliteration": "la'or",
           "word_id": "01Wkf",
-          "verse_hebrew": "וַיִּקְרָא אֱלֹהִים לָאוֹר יוֹם וְלַחֹשֶׁךְ קָרָא לָיְלָה וַֽיְהִי עֶרֶב וַֽיְהִי בֹקֶר יוֹם אֶחָֽד",
-          "verse_transliteration": "wayiqra' 'elohim la'or yom welakhoshekh qara' laylah wayhi `erev wayhi voqer yom 'ekhad",
-          "gloss": "God called the light ‘day’"
+          "phrase_hebrew": "וַיִּקְרָא אֱלֹהִים לָאוֹר יוֹם",
+          "phrase_transliteration": "wayiqra' 'elohim la'or yom",
+          "gloss": "God called the light 'day'"
         },
         {
           "ref": "Gen.1.29",
           "surface_form": "לָכֶם",
           "transliteration": "lakhem",
           "word_id": "01pAw",
-          "verse_hebrew": "וַיֹּאמֶר אֱלֹהִים הִנֵּה נָתַתִּי לָכֶם אֶת כָּל עֵשֶׂב זֹרֵעַ זֶרַע אֲשֶׁר עַל פְּנֵי כָל הָאָרֶץ וְאֶת כָּל הָעֵץ אֲשֶׁר בּוֹ פְרִי עֵץ זֹרֵעַ זָרַע לָכֶם יִֽהְיֶה לְאָכְלָֽה",
-          "verse_transliteration": "wayo'mer 'elohim hineh natati lakhem 'et kal `esev zorea` zera` 'asher `al peney khal ha'arets we'et kal ha`ets 'asher bo feri `ets zorea` zara` lakhem yihyeh le'akhlah",
-          "gloss": "I have given [every plant] to you [for food]"
+          "phrase_hebrew": "הִנֵּה נָתַתִּי לָכֶם",
+          "phrase_transliteration": "hineh natati lakhem",
+          "gloss": "I have given [every plant] to you"
         },
         {
           "ref": "Gen.1.14",
           "surface_form": "לְהַבְדִּיל",
           "transliteration": "lehavdil",
           "word_id": "0192v",
-          "verse_hebrew": "וַיֹּאמֶר אֱלֹהִים יְהִי מְאֹרֹת בִּרְקִיעַ הַשָּׁמַיִם לְהַבְדִּיל בֵּין הַיּוֹם וּבֵין הַלָּיְלָה וְהָיוּ לְאֹתֹת וּלְמוֹעֲדִים וּלְיָמִים וְשָׁנִֽים",
-          "verse_transliteration": "wayo'mer 'elohim yehi me'orot birqia` hashamayim lehavdil beyn hayom uveyn halaylah wehayu le'otot ulmo`adim ulyamim weshanim",
+          "phrase_hebrew": "מְאֹרֹת בִּרְקִיעַ הַשָּׁמַיִם לְהַבְדִּיל בֵּין הַיּוֹם וּבֵין הַלָּיְלָה",
+          "phrase_transliteration": "me'orot birqia` hashamayim lehavdil beyn hayom uveyn halaylah",
           "gloss": "lights in the sky, to separate day from night"
         }
       ]
@@ -127,8 +128,8 @@
           "surface_form": "בְּרֵאשִׁית",
           "transliteration": "bere'shit",
           "word_id": "01xeN",
-          "verse_hebrew": "בְּרֵאשִׁית בָּרָא אֱלֹהִים אֵת הַשָּׁמַיִם וְאֵת הָאָֽרֶץ",
-          "verse_transliteration": "bere'shit bara' 'elohim 'et hashamayim we'et ha'arets",
+          "phrase_hebrew": "בְּרֵאשִׁית בָּרָא אֱלֹהִים אֵת הַשָּׁמַיִם וְאֵת הָאָֽרֶץ",
+          "phrase_transliteration": "bere'shit bara' 'elohim 'et hashamayim we'et ha'arets",
           "gloss": "In the beginning God created the heavens and the earth"
         },
         {
@@ -136,8 +137,8 @@
           "surface_form": "בְּצַלְמֵנוּ",
           "transliteration": "betsalmenu",
           "word_id": "01gtq",
-          "verse_hebrew": "וַיֹּאמֶר אֱלֹהִים נַֽעֲשֶׂה אָדָם בְּצַלְמֵנוּ כִּדְמוּתֵנוּ וְיִרְדּוּ בִדְגַת הַיָּם וּבְעוֹף הַשָּׁמַיִם וּבַבְּהֵמָה וּבְכָל הָאָרֶץ וּבְכָל הָרֶמֶשׂ הָֽרֹמֵשׂ עַל הָאָֽרֶץ",
-          "verse_transliteration": "wayo'mer 'elohim na`aseh 'adam betsalmenu kidmutenu weyirdu vidgat hayam uv`of hashamayim uvabhemah uvkhal ha'arets uvkhal haremes haromes `al ha'arets",
+          "phrase_hebrew": "נַֽעֲשֶׂה אָדָם בְּצַלְמֵנוּ",
+          "phrase_transliteration": "na`aseh 'adam betsalmenu",
           "gloss": "let us make man in our image"
         },
         {
@@ -145,8 +146,8 @@
           "surface_form": "בָּהּ",
           "transliteration": "bah",
           "word_id": "071TR",
-          "verse_hebrew": "וַיִּמְצָא לְחִֽי חֲמוֹר טְרִיָּה וַיִּשְׁלַח יָדוֹ וַיִּקָּחֶהָ וַיַּךְ בָּהּ אֶלֶף אִֽישׁ",
-          "verse_transliteration": "wayimtsa' lekhi khamor teriyah wayishlakh yado wayiqakheha wayakh bah 'elef 'ish",
+          "phrase_hebrew": "וַיַּךְ בָּהּ אֶלֶף אִֽישׁ",
+          "phrase_transliteration": "wayakh bah 'elef 'ish",
           "gloss": "he struck a thousand men with it"
         }
       ]
@@ -163,8 +164,8 @@
           "surface_form": "אֵת",
           "transliteration": "'et",
           "word_id": "01vuQ",
-          "verse_hebrew": "בְּרֵאשִׁית בָּרָא אֱלֹהִים אֵת הַשָּׁמַיִם וְאֵת הָאָֽרֶץ",
-          "verse_transliteration": "bere'shit bara' 'elohim 'et hashamayim we'et ha'arets",
+          "phrase_hebrew": "בָּרָא אֱלֹהִים אֵת הַשָּׁמַיִם וְאֵת הָאָֽרֶץ",
+          "phrase_transliteration": "bara' 'elohim 'et hashamayim we'et ha'arets",
           "gloss": "God created the heavens and the earth"
         },
         {
@@ -172,8 +173,8 @@
           "surface_form": "אֶת",
           "transliteration": "'et",
           "word_id": "01Zuo",
-          "verse_hebrew": "וַיִּבְרָא אֱלֹהִים אֶת הָֽאָדָם בְּצַלְמוֹ בְּצֶלֶם אֱלֹהִים בָּרָא אֹתוֹ זָכָר וּנְקֵבָה בָּרָא אֹתָֽם",
-          "verse_transliteration": "wayivra' 'elohim 'et ha'adam betsalmo betselem 'elohim bara' 'oto zakhar unqevah bara' 'otam",
+          "phrase_hebrew": "וַיִּבְרָא אֱלֹהִים אֶת הָֽאָדָם בְּצַלְמוֹ",
+          "phrase_transliteration": "wayivra' 'elohim 'et ha'adam betsalmo",
           "gloss": "God created man in his own image"
         },
         {
@@ -181,8 +182,8 @@
           "surface_form": "אֶת",
           "transliteration": "'et",
           "word_id": "01w6u",
-          "verse_hebrew": "וַיַּרְא אֱלֹהִים אֶת כָּל אֲשֶׁר עָשָׂה וְהִנֵּה טוֹב מְאֹד וַֽיְהִי עֶרֶב וַֽיְהִי בֹקֶר יוֹם הַשִּׁשִּֽׁי",
-          "verse_transliteration": "wayar' 'elohim 'et kal 'asher `asah wehineh tov me'od wayhi `erev wayhi voqer yom hashishi",
+          "phrase_hebrew": "וַיַּרְא אֱלֹהִים אֶת כָּל אֲשֶׁר עָשָׂה",
+          "phrase_transliteration": "wayar' 'elohim 'et kal 'asher `asah",
           "gloss": "God saw everything that he had made"
         }
       ]
@@ -199,8 +200,8 @@
           "surface_form": "מִתַּחַת",
           "transliteration": "mitakhat",
           "word_id": "01L4k",
-          "verse_hebrew": "וַיַּעַשׂ אֱלֹהִים אֶת הָרָקִיעַ וַיַּבְדֵּל בֵּין הַמַּיִם אֲשֶׁר מִתַּחַת לָרָקִיעַ וּבֵין הַמַּיִם אֲשֶׁר מֵעַל לָרָקִיעַ וַֽיְהִי כֵֽן",
-          "verse_transliteration": "waya`as 'elohim 'et haraqia` wayavdel beyn hamayim 'asher mitakhat laraqia` uveyn hamayim 'asher me`al laraqia` wayhi khen",
+          "phrase_hebrew": "בֵּין הַמַּיִם אֲשֶׁר מִתַּחַת לָרָקִיעַ וּבֵין הַמַּיִם אֲשֶׁר מֵעַל לָרָקִיעַ",
+          "phrase_transliteration": "beyn hamayim 'asher mitakhat laraqia` uveyn hamayim 'asher me`al laraqia`",
           "gloss": "the water under the vault, and the water above"
         },
         {
@@ -208,8 +209,8 @@
           "surface_form": "מִקֶּדֶם",
           "transliteration": "miqedem",
           "word_id": "01ZMk",
-          "verse_hebrew": "וַיִּטַּע יְהוָה אֱלֹהִים גַּן בְעֵדֶן מִקֶּדֶם וַיָּשֶׂם שָׁם אֶת הָֽאָדָם אֲשֶׁר יָצָֽר",
-          "verse_transliteration": "wayita` yehwah 'elohim gan ve`eden miqedem wayasem sham 'et ha'adam 'asher yatsar",
+          "phrase_hebrew": "וַיִּטַּע יְהוָה אֱלֹהִים גַּן בְעֵדֶן מִקֶּדֶם",
+          "phrase_transliteration": "wayita` yehwah 'elohim gan ve`eden miqedem",
           "gloss": "the LORD planted a garden in Eden, in the east"
         },
         {
@@ -217,8 +218,8 @@
           "surface_form": "מִצַּלְעֹתָיו",
           "transliteration": "mitsal`otayw",
           "word_id": "01Dwm",
-          "verse_hebrew": "וַיַּפֵּל יְהוָה אֱלֹהִים תַּרְדֵּמָה עַל הָאָדָם וַיִּישָׁן וַיִּקַּח אַחַת מִצַּלְעֹתָיו וַיִּסְגֹּר בָּשָׂר תַּחְתֶּֽנָּה",
-          "verse_transliteration": "wayapel yehwah 'elohim tardemah `al ha'adam wayishan wayiqakh 'akhat mitsal`otayw wayisgor basar takhtenah",
+          "phrase_hebrew": "וַיִּקַּח אַחַת מִצַּלְעֹתָיו",
+          "phrase_transliteration": "wayiqakh 'akhat mitsal`otayw",
           "gloss": "he took one of his ribs"
         }
       ]
@@ -235,8 +236,8 @@
           "surface_form": "עַל",
           "transliteration": "`al",
           "word_id": "01qNN",
-          "verse_hebrew": "וְהָאָרֶץ הָיְתָה תֹהוּ וָבֹהוּ וְחֹשֶׁךְ עַל פְּנֵי תְהוֹם וְרוּחַ אֱלֹהִים מְרַחֶפֶת עַל פְּנֵי הַמָּֽיִם",
-          "verse_transliteration": "weha'arets haytah tohu wavohu wekhoshekh `al peney tehom weruakh 'elohim merakhefet `al peney hamayim",
+          "phrase_hebrew": "וְחֹשֶׁךְ עַל פְּנֵי תְהוֹם",
+          "phrase_transliteration": "wekhoshekh `al peney tehom",
           "gloss": "darkness was over the face of the deep"
         },
         {
@@ -244,18 +245,18 @@
           "surface_form": "עַל",
           "transliteration": "`al",
           "word_id": "01G6E",
-          "verse_hebrew": "וַיְבָרֶךְ אֹתָם אֱלֹהִים וַיֹּאמֶר לָהֶם אֱלֹהִים פְּרוּ וּרְבוּ וּמִלְאוּ אֶת הָאָרֶץ וְכִבְשֻׁהָ וּרְדוּ בִּדְגַת הַיָּם וּבְעוֹף הַשָּׁמַיִם וּבְכָל חַיָּה הָֽרֹמֶשֶׂת עַל הָאָֽרֶץ",
-          "verse_transliteration": "wayvarekh 'otam 'elohim wayo'mer lahem 'elohim peru urvu umil'u 'et ha'arets wekhivshuha urdu bidgat hayam uv`of hashamayim uvkhal khayah haromeset `al ha'arets",
-          "gloss": "have dominion... over all the earth"
+          "phrase_hebrew": "וּבְכָל חַיָּה הָֽרֹמֶשֶׂת עַל הָאָֽרֶץ",
+          "phrase_transliteration": "uvkhal khayah haromeset `al ha'arets",
+          "gloss": "every living creature that moves on the earth"
         },
         {
           "ref": "Gen.2.16",
           "surface_form": "עַל",
           "transliteration": "`al",
           "word_id": "01khc",
-          "verse_hebrew": "וַיְצַו יְהוָה אֱלֹהִים עַל הָֽאָדָם לֵאמֹר מִכֹּל עֵֽץ הַגָּן אָכֹל תֹּאכֵֽל",
-          "verse_transliteration": "waytsaw yehwah 'elohim `al ha'adam le'mor mikol `ets hagan 'akhol to'khel",
-          "gloss": "the LORD commanded the man, saying..."
+          "phrase_hebrew": "וַיְצַו יְהוָה אֱלֹהִים עַל הָֽאָדָם לֵאמֹר",
+          "phrase_transliteration": "waytsaw yehwah 'elohim `al ha'adam le'mor",
+          "gloss": "the LORD God commanded the man, saying"
         }
       ]
     },
@@ -271,8 +272,8 @@
           "surface_form": "אֶל",
           "transliteration": "'el",
           "word_id": "01tRR",
-          "verse_hebrew": "וַיֹּאמֶר אֱלֹהִים יִקָּווּ הַמַּיִם מִתַּחַת הַשָּׁמַיִם אֶל מָקוֹם אֶחָד וְתֵרָאֶה הַיַּבָּשָׁה וַֽיְהִי כֵֽן",
-          "verse_transliteration": "wayo'mer 'elohim yiqawu hamayim mitakhat hashamayim 'el maqom 'ekhad wetera'eh hayabashah wayhi khen",
+          "phrase_hebrew": "יִקָּווּ הַמַּיִם מִתַּחַת הַשָּׁמַיִם אֶל מָקוֹם אֶחָד",
+          "phrase_transliteration": "yiqawu hamayim mitakhat hashamayim 'el maqom 'ekhad",
           "gloss": "let the water be gathered to one place"
         },
         {
@@ -280,17 +281,17 @@
           "surface_form": "אֶל",
           "transliteration": "'el",
           "word_id": "01dvY",
-          "verse_hebrew": "וַיִּקְרָא יְהוָה אֱלֹהִים אֶל הָֽאָדָם וַיֹּאמֶר לוֹ אַיֶּֽכָּה",
-          "verse_transliteration": "wayiqra' yehwah 'elohim 'el ha'adam wayo'mer lo 'ayekah",
+          "phrase_hebrew": "וַיִּקְרָא יְהוָה אֱלֹהִים אֶל הָֽאָדָם",
+          "phrase_transliteration": "wayiqra' yehwah 'elohim 'el ha'adam",
           "gloss": "the LORD called to the man"
         },
         {
           "ref": "Gen.3.16",
-          "surface_form": "אֶֽל",
-          "transliteration": "'el",
-          "word_id": "01eHZ",
-          "verse_hebrew": "אֶֽל הָאִשָּׁה אָמַר הַרְבָּה אַרְבֶּה עִצְּבוֹנֵךְ וְהֵֽרֹנֵךְ בְּעֶצֶב תֵּֽלְדִי בָנִים וְאֶל אִישֵׁךְ תְּשׁוּקָתֵךְ וְהוּא יִמְשָׁל בָּֽךְ",
-          "verse_transliteration": "'el ha'ishah 'amar harbah 'arbeh `itsvonekh weheronekh be`etsev teldi vanim we'el 'ishekh teshuqatekh wehu' yimshal bakh",
+          "surface_form": "וְאֶל",
+          "transliteration": "we'el",
+          "word_id": "01ACV",
+          "phrase_hebrew": "וְאֶל אִישֵׁךְ תְּשׁוּקָתֵךְ",
+          "phrase_transliteration": "we'el 'ishekh teshuqatekh",
           "gloss": "your desire will be for your husband"
         }
       ]
@@ -307,17 +308,17 @@
           "surface_form": "אֲשֶׁר",
           "transliteration": "'asher",
           "word_id": "01B2d",
-          "verse_hebrew": "וַיֹּאמֶר אֱלֹהִים תַּֽדְשֵׁא הָאָרֶץ דֶּשֶׁא עֵשֶׂב מַזְרִיעַ זֶרַע עֵץ פְּרִי עֹשֶׂה פְּרִי לְמִינוֹ אֲשֶׁר זַרְעוֹ בוֹ עַל הָאָרֶץ וַֽיְהִי כֵֽן",
-          "verse_transliteration": "wayo'mer 'elohim tadshe' ha'arets deshe' `esev mazria` zera` `ets peri `oseh peri lemino 'asher zar`o vo `al ha'arets wayhi khen",
-          "gloss": "seed, whose seed is in itself"
+          "phrase_hebrew": "אֲשֶׁר זַרְעוֹ בוֹ",
+          "phrase_transliteration": "'asher zar`o vo",
+          "gloss": "whose seed is in itself"
         },
         {
           "ref": "Gen.1.29",
           "surface_form": "אֲשֶׁר",
           "transliteration": "'asher",
           "word_id": "01HWo",
-          "verse_hebrew": "וַיֹּאמֶר אֱלֹהִים הִנֵּה נָתַתִּי לָכֶם אֶת כָּל עֵשֶׂב זֹרֵעַ זֶרַע אֲשֶׁר עַל פְּנֵי כָל הָאָרֶץ וְאֶת כָּל הָעֵץ אֲשֶׁר בּוֹ פְרִי עֵץ זֹרֵעַ זָרַע לָכֶם יִֽהְיֶה לְאָכְלָֽה",
-          "verse_transliteration": "wayo'mer 'elohim hineh natati lakhem 'et kal `esev zorea` zera` 'asher `al peney khal ha'arets we'et kal ha`ets 'asher bo feri `ets zorea` zara` lakhem yihyeh le'akhlah",
+          "phrase_hebrew": "כָּל עֵשֶׂב זֹרֵעַ זֶרַע אֲשֶׁר עַל פְּנֵי כָל הָאָרֶץ",
+          "phrase_transliteration": "kal `esev zorea` zera` 'asher `al peney khal ha'arets",
           "gloss": "every plant that is on the face of the earth"
         },
         {
@@ -325,8 +326,8 @@
           "surface_form": "אֲשֶׁר",
           "transliteration": "'asher",
           "word_id": "01Doj",
-          "verse_hebrew": "וַיִּצֶר יְהוָה אֱלֹהִים מִן הָֽאֲדָמָה כָּל חַיַּת הַשָּׂדֶה וְאֵת כָּל עוֹף הַשָּׁמַיִם וַיָּבֵא אֶל הָאָדָם לִרְאוֹת מַה יִּקְרָא לוֹ וְכֹל אֲשֶׁר יִקְרָא לוֹ הָֽאָדָם נֶפֶשׁ חַיָּה הוּא שְׁמֽוֹ",
-          "verse_transliteration": "wayitser yehwah 'elohim min ha'adamah kal khayat hasadeh we'et kal `of hashamayim wayave' 'el ha'adam lir'ot mah yiqra' lo wekhol 'asher yiqra' lo ha'adam nefesh khayah hu' shemo",
+          "phrase_hebrew": "וְכֹל אֲשֶׁר יִקְרָא לוֹ הָֽאָדָם",
+          "phrase_transliteration": "wekhol 'asher yiqra' lo ha'adam",
           "gloss": "whatever the man called each creature"
         }
       ]
@@ -343,8 +344,8 @@
           "surface_form": "לֹא",
           "transliteration": "lo'",
           "word_id": "01j8W",
-          "verse_hebrew": "וּמֵעֵץ הַדַּעַת טוֹב וָרָע לֹא תֹאכַל מִמֶּנּוּ כִּי בְּיוֹם אֲכָלְךָ מִמֶּנּוּ מוֹת תָּמֽוּת",
-          "verse_transliteration": "ume`ets hada`at tov wara` lo' to'khal mimenu ki beyom 'akhalkha mimenu mot tamut",
+          "phrase_hebrew": "לֹא תֹאכַל מִמֶּנּוּ",
+          "phrase_transliteration": "lo' to'khal mimenu",
           "gloss": "you shall not eat from it"
         },
         {
@@ -352,8 +353,8 @@
           "surface_form": "לֹא",
           "transliteration": "lo'",
           "word_id": "01SGf",
-          "verse_hebrew": "וַיֹּאמֶר יְהוָה אֱלֹהִים לֹא טוֹב הֱיוֹת הָֽאָדָם לְבַדּוֹ אֶֽעֱשֶׂהּ לּוֹ עֵזֶר כְּנֶגְדּֽוֹ",
-          "verse_transliteration": "wayo'mer yehwah 'elohim lo' tov heyot ha'adam levado 'e`eseh lo `ezer kenegdo",
+          "phrase_hebrew": "לֹא טוֹב הֱיוֹת הָֽאָדָם לְבַדּוֹ",
+          "phrase_transliteration": "lo' tov heyot ha'adam levado",
           "gloss": "it is not good for the man to be alone"
         },
         {
@@ -361,8 +362,8 @@
           "surface_form": "וְלֹא",
           "transliteration": "welo'",
           "word_id": "01fE2",
-          "verse_hebrew": "וַיִּֽהְיוּ שְׁנֵיהֶם עֲרוּמִּים הָֽאָדָם וְאִשְׁתּוֹ וְלֹא יִתְבֹּשָֽׁשׁוּ",
-          "verse_transliteration": "wayihyu sheneyhem `arumim ha'adam we'ishto welo' yitboshashu",
+          "phrase_hebrew": "וְלֹא יִתְבֹּשָֽׁשׁוּ",
+          "phrase_transliteration": "welo' yitboshashu",
           "gloss": "and they were not ashamed"
         }
       ]
@@ -379,8 +380,8 @@
           "surface_form": "כִּי",
           "transliteration": "ki",
           "word_id": "01qCU",
-          "verse_hebrew": "וַיַּרְא אֱלֹהִים אֶת הָאוֹר כִּי טוֹב וַיַּבְדֵּל אֱלֹהִים בֵּין הָאוֹר וּבֵין הַחֹֽשֶׁךְ",
-          "verse_transliteration": "wayar' 'elohim 'et ha'or ki tov wayavdel 'elohim beyn ha'or uveyn hakhoshekh",
+          "phrase_hebrew": "וַיַּרְא אֱלֹהִים אֶת הָאוֹר כִּי טוֹב",
+          "phrase_transliteration": "wayar' 'elohim 'et ha'or ki tov",
           "gloss": "God saw the light, that it was good"
         },
         {
@@ -388,8 +389,8 @@
           "surface_form": "כִּי",
           "transliteration": "ki",
           "word_id": "01WJY",
-          "verse_hebrew": "וְכֹל שִׂיחַ הַשָּׂדֶה טֶרֶם יִֽהְיֶה בָאָרֶץ וְכָל עֵשֶׂב הַשָּׂדֶה טֶרֶם יִצְמָח כִּי לֹא הִמְטִיר יְהוָה אֱלֹהִים עַל הָאָרֶץ וְאָדָם אַיִן לַֽעֲבֹד אֶת הָֽאֲדָמָֽה",
-          "verse_transliteration": "wekhol siakh hasadeh terem yihyeh va'arets wekhal `esev hasadeh terem yitsmakh ki lo' himtir yehwah 'elohim `al ha'arets we'adam 'ayin la`avod 'et ha'adamah",
+          "phrase_hebrew": "כִּי לֹא הִמְטִיר יְהוָה אֱלֹהִים",
+          "phrase_transliteration": "ki lo' himtir yehwah 'elohim",
           "gloss": "because the LORD God had not sent rain"
         },
         {
@@ -397,8 +398,8 @@
           "surface_form": "כִּי",
           "transliteration": "ki",
           "word_id": "01T97",
-          "verse_hebrew": "וַתֵּרֶא הָֽאִשָּׁה כִּי טוֹב הָעֵץ לְמַאֲכָל וְכִי תַֽאֲוָה הוּא לָעֵינַיִם וְנֶחְמָד הָעֵץ לְהַשְׂכִּיל וַתִּקַּח מִפִּרְיוֹ וַתֹּאכַל וַתִּתֵּן גַּם לְאִישָׁהּ עִמָּהּ וַיֹּאכַֽל",
-          "verse_transliteration": "watere' ha'ishah ki tov ha`ets lema'akhal wekhi ta'awah hu' la`eynayim wenekhmad ha`ets lehaskil watiqakh mipiryo wato'khal watiten gam le'ishah `imah wayo'khal",
+          "phrase_hebrew": "וַתֵּרֶא הָֽאִשָּׁה כִּי טוֹב הָעֵץ",
+          "phrase_transliteration": "watere' ha'ishah ki tov ha`ets",
           "gloss": "she saw that the tree was good"
         },
         {
@@ -406,8 +407,8 @@
           "surface_form": "כִּי",
           "transliteration": "ki",
           "word_id": "01tA5",
-          "verse_hebrew": "כִּי תַֽעֲבֹד אֶת הָאֲדָמָה לֹֽא תֹסֵף תֵּת כֹּחָהּ לָךְ נָע וָנָד תִּֽהְיֶה בָאָֽרֶץ",
-          "verse_transliteration": "ki ta`avod 'et ha'adamah lo' tosef tet kokhah lakh na` wanad tihyeh va'arets",
+          "phrase_hebrew": "כִּי תַֽעֲבֹד אֶת הָאֲדָמָה לֹֽא תֹסֵף תֵּת כֹּחָהּ לָךְ",
+          "phrase_transliteration": "ki ta`avod 'et ha'adamah lo' tosef tet kokhah lakh",
           "gloss": "when you work the ground, it will no longer yield"
         }
       ]
@@ -424,8 +425,8 @@
           "surface_form": "כִּדְמוּתֵנוּ",
           "transliteration": "kidmutenu",
           "word_id": "01HSQ",
-          "verse_hebrew": "וַיֹּאמֶר אֱלֹהִים נַֽעֲשֶׂה אָדָם בְּצַלְמֵנוּ כִּדְמוּתֵנוּ וְיִרְדּוּ בִדְגַת הַיָּם וּבְעוֹף הַשָּׁמַיִם וּבַבְּהֵמָה וּבְכָל הָאָרֶץ וּבְכָל הָרֶמֶשׂ הָֽרֹמֵשׂ עַל הָאָֽרֶץ",
-          "verse_transliteration": "wayo'mer 'elohim na`aseh 'adam betsalmenu kidmutenu weyirdu vidgat hayam uv`of hashamayim uvabhemah uvkhal ha'arets uvkhal haremes haromes `al ha'arets",
+          "phrase_hebrew": "נַֽעֲשֶׂה אָדָם בְּצַלְמֵנוּ כִּדְמוּתֵנוּ",
+          "phrase_transliteration": "na`aseh 'adam betsalmenu kidmutenu",
           "gloss": "let us make man in our image, as our likeness"
         },
         {
@@ -433,8 +434,8 @@
           "surface_form": "כְּנֶגְדּֽוֹ",
           "transliteration": "kenegdo",
           "word_id": "01Wyn",
-          "verse_hebrew": "וַיֹּאמֶר יְהוָה אֱלֹהִים לֹא טוֹב הֱיוֹת הָֽאָדָם לְבַדּוֹ אֶֽעֱשֶׂהּ לּוֹ עֵזֶר כְּנֶגְדּֽוֹ",
-          "verse_transliteration": "wayo'mer yehwah 'elohim lo' tov heyot ha'adam levado 'e`eseh lo `ezer kenegdo",
+          "phrase_hebrew": "אֶֽעֱשֶׂהּ לּוֹ עֵזֶר כְּנֶגְדּֽוֹ",
+          "phrase_transliteration": "'e`eseh lo `ezer kenegdo",
           "gloss": "I will make a helper corresponding to him"
         },
         {
@@ -442,8 +443,8 @@
           "surface_form": "כֵּֽאלֹהִים",
           "transliteration": "ke'lohim",
           "word_id": "01RUp",
-          "verse_hebrew": "כִּי יֹדֵעַ אֱלֹהִים כִּי בְּיוֹם אֲכָלְכֶם מִמֶּנּוּ וְנִפְקְחוּ עֵֽינֵיכֶם וִהְיִיתֶם כֵּֽאלֹהִים יֹדְעֵי טוֹב וָרָֽע",
-          "verse_transliteration": "ki yodea` 'elohim ki beyom 'akhalkhem mimenu wenifqekhu `eyneykhem wihyitem ke'lohim yod`ey tov wara`",
+          "phrase_hebrew": "וִהְיִיתֶם כֵּֽאלֹהִים יֹדְעֵי טוֹב וָרָֽע",
+          "phrase_transliteration": "wihyitem ke'lohim yod`ey tov wara`",
           "gloss": "you will be like God, knowing good and evil"
         }
       ]
@@ -460,8 +461,8 @@
           "surface_form": "עַד",
           "transliteration": "`ad",
           "word_id": "01JyU",
-          "verse_hebrew": "בְּזֵעַת אַפֶּיךָ תֹּאכַל לֶחֶם עַד שֽׁוּבְךָ אֶל הָאֲדָמָה כִּי מִמֶּנָּה לֻקָּחְתָּ כִּֽי עָפָר אַתָּה וְאֶל עָפָר תָּשֽׁוּב",
-          "verse_transliteration": "beze`at 'apeykha to'khal lekhem `ad shuvkha 'el ha'adamah ki mimenah luqakhta ki `afar 'atah we'el `afar tashuv",
+          "phrase_hebrew": "עַד שֽׁוּבְךָ אֶל הָאֲדָמָה",
+          "phrase_transliteration": "`ad shuvkha 'el ha'adamah",
           "gloss": "until you return to the ground"
         },
         {
@@ -469,8 +470,8 @@
           "surface_form": "עַד",
           "transliteration": "`ad",
           "word_id": "01euh",
-          "verse_hebrew": "וַיִּקַּח תֶּרַח אֶת אַבְרָם בְּנוֹ וְאֶת לוֹט בֶּן הָרָן בֶּן בְּנוֹ וְאֵת שָׂרַי כַּלָּתוֹ אֵשֶׁת אַבְרָם בְּנוֹ וַיֵּצְאוּ אִתָּם מֵאוּר כַּשְׂדִּים לָלֶכֶת אַרְצָה כְּנַעַן וַיָּבֹאוּ עַד חָרָן וַיֵּשְׁבוּ שָֽׁם",
-          "verse_transliteration": "wayiqakh terakh 'et 'avram beno we'et lot ben haran ben beno we'et saray kalato 'eshet 'avram beno wayets'u 'itam me'ur kasdim lalekhet 'artsah kena`an wayavo'u `ad kharan wayeshvu sham",
+          "phrase_hebrew": "וַיָּבֹאוּ עַד חָרָן וַיֵּשְׁבוּ שָֽׁם",
+          "phrase_transliteration": "wayavo'u `ad kharan wayeshvu sham",
           "gloss": "they came as far as Haran, and settled there"
         },
         {
@@ -478,8 +479,8 @@
           "surface_form": "עַד",
           "transliteration": "`ad",
           "word_id": "01shT",
-          "verse_hebrew": "כִּי אֶת כָּל הָאָרֶץ אֲשֶׁר אַתָּה רֹאֶה לְךָ אֶתְּנֶנָּה וּֽלְזַרְעֲךָ עַד עוֹלָֽם",
-          "verse_transliteration": "ki 'et kal ha'arets 'asher 'atah ro'eh lekha 'etnenah ulzar`akha `ad `olam",
+          "phrase_hebrew": "אֶתְּנֶנָּה וּֽלְזַרְעֲךָ עַד עוֹלָֽם",
+          "phrase_transliteration": "'etnenah ulzar`akha `ad `olam",
           "gloss": "I will give it to you and your offspring forever"
         }
       ]
@@ -496,8 +497,8 @@
           "surface_form": "מִן",
           "transliteration": "min",
           "word_id": "01CFo",
-          "verse_hebrew": "וַיִּיצֶר יְהוָה אֱלֹהִים אֶת הָֽאָדָם עָפָר מִן הָאֲדָמָה וַיִּפַּח בְּאַפָּיו נִשְׁמַת חַיִּים וַֽיְהִי הָֽאָדָם לְנֶפֶשׁ חַיָּֽה",
-          "verse_transliteration": "wayitser yehwah 'elohim 'et ha'adam `afar min ha'adamah wayipakh be'apayw nishmat khayim wayhi ha'adam lenefesh khayah",
+          "phrase_hebrew": "אֶת הָֽאָדָם עָפָר מִן הָאֲדָמָה",
+          "phrase_transliteration": "'et ha'adam `afar min ha'adamah",
           "gloss": "the man, dust from the ground"
         },
         {
@@ -505,8 +506,8 @@
           "surface_form": "מִמֶּנּוּ",
           "transliteration": "mimenu",
           "word_id": "019Yh",
-          "verse_hebrew": "וּמֵעֵץ הַדַּעַת טוֹב וָרָע לֹא תֹאכַל מִמֶּנּוּ כִּי בְּיוֹם אֲכָלְךָ מִמֶּנּוּ מוֹת תָּמֽוּת",
-          "verse_transliteration": "ume`ets hada`at tov wara` lo' to'khal mimenu ki beyom 'akhalkha mimenu mot tamut",
+          "phrase_hebrew": "לֹא תֹאכַל מִמֶּנּוּ",
+          "phrase_transliteration": "lo' to'khal mimenu",
           "gloss": "you shall not eat from it"
         },
         {
@@ -514,8 +515,8 @@
           "surface_form": "מִן",
           "transliteration": "min",
           "word_id": "01x5W",
-          "verse_hebrew": "וַיִּבֶן יְהוָה אֱלֹהִים אֶֽת הַצֵּלָע אֲשֶׁר לָקַח מִן הָֽאָדָם לְאִשָּׁה וַיְבִאֶהָ אֶל הָֽאָדָֽם",
-          "verse_transliteration": "wayiven yehwah 'elohim 'et hatsela` 'asher laqakh min ha'adam le'ishah wayvi'eha 'el ha'adam",
+          "phrase_hebrew": "הַצֵּלָע אֲשֶׁר לָקַח מִן הָֽאָדָם",
+          "phrase_transliteration": "hatsela` 'asher laqakh min ha'adam",
           "gloss": "the rib that he had taken from the man"
         }
       ]
@@ -532,8 +533,8 @@
           "surface_form": "אִם",
           "transliteration": "'im",
           "word_id": "01DK9",
-          "verse_hebrew": "הֲלוֹא אִם תֵּיטִיב שְׂאֵת וְאִם לֹא תֵיטִיב לַפֶּתַח חַטָּאת רֹבֵץ וְאֵלֶיךָ תְּשׁוּקָתוֹ וְאַתָּה תִּמְשָׁל בּֽוֹ",
-          "verse_transliteration": "halo' 'im teytiv se'et we'im lo' teytiv lapetakh khata't rovets we'eleykha teshuqato we'atah timshal bo",
+          "phrase_hebrew": "הֲלוֹא אִם תֵּיטִיב שְׂאֵת",
+          "phrase_transliteration": "halo' 'im teytiv se'et",
           "gloss": "if you do well, will you not be accepted?"
         },
         {
@@ -541,8 +542,8 @@
           "surface_form": "אִם",
           "transliteration": "'im",
           "word_id": "01cHs",
-          "verse_hebrew": "וַיֹּאמַר אֲדֹנָי אִם נָא מָצָאתִי חֵן בְּעֵינֶיךָ אַל נָא תַעֲבֹר מֵעַל עַבְדֶּֽךָ",
-          "verse_transliteration": "wayo'mar 'adonay 'im na' matsa'ti khen be`eyneykha 'al na' ta`avor me`al `avdekha",
+          "phrase_hebrew": "אִם נָא מָצָאתִי חֵן בְּעֵינֶיךָ",
+          "phrase_transliteration": "'im na' matsa'ti khen be`eyneykha",
           "gloss": "if now I have found favor in your eyes"
         },
         {
@@ -550,8 +551,8 @@
           "surface_form": "אִם",
           "transliteration": "'im",
           "word_id": "01Vio",
-          "verse_hebrew": "וַיֹּאמֶר יְהוָה אִם אֶמְצָא בִסְדֹם חֲמִשִּׁים צַדִּיקִם בְּתוֹךְ הָעִיר וְנָשָׂאתִי לְכָל הַמָּקוֹם בַּעֲבוּרָֽם",
-          "verse_transliteration": "wayo'mer yehwah 'im 'emtsa' visdom khamishim tsadiqim betokh ha`ir wenasa'ti lekhal hamaqom ba`avuram",
+          "phrase_hebrew": "אִם אֶמְצָא בִסְדֹם חֲמִשִּׁים צַדִּיקִם בְּתוֹךְ הָעִיר",
+          "phrase_transliteration": "'im 'emtsa' visdom khamishim tsadiqim betokh ha`ir",
           "gloss": "if I find fifty righteous within the city"
         }
       ]
@@ -568,17 +569,17 @@
           "surface_form": "עִמּוֹ",
           "transliteration": "`imo",
           "word_id": "01eVQ",
-          "verse_hebrew": "וַיַּעַל אַבְרָם מִמִּצְרַיִם הוּא וְאִשְׁתּוֹ וְכָל אֲשֶׁר לוֹ וְלוֹט עִמּוֹ הַנֶּֽגְבָּה",
-          "verse_transliteration": "waya`al 'avram mimitsrayim hu' we'ishto wekhal 'asher lo welot `imo hanegbah",
-          "gloss": "and Lot went with him"
+          "phrase_hebrew": "וְלוֹט עִמּוֹ",
+          "phrase_transliteration": "welot `imo",
+          "gloss": "Lot was with him"
         },
         {
           "ref": "Gen.18.23",
           "surface_form": "עִם",
           "transliteration": "`im",
           "word_id": "01dDG",
-          "verse_hebrew": "וַיִּגַּשׁ אַבְרָהָם וַיֹּאמַר הַאַף תִּסְפֶּה צַדִּיק עִם רָשָֽׁע",
-          "verse_transliteration": "wayigash 'avraham wayo'mar ha'af tispeh tsadiq `im rasha`",
+          "phrase_hebrew": "תִּסְפֶּה צַדִּיק עִם רָשָֽׁע",
+          "phrase_transliteration": "tispeh tsadiq `im rasha`",
           "gloss": "will you sweep away the righteous with the wicked?"
         },
         {
@@ -586,8 +587,8 @@
           "surface_form": "עִם",
           "transliteration": "`im",
           "word_id": "01otC",
-          "verse_hebrew": "וַיֹּאמַר יְהוָה אֱלֹהֵי אֲדֹנִי אַבְרָהָם הַקְרֵה נָא לְפָנַי הַיּוֹם וַעֲשֵׂה חֶסֶד עִם אֲדֹנִי אַבְרָהָֽם",
-          "verse_transliteration": "wayo'mar yehwah 'elohey 'adoni 'avraham haqreh na' lefanay hayom wa`aseh khesed `im 'adoni 'avraham",
+          "phrase_hebrew": "וַעֲשֵׂה חֶסֶד עִם אֲדֹנִי אַבְרָהָֽם",
+          "phrase_transliteration": "wa`aseh khesed `im 'adoni 'avraham",
           "gloss": "show steadfast love with my master"
         }
       ]
@@ -604,8 +605,8 @@
           "surface_form": "אִתָּךְ",
           "transliteration": "'itakh",
           "word_id": "014Zw",
-          "verse_hebrew": "וַהֲקִמֹתִי אֶת בְּרִיתִי אִתָּךְ וּבָאתָ אֶל הַתֵּבָה אַתָּה וּבָנֶיךָ וְאִשְׁתְּךָ וּנְשֵֽׁי בָנֶיךָ אִתָּֽךְ",
-          "verse_transliteration": "wahaqimoti 'et beriti 'itakh uva'ta 'el hatevah 'atah uvaneykha we'ishtekha unshey vaneykha 'itakh",
+          "phrase_hebrew": "וַהֲקִמֹתִי אֶת בְּרִיתִי אִתָּךְ",
+          "phrase_transliteration": "wahaqimoti 'et beriti 'itakh",
           "gloss": "I will establish my covenant with you"
         },
         {
@@ -613,17 +614,17 @@
           "surface_form": "אִתּוֹ",
           "transliteration": "'ito",
           "word_id": "012iX",
-          "verse_hebrew": "וַיָּבֹא נֹחַ וּבָנָיו וְאִשְׁתּוֹ וּנְשֵֽׁי בָנָיו אִתּוֹ אֶל הַתֵּבָה מִפְּנֵי מֵי הַמַּבּֽוּל",
-          "verse_transliteration": "wayavo' noakh uvanayw we'ishto unshey vanayw 'ito 'el hatevah mipney mey hamabul",
-          "gloss": "Noah and his sons and his wife... with him"
+          "phrase_hebrew": "נֹחַ וּבָנָיו וְאִשְׁתּוֹ וּנְשֵֽׁי בָנָיו אִתּוֹ",
+          "phrase_transliteration": "noakh uvanayw we'ishto unshey vanayw 'ito",
+          "gloss": "Noah, his sons, his wife, and his sons' wives -- with him"
         },
         {
           "ref": "Gen.9.9",
           "surface_form": "אִתְּכֶם",
           "transliteration": "'itkhem",
           "word_id": "014wk",
-          "verse_hebrew": "וַאֲנִי הִנְנִי מֵקִים אֶת בְּרִיתִי אִתְּכֶם וְאֶֽת זַרְעֲכֶם אַֽחֲרֵיכֶֽם",
-          "verse_transliteration": "wa'ani hinni meqim 'et beriti 'itkhem we'et zar`akhem 'akhareykhem",
+          "phrase_hebrew": "מֵקִים אֶת בְּרִיתִי אִתְּכֶם",
+          "phrase_transliteration": "meqim 'et beriti 'itkhem",
           "gloss": "I am establishing my covenant with you"
         }
       ]
@@ -640,17 +641,17 @@
           "surface_form": "הִנֵּה",
           "transliteration": "hineh",
           "word_id": "01Ygn",
-          "verse_hebrew": "וַיֹּאמֶר אֱלֹהִים הִנֵּה נָתַתִּי לָכֶם אֶת כָּל עֵשֶׂב זֹרֵעַ זֶרַע אֲשֶׁר עַל פְּנֵי כָל הָאָרֶץ וְאֶת כָּל הָעֵץ אֲשֶׁר בּוֹ פְרִי עֵץ זֹרֵעַ זָרַע לָכֶם יִֽהְיֶה לְאָכְלָֽה",
-          "verse_transliteration": "wayo'mer 'elohim hineh natati lakhem 'et kal `esev zorea` zera` 'asher `al peney khal ha'arets we'et kal ha`ets 'asher bo feri `ets zorea` zara` lakhem yihyeh le'akhlah",
-          "gloss": "behold, I have given you every plant"
+          "phrase_hebrew": "הִנֵּה נָתַתִּי לָכֶם",
+          "phrase_transliteration": "hineh natati lakhem",
+          "gloss": "behold, I have given [it] to you"
         },
         {
           "ref": "Gen.1.31",
           "surface_form": "וְהִנֵּה",
           "transliteration": "wehineh",
           "word_id": "01JUf",
-          "verse_hebrew": "וַיַּרְא אֱלֹהִים אֶת כָּל אֲשֶׁר עָשָׂה וְהִנֵּה טוֹב מְאֹד וַֽיְהִי עֶרֶב וַֽיְהִי בֹקֶר יוֹם הַשִּׁשִּֽׁי",
-          "verse_transliteration": "wayar' 'elohim 'et kal 'asher `asah wehineh tov me'od wayhi `erev wayhi voqer yom hashishi",
+          "phrase_hebrew": "וְהִנֵּה טוֹב מְאֹד",
+          "phrase_transliteration": "wehineh tov me'od",
           "gloss": "and behold, it was very good"
         },
         {
@@ -658,8 +659,8 @@
           "surface_form": "הִנְנִי",
           "transliteration": "hinni",
           "word_id": "01CXn",
-          "verse_hebrew": "וַאֲנִי הִנְנִי מֵבִיא אֶת הַמַּבּוּל מַיִם עַל הָאָרֶץ לְשַׁחֵת כָּל בָּשָׂר אֲשֶׁר בּוֹ רוּחַ חַיִּים מִתַּחַת הַשָּׁמָיִם כֹּל אֲשֶׁר בָּאָרֶץ יִגְוָֽע",
-          "verse_transliteration": "wa'ani hinni mevi' 'et hamabul mayim `al ha'arets leshakhet kal basar 'asher bo ruakh khayim mitakhat hashamayim kol 'asher ba'arets yigwa`",
+          "phrase_hebrew": "וַאֲנִי הִנְנִי מֵבִיא אֶת הַמַּבּוּל",
+          "phrase_transliteration": "wa'ani hinni mevi' 'et hamabul",
           "gloss": "behold, I am bringing the flood"
         }
       ]
@@ -676,8 +677,8 @@
           "surface_form": "אַיִן",
           "transliteration": "'ayin",
           "word_id": "01Pht",
-          "verse_hebrew": "וְכֹל שִׂיחַ הַשָּׂדֶה טֶרֶם יִֽהְיֶה בָאָרֶץ וְכָל עֵשֶׂב הַשָּׂדֶה טֶרֶם יִצְמָח כִּי לֹא הִמְטִיר יְהוָה אֱלֹהִים עַל הָאָרֶץ וְאָדָם אַיִן לַֽעֲבֹד אֶת הָֽאֲדָמָֽה",
-          "verse_transliteration": "wekhol siakh hasadeh terem yihyeh va'arets wekhal `esev hasadeh terem yitsmakh ki lo' himtir yehwah 'elohim `al ha'arets we'adam 'ayin la`avod 'et ha'adamah",
+          "phrase_hebrew": "וְאָדָם אַיִן לַֽעֲבֹד אֶת הָֽאֲדָמָֽה",
+          "phrase_transliteration": "we'adam 'ayin la`avod 'et ha'adamah",
           "gloss": "and there was no man to work the ground"
         },
         {
@@ -685,8 +686,8 @@
           "surface_form": "וְאֵינֶנּוּ",
           "transliteration": "we'eynenu",
           "word_id": "01Mos",
-          "verse_hebrew": "וַיִּתְהַלֵּךְ חֲנוֹךְ אֶת הָֽאֱלֹהִים וְאֵינֶנּוּ כִּֽי לָקַח אֹתוֹ אֱלֹהִֽים",
-          "verse_transliteration": "wayithalekh khanokh 'et ha'elohim we'eynenu ki laqakh 'oto 'elohim",
+          "phrase_hebrew": "וְאֵינֶנּוּ כִּֽי לָקַח אֹתוֹ אֱלֹהִֽים",
+          "phrase_transliteration": "we'eynenu ki laqakh 'oto 'elohim",
           "gloss": "and he was not, for God took him"
         },
         {
@@ -694,8 +695,8 @@
           "surface_form": "אֵין",
           "transliteration": "'eyn",
           "word_id": "017pd",
-          "verse_hebrew": "וַתְּהִי שָׂרַי עֲקָרָה אֵין לָהּ וָלָֽד",
-          "verse_transliteration": "wathi saray `aqarah 'eyn lah walad",
+          "phrase_hebrew": "שָׂרַי עֲקָרָה אֵין לָהּ וָלָֽד",
+          "phrase_transliteration": "saray `aqarah 'eyn lah walad",
           "gloss": "Sarai was barren; she had no child"
         }
       ]
@@ -712,8 +713,8 @@
           "surface_form": "כֵֽן",
           "transliteration": "khen",
           "word_id": "01n5f",
-          "verse_hebrew": "וַיַּעַשׂ אֱלֹהִים אֶת הָרָקִיעַ וַיַּבְדֵּל בֵּין הַמַּיִם אֲשֶׁר מִתַּחַת לָרָקִיעַ וּבֵין הַמַּיִם אֲשֶׁר מֵעַל לָרָקִיעַ וַֽיְהִי כֵֽן",
-          "verse_transliteration": "waya`as 'elohim 'et haraqia` wayavdel beyn hamayim 'asher mitakhat laraqia` uveyn hamayim 'asher me`al laraqia` wayhi khen",
+          "phrase_hebrew": "וַֽיְהִי כֵֽן",
+          "phrase_transliteration": "wayhi khen",
           "gloss": "and it was so"
         },
         {
@@ -721,8 +722,8 @@
           "surface_form": "כֵּן",
           "transliteration": "ken",
           "word_id": "01d1k",
-          "verse_hebrew": "עַל כֵּן יַֽעֲזָב אִישׁ אֶת אָבִיו וְאֶת אִמּוֹ וְדָבַק בְּאִשְׁתּוֹ וְהָיוּ לְבָשָׂר אֶחָֽד",
-          "verse_transliteration": "`al ken ya`azav 'ish 'et 'aviw we'et 'imo wedavaq be'ishto wehayu levasar 'ekhad",
+          "phrase_hebrew": "עַל כֵּן יַֽעֲזָב אִישׁ אֶת אָבִיו וְאֶת אִמּוֹ",
+          "phrase_transliteration": "`al ken ya`azav 'ish 'et 'aviw we'et 'imo",
           "gloss": "therefore a man leaves his father and mother"
         },
         {
@@ -730,8 +731,8 @@
           "surface_form": "כֵּן",
           "transliteration": "ken",
           "word_id": "01VnV",
-          "verse_hebrew": "וַיַּעַשׂ נֹחַ כְּכֹל אֲשֶׁר צִוָּה אֹתוֹ אֱלֹהִים כֵּן עָשָֽׂה",
-          "verse_transliteration": "waya`as noakh kekhol 'asher tsiwah 'oto 'elohim ken `asah",
+          "phrase_hebrew": "כְּכֹל אֲשֶׁר צִוָּה אֹתוֹ אֱלֹהִים כֵּן עָשָֽׂה",
+          "phrase_transliteration": "kekhol 'asher tsiwah 'oto 'elohim ken `asah",
           "gloss": "just as God commanded him, so he did"
         }
       ]
@@ -748,8 +749,8 @@
           "surface_form": "גַּם",
           "transliteration": "gam",
           "word_id": "01Bxn",
-          "verse_hebrew": "וַתֵּרֶא הָֽאִשָּׁה כִּי טוֹב הָעֵץ לְמַאֲכָל וְכִי תַֽאֲוָה הוּא לָעֵינַיִם וְנֶחְמָד הָעֵץ לְהַשְׂכִּיל וַתִּקַּח מִפִּרְיוֹ וַתֹּאכַל וַתִּתֵּן גַּם לְאִישָׁהּ עִמָּהּ וַיֹּאכַֽל",
-          "verse_transliteration": "watere' ha'ishah ki tov ha`ets lema'akhal wekhi ta'awah hu' la`eynayim wenekhmad ha`ets lehaskil watiqakh mipiryo wato'khal watiten gam le'ishah `imah wayo'khal",
+          "phrase_hebrew": "וַתִּתֵּן גַּם לְאִישָׁהּ עִמָּהּ",
+          "phrase_transliteration": "watiten gam le'ishah `imah",
           "gloss": "she gave some to her husband also"
         },
         {
@@ -757,8 +758,8 @@
           "surface_form": "גַם",
           "transliteration": "gam",
           "word_id": "01xRR",
-          "verse_hebrew": "וְהֶבֶל הֵבִיא גַם הוּא מִבְּכֹרוֹת צֹאנוֹ וּמֵֽחֶלְבֵהֶן וַיִּשַׁע יְהוָה אֶל הֶבֶל וְאֶל מִנְחָתֽוֹ",
-          "verse_transliteration": "wehevel hevi' gam hu' mibkhorot tso'no umekhelvehen wayisha` yehwah 'el hevel we'el minkhato",
+          "phrase_hebrew": "וְהֶבֶל הֵבִיא גַם",
+          "phrase_transliteration": "wehevel hevi' gam",
           "gloss": "Abel also brought [an offering]"
         },
         {
@@ -766,8 +767,8 @@
           "surface_form": "גַּם",
           "transliteration": "gam",
           "word_id": "01cMr",
-          "verse_hebrew": "וּלְשֵׁת גַּם הוּא יֻלַּד בֵּן וַיִּקְרָא אֶת שְׁמוֹ אֱנוֹשׁ אָז הוּחַל לִקְרֹא בְּשֵׁם יְהוָֽה",
-          "verse_transliteration": "ulshet gam hu' yulad ben wayiqra' 'et shemo 'enosh 'az hukhal liqro' beshem yehwah",
+          "phrase_hebrew": "וּלְשֵׁת גַּם הוּא יֻלַּד בֵּן",
+          "phrase_transliteration": "ulshet gam hu' yulad ben",
           "gloss": "to Seth also a son was born"
         }
       ]
@@ -784,8 +785,8 @@
           "surface_form": "מַה",
           "transliteration": "mah",
           "word_id": "01gjk",
-          "verse_hebrew": "וַיֹּאמֶר יְהוָה אֱלֹהִים לָאִשָּׁה מַה זֹּאת עָשִׂית וַתֹּאמֶר הָֽאִשָּׁה הַנָּחָשׁ הִשִּׁיאַנִי וָאֹכֵֽל",
-          "verse_transliteration": "wayo'mer yehwah 'elohim la'ishah mah zo't `asit wato'mer ha'ishah hanakhash hishi'ani wa'okhel",
+          "phrase_hebrew": "מַה זֹּאת עָשִׂית",
+          "phrase_transliteration": "mah zo't `asit",
           "gloss": "what is this you have done?"
         },
         {
@@ -793,8 +794,8 @@
           "surface_form": "מֶה",
           "transliteration": "meh",
           "word_id": "01iQS",
-          "verse_hebrew": "וַיֹּאמֶר מֶה עָשִׂיתָ קוֹל דְּמֵי אָחִיךָ צֹעֲקִים אֵלַי מִן הָֽאֲדָמָֽה",
-          "verse_transliteration": "wayo'mer meh `asita qol demey 'akhikha tso`aqim 'elay min ha'adamah",
+          "phrase_hebrew": "מֶה עָשִׂיתָ",
+          "phrase_transliteration": "meh `asita",
           "gloss": "what have you done?"
         },
         {
@@ -802,8 +803,8 @@
           "surface_form": "בַּמָּה",
           "transliteration": "bamah",
           "word_id": "01TkZ",
-          "verse_hebrew": "וַיֹּאמַר אֲדֹנָי יֱהוִה בַּמָּה אֵדַע כִּי אִֽירָשֶֽׁנָּה",
-          "verse_transliteration": "wayo'mar 'adonay yehwih bamah 'eda` ki 'irashenah",
+          "phrase_hebrew": "בַּמָּה אֵדַע",
+          "phrase_transliteration": "bamah 'eda`",
           "gloss": "by what shall I know [that I will possess it]?"
         }
       ]
@@ -820,8 +821,8 @@
           "surface_form": "אַל",
           "transliteration": "'al",
           "word_id": "013dA",
-          "verse_hebrew": "אַחַר הַדְּבָרִים הָאֵלֶּה הָיָה דְבַר יְהוָה אֶל אַבְרָם בַּֽמַּחֲזֶה לֵאמֹר אַל תִּירָא אַבְרָם אָנֹכִי מָגֵן לָךְ שְׂכָרְךָ הַרְבֵּה מְאֹֽד",
-          "verse_transliteration": "'akhar hadvarim ha'eleh hayah devar yehwah 'el 'avram bamakhazeh le'mor 'al tira' 'avram 'anokhi magen lakh sekharkha harbeh me'od",
+          "phrase_hebrew": "אַל תִּירָא אַבְרָם",
+          "phrase_transliteration": "'al tira' 'avram",
           "gloss": "do not be afraid, Abram"
         },
         {
@@ -829,8 +830,8 @@
           "surface_form": "אַל",
           "transliteration": "'al",
           "word_id": "01jTj",
-          "verse_hebrew": "וַיְהִי כְהוֹצִיאָם אֹתָם הַחוּצָה וַיֹּאמֶר הִמָּלֵט עַל נַפְשֶׁךָ אַל תַּבִּיט אַחֲרֶיךָ וְאַֽל תַּעֲמֹד בְּכָל הַכִּכָּר הָהָרָה הִמָּלֵט פֶּן תִּסָּפֶֽה",
-          "verse_transliteration": "wayhi khehotsi'am 'otam hakhutsah wayo'mer himalet `al nafshekha 'al tabit 'akhareykha we'al ta`amod bekhal hakikar haharah himalet pen tisafeh",
+          "phrase_hebrew": "אַל תַּבִּיט אַחֲרֶיךָ",
+          "phrase_transliteration": "'al tabit 'akhareykha",
           "gloss": "do not look behind you"
         },
         {
@@ -838,8 +839,8 @@
           "surface_form": "אַל",
           "transliteration": "'al",
           "word_id": "01XWM",
-          "verse_hebrew": "וַיֹּאמֶר אַל תִּשְׁלַח יָֽדְךָ אֶל הַנַּעַר וְאַל תַּעַשׂ לוֹ מְאוּמָּה כִּי עַתָּה יָדַעְתִּי כִּֽי יְרֵא אֱלֹהִים אַתָּה וְלֹא חָשַׂכְתָּ אֶת בִּנְךָ אֶת יְחִידְךָ מִמֶּֽנִּי",
-          "verse_transliteration": "wayo'mer 'al tishlakh yadkha 'el hana`ar we'al ta`as lo me'umah ki `atah yada`ti ki yere' 'elohim 'atah welo' khasakhta 'et binkha 'et yekhidkha mimeni",
+          "phrase_hebrew": "אַל תִּשְׁלַח יָֽדְךָ אֶל הַנַּעַר",
+          "phrase_transliteration": "'al tishlakh yadkha 'el hana`ar",
           "gloss": "do not stretch out your hand against the boy"
         }
       ]
@@ -856,8 +857,8 @@
           "surface_form": "אַֽחֲרֵי",
           "transliteration": "'akharey",
           "word_id": "01bcM",
-          "verse_hebrew": "וַיִּֽהְיוּ יְמֵי אָדָם אַֽחֲרֵי הוֹלִידוֹ אֶת שֵׁת שְׁמֹנֶה מֵאֹת שָׁנָה וַיּוֹלֶד בָּנִים וּבָנֽוֹת",
-          "verse_transliteration": "wayihyu yemey 'adam 'akharey holido 'et shet shemoneh me'ot shanah wayoled banim uvanot",
+          "phrase_hebrew": "יְמֵי אָדָם אַֽחֲרֵי הוֹלִידוֹ אֶת שֵׁת",
+          "phrase_transliteration": "yemey 'adam 'akharey holido 'et shet",
           "gloss": "the days of Adam, after he fathered Seth"
         },
         {
@@ -865,8 +866,8 @@
           "surface_form": "אַחַר",
           "transliteration": "'akhar",
           "word_id": "013iU",
-          "verse_hebrew": "וַֽיְחִי נֹחַ אַחַר הַמַּבּוּל שְׁלֹשׁ מֵאוֹת שָׁנָה וַֽחֲמִשִּׁים שָׁנָֽה",
-          "verse_transliteration": "waykhi noakh 'akhar hamabul shelosh me'ot shanah wakhamishim shanah",
+          "phrase_hebrew": "וַֽיְחִי נֹחַ אַחַר הַמַּבּוּל שְׁלֹשׁ מֵאוֹת שָׁנָה וַֽחֲמִשִּׁים שָׁנָֽה",
+          "phrase_transliteration": "waykhi noakh 'akhar hamabul shelosh me'ot shanah wakhamishim shanah",
           "gloss": "Noah lived after the flood 350 years"
         },
         {
@@ -874,8 +875,8 @@
           "surface_form": "וְאַחַר",
           "transliteration": "we'akhar",
           "word_id": "01Ps4",
-          "verse_hebrew": "וְאֶת הָֽאַרְוָדִי וְאֶת הַצְּמָרִי וְאֶת הַֽחֲמָתִי וְאַחַר נָפֹצוּ מִשְׁפְּחוֹת הַֽכְּנַעֲנִֽי",
-          "verse_transliteration": "we'et ha'arwadi we'et hatsmari we'et hakhamati we'akhar nafotsu mishpekhot hakna`ani",
+          "phrase_hebrew": "וְאַחַר נָפֹצוּ מִשְׁפְּחוֹת הַֽכְּנַעֲנִֽי",
+          "phrase_transliteration": "we'akhar nafotsu mishpekhot hakna`ani",
           "gloss": "and afterward the clans of the Canaanites dispersed"
         }
       ]
@@ -892,8 +893,8 @@
           "surface_form": "הֲמִן",
           "transliteration": "hamin",
           "word_id": "01GYp",
-          "verse_hebrew": "וַיֹּאמֶר מִי הִגִּיד לְךָ כִּי עֵירֹם אָתָּה הֲמִן הָעֵץ אֲשֶׁר צִוִּיתִיךָ לְבִלְתִּי אֲכָל מִמֶּנּוּ אָכָֽלְתָּ",
-          "verse_transliteration": "wayo'mer mi higid lekha ki `eyrom 'atah hamin ha`ets 'asher tsiwitikha levilti 'akhal mimenu 'akhalta",
+          "phrase_hebrew": "הֲמִן הָעֵץ אֲשֶׁר צִוִּיתִיךָ לְבִלְתִּי אֲכָל מִמֶּנּוּ אָכָֽלְתָּ",
+          "phrase_transliteration": "hamin ha`ets 'asher tsiwitikha levilti 'akhal mimenu 'akhalta",
           "gloss": "have you eaten from the tree...?"
         },
         {
@@ -901,8 +902,8 @@
           "surface_form": "הֲשֹׁמֵר",
           "transliteration": "hashomer",
           "word_id": "01caE",
-          "verse_hebrew": "וַיֹּאמֶר יְהוָה אֶל קַיִן אֵי הֶבֶל אָחִיךָ וַיֹּאמֶר לֹא יָדַעְתִּי הֲשֹׁמֵר אָחִי אָנֹֽכִי",
-          "verse_transliteration": "wayo'mer yehwah 'el qayin 'ey hevel 'akhikha wayo'mer lo' yada`ti hashomer 'akhi 'anokhi",
+          "phrase_hebrew": "הֲשֹׁמֵר אָחִי אָנֹֽכִי",
+          "phrase_transliteration": "hashomer 'akhi 'anokhi",
           "gloss": "Am I my brother's keeper?"
         },
         {
@@ -910,8 +911,8 @@
           "surface_form": "הֲיִפָּלֵא",
           "transliteration": "hayipale'",
           "word_id": "01Kzw",
-          "verse_hebrew": "הֲיִפָּלֵא מֵיְהוָה דָּבָר לַמּוֹעֵד אָשׁוּב אֵלֶיךָ כָּעֵת חַיָּה וּלְשָׂרָה בֵֽן",
-          "verse_transliteration": "hayipale' meyhwah davar lamo`ed 'ashuv 'eleykha ka`et khayah ulsarah ven",
+          "phrase_hebrew": "הֲיִפָּלֵא מֵיְהוָה דָּבָר",
+          "phrase_transliteration": "hayipale' meyhwah davar",
           "gloss": "Is anything too hard for the LORD?"
         }
       ]
@@ -928,8 +929,8 @@
           "surface_form": "מִתַּחַת",
           "transliteration": "mitakhat",
           "word_id": "01L4k",
-          "verse_hebrew": "וַיַּעַשׂ אֱלֹהִים אֶת הָרָקִיעַ וַיַּבְדֵּל בֵּין הַמַּיִם אֲשֶׁר מִתַּחַת לָרָקִיעַ וּבֵין הַמַּיִם אֲשֶׁר מֵעַל לָרָקִיעַ וַֽיְהִי כֵֽן",
-          "verse_transliteration": "waya`as 'elohim 'et haraqia` wayavdel beyn hamayim 'asher mitakhat laraqia` uveyn hamayim 'asher me`al laraqia` wayhi khen",
+          "phrase_hebrew": "הַמַּיִם אֲשֶׁר מִתַּחַת לָרָקִיעַ",
+          "phrase_transliteration": "hamayim 'asher mitakhat laraqia`",
           "gloss": "the water under the vault"
         },
         {
@@ -937,8 +938,8 @@
           "surface_form": "תַּחַת",
           "transliteration": "takhat",
           "word_id": "01vD2",
-          "verse_hebrew": "וַיֵּדַע אָדָם עוֹד אֶת אִשְׁתּוֹ וַתֵּלֶד בֵּן וַתִּקְרָא אֶת שְׁמוֹ שֵׁת כִּי שָֽׁת לִי אֱלֹהִים זֶרַע אַחֵר תַּחַת הֶבֶל כִּי הֲרָגוֹ קָֽיִן",
-          "verse_transliteration": "wayeda` 'adam `od 'et 'ishto wateled ben watiqra' 'et shemo shet ki shat li 'elohim zera` 'akher takhat hevel ki harago qayin",
+          "phrase_hebrew": "זֶרַע אַחֵר תַּחַת הֶבֶל",
+          "phrase_transliteration": "zera` 'akher takhat hevel",
           "gloss": "another offspring in place of Abel"
         },
         {
@@ -946,8 +947,8 @@
           "surface_form": "תַּחַת",
           "transliteration": "takhat",
           "word_id": "01oQN",
-          "verse_hebrew": "וַיִּשָּׂא אַבְרָהָם אֶת עֵינָיו וַיַּרְא וְהִנֵּה אַיִל אַחַר נֶאֱחַז בַּסְּבַךְ בְּקַרְנָיו וַיֵּלֶךְ אַבְרָהָם וַיִּקַּח אֶת הָאַיִל וַיַּעֲלֵהוּ לְעֹלָה תַּחַת בְּנֽוֹ",
-          "verse_transliteration": "wayisa' 'avraham 'et `eynayw wayar' wehineh 'ayil 'akhar ne'ekhaz basvakh beqarnayw wayelekh 'avraham wayiqakh 'et ha'ayil waya`alehu le`olah takhat beno",
+          "phrase_hebrew": "וַיַּעֲלֵהוּ לְעֹלָה תַּחַת בְּנֽוֹ",
+          "phrase_transliteration": "waya`alehu le`olah takhat beno",
           "gloss": "he offered it up... instead of his son"
         }
       ]
@@ -964,8 +965,8 @@
           "surface_form": "מִי",
           "transliteration": "mi",
           "word_id": "01Cdg",
-          "verse_hebrew": "וַיֹּאמֶר מִי הִגִּיד לְךָ כִּי עֵירֹם אָתָּה הֲמִן הָעֵץ אֲשֶׁר צִוִּיתִיךָ לְבִלְתִּי אֲכָל מִמֶּנּוּ אָכָֽלְתָּ",
-          "verse_transliteration": "wayo'mer mi higid lekha ki `eyrom 'atah hamin ha`ets 'asher tsiwitikha levilti 'akhal mimenu 'akhalta",
+          "phrase_hebrew": "מִי הִגִּיד לְךָ כִּי עֵירֹם אָתָּה",
+          "phrase_transliteration": "mi higid lekha ki `eyrom 'atah",
           "gloss": "who told you that you were naked?"
         },
         {
@@ -973,17 +974,17 @@
           "surface_form": "לְמִי",
           "transliteration": "lemi",
           "word_id": "01J84",
-          "verse_hebrew": "וַיְצַו אֶת הָרִאשׁוֹן לֵאמֹר כִּי יִֽפְגָּשְׁךָ עֵשָׂו אָחִי וִשְׁאֵֽלְךָ לֵאמֹר לְמִי אַתָּה וְאָנָה תֵלֵךְ וּלְמִי אֵלֶּה לְפָנֶֽיךָ",
-          "verse_transliteration": "waytsaw 'et hari'shon le'mor ki yifgashkha `esaw 'akhi wish'elkha le'mor lemi 'atah we'anah telekh ulmi 'eleh lefaneykha",
-          "gloss": "if Esau asks you... ‘to whom do you belong?’"
+          "phrase_hebrew": "לְמִי אַתָּה",
+          "phrase_transliteration": "lemi 'atah",
+          "gloss": "to whom do you belong?"
         },
         {
           "ref": "Gen.33.5",
           "surface_form": "מִי",
           "transliteration": "mi",
           "word_id": "01mZS",
-          "verse_hebrew": "וַיִּשָּׂא אֶת עֵינָיו וַיַּרְא אֶת הַנָּשִׁים וְאֶת הַיְלָדִים וַיֹּאמֶר מִי אֵלֶּה לָּךְ וַיֹּאמַר הַיְלָדִים אֲשֶׁר חָנַן אֱלֹהִים אֶת עַבְדֶּֽךָ",
-          "verse_transliteration": "wayisa' 'et `eynayw wayar' 'et hanashim we'et hayladim wayo'mer mi 'eleh lakh wayo'mar hayladim 'asher khanan 'elohim 'et `avdekha",
+          "phrase_hebrew": "מִי אֵלֶּה לָּךְ",
+          "phrase_transliteration": "mi 'eleh lakh",
           "gloss": "who are these to you?"
         }
       ]
@@ -1000,8 +1001,8 @@
           "surface_form": "בֵּין",
           "transliteration": "beyn",
           "word_id": "01CsU",
-          "verse_hebrew": "וַיַּרְא אֱלֹהִים אֶת הָאוֹר כִּי טוֹב וַיַּבְדֵּל אֱלֹהִים בֵּין הָאוֹר וּבֵין הַחֹֽשֶׁךְ",
-          "verse_transliteration": "wayar' 'elohim 'et ha'or ki tov wayavdel 'elohim beyn ha'or uveyn hakhoshekh",
+          "phrase_hebrew": "וַיַּבְדֵּל אֱלֹהִים בֵּין הָאוֹר וּבֵין הַחֹֽשֶׁךְ",
+          "phrase_transliteration": "wayavdel 'elohim beyn ha'or uveyn hakhoshekh",
           "gloss": "God separated the light from the darkness"
         },
         {
@@ -1009,8 +1010,8 @@
           "surface_form": "בֵּינִי",
           "transliteration": "beyni",
           "word_id": "019QD",
-          "verse_hebrew": "וַיֹּאמֶר אֱלֹהִים זֹאת אֽוֹת הַבְּרִית אֲשֶׁר אֲנִי נֹתֵן בֵּינִי וּבֵינֵיכֶם וּבֵין כָּל נֶפֶשׁ חַיָּה אֲשֶׁר אִתְּכֶם לְדֹרֹת עוֹלָֽם",
-          "verse_transliteration": "wayo'mer 'elohim zo't 'ot habrit 'asher 'ani noten beyni uveyneykhem uveyn kal nefesh khayah 'asher 'itkhem ledorot `olam",
+          "phrase_hebrew": "אֽוֹת הַבְּרִית אֲשֶׁר אֲנִי נֹתֵן בֵּינִי וּבֵינֵיכֶם",
+          "phrase_transliteration": "'ot habrit 'asher 'ani noten beyni uveyneykhem",
           "gloss": "the sign of the covenant between me and you"
         },
         {
@@ -1018,8 +1019,8 @@
           "surface_form": "בֵּין",
           "transliteration": "beyn",
           "word_id": "01hPa",
-          "verse_hebrew": "וַֽיְהִי רִיב בֵּין רֹעֵי מִקְנֵֽה אַבְרָם וּבֵין רֹעֵי מִקְנֵה לוֹט וְהַֽכְּנַעֲנִי וְהַפְּרִזִּי אָז יֹשֵׁב בָּאָֽרֶץ",
-          "verse_transliteration": "wayhi riv beyn ro`ey miqneh 'avram uveyn ro`ey miqneh lot wehakna`ani wehaprizi 'az yoshev ba'arets",
+          "phrase_hebrew": "וַֽיְהִי רִיב בֵּין רֹעֵי מִקְנֵֽה אַבְרָם וּבֵין רֹעֵי מִקְנֵה לוֹט",
+          "phrase_transliteration": "wayhi riv beyn ro`ey miqneh 'avram uveyn ro`ey miqneh lot",
           "gloss": "there was strife between the herdsmen"
         }
       ]
@@ -1036,8 +1037,8 @@
           "surface_form": "נָא",
           "transliteration": "na'",
           "word_id": "01S7G",
-          "verse_hebrew": "אִמְרִי נָא אֲחֹתִי אָתְּ לְמַעַן יִֽיטַב לִי בַעֲבוּרֵךְ וְחָיְתָה נַפְשִׁי בִּגְלָלֵֽךְ",
-          "verse_transliteration": "'imri na' 'akhoti 'at lema`an yitav li va`avurekh wekhaytah nafshi biglalekh",
+          "phrase_hebrew": "אִמְרִי נָא אֲחֹתִי אָתְּ",
+          "phrase_transliteration": "'imri na' 'akhoti 'at",
           "gloss": "please say you are my sister"
         },
         {
@@ -1045,8 +1046,8 @@
           "surface_form": "נָא",
           "transliteration": "na'",
           "word_id": "01aKv",
-          "verse_hebrew": "וַֽיהוָה אָמַר אֶל אַבְרָם אַחֲרֵי הִפָּֽרֶד לוֹט מֵֽעִמּוֹ שָׂא נָא עֵינֶיךָ וּרְאֵה מִן הַמָּקוֹם אֲשֶׁר אַתָּה שָׁם צָפֹנָה וָנֶגְבָּה וָקֵדְמָה וָיָֽמָּה",
-          "verse_transliteration": "wayhwah 'amar 'el 'avram 'akharey hipared lot me`imo sa' na' `eyneykha ur'eh min hamaqom 'asher 'atah sham tsafonah wanegbah waqedmah wayamah",
+          "phrase_hebrew": "שָׂא נָא עֵינֶיךָ וּרְאֵה",
+          "phrase_transliteration": "sa' na' `eyneykha ur'eh",
           "gloss": "lift up your eyes, now, and look"
         },
         {
@@ -1054,8 +1055,8 @@
           "surface_form": "נָא",
           "transliteration": "na'",
           "word_id": "01Xgr",
-          "verse_hebrew": "יֻקַּֽח נָא מְעַט מַיִם וְרַחֲצוּ רַגְלֵיכֶם וְהִֽשָּׁעֲנוּ תַּחַת הָעֵֽץ",
-          "verse_transliteration": "yuqakh na' me`at mayim werakhatsu ragleykhem wehisha`anu takhat ha`ets",
+          "phrase_hebrew": "יֻקַּֽח נָא מְעַט מַיִם",
+          "phrase_transliteration": "yuqakh na' me`at mayim",
           "gloss": "let a little water now be brought"
         }
       ]
@@ -1072,8 +1073,8 @@
           "surface_form": "דִּי",
           "transliteration": "di",
           "word_id": "15eWk",
-          "verse_hebrew": "וּשְׁאָר אֻמַּיָּא דִּי הַגְלִי אָסְנַפַּר רַבָּא וְיַקִּירָא וְהוֹתֵב הִמּוֹ בְּקִרְיָה דִּי שָׁמְרָיִן וּשְׁאָר עֲבַֽר נַהֲרָה וּכְעֶֽנֶת",
-          "verse_transliteration": "ush'ar 'umaya' di hagli 'asnapar raba' weyaqira' wehotev himo beqiryah di shamrayin ush'ar `avar naharah ukh`enet",
+          "phrase_hebrew": "וּשְׁאָר אֻמַּיָּא דִּי הַגְלִי",
+          "phrase_transliteration": "ush'ar 'umaya' di hagli",
           "gloss": "the nations whom he deported"
         },
         {
@@ -1081,8 +1082,8 @@
           "surface_form": "דִּי",
           "transliteration": "di",
           "word_id": "15F1H",
-          "verse_hebrew": "דְּנָה פַּרְשֶׁגֶן אִגַּרְתָּא דִּי שְׁלַחוּ עֲלוֹהִי עַל אַרְתַּחְשַׁשְׂתְּא מַלְכָּא עַבְדָיךְ אֱנָשׁ עֲבַֽר נַהֲרָה וּכְעֶֽנֶת",
-          "verse_transliteration": "denah parshegen 'igarta' di shelakhu `alohi `al 'artakhshaste' malka' `avdaykh 'enash `avar naharah ukh`enet",
+          "phrase_hebrew": "פַּרְשֶׁגֶן אִגַּרְתָּא דִּי שְׁלַחוּ",
+          "phrase_transliteration": "parshegen 'igarta' di shelakhu",
           "gloss": "the letter which they sent"
         },
         {
@@ -1090,8 +1091,8 @@
           "surface_form": "דִֽי",
           "transliteration": "di",
           "word_id": "15thm",
-          "verse_hebrew": "וּכְנֵמָא פִתְגָמָא הֲתִיבוּנָא לְמֵמַר אֲנַחְנָא הִמּוֹ עַבְדוֹהִי דִֽי אֱלָהּ שְׁמַיָּא וְאַרְעָא וּבָנַיִן בַּיְתָא דִּֽי הֲוָא בְנֵה מִקַּדְמַת דְּנָה שְׁנִין שַׂגִּיאָן וּמֶלֶךְ לְיִשְׂרָאֵל רַב בְּנָהִי וְשַׁכְלְלֵֽהּ",
-          "verse_transliteration": "ukhnema' fitgama' hativuna' lememar 'anakhna' himo `avdohi di 'elah shemaya' we'ar`a' uvanayin bayta' di hawa' veneh miqadmat denah shenin sagi'an umelekh leyisra'el rav benahi weshakhleleh",
+          "phrase_hebrew": "עַבְדוֹהִי דִֽי אֱלָהּ שְׁמַיָּא וְאַרְעָא",
+          "phrase_transliteration": "`avdohi di 'elah shemaya' we'ar`a'",
           "gloss": "servants of the God of heaven and earth"
         }
       ]
@@ -1108,8 +1109,8 @@
           "surface_form": "אוֹ",
           "transliteration": "'o",
           "word_id": "01es7",
-          "verse_hebrew": "וַיַּעַן לָבָן וּבְתוּאֵל וַיֹּאמְרוּ מֵיְהוָה יָצָא הַדָּבָר לֹא נוּכַל דַּבֵּר אֵלֶיךָ רַע אוֹ טֽוֹב",
-          "verse_transliteration": "waya`an lavan uvtu'el wayo'mru meyhwah yatsa' hadavar lo' nukhal daber 'eleykha ra` 'o tov",
+          "phrase_hebrew": "לֹא נוּכַל דַּבֵּר אֵלֶיךָ רַע אוֹ טֽוֹב",
+          "phrase_transliteration": "lo' nukhal daber 'eleykha ra` 'o tov",
           "gloss": "can we speak to you bad or good?"
         },
         {
@@ -1117,8 +1118,8 @@
           "surface_form": "אוֹ",
           "transliteration": "'o",
           "word_id": "01Kgz",
-          "verse_hebrew": "אֲדֹנִי שָׁאַל אֶת עֲבָדָיו לֵאמֹר הֲיֵשׁ לָכֶם אָב אוֹ אָֽח",
-          "verse_transliteration": "'adoni sha'al 'et `avadayw le'mor hayesh lakhem 'av 'o 'akh",
+          "phrase_hebrew": "הֲיֵשׁ לָכֶם אָב אוֹ אָֽח",
+          "phrase_transliteration": "hayesh lakhem 'av 'o 'akh",
           "gloss": "have you a father, or a brother?"
         },
         {
@@ -1126,8 +1127,8 @@
           "surface_form": "אוֹ",
           "transliteration": "'o",
           "word_id": "02xFg",
-          "verse_hebrew": "אִם אֲדֹנָיו יִתֶּן לוֹ אִשָּׁה וְיָלְדָה לוֹ בָנִים אוֹ בָנוֹת הָאִשָּׁה וִילָדֶיהָ תִּהְיֶה לַֽאדֹנֶיהָ וְהוּא יֵצֵא בְגַפּֽוֹ",
-          "verse_transliteration": "'im 'adonayw yiten lo 'ishah weyaldah lo vanim 'o vanot ha'ishah wiladeyha tihyeh la'doneyha wehu' yetse' vegapo",
+          "phrase_hebrew": "אִם אֲדֹנָיו יִתֶּן לוֹ אִשָּׁה וְיָלְדָה לוֹ בָנִים אוֹ בָנוֹת",
+          "phrase_transliteration": "'im 'adonayw yiten lo 'ishah weyaldah lo vanim 'o vanot",
           "gloss": "if his master gives him a wife, and she bears him sons or daughters"
         }
       ]
@@ -1144,8 +1145,8 @@
           "surface_form": "הֵן",
           "transliteration": "hen",
           "word_id": "01Zzk",
-          "verse_hebrew": "וַיֹּאמֶר יְהוָה אֱלֹהִים הֵן הָֽאָדָם הָיָה כְּאַחַד מִמֶּנּוּ לָדַעַת טוֹב וָרָע וְעַתָּה פֶּן יִשְׁלַח יָדוֹ וְלָקַח גַּם מֵעֵץ הַֽחַיִּים וְאָכַל וָחַי לְעֹלָֽם",
-          "verse_transliteration": "wayo'mer yehwah 'elohim hen ha'adam hayah ke'akhad mimenu lada`at tov wara` we`atah pen yishlakh yado welaqakh gam me`ets hakhayim we'akhal wakhay le`olam",
+          "phrase_hebrew": "הֵן הָֽאָדָם הָיָה כְּאַחַד מִמֶּנּוּ",
+          "phrase_transliteration": "hen ha'adam hayah ke'akhad mimenu",
           "gloss": "behold, the man has become like one of us"
         },
         {
@@ -1153,8 +1154,8 @@
           "surface_form": "הֵן",
           "transliteration": "hen",
           "word_id": "01pVY",
-          "verse_hebrew": "וַיֹּאמֶר אַבְרָם הֵן לִי לֹא נָתַתָּה זָרַע וְהִנֵּה בֶן בֵּיתִי יוֹרֵשׁ אֹתִֽי",
-          "verse_transliteration": "wayo'mer 'avram hen li lo' natatah zara` wehineh ven beyti yoresh 'oti",
+          "phrase_hebrew": "הֵן לִי לֹא נָתַתָּה זָרַע",
+          "phrase_transliteration": "hen li lo' natatah zara`",
           "gloss": "behold, you have given me no offspring"
         },
         {
@@ -1162,8 +1163,8 @@
           "surface_form": "הֵן",
           "transliteration": "hen",
           "word_id": "01KGK",
-          "verse_hebrew": "הֵן גֵּרַשְׁתָּ אֹתִי הַיּוֹם מֵעַל פְּנֵי הָֽאֲדָמָה וּמִפָּנֶיךָ אֶסָּתֵר וְהָיִיתִי נָע וָנָד בָּאָרֶץ וְהָיָה כָל מֹצְאִי יַֽהַרְגֵֽנִי",
-          "verse_transliteration": "hen gerashta 'oti hayom me`al peney ha'adamah umipaneykha 'esater wehayiti na` wanad ba'arets wehayah khal mots'i yahargeni",
+          "phrase_hebrew": "הֵן גֵּרַשְׁתָּ אֹתִי הַיּוֹם",
+          "phrase_transliteration": "hen gerashta 'oti hayom",
           "gloss": "behold, you have driven me this day"
         }
       ]
@@ -1180,17 +1181,17 @@
           "surface_form": "לְמַעַן",
           "transliteration": "lema`an",
           "word_id": "01uDX",
-          "verse_hebrew": "אִמְרִי נָא אֲחֹתִי אָתְּ לְמַעַן יִֽיטַב לִי בַעֲבוּרֵךְ וְחָיְתָה נַפְשִׁי בִּגְלָלֵֽךְ",
-          "verse_transliteration": "'imri na' 'akhoti 'at lema`an yitav li va`avurekh wekhaytah nafshi biglalekh",
+          "phrase_hebrew": "לְמַעַן יִֽיטַב לִי",
+          "phrase_transliteration": "lema`an yitav li",
           "gloss": "so that it may go well with me"
         },
         {
           "ref": "Gen.18.19",
           "surface_form": "לְמַעַן",
           "transliteration": "lema`an",
-          "word_id": "01VPw",
-          "verse_hebrew": "כִּי יְדַעְתִּיו לְמַעַן אֲשֶׁר יְצַוֶּה אֶת בָּנָיו וְאֶת בֵּיתוֹ אַחֲרָיו וְשָֽׁמְרוּ דֶּרֶךְ יְהוָה לַעֲשׂוֹת צְדָקָה וּמִשְׁפָּט לְמַעַן הָבִיא יְהוָה עַל אַבְרָהָם אֵת אֲשֶׁר דִּבֶּר עָלָֽיו",
-          "verse_transliteration": "ki yeda`tiw lema`an 'asher yetsaweh 'et banayw we'et beyto 'akharayw weshamru derekh yehwah la`asot tsedaqah umishpat lema`an havi' yehwah `al 'avraham 'et 'asher diber `alayw",
+          "word_id": "01DF8",
+          "phrase_hebrew": "לְמַעַן הָבִיא יְהוָה עַל אַבְרָהָם אֵת אֲשֶׁר דִּבֶּר",
+          "phrase_transliteration": "lema`an havi' yehwah `al 'avraham 'et 'asher diber",
           "gloss": "in order that the LORD may bring [what he promised]"
         },
         {
@@ -1198,8 +1199,8 @@
           "surface_form": "וּלְמַעַן",
           "transliteration": "ulma`an",
           "word_id": "02NvP",
-          "verse_hebrew": "וְאוּלָם בַּעֲבוּר זֹאת הֶעֱמַדְתִּיךָ בַּעֲבוּר הַרְאֹתְךָ אֶת כֹּחִי וּלְמַעַן סַפֵּר שְׁמִי בְּכָל הָאָֽרֶץ",
-          "verse_transliteration": "we'ulam ba`avur zo't he`emadtikha ba`avur har'otkha 'et kokhi ulma`an saper shemi bekhal ha'arets",
+          "phrase_hebrew": "וּלְמַעַן סַפֵּר שְׁמִי בְּכָל הָאָֽרֶץ",
+          "phrase_transliteration": "ulma`an saper shemi bekhal ha'arets",
           "gloss": "so that my name may be proclaimed in all the earth"
         }
       ]
@@ -1216,8 +1217,8 @@
           "surface_form": "אַךְ",
           "transliteration": "'akh",
           "word_id": "01veg",
-          "verse_hebrew": "וַיִּמַח אֶֽת כָּל הַיְקוּם אֲשֶׁר עַל פְּנֵי הָֽאֲדָמָה מֵאָדָם עַד בְּהֵמָה עַד רֶמֶשׂ וְעַד עוֹף הַשָּׁמַיִם וַיִּמָּחוּ מִן הָאָרֶץ וַיִשָּׁאֶר אַךְ נֹחַ וַֽאֲשֶׁר אִתּוֹ בַּתֵּבָֽה",
-          "verse_transliteration": "wayimakh 'et kal hayqum 'asher `al peney ha'adamah me'adam `ad behemah `ad remes we`ad `of hashamayim wayimakhu min ha'arets wayisha'er 'akh noakh wa'asher 'ito batevah",
+          "phrase_hebrew": "וַיִשָּׁאֶר אַךְ נֹחַ וַֽאֲשֶׁר אִתּוֹ",
+          "phrase_transliteration": "wayisha'er 'akh noakh wa'asher 'ito",
           "gloss": "only Noah was left, and those with him"
         },
         {
@@ -1225,8 +1226,8 @@
           "surface_form": "אַךְ",
           "transliteration": "'akh",
           "word_id": "01CV5",
-          "verse_hebrew": "אַךְ בָּשָׂר בְּנַפְשׁוֹ דָמוֹ לֹא תֹאכֵֽלוּ",
-          "verse_transliteration": "'akh basar benafsho damo lo' to'khelu",
+          "phrase_hebrew": "אַךְ בָּשָׂר בְּנַפְשׁוֹ דָמוֹ לֹא תֹאכֵֽלוּ",
+          "phrase_transliteration": "'akh basar benafsho damo lo' to'khelu",
           "gloss": "only, flesh with its life... you shall not eat"
         },
         {
@@ -1234,8 +1235,8 @@
           "surface_form": "אַךְ",
           "transliteration": "'akh",
           "word_id": "01k4p",
-          "verse_hebrew": "וַיִּקְרָא אֲבִימֶלֶךְ לְיִצְחָק וַיֹּאמֶר אַךְ הִנֵּה אִשְׁתְּךָ הִוא וְאֵיךְ אָמַרְתָּ אֲחֹתִי הִוא וַיֹּאמֶר אֵלָיו יִצְחָק כִּי אָמַרְתִּי פֶּן אָמוּת עָלֶֽיהָ",
-          "verse_transliteration": "wayiqra' 'avimelekh leyitskhaq wayo'mer 'akh hineh 'ishtekha hiw' we'eykh 'amarta 'akhoti hiw' wayo'mer 'elayw yitskhaq ki 'amarti pen 'amut `aleyha",
+          "phrase_hebrew": "אַךְ הִנֵּה אִשְׁתְּךָ הִוא",
+          "phrase_transliteration": "'akh hineh 'ishtekha hiw'",
           "gloss": "surely, this is your wife"
         }
       ]
@@ -1252,8 +1253,8 @@
           "surface_form": "כְּנֶגְדּֽוֹ",
           "transliteration": "kenegdo",
           "word_id": "01Wyn",
-          "verse_hebrew": "וַיֹּאמֶר יְהוָה אֱלֹהִים לֹא טוֹב הֱיוֹת הָֽאָדָם לְבַדּוֹ אֶֽעֱשֶׂהּ לּוֹ עֵזֶר כְּנֶגְדּֽוֹ",
-          "verse_transliteration": "wayo'mer yehwah 'elohim lo' tov heyot ha'adam levado 'e`eseh lo `ezer kenegdo",
+          "phrase_hebrew": "עֵזֶר כְּנֶגְדּֽוֹ",
+          "phrase_transliteration": "`ezer kenegdo",
           "gloss": "a helper corresponding to/opposite him"
         },
         {
@@ -1261,8 +1262,8 @@
           "surface_form": "מִנֶּגֶד",
           "transliteration": "mineged",
           "word_id": "01aiP",
-          "verse_hebrew": "וַתֵּלֶךְ וַתֵּשֶׁב לָהּ מִנֶּגֶד הַרְחֵק כִּמְטַחֲוֵי קֶשֶׁת כִּי אָֽמְרָה אַל אֶרְאֶה בְּמוֹת הַיָּלֶד וַתֵּשֶׁב מִנֶּגֶד וַתִּשָּׂא אֶת קֹלָהּ וַתֵּֽבְךְּ",
-          "verse_transliteration": "watelekh wateshev lah mineged harkheq kimtakhawey qeshet ki 'amrah 'al 'er'eh bemot hayaled wateshev mineged watisa' 'et qolah watevk",
+          "phrase_hebrew": "וַתֵּשֶׁב לָהּ מִנֶּגֶד הַרְחֵק",
+          "phrase_transliteration": "wateshev lah mineged harkheq",
           "gloss": "she sat down at a distance, opposite him"
         },
         {
@@ -1270,8 +1271,8 @@
           "surface_form": "נֶגֶד",
           "transliteration": "neged",
           "word_id": "01gdC",
-          "verse_hebrew": "עִם אֲשֶׁר תִּמְצָא אֶת אֱלֹהֶיךָ לֹא יִֽחְיֶה נֶגֶד אַחֵינוּ הַֽכֶּר לְךָ מָה עִמָּדִי וְקַֽח לָךְ וְלֹֽא יָדַע יַעֲקֹב כִּי רָחֵל גְּנָבָֽתַם",
-          "verse_transliteration": "`im 'asher timtsa' 'et 'eloheykha lo' yikhyeh neged 'akheynu haker lekha mah `imadi weqakh lakh welo' yada` ya`aqov ki rakhel genavatam",
+          "phrase_hebrew": "נֶגֶד אַחֵינוּ הַֽכֶּר לְךָ מָה עִמָּדִי",
+          "phrase_transliteration": "neged 'akheynu haker lekha mah `imadi",
           "gloss": "identify what is yours before our kinsmen"
         }
       ]
@@ -1288,8 +1289,8 @@
           "surface_form": "שֶׁחֻבְּרָה",
           "transliteration": "shekhubrah",
           "word_id": "19mzp",
-          "verse_hebrew": "יְרוּשָׁלִַם הַבְּנוּיָה כְּעִיר שֶׁחֻבְּרָה לָּהּ יַחְדָּֽו",
-          "verse_transliteration": "yerushalam habnuyah ke`ir shekhubrah lah yakhdaw",
+          "phrase_hebrew": "כְּעִיר שֶׁחֻבְּרָה לָּהּ יַחְדָּֽו",
+          "phrase_transliteration": "ke`ir shekhubrah lah yakhdaw",
           "gloss": "like a city that is bound firmly together"
         },
         {
@@ -1297,8 +1298,8 @@
           "surface_form": "שֶׁהָיָה",
           "transliteration": "shehayah",
           "word_id": "19nWJ",
-          "verse_hebrew": "שִׁיר הַֽמַּעֲלוֹת לְדָוִד לוּלֵי יְהוָה שֶׁהָיָה לָנוּ יֹֽאמַר נָא יִשְׂרָאֵֽל",
-          "verse_transliteration": "shir hama`alot ledawid luley yehwah shehayah lanu yo'mar na' yisra'el",
+          "phrase_hebrew": "יְהוָה שֶׁהָיָה לָנוּ",
+          "phrase_transliteration": "yehwah shehayah lanu",
           "gloss": "the LORD, who was on our side"
         },
         {
@@ -1306,8 +1307,8 @@
           "surface_form": "שֶׁלֹּא",
           "transliteration": "shelo'",
           "word_id": "19imQ",
-          "verse_hebrew": "בָּרוּךְ יְהוָה שֶׁלֹּא נְתָנָנוּ טֶרֶף לְשִׁנֵּיהֶֽם",
-          "verse_transliteration": "barukh yehwah shelo' netananu teref leshineyhem",
+          "phrase_hebrew": "בָּרוּךְ יְהוָה שֶׁלֹּא נְתָנָנוּ טֶרֶף לְשִׁנֵּיהֶֽם",
+          "phrase_transliteration": "barukh yehwah shelo' netananu teref leshineyhem",
           "gloss": "blessed be the LORD, who did not give us as prey"
         }
       ]
@@ -1324,8 +1325,8 @@
           "surface_form": "כְּמוֹ",
           "transliteration": "kemo",
           "word_id": "02scM",
-          "verse_hebrew": "תְּהֹמֹת יְכַסְיֻמוּ יָרְדוּ בִמְצוֹלֹת כְּמוֹ אָֽבֶן",
-          "verse_transliteration": "tehomot yekhasyumu yardu vimtsolot kemo 'aven",
+          "phrase_hebrew": "יָרְדוּ בִמְצוֹלֹת כְּמוֹ אָֽבֶן",
+          "phrase_transliteration": "yardu vimtsolot kemo 'aven",
           "gloss": "they went down into the depths like a stone"
         },
         {
@@ -1333,8 +1334,8 @@
           "surface_form": "כָמֹכָה",
           "transliteration": "khamokhah",
           "word_id": "02vvb",
-          "verse_hebrew": "מִֽי כָמֹכָה בָּֽאֵלִם יְהוָה מִי כָּמֹכָה נֶאְדָּר בַּקֹּדֶשׁ נוֹרָא תְהִלֹּת עֹשֵׂה פֶֽלֶא",
-          "verse_transliteration": "mi khamokhah ba'elim yehwah mi kamokhah ne'dar baqodesh nora' tehilot `oseh fele'",
+          "phrase_hebrew": "מִֽי כָמֹכָה בָּֽאֵלִם יְהוָה",
+          "phrase_transliteration": "mi khamokhah ba'elim yehwah",
           "gloss": "who is like you among the gods, O LORD?"
         },
         {
@@ -1342,8 +1343,8 @@
           "surface_form": "כָּמוֹךָ",
           "transliteration": "kamokha",
           "word_id": "03PYm",
-          "verse_hebrew": "לֹֽא תִקֹּם וְלֹֽא תִטֹּר אֶת בְּנֵי עַמֶּךָ וְאָֽהַבְתָּ לְרֵעֲךָ כָּמוֹךָ אֲנִי יְהוָֽה",
-          "verse_transliteration": "lo' tiqom welo' titor 'et beney `amekha we'ahavta lere`akha kamokha 'ani yehwah",
+          "phrase_hebrew": "וְאָֽהַבְתָּ לְרֵעֲךָ כָּמוֹךָ",
+          "phrase_transliteration": "we'ahavta lere`akha kamokha",
           "gloss": "you shall love your neighbor as yourself"
         }
       ]
@@ -1360,8 +1361,8 @@
           "surface_form": "יֵשׁ",
           "transliteration": "yesh",
           "word_id": "01Jv8",
-          "verse_hebrew": "וַיִּיקַץ יַעֲקֹב מִשְּׁנָתוֹ וַיֹּאמֶר אָכֵן יֵשׁ יְהוָה בַּמָּקוֹם הַזֶּה וְאָנֹכִי לֹא יָדָֽעְתִּי",
-          "verse_transliteration": "wayiqats ya`aqov mishnato wayo'mer 'akhen yesh yehwah bamaqom hazeh we'anokhi lo' yada`ti",
+          "phrase_hebrew": "אָכֵן יֵשׁ יְהוָה בַּמָּקוֹם הַזֶּה",
+          "phrase_transliteration": "'akhen yesh yehwah bamaqom hazeh",
           "gloss": "surely the LORD is in this place"
         },
         {
@@ -1369,8 +1370,8 @@
           "surface_form": "יֶשׁ",
           "transliteration": "yesh",
           "word_id": "01XzD",
-          "verse_hebrew": "וַיֹּאמֶר עֵשָׂו יֶשׁ לִי רָב אָחִי יְהִי לְךָ אֲשֶׁר לָֽךְ",
-          "verse_transliteration": "wayo'mer `esaw yesh li rav 'akhi yehi lekha 'asher lakh",
+          "phrase_hebrew": "יֶשׁ לִי רָב אָחִי",
+          "phrase_transliteration": "yesh li rav 'akhi",
           "gloss": "I have enough, my brother"
         },
         {
@@ -1378,8 +1379,8 @@
           "surface_form": "יֶשׁ",
           "transliteration": "yesh",
           "word_id": "01fMS",
-          "verse_hebrew": "וַנֹּאמֶר אֶל אֲדֹנִי יֶשׁ לָנוּ אָב זָקֵן וְיֶלֶד זְקֻנִים קָטָן וְאָחִיו מֵת וַיִּוָּתֵר הוּא לְבַדּוֹ לְאִמּוֹ וְאָבִיו אֲהֵבֽוֹ",
-          "verse_transliteration": "wano'mer 'el 'adoni yesh lanu 'av zaqen weyeled zequnim qatan we'akhiw met wayiwater hu' levado le'imo we'aviw 'ahevo",
+          "phrase_hebrew": "יֶשׁ לָנוּ אָב זָקֵן וְיֶלֶד זְקֻנִים קָטָן",
+          "phrase_transliteration": "yesh lanu 'av zaqen weyeled zequnim qatan",
           "gloss": "we have an old father, and a young brother"
         }
       ]
@@ -1396,8 +1397,8 @@
           "surface_form": "אַף",
           "transliteration": "'af",
           "word_id": "01x1q",
-          "verse_hebrew": "וְהַנָּחָשׁ הָיָה עָרוּם מִכֹּל חַיַּת הַשָּׂדֶה אֲשֶׁר עָשָׂה יְהוָה אֱלֹהִים וַיֹּאמֶר אֶל הָאִשָּׁה אַף כִּֽי אָמַר אֱלֹהִים לֹא תֹֽאכְלוּ מִכֹּל עֵץ הַגָּֽן",
-          "verse_transliteration": "wehanakhash hayah `arum mikol khayat hasadeh 'asher `asah yehwah 'elohim wayo'mer 'el ha'ishah 'af ki 'amar 'elohim lo' to'khlu mikol `ets hagan",
+          "phrase_hebrew": "אַף כִּֽי אָמַר אֱלֹהִים לֹא תֹֽאכְלוּ מִכֹּל עֵץ הַגָּֽן",
+          "phrase_transliteration": "'af ki 'amar 'elohim lo' to'khlu mikol `ets hagan",
           "gloss": "indeed, has God said you shall not eat...?"
         },
         {
@@ -1405,8 +1406,8 @@
           "surface_form": "אַף",
           "transliteration": "'af",
           "word_id": "01wDd",
-          "verse_hebrew": "וַיַּרְא שַׂר הָאֹפִים כִּי טוֹב פָּתָר וַיֹּאמֶר אֶל יוֹסֵף אַף אֲנִי בַּחֲלוֹמִי וְהִנֵּה שְׁלֹשָׁה סַלֵּי חֹרִי עַל רֹאשִֽׁי",
-          "verse_transliteration": "wayar' sar ha'ofim ki tov patar wayo'mer 'el yosef 'af 'ani bakhalomi wehineh sheloshah saley khori `al ro'shi",
+          "phrase_hebrew": "אַף אֲנִי בַּחֲלוֹמִי",
+          "phrase_transliteration": "'af 'ani bakhalomi",
           "gloss": "I also had a dream"
         },
         {
@@ -1414,9 +1415,9 @@
           "surface_form": "וְאַף",
           "transliteration": "we'af",
           "word_id": "03gDx",
-          "verse_hebrew": "וְזָכַרְתִּי אֶת בְּרִיתִי יַעֲקוֹב וְאַף אֶת בְּרִיתִי יִצְחָק וְאַף אֶת בְּרִיתִי אַבְרָהָם אֶזְכֹּר וְהָאָרֶץ אֶזְכֹּֽר",
-          "verse_transliteration": "wezakharti 'et beriti ya`aqov we'af 'et beriti yitskhaq we'af 'et beriti 'avraham 'ezkor weha'arets 'ezkor",
-          "gloss": "and also my covenant with Isaac I will remember"
+          "phrase_hebrew": "וְאַף אֶת בְּרִיתִי יִצְחָק",
+          "phrase_transliteration": "we'af 'et beriti yitskhaq",
+          "gloss": "and also my covenant with Isaac"
         }
       ]
     },
@@ -1432,8 +1433,8 @@
           "surface_form": "פֶּן",
           "transliteration": "pen",
           "word_id": "01UDg",
-          "verse_hebrew": "וּמִפְּרִי הָעֵץ אֲשֶׁר בְּתוֹךְ הַגָּן אָמַר אֱלֹהִים לֹא תֹֽאכְלוּ מִמֶּנּוּ וְלֹא תִגְּעוּ בּוֹ פֶּן תְּמֻתֽוּן",
-          "verse_transliteration": "umipri ha`ets 'asher betokh hagan 'amar 'elohim lo' to'khlu mimenu welo' tig`u bo pen temutun",
+          "phrase_hebrew": "וְלֹא תִגְּעוּ בּוֹ פֶּן תְּמֻתֽוּן",
+          "phrase_transliteration": "welo' tig`u bo pen temutun",
           "gloss": "you shall not touch it, lest you die"
         },
         {
@@ -1441,8 +1442,8 @@
           "surface_form": "פֶּן",
           "transliteration": "pen",
           "word_id": "01wVX",
-          "verse_hebrew": "וַיֹּאמְרוּ הָבָה נִבְנֶה לָּנוּ עִיר וּמִגְדָּל וְרֹאשׁוֹ בַשָּׁמַיִם וְנַֽעֲשֶׂה לָּנוּ שֵׁם פֶּן נָפוּץ עַל פְּנֵי כָל הָאָֽרֶץ",
-          "verse_transliteration": "wayo'mru havah nivneh lanu `ir umigdal wero'sho vashamayim wena`aseh lanu shem pen nafuts `al peney khal ha'arets",
+          "phrase_hebrew": "וְנַֽעֲשֶׂה לָּנוּ שֵׁם פֶּן נָפוּץ",
+          "phrase_transliteration": "wena`aseh lanu shem pen nafuts",
           "gloss": "let us make a name, lest we be scattered"
         },
         {
@@ -1450,9 +1451,9 @@
           "surface_form": "פֶּן",
           "transliteration": "pen",
           "word_id": "01NnT",
-          "verse_hebrew": "וַיְהִי כְהוֹצִיאָם אֹתָם הַחוּצָה וַיֹּאמֶר הִמָּלֵט עַל נַפְשֶׁךָ אַל תַּבִּיט אַחֲרֶיךָ וְאַֽל תַּעֲמֹד בְּכָל הַכִּכָּר הָהָרָה הִמָּלֵט פֶּן תִּסָּפֶֽה",
-          "verse_transliteration": "wayhi khehotsi'am 'otam hakhutsah wayo'mer himalet `al nafshekha 'al tabit 'akhareykha we'al ta`amod bekhal hakikar haharah himalet pen tisafeh",
-          "gloss": "do not stay anywhere on the plain, lest you be swept away"
+          "phrase_hebrew": "וְאַֽל תַּעֲמֹד בְּכָל הַכִּכָּר הָהָרָה הִמָּלֵט פֶּן תִּסָּפֶֽה",
+          "phrase_transliteration": "we'al ta`amod bekhal hakikar haharah himalet pen tisafeh",
+          "gloss": "do not stay in the valley -- flee to the mountain, lest you be swept away"
         }
       ]
     },
@@ -1468,8 +1469,8 @@
           "surface_form": "מִן",
           "transliteration": "min",
           "word_id": "15f13",
-          "verse_hebrew": "יְדִיעַ לֶהֱוֵא לְמַלְכָּא דִּי יְהוּדָיֵא דִּי סְלִקוּ מִן לְוָתָךְ עֲלֶינָא אֲתוֹ לִירוּשְׁלֶם קִרְיְתָא מָֽרָדְתָּא ובאישתא וּבִֽישְׁתָּא בָּנַיִן ושורי וְשׁוּרַיָּא אשכללו שַׁכְלִילוּ וְאֻשַּׁיָּא יַחִֽיטוּ",
-          "verse_transliteration": "yedia` lehewe' lemalka' di yehudaye' di seliqu min lewatakh `aleyna' 'ato lirushlem qiryeta' maradta' wv'ysht' uvishta' banayin wshwry weshuraya' 'shkhllw shakhlilu we'ushaya' yakhitu",
+          "phrase_hebrew": "יְהוּדָיֵא דִּי סְלִקוּ מִן לְוָתָךְ עֲלֶינָא",
+          "phrase_transliteration": "yehudaye' di seliqu min lewatakh `aleyna'",
           "gloss": "the Jews who came up from you to us"
         },
         {
@@ -1477,18 +1478,18 @@
           "surface_form": "מִן",
           "transliteration": "min",
           "word_id": "15FQu",
-          "verse_hebrew": "דִּי יְבַקַּר בִּֽסְפַר דָּכְרָנַיָּא דִּי אֲבָהָתָךְ וּתְהַשְׁכַּח בִּסְפַר דָּכְרָנַיָּא וְתִנְדַּע דִּי קִרְיְתָא דָךְ קִרְיָא מָֽרָדָא וּֽמְהַנְזְקַת מַלְכִין וּמְדִנָן וְאֶשְׁתַּדּוּר עָבְדִין בְּגַוַּהּ מִן יוֹמָת עָלְמָא עַל דְּנָה קִרְיְתָא דָךְ הָֽחָרְבַֽת",
-          "verse_transliteration": "di yevaqar bisfar dakhranaya' di 'avahatakh uthashkakh bisfar dakhranaya' wetinda` di qiryeta' dakh qirya' marada' umhanzeqat malkhin umdinan we'eshtadur `avdin begawah min yomat `alma' `al denah qiryeta' dakh hakharvat",
-          "gloss": "the rebellion of old, from ancient days"
+          "phrase_hebrew": "מִן יוֹמָת עָלְמָא",
+          "phrase_transliteration": "min yomat `alma'",
+          "gloss": "from ancient days"
         },
         {
           "ref": "Ezra.5.14",
           "surface_form": "מִן",
           "transliteration": "min",
           "word_id": "15ik6",
-          "verse_hebrew": "וְאַף מָאנַיָּא דִֽי בֵית אֱלָהָא דִּי דַהֲבָה וְכַסְפָּא דִּי נְבוּכַדְנֶצַּר הַנְפֵּק מִן הֵֽיכְלָא דִּי בִֽירוּשְׁלֶם וְהֵיבֵל הִמּוֹ לְהֵיכְלָא דִּי בָבֶל הַנְפֵּק הִמּוֹ כּוֹרֶשׁ מַלְכָּא מִן הֵֽיכְלָא דִּי בָבֶל וִיהִיבוּ לְשֵׁשְׁבַּצַּר שְׁמֵהּ דִּי פֶחָה שָׂמֵֽהּ",
-          "verse_transliteration": "we'af ma'naya' di veyt 'elaha' di dahavah wekhaspa' di nevukhadnetsar hanpeq min heykhla' di virushlem weheyvel himo leheykhla' di vavel hanpeq himo koresh malka' min heykhla' di vavel wihivu lesheshbatsar shemeh di fekhah sameh",
-          "gloss": "the vessels brought out from the temple"
+          "phrase_hebrew": "הַנְפֵּק מִן הֵֽיכְלָא",
+          "phrase_transliteration": "hanpeq min heykhla'",
+          "gloss": "brought out from the temple"
         }
       ]
     },
@@ -1504,8 +1505,8 @@
           "surface_form": "בִּלְתִּי",
           "transliteration": "bilti",
           "word_id": "01Sh8",
-          "verse_hebrew": "וַיֹּאמֶר אֵלָיו יְהוּדָה לֵאמֹר הָעֵד הֵעִד בָּנוּ הָאִישׁ לֵאמֹר לֹֽא תִרְאוּ פָנַי בִּלְתִּי אֲחִיכֶם אִתְּכֶֽם",
-          "verse_transliteration": "wayo'mer 'elayw yehudah le'mor ha`ed he`id banu ha'ish le'mor lo' tir'u fanay bilti 'akhikhem 'itkhem",
+          "phrase_hebrew": "תִרְאוּ פָנַי בִּלְתִּי אֲחִיכֶם אִתְּכֶֽם",
+          "phrase_transliteration": "tir'u fanay bilti 'akhikhem 'itkhem",
           "gloss": "you shall not see my face except your brother is with you"
         },
         {
@@ -1513,8 +1514,8 @@
           "surface_form": "לְבִלְתִּי",
           "transliteration": "levilti",
           "word_id": "01uCS",
-          "verse_hebrew": "וַיֹּאמֶר לוֹ יְהוָה לָכֵן כָּל הֹרֵג קַיִן שִׁבְעָתַיִם יֻקָּם וַיָּשֶׂם יְהוָה לְקַיִן אוֹת לְבִלְתִּי הַכּוֹת אֹתוֹ כָּל מֹצְאֽוֹ",
-          "verse_transliteration": "wayo'mer lo yehwah lakhen kal horeg qayin shiv`atayim yuqam wayasem yehwah leqayin 'ot levilti hakot 'oto kal mots'o",
+          "phrase_hebrew": "לְבִלְתִּי הַכּוֹת אֹתוֹ כָּל מֹצְאֽוֹ",
+          "phrase_transliteration": "levilti hakot 'oto kal mots'o",
           "gloss": "so that no one finding him would strike him down"
         },
         {
@@ -1522,8 +1523,8 @@
           "surface_form": "לְבִלְתִּי",
           "transliteration": "levilti",
           "word_id": "02CnF",
-          "verse_hebrew": "וַיֹּאמֶר מֹשֶׁה אֶל הָעָם אַל תִּירָאוּ כִּי לְבַֽעֲבוּר נַסּוֹת אֶתְכֶם בָּא הָאֱלֹהִים וּבַעֲבוּר תִּהְיֶה יִרְאָתוֹ עַל פְּנֵיכֶם לְבִלְתִּי תֶחֱטָֽאוּ",
-          "verse_transliteration": "wayo'mer mosheh 'el ha`am 'al tira'u ki leva`avur nasot 'etkhem ba' ha'elohim uva`avur tihyeh yir'ato `al peneykhem levilti tekheta'u",
+          "phrase_hebrew": "לְבִלְתִּי תֶחֱטָֽאוּ",
+          "phrase_transliteration": "levilti tekheta'u",
           "gloss": "so that you may not sin"
         }
       ]
@@ -1540,8 +1541,8 @@
           "surface_form": "עַל",
           "transliteration": "`al",
           "word_id": "15XRb",
-          "verse_hebrew": "רְחוּם בְּעֵל טְעֵם וְשִׁמְשַׁי סָֽפְרָא כְּתַבוּ אִגְּרָה חֲדָה עַל יְרוּשְׁלֶם לְאַרְתַּחְשַׁשְׂתְּא מַלְכָּא כְּנֵֽמָא",
-          "verse_transliteration": "rekhum be`el te`em weshimshay safra' ketavu 'igrah khadah `al yerushlem le'artakhshaste' malka' kenema'",
+          "phrase_hebrew": "כְּתַבוּ אִגְּרָה חֲדָה עַל יְרוּשְׁלֶם",
+          "phrase_transliteration": "ketavu 'igrah khadah `al yerushlem",
           "gloss": "they wrote a letter against Jerusalem"
         },
         {
@@ -1549,8 +1550,8 @@
           "surface_form": "עַל",
           "transliteration": "`al",
           "word_id": "15hHR",
-          "verse_hebrew": "פִּתְגָמָא שְׁלַח מַלְכָּא עַל רְחוּם בְּעֵל טְעֵם וְשִׁמְשַׁי סָֽפְרָא וּשְׁאָר כְּנָוָתְהוֹן דִּי יָתְבִין בְּשָֽׁמְרָיִן וּשְׁאָר עֲבַֽר נַהֲרָה שְׁלָם וּכְעֶֽת",
-          "verse_transliteration": "pitgama' shelakh malka' `al rekhum be`el te`em weshimshay safra' ush'ar kenawathon di yatvin beshamrayin ush'ar `avar naharah shelam ukh`et",
+          "phrase_hebrew": "שְׁלַח מַלְכָּא עַל רְחוּם",
+          "phrase_transliteration": "shelakh malka' `al rekhum",
           "gloss": "the king sent word to Rehum"
         },
         {
@@ -1558,8 +1559,8 @@
           "surface_form": "עַל",
           "transliteration": "`al",
           "word_id": "157ej",
-          "verse_hebrew": "שְׁבֻקוּ לַעֲבִידַת בֵּית אֱלָהָא דֵךְ פַּחַת יְהוּדָיֵא וּלְשָׂבֵי יְהוּדָיֵא בֵּית אֱלָהָא דֵךְ יִבְנוֹן עַל אַתְרֵֽהּ",
-          "verse_transliteration": "shevuqu la`avidat beyt 'elaha' dekh pakhat yehudaye' ulsavey yehudaye' beyt 'elaha' dekh yivnon `al 'atreh",
+          "phrase_hebrew": "יִבְנוֹן עַל אַתְרֵֽהּ",
+          "phrase_transliteration": "yivnon `al 'atreh",
           "gloss": "let them build it on its site"
         }
       ]
@@ -1576,8 +1577,8 @@
           "surface_form": "רַק",
           "transliteration": "raq",
           "word_id": "01RH3",
-          "verse_hebrew": "וַיַּרְא יְהוָה כִּי רַבָּה רָעַת הָאָדָם בָּאָרֶץ וְכָל יֵצֶר מַחְשְׁבֹת לִבּוֹ רַק רַע כָּל הַיּֽוֹם",
-          "verse_transliteration": "wayar' yehwah ki rabah ra`at ha'adam ba'arets wekhal yetser makhshevot libo raq ra` kal hayom",
+          "phrase_hebrew": "וְכָל יֵצֶר מַחְשְׁבֹת לִבּוֹ רַק רַע כָּל הַיּֽוֹם",
+          "phrase_transliteration": "wekhal yetser makhshevot libo raq ra` kal hayom",
           "gloss": "every inclination... was only evil, continually"
         },
         {
@@ -1585,8 +1586,8 @@
           "surface_form": "רַק",
           "transliteration": "raq",
           "word_id": "01y8F",
-          "verse_hebrew": "הִנֵּה נָא לִי שְׁתֵּי בָנוֹת אֲשֶׁר לֹֽא יָדְעוּ אִישׁ אוֹצִֽיאָה נָּא אֶתְהֶן אֲלֵיכֶם וַעֲשׂוּ לָהֶן כַּטּוֹב בְּעֵינֵיכֶם רַק לָֽאֲנָשִׁים הָאֵל אַל תַּעֲשׂוּ דָבָר כִּֽי עַל כֵּן בָּאוּ בְּצֵל קֹרָתִֽי",
-          "verse_transliteration": "hineh na' li shetey vanot 'asher lo' yad`u 'ish 'otsi'ah na' 'ethen 'aleykhem wa`asu lahen katov be`eyneykhem raq la'anashim ha'el 'al ta`asu davar ki `al ken ba'u betsel qorati",
+          "phrase_hebrew": "רַק לָֽאֲנָשִׁים הָאֵל אַל תַּעֲשׂוּ דָבָר",
+          "phrase_transliteration": "raq la'anashim ha'el 'al ta`asu davar",
           "gloss": "only to these men do nothing"
         },
         {
@@ -1594,8 +1595,8 @@
           "surface_form": "רַק",
           "transliteration": "raq",
           "word_id": "02Fjh",
-          "verse_hebrew": "וַיִּקְרָא פַרְעֹה אֶל מֹשֶׁה וַיֹּאמֶר לְכוּ עִבְדוּ אֶת יְהוָה רַק צֹאנְכֶם וּבְקַרְכֶם יֻצָּג גַּֽם טַפְּכֶם יֵלֵךְ עִמָּכֶֽם",
-          "verse_transliteration": "wayiqra' far`oh 'el mosheh wayo'mer lekhu `ivdu 'et yehwah raq tso'nkhem uvqarkhem yutsag gam tapkhem yelekh `imakhem",
+          "phrase_hebrew": "רַק צֹאנְכֶם וּבְקַרְכֶם יֻצָּג",
+          "phrase_transliteration": "raq tso'nkhem uvqarkhem yutsag",
           "gloss": "only your flocks and herds shall remain"
         }
       ]
@@ -1612,8 +1613,8 @@
           "surface_form": "בַּֽעֲדֽוֹ",
           "transliteration": "ba`ado",
           "word_id": "01roj",
-          "verse_hebrew": "וְהַבָּאִים זָכָר וּנְקֵבָה מִכָּל בָּשָׂר בָּאוּ כַּֽאֲשֶׁר צִוָּה אֹתוֹ אֱלֹהִים וַיִּסְגֹּר יְהוָה בַּֽעֲדֽוֹ",
-          "verse_transliteration": "wehaba'im zakhar unqevah mikal basar ba'u ka'asher tsiwah 'oto 'elohim wayisgor yehwah ba`ado",
+          "phrase_hebrew": "וַיִּסְגֹּר יְהוָה בַּֽעֲדֽוֹ",
+          "phrase_transliteration": "wayisgor yehwah ba`ado",
           "gloss": "the LORD shut him in"
         },
         {
@@ -1621,8 +1622,8 @@
           "surface_form": "בְּעַד",
           "transliteration": "be`ad",
           "word_id": "015iT",
-          "verse_hebrew": "וַיְהִי כִּי אָֽרְכוּ לוֹ שָׁם הַיָּמִים וַיַּשְׁקֵף אֲבִימֶלֶךְ מֶלֶךְ פְּלִשְׁתִּים בְּעַד הַֽחַלּוֹן וַיַּרְא וְהִנֵּה יִצְחָק מְצַחֵק אֵת רִבְקָה אִשְׁתּֽוֹ",
-          "verse_transliteration": "wayhi ki 'arkhu lo sham hayamim wayashqef 'avimelekh melekh pelishtim be`ad hakhalon wayar' wehineh yitskhaq metsakheq 'et rivqah 'ishto",
+          "phrase_hebrew": "וַיַּשְׁקֵף אֲבִימֶלֶךְ מֶלֶךְ פְּלִשְׁתִּים בְּעַד הַֽחַלּוֹן",
+          "phrase_transliteration": "wayashqef 'avimelekh melekh pelishtim be`ad hakhalon",
           "gloss": "Abimelech looked out through the window"
         },
         {
@@ -1630,8 +1631,8 @@
           "surface_form": "בְּעַד",
           "transliteration": "be`ad",
           "word_id": "02hZA",
-          "verse_hebrew": "וַיְהִי מִֽמָּחֳרָת וַיֹּאמֶר מֹשֶׁה אֶל הָעָם אַתֶּם חֲטָאתֶם חֲטָאָה גְדֹלָה וְעַתָּה אֶֽעֱלֶה אֶל יְהוָה אוּלַי אֲכַפְּרָה בְּעַד חַטַּאתְכֶֽם",
-          "verse_transliteration": "wayhi mimakhorat wayo'mer mosheh 'el ha`am 'atem khata'tem khata'ah gedolah we`atah 'e`eleh 'el yehwah 'ulay 'akhaprah be`ad khata'tkhem",
+          "phrase_hebrew": "אֲכַפְּרָה בְּעַד חַטַּאתְכֶֽם",
+          "phrase_transliteration": "'akhaprah be`ad khata'tkhem",
           "gloss": "let me make atonement for your sin"
         },
         {
@@ -1639,8 +1640,8 @@
           "surface_form": "בַּעֲדוֹ",
           "transliteration": "ba`ado",
           "word_id": "07tA5",
-          "verse_hebrew": "וַיֵּצֵא אֵהוּד הַֽמִּסְדְּרוֹנָה וַיִּסְגֹּר דַּלְתוֹת הָעַלִיָּה בַּעֲדוֹ וְנָעָֽל",
-          "verse_transliteration": "wayetse' 'ehud hamisderonah wayisgor daltot ha`aliyah ba`ado wena`al",
+          "phrase_hebrew": "וַיֵּצֵא אֵהוּד הַֽמִּסְדְּרוֹנָה וַיִּסְגֹּר דַּלְתוֹת הָעַלִיָּה בַּעֲדוֹ",
+          "phrase_transliteration": "wayetse' 'ehud hamisderonah wayisgor daltot ha`aliyah ba`ado",
           "gloss": "Ehud went out... and shut the doors behind him"
         }
       ]
@@ -1657,8 +1658,8 @@
           "surface_form": "יַעַן",
           "transliteration": "ya`an",
           "word_id": "013ku",
-          "verse_hebrew": "וַיֹּאמֶר בִּי נִשְׁבַּעְתִּי נְאֻם יְהוָה כִּי יַעַן אֲשֶׁר עָשִׂיתָ אֶת הַדָּבָר הַזֶּה וְלֹא חָשַׂכְתָּ אֶת בִּנְךָ אֶת יְחִידֶֽךָ",
-          "verse_transliteration": "wayo'mer bi nishba`ti ne'um yehwah ki ya`an 'asher `asita 'et hadavar hazeh welo' khasakhta 'et binkha 'et yekhidekha",
+          "phrase_hebrew": "יַעַן אֲשֶׁר עָשִׂיתָ אֶת הַדָּבָר הַזֶּה",
+          "phrase_transliteration": "ya`an 'asher `asita 'et hadavar hazeh",
           "gloss": "because you have done this thing"
         },
         {
@@ -1666,8 +1667,8 @@
           "surface_form": "יַעַן",
           "transliteration": "ya`an",
           "word_id": "04h5B",
-          "verse_hebrew": "וַיֹּאמֶר יְהוָה אֶל מֹשֶׁה וְאֶֽל אַהֲרֹן יַעַן לֹא הֶאֱמַנְתֶּם בִּי לְהַקְדִּישֵׁנִי לְעֵינֵי בְּנֵי יִשְׂרָאֵל לָכֵן לֹא תָבִיאוּ אֶת הַקָּהָל הַזֶּה אֶל הָאָרֶץ אֲשֶׁר נָתַתִּי לָהֶֽם",
-          "verse_transliteration": "wayo'mer yehwah 'el mosheh we'el 'aharon ya`an lo' he'emantem bi lehaqdisheni le`eyney beney yisra'el lakhen lo' tavi'u 'et haqahal hazeh 'el ha'arets 'asher natati lahem",
+          "phrase_hebrew": "יַעַן לֹא הֶאֱמַנְתֶּם בִּי",
+          "phrase_transliteration": "ya`an lo' he'emantem bi",
           "gloss": "because you did not believe me"
         },
         {
@@ -1675,8 +1676,8 @@
           "surface_form": "יַעַן",
           "transliteration": "ya`an",
           "word_id": "11vNk",
-          "verse_hebrew": "וַיֹּאמֶר יְהוָה לִשְׁלֹמֹה יַעַן אֲשֶׁר הָֽיְתָה זֹּאת עִמָּךְ וְלֹא שָׁמַרְתָּ בְּרִיתִי וְחֻקֹּתַי אֲשֶׁר צִוִּיתִי עָלֶיךָ קָרֹעַ אֶקְרַע אֶת הַמַּמְלָכָה מֵֽעָלֶיךָ וּנְתַתִּיהָ לְעַבְדֶּֽךָ",
-          "verse_transliteration": "wayo'mer yehwah lishlomoh ya`an 'asher haytah zo't `imakh welo' shamarta beriti wekhuqotay 'asher tsiwiti `aleykha qaroa` 'eqra` 'et hamamlakhah me`aleykha untatiha le`avdekha",
+          "phrase_hebrew": "יַעַן אֲשֶׁר הָֽיְתָה זֹּאת עִמָּךְ",
+          "phrase_transliteration": "ya`an 'asher haytah zo't `imakh",
           "gloss": "because this has been your practice"
         }
       ]
@@ -1693,8 +1694,8 @@
           "surface_form": "וְאֵיךְ",
           "transliteration": "we'eykh",
           "word_id": "01hW5",
-          "verse_hebrew": "אֵינֶנּוּ גָדוֹל בַּבַּיִת הַזֶּה מִמֶּנִּי וְלֹֽא חָשַׂךְ מִמֶּנִּי מְאוּמָה כִּי אִם אוֹתָךְ בַּאֲשֶׁר אַתְּ אִשְׁתּוֹ וְאֵיךְ אֶֽעֱשֶׂה הָרָעָה הַגְּדֹלָה הַזֹּאת וְחָטָאתִי לֵֽאלֹהִֽים",
-          "verse_transliteration": "'eynenu gadol babayit hazeh mimeni welo' khasakh mimeni me'umah ki 'im 'otakh ba'asher 'at 'ishto we'eykh 'e`eseh hara`ah hagdolah hazo't wekhata'ti le'lohim",
+          "phrase_hebrew": "וְאֵיךְ אֶֽעֱשֶׂה הָרָעָה הַגְּדֹלָה הַזֹּאת",
+          "phrase_transliteration": "we'eykh 'e`eseh hara`ah hagdolah hazo't",
           "gloss": "how then could I do this great evil?"
         },
         {
@@ -1702,8 +1703,8 @@
           "surface_form": "אֵיכָה",
           "transliteration": "'eykhah",
           "word_id": "0592v",
-          "verse_hebrew": "אֵיכָה אֶשָּׂא לְבַדִּי טָרְחֲכֶם וּמַֽשַּׂאֲכֶם וְרִֽיבְכֶֽם",
-          "verse_transliteration": "'eykhah 'esa' levadi tarkhakhem umasa'akhem werivkhem",
+          "phrase_hebrew": "אֵיכָה אֶשָּׂא לְבַדִּי טָרְחֲכֶם",
+          "phrase_transliteration": "'eykhah 'esa' levadi tarkhakhem",
           "gloss": "how can I bear your weight alone?"
         },
         {
@@ -1711,8 +1712,8 @@
           "surface_form": "אֵיךְ",
           "transliteration": "'eykh",
           "word_id": "10eRa",
-          "verse_hebrew": "הַצְּבִי יִשְׂרָאֵל עַל בָּמוֹתֶיךָ חָלָל אֵיךְ נָפְלוּ גִבּוֹרִֽים",
-          "verse_transliteration": "hatsvi yisra'el `al bamoteykha khalal 'eykh naflu giborim",
+          "phrase_hebrew": "אֵיךְ נָפְלוּ גִבּוֹרִֽים",
+          "phrase_transliteration": "'eykh naflu giborim",
           "gloss": "how the mighty have fallen!"
         }
       ]
@@ -1729,8 +1730,8 @@
           "surface_form": "לָא",
           "transliteration": "la'",
           "word_id": "15nk3",
-          "verse_hebrew": "כְּעַן יְדִיעַ לֶהֱוֵא לְמַלְכָּא דִּי הֵן קִרְיְתָא דָךְ תִּתְבְּנֵא וְשׁוּרַיָּה יִֽשְׁתַּכְלְלוּן מִנְדָּֽה בְלוֹ וַהֲלָךְ לָא יִנְתְּנוּן וְאַפְּתֹם מַלְכִים תְּהַנְזִֽק",
-          "verse_transliteration": "ke`an yedia` lehewe' lemalka' di hen qiryeta' dakh titbene' weshurayah yishtakhlelun mindah velo wahalakh la' yintenun we'aptom malkhim tehanziq",
+          "phrase_hebrew": "מִנְדָּֽה בְלוֹ וַהֲלָךְ לָא יִנְתְּנוּן",
+          "phrase_transliteration": "mindah velo wahalakh la' yintenun",
           "gloss": "they will not pay tribute"
         },
         {
@@ -1738,8 +1739,8 @@
           "surface_form": "וְלָא",
           "transliteration": "wela'",
           "word_id": "15U2p",
-          "verse_hebrew": "אֱדַיִן שֵׁשְׁבַּצַּר דֵּךְ אֲתָא יְהַב אֻשַּׁיָּא דִּי בֵית אֱלָהָא דִּי בִירוּשְׁלֶם וּמִן אֱדַיִן וְעַד כְּעַן מִתְבְּנֵא וְלָא שְׁלִֽם",
-          "verse_transliteration": "'edayin sheshbatsar dekh 'ata' yehav 'ushaya' di veyt 'elaha' di virushlem umin 'edayin we`ad ke`an mitbene' wela' shelim",
+          "phrase_hebrew": "וְלָא שְׁלִֽם",
+          "phrase_transliteration": "wela' shelim",
           "gloss": "and it is not finished"
         },
         {
@@ -1747,8 +1748,8 @@
           "surface_form": "לָא",
           "transliteration": "la'",
           "word_id": "27Amf",
-          "verse_hebrew": "עָנֵה דָנִיֵּאל קֳדָם מַלְכָּא וְאָמַר רָזָה דִּֽי מַלְכָּא שָׁאֵל לָא חַכִּימִין אָֽשְׁפִין חַרְטֻמִּין גָּזְרִין יָכְלִין לְהַֽחֲוָיָה לְמַלְכָּֽא",
-          "verse_transliteration": "`aneh daniye'l qodam malka' we'amar razah di malka' sha'el la' khakimin 'ashfin khartumin gazrin yakhlin lehakhawayah lemalka'",
+          "phrase_hebrew": "לָא חַכִּימִין אָֽשְׁפִין חַרְטֻמִּין גָּזְרִין יָכְלִין",
+          "phrase_transliteration": "la' khakimin 'ashfin khartumin gazrin yakhlin",
           "gloss": "the wise men are not able [to tell it]"
         }
       ]
@@ -1765,17 +1766,17 @@
           "surface_form": "סֶֽלָה",
           "transliteration": "selah",
           "word_id": "19FMU",
-          "verse_hebrew": "רַבִּים אֹמְרִים לְנַפְשִׁי אֵין יְֽשׁוּעָתָה לּוֹ בֵֽאלֹהִים סֶֽלָה",
-          "verse_transliteration": "rabim 'omrim lenafshi 'eyn yeshu`atah lo ve'lohim selah",
-          "gloss": "‘There is no salvation for him in God.’ Selah"
+          "phrase_hebrew": "אֵין יְֽשׁוּעָתָה לּוֹ בֵֽאלֹהִים סֶֽלָה",
+          "phrase_transliteration": "'eyn yeshu`atah lo ve'lohim selah",
+          "gloss": "'There is no salvation for him in God.' Selah"
         },
         {
           "ref": "Ps.24.10",
           "surface_form": "סֶֽלָה",
           "transliteration": "selah",
           "word_id": "19E91",
-          "verse_hebrew": "מִי הוּא זֶה מֶלֶךְ הַכָּבוֹד יְהוָה צְבָאוֹת הוּא מֶלֶךְ הַכָּבוֹד סֶֽלָה",
-          "verse_transliteration": "mi hu' zeh melekh hakavod yehwah tseva'ot hu' melekh hakavod selah",
+          "phrase_hebrew": "מִי הוּא זֶה מֶלֶךְ הַכָּבוֹד יְהוָה צְבָאוֹת הוּא מֶלֶךְ הַכָּבוֹד סֶֽלָה",
+          "phrase_transliteration": "mi hu' zeh melekh hakavod yehwah tseva'ot hu' melekh hakavod selah",
           "gloss": "Who is this King of glory? ...Selah"
         },
         {
@@ -1783,8 +1784,8 @@
           "surface_form": "סֶֽלָה",
           "transliteration": "selah",
           "word_id": "19Fdk",
-          "verse_hebrew": "יְהוָה צְבָאוֹת עִמָּנוּ מִשְׂגָּֽב לָנוּ אֱלֹהֵי יַעֲקֹב סֶֽלָה",
-          "verse_transliteration": "yehwah tseva'ot `imanu misgav lanu 'elohey ya`aqov selah",
+          "phrase_hebrew": "יְהוָה צְבָאוֹת עִמָּנוּ מִשְׂגָּֽב לָנוּ אֱלֹהֵי יַעֲקֹב סֶֽלָה",
+          "phrase_transliteration": "yehwah tseva'ot `imanu misgav lanu 'elohey ya`aqov selah",
           "gloss": "The LORD of hosts is with us. Selah"
         }
       ]
@@ -1801,8 +1802,8 @@
           "surface_form": "בַּל",
           "transliteration": "bal",
           "word_id": "193v4",
-          "verse_hebrew": "שִׁוִּיתִי יְהוָה לְנֶגְדִּי תָמִיד כִּי מִֽימִינִי בַּל אֶמּֽוֹט",
-          "verse_transliteration": "shiwiti yehwah lenegdi tamid ki mimini bal 'emot",
+          "phrase_hebrew": "בַּל אֶמּֽוֹט",
+          "phrase_transliteration": "bal 'emot",
           "gloss": "I shall not be moved"
         },
         {
@@ -1810,8 +1811,8 @@
           "surface_form": "בַּל",
           "transliteration": "bal",
           "word_id": "19zbv",
-          "verse_hebrew": "תַּאֲוַת לִבּוֹ נָתַתָּה לּוֹ וַאֲרֶשֶׁת שְׂפָתָיו בַּל מָנַעְתָּ סֶּֽלָה",
-          "verse_transliteration": "ta'awat libo natatah lo wa'areshet sefatayw bal mana`ta selah",
+          "phrase_hebrew": "בַּל מָנַעְתָּ",
+          "phrase_transliteration": "bal mana`ta",
           "gloss": "you have not withheld [what his lips desired]"
         },
         {
@@ -1819,8 +1820,8 @@
           "surface_form": "בַּל",
           "transliteration": "bal",
           "word_id": "199fJ",
-          "verse_hebrew": "רָשָׁע כְּגֹבַהּ אַפּוֹ בַּל יִדְרֹשׁ אֵין אֱלֹהִים כָּל מְזִמּוֹתָֽיו",
-          "verse_transliteration": "rasha` kegovah 'apo bal yidrosh 'eyn 'elohim kal mezimotayw",
+          "phrase_hebrew": "כְּגֹבַהּ אַפּוֹ בַּל יִדְרֹשׁ",
+          "phrase_transliteration": "kegovah 'apo bal yidrosh",
           "gloss": "in the pride of his face... he will not seek [God]"
         }
       ]
@@ -1837,8 +1838,8 @@
           "surface_form": "מַדּוּעַ",
           "transliteration": "madua`",
           "word_id": "02kMZ",
-          "verse_hebrew": "וַתָּבֹאנָה אֶל רְעוּאֵל אֲבִיהֶן וַיֹּאמֶר מַדּוּעַ מִהַרְתֶּן בֹּא הַיּֽוֹם",
-          "verse_transliteration": "watavo'nah 'el re`u'el 'avihen wayo'mer madua` miharten bo' hayom",
+          "phrase_hebrew": "מַדּוּעַ מִהַרְתֶּן בֹּא הַיּֽוֹם",
+          "phrase_transliteration": "madua` miharten bo' hayom",
           "gloss": "why have you come so soon today?"
         },
         {
@@ -1846,8 +1847,8 @@
           "surface_form": "מַדּוּעַ",
           "transliteration": "madua`",
           "word_id": "02AwN",
-          "verse_hebrew": "וַיֹּאמֶר מֹשֶׁה אָסֻֽרָה נָּא וְאֶרְאֶה אֶת הַמַּרְאֶה הַגָּדֹל הַזֶּה מַדּוּעַ לֹא יִבְעַר הַסְּנֶֽה",
-          "verse_transliteration": "wayo'mer mosheh 'asurah na' we'er'eh 'et hamar'eh hagadol hazeh madua` lo' yiv`ar hasneh",
+          "phrase_hebrew": "מַדּוּעַ לֹא יִבְעַר הַסְּנֶֽה",
+          "phrase_transliteration": "madua` lo' yiv`ar hasneh",
           "gloss": "why the bush is not burnt up"
         },
         {
@@ -1855,8 +1856,8 @@
           "surface_form": "מַדּוּעַ",
           "transliteration": "madua`",
           "word_id": "07DUx",
-          "verse_hebrew": "בְּעַד הַחַלּוֹן נִשְׁקְפָה וַתְּיַבֵּב אֵם סִֽיסְרָא בְּעַד הָֽאֶשְׁנָב מַדּוּעַ בֹּשֵׁשׁ רִכְבּוֹ לָבוֹא מַדּוּעַ אֶֽחֱרוּ פַּעֲמֵי מַרְכְּבוֹתָֽיו",
-          "verse_transliteration": "be`ad hakhalon nishqefah watyabev 'em sisra' be`ad ha'eshnav madua` boshesh rikhbo lavo' madua` 'ekheru pa`amey markevotayw",
+          "phrase_hebrew": "מַדּוּעַ בֹּשֵׁשׁ רִכְבּוֹ לָבוֹא",
+          "phrase_transliteration": "madua` boshesh rikhbo lavo'",
           "gloss": "why is his chariot so long in coming?"
         }
       ]

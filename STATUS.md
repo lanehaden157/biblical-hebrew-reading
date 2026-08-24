@@ -485,6 +485,50 @@ in-browser: the very first cards in a fresh session (highest-frequency vocab, do
 function words) all show the toggle correctly; nouns/verbs never show it; toggling doesn't
 disturb grading or scroll position; both themes render correctly. selftest 115/115.
 
+## Done — Phase 5: shortened examples + card-flip reveal
+
+Two follow-up requests on the feature above, after Lane used it for real: the full-verse
+Hebrew was "way too long", and the expand-downward panel should instead flip the whole
+card over (view-only back face; flipping back to the front is how you grade -- confirmed
+with Lane before building, so `gradeRow()` is withheld while flipped rather than
+duplicated on the back).
+
+**Shortening the Hebrew** meant re-curating all 155 examples with an explicit phrase
+boundary, not just a word id -- `build_function_word_examples.py`'s `EXAMPLES` tuples grew
+a `phrase_start_id`/`phrase_end_id` pair per example (still hand-picked, same curatorial
+judgment call as the word id and gloss always were; still mechanically extracted from the
+corpus, never hand-typed, per hard rule 1). Rebuilding surfaced two pre-existing
+curation bugs -- both real, both plausible-looking wrong output exactly per hard rule 3 --
+caught while reading the raw verse word-by-word to place phrase boundaries, not by the
+verifier (which had been independently re-deriving the same wrong picks): H413's Gen 3:16
+example pointed at the verse's *first* `'el` ("to the woman he said...") while its gloss
+("your desire will be for your husband") described a *different* `'el` later in the same
+verse -- fixed by retargeting the word id, not the gloss. H4616's Gen 18:19 example had the
+same mismatch on `lema`an`, which occurs twice in that verse. `verify_function_word_examples.py`
+was rewritten to independently re-slice each phrase from the verse's own word list (by
+word count anchored at the target word, matching shipped text exactly) rather than trusting
+the shipped boundary -- still never importing the build script's logic. Output fields
+renamed `verse_hebrew`/`verse_transliteration` -> `phrase_hebrew`/`phrase_transliteration`
+to stop implying "the whole verse" now that it isn't; `selftest.html` updated to match.
+
+**The flip** is CSS `rotateY` on a `.flip-card` wrapper, driven by hand from
+`vocab.js` (`triggerFlip()`) since the DOM is fully rebuilt on every `render()` call --
+there's no persistent two-sided element a plain CSS transition could animate across that
+rebuild, so the illusion is faked in two steps: rotate the outgoing face to its edge, swap
+the DOM via the normal render path, then rotate the incoming face in from its edge.
+**Bug caught in-browser, not by eyeballing the code:** the first version reset the
+`flipping` re-entrancy guard inside a `requestAnimationFrame` callback: fine on a normal
+foreground tab, but the automated preview pane doesn't composite frames when not visibly
+displayed, so rAF never fired, the guard stayed `true` forever after the very first flip,
+and every subsequent tap silently did nothing. Fixed by resetting the guard synchronously
+right after the forced-reflow trick (`void el.offsetWidth`) that restarts the CSS
+transition -- that trick never needed rAF in the first place, only a reflow between adding
+and removing the class. Verified in-browser end-to-end afterward: flip to back shows the
+trimmed phrase (not the full verse) and hides the grade row; flip back restores it;
+grading a card resets flip state for the next one; a rapid double-tap on the flip toggle
+is correctly absorbed by the guard rather than wedging. selftest 115/115 (schema-renamed
+fields only; check count unchanged).
+
 ## Next — Phase 5: Tiers 3–5 (grammar tiers), further lesson groups if scoped
 
 The Learn tab's original concept-list scope is fully built across five groups. Any

@@ -132,6 +132,32 @@ body {
   margin-bottom: 4px;
 }
 
+/* ---- vocab: card-flip wrapper ---- */
+/* .flip-card holds whichever face (front .card or back .card-back) render()
+   just mounted; the DOM is fully rebuilt each render (no persistent element
+   to animate a real two-sided flip on), so the illusion is faked in two
+   steps driven from vocab.js's triggerFlip(): rotate the outgoing face to
+   its edge (.flip-out), swap the DOM, then rotate the incoming face in from
+   its edge (.flip-in-start, removed next frame). perspective lives on the
+   wrapper, not the rotated element itself, per how CSS 3D transforms work. */
+.flip-perspective {
+  perspective: 1400px;
+}
+
+.flip-card {
+  transform: rotateY(0deg);
+  transition: transform 160ms ease;
+}
+
+.flip-card.flip-out {
+  transform: rotateY(90deg);
+}
+
+.flip-card.flip-in-start {
+  transition: none;
+  transform: rotateY(90deg);
+}
+
 .card {
   background: var(--surface);
   border: 0.5px solid var(--border);
@@ -258,9 +284,12 @@ body {
 .grade[data-g="easy"] small { color: var(--accent); opacity: 0.75; }
 
 /* ---- vocab: real-usage examples for function words ---- */
-/* Optional expand, not a tap-through stage -- deliberately doesn't sit in
-   the advance()/stage flow above, so it never delays grading (hard rule 5:
-   no added friction on cards you already know). */
+/* A flip to the card's back, not a tap-through stage -- deliberately
+   doesn't sit in the advance()/stage flow above, so it never delays
+   grading (hard rule 5: no added friction on cards you already know). Only
+   reachable once stage >= 2 (past the definition); flipping back to the
+   front is how you grade, so gradeRow() is withheld while flipped rather
+   than duplicated on the back. */
 
 .examples-toggle {
   appearance: none;
@@ -270,6 +299,36 @@ body {
   background: none;
   border: 0;
   padding: 10px 0 0;
+  cursor: pointer;
+  text-align: center;
+  width: 100%;
+}
+
+.card-back {
+  cursor: pointer;
+  align-items: stretch;
+  justify-content: flex-start;
+  text-align: left;
+  gap: 0;
+}
+
+.card-back-heading {
+  font-size: 13px;
+  color: var(--text-faint);
+  text-align: center;
+  margin: 0 0 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.flip-back-btn {
+  appearance: none;
+  font: inherit;
+  font-size: 13px;
+  color: var(--accent);
+  background: none;
+  border: 0;
+  padding: 14px 0 0;
   cursor: pointer;
   text-align: center;
   width: 100%;

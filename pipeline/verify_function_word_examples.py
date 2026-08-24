@@ -17,18 +17,21 @@ Checks:
   3. Every example's word_id is independently found in the claimed verse
      of the claimed book, its lemma independently resolves to the entry's
      lemma_id (function-code letter or Strong's number), and its
-     surface_form/transliteration/verse_hebrew/verse_transliteration match
-     an independent re-extraction from the corpus exactly.
-  4. Character-set sanity on every surface_form/verse_hebrew/
-     transliteration/verse_transliteration.
-  5. No duplicate (lemma_id, ref, word_id) example.
+     surface_form/transliteration/phrase_hebrew/phrase_transliteration
+     match an independent re-extraction from the corpus exactly -- the
+     phrase is re-sliced from the verse's own word list by finding the
+     first and last word of phrase_hebrew's word count anchored at
+     word_id's position, not by trusting the shipped text.
+  4. The target word_id actually falls inside its own claimed phrase.
+  5. Character-set sanity on every surface_form/phrase_hebrew/
+     transliteration/phrase_transliteration.
+  6. No duplicate (lemma_id, ref, word_id) example.
 """
 import json
 import os
 import re
 import sys
 import xml.etree.ElementTree as ET
-from collections import defaultdict
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from hebrew_corpus import OSIS_NS, WLC_DIR
@@ -82,7 +85,7 @@ def word_matches_lemma(lemma_parts, lemma_id):
     return False
 
 
-def find_word_and_verse(book_code, word_id, book_cache):
+def load_book(book_code, book_cache):
     if book_code not in book_cache:
         path = os.path.join(WLC_DIR, f"{book_code}.xml")
         root = ET.parse(path).getroot()
@@ -96,7 +99,11 @@ def find_word_and_verse(book_code, word_id, book_cache):
                 for w in verse.iter(f"{OSIS_NS}w")
             ]
         book_cache[book_code] = verses
-    verses = book_cache[book_code]
+    return book_cache[book_code]
+
+
+def find_word_and_verse(book_code, word_id, book_cache):
+    verses = load_book(book_code, book_cache)
     for vid, words in verses.items():
         for w in words:
             if w["id"] == word_id:
@@ -163,30 +170,42 @@ def main():
                 fail(f"{tag}: word id {ex['word_id']!r} lemma {target['lemma']!r} does not resolve to {lemma_id}")
 
             expected_surface = strip_cant(target["text"].replace("/", ""))
-            expected_words = [strip_cant(w["text"].replace("/", "")) for w in words]
-            expected_verse = " ".join(expected_words)
             if ex["surface_form"] != expected_surface:
                 fail(f"{tag}/{ex['ref']}: surface_form {ex['surface_form']!r} != independent extraction {expected_surface!r}")
-            if ex["verse_hebrew"] != expected_verse:
-                fail(f"{tag}/{ex['ref']}: verse_hebrew mismatch vs independent extraction")
             if ex["transliteration"] != transliterate(expected_surface):
                 fail(f"{tag}/{ex['ref']}: transliteration {ex['transliteration']!r} != transliterate(surface_form)")
-            # verse_transliteration is per-word transliteration rejoined with
-            # spaces, not transliterate() run on the whole phrase -- see
-            # build_function_word_examples.py's comment on verse_translit
-            # for why (transliterate() silently drops spaces on multi-word
-            # input, since it's a per-word function everywhere else in this
-            # pipeline).
-            expected_verse_translit = " ".join(transliterate(w) for w in expected_words)
-            if ex["verse_transliteration"] != expected_verse_translit:
-                fail(f"{tag}/{ex['ref']}: verse_transliteration != per-word transliterate() rejoined with spaces")
 
-            # --- 4. character-set sanity -------------------------------------
-            for field in ("surface_form", "verse_hebrew"):
+            # --- 3/4. independently re-slice the phrase from the verse's own
+            # word list, anchored at word_id, and confirm it matches exactly
+            # what shipped. The shipped phrase's word count tells us how
+            # many verse words to expect either side of the target; we then
+            # confirm those clean-joined words equal phrase_hebrew, which
+            # only holds if the boundaries are exactly right.
+            ids_in_verse = [w["id"] for w in words]
+            target_pos = ids_in_verse.index(ex["word_id"])
+            shipped_word_count = len(ex["phrase_hebrew"].split(" "))
+            found = False
+            for si in range(max(0, target_pos - shipped_word_count + 1), target_pos + 1):
+                ei = si + shipped_word_count - 1
+                if ei >= len(words) or ei < target_pos:
+                    continue
+                window = words[si:ei + 1]
+                window_clean = [strip_cant(w["text"].replace("/", "")) for w in window]
+                if " ".join(window_clean) == ex["phrase_hebrew"]:
+                    found = True
+                    expected_translit = " ".join(transliterate(w) for w in window_clean)
+                    if ex["phrase_transliteration"] != expected_translit:
+                        fail(f"{tag}/{ex['ref']}: phrase_transliteration != per-word transliterate() rejoined with spaces")
+                    break
+            if not found:
+                fail(f"{tag}/{ex['ref']}: phrase_hebrew {ex['phrase_hebrew']!r} is not a contiguous span of {ex['word_id']!r}'s verse containing that word")
+
+            # --- 5. character-set sanity -------------------------------------
+            for field in ("surface_form", "phrase_hebrew"):
                 v = ex[field]
                 if not v or not ALLOWED_HEB_RE.match(v):
                     fail(f"{tag}/{ex['ref']}: {field} missing or has unexpected characters: {v!r}")
-            for field in ("transliteration", "verse_transliteration"):
+            for field in ("transliteration", "phrase_transliteration"):
                 v = ex[field]
                 if not v or not ALLOWED_TRANSLIT_RE.match(v):
                     fail(f"{tag}/{ex['ref']}: {field} {v!r} is empty or outside the locked ASCII scheme")

@@ -161,9 +161,9 @@ async function run() {
       if (e.sense_count !== senses.length) badSenseCount++;
       for (const ex of e.examples) {
         if (!ex.surface_form || !HEBREW_RE.test(ex.surface_form)) badForm2++;
-        if (!ex.verse_hebrew || !HEBREW_RE.test(ex.verse_hebrew)) badForm2++;
+        if (!ex.phrase_hebrew || !HEBREW_RE.test(ex.phrase_hebrew)) badForm2++;
         if (!ex.transliteration || !TRANSLIT_RE.test(ex.transliteration)) badForm2++;
-        if (!ex.verse_transliteration || !VERSE_TRANSLIT_RE.test(ex.verse_transliteration)) badForm2++;
+        if (!ex.phrase_transliteration || !VERSE_TRANSLIT_RE.test(ex.phrase_transliteration)) badForm2++;
         if (!ex.gloss || !ex.gloss.trim()) badGloss2++;
       }
     }

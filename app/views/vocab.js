@@ -21,7 +21,8 @@ let pos = 0;
 let stage = 0;
 let session = null;
 let deferred = 0;
-let examplesOpen = false;
+let flipped = false;
+let flipping = false;
 let functionWordExamples = {};
 
 const HINTS = ['tap for the sound', 'tap for the meaning'];
@@ -39,7 +40,7 @@ export function render(root, deck, examples) {
     deferred = built.deferred;
     pos = 0;
     stage = 0;
-    examplesOpen = false;
+    flipped = false;
     session = { start: Date.now(), reviewed: 0, again: 0 };
   }
 
@@ -52,9 +53,53 @@ export function render(root, deck, examples) {
 
   const item = queue[pos];
   root.appendChild(headRow(item));
-  const card = cardEl(item);
-  root.appendChild(card);
-  if (stage === 2) root.appendChild(gradeRow(item, root, deck));
+
+  const wex = functionWordExamples[item.entry.lemma_id];
+  const perspective = document.createElement('div');
+  perspective.className = 'flip-perspective';
+  const flipCard = document.createElement('div');
+  flipCard.className = 'flip-card';
+  flipCard.appendChild(flipped && wex ? cardBackEl(wex) : cardEl(item, wex));
+  perspective.appendChild(flipCard);
+  root.appendChild(perspective);
+
+  if (stage === 2 && !flipped) root.appendChild(gradeRow(item, root, deck));
+}
+
+// Mid-flip guard plus the two-phase rotate-out/swap-content/rotate-in dance:
+// the DOM is fully rebuilt on every render() (see above), so a plain CSS
+// transition can't animate across that rebuild by itself -- this drives it
+// by hand, rotating the current face to its edge, swapping `flipped` and
+// re-rendering (which mounts the new face already edge-on via
+// .flip-in-start), then dropping that class to let the base .flip-card
+// transition carry it the rest of the way to face-on. The class swap is
+// separated by a forced reflow (the offsetWidth read), not a
+// requestAnimationFrame -- rAF only fires once the tab is actually
+// compositing frames, which isn't guaranteed (e.g. a backgrounded or
+// off-screen webview), and stalling there would leave `flipping` stuck
+// true forever, wedging every future tap.
+function triggerFlip(next) {
+  if (flipping || flipped === next) return;
+  flipping = true;
+  const current = document.querySelector('.flip-card');
+  const FLIP_HALF_MS = 160;
+  const finish = () => {
+    flipped = next;
+    rerender();
+    const fresh = document.querySelector('.flip-card');
+    if (fresh) {
+      fresh.classList.add('flip-in-start');
+      void fresh.offsetWidth; // force reflow so removing the class below restarts the transition
+      fresh.classList.remove('flip-in-start');
+    }
+    flipping = false;
+  };
+  if (current) {
+    current.classList.add('flip-out');
+    setTimeout(finish, FLIP_HALF_MS);
+  } else {
+    finish();
+  }
 }
 
 function headRow(item) {
@@ -76,7 +121,7 @@ function headRow(item) {
   return head;
 }
 
-function cardEl(item) {
+function cardEl(item, wex) {
   const { entry } = item;
   const el = document.createElement('div');
   el.className = 'card' + (stage === 2 ? ' is-open' : '');
@@ -112,9 +157,21 @@ function cardEl(item) {
     // conjunctions/particles are hard to remember from a bare gloss alone
     // since (unlike a noun or verb) their meaning only comes clear from a
     // real sentence. Only rendered for the ~51-word closed set that
-    // data/function_word_examples.json actually covers.
-    const wex = functionWordExamples[entry.lemma_id];
-    if (wex) el.appendChild(examplesBlock(wex));
+    // data/function_word_examples.json actually covers. Flips the whole
+    // card over rather than expanding downward, and only reachable once
+    // stage >= 2 (past the definition) -- flipping back to this face is
+    // how you grade, so the examples stay a look-up, never a detour.
+    if (wex) {
+      const toggle = document.createElement('button');
+      toggle.className = 'examples-toggle';
+      toggle.type = 'button';
+      toggle.textContent = `See ${wex.examples.length} example${wex.examples.length === 1 ? '' : 's'} from the Bible`;
+      toggle.addEventListener('click', (e) => {
+        e.stopPropagation();
+        triggerFlip(true);
+      });
+      el.appendChild(toggle);
+    }
   } else {
     const hint = document.createElement('p');
     hint.className = 'card-hint';
@@ -141,57 +198,64 @@ function hr() {
   return r;
 }
 
-function examplesBlock(wex) {
-  const wrap = document.createElement('div');
-  wrap.className = 'examples-block';
+function cardBackEl(wex) {
+  const el = document.createElement('div');
+  el.className = 'card card-back';
+  el.setAttribute('role', 'button');
+  el.tabIndex = 0;
 
-  const toggle = document.createElement('button');
-  toggle.className = 'examples-toggle';
-  toggle.type = 'button';
-  toggle.textContent = examplesOpen
-    ? 'Hide examples'
-    : `See ${wex.examples.length} example${wex.examples.length === 1 ? '' : 's'} from the Bible`;
-  toggle.addEventListener('click', (e) => {
-    e.stopPropagation();
-    examplesOpen = !examplesOpen;
-    rerender();
-  });
-  wrap.appendChild(toggle);
+  const heading = document.createElement('p');
+  heading.className = 'card-back-heading';
+  heading.textContent = 'Real usage in the Bible';
+  el.appendChild(heading);
 
-  if (examplesOpen) {
-    const panel = document.createElement('div');
-    panel.className = 'examples-panel';
-    for (const ex of wex.examples) {
-      const item = document.createElement('div');
-      item.className = 'example-item';
+  const panel = document.createElement('div');
+  panel.className = 'examples-panel';
+  for (const ex of wex.examples) {
+    const item = document.createElement('div');
+    item.className = 'example-item';
 
-      const heb = document.createElement('p');
-      heb.className = 'example-heb heb';
-      heb.lang = 'he';
-      heb.textContent = ex.verse_hebrew;
-      item.appendChild(heb);
+    const heb = document.createElement('p');
+    heb.className = 'example-heb heb';
+    heb.lang = 'he';
+    heb.textContent = ex.phrase_hebrew;
+    item.appendChild(heb);
 
-      const translit = document.createElement('p');
-      translit.className = 'example-translit';
-      translit.textContent = ex.verse_transliteration;
-      item.appendChild(translit);
+    const translit = document.createElement('p');
+    translit.className = 'example-translit';
+    translit.textContent = ex.phrase_transliteration;
+    item.appendChild(translit);
 
-      const gloss = document.createElement('p');
-      gloss.className = 'example-gloss';
-      gloss.textContent = `“${ex.gloss}”`;
-      item.appendChild(gloss);
+    const gloss = document.createElement('p');
+    gloss.className = 'example-gloss';
+    gloss.textContent = `“${ex.gloss}”`;
+    item.appendChild(gloss);
 
-      const ref = document.createElement('p');
-      ref.className = 'example-ref';
-      ref.textContent = ex.ref;
-      item.appendChild(ref);
+    const ref = document.createElement('p');
+    ref.className = 'example-ref';
+    ref.textContent = ex.ref;
+    item.appendChild(ref);
 
-      panel.appendChild(item);
-    }
-    wrap.appendChild(panel);
+    panel.appendChild(item);
   }
+  el.appendChild(panel);
 
-  return wrap;
+  const back = document.createElement('button');
+  back.className = 'flip-back-btn';
+  back.type = 'button';
+  back.textContent = '← Flip back to grade';
+  back.addEventListener('click', (e) => {
+    e.stopPropagation();
+    triggerFlip(false);
+  });
+  el.appendChild(back);
+
+  const flipBack = () => triggerFlip(false);
+  el.addEventListener('click', flipBack);
+  el.addEventListener('keydown', (e) => {
+    if (e.key === ' ' || e.key === 'Enter') { e.preventDefault(); flipBack(); }
+  });
+  return el;
 }
 
 function gradeRow(item, root, deck) {
@@ -240,7 +304,7 @@ function grade(item, gradeKey, deck) {
 
   pos++;
   stage = 0;
-  examplesOpen = false;
+  flipped = false;
   if (pos >= queue.length) feedback.finish();
   rerender();
 }
