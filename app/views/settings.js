@@ -20,7 +20,8 @@ export function render(root, deck, rerender) {
   h.textContent = 'Settings';
   root.appendChild(h);
 
-  root.appendChild(statsBlock(deck));
+  const st = stats(deck);
+  root.appendChild(statsBlock(st));
 
   const s = settings();
 
@@ -42,8 +43,14 @@ export function render(root, deck, rerender) {
   ]);
   root.appendChild(feel);
 
+  const remaining = Math.max(0, deck.length - st.seen);
+  const daysLeft = Math.ceil(remaining / Math.max(1, s.newPerDay));
+  const paceNote = remaining
+    ? `${st.seen} of ${deck.length} started. At ${s.newPerDay || 1}/day, about ${daysLeft} more day${daysLeft === 1 ? '' : 's'} to introduce the rest.`
+    : `All ${deck.length} started.`;
+
   const pace = group([
-    number('New words per day', `${deck.length} total. At ${s.newPerDay || 1}/day that is about ${Math.ceil(deck.length / Math.max(1, s.newPerDay))} days to introduce them all.`,
+    number('New words per day', paceNote,
       s.newPerDay, 0, 40, (v) => { setSetting('newPerDay', v); rerender(); }),
     number('Daily review cap', 'Anything over the cap is quietly held for another day.',
       s.dailyCap, 5, 200, (v) => { setSetting('dailyCap', v); rerender(); }),
@@ -78,8 +85,7 @@ export function render(root, deck, rerender) {
   root.appendChild(note);
 }
 
-function statsBlock(deck) {
-  const st = stats(deck);
+function statsBlock(st) {
   const wrap = document.createElement('div');
   wrap.className = 'stat-grid';
   const cells = [
@@ -188,7 +194,7 @@ function syncBlock(rerender) {
     row.style.gap = '10px';
 
     row.appendChild(labelCell('Sync across devices',
-      'Optional. Stores your progress in a private GitHub Gist so opening the app on another device picks it up. The token stays in this browser and is sent only to GitHub.'));
+      'Optional. Stores your progress in a private GitHub Gist so opening the app on another device picks it up. The token stays in this browser and is sent only to GitHub -- keep a copy of it somewhere durable (e.g. a password manager), since a device reset wipes the token along with everything else, and reconnecting needs it.'));
 
     const link = document.createElement('a');
     link.href = 'https://github.com/settings/tokens/new';

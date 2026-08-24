@@ -214,25 +214,39 @@ export function disconnect() {
   localStorage.removeItem(SYNC_KEY);
 }
 
+// Guards against overlapping syncNow() calls -- e.g. a debounced sync
+// firing at the same moment flush() forces one on visibilitychange.
+// Without this, two concurrent pull/merge/push cycles would both hit the
+// network for no benefit (each recomputes the same merge if nothing local
+// changed in between). Callers made while one is in flight just await the
+// same promise rather than starting a second round-trip.
+let inFlight = null;
+
 /** Pull, merge, and push once. Used both for the "Sync now" button and for
  *  the one automatic pull-on-boot (see main.js) -- opening the app on a
  *  second device should pick up the first device's latest progress without
  *  waiting for that device to make a new change first. */
-export async function syncNow() {
+export function syncNow() {
+  if (inFlight) return inFlight;
   const s = readSyncState();
-  if (!s.token || !s.gistId) return;
-  writeSyncState({ syncing: true });
-  try {
-    const remote = await pullGist(s.token, s.gistId);
-    const local = load();
-    const merged = mergeStates(local, remote);
-    await pushGist(s.token, s.gistId, merged);
-    update((state) => { Object.assign(state, merged); });
-    writeSyncState({ syncing: false, lastSyncedAt: new Date().toISOString(), lastError: null });
-  } catch (e) {
-    writeSyncState({ syncing: false, lastError: String(e.message || e) });
-    throw e;
-  }
+  if (!s.token || !s.gistId) return Promise.resolve();
+  inFlight = (async () => {
+    writeSyncState({ syncing: true });
+    try {
+      const remote = await pullGist(s.token, s.gistId);
+      const local = load();
+      const merged = mergeStates(local, remote);
+      await pushGist(s.token, s.gistId, merged);
+      update((state) => { Object.assign(state, merged); });
+      writeSyncState({ syncing: false, lastSyncedAt: new Date().toISOString(), lastError: null });
+    } catch (e) {
+      writeSyncState({ syncing: false, lastError: String(e.message || e) });
+      throw e;
+    } finally {
+      inFlight = null;
+    }
+  })();
+  return inFlight;
 }
 
 let debounceTimer = null;
@@ -249,4 +263,18 @@ export function scheduleSync() {
     debounceTimer = null;
     syncNow().catch((e) => console.warn('background sync failed', e));
   }, DEBOUNCE_MS);
+}
+
+/** Force any pending debounced sync to happen right now instead of waiting
+ *  out DEBOUNCE_MS. Exists because "auto-saved" only actually holds on a
+ *  phone if a sync gets a chance to fire before the tab is backgrounded or
+ *  closed -- a 3s timer alone does not guarantee that. main.js calls this
+ *  from a visibilitychange/pagehide listener. No-ops (no network call) when
+ *  sync isn't configured. */
+export function flush() {
+  if (debounceTimer) {
+    clearTimeout(debounceTimer);
+    debounceTimer = null;
+  }
+  return syncNow().catch((e) => console.warn('flush sync failed', e));
 }

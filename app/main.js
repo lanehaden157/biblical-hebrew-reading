@@ -246,6 +246,18 @@ async function boot() {
       rerender();
     });
   }
+
+  // scheduleSync() debounces 3s so a burst of grades makes one push, not
+  // one per card -- but that means a phone locking or the tab closing
+  // inside that window would otherwise drop the last few seconds of
+  // reviews from the synced copy. visibilitychange (fires reliably when a
+  // PWA is backgrounded, unlike beforeunload on iOS) and pagehide both
+  // force that pending sync to happen immediately instead of waiting it
+  // out. flush() no-ops when sync was never configured.
+  document.addEventListener('visibilitychange', () => {
+    if (document.visibilityState === 'hidden') sync.flush();
+  });
+  window.addEventListener('pagehide', () => sync.flush());
 }
 
 // Boot only when this module is loaded by a page that actually hosts the app.
