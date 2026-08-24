@@ -20,6 +20,7 @@ import * as feedback from './feedback.js';
 
 export const DECK_URL = new URL('../data/vocab_deck_600.json', import.meta.url);
 export const PARSE_DECK_URL = new URL('../data/parse_qal_strong.json', import.meta.url);
+export const FUNCTION_WORD_EXAMPLES_URL = new URL('../data/function_word_examples.json', import.meta.url);
 
 // Lesson groups in teaching order (see STATUS.md for why group 2 -- construct
 // chains -- followed group 1 -- prefixes/suffixes). Add a new group here once
@@ -50,6 +51,7 @@ const TAB_ORDER = ['vocab', 'parse', 'read', 'learn', 'settings'];
 
 let deck = null;
 let parseDeck = null;
+let functionWordExamplesByLemma = {};
 const readerCache = {}; // chapter key -> loaded reader JSON
 let readerChapterKey = READER_CHAPTERS[0].key;
 const lessonGroupCache = {}; // group key -> loaded lessons JSON
@@ -63,6 +65,22 @@ export async function loadDeck() {
     throw new Error('deck contains no entries');
   }
   return json.entries;
+}
+
+// Loaded eagerly alongside the vocab deck (in parallel, not blocking it --
+// see boot()) rather than lazily like the parse/read/learn tabs, since
+// Vocab is the default tab and this is exactly what makes its very first
+// preposition/conjunction card useful instead of a bare, context-free gloss.
+export async function loadFunctionWordExamples() {
+  const res = await fetch(FUNCTION_WORD_EXAMPLES_URL, { cache: 'no-cache' });
+  if (!res.ok) throw new Error(`function-word examples fetch failed: ${res.status} ${res.statusText}`);
+  const json = await res.json();
+  if (!Array.isArray(json.entries) || !json.entries.length) {
+    throw new Error('function-word examples contains no entries');
+  }
+  const byLemma = {};
+  for (const e of json.entries) byLemma[e.lemma_id] = e;
+  return byLemma;
 }
 
 export async function loadParseDeck() {
@@ -127,7 +145,7 @@ function rerender() {
     const groups = LESSON_GROUPS.map((g) => lessonGroupCache[g.key]);
     if (groups.some((g) => !g)) { root.textContent = 'Loading…'; return; }
     learnView.render(root, groups);
-  } else vocab.render(root, deck);
+  } else vocab.render(root, deck, functionWordExamplesByLemma);
 }
 
 async function loadReaderChapter(key) {
@@ -234,6 +252,12 @@ async function boot() {
     fail(err);
     return;
   }
+  // Non-fatal: the vocab deck is essential, the usage-example enrichment
+  // isn't -- a failed fetch here should still leave a working Vocab tab,
+  // just without the "see examples" expand on function-word cards.
+  loadFunctionWordExamples()
+    .then((byLemma) => { functionWordExamplesByLemma = byLemma; rerender(); })
+    .catch((err) => console.warn('function-word examples failed to load', err));
   rerender();
 
   // One pull-and-merge on boot, not blocking the initial render -- opening

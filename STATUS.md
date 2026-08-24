@@ -443,6 +443,48 @@ and were left alone. Verified in-browser against the exact reported words: `yims
 yod now renders amber with only מְשָׁל green; `wekhafarta`'s tav now renders amber with
 only כָֽפַרְ green. selftest 109/109.
 
+## Done — Phase 5: real-usage examples for prepositions/conjunctions/particles
+
+Lane's own diagnosis: prepositions and particles are hard to remember because a bare
+gloss ("in, on, with") gives no usage context, unlike a concrete noun or verb. Scoped down
+from "everything but simple nouns/verbs" to a precise, closed set: the 8 inseparable
+F-<letter> prefix morphemes plus every vocab entry with `pos` in Preposition/Conjunction/
+Particle/Definite article/Interrogative particle/Relative particle -- 51 lemmas, fixed
+(Hebrew's function-word inventory doesn't grow the way vocabulary does). Two decisions
+locked with Lane before building: the reveal is an **optional expand at the definition
+stage**, not a new mandatory tap-through stage (doesn't delay grading on words he already
+knows, matching hard rule 5's no-friction stance), and the example count is `max(3,
+comma-separated senses in the curated gloss)` -- "in, on, with" gets 3, "behind, through,
+for, on behalf of" gets 4, "and" (one sense) still gets the floor of 3 but showing varied
+real contexts instead of distinct meanings.
+
+`build_function_word_examples.py` ships 155 curated (book, word id, hand-written English
+gloss) picks -- which verse best illustrates a given sense is a curatorial judgment call,
+same as every `glosses/*_extra.json` file in this project, but every Hebrew string (the
+target word AND the full verse it sits in) is pulled from the corpus by word id, never
+hand-typed. `verify_function_word_examples.py` independently re-derives the target lemma
+set from `vocab_deck_600.json`, re-scans the corpus for each word id, and checks the
+extracted Hebrew/transliteration match exactly and the sense-count rule holds.
+
+**Real bug caught before shipping:** the first pass called `transliterate()` on a whole
+space-joined verse at once and got back a run-together string with every space silently
+dropped -- `transliterate()` is a per-word function everywhere else in this codebase (a
+space isn't a Hebrew character it knows how to carry through), and this was the first
+caller to hand it a multi-word phrase. Caught by actually looking at the rendered card in
+the browser, not by the verifier, since the verifier at that point was checking its own
+(equally wrong) re-derivation against the same bug. Fixed by transliterating each word
+separately and rejoining with spaces, in both the build and verify scripts, rather than
+changing `transliterate()`'s contract for one caller.
+
+Vocab tab's card shows a "See N examples from the Bible" toggle after the gloss, only for
+the 51 covered lemmas (silently absent for the other ~550 -- looked up by `lemma_id` from
+`data/function_word_examples.json`, loaded eagerly alongside the deck but its own fetch
+failure is non-fatal to the rest of the app). Expanding shows each example's full verse
+(real Hebrew + transliteration + a short hand-written gloss + reference). Verified
+in-browser: the very first cards in a fresh session (highest-frequency vocab, dominated by
+function words) all show the toggle correctly; nouns/verbs never show it; toggling doesn't
+disturb grading or scroll position; both themes render correctly. selftest 115/115.
+
 ## Next — Phase 5: Tiers 3–5 (grammar tiers), further lesson groups if scoped
 
 The Learn tab's original concept-list scope is fully built across five groups. Any

@@ -257,6 +257,64 @@ body {
 .grade[data-g="easy"] { border-color: var(--accent); color: var(--accent); background: var(--accent-bg); }
 .grade[data-g="easy"] small { color: var(--accent); opacity: 0.75; }
 
+/* ---- vocab: real-usage examples for function words ---- */
+/* Optional expand, not a tap-through stage -- deliberately doesn't sit in
+   the advance()/stage flow above, so it never delays grading (hard rule 5:
+   no added friction on cards you already know). */
+
+.examples-toggle {
+  appearance: none;
+  font: inherit;
+  font-size: 13px;
+  color: var(--accent);
+  background: none;
+  border: 0;
+  padding: 10px 0 0;
+  cursor: pointer;
+  text-align: center;
+  width: 100%;
+}
+
+.examples-panel {
+  margin-top: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  text-align: left;
+}
+
+.example-item {
+  background: var(--surface-2);
+  border-radius: var(--radius);
+  padding: 12px 14px;
+}
+
+.example-heb {
+  font-size: 22px;
+  line-height: 1.5;
+  margin: 0 0 4px;
+}
+
+.example-translit {
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 13px;
+  color: var(--text-dim);
+  margin: 0 0 6px;
+  letter-spacing: 0.01em;
+}
+
+.example-gloss {
+  font-size: 14px;
+  font-style: italic;
+  margin: 0 0 4px;
+}
+
+.example-ref {
+  font-size: 12px;
+  color: var(--text-faint);
+  margin: 0;
+}
+
 .badge {
   display: inline-block;
   font-size: 11px;

@@ -240,6 +240,8 @@ python pipeline/build_lessons_group4.py # build data/lessons_group4.json (Learn 
 python pipeline/verify_lessons_group4.py # independent re-derivation check for lesson data
 python pipeline/build_lessons_group5.py # build data/lessons_group5.json (Learn tab, sentence-level syntax)
 python pipeline/verify_lessons_group5.py # independent re-derivation check for lesson data
+python pipeline/build_function_word_examples.py  # build data/function_word_examples.json (Vocab tab, real usage examples for the 51 prepositions/conjunctions/particles)
+python pipeline/verify_function_word_examples.py # independent re-derivation check for that data
 open app/selftest.html                  # structural checks: deck/parse/reader/lesson invariants
 ```
 
@@ -262,8 +264,10 @@ the grammar tiers get scoped.
 **Shipped and live:** vocab SRS (Tier 0–1), parsing gym for Qal-strong verbs (Tier 2),
 full reader for the book of Jonah, chapters 1–4 (Phase 4, extended through Phase 5), Learn
 tab with lesson groups 1–5 (prefixes/suffixes, construct chains, the verb system,
-noun-phrase grammar, sentence-level syntax). See `STATUS.md` for what each phase actually
-built and how it was verified.
+noun-phrase grammar, sentence-level syntax), real-usage examples on the Vocab tab for the
+51 prepositions/conjunctions/particles (an optional expand at the definition stage, not a
+new mandatory tap). See `STATUS.md` for what each phase actually built and how it was
+verified.
 
 ## Working style
 

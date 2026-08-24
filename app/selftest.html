@@ -22,7 +22,7 @@
 </main>
 
 <script type="module">
-import { DECK_URL, loadDeck, PARSE_DECK_URL, loadParseDeck, READER_CHAPTERS, loadReaderData, LESSON_GROUPS, loadLessonGroup } from './main.js';
+import { DECK_URL, loadDeck, PARSE_DECK_URL, loadParseDeck, FUNCTION_WORD_EXAMPLES_URL, loadFunctionWordExamples, READER_CHAPTERS, loadReaderData, LESSON_GROUPS, loadLessonGroup } from './main.js';
 import { newCard, applyGrade, describeInterval, GRADES } from './srs.js';
 
 const out = document.getElementById('out');
@@ -140,6 +140,38 @@ async function run() {
     check(badRootSpan === 0, `every parse entry's preformative+root_span+afformative reconstructs its verb_form (${badRootSpan} bad)`);
     check(badPgn === 0, `every parse entry's person/gender/number/state matches its conjugation's shape (${badPgn} bad)`);
     check(dupIds === 0, `no duplicate parse entry ids (${dupIds} dupes)`);
+  }
+
+  let wex;
+  try {
+    wex = await loadFunctionWordExamples();
+    ok(`function-word examples loaded from ${FUNCTION_WORD_EXAMPLES_URL.pathname}`);
+  } catch (e) {
+    bad(`function-word examples failed to load: ${e.message}`);
+    wex = {};
+  }
+  const wexEntries = Object.values(wex);
+  if (wexEntries.length) {
+    const VERSE_TRANSLIT_RE = /^['`a-z .,;:!?‘’]+$/;
+    let badCount = 0, badForm2 = 0, badGloss2 = 0, badSenseCount = 0;
+    for (const e of wexEntries) {
+      const senses = e.full_gloss.split(',').map(s => s.trim()).filter(Boolean);
+      const needed = Math.max(3, senses.length);
+      if (e.examples.length < needed) badCount++;
+      if (e.sense_count !== senses.length) badSenseCount++;
+      for (const ex of e.examples) {
+        if (!ex.surface_form || !HEBREW_RE.test(ex.surface_form)) badForm2++;
+        if (!ex.verse_hebrew || !HEBREW_RE.test(ex.verse_hebrew)) badForm2++;
+        if (!ex.transliteration || !TRANSLIT_RE.test(ex.transliteration)) badForm2++;
+        if (!ex.verse_transliteration || !VERSE_TRANSLIT_RE.test(ex.verse_transliteration)) badForm2++;
+        if (!ex.gloss || !ex.gloss.trim()) badGloss2++;
+      }
+    }
+    check(wexEntries.length === 51, `function-word examples cover all 51 target lemmas (got ${wexEntries.length})`);
+    check(badSenseCount === 0, `every entry's sense_count matches its own full_gloss (${badSenseCount} bad)`);
+    check(badCount === 0, `every entry has >= max(3, sense count) examples (${badCount} bad)`);
+    check(badForm2 === 0, `every example has well-formed Hebrew + transliteration (${badForm2} bad)`);
+    check(badGloss2 === 0, `every example has a non-empty gloss (${badGloss2} bad)`);
   }
 
   const vocabIds = new Set(deck.map(e => e.lemma_id));

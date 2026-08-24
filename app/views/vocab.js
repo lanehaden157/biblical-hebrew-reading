@@ -21,6 +21,8 @@ let pos = 0;
 let stage = 0;
 let session = null;
 let deferred = 0;
+let examplesOpen = false;
+let functionWordExamples = {};
 
 const HINTS = ['tap for the sound', 'tap for the meaning'];
 
@@ -29,13 +31,15 @@ export function reset() {
   session = null;
 }
 
-export function render(root, deck) {
+export function render(root, deck, examples) {
+  functionWordExamples = examples || {};
   if (!session) {
     const built = buildQueue(deck);
     queue = built.queue;
     deferred = built.deferred;
     pos = 0;
     stage = 0;
+    examplesOpen = false;
     session = { start: Date.now(), reviewed: 0, again: 0 };
   }
 
@@ -103,6 +107,14 @@ function cardEl(item) {
     m.className = 'card-meta';
     m.textContent = `${entry.pos} · ${entry.frequency.toLocaleString()}× in the Hebrew Bible`;
     el.appendChild(m);
+
+    // Optional, doesn't block grading (see gradeRow) -- prepositions/
+    // conjunctions/particles are hard to remember from a bare gloss alone
+    // since (unlike a noun or verb) their meaning only comes clear from a
+    // real sentence. Only rendered for the ~51-word closed set that
+    // data/function_word_examples.json actually covers.
+    const wex = functionWordExamples[entry.lemma_id];
+    if (wex) el.appendChild(examplesBlock(wex));
   } else {
     const hint = document.createElement('p');
     hint.className = 'card-hint';
@@ -127,6 +139,59 @@ function hr() {
   const r = document.createElement('hr');
   r.className = 'rule';
   return r;
+}
+
+function examplesBlock(wex) {
+  const wrap = document.createElement('div');
+  wrap.className = 'examples-block';
+
+  const toggle = document.createElement('button');
+  toggle.className = 'examples-toggle';
+  toggle.type = 'button';
+  toggle.textContent = examplesOpen
+    ? 'Hide examples'
+    : `See ${wex.examples.length} example${wex.examples.length === 1 ? '' : 's'} from the Bible`;
+  toggle.addEventListener('click', (e) => {
+    e.stopPropagation();
+    examplesOpen = !examplesOpen;
+    rerender();
+  });
+  wrap.appendChild(toggle);
+
+  if (examplesOpen) {
+    const panel = document.createElement('div');
+    panel.className = 'examples-panel';
+    for (const ex of wex.examples) {
+      const item = document.createElement('div');
+      item.className = 'example-item';
+
+      const heb = document.createElement('p');
+      heb.className = 'example-heb heb';
+      heb.lang = 'he';
+      heb.textContent = ex.verse_hebrew;
+      item.appendChild(heb);
+
+      const translit = document.createElement('p');
+      translit.className = 'example-translit';
+      translit.textContent = ex.verse_transliteration;
+      item.appendChild(translit);
+
+      const gloss = document.createElement('p');
+      gloss.className = 'example-gloss';
+      gloss.textContent = `“${ex.gloss}”`;
+      item.appendChild(gloss);
+
+      const ref = document.createElement('p');
+      ref.className = 'example-ref';
+      ref.textContent = ex.ref;
+      item.appendChild(ref);
+
+      panel.appendChild(item);
+    }
+    wrap.appendChild(panel);
+  }
+
+  return wrap;
 }
 
 function gradeRow(item, root, deck) {
@@ -175,6 +240,7 @@ function grade(item, gradeKey, deck) {
 
   pos++;
   stage = 0;
+  examplesOpen = false;
   if (pos >= queue.length) feedback.finish();
   rerender();
 }
