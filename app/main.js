@@ -103,6 +103,12 @@ function view() {
   return document.getElementById('view');
 }
 
+// Every view shares this one callback for "something changed, redraw" --
+// including in-place interactions that must NOT move the scroll position
+// (Read's tap-to-reveal chief among them: snapping back to the top on every
+// word tap was a real, reported annoyance). Scrolling to the top belongs
+// only to actions that genuinely land you on new content -- selectTab() and
+// selectReaderChapter() do it themselves, right after calling this.
 function rerender() {
   const root = view();
   if (!deck) return;
@@ -122,7 +128,6 @@ function rerender() {
     if (groups.some((g) => !g)) { root.textContent = 'Loading…'; return; }
     learnView.render(root, groups);
   } else vocab.render(root, deck);
-  window.scrollTo(0, 0);
 }
 
 async function loadReaderChapter(key) {
@@ -145,6 +150,7 @@ async function selectReaderChapter(key) {
     }
   }
   rerender();
+  window.scrollTo(0, 0);
 }
 
 async function selectTab(name) {
@@ -188,6 +194,7 @@ async function selectTab(name) {
     }
   }
   rerender();
+  window.scrollTo(0, 0);
 }
 
 function fail(err) {
