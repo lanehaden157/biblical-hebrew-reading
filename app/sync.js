@@ -265,16 +265,25 @@ export function scheduleSync() {
   }, DEBOUNCE_MS);
 }
 
-/** Force any pending debounced sync to happen right now instead of waiting
+/** Force a *pending* debounced sync to happen right now instead of waiting
  *  out DEBOUNCE_MS. Exists because "auto-saved" only actually holds on a
  *  phone if a sync gets a chance to fire before the tab is backgrounded or
  *  closed -- a 3s timer alone does not guarantee that. main.js calls this
- *  from a visibilitychange/pagehide listener. No-ops (no network call) when
- *  sync isn't configured. */
+ *  from a visibilitychange/pagehide listener.
+ *
+ *  Deliberately a no-op (no network call at all) when debounceTimer isn't
+ *  set: backgrounding happens constantly on a phone (screen lock, switching
+ *  apps, even the OS silently snapshotting for the app switcher) -- far
+ *  more often than an actual review. An earlier version synced unconditionally
+ *  here, which meant a burst of background/foreground events with nothing
+ *  new to push burned real GitHub API quota for no reason and tripped the
+ *  hourly rate limit on real phone usage. debounceTimer only being set means
+ *  scheduleSync() ran since the last successful sync, i.e. something in
+ *  `cards` actually changed -- exactly the condition worth spending a
+ *  request on. */
 export function flush() {
-  if (debounceTimer) {
-    clearTimeout(debounceTimer);
-    debounceTimer = null;
-  }
+  if (!debounceTimer) return Promise.resolve();
+  clearTimeout(debounceTimer);
+  debounceTimer = null;
   return syncNow().catch((e) => console.warn('flush sync failed', e));
 }
