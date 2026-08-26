@@ -121,6 +121,22 @@ CURATED = {
     "H1419": "great, big",
 }
 
+# Added later: a one-sentence unifying idea for particles whose English
+# glosses look like unrelated words but are really one spatial/relational
+# concept wearing different translations. Curriculum decision, not corpus
+# data -- see build_vocab_deck.py's docstring.
+CORE_SCHEMA = {
+    "F-l": "Direction toward something -- reaching it (to) or benefiting it (for) is the same motion.",
+    "F-b": "A bounded space you're inside -- in, on, or acting within it (with).",
+    "F-m": "Motion away from a source -- literal (from a place) or figurative (some of, than). Same word as the standalone min.",
+    "H5921": "Contact with weight from above -- on, over, or (metaphorically) against/about.",
+    "H3588": "Not one idea but three jobs, told apart by context: a reason (because/for), a quotation or fact (that), or a time clause (when).",
+    "F-k": "Comparison or approximation -- like, as, or (with a number) about/roughly.",
+    "H5704": "A limit reached -- in time (until) or space (as far as) is the same idea.",
+    "H4480": "Motion away from a source -- from, out of, some of, or than (comparison = distance from a standard). Same word as the prefix mi-.",
+    "H310": "Behind in space is after in time -- same word, same image.",
+}
+
 
 def main():
     with open(DRAFTS_PATH, encoding="utf-8") as f:
@@ -134,7 +150,7 @@ def main():
     entries = []
     for e in drafts:
         lid = e["lemma_id"]
-        entries.append({
+        entry = {
             "rank": e["rank"],
             "lemma_id": lid,
             "citation_form": e["citation_form"],
@@ -142,7 +158,10 @@ def main():
             "frequency": e["frequency"],
             "gloss": CURATED[lid],
             "reviewed": True,
-        })
+        }
+        if lid in CORE_SCHEMA:
+            entry["core_schema"] = CORE_SCHEMA[lid]
+        entries.append(entry)
     entries.sort(key=lambda e: e["rank"])
 
     out = {

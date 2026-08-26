@@ -43,11 +43,11 @@ export function render(root, deck, rerender) {
   ]);
   root.appendChild(feel);
 
-  const remaining = Math.max(0, deck.length - st.seen);
+  const remaining = Math.max(0, st.total - st.seen);
   const daysLeft = Math.ceil(remaining / Math.max(1, s.newPerDay));
   const paceNote = remaining
-    ? `${st.seen} of ${deck.length} started. At ${s.newPerDay || 1}/day, about ${daysLeft} more day${daysLeft === 1 ? '' : 's'} to introduce the rest.`
-    : `All ${deck.length} started.`;
+    ? `${st.seen} of ${st.total} started. At ${s.newPerDay || 1}/day, about ${daysLeft} more day${daysLeft === 1 ? '' : 's'} to introduce the rest.`
+    : `All ${st.total} started.`;
 
   const pace = group([
     number('New words per day', paceNote,

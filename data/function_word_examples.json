@@ -1,12 +1,12 @@
 {
   "metadata": {
-    "generated": "2026-08-24T17:48:35.280311+00:00",
+    "generated": "2026-08-26T03:47:24.425174+00:00",
     "scope": "F-<letter> prefix morphemes plus Preposition/Conjunction/Particle/Definite article/Interrogative particle/Relative particle vocab entries",
-    "example_count_rule": "max(3, comma-separated senses in the curated gloss)",
+    "example_count_rule": "max(TIER_TARGET.get(lemma_id, 3), comma-separated senses in the curated gloss)",
     "phrase_rule": "Hebrew is trimmed to the phrase matching the curated English gloss, not the full verse",
     "highlight_rule": "target_index marks the Hebrew word being taught; gloss_highlight marks the closest English word(s), with gloss_note explaining any non-obvious correspondence",
-    "lemma_count": 51,
-    "example_count": 155
+    "lemma_count": 45,
+    "example_count": 250
   },
   "entries": [
     {
@@ -141,6 +141,90 @@
           "gloss": "lights in the sky, to separate day from night",
           "gloss_highlight": "to",
           "gloss_note": null
+        },
+        {
+          "ref": "Exod.1.15",
+          "surface_form": "לַֽמְיַלְּדֹת",
+          "transliteration": "lamyaldot",
+          "word_id": "02fLi",
+          "phrase_hebrew": "וַיֹּאמֶר מֶלֶךְ מִצְרַיִם לַֽמְיַלְּדֹת",
+          "phrase_transliteration": "wayo'mer melekh mitsrayim lamyaldot",
+          "target_index": 3,
+          "gloss": "the king of Egypt said to the midwives",
+          "gloss_highlight": "to the midwives",
+          "gloss_note": null
+        },
+        {
+          "ref": "Josh.1.10",
+          "surface_form": "לֵאמֹֽר",
+          "transliteration": "le'mor",
+          "word_id": "06cLk",
+          "phrase_hebrew": "וַיְצַו יְהוֹשֻׁעַ אֶת שֹׁטְרֵי הָעָם לֵאמֹֽר",
+          "phrase_transliteration": "waytsaw yehoshua` 'et shotrey ha`am le'mor",
+          "target_index": 5,
+          "gloss": "Joshua commanded the officers of the people, saying",
+          "gloss_highlight": "saying",
+          "gloss_note": "le'mor (\"to say\") is the standard formula introducing a quotation -- rendered \"saying\" in English."
+        },
+        {
+          "ref": "Ruth.1.10",
+          "surface_form": "לְעַמֵּֽךְ",
+          "transliteration": "le`amekh",
+          "word_id": "08rAQ",
+          "phrase_hebrew": "אִתָּךְ נָשׁוּב לְעַמֵּֽךְ",
+          "phrase_transliteration": "'itakh nashuv le`amekh",
+          "target_index": 2,
+          "gloss": "with you we will return to your people",
+          "gloss_highlight": "to your people",
+          "gloss_note": null
+        },
+        {
+          "ref": "1Sam.1.4",
+          "surface_form": "לִפְנִנָּה",
+          "transliteration": "lifninah",
+          "word_id": "09qty",
+          "phrase_hebrew": "וְנָתַן לִפְנִנָּה אִשְׁתּוֹ",
+          "phrase_transliteration": "wenatan lifninah 'ishto",
+          "target_index": 1,
+          "gloss": "he gave [portions] to Peninnah his wife",
+          "gloss_highlight": "to Peninnah",
+          "gloss_note": null
+        },
+        {
+          "ref": "2Kgs.2.20",
+          "surface_form": "לִי",
+          "transliteration": "li",
+          "word_id": "12oGi",
+          "phrase_hebrew": "קְחוּ לִי צְלֹחִית חֲדָשָׁה",
+          "phrase_transliteration": "qekhu li tselokhit khadashah",
+          "target_index": 1,
+          "gloss": "bring me a new bowl",
+          "gloss_highlight": "me",
+          "gloss_note": "le- is benefactive here (\"for me\"), read naturally in English as \"bring me...\""
+        },
+        {
+          "ref": "Jonah.1.1",
+          "surface_form": "לֵאמֹֽר",
+          "transliteration": "le'mor",
+          "word_id": "32LN3",
+          "phrase_hebrew": "וַֽיְהִי דְּבַר יְהוָה אֶל יוֹנָה בֶן אֲמִתַּי לֵאמֹֽר",
+          "phrase_transliteration": "wayhi devar yehwah 'el yonah ven 'amitay le'mor",
+          "target_index": 7,
+          "gloss": "the word of the LORD came to Jonah son of Amittai, saying",
+          "gloss_highlight": "saying",
+          "gloss_note": "le'mor (\"to say\") is the standard formula introducing a quotation -- rendered \"saying\" in English."
+        },
+        {
+          "ref": "Judg.1.11",
+          "surface_form": "לְפָנִים",
+          "transliteration": "lefanim",
+          "word_id": "07SWL",
+          "phrase_hebrew": "וְשֵׁם דְּבִיר לְפָנִים קִרְיַת סֵֽפֶר",
+          "phrase_transliteration": "weshem devir lefanim qiryat sefer",
+          "target_index": 2,
+          "gloss": "the name of Debir was formerly Kiriath-sepher",
+          "gloss_highlight": "formerly",
+          "gloss_note": "lifnim (literally \"to the face/front\") is an idiom for \"formerly, in the past.\""
         }
       ]
     },
@@ -186,6 +270,90 @@
           "gloss": "he struck a thousand men with it",
           "gloss_highlight": "with",
           "gloss_note": null
+        },
+        {
+          "ref": "Exod.1.5",
+          "surface_form": "בְמִצְרָֽיִם",
+          "transliteration": "vemitsrayim",
+          "word_id": "02g2y",
+          "phrase_hebrew": "וְיוֹסֵף הָיָה בְמִצְרָֽיִם",
+          "phrase_transliteration": "weyosef hayah vemitsrayim",
+          "target_index": 2,
+          "gloss": "Joseph was in Egypt",
+          "gloss_highlight": "in Egypt",
+          "gloss_note": null
+        },
+        {
+          "ref": "Num.1.19",
+          "surface_form": "בְּמִדְבַּר",
+          "transliteration": "bemidbar",
+          "word_id": "046VM",
+          "phrase_hebrew": "וַֽיִּפְקְדֵם בְּמִדְבַּר סִינָֽי",
+          "phrase_transliteration": "wayifqedem bemidbar sinay",
+          "target_index": 1,
+          "gloss": "he numbered them in the wilderness of Sinai",
+          "gloss_highlight": "in the wilderness",
+          "gloss_note": null
+        },
+        {
+          "ref": "Josh.2.6",
+          "surface_form": "בְּפִשְׁתֵּי",
+          "transliteration": "befishtey",
+          "word_id": "06QvZ",
+          "phrase_hebrew": "וַֽתִּטְמְנֵם בְּפִשְׁתֵּי הָעֵץ",
+          "phrase_transliteration": "watitmenem befishtey ha`ets",
+          "target_index": 1,
+          "gloss": "she hid them among the stalks of flax",
+          "gloss_highlight": "among",
+          "gloss_note": "bet reads as \"among\" here rather than \"in\" -- she buried them under a pile of flax stalks."
+        },
+        {
+          "ref": "Ruth.1.14",
+          "surface_form": "בָּֽהּ",
+          "transliteration": "bah",
+          "word_id": "08dJe",
+          "phrase_hebrew": "וְרוּת דָּבְקָה בָּֽהּ",
+          "phrase_transliteration": "werut davqah bah",
+          "target_index": 2,
+          "gloss": "but Ruth clung to her",
+          "gloss_highlight": "to her",
+          "gloss_note": "davqah bah (\"clung in/at her\") uses bet where English says \"to.\""
+        },
+        {
+          "ref": "Jonah.2.4",
+          "surface_form": "בִּלְבַב",
+          "transliteration": "bilvav",
+          "word_id": "32QH2",
+          "phrase_hebrew": "וַתַּשְׁלִיכֵנִי מְצוּלָה בִּלְבַב יַמִּים",
+          "phrase_transliteration": "watashlikheni metsulah bilvav yamim",
+          "target_index": 2,
+          "gloss": "you cast me into the heart of the seas",
+          "gloss_highlight": "into",
+          "gloss_note": null
+        },
+        {
+          "ref": "Jonah.2.8",
+          "surface_form": "בְּהִתְעַטֵּף",
+          "transliteration": "behit`atef",
+          "word_id": "32NtK",
+          "phrase_hebrew": "בְּהִתְעַטֵּף עָלַי נַפְשִׁי",
+          "phrase_transliteration": "behit`atef `alay nafshi",
+          "target_index": 0,
+          "gloss": "as my life was fainting within me",
+          "gloss_highlight": "as",
+          "gloss_note": "be- + an infinitive (\"in the fainting of\") is how Hebrew says \"when/as\" -- there's no separate word for \"as\" here."
+        },
+        {
+          "ref": "1Kgs.1.1",
+          "surface_form": "בַּבְּגָדִים",
+          "transliteration": "babgadim",
+          "word_id": "11nPh",
+          "phrase_hebrew": "וַיְכַסֻּהוּ בַּבְּגָדִים",
+          "phrase_transliteration": "waykhasuhu babgadim",
+          "target_index": 1,
+          "gloss": "they covered him with garments",
+          "gloss_highlight": "with",
+          "gloss_note": "bet is instrumental here -- covering \"by means of\" garments, i.e. \"with.\""
         }
       ]
     },
@@ -276,6 +444,90 @@
           "gloss": "he took one of his ribs",
           "gloss_highlight": "of",
           "gloss_note": null
+        },
+        {
+          "ref": "Exod.2.1",
+          "surface_form": "מִבֵּית",
+          "transliteration": "mibeyt",
+          "word_id": "02Qnr",
+          "phrase_hebrew": "וַיֵּלֶךְ אִישׁ מִבֵּית לֵוִי",
+          "phrase_transliteration": "wayelekh 'ish mibeyt lewi",
+          "target_index": 2,
+          "gloss": "a man from the house of Levi went",
+          "gloss_highlight": "from",
+          "gloss_note": null
+        },
+        {
+          "ref": "Num.3.9",
+          "surface_form": "מֵאֵת",
+          "transliteration": "me'et",
+          "word_id": "04ymB",
+          "phrase_hebrew": "מֵאֵת בְּנֵי יִשְׂרָאֵֽל",
+          "phrase_transliteration": "me'et beney yisra'el",
+          "target_index": 0,
+          "gloss": "from the people of Israel",
+          "gloss_highlight": "from",
+          "gloss_note": null
+        },
+        {
+          "ref": "Josh.2.17",
+          "surface_form": "מִשְּׁבֻעָתֵךְ",
+          "transliteration": "mishvu`atekh",
+          "word_id": "06TuL",
+          "phrase_hebrew": "נְקִיִּם אֲנַחְנוּ מִשְּׁבֻעָתֵךְ הַזֶּה",
+          "phrase_transliteration": "neqiyim 'anakhnu mishvu`atekh hazeh",
+          "target_index": 2,
+          "gloss": "we are free from this oath of yours",
+          "gloss_highlight": "from",
+          "gloss_note": "literally \"free from your oath\" -- mi- marks release from an obligation."
+        },
+        {
+          "ref": "Judg.1.36",
+          "surface_form": "מִֽמַּעֲלֵה",
+          "transliteration": "mima`aleh",
+          "word_id": "07nWb",
+          "phrase_hebrew": "וּגְבוּל הָאֱמֹרִי מִֽמַּעֲלֵה עַקְרַבִּים",
+          "phrase_transliteration": "ugvul ha'emori mima`aleh `aqrabim",
+          "target_index": 2,
+          "gloss": "the border of the Amorites ran from the ascent of Akrabbim",
+          "gloss_highlight": "from",
+          "gloss_note": null
+        },
+        {
+          "ref": "Ruth.1.5",
+          "surface_form": "מִשְּׁנֵי",
+          "transliteration": "mishney",
+          "word_id": "08CyH",
+          "phrase_hebrew": "וַתִּשָּׁאֵר הָֽאִשָּׁה מִשְּׁנֵי יְלָדֶיהָ וּמֵאִישָֽׁהּ",
+          "phrase_transliteration": "watisha'er ha'ishah mishney yeladeyha ume'ishah",
+          "target_index": 2,
+          "gloss": "the woman was left without her two children and her husband",
+          "gloss_highlight": "without",
+          "gloss_note": "mi- marks separation/deprivation here -- \"bereft of,\" not literal motion."
+        },
+        {
+          "ref": "1Sam.1.14",
+          "surface_form": "מֵעָלָֽיִךְ",
+          "transliteration": "me`alayikh",
+          "word_id": "097mS",
+          "phrase_hebrew": "הָסִירִי אֶת יֵינֵךְ מֵעָלָֽיִךְ",
+          "phrase_transliteration": "hasiri 'et yeynekh me`alayikh",
+          "target_index": 3,
+          "gloss": "put your wine away from you",
+          "gloss_highlight": "from you",
+          "gloss_note": null
+        },
+        {
+          "ref": "Jonah.1.15",
+          "surface_form": "מִזַּעְפּֽוֹ",
+          "transliteration": "miza`po",
+          "word_id": "32Qnr",
+          "phrase_hebrew": "וַיַּעֲמֹד הַיָּם מִזַּעְפּֽוֹ",
+          "phrase_transliteration": "waya`amod hayam miza`po",
+          "target_index": 2,
+          "gloss": "the sea ceased from its raging",
+          "gloss_highlight": "from",
+          "gloss_note": null
         }
       ]
     },
@@ -321,6 +573,90 @@
           "gloss": "the LORD God commanded the man, saying",
           "gloss_highlight": "the man",
           "gloss_note": "`al means \"concerning\" here; English just says \"commanded the man.\""
+        },
+        {
+          "ref": "Exod.1.8",
+          "surface_form": "עַל",
+          "transliteration": "`al",
+          "word_id": "02BsK",
+          "phrase_hebrew": "וַיָּקָם מֶֽלֶךְ חָדָשׁ עַל מִצְרָיִם",
+          "phrase_transliteration": "wayaqam melekh khadash `al mitsrayim",
+          "target_index": 3,
+          "gloss": "a new king arose over Egypt",
+          "gloss_highlight": "over",
+          "gloss_note": null
+        },
+        {
+          "ref": "Deut.5.7",
+          "surface_form": "עַל",
+          "transliteration": "`al",
+          "word_id": "05oYz",
+          "phrase_hebrew": "לֹא יִהְיֶה לְךָ אֱלֹהִים אֲחֵרִים עַל פָּנָֽיַ",
+          "phrase_transliteration": "lo' yihyeh lekha 'elohim 'akherim `al panaya",
+          "target_index": 5,
+          "gloss": "you shall have no other gods before me",
+          "gloss_highlight": "before me",
+          "gloss_note": "`al panai (literally \"upon my face\") is the idiom for \"before/besides me.\""
+        },
+        {
+          "ref": "Ruth.2.5",
+          "surface_form": "עַל",
+          "transliteration": "`al",
+          "word_id": "08awE",
+          "phrase_hebrew": "הַנִּצָּב עַל הַקּֽוֹצְרִים",
+          "phrase_transliteration": "hanitsav `al haqotsrim",
+          "target_index": 1,
+          "gloss": "who is in charge over the reapers",
+          "gloss_highlight": "over",
+          "gloss_note": null
+        },
+        {
+          "ref": "1Sam.1.10",
+          "surface_form": "עַל",
+          "transliteration": "`al",
+          "word_id": "09Cof",
+          "phrase_hebrew": "וַתִּתְפַּלֵּל עַל יְהוָה",
+          "phrase_transliteration": "watitpalel `al yehwah",
+          "target_index": 1,
+          "gloss": "she prayed to the LORD",
+          "gloss_highlight": "to",
+          "gloss_note": "hitpallel `al (literally \"pray upon\") is idiomatic for \"pray to.\""
+        },
+        {
+          "ref": "2Sam.1.17",
+          "surface_form": "עַל",
+          "transliteration": "`al",
+          "word_id": "10bvP",
+          "phrase_hebrew": "וַיְקֹנֵן דָּוִד אֶת הַקִּינָה הַזֹּאת עַל שָׁאוּל",
+          "phrase_transliteration": "wayqonen dawid 'et haqinah hazo't `al sha'ul",
+          "target_index": 5,
+          "gloss": "David sang this lament over Saul",
+          "gloss_highlight": "over",
+          "gloss_note": null
+        },
+        {
+          "ref": "1Kgs.2.12",
+          "surface_form": "עַל",
+          "transliteration": "`al",
+          "word_id": "11tkv",
+          "phrase_hebrew": "וּשְׁלֹמֹה יָשַׁב עַל כִּסֵּא דָּוִד אָבִיו",
+          "phrase_transliteration": "ushlomoh yashav `al kise' dawid 'aviw",
+          "target_index": 2,
+          "gloss": "Solomon sat on the throne of David his father",
+          "gloss_highlight": "on",
+          "gloss_note": null
+        },
+        {
+          "ref": "2Kgs.2.13",
+          "surface_form": "עַל",
+          "transliteration": "`al",
+          "word_id": "126PV",
+          "phrase_hebrew": "וַיָּשָׁב וַֽיַּעֲמֹד עַל שְׂפַת הַיַּרְדֵּֽן",
+          "phrase_transliteration": "wayashav waya`amod `al sefat hayarden",
+          "target_index": 2,
+          "gloss": "he returned and stood by the bank of the Jordan",
+          "gloss_highlight": "by",
+          "gloss_note": null
         }
       ]
     },
@@ -366,6 +702,30 @@
           "gloss": "your desire will be for your husband",
           "gloss_highlight": "for",
           "gloss_note": "'el usually means \"to\"; here it reads naturally as \"for.\""
+        },
+        {
+          "ref": "Jonah.1.2",
+          "surface_form": "אֶל",
+          "transliteration": "'el",
+          "word_id": "32eYX",
+          "phrase_hebrew": "לֵךְ אֶל נִֽינְוֵה הָעִיר הַגְּדוֹלָה",
+          "phrase_transliteration": "lekh 'el ninweh ha`ir hagdolah",
+          "target_index": 1,
+          "gloss": "go to Nineveh, the great city",
+          "gloss_highlight": "to",
+          "gloss_note": null
+        },
+        {
+          "ref": "Ruth.1.15",
+          "surface_form": "אֶל",
+          "transliteration": "'el",
+          "word_id": "08gYe",
+          "phrase_hebrew": "שָׁבָה יְבִמְתֵּךְ אֶל",
+          "phrase_transliteration": "shavah yevimtekh 'el",
+          "target_index": 2,
+          "gloss": "your sister-in-law has returned to her people",
+          "gloss_highlight": "to",
+          "gloss_note": null
         }
       ]
     },
@@ -411,6 +771,30 @@
           "gloss": "whatever the man called each creature",
           "gloss_highlight": "whatever",
           "gloss_note": "asher combines with \"all\" (kol) to read as \"whatever.\""
+        },
+        {
+          "ref": "Josh.1.3",
+          "surface_form": "אֲשֶׁר",
+          "transliteration": "'asher",
+          "word_id": "06dBc",
+          "phrase_hebrew": "כָּל מָקוֹם אֲשֶׁר תִּדְרֹךְ כַּֽף רַגְלְכֶם בּוֹ",
+          "phrase_transliteration": "kal maqom 'asher tidrokh kaf raglekhem bo",
+          "target_index": 2,
+          "gloss": "every place that the sole of your foot treads on",
+          "gloss_highlight": "that",
+          "gloss_note": null
+        },
+        {
+          "ref": "Jonah.2.10",
+          "surface_form": "אֲשֶׁר",
+          "transliteration": "'asher",
+          "word_id": "32ypu",
+          "phrase_hebrew": "אֲשֶׁר נָדַרְתִּי אֲשַׁלֵּמָה",
+          "phrase_transliteration": "'asher nadarti 'ashalemah",
+          "target_index": 0,
+          "gloss": "that which I vowed, I will pay",
+          "gloss_highlight": "that which",
+          "gloss_note": null
         }
       ]
     },
@@ -513,6 +897,78 @@
           "gloss": "when you work the ground, it will no longer yield",
           "gloss_highlight": "when",
           "gloss_note": null
+        },
+        {
+          "ref": "Deut.4.24",
+          "surface_form": "כִּי",
+          "transliteration": "ki",
+          "word_id": "05EAA",
+          "phrase_hebrew": "כִּי יְהוָה אֱלֹהֶיךָ אֵשׁ אֹכְלָה",
+          "phrase_transliteration": "ki yehwah 'eloheykha 'esh 'okhlah",
+          "target_index": 0,
+          "gloss": "for the LORD your God is a consuming fire",
+          "gloss_highlight": "for",
+          "gloss_note": null
+        },
+        {
+          "ref": "Josh.3.5",
+          "surface_form": "כִּי",
+          "transliteration": "ki",
+          "word_id": "063r3",
+          "phrase_hebrew": "כִּי מָחָר יַעֲשֶׂה יְהוָה בְּקִרְבְּכֶם נִפְלָאֽוֹת",
+          "phrase_transliteration": "ki makhar ya`aseh yehwah beqirbekhem nifla'ot",
+          "target_index": 0,
+          "gloss": "for tomorrow the LORD will do wonders among you",
+          "gloss_highlight": "for",
+          "gloss_note": null
+        },
+        {
+          "ref": "Judg.1.28",
+          "surface_form": "כִּֽי",
+          "transliteration": "ki",
+          "word_id": "07Hki",
+          "phrase_hebrew": "וַֽיְהִי כִּֽי חָזַק יִשְׂרָאֵל",
+          "phrase_transliteration": "wayhi ki khazaq yisra'el",
+          "target_index": 1,
+          "gloss": "when Israel grew strong, [he put the Canaanites to forced labor]",
+          "gloss_highlight": "when",
+          "gloss_note": "vayehi ki (\"and it happened that\") is the standard formula introducing a time clause -- \"when.\""
+        },
+        {
+          "ref": "2Sam.4.1",
+          "surface_form": "כִּי",
+          "transliteration": "ki",
+          "word_id": "101SP",
+          "phrase_hebrew": "כִּי מֵת אַבְנֵר",
+          "phrase_transliteration": "ki met 'avner",
+          "target_index": 0,
+          "gloss": "[Ish-bosheth] heard that Abner was dead",
+          "gloss_highlight": "that",
+          "gloss_note": null
+        },
+        {
+          "ref": "1Kgs.3.10",
+          "surface_form": "כִּי",
+          "transliteration": "ki",
+          "word_id": "11pXr",
+          "phrase_hebrew": "כִּי שָׁאַל שְׁלֹמֹה אֶת הַדָּבָר הַזֶּֽה",
+          "phrase_transliteration": "ki sha'al shelomoh 'et hadavar hazeh",
+          "target_index": 0,
+          "gloss": "because Solomon had asked this thing",
+          "gloss_highlight": "because",
+          "gloss_note": null
+        },
+        {
+          "ref": "Jonah.1.2",
+          "surface_form": "כִּֽי",
+          "transliteration": "ki",
+          "word_id": "32x9c",
+          "phrase_hebrew": "כִּֽי עָלְתָה רָעָתָם לְפָנָֽי",
+          "phrase_transliteration": "ki `altah ra`atam lefanay",
+          "target_index": 0,
+          "gloss": "for their wickedness has come up before me",
+          "gloss_highlight": "for",
+          "gloss_note": null
         }
       ]
     },
@@ -557,6 +1013,90 @@
           "target_index": 1,
           "gloss": "you will be like God, knowing good and evil",
           "gloss_highlight": "like",
+          "gloss_note": null
+        },
+        {
+          "ref": "Deut.1.10",
+          "surface_form": "כְּכוֹכְבֵי",
+          "transliteration": "kekhokhvey",
+          "word_id": "052Kt",
+          "phrase_hebrew": "וְהִנְּכֶם הַיּוֹם כְּכוֹכְבֵי הַשָּׁמַיִם לָרֹֽב",
+          "phrase_transliteration": "wehinkhem hayom kekhokhvey hashamayim larov",
+          "target_index": 2,
+          "gloss": "you are today as many as the stars of heaven",
+          "gloss_highlight": "as",
+          "gloss_note": "lit. \"as the stars of heaven for multitude\" -- ke- introduces the point of comparison."
+        },
+        {
+          "ref": "Ruth.2.17",
+          "surface_form": "כְּאֵיפָה",
+          "transliteration": "ke'eyfah",
+          "word_id": "08Mjg",
+          "phrase_hebrew": "וַיְהִי כְּאֵיפָה שְׂעֹרִֽים",
+          "phrase_transliteration": "wayhi ke'eyfah se`orim",
+          "target_index": 1,
+          "gloss": "it came to about an ephah of barley",
+          "gloss_highlight": "about",
+          "gloss_note": "ke- marks an approximate quantity here, not a literal comparison."
+        },
+        {
+          "ref": "1Sam.2.2",
+          "surface_form": "כַּיהוָה",
+          "transliteration": "kayhwah",
+          "word_id": "09KNo",
+          "phrase_hebrew": "אֵין קָדוֹשׁ כַּיהוָה",
+          "phrase_transliteration": "'eyn qadosh kayhwah",
+          "target_index": 2,
+          "gloss": "there is none holy like the LORD",
+          "gloss_highlight": "like",
+          "gloss_note": null
+        },
+        {
+          "ref": "Josh.2.21",
+          "surface_form": "כְּדִבְרֵיכֶם",
+          "transliteration": "kedivreykhem",
+          "word_id": "06KKJ",
+          "phrase_hebrew": "כְּדִבְרֵיכֶם כֶּן הוּא",
+          "phrase_transliteration": "kedivreykhem ken hu'",
+          "target_index": 0,
+          "gloss": "according to your words, so it is",
+          "gloss_highlight": "according to",
+          "gloss_note": null
+        },
+        {
+          "ref": "Judg.6.16",
+          "surface_form": "כְּאִישׁ",
+          "transliteration": "ke'ish",
+          "word_id": "07FQm",
+          "phrase_hebrew": "וְהִכִּיתָ אֶת מִדְיָן כְּאִישׁ אֶחָֽד",
+          "phrase_transliteration": "wehikita 'et midyan ke'ish 'ekhad",
+          "target_index": 3,
+          "gloss": "you shall strike Midian as [one strikes] one man",
+          "gloss_highlight": "as",
+          "gloss_note": null
+        },
+        {
+          "ref": "2Kgs.3.5",
+          "surface_form": "כְּמוֹת",
+          "transliteration": "kemot",
+          "word_id": "12Cmf",
+          "phrase_hebrew": "וַיְהִי כְּמוֹת אַחְאָב",
+          "phrase_transliteration": "wayhi kemot 'akh'av",
+          "target_index": 1,
+          "gloss": "when Ahab died, [the king of Moab rebelled]",
+          "gloss_highlight": "when",
+          "gloss_note": "ke- + an infinitive (\"as the dying of\") is how Hebrew says \"when/as soon as.\""
+        },
+        {
+          "ref": "Num.1.54",
+          "surface_form": "כְּכֹל",
+          "transliteration": "kekhol",
+          "word_id": "04vwH",
+          "phrase_hebrew": "כְּכֹל אֲשֶׁר צִוָּה יְהוָה אֶת מֹשֶׁה כֵּן עָשֽׂוּ",
+          "phrase_transliteration": "kekhol 'asher tsiwah yehwah 'et mosheh ken `asu",
+          "target_index": 0,
+          "gloss": "according to all that the LORD commanded Moses, so [Israel's sons] did",
+          "gloss_highlight": "according to",
           "gloss_note": null
         }
       ]
@@ -603,6 +1143,90 @@
           "gloss": "I will give it to you and your offspring forever",
           "gloss_highlight": "forever",
           "gloss_note": "`ad pairs with `olam (\"eternity\") here to mean \"forever.\""
+        },
+        {
+          "ref": "Jonah.3.5",
+          "surface_form": "וְעַד",
+          "transliteration": "we`ad",
+          "word_id": "32JUf",
+          "phrase_hebrew": "מִגְּדוֹלָם וְעַד קְטַנָּֽם",
+          "phrase_transliteration": "migdolam we`ad qetanam",
+          "target_index": 1,
+          "gloss": "from the greatest of them to the least of them",
+          "gloss_highlight": "to",
+          "gloss_note": "a merism (\"from...to\") meaning \"everyone, from top to bottom\" -- migdolam...ve`ad qetannam."
+        },
+        {
+          "ref": "Jonah.2.6",
+          "surface_form": "עַד",
+          "transliteration": "`ad",
+          "word_id": "322dm",
+          "phrase_hebrew": "אֲפָפוּנִי מַיִם עַד נֶפֶשׁ",
+          "phrase_transliteration": "'afafuni mayim `ad nefesh",
+          "target_index": 2,
+          "gloss": "the waters closed over me, even to my very life",
+          "gloss_highlight": "to",
+          "gloss_note": "`ad nefesh (\"to the soul/throat\") is idiomatic for a threat reaching one's whole life."
+        },
+        {
+          "ref": "Josh.8.28",
+          "surface_form": "עַד",
+          "transliteration": "`ad",
+          "word_id": "06JA2",
+          "phrase_hebrew": "שְׁמָמָה עַד הַיּוֹם הַזֶּֽה",
+          "phrase_transliteration": "shemamah `ad hayom hazeh",
+          "target_index": 1,
+          "gloss": "a desolate heap, to this day",
+          "gloss_highlight": "to this day",
+          "gloss_note": "`ad hayyom hazzeh (\"to this day\") is a standard formula meaning \"still true as of the writing.\""
+        },
+        {
+          "ref": "1Sam.1.14",
+          "surface_form": "עַד",
+          "transliteration": "`ad",
+          "word_id": "09ndZ",
+          "phrase_hebrew": "עַד מָתַי תִּשְׁתַּכָּרִין",
+          "phrase_transliteration": "`ad matay tishtakarin",
+          "target_index": 0,
+          "gloss": "how long will you go on being drunk?",
+          "gloss_highlight": "how long",
+          "gloss_note": "`ad matai (literally \"until when\") is the idiom for \"how long.\""
+        },
+        {
+          "ref": "2Sam.6.23",
+          "surface_form": "עַד",
+          "transliteration": "`ad",
+          "word_id": "102Bq",
+          "phrase_hebrew": "יָלֶד עַד יוֹם מוֹתָֽהּ",
+          "phrase_transliteration": "yaled `ad yom motah",
+          "target_index": 1,
+          "gloss": "she had no child to the day of her death",
+          "gloss_highlight": "to",
+          "gloss_note": null
+        },
+        {
+          "ref": "Ruth.2.17",
+          "surface_form": "עַד",
+          "transliteration": "`ad",
+          "word_id": "08XgW",
+          "phrase_hebrew": "וַתְּלַקֵּט בַּשָּׂדֶה עַד הָעָרֶב",
+          "phrase_transliteration": "watlaqet basadeh `ad ha`arev",
+          "target_index": 2,
+          "gloss": "she gleaned in the field until evening",
+          "gloss_highlight": "until",
+          "gloss_note": null
+        },
+        {
+          "ref": "Deut.1.20",
+          "surface_form": "עַד",
+          "transliteration": "`ad",
+          "word_id": "05JnD",
+          "phrase_hebrew": "בָּאתֶם עַד הַר הָאֱמֹרִי",
+          "phrase_transliteration": "ba'tem `ad har ha'emori",
+          "target_index": 1,
+          "gloss": "you have come as far as the hill country of the Amorites",
+          "gloss_highlight": "as far as",
+          "gloss_note": null
         }
       ]
     },
@@ -648,6 +1272,90 @@
           "gloss": "the rib that he had taken from the man",
           "gloss_highlight": "from",
           "gloss_note": null
+        },
+        {
+          "ref": "Num.10.34",
+          "surface_form": "מִן",
+          "transliteration": "min",
+          "word_id": "04VkC",
+          "phrase_hebrew": "בְּנָסְעָם מִן הַֽמַּחֲנֶֽה",
+          "phrase_transliteration": "benas`am min hamakhaneh",
+          "target_index": 1,
+          "gloss": "when they set out from the camp",
+          "gloss_highlight": "from",
+          "gloss_note": null
+        },
+        {
+          "ref": "Deut.7.17",
+          "surface_form": "מִמֶּנִּי",
+          "transliteration": "mimeni",
+          "word_id": "05nqT",
+          "phrase_hebrew": "רַבִּים הַגּוֹיִם הָאֵלֶּה מִמֶּנִּי",
+          "phrase_transliteration": "rabim hagoyim ha'eleh mimeni",
+          "target_index": 3,
+          "gloss": "these nations are more numerous than I",
+          "gloss_highlight": "than I",
+          "gloss_note": "min marks comparison here (\"more ... than\"), the same word that elsewhere means \"from.\""
+        },
+        {
+          "ref": "Josh.4.2",
+          "surface_form": "מִן",
+          "transliteration": "min",
+          "word_id": "06Wmn",
+          "phrase_hebrew": "קְחוּ לָכֶם מִן הָעָם שְׁנֵים עָשָׂר אֲנָשִׁים",
+          "phrase_transliteration": "qekhu lakhem min ha`am sheneym `asar 'anashim",
+          "target_index": 2,
+          "gloss": "take from the people twelve men",
+          "gloss_highlight": "from",
+          "gloss_note": null
+        },
+        {
+          "ref": "Ruth.3.12",
+          "surface_form": "מִמֶּֽנִּי",
+          "transliteration": "mimeni",
+          "word_id": "08KTJ",
+          "phrase_hebrew": "יֵשׁ גֹּאֵל קָרוֹב מִמֶּֽנִּי",
+          "phrase_transliteration": "yesh go'el qarov mimeni",
+          "target_index": 3,
+          "gloss": "there is a redeemer nearer than I",
+          "gloss_highlight": "than I",
+          "gloss_note": null
+        },
+        {
+          "ref": "2Sam.7.15",
+          "surface_form": "מִמֶּנּוּ",
+          "transliteration": "mimenu",
+          "word_id": "10pCR",
+          "phrase_hebrew": "וְחַסְדִּי לֹא יָסוּר מִמֶּנּוּ",
+          "phrase_transliteration": "wekhasdi lo' yasur mimenu",
+          "target_index": 3,
+          "gloss": "my steadfast love will not depart from him",
+          "gloss_highlight": "from him",
+          "gloss_note": null
+        },
+        {
+          "ref": "1Kgs.8.10",
+          "surface_form": "מִן",
+          "transliteration": "min",
+          "word_id": "11xcf",
+          "phrase_hebrew": "בְּצֵאת הַכֹּהֲנִים מִן הַקֹּדֶשׁ",
+          "phrase_transliteration": "betse't hakohanim min haqodesh",
+          "target_index": 2,
+          "gloss": "when the priests came out from the holy place",
+          "gloss_highlight": "from",
+          "gloss_note": null
+        },
+        {
+          "ref": "Jonah.4.3",
+          "surface_form": "מִמֶּנִּי",
+          "transliteration": "mimeni",
+          "word_id": "32Ta6",
+          "phrase_hebrew": "קַח נָא אֶת נַפְשִׁי מִמֶּנִּי",
+          "phrase_transliteration": "qakh na' 'et nafshi mimeni",
+          "target_index": 4,
+          "gloss": "please take my life from me",
+          "gloss_highlight": "from me",
+          "gloss_note": null
         }
       ]
     },
@@ -691,6 +1399,30 @@
           "phrase_transliteration": "'im 'emtsa' visdom khamishim tsadiqim betokh ha`ir",
           "target_index": 0,
           "gloss": "if I find fifty righteous within the city",
+          "gloss_highlight": "if",
+          "gloss_note": null
+        },
+        {
+          "ref": "Judg.4.8",
+          "surface_form": "אִם",
+          "transliteration": "'im",
+          "word_id": "07bu5",
+          "phrase_hebrew": "אִם תֵּלְכִי עִמִּי וְהָלָכְתִּי",
+          "phrase_transliteration": "'im telkhi `imi wehalakhti",
+          "target_index": 0,
+          "gloss": "if you go with me, I will go",
+          "gloss_highlight": "if",
+          "gloss_note": null
+        },
+        {
+          "ref": "1Kgs.3.14",
+          "surface_form": "וְאִם",
+          "transliteration": "we'im",
+          "word_id": "11orc",
+          "phrase_hebrew": "וְאִם תֵּלֵךְ בִּדְרָכַי לִשְׁמֹר חֻקַּי וּמִצְוֺתַי",
+          "phrase_transliteration": "we'im telekh bidrakhay lishmor khuqay umitswotay",
+          "target_index": 0,
+          "gloss": "if you walk in my ways, to keep my statutes and my commandments",
           "gloss_highlight": "if",
           "gloss_note": null
         }
@@ -738,6 +1470,30 @@
           "gloss": "show steadfast love with my master",
           "gloss_highlight": "with",
           "gloss_note": null
+        },
+        {
+          "ref": "Ruth.2.4",
+          "surface_form": "עִמָּכֶם",
+          "transliteration": "`imakhem",
+          "word_id": "08KPU",
+          "phrase_hebrew": "יְהוָה עִמָּכֶם",
+          "phrase_transliteration": "yehwah `imakhem",
+          "target_index": 1,
+          "gloss": "the LORD be with you",
+          "gloss_highlight": "with you",
+          "gloss_note": null
+        },
+        {
+          "ref": "Deut.5.4",
+          "surface_form": "עִמָּכֶם",
+          "transliteration": "`imakhem",
+          "word_id": "05Ucu",
+          "phrase_hebrew": "פָּנִים בְּפָנִים דִּבֶּר יְהוָה עִמָּכֶם",
+          "phrase_transliteration": "panim befanim diber yehwah `imakhem",
+          "target_index": 4,
+          "gloss": "face to face the LORD spoke with you",
+          "gloss_highlight": "with you",
+          "gloss_note": null
         }
       ]
     },
@@ -783,6 +1539,30 @@
           "gloss": "I am establishing my covenant with you",
           "gloss_highlight": "with",
           "gloss_note": null
+        },
+        {
+          "ref": "Ruth.1.10",
+          "surface_form": "אִתָּךְ",
+          "transliteration": "'itakh",
+          "word_id": "08Cof",
+          "phrase_hebrew": "אִתָּךְ נָשׁוּב לְעַמֵּֽךְ",
+          "phrase_transliteration": "'itakh nashuv le`amekh",
+          "target_index": 0,
+          "gloss": "with you we will return to your people",
+          "gloss_highlight": "with you",
+          "gloss_note": null
+        },
+        {
+          "ref": "Judg.8.4",
+          "surface_form": "אִתּוֹ",
+          "transliteration": "'ito",
+          "word_id": "07iqd",
+          "phrase_hebrew": "הָאִישׁ אֲשֶׁר אִתּוֹ",
+          "phrase_transliteration": "ha'ish 'asher 'ito",
+          "target_index": 2,
+          "gloss": "the men who were with him",
+          "gloss_highlight": "with him",
+          "gloss_note": null
         }
       ]
     },
@@ -826,6 +1606,30 @@
           "phrase_transliteration": "wa'ani hinni mevi' 'et hamabul",
           "target_index": 1,
           "gloss": "behold, I am bringing the flood",
+          "gloss_highlight": "behold",
+          "gloss_note": null
+        },
+        {
+          "ref": "Josh.3.11",
+          "surface_form": "הִנֵּה",
+          "transliteration": "hineh",
+          "word_id": "06vSy",
+          "phrase_hebrew": "הִנֵּה אֲרוֹן הַבְּרִית אֲדוֹן כָּל הָאָרֶץ עֹבֵר לִפְנֵיכֶם",
+          "phrase_transliteration": "hineh 'aron habrit 'adon kal ha'arets `over lifneykhem",
+          "target_index": 0,
+          "gloss": "behold, the ark of the covenant... is crossing before you",
+          "gloss_highlight": "behold",
+          "gloss_note": null
+        },
+        {
+          "ref": "Ruth.2.4",
+          "surface_form": "וְהִנֵּה",
+          "transliteration": "wehineh",
+          "word_id": "084vX",
+          "phrase_hebrew": "וְהִנֵּה בֹעַז בָּא מִבֵּית לֶחֶם",
+          "phrase_transliteration": "wehineh vo`az ba' mibeyt lekhem",
+          "target_index": 0,
+          "gloss": "and behold, Boaz came from Bethlehem",
           "gloss_highlight": "behold",
           "gloss_note": null
         }
@@ -873,6 +1677,30 @@
           "gloss": "Sarai was barren; she had no child",
           "gloss_highlight": "no",
           "gloss_note": null
+        },
+        {
+          "ref": "Judg.17.6",
+          "surface_form": "אֵין",
+          "transliteration": "'eyn",
+          "word_id": "076Lg",
+          "phrase_hebrew": "אֵין מֶלֶךְ בְּיִשְׂרָאֵל",
+          "phrase_transliteration": "'eyn melekh beyisra'el",
+          "target_index": 0,
+          "gloss": "there was no king in Israel",
+          "gloss_highlight": "no",
+          "gloss_note": null
+        },
+        {
+          "ref": "1Kgs.5.18",
+          "surface_form": "אֵין",
+          "transliteration": "'eyn",
+          "word_id": "114d7",
+          "phrase_hebrew": "אֵין שָׂטָן וְאֵין פֶּגַע רָֽע",
+          "phrase_transliteration": "'eyn satan we'eyn pega` ra`",
+          "target_index": 0,
+          "gloss": "there is no adversary and no misfortune",
+          "gloss_highlight": "no",
+          "gloss_note": null
         }
       ]
     },
@@ -918,6 +1746,30 @@
           "gloss": "just as God commanded him, so he did",
           "gloss_highlight": "so",
           "gloss_note": null
+        },
+        {
+          "ref": "Josh.2.21",
+          "surface_form": "כֶּן",
+          "transliteration": "ken",
+          "word_id": "06U9v",
+          "phrase_hebrew": "כְּדִבְרֵיכֶם כֶּן הוּא",
+          "phrase_transliteration": "kedivreykhem ken hu'",
+          "target_index": 1,
+          "gloss": "according to your words, so it is",
+          "gloss_highlight": "so it is",
+          "gloss_note": null
+        },
+        {
+          "ref": "Judg.10.13",
+          "surface_form": "לָכֵן",
+          "transliteration": "lakhen",
+          "word_id": "07JpD",
+          "phrase_hebrew": "לָכֵן לֹֽא אוֹסִיף לְהוֹשִׁיעַ אֶתְכֶֽם",
+          "phrase_transliteration": "lakhen lo' 'osif lehoshia` 'etkhem",
+          "target_index": 0,
+          "gloss": "therefore I will no longer save you",
+          "gloss_highlight": "therefore",
+          "gloss_note": "lakhen (\"to thus\") is ken fused with le- into \"therefore.\""
         }
       ]
     },
@@ -962,6 +1814,30 @@
           "target_index": 1,
           "gloss": "to Seth also a son was born",
           "gloss_highlight": "also",
+          "gloss_note": null
+        },
+        {
+          "ref": "Ruth.1.5",
+          "surface_form": "גַם",
+          "transliteration": "gam",
+          "word_id": "08H6L",
+          "phrase_hebrew": "וַיָּמוּתוּ גַם שְׁנֵיהֶם מַחְלוֹן וְכִלְיוֹן",
+          "phrase_transliteration": "wayamutu gam sheneyhem makhlon wekhilyon",
+          "target_index": 1,
+          "gloss": "both of them, Mahlon and Chilion, also died",
+          "gloss_highlight": "also",
+          "gloss_note": null
+        },
+        {
+          "ref": "1Kgs.1.46",
+          "surface_form": "וְגַם",
+          "transliteration": "wegam",
+          "word_id": "11fiV",
+          "phrase_hebrew": "וְגַם יָשַׁב שְׁלֹמֹה עַל כִּסֵּא הַמְּלוּכָֽה",
+          "phrase_transliteration": "wegam yashav shelomoh `al kise' hamlukhah",
+          "target_index": 0,
+          "gloss": "Solomon has even taken his seat on the royal throne",
+          "gloss_highlight": "even",
           "gloss_note": null
         }
       ]
@@ -1098,6 +1974,90 @@
           "gloss": "and afterward the clans of the Canaanites dispersed",
           "gloss_highlight": "afterward",
           "gloss_note": null
+        },
+        {
+          "ref": "Exod.14.23",
+          "surface_form": "אַחֲרֵיהֶם",
+          "transliteration": "'akhareyhem",
+          "word_id": "02Yxf",
+          "phrase_hebrew": "וַיִּרְדְּפוּ מִצְרַיִם וַיָּבֹאוּ אַחֲרֵיהֶם",
+          "phrase_transliteration": "wayirdefu mitsrayim wayavo'u 'akhareyhem",
+          "target_index": 3,
+          "gloss": "the Egyptians pursued and went in after them [into the sea]",
+          "gloss_highlight": "after",
+          "gloss_note": null
+        },
+        {
+          "ref": "Deut.6.14",
+          "surface_form": "אַחֲרֵי",
+          "transliteration": "'akharey",
+          "word_id": "05BBr",
+          "phrase_hebrew": "לֹא תֵֽלְכוּן אַחֲרֵי אֱלֹהִים אֲחֵרִים",
+          "phrase_transliteration": "lo' telkhun 'akharey 'elohim 'akherim",
+          "target_index": 2,
+          "gloss": "you shall not go after other gods",
+          "gloss_highlight": "after",
+          "gloss_note": null
+        },
+        {
+          "ref": "Judg.1.6",
+          "surface_form": "אַחֲרָיו",
+          "transliteration": "'akharayw",
+          "word_id": "07Mnv",
+          "phrase_hebrew": "וַֽיִּרְדְּפוּ אַחֲרָיו וַיֹּאחֲזוּ אֹתוֹ",
+          "phrase_transliteration": "wayirdefu 'akharayw wayo'khazu 'oto",
+          "target_index": 1,
+          "gloss": "they pursued after him and caught him",
+          "gloss_highlight": "after",
+          "gloss_note": null
+        },
+        {
+          "ref": "Ruth.1.15",
+          "surface_form": "אַחֲרֵי",
+          "transliteration": "'akharey",
+          "word_id": "086By",
+          "phrase_hebrew": "שׁוּבִי אַחֲרֵי יְבִמְתֵּֽךְ",
+          "phrase_transliteration": "shuvi 'akharey yevimtekh",
+          "target_index": 1,
+          "gloss": "return after your sister-in-law",
+          "gloss_highlight": "after",
+          "gloss_note": null
+        },
+        {
+          "ref": "1Sam.14.46",
+          "surface_form": "מֵאַחֲרֵי",
+          "transliteration": "me'akharey",
+          "word_id": "095Qt",
+          "phrase_hebrew": "וַיַּעַל שָׁאוּל מֵאַחֲרֵי פְּלִשְׁתִּים",
+          "phrase_transliteration": "waya`al sha'ul me'akharey pelishtim",
+          "target_index": 2,
+          "gloss": "Saul turned back from pursuing the Philistines",
+          "gloss_highlight": "from pursuing",
+          "gloss_note": "me'acharei (\"from after\") -- 'akhar combines with min to mean \"stopped following.\""
+        },
+        {
+          "ref": "1Kgs.1.7",
+          "surface_form": "אַחֲרֵי",
+          "transliteration": "'akharey",
+          "word_id": "11LJh",
+          "phrase_hebrew": "וַֽיַּעְזְרוּ אַחֲרֵי אֲדֹנִיָּֽה",
+          "phrase_transliteration": "waya`zeru 'akharey 'adoniyah",
+          "target_index": 1,
+          "gloss": "they followed after Adonijah in support",
+          "gloss_highlight": "after",
+          "gloss_note": null
+        },
+        {
+          "ref": "2Kgs.4.30",
+          "surface_form": "אַחֲרֶֽיהָ",
+          "transliteration": "'akhareyha",
+          "word_id": "12rbR",
+          "phrase_hebrew": "וַיָּקָם וַיֵּלֶךְ אַחֲרֶֽיהָ",
+          "phrase_transliteration": "wayaqam wayelekh 'akhareyha",
+          "target_index": 2,
+          "gloss": "she arose and followed after him",
+          "gloss_highlight": "after",
+          "gloss_note": null
         }
       ]
     },
@@ -1187,6 +2147,90 @@
           "target_index": 2,
           "gloss": "he offered it up... instead of his son",
           "gloss_highlight": "instead of",
+          "gloss_note": null
+        },
+        {
+          "ref": "Exod.21.24",
+          "surface_form": "תַּחַת",
+          "transliteration": "takhat",
+          "word_id": "02eQ5",
+          "phrase_hebrew": "עַיִן תַּחַת עַיִן",
+          "phrase_transliteration": "`ayin takhat `ayin",
+          "target_index": 1,
+          "gloss": "eye for eye",
+          "gloss_highlight": "for",
+          "gloss_note": "tachat here means \"in exchange for,\" the lex talionis formula -- the same word that elsewhere means \"under.\""
+        },
+        {
+          "ref": "Num.8.18",
+          "surface_form": "תַּחַת",
+          "transliteration": "takhat",
+          "word_id": "04Gcz",
+          "phrase_hebrew": "וָאֶקַּח אֶת הַלְוִיִּם תַּחַת כָּל בְּכוֹר בִּבְנֵי יִשְׂרָאֵֽל",
+          "phrase_transliteration": "wa'eqakh 'et halwiyim takhat kal bekhor bivney yisra'el",
+          "target_index": 3,
+          "gloss": "I took the Levites instead of every firstborn among the Israelites",
+          "gloss_highlight": "instead of",
+          "gloss_note": null
+        },
+        {
+          "ref": "Deut.2.21",
+          "surface_form": "תַחְתָּֽם",
+          "transliteration": "takhtam",
+          "word_id": "05941",
+          "phrase_hebrew": "וַיַּשְׁמִידֵם יְהוָה מִפְּנֵיהֶם וַיִּירָשֻׁם וַיֵּשְׁבוּ תַחְתָּֽם",
+          "phrase_transliteration": "wayashmidem yehwah mipneyhem wayirashum wayeshvu takhtam",
+          "target_index": 5,
+          "gloss": "the LORD destroyed them, and they dwelt in their place",
+          "gloss_highlight": "in their place",
+          "gloss_note": null
+        },
+        {
+          "ref": "Judg.3.30",
+          "surface_form": "תַּחַת",
+          "transliteration": "takhat",
+          "word_id": "07L6s",
+          "phrase_hebrew": "וַתִּכָּנַע מוֹאָב בַּיּוֹם הַהוּא תַּחַת יַד יִשְׂרָאֵל",
+          "phrase_transliteration": "watikana` mo'av bayom hahu' takhat yad yisra'el",
+          "target_index": 4,
+          "gloss": "Moab was subdued that day under the hand of Israel",
+          "gloss_highlight": "under",
+          "gloss_note": null
+        },
+        {
+          "ref": "1Sam.31.13",
+          "surface_form": "תַֽחַת",
+          "transliteration": "takhat",
+          "word_id": "09Y67",
+          "phrase_hebrew": "וַיִּקְבְּרוּ תַֽחַת הָאֶשֶׁל",
+          "phrase_transliteration": "wayiqberu takhat ha'eshel",
+          "target_index": 1,
+          "gloss": "they buried [their bones] under the tamarisk tree",
+          "gloss_highlight": "under",
+          "gloss_note": null
+        },
+        {
+          "ref": "1Kgs.11.43",
+          "surface_form": "תַּחְתָּֽיו",
+          "transliteration": "takhtayw",
+          "word_id": "11nru",
+          "phrase_hebrew": "וַיִּמְלֹךְ רְחַבְעָם בְּנוֹ תַּחְתָּֽיו",
+          "phrase_transliteration": "wayimlokh rekhav`am beno takhtayw",
+          "target_index": 3,
+          "gloss": "Rehoboam his son reigned in his place",
+          "gloss_highlight": "in his place",
+          "gloss_note": null
+        },
+        {
+          "ref": "2Sam.10.1",
+          "surface_form": "תַּחְתָּֽיו",
+          "transliteration": "takhtayw",
+          "word_id": "10o26",
+          "phrase_hebrew": "וַיִּמְלֹךְ חָנוּן בְּנוֹ תַּחְתָּֽיו",
+          "phrase_transliteration": "wayimlokh khanun beno takhtayw",
+          "target_index": 3,
+          "gloss": "Hanun his son reigned in his place",
+          "gloss_highlight": "in his place",
           "gloss_note": null
         }
       ]
@@ -1327,51 +2371,6 @@
       ]
     },
     {
-      "lemma_id": "H1768",
-      "citation_form": "דִּי",
-      "transliteration": "di",
-      "full_gloss": "that, which (Aramaic)",
-      "sense_count": 2,
-      "examples": [
-        {
-          "ref": "Ezra.4.10",
-          "surface_form": "דִּי",
-          "transliteration": "di",
-          "word_id": "15eWk",
-          "phrase_hebrew": "וּשְׁאָר אֻמַּיָּא דִּי הַגְלִי",
-          "phrase_transliteration": "ush'ar 'umaya' di hagli",
-          "target_index": 2,
-          "gloss": "the nations whom he deported",
-          "gloss_highlight": "whom",
-          "gloss_note": "di is a general relative particle, rendered \"whom\" since it refers to people."
-        },
-        {
-          "ref": "Ezra.4.11",
-          "surface_form": "דִּי",
-          "transliteration": "di",
-          "word_id": "15F1H",
-          "phrase_hebrew": "פַּרְשֶׁגֶן אִגַּרְתָּא דִּי שְׁלַחוּ",
-          "phrase_transliteration": "parshegen 'igarta' di shelakhu",
-          "target_index": 2,
-          "gloss": "the letter which they sent",
-          "gloss_highlight": "which",
-          "gloss_note": null
-        },
-        {
-          "ref": "Ezra.5.11",
-          "surface_form": "דִֽי",
-          "transliteration": "di",
-          "word_id": "15thm",
-          "phrase_hebrew": "עַבְדוֹהִי דִֽי אֱלָהּ שְׁמַיָּא וְאַרְעָא",
-          "phrase_transliteration": "`avdohi di 'elah shemaya' we'ar`a'",
-          "target_index": 1,
-          "gloss": "servants of the God of heaven and earth",
-          "gloss_highlight": "of",
-          "gloss_note": "di can also mark possession here, like English \"of.\""
-        }
-      ]
-    },
-    {
       "lemma_id": "H176",
       "citation_form": "אוֹ",
       "transliteration": "'o",
@@ -1458,6 +2457,30 @@
           "gloss": "behold, you have driven me this day",
           "gloss_highlight": "behold",
           "gloss_note": null
+        },
+        {
+          "ref": "1Sam.3.4",
+          "surface_form": "הִנֵּֽנִי",
+          "transliteration": "hineni",
+          "word_id": "09TD8",
+          "phrase_hebrew": "וַיִּקְרָא יְהוָה אֶל שְׁמוּאֵל וַיֹּאמֶר הִנֵּֽנִי",
+          "phrase_transliteration": "wayiqra' yehwah 'el shemu'el wayo'mer hineni",
+          "target_index": 5,
+          "gloss": "the LORD called to Samuel, and he said, 'Here I am'",
+          "gloss_highlight": "Here I am",
+          "gloss_note": "hinneni (\"here I am\") is hen with a 1st-person suffix -- the same word behind \"behold.\""
+        },
+        {
+          "ref": "2Sam.5.1",
+          "surface_form": "הִנְנוּ",
+          "transliteration": "hinnu",
+          "word_id": "10nm5",
+          "phrase_hebrew": "הִנְנוּ עַצְמְךָ וּֽבְשָׂרְךָ אֲנָֽחְנוּ",
+          "phrase_transliteration": "hinnu `atsmekha uvsarkha 'anakhnu",
+          "target_index": 0,
+          "gloss": "behold, we are your bone and your flesh",
+          "gloss_highlight": "behold",
+          "gloss_note": "hinnenu (\"behold us\") is hen with a 1st-person-plural suffix."
         }
       ]
     },
@@ -1501,6 +2524,30 @@
           "phrase_transliteration": "ulma`an saper shemi bekhal ha'arets",
           "target_index": 0,
           "gloss": "so that my name may be proclaimed in all the earth",
+          "gloss_highlight": "so that",
+          "gloss_note": null
+        },
+        {
+          "ref": "Num.27.20",
+          "surface_form": "לְמַעַן",
+          "transliteration": "lema`an",
+          "word_id": "04kEE",
+          "phrase_hebrew": "לְמַעַן יִשְׁמְעוּ כָּל עֲדַת בְּנֵי יִשְׂרָאֵֽל",
+          "phrase_transliteration": "lema`an yishme`u kal `adat beney yisra'el",
+          "target_index": 0,
+          "gloss": "so that the whole congregation of Israel's sons may obey him",
+          "gloss_highlight": "so that",
+          "gloss_note": null
+        },
+        {
+          "ref": "1Kgs.8.40",
+          "surface_form": "לְמַעַן",
+          "transliteration": "lema`an",
+          "word_id": "113M5",
+          "phrase_hebrew": "לְמַעַן יִֽרָאוּךָ כָּל הַיָּמִים",
+          "phrase_transliteration": "lema`an yira'ukha kal hayamim",
+          "target_index": 0,
+          "gloss": "so that they may fear you, all the days [they live]",
           "gloss_highlight": "so that",
           "gloss_note": null
         }
@@ -1548,6 +2595,30 @@
           "gloss": "surely, this is your wife",
           "gloss_highlight": "surely",
           "gloss_note": null
+        },
+        {
+          "ref": "1Sam.16.6",
+          "surface_form": "אַךְ",
+          "transliteration": "'akh",
+          "word_id": "09QZB",
+          "phrase_hebrew": "אַךְ נֶגֶד יְהוָה מְשִׁיחֽוֹ",
+          "phrase_transliteration": "'akh neged yehwah meshikho",
+          "target_index": 0,
+          "gloss": "surely the LORD's anointed is right before him",
+          "gloss_highlight": "surely",
+          "gloss_note": null
+        },
+        {
+          "ref": "Jonah.2.5",
+          "surface_form": "אַךְ",
+          "transliteration": "'akh",
+          "word_id": "32PBQ",
+          "phrase_hebrew": "אַךְ אוֹסִיף לְהַבִּיט אֶל הֵיכַל קָדְשֶֽׁךָ",
+          "phrase_transliteration": "'akh 'osif lehabit 'el heykhal qadshekha",
+          "target_index": 0,
+          "gloss": "yet I will again look toward your holy temple",
+          "gloss_highlight": "yet",
+          "gloss_note": null
         }
       ]
     },
@@ -1592,6 +2663,90 @@
           "target_index": 0,
           "gloss": "identify what is yours before our kinsmen",
           "gloss_highlight": "before",
+          "gloss_note": null
+        },
+        {
+          "ref": "Exod.19.2",
+          "surface_form": "נֶגֶד",
+          "transliteration": "neged",
+          "word_id": "028BY",
+          "phrase_hebrew": "וַיִּֽחַן שָׁם יִשְׂרָאֵל נֶגֶד הָהָֽר",
+          "phrase_transliteration": "wayikhan sham yisra'el neged hahar",
+          "target_index": 3,
+          "gloss": "Israel camped there in front of the mountain",
+          "gloss_highlight": "in front of",
+          "gloss_note": null
+        },
+        {
+          "ref": "Judg.9.17",
+          "surface_form": "מִנֶּגֶד",
+          "transliteration": "mineged",
+          "word_id": "07cJJ",
+          "phrase_hebrew": "וַיַּשְׁלֵךְ אֶת נַפְשׁוֹ מִנֶּגֶד",
+          "phrase_transliteration": "wayashlekh 'et nafsho mineged",
+          "target_index": 3,
+          "gloss": "my father risked his life for you",
+          "gloss_highlight": "risked",
+          "gloss_note": "literally \"cast his life away from before him\" -- minneged marks the idiom for risking one's life."
+        },
+        {
+          "ref": "1Sam.16.6",
+          "surface_form": "נֶגֶד",
+          "transliteration": "neged",
+          "word_id": "09Br9",
+          "phrase_hebrew": "אַךְ נֶגֶד יְהוָה מְשִׁיחֽוֹ",
+          "phrase_transliteration": "'akh neged yehwah meshikho",
+          "target_index": 1,
+          "gloss": "surely the LORD's anointed is right in front of him",
+          "gloss_highlight": "in front of",
+          "gloss_note": null
+        },
+        {
+          "ref": "1Kgs.8.22",
+          "surface_form": "נֶגֶד",
+          "transliteration": "neged",
+          "word_id": "11Rps",
+          "phrase_hebrew": "נֶגֶד כָּל קְהַל יִשְׂרָאֵל",
+          "phrase_transliteration": "neged kal qehal yisra'el",
+          "target_index": 0,
+          "gloss": "[Solomon stood before the altar] in front of the whole assembly of Israel",
+          "gloss_highlight": "in front of",
+          "gloss_note": null
+        },
+        {
+          "ref": "2Kgs.2.7",
+          "surface_form": "מִנֶּגֶד",
+          "transliteration": "mineged",
+          "word_id": "12YBx",
+          "phrase_hebrew": "וַיַּעַמְדוּ מִנֶּגֶד מֵרָחוֹק",
+          "phrase_transliteration": "waya`amdu mineged merakhoq",
+          "target_index": 1,
+          "gloss": "fifty men stood at a distance, opposite them",
+          "gloss_highlight": "opposite",
+          "gloss_note": null
+        },
+        {
+          "ref": "Jonah.2.5",
+          "surface_form": "מִנֶּגֶד",
+          "transliteration": "mineged",
+          "word_id": "32qK3",
+          "phrase_hebrew": "נִגְרַשְׁתִּי מִנֶּגֶד עֵינֶיךָ",
+          "phrase_transliteration": "nigrashti mineged `eyneykha",
+          "target_index": 1,
+          "gloss": "I am cast out from before your eyes",
+          "gloss_highlight": "from before",
+          "gloss_note": null
+        },
+        {
+          "ref": "Deut.28.66",
+          "surface_form": "מִנֶּגֶד",
+          "transliteration": "mineged",
+          "word_id": "05u75",
+          "phrase_hebrew": "חַיֶּיךָ תְּלֻאִים לְךָ מִנֶּגֶד",
+          "phrase_transliteration": "khayeykha telu'im lekha mineged",
+          "target_index": 3,
+          "gloss": "your life will hang in doubt before you",
+          "gloss_highlight": "before you",
           "gloss_note": null
         }
       ]
@@ -1638,6 +2793,30 @@
           "gloss": "blessed be the LORD, who did not give us as prey",
           "gloss_highlight": "who",
           "gloss_note": null
+        },
+        {
+          "ref": "Jonah.1.7",
+          "surface_form": "בְּשֶׁלְּמִי",
+          "transliteration": "beshelmi",
+          "word_id": "32BU7",
+          "phrase_hebrew": "וְנֵדְעָה בְּשֶׁלְּמִי הָרָעָה הַזֹּאת לָנוּ",
+          "phrase_transliteration": "wened`ah beshelmi hara`ah hazo't lanu",
+          "target_index": 1,
+          "gloss": "let us know on whose account this evil has come upon us",
+          "gloss_highlight": "on whose account",
+          "gloss_note": "beshellemi (\"in that of whom\") -- she- fused with le- + mi (\"who\") -- is idiomatic for \"on whose account.\""
+        },
+        {
+          "ref": "Jonah.4.10",
+          "surface_form": "שֶׁבִּן",
+          "transliteration": "shebin",
+          "word_id": "32L6G",
+          "phrase_hebrew": "שֶׁבִּן לַיְלָה הָיָה וּבִן לַיְלָה אָבָֽד",
+          "phrase_transliteration": "shebin laylah hayah uvin laylah 'avad",
+          "target_index": 0,
+          "gloss": "which sprang up in a night and perished in a night",
+          "gloss_highlight": "which",
+          "gloss_note": null
         }
       ]
     },
@@ -1682,6 +2861,30 @@
           "target_index": 2,
           "gloss": "you shall love your neighbor as yourself",
           "gloss_highlight": "as",
+          "gloss_note": null
+        },
+        {
+          "ref": "Deut.18.15",
+          "surface_form": "כָּמֹנִי",
+          "transliteration": "kamoni",
+          "word_id": "05xhV",
+          "phrase_hebrew": "נָבִיא מִקִּרְבְּךָ מֵאַחֶיךָ כָּמֹנִי",
+          "phrase_transliteration": "navi' miqirbekha me'akheykha kamoni",
+          "target_index": 3,
+          "gloss": "a prophet like me will the LORD your God raise up for you",
+          "gloss_highlight": "like me",
+          "gloss_note": null
+        },
+        {
+          "ref": "2Sam.9.8",
+          "surface_form": "כָּמֽוֹנִי",
+          "transliteration": "kamoni",
+          "word_id": "10GmN",
+          "phrase_hebrew": "הַכֶּלֶב הַמֵּת אֲשֶׁר כָּמֽוֹנִי",
+          "phrase_transliteration": "hakelev hamet 'asher kamoni",
+          "target_index": 3,
+          "gloss": "that you should look on a dead dog such as I am",
+          "gloss_highlight": "such as I am",
           "gloss_note": null
         }
       ]
@@ -1728,6 +2931,30 @@
           "gloss": "we have an old father, and a young brother",
           "gloss_highlight": "have",
           "gloss_note": "yesh + \"to me/us\" is how Hebrew says \"I/we have\" -- no literal \"there is\" in the English."
+        },
+        {
+          "ref": "Judg.6.36",
+          "surface_form": "יֶשְׁךָ",
+          "transliteration": "yeshkha",
+          "word_id": "07Lka",
+          "phrase_hebrew": "אִם יֶשְׁךָ מוֹשִׁיעַ",
+          "phrase_transliteration": "'im yeshkha moshia`",
+          "target_index": 1,
+          "gloss": "if you will save Israel by my hand",
+          "gloss_highlight": "if you will",
+          "gloss_note": "yeshkha (\"there is to you,\" i.e. \"you are able to\") + moshia` (\"savior\") is idiomatic for \"if you will save.\""
+        },
+        {
+          "ref": "2Kgs.3.12",
+          "surface_form": "יֵשׁ",
+          "transliteration": "yesh",
+          "word_id": "1289f",
+          "phrase_hebrew": "יֵשׁ אוֹתוֹ דְּבַר יְהוָה",
+          "phrase_transliteration": "yesh 'oto devar yehwah",
+          "target_index": 0,
+          "gloss": "the word of the LORD is with him",
+          "gloss_highlight": "is with him",
+          "gloss_note": "yesh oto (\"there-is to him\") is idiomatic for \"he has\" -- the word of the LORD is with him."
         }
       ]
     },
@@ -1773,6 +3000,30 @@
           "gloss": "and also my covenant with Isaac",
           "gloss_highlight": "also",
           "gloss_note": null
+        },
+        {
+          "ref": "Deut.2.11",
+          "surface_form": "אַף",
+          "transliteration": "'af",
+          "word_id": "05pvY",
+          "phrase_hebrew": "רְפָאִים יֵחָשְׁבוּ אַף הֵם כָּעֲנָקִים",
+          "phrase_transliteration": "refa'im yekhashvu 'af hem ka`anaqim",
+          "target_index": 2,
+          "gloss": "the Rephaim were also considered giants, like the Anakim",
+          "gloss_highlight": "also",
+          "gloss_note": null
+        },
+        {
+          "ref": "1Kgs.8.27",
+          "surface_form": "אַף",
+          "transliteration": "'af",
+          "word_id": "11YSC",
+          "phrase_hebrew": "אַף כִּֽי הַבַּיִת הַזֶּה אֲשֶׁר בָּנִֽיתִי",
+          "phrase_transliteration": "'af ki habayit hazeh 'asher baniti",
+          "target_index": 0,
+          "gloss": "how much more this house that I have built",
+          "gloss_highlight": "how much more",
+          "gloss_note": "af ki (literally \"even that\") is idiomatic for \"how much more.\""
         }
       ]
     },
@@ -1822,51 +3073,6 @@
       ]
     },
     {
-      "lemma_id": "H4481",
-      "citation_form": "מִן",
-      "transliteration": "min",
-      "full_gloss": "from (Aramaic)",
-      "sense_count": 1,
-      "examples": [
-        {
-          "ref": "Ezra.4.12",
-          "surface_form": "מִן",
-          "transliteration": "min",
-          "word_id": "15f13",
-          "phrase_hebrew": "יְהוּדָיֵא דִּי סְלִקוּ מִן לְוָתָךְ עֲלֶינָא",
-          "phrase_transliteration": "yehudaye' di seliqu min lewatakh `aleyna'",
-          "target_index": 3,
-          "gloss": "the Jews who came up from you to us",
-          "gloss_highlight": "from",
-          "gloss_note": null
-        },
-        {
-          "ref": "Ezra.4.15",
-          "surface_form": "מִן",
-          "transliteration": "min",
-          "word_id": "15FQu",
-          "phrase_hebrew": "מִן יוֹמָת עָלְמָא",
-          "phrase_transliteration": "min yomat `alma'",
-          "target_index": 0,
-          "gloss": "from ancient days",
-          "gloss_highlight": "from",
-          "gloss_note": null
-        },
-        {
-          "ref": "Ezra.5.14",
-          "surface_form": "מִן",
-          "transliteration": "min",
-          "word_id": "15ik6",
-          "phrase_hebrew": "הַנְפֵּק מִן הֵֽיכְלָא",
-          "phrase_transliteration": "hanpeq min heykhla'",
-          "target_index": 1,
-          "gloss": "brought out from the temple",
-          "gloss_highlight": "from",
-          "gloss_note": null
-        }
-      ]
-    },
-    {
       "lemma_id": "H1115",
       "citation_form": "בִּלְתִּי",
       "transliteration": "bilti",
@@ -1908,50 +3114,29 @@
           "gloss": "so that you may not sin",
           "gloss_highlight": "not",
           "gloss_note": null
-        }
-      ]
-    },
-    {
-      "lemma_id": "H5922",
-      "citation_form": "עַל",
-      "transliteration": "`al",
-      "full_gloss": "on, upon, concerning (Aramaic)",
-      "sense_count": 3,
-      "examples": [
-        {
-          "ref": "Ezra.4.8",
-          "surface_form": "עַל",
-          "transliteration": "`al",
-          "word_id": "15XRb",
-          "phrase_hebrew": "כְּתַבוּ אִגְּרָה חֲדָה עַל יְרוּשְׁלֶם",
-          "phrase_transliteration": "ketavu 'igrah khadah `al yerushlem",
-          "target_index": 3,
-          "gloss": "they wrote a letter against Jerusalem",
-          "gloss_highlight": "against",
-          "gloss_note": "`al reads as \"against\" here since the letter was hostile."
         },
         {
-          "ref": "Ezra.4.17",
-          "surface_form": "עַל",
-          "transliteration": "`al",
-          "word_id": "15hHR",
-          "phrase_hebrew": "שְׁלַח מַלְכָּא עַל רְחוּם",
-          "phrase_transliteration": "shelakh malka' `al rekhum",
-          "target_index": 2,
-          "gloss": "the king sent word to Rehum",
-          "gloss_highlight": "to",
-          "gloss_note": "`al functions like \"to\" here -- a message directed at Rehum."
+          "ref": "Num.32.12",
+          "surface_form": "בִּלְתִּי",
+          "transliteration": "bilti",
+          "word_id": "04oKm",
+          "phrase_hebrew": "בִּלְתִּי כָּלֵב בֶּן יְפֻנֶּה הַקְּנִזִּי וִיהוֹשֻׁעַ בִּן נוּן",
+          "phrase_transliteration": "bilti kalev ben yefuneh haqnizi wihoshua` bin nun",
+          "target_index": 0,
+          "gloss": "except Caleb...and Joshua",
+          "gloss_highlight": "except",
+          "gloss_note": null
         },
         {
-          "ref": "Ezra.6.7",
-          "surface_form": "עַל",
-          "transliteration": "`al",
-          "word_id": "157ej",
-          "phrase_hebrew": "יִבְנוֹן עַל אַתְרֵֽהּ",
-          "phrase_transliteration": "yivnon `al 'atreh",
-          "target_index": 1,
-          "gloss": "let them build it on its site",
-          "gloss_highlight": "on",
+          "ref": "Judg.2.23",
+          "surface_form": "לְבִלְתִּי",
+          "transliteration": "levilti",
+          "word_id": "07awY",
+          "phrase_hebrew": "לְבִלְתִּי הוֹרִישָׁם מַהֵר",
+          "phrase_transliteration": "levilti horisham maher",
+          "target_index": 0,
+          "gloss": "so as not to drive them out quickly",
+          "gloss_highlight": "not to",
           "gloss_note": null
         }
       ]
@@ -1996,6 +3181,30 @@
           "phrase_transliteration": "raq tso'nkhem uvqarkhem yutsag",
           "target_index": 0,
           "gloss": "only your flocks and herds shall remain",
+          "gloss_highlight": "only",
+          "gloss_note": null
+        },
+        {
+          "ref": "Josh.11.22",
+          "surface_form": "רַק",
+          "transliteration": "raq",
+          "word_id": "06R3h",
+          "phrase_hebrew": "רַק בְּעַזָּה בְּגַת וּבְאַשְׁדּוֹד נִשְׁאָֽרוּ",
+          "phrase_transliteration": "raq be`azah begat uv'ashdod nish'aru",
+          "target_index": 0,
+          "gloss": "only in Gaza, Gath, and Ashdod did [the Anakim] remain",
+          "gloss_highlight": "only",
+          "gloss_note": null
+        },
+        {
+          "ref": "Judg.3.2",
+          "surface_form": "רַק",
+          "transliteration": "raq",
+          "word_id": "07don",
+          "phrase_hebrew": "רַק לְמַעַן דַּעַת דֹּרוֹת בְּנֵֽי יִשְׂרָאֵל לְלַמְּדָם מִלְחָמָה",
+          "phrase_transliteration": "raq lema`an da`at dorot beney yisra'el lelamdam milkhamah",
+          "target_index": 0,
+          "gloss": "only so that the generations of Israel's sons might know war",
           "gloss_highlight": "only",
           "gloss_note": null
         }
@@ -2054,6 +3263,18 @@
           "target_index": 6,
           "gloss": "Ehud went out... and shut the doors behind him",
           "gloss_highlight": "behind",
+          "gloss_note": null
+        },
+        {
+          "ref": "Jonah.2.7",
+          "surface_form": "בַעֲדִי",
+          "transliteration": "va`adi",
+          "word_id": "32k1L",
+          "phrase_hebrew": "הָאָרֶץ בְּרִחֶיהָ בַעֲדִי לְעוֹלָם",
+          "phrase_transliteration": "ha'arets berikheyha va`adi le`olam",
+          "target_index": 2,
+          "gloss": "the earth with its bars closed behind me forever",
+          "gloss_highlight": "behind me",
           "gloss_note": null
         }
       ]
@@ -2144,141 +3365,6 @@
           "target_index": 0,
           "gloss": "how the mighty have fallen!",
           "gloss_highlight": "how",
-          "gloss_note": null
-        }
-      ]
-    },
-    {
-      "lemma_id": "H3809",
-      "citation_form": "לָא",
-      "transliteration": "la'",
-      "full_gloss": "not (Aramaic)",
-      "sense_count": 1,
-      "examples": [
-        {
-          "ref": "Ezra.4.13",
-          "surface_form": "לָא",
-          "transliteration": "la'",
-          "word_id": "15nk3",
-          "phrase_hebrew": "מִנְדָּֽה בְלוֹ וַהֲלָךְ לָא יִנְתְּנוּן",
-          "phrase_transliteration": "mindah velo wahalakh la' yintenun",
-          "target_index": 3,
-          "gloss": "they will not pay tribute",
-          "gloss_highlight": "not",
-          "gloss_note": null
-        },
-        {
-          "ref": "Ezra.5.16",
-          "surface_form": "וְלָא",
-          "transliteration": "wela'",
-          "word_id": "15U2p",
-          "phrase_hebrew": "וְלָא שְׁלִֽם",
-          "phrase_transliteration": "wela' shelim",
-          "target_index": 0,
-          "gloss": "and it is not finished",
-          "gloss_highlight": "not",
-          "gloss_note": null
-        },
-        {
-          "ref": "Dan.2.27",
-          "surface_form": "לָא",
-          "transliteration": "la'",
-          "word_id": "27Amf",
-          "phrase_hebrew": "לָא חַכִּימִין אָֽשְׁפִין חַרְטֻמִּין גָּזְרִין יָכְלִין",
-          "phrase_transliteration": "la' khakimin 'ashfin khartumin gazrin yakhlin",
-          "target_index": 0,
-          "gloss": "the wise men are not able [to tell it]",
-          "gloss_highlight": "not",
-          "gloss_note": null
-        }
-      ]
-    },
-    {
-      "lemma_id": "H5542",
-      "citation_form": "סֶלָה",
-      "transliteration": "selah",
-      "full_gloss": "selah (liturgical pause, meaning uncertain)",
-      "sense_count": 2,
-      "examples": [
-        {
-          "ref": "Ps.3.3",
-          "surface_form": "סֶֽלָה",
-          "transliteration": "selah",
-          "word_id": "19FMU",
-          "phrase_hebrew": "אֵין יְֽשׁוּעָתָה לּוֹ בֵֽאלֹהִים סֶֽלָה",
-          "phrase_transliteration": "'eyn yeshu`atah lo ve'lohim selah",
-          "target_index": 4,
-          "gloss": "'There is no salvation for him in God.' Selah",
-          "gloss_highlight": "Selah",
-          "gloss_note": null
-        },
-        {
-          "ref": "Ps.24.10",
-          "surface_form": "סֶֽלָה",
-          "transliteration": "selah",
-          "word_id": "19E91",
-          "phrase_hebrew": "מִי הוּא זֶה מֶלֶךְ הַכָּבוֹד יְהוָה צְבָאוֹת הוּא מֶלֶךְ הַכָּבוֹד סֶֽלָה",
-          "phrase_transliteration": "mi hu' zeh melekh hakavod yehwah tseva'ot hu' melekh hakavod selah",
-          "target_index": 10,
-          "gloss": "Who is this King of glory? ...Selah",
-          "gloss_highlight": "Selah",
-          "gloss_note": null
-        },
-        {
-          "ref": "Ps.46.8",
-          "surface_form": "סֶֽלָה",
-          "transliteration": "selah",
-          "word_id": "19Fdk",
-          "phrase_hebrew": "יְהוָה צְבָאוֹת עִמָּנוּ מִשְׂגָּֽב לָנוּ אֱלֹהֵי יַעֲקֹב סֶֽלָה",
-          "phrase_transliteration": "yehwah tseva'ot `imanu misgav lanu 'elohey ya`aqov selah",
-          "target_index": 7,
-          "gloss": "The LORD of hosts is with us. Selah",
-          "gloss_highlight": "Selah",
-          "gloss_note": null
-        }
-      ]
-    },
-    {
-      "lemma_id": "H1077",
-      "citation_form": "בַּל",
-      "transliteration": "bal",
-      "full_gloss": "not (poetic negative particle)",
-      "sense_count": 1,
-      "examples": [
-        {
-          "ref": "Ps.16.8",
-          "surface_form": "בַּל",
-          "transliteration": "bal",
-          "word_id": "193v4",
-          "phrase_hebrew": "בַּל אֶמּֽוֹט",
-          "phrase_transliteration": "bal 'emot",
-          "target_index": 0,
-          "gloss": "I shall not be moved",
-          "gloss_highlight": "not",
-          "gloss_note": null
-        },
-        {
-          "ref": "Ps.21.3",
-          "surface_form": "בַּל",
-          "transliteration": "bal",
-          "word_id": "19zbv",
-          "phrase_hebrew": "בַּל מָנַעְתָּ",
-          "phrase_transliteration": "bal mana`ta",
-          "target_index": 0,
-          "gloss": "you have not withheld [what his lips desired]",
-          "gloss_highlight": "not",
-          "gloss_note": null
-        },
-        {
-          "ref": "Ps.10.4",
-          "surface_form": "בַּל",
-          "transliteration": "bal",
-          "word_id": "199fJ",
-          "phrase_hebrew": "כְּגֹבַהּ אַפּוֹ בַּל יִדְרֹשׁ",
-          "phrase_transliteration": "kegovah 'apo bal yidrosh",
-          "target_index": 2,
-          "gloss": "in the pride of his face... he will not seek [God]",
-          "gloss_highlight": "not",
           "gloss_note": null
         }
       ]

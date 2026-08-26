@@ -237,6 +237,14 @@ body {
   margin: 0;
 }
 
+.card-schema {
+  font-size: 14px;
+  font-style: italic;
+  color: var(--accent-2);
+  max-width: 30ch;
+  margin: 4px 0 0;
+}
+
 .card-hint {
   font-size: 13px;
   color: var(--text-faint);

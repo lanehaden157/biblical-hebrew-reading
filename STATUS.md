@@ -1,575 +1,195 @@
 # Status / phase history
 
-Rewritten (append-only, by phase) at each phase boundary. `git log` is the commit-level
-history; this file is the narrative one — what was built, why, and how it was verified.
-This lives outside `CLAUDE.md` so the project-instructions file doesn't grow every phase.
+Append-only, by phase. `git log` is the commit-level history; this is the narrative one —
+what was built, key decisions, and real bugs/corrections worth remembering. Kept out of
+`CLAUDE.md` so that file doesn't grow every phase.
 
-## Done — Phases 1–2 (Tier 0–1 build)
+## Phases 1–2: Tier 0–1 (vocab)
 
-Pipeline builds `data/top600.json` from OSHB. All 600 lemmas curated across six gloss
-batches, reviewed, verified. Transliteration generator complete and verified against all
-600 forms. `data/vocab_deck_600.json` built. Vocab SRS app shipped and live at the Pages
-URL: three-stage card reveal (Hebrew → transliteration → gloss), three grade buttons
-(Again/Good/Easy, `Hard` dropped), light/dark theme following the system setting, sound
-feedback (default on, per-grade tones) behind `feedback.js`. Haptics were attempted
-(standard vibration API, then an undocumented iOS switch-click trick) and dropped after
-real-device testing confirmed neither fires in iOS Safari — there is no haptics toggle or
-code path. Session-length tracking was built and then deliberately removed: this is a
-casual hobby project, and a persisted timing log is the kind of quantified-self mechanic
-hard rule 5 (no streaks, no guilt mechanics) exists to keep out. `store.js` has no
-`sessions` field.
+Top-600 lemmas curated and verified; vocab SRS shipped (3-stage reveal, 3 grade buttons,
+theme, sound). Haptics attempted, dropped — confirmed they don't fire in iOS Safari.
+Session-length tracking was built, then deliberately removed as a guilt-mechanic hard
+rule 5 exists to keep out.
 
-## Done — Phase 3 (Tier 2 build): parsing gym, Qal strong verbs
+## Phase 3: Parsing gym, Qal strong verbs
 
-`pipeline/build_parse_qal.py` pulls Qal forms in the locked conjugation-priority order
-(qatal, wayyiqtol, yiqtol, participle, infinitive construct — confirmed exact `morph`
-codes against the whole corpus rather than assuming: `Vq` + one of `pwqrc` + a
-person/gender/number or gender/number/state suffix) restricted to **strong** roots.
-Strong-root test: triliteral, no radical in {alef,he,het,ayin} (covers I/II/III-guttural
-and III-He/III-Aleph in one check), first radical not nun, first radical not vav/yod,
-second radical not vav/yod or equal to the third (hollow/geminate). Root lemmas are
-restricted to the 181 verb lemmas already in the curated top-600 vocab deck, not all
-Qal-attested lemmas in the corpus — reuses their lexicon-sourced citation form,
-transliteration and gloss rather than a second curation pass, and keeps parsing practice
-anchored to vocabulary already being learned. Yields 41 strong-root lemmas, 34 of which
-are actually attested in Qal in the corpus (the other 7 — בקש, שלך, קטר, שרת, מלט, שמד,
-סתר — are cited in Qal-perfect form by convention but essentially never occur in Qal;
-confirmed against BDB usage, not a pipeline bug), 2,211 parse entries total.
-`pipeline/verify_parse_qal.py` independently re-derives every count via its own regex
-scan and its own copy of the strong-root rule (rule 3). `app/views/parse.js` un-stubs the
-`Parse` tab: same three-stage reveal pattern as vocab (surface form → transliteration →
-root + gloss + parse label, e.g. "Qal infinitive construct"), same three-grade SRS.
-`srs.js` `buildQueue`/`stats` took a `keyFn` parameter so vocab (keyed by lemma_id) and
-parse (keyed by `parse:<entry id>`, since one lemma has many inflected entries) share one
-`store.cards` map with independent daily new-card budgets rather than competing for one.
-`app/selftest.html` gained structural checks for the parse deck. Verified end-to-end
-in-browser: tab switch, all three reveal stages, grading, queue advance, Settings stats
-unaffected by parse review activity.
+`build_parse_qal.py` generates Qal-strong forms restricted to the 181 verb lemmas already
+in the vocab deck (34 of 41 strong-root lemmas are actually attested in Qal in the
+corpus); 2,211 entries. Parse tab shares one SRS queue with vocab via a `keyFn` param so
+the two decks don't compete for daily budget.
 
-## Done — Phase 4: reader, Jonah 1
+## Phase 4: Reader, Jonah 1
 
-`pipeline/curate_jonah1_extra.py` diffs Jonah 1's distinct lemmas (Hebrew/WLC
-versification: 16 verses -- English 1:17, the fish-swallowing verse, is Hebrew 2:1 and is
-deliberately left for the chapter 2 reading, not stitched on here) against
-`data/vocab_deck_600.json` and curates glosses for the 31 lemmas not already in the
-top-600 deck, same method as the Phase 2 gloss batches (lexicon-sourced citation form,
-hand-curated English gloss checked against, not copied from, the Strong's draft).
-`pipeline/build_jonah1_reader.py` builds `data/jonah1_reader.json`: one entry per printed
-word (254 words), splitting each word's lemma/morph/text attributes on "/" per morpheme
-(same technique `rank_lemmas.py` and `build_parse_qal.py` already use) to compose a
-per-word gloss from its morphemes' individual glosses joined with " + ", while keeping the
-*displayed* Hebrew as the real, unsplit printed word -- a prefixed vav or preposition is
-never pulled into its own visual token, since that would show Hebrew that doesn't actually
-look like Hebrew. Deliberately does not compute or show a part-of-speech or parse label per
-word: Jonah 1 contains weak roots and non-Qal stems outside Tier 2's Qal-strong coverage,
-and a lemma-level POS guess can be flatly wrong for a specific occurrence -- confirmed by
-H3373 in this very chapter, tagged under one Strong's number across both a finite verb
-(1:9) and a noun (1:10, 1:16). `pipeline/verify_jonah1_reader.py` independently re-scans
-the raw WLC XML with its own regex and its own gloss lookup and diffs every word
-entry-by-entry against the shipped JSON, not just aggregate counts. `app/views/read.js`
-un-stubs the Read tab: no grading, no scheduler state, no queue -- every word in the
-chapter is tap-to-reveal (transliteration + gloss) every time the page opens, and multiple
-words can be open at once, since reading needs to check several words in one verse without
-losing earlier reveals. Words not yet in the vocab deck get a subtle underline so new
-vocabulary stands out without demanding anything. `app/selftest.html` gained structural
-checks for the reader data (verse/word counts against metadata, gloss non-emptiness,
-`is_known` cross-checked against `vocab_deck_600.json`, no duplicate word ids). Verified
-in-browser via selftest (39/39 passing) and by scripting a tap -- open, reveal, tap again,
-close -- and confirming the DOM state at each step.
+254 words. Per-word gloss composed from morphemes; deliberately **no POS label** shown,
+since a lemma-level guess can be wrong for a specific occurrence (H3373 tags both a verb
+and a noun in this chapter under one Strong's number). Read tab: tap-to-reveal, no
+grading, multiple words can stay open at once, unfamiliar words underlined.
 
-## Done — Phase 5 progress: reader expanded to Jonah 2
+## Phase 5: Reader finishes Jonah (chapters 2–4)
 
-Same pipeline as the Jonah 1 build, applied to chapter 2 (Hebrew/WLC versification: 11
-verses, `Jonah.2.1`-`Jonah.2.11`; `Jonah.2.1` is the fish-swallowing verse English Bibles
-number as `1:17` -- see `build_jonah1_reader.py`'s docstring for why it belongs in chapter
-2, not stitched onto chapter 1). `pipeline/curate_jonah2_extra.py` diffed Jonah 2's 85
-distinct lemmas against `vocab_deck_600.json` and `jonah1_extra.json` together (3 lemmas --
-"Jonah", "dry ground", "vow" -- recur from chapter 1 and were reused as-is, not
-re-curated), leaving 22 genuinely new lemmas curated into `glosses/jonah2_extra.json`.
-Several needed a specific-occurrence sense check against the Strong's draft rather than its
-first-listed gloss: H1530 (gal) is "wave" here (parallel with H4867 "breaker" in the same
-line), not the draft's lead sense "heap of ruins"; H4487 (manah) is Piel "appoint, ordain"
-("the LORD appointed a fish"), not the Qal "weigh out/enumerate" sense the draft leads
-with; H7095 (qetsev) is BDB's "roots of the mountains" idiom, not the draft's bare
-"shape, base". `pipeline/build_jonah2_reader.py` builds `data/jonah2_reader.json` from
-three merged gloss sources (vocab deck + both Jonah extras) with the same hard-error-on-
-unresolved-lemma behavior as the chapter 1 build. `pipeline/verify_jonah2_reader.py`
-independently re-scans and re-derives every word, same method as `verify_jonah1_reader.py`.
-112 words, 81/112 (72.3%) already known from the top-600 deck.
+Same pipeline extended through the rest of the book. Jonah 2: 112 words, 72.3% already
+known. Jonah 3: 139 words, 82.0% known. Jonah 4: 183 words, 80.3% known. Read tab
+generalized to a chapter list + switcher instead of one hardcoded file.
 
-App side: the Read tab is no longer hardcoded to one chapter. `main.js` gained
-`READER_CHAPTERS` (an ordered list of `{key, label, url}`, currently Jonah 1 and Jonah 2)
-and a per-chapter load cache; `loadReaderData(key)` replaces the old no-argument version.
-`read.js` gained a chapter switcher (reusing the `.seg` segmented-control style already in
-`app.css` from Settings) rendered only when more than one chapter exists, so it stays
-invisible today if a future edit ever trims the list back to one. Switching chapters clears
-the tap-to-reveal open state, consistent with the existing "every chapter open starts
-closed" rule -- carrying revealed words across chapters was never the intent and risked an
-id collision showing something pre-opened. `app/selftest.html`'s reader checks now loop
-over `READER_CHAPTERS` generically instead of checking one hardcoded file. Verified
-in-browser: selftest 46/46 passing, chapter switcher renders both chapters and toggles
-`aria-pressed` correctly, tap-to-reveal confirmed on Jonah 2:1's first word (`וַיְמַן` ->
-"wayman" -> "and + appoint, ordain (piel)").
+**Occurrence-specific gloss corrections** (checked against BDB, not the dictionary's lead
+sense): *gal* = "wave" not "heap of ruins" (2:4); *manah* = "appoint" not "weigh out"
+(fish appointed, 2:1); *qetsev* = "roots" (of mountains) not "shape/base"; *ta'am* =
+"decree" not "taste" (3:7); *qadam* = "be quick to act" not "go before" (4:2). Confirmed
+`alaph`/`ataph` (2 & 4) are genuinely distinct roots that happen to share a sense —
+kept separate, not merged.
 
-## Done — Phase 5 progress: reader finishes the book of Jonah (chapters 3-4)
+## Phase 5: Parse-tab bug fixes
 
-Same pipeline again, applied to the last two chapters: `curate_jonah3_extra.py` (12 new
-lemmas; chapter 3 has no versification divergence from English, 10 verses) and
-`curate_jonah4_extra.py` (17 new lemmas; 11 verses, also no divergence). No lemma overlap
-between the two chapters' new-lemma sets, so nothing was reused between them, though both
-scripts diff against all prior chapters' curated glosses (rule 3's "assume the same class
-of bug is always present" extends to "assume a word recurs unless checked" -- worth
-checking every time, even when it turns out not to apply). `build_jonah3_reader.py` and
-`build_jonah4_reader.py` each merge the vocab deck plus every glosses/jonah*_extra.json
-curated so far (chapter 4's build pulls from all four). `verify_jonah3_reader.py` and
-`verify_jonah4_reader.py` independently re-derive both, same method as the first two
-chapters. Jonah 3: 139 words, 114/139 (82.0%) already known. Jonah 4: 183 words, 147/183
-(80.3%) already known.
+Two real morph-code bugs, confirmed against the OSHB spec: weqatal was mislabeled
+"yiqtol"; genuine yiqtol wasn't matched at all (silently missing, not mislabeled). Also,
+`surface_form` had been stripping prefixes/suffixes down to a fragment that isn't a real
+word — fixed to show the whole printed word, split into prefix/verb/suffix spans.
+Weqatal added as its own conjugation; deck grew 2,211 → 2,819.
 
-A few glosses needed a specific-occurrence check rather than the Strong's draft's lead
-sense, same discipline as the chapter 2 curation: H2940 (ta'am) is "decree" in "by decree
-of the king" (3:7), not its more common literal "taste" sense; H6923 (qadam) is "anticipate,
-be quick to act" in "I was quick to flee" (4:2), not its more common spatial "go before/
-meet" sense. Also confirmed H5968 (`alaph`) and H5848 (`ataph`, curated for chapter 2) are
-genuinely different roots that both happen to mean "grow faint" in their respective
-contexts -- kept as separate lemma entries, not merged.
+Separately found: word-initial shuruq vav was transliterating as "w" instead of "u-",
+affecting 159 of 2,819 cards. Fixed in `transliterate.py`; every dependent data file
+rebuilt.
 
-`main.js`'s `READER_CHAPTERS` list now has all four Jonah chapters; no other app code
-needed to change; the multi-chapter plumbing built for the Jonah 2 add (Phase 5's first
-step) generalized cleanly. Verified in-browser: selftest 60/60 passing across all four
-chapters, chapter switcher lists all four labels, tap-to-reveal confirmed on Jonah 4's
-final word (`רַבָּה` -> "rabah" -> "much, many, great", the closing "much cattle" of 4:11).
-The book of Jonah is now fully readable in the app, cover to cover.
+## Phase 5: Learn tab, all five lesson groups
 
-## Done — Phase 5 progress: parse-tab bug fixes
+Corpus frequency counts (not guesswork) set the curriculum order: group 1 — prefixes/
+suffixes (vav, definite article, the four inseparable prepositions, pronominal suffixes,
+relative and interrogative particles); group 2 — construct chains (35% of nouns in Jonah);
+group 3 — the verb system (binyanim, aspect, vav-consecutive, participles, infinitive
+construct, commands); groups 4–5 — remaining noun-phrase items and sentence-level syntax.
+41 lessons total across the five groups, all real Jonah words/phrases.
 
-Lane flagged real errors in the Parse tab. Two conjugation-letter bugs, confirmed against
-the OSHB morphology spec directly (not just re-derived from this project's own prior
-belief about it): the morph code for sequential perfect (weqatal, letter `q`) was
-mislabeled "yiqtol"; genuine imperfect (yiqtol, letter `i`) wasn't matched by the regex at
-all, so those forms were silently absent rather than wrong. Also, `surface_form` was only
-the verb's own "/"-separated morpheme -- any prefix (a wayyiqtol's defining vav, a
-preposition) or suffix (a pronominal object) was stripped, sometimes leaving a fragment
-that isn't a real Hebrew word. `build_parse_qal.py` now shows the whole printed word
-(matching how the Jonah readers already display words), splitting it into
-`prefix_form`/`verb_form`/`suffix_form` for highlighting, resolving any prefix against the
-same curated `F-<letter>` function-word entries the readers use, and capturing a trailing
-pronominal suffix's person/gender/number (or paragogic nun/he) where present. Weqatal
-added as its own labeled conjugation (Lane's call -- it's weqatal's direct pairing with
-wayyiqtol/yiqtol that makes the whole-word display worth having). Deck grew from 2,211 to
-2,819 entries. `app/views/parse.js` highlights the verb morpheme in accent color within
-the full word and reveals prefix glosses + suffix PGN at stage 2.
+Notable curatorial calls:
+- Group 3's binyan example (Nafal, Hiphil vs. Qal) was chosen because both stems are
+  attested for that root **in the same verse** (1:7) — found by cross-tabulating the
+  whole book rather than picking an assumed "typical" contrast pair.
+- Group 4 deliberately includes *goralot* ("lots," 1:7) — masculine despite a
+  feminine-looking plural ending — so the gender lesson doesn't overclaim.
+- Group 5's word-order lesson pairs the default VSO order against a real deviation
+  (subject fronted for a scene change, 1:5) instead of only asserting the exception.
+- A "plain" role (no highlight split) was added for groups 4–5's multi-word phrase
+  examples, since forcing them into construct/absolute roles would've been a false claim.
 
-While rebuilding, a related transliteration bug surfaced: a word-initial shuruq vav (e.g.
-וּבַיּוֹם) was rendering as a bare "w" instead of "u-" -- the BuMP-rule case
-`transliteration-reference.md` had flagged as "probably not live" turned out to affect 159
-of 2,819 parse cards (5.6%). Fixed in `transliterate.py` (a vav+dagesh with no vowel of
-its own and nothing preceding it is now read as the syllable "u", not a consonant); final-
-he stayed as-is per Lane's explicit preference (keep "torah"/"malkah", don't add the
-mappiq-silent distinction). `verify_parse_qal.py` gained a golden regression set (six real
-corpus refs, one per conjugation, checked against the external OSHB spec page) and a
-whole-word reconstruction check; `verify_transliterate.py` gained a corpus-word regression
-pair for the shuruq fix. `selftest.html` gained the same reconstruction check. Every data
-file that bakes in a transliteration was rebuilt and re-verified. Verified in-browser: the
-original bug's own example (`יִּשְׁבֹּת`, cited in `morphology-reference.md`) now shows as
-the full word `וַיִּשְׁבֹּת`, transliterates "wayishbot", and labels "Qal wayyiqtol
-(narrative), 3rd masc. sing."
+One in-browser catch: an example's note claimed two word-forms were "completely
+identical" when they actually differ by an invisible trailing shva — caught by reading
+the rendered page, not by the verifier (which only checks shipped-vs-recomputed
+agreement, not whether the prose claim is true).
 
-## Done — Phase 5 progress: Learn tab, lesson group 1 (prefixes and suffixes)
+The Learn tab's original concept list is now fully built across all five groups.
 
-Lane doesn't yet know the grammar rules behind what Vocab/Parse/Read already have him
-recognizing by pattern. Rather than guess at a curriculum, `pipeline/hebrew_corpus.py`'s
-Jonah word dump was used to count what actually shows up in the text: prefixed/suffixed
-function morphemes touch a large fraction of every sentence (conjunction vav 132/688
-words, definite article 72, the four inseparable prepositions 102 combined, pronominal
-suffixes 99), so that became lesson group 1, with construct chains (72/205 nouns, 35%),
-the verb system, and sentence-level syntax queued as later groups -- see the concept list
-given to Lane in-conversation for the full breakdown. Lane chose the format (a dedicated
-Learn tab with short lessons, not just-in-time popups) and the starting group.
+## Phase 5: Optional cross-device sync (GitHub Gist)
 
-`pipeline/build_lessons_group1.py` builds `data/lessons_group1.json`: 6 lessons (vav,
-definite article, the ל/ב/כ/מן prepositions, pronominal suffixes, the relative
-אֲשֶׁר/שֶׁ-, the interrogative הֲ prefix -- the latter appears exactly once in the whole
-book, in Jonah's complaint at 4:2), 18 examples total, every one a real word pulled from
-Jonah 1 or 4:2 by its OSIS word id (never typed by hand) and decomposed generically
-(works for a noun/preposition/verb base, not just Qal verbs like `build_parse_qal.py`) into
-prefix/base/suffix spans, with prefix glosses resolved against the same curated
-`F-<letter>` entries the readers use and whole-word transliteration computed once (not
-per-morpheme, per the parse-tab lesson above). `pipeline/verify_lessons_group1.py`
-independently re-implements the decomposition against a fresh XML re-scan and diffs every
-field. `app/views/learn.js` adds the 5th tab: a lesson list, and a detail view that
-highlights whichever span (prefix/base/suffix) the lesson is actually about, in the same
-accent-color convention Parse already uses. Not gated behind completion, matching the Read
-tab's philosophy (no progress bar, no streaks). Verified in-browser: selftest 71/71
-passing, all six lessons render, prefix- and suffix-highlighted examples both confirmed
-via DOM inspection.
+Lane chose auto-sync over a manual-only import after being asked directly. `sync.js` is
+fully opt-in — zero network requests until a token is pasted in Settings — and round-trips
+through a private Gist rather than the app's own repo. The token is stored in its own
+localStorage key, confirmed never present in the export blob. Merge is per-card (based on
+`reps`/`last_review`), so reviewing on two devices before either syncs doesn't let one
+session overwrite the other. Settings preferences are per-device and intentionally not
+merged. Known accepted limitation: no concurrency check on the Gist write — fine for one
+person's few devices, not for real multi-user sync.
 
-## Done — Phase 5 progress: Learn tab, lesson group 2 (construct chains)
+**Correction from real use:** Lane found GitHub's fine-grained-token UI doesn't actually
+expose a Gists scope, despite the docs listing one. Verified independently rather than
+assumed to be user error. Switched to a classic token with only the "gist" scope checked
+— preserves the exact same "leaked token can't touch anything else" property.
 
-Lane asked for this one directly (construct chains were flagged as the single biggest
-untaught gap: 72 of 205 nouns in Jonah, 35%, are in construct state). Two example shapes
-needed this time, not one: a construct chain is written as two or three separate `<w>`
-elements, not one word's internal "/" morphemes, so highlighting "which word is
-construct" is a genuinely different operation from group 1's "which part of this one word
-is the prefix" -- `build_lessons_group2.py` reuses group 1's `decompose()` per token
-(imported directly -- sharing logic between *build* scripts is fine; it's *verify*
-scripts that must stay independent, and `verify_lessons_group2.py` re-implements
-everything from scratch same as every other verifier) and adds a `noun_role()` classifier
-that reads a token's own grammatical state (construct/absolute) directly off its morph
-code's trailing state letter -- never inferred from word order, which would silently get
-a proper-noun-final chain wrong (proper nouns carry no state letter at all).
+## Phase 5: Undo this session's reviews
 
-5 lessons, 11 examples, real words/phrases from Jonah 1 and 3: the basic two-noun chain
-(דְּבַר יְהוָה, "word of the LORD" -- the book's opening words), the construct form's
-vowel shrink (compared directly against the word's own dictionary citation form, which
-`lemma_citation_form` already captured for group 1 -- no new field needed, just a UI rule:
-show a comparison line whenever the two differ), definiteness traveling through the chain
-from its last word only (אֱלֹהֵי הַשָּׁמַיִם / מֶלֶךְ נִינְוֵה), a genuine three-noun
-stacked chain (מַהֲלַךְ שְׁלֹשֶׁת יָמִים, "a three-day journey"), and the feminine
-ה→ת / plural ־ִים→־ֵי construct endings (including אַנְשֵׁי, flagged honestly as a
-suppletive plural -- singular "man" and plural "men" don't share a stem at all, not just
-a swapped ending). One example needed a note correction after a first in-browser check:
-`melekh`'s construct and citation forms differ by an invisible trailing shva (an
-orthographic convention, not a grammatical one) that the "completely identical" note text
-hadn't accounted for -- caught by actually reading the rendered page, not just running the
-verifier, which only checks that shipped and recomputed data agree with each other.
+An in-memory-only snapshot of `cards`, taken on first load, backs "Undo this session's
+reviews" (narrower than full Reset, which still wipes everything with its own backup).
+Fixed `resetAll()` to also clear the snapshot so it doesn't leave a confusing "undo the
+reset" button behind.
 
-`load_lookups()` (shared by both group scripts) widened from two curated gloss files to
-all four `jonah*_extra.json`, since group 2's examples draw on chapter 3's curated extras
--- confirmed as a no-op for group 1's own output before shipping it. `main.js` replaced
-its group-1-specific loader with a generic `LESSON_GROUPS` list (same pattern as
-`READER_CHAPTERS`); `learn.js`'s list view now sections lessons by group, and its detail
-view renders either shape (single-word or multi-token chain, colored by role instead of
-by highlight span). Verified in-browser: selftest 80/80 passing, both groups list
-correctly, all 5 new lessons opened and read, construct/absolute role coloring confirmed
-via DOM inspection on both the 2-token and 3-token chain examples.
+## Phase 5: Three bugs found only through real phone use
 
-## Done — Phase 5 progress: Learn tab, lesson group 3 (the verb system)
+- **Sync could silently miss the last batch** if the app closed inside the 3s debounce
+  window. Fixed with `sync.flush()` on `visibilitychange`/`pagehide`.
+- **"New words per day" caption** always divided the full 600-word deck by the daily
+  rate, so it never reflected actual progress. Fixed to show started vs. remaining.
+- **Parse-card root highlight was wrong**, not just cosmetic: the highlighted span
+  included conjugation-marking letters (preformatives/afformatives), not just the root
+  consonants, on real cards Lane was reviewing (`yimshal`, `wekhafarta`). Fixed by
+  isolating the true root span (tolerating Hebrew's plene spelling rather than requiring
+  strict letter adjacency) and giving conjugation-marking material its own color instead
+  of sharing the root's green.
 
-The biggest conceptual group so far: binyan semantics, the qatal/yiqtol aspect
-distinction, vav-consecutive (wayyiqtol/weqatal), participles, infinitive construct, and
-the imperative/cohortative/jussive command forms. All single-word examples (no new
-example shape needed this time -- `build_lessons_group3.py` reuses group 1's
-`decompose()` directly, same import pattern group 2 used for its own single-word
-lessons), so the build script is close to group 1's in shape, just with a new curated set.
+## Phase 5: Real-usage examples for function words
 
-6 lessons, 22 examples, all real Jonah words. The binyan lesson's anchor pair wasn't
-assumed -- every lemma's set of attested stems was cross-tabulated across the whole book
-first, to find a root genuinely attested in more than one binyan rather than picking two
-unrelated "typical" forms and implying a contrast that isn't actually in this text. That
-turned up נָפַל (Qal "fall") used in both Hiphil and Qal in the *same verse*, Jonah 1:7
-("...so they cast [Hiphil, causative: made [the lots] fall] lots, and the lot fell [Qal]
-on Jonah") -- a better illustration than anything that would have been picked by
-assumption. `verify_lessons_group3.py` re-confirms this specific claim independently (not
-just via the generic per-field diff): it re-scans the whole book itself and checks that
-H5307 genuinely has both stems attested, and that the two curated word ids really are
-that lemma in those two stems. The other four locked-priority stems (Niphal, Piel,
-Hiphil again, Hitpael) each get their own single real-word example too. The
-vav-consecutive lesson leads with the raw number that motivates the whole lesson: 84 of
-202 verb-morphs in Jonah (42%) are wayyiqtol.
+51 lemmas (prepositions/conjunctions/particles/etc. — the whole closed set). Reveal is an
+optional expand at the definition stage, not a new mandatory step. 155 curated,
+hand-picked examples; every Hebrew string still pulled by word id, never hand-typed.
 
-One deferred wrinkle, noted rather than silently fixed: בֹרֵחַ ("fleeing", Jonah 1:10)
-transliterates with a soft "v" despite being word-initial, because the actual Masoretic
-pointing genuinely omits dagesh lene there (confirmed against the raw codepoints, not a
-transliterate.py bug) -- a real, if secondary, phonetic-convention detail past this
-lesson's own scope, left as an accurate-but-unexplained data point rather than a tangent
-in the lesson prose.
+One bug caught before shipping: `transliterate()` (a per-word function) was called on a
+whole verse at once and silently dropped every space. Fixed to transliterate per word and
+rejoin.
 
-`main.js`'s `LESSON_GROUPS` list now has all three groups; no other app code needed to
-change, since `learn.js` and `selftest.html` were already written generically over that
-list in the group-2 pass. Verified in-browser: selftest 89/89 passing, all three groups
-list correctly under their own headings, the binyan lesson's Hiphil/Qal pair and the
-commands lesson's four command types all confirmed by reading the actual rendered page.
+## Phase 5: Shortened examples + card-flip reveal
 
-## Done — Phase 5 progress: Learn tab, lesson groups 4–5 (the rest of the concept list)
+Full verses were "too long," so all 155 examples were re-curated down to an explicit
+phrase boundary, and the reveal became a card flip (CSS `rotateY`) instead of an
+expanding panel; grading is withheld while flipped.
 
-Lane asked for the whole original concept list finished, not just the next single group.
-Two groups, built and shipped together: group 4 picks up the noun-phrase items group 2
-(construct chains) had left over -- gender/number markers, the direct object marker אֵת,
-adjective agreement, demonstratives and numbers; group 5 is sentence-level syntax --
-default verb-subject-object word order, verbless/nominal clauses, and what vav is doing
-between whole clauses beyond a bare "and". Between them, every item from the concept list
-given to Lane in conversation is now built.
+Re-curating surfaced two pre-existing curation bugs — both cases where an ambiguous verse
+has the target word (e.g. *'el*, *lema'an*) appearing twice, and the wrong occurrence had
+been targeted. Both fixed by retargeting the word id, not the gloss.
 
-Both groups needed multi-word phrase examples again (adjective-agreement pairs, full
-verbless clauses, word-order contrasts) -- reusing group 2's "chain" shape (a `tokens`
-array, one entry per printed word), but none of these phrases have a construct-chain's
-lean-on-the-next-word relationship, so forcing them into "construct"/"absolute" roles
-would have been a false claim. Added a third role, "plain" (no accent/dim split -- the
-words are just read in sequence), rather than stretch the existing two to cover a
-different relationship. `app/views/learn.js` and `app/selftest.html` both updated to
-accept it; group 2's own construct/absolute chains are untouched and still render exactly
-as before.
+One flip-animation bug: the guard resetting the flip state relied on `requestAnimationFrame`,
+which doesn't fire when the automated preview pane isn't visibly composited — so every flip
+after the first silently did nothing there. Fixed to reset synchronously instead.
 
-Group 4's clearest example needed a genuine exception, not a rule stated as absolute:
-גּוֹרָלוֹת ("lots", Jonah 1:7) is a MASCULINE noun that still pluralizes with the
-"feminine-looking" ות ending -- included specifically so the gender/number lesson doesn't
-overclaim that the ending alone always tells you the gender. Group 5's word-order lesson
-pairs the default (וַיְמַן יְהוָה דָּג גָּדוֹל, "and the LORD appointed a great fish" --
-verb-subject-object) directly against a real deviation from it (וְיוֹנָה יָרַד, "but Jonah
-had gone down" -- subject fronted for a scene change), rather than only showing the
-default and asserting the exception exists.
+## Phase 5: Highlight the target word on the flip-back face
 
-10 lessons, 17 examples, all real Jonah words/phrases across chapters 1, 2, and 4. Both
-`verify_lessons_group4.py` and `verify_lessons_group5.py` follow the same independent
-re-derivation discipline as every other lesson verifier. `main.js`'s `LESSON_GROUPS` list
-now has all five groups; no other app code needed structural changes beyond the new
-"plain" role. Verified in-browser: selftest 107/107 passing, all five groups list under
-their own headings, the 4-token word-order and verbless-clause phrases both confirmed
-rendering with zero highlight spans (plain text, as intended) via direct DOM inspection.
+Trigger: Lane flagged what looked like a wrong example (an "mi" card whose glosses never
+say "from") that was actually just idiomatic translation — but with nothing marking which
+word was even being taught, there was no way to tell the difference. Fixed by highlighting
+the exact Hebrew word and its closest English counterpart in the same accent green used
+elsewhere, plus a short note on the ~24/155 examples where the correspondence isn't a
+clean one-to-one match (e.g. the direct-object marker, which has no English equivalent at
+all).
 
-## Done — Phase 5 progress: optional cross-device sync via GitHub Gist
+## Phase 5: particle curriculum, tier 1
 
-Lane asked whether export could "save progress to the site" via a token. Clarified first
-(this is a static site with no backend, so the only way is the browser talking to an API
-directly) and asked what he actually wanted before building anything — auto-sync, or just
-a manual Import button with no token/network involved. He chose auto-sync.
+Cut 9 Aramaic lemmas (Ezra/Daniel; corpus-frequency count pulled them into top-600 despite
+this being a Hebrew course) and 2 poetry-only particles (selah, bal) from the deck, 600 →
+589 — curation-stage filter, `top600.json` itself is untouched. `verify_vocab_deck.py`'s
+Aramaic-gloss check caught 5 more than the 4 first spotted; corpus language-tags confirmed
+all 9. `H853` ('et, untranslatable) pulled from the SRS queue (`drillable: false`) but
+still "known" for readers. New `is_function_word` flag caps new-card introductions to a
+standing 1-in-6 ratio (front of deck was ~48% function words). 11 particles got a curated
+`core_schema` field — one line unifying their scattered glosses — shown on the card.
 
-`app/sync.js` is new and entirely opt-in: with no token configured it makes zero network
-requests, so CLAUDE.md's "no external requests other than the pinned ts-fsrs CDN" default
-still holds for anyone who never opens Settings and pastes one in. Once configured, it
-round-trips `store.js`'s state through a private GitHub Gist (not the app's own repo --
-committing a progress blob into the site's source history on every review would spam it
-with noise unrelated to the app itself).
+Cuts/schemas live in `curate_batch_*.py` (re-run, not hand-patched), so a future regen
+won't resurrect them. `build_vocab_deck.py` renumbers post-cut ranks, keeps the original
+as `source_rank`.
 
-Two things worth calling out:
-- **The token never touches exported files.** It lives in its own localStorage key
-  (`hebrew:sync:v1`), completely separate from the `hebrew:v1` key `exportBlob()` reads --
-  confirmed directly in-browser (fetched the real export blob and grepped it for
-  "token"/"gistId": absent). A credential leaking into a backup file the user might
-  later share or upload somewhere else would be exactly the kind of quiet, easy-to-miss
-  mistake worth checking for directly rather than assuming the separation held.
-- **Merge is per-card, not per-blob.** Card records are independent and each carries
-  `reps` (only grows through review) and `last_review`, so `mergeStates()` keeps whichever
-  side of *each individual card* represents more/newer review activity, rather than one
-  whole device's session silently overwriting the other's the moment they next sync.
-  Reviewing on your phone and then your laptop before either one syncs keeps both
-  sessions' progress. Settings (theme/sound/daily cap) are deliberately NOT merged --
-  they're a per-device preference, not progress, so each device keeps its own.
+## Phase 5: particle curriculum, tier 1b (examples expanded + rotation)
 
-Settings gained a "Sync across devices" block: paste-a-token-and-Connect when
-disconnected, or a status line ("Synced Xm ago" / a plain-language error) plus "Sync now"
-and "Disconnect this device" when connected. The disconnected state links straight to a
-token creation page with the exact scope needed already explained in the surrounding
-text. Verified in-browser: selftest 108/108 passing (sync.js added to both the
-Hard-Rule-1 grep list and confirmed Hebrew-free); an intentionally invalid token produces
-a clean inline error with nothing written to localStorage; a simulated connected state
-renders the status/Sync-now/Disconnect UI correctly, including the automatic
-pull-on-boot failing gracefully in the background without breaking the rest of the app;
-Disconnect clears local sync state without touching the export path.
+The 11 core-schema particles went from 3 static examples to 10 each (76 new, all
+narrative prose, diversified across Exodus/Numbers/Deuteronomy/Joshua/Judges/Ruth/Samuel/
+Kings/Jonah rather than all-Genesis). `vocab.js` now rotates 3 at a time per review —
+shuffled per full cycle through a lemma's set (seeded on lemma+cycle, so a stray
+re-render never swaps examples mid-read, only a re-grade does), guaranteeing every
+example gets seen before any repeat. Lemmas at 3 examples don't rotate — nothing to.
 
-Known, accepted limitation (documented in `sync.js`'s own docstring, not silently
-assumed away): no optimistic-concurrency check on the Gist write, so two devices syncing
-within the same few seconds of each other could race. Fine for one person's couple of
-devices; would need real handling before this could serve independent multi-user sync.
+`build_function_word_examples.py` gained `TIER_TARGET` (10 for the 11 tier-1 lemmas,
+falling back to the old max(3, sense-count) rule for everyone else); tier 2 (contrast-
+pair particles, 5 each) is planned but not yet scoped or built. `verify_function_word_examples.py`
+and `selftest.html` independently redeclare `TIER_TARGET` rather than trusting the build
+script's copy. 155 → 213 examples total, 45 → still 45 lemmas.
 
-**Correction, caught by Lane actually trying it:** shipped pointing at GitHub's
-fine-grained-token creation page with instructions to scope it to Gists. Lane reported
-the Gists option wasn't there. Checked directly rather than re-guessing: fine-grained
-PATs' own permissions reference lists a Gists entry, but multiple independent reports
-describe the *token-creation UI itself* not exposing it -- a real, apparently
-still-live gap between what the API supports and what the web form offers, not
-something Lane was missing. Switched the link and every doc reference to a classic
-token with only the "gist" scope checkbox checked, which has worked unchanged for
-years. The security property this was meant to guarantee (a leaked token can't touch
-anything but gists) holds exactly the same either way -- classic scopes are additive
-checkboxes, not all-or-nothing, so checking only "gist" is just as narrow as the
-fine-grained version would have been.
+## Phase 5: particle curriculum, tier B (the multi-sense-but-no-schema set)
 
-## Done — Phase 5 progress: undo this session's reviews
+19 particles headed for eventual contrast-pair treatment ('el vs le-, 'et vs `im, gam vs
+'af, etc.) went from 3 examples to 5 (37 new, same narrative-prose/cross-canon sourcing as
+tier 1b, Jonah-weighted where good material existed — F-s and H1157 landed 2-3 Jonah
+examples each). `TIER_TARGET` now covers 30 lemmas (11 at 10, 19 at 5); 15 stay at the
+baseline 3. 213 → 250 examples. Caught one bad target word id (H3651/ken in Josh.2.21 --
+had grabbed the neighboring pronoun "hu" by mistake) via the build script's own lemma-match
+check, not by eye.
 
-A narrower sibling to "Reset all progress." `store.js` now captures a one-time, in-memory
-snapshot of `cards` the first time a page load actually reads them from localStorage --
-never written anywhere, so it's naturally scoped to "since I opened the app this time"
-and disappears on reload without any extra cleanup code. Settings shows "Undo this
-session's reviews" only once something has actually changed relative to that snapshot
-(`hasSessionChanges()`), and undoing (`undoSession()`) backs up the about-to-be-discarded
-state first, same convention `resetAll()` already used. `resetAll()` itself now also
-resets the snapshot to empty, so it doesn't leave a stray "undo the reset" button behind
--- confusing double-negative UI caught and fixed before it shipped, not after. Verified
-in-browser: selftest 108/108 unaffected; button absent on a fresh load, appears after
-grading one real card, reverts the card count to zero on click, disappears again after,
-and a `hebrew:backup:session-undo-*` key is confirmed written before the revert.
+## Next
 
-## Done — Phase 5: parse-card root highlight, sync flush, daily-count caption
-
-Three fixes from Lane using the shipped app on his phone, not from inspection.
-
-**Sync robustness.** `scheduleSync()` debounces 3s before pushing to the Gist, and
-nothing forced it to fire early -- closing the app or the phone locking inside that
-window meant the last review batch never reached the Gist, silently. Added
-`sync.flush()`, wired to `visibilitychange`/`pagehide` in `main.js`, so backgrounding or
-closing now forces any pending sync immediately (verified: a debounced sync that would
-otherwise wait 3000ms completed in ~60ms once flush ran). Added a reentrancy guard to
-`syncNow()` since flush and the debounce timer can now race. Also documented, since it's
-a real limit of the design rather than a bug: a full device reset wipes the sync token
-along with everything else (same localStorage), so recovery isn't automatic -- Settings
-now says to keep a copy of the token somewhere durable.
-
-**"New words per day" caption.** Always divided the *full* 600-word deck by the daily
-rate, so it never reflected actual progress -- "about 120 days to introduce them all" on
-day one and still on day 80. Now shows words started vs. remaining, with an "All N
-started" state once the deck is exhausted.
-
-**Parse card root highlight -- real bug, not a display glitch.** Lane flagged this
-directly against real cards: in `yimshal` (root מ-ש-ל, "mashal"), the yiqtol preformative
-yod was colored the same green as the root; in `wekhafarta` (root כ-פ-ר, "kafar"), the
-qatal person-suffix tav was too. The card's highlight span was `verb_form`, which is the
-whole inflected verb morpheme -- root letters plus whatever conjugation-marking material
-(a preformative, an afformative) is fused onto the stem. That's not the root; only the 3
-consonants are. Fixed by adding `find_root_span()` to `build_parse_qal.py`, splitting
-`verb_form` into `preformative` + `root_span` + `afformative`. Deliberately not a
-per-conjugation lookup table of preformative/afformative letters (would need a cell for
-every conjugation x person x gender x number combination -- exactly the hand-enumerated
-surface CLAUDE.md warns produces plausible-looking wrong output). Instead: since strong
-roots never assimilate or elide a radical, the 3 root consonants must appear in order in
-verb_form's own consonant skeleton; a first version required them strictly adjacent and
-silently dropped 140 real entries over Hebrew's plene spelling (a vowel written with an
-extra vav/yod letter instead of just a point -- `moshel`, "ruler," is spelled mem-VAV-
-shin-lamed for a root of only mem/shin/lamed, and the Qal participle's characteristic
-cholam vowel is very commonly spelled this way). Fixed to tolerate a vav/yod filler
-between two matched root letters while still rejecting any other filler and requiring the
-match be unique -- an entry that doesn't fit cleanly is skipped and logged, never guessed
-at. Zero entries skipped after the fix (2,819, same count as before this change).
-`verify_parse_qal.py` re-derives the same split independently and checks it matches the
-shipped data exactly, and `app/selftest.html` checks the reconstruction invariant.
-Rendering (`app/views/parse.js`) now splits the card's Hebrew into five possible spans;
-the new middle category (conjugation-marking material, neither root nor a word-level
-function morpheme) gets its own color (`--accent-2`, muted amber/gold) rather than
-sharing the root's green or the prefix/suffix's grey. Scoped to the Parse tab only --
-the Learn tab's construct-chain examples reuse the same `card-heb-verb`/`card-heb-affix`
-classes for an unrelated distinction (lean word vs. absolute word in a construct chain)
-and were left alone. Verified in-browser against the exact reported words: `yimshal`'s
-yod now renders amber with only מְשָׁל green; `wekhafarta`'s tav now renders amber with
-only כָֽפַרְ green. selftest 109/109.
-
-## Done — Phase 5: real-usage examples for prepositions/conjunctions/particles
-
-Lane's own diagnosis: prepositions and particles are hard to remember because a bare
-gloss ("in, on, with") gives no usage context, unlike a concrete noun or verb. Scoped down
-from "everything but simple nouns/verbs" to a precise, closed set: the 8 inseparable
-F-<letter> prefix morphemes plus every vocab entry with `pos` in Preposition/Conjunction/
-Particle/Definite article/Interrogative particle/Relative particle -- 51 lemmas, fixed
-(Hebrew's function-word inventory doesn't grow the way vocabulary does). Two decisions
-locked with Lane before building: the reveal is an **optional expand at the definition
-stage**, not a new mandatory tap-through stage (doesn't delay grading on words he already
-knows, matching hard rule 5's no-friction stance), and the example count is `max(3,
-comma-separated senses in the curated gloss)` -- "in, on, with" gets 3, "behind, through,
-for, on behalf of" gets 4, "and" (one sense) still gets the floor of 3 but showing varied
-real contexts instead of distinct meanings.
-
-`build_function_word_examples.py` ships 155 curated (book, word id, hand-written English
-gloss) picks -- which verse best illustrates a given sense is a curatorial judgment call,
-same as every `glosses/*_extra.json` file in this project, but every Hebrew string (the
-target word AND the full verse it sits in) is pulled from the corpus by word id, never
-hand-typed. `verify_function_word_examples.py` independently re-derives the target lemma
-set from `vocab_deck_600.json`, re-scans the corpus for each word id, and checks the
-extracted Hebrew/transliteration match exactly and the sense-count rule holds.
-
-**Real bug caught before shipping:** the first pass called `transliterate()` on a whole
-space-joined verse at once and got back a run-together string with every space silently
-dropped -- `transliterate()` is a per-word function everywhere else in this codebase (a
-space isn't a Hebrew character it knows how to carry through), and this was the first
-caller to hand it a multi-word phrase. Caught by actually looking at the rendered card in
-the browser, not by the verifier, since the verifier at that point was checking its own
-(equally wrong) re-derivation against the same bug. Fixed by transliterating each word
-separately and rejoining with spaces, in both the build and verify scripts, rather than
-changing `transliterate()`'s contract for one caller.
-
-Vocab tab's card shows a "See N examples from the Bible" toggle after the gloss, only for
-the 51 covered lemmas (silently absent for the other ~550 -- looked up by `lemma_id` from
-`data/function_word_examples.json`, loaded eagerly alongside the deck but its own fetch
-failure is non-fatal to the rest of the app). Expanding shows each example's full verse
-(real Hebrew + transliteration + a short hand-written gloss + reference). Verified
-in-browser: the very first cards in a fresh session (highest-frequency vocab, dominated by
-function words) all show the toggle correctly; nouns/verbs never show it; toggling doesn't
-disturb grading or scroll position; both themes render correctly. selftest 115/115.
-
-## Done — Phase 5: shortened examples + card-flip reveal
-
-Two follow-up requests on the feature above, after Lane used it for real: the full-verse
-Hebrew was "way too long", and the expand-downward panel should instead flip the whole
-card over (view-only back face; flipping back to the front is how you grade -- confirmed
-with Lane before building, so `gradeRow()` is withheld while flipped rather than
-duplicated on the back).
-
-**Shortening the Hebrew** meant re-curating all 155 examples with an explicit phrase
-boundary, not just a word id -- `build_function_word_examples.py`'s `EXAMPLES` tuples grew
-a `phrase_start_id`/`phrase_end_id` pair per example (still hand-picked, same curatorial
-judgment call as the word id and gloss always were; still mechanically extracted from the
-corpus, never hand-typed, per hard rule 1). Rebuilding surfaced two pre-existing
-curation bugs -- both real, both plausible-looking wrong output exactly per hard rule 3 --
-caught while reading the raw verse word-by-word to place phrase boundaries, not by the
-verifier (which had been independently re-deriving the same wrong picks): H413's Gen 3:16
-example pointed at the verse's *first* `'el` ("to the woman he said...") while its gloss
-("your desire will be for your husband") described a *different* `'el` later in the same
-verse -- fixed by retargeting the word id, not the gloss. H4616's Gen 18:19 example had the
-same mismatch on `lema`an`, which occurs twice in that verse. `verify_function_word_examples.py`
-was rewritten to independently re-slice each phrase from the verse's own word list (by
-word count anchored at the target word, matching shipped text exactly) rather than trusting
-the shipped boundary -- still never importing the build script's logic. Output fields
-renamed `verse_hebrew`/`verse_transliteration` -> `phrase_hebrew`/`phrase_transliteration`
-to stop implying "the whole verse" now that it isn't; `selftest.html` updated to match.
-
-**The flip** is CSS `rotateY` on a `.flip-card` wrapper, driven by hand from
-`vocab.js` (`triggerFlip()`) since the DOM is fully rebuilt on every `render()` call --
-there's no persistent two-sided element a plain CSS transition could animate across that
-rebuild, so the illusion is faked in two steps: rotate the outgoing face to its edge, swap
-the DOM via the normal render path, then rotate the incoming face in from its edge.
-**Bug caught in-browser, not by eyeballing the code:** the first version reset the
-`flipping` re-entrancy guard inside a `requestAnimationFrame` callback: fine on a normal
-foreground tab, but the automated preview pane doesn't composite frames when not visibly
-displayed, so rAF never fired, the guard stayed `true` forever after the very first flip,
-and every subsequent tap silently did nothing. Fixed by resetting the guard synchronously
-right after the forced-reflow trick (`void el.offsetWidth`) that restarts the CSS
-transition -- that trick never needed rAF in the first place, only a reflow between adding
-and removing the class. Verified in-browser end-to-end afterward: flip to back shows the
-trimmed phrase (not the full verse) and hides the grade row; flip back restores it;
-grading a card resets flip state for the next one; a rapid double-tap on the flip toggle
-is correctly absorbed by the guard rather than wedging. selftest 115/115 (schema-renamed
-fields only; check count unchanged).
-
-## Done — Phase 5: highlight the target word, Hebrew and English, on the back face
-
-Lane's own trigger: a screenshot of the "mi" (`F-m`, prefixed "min") card, asking whether
-the attribution was wrong, since none of its three example glosses contain a standalone
-"from". They weren't wrong -- `mi-` is genuinely fused into "under" and "the east" in two
-of the three (only "one of his ribs" has a clean standalone "of") -- but with nothing on
-the card marking *which* word was even being illustrated, there was no way to tell a real
-error from an idiomatic translation without asking. Fix: highlight the exact Hebrew word
-being taught, and the closest English word(s) it corresponds to, both in the same root-
-highlight green (`var(--accent)`) used elsewhere in the app; add a short explainer only
-when the correspondence isn't a clean one-to-one match (Lane's own framing: "highlight the
-closest and maybe add a tiny short explainer if its not immediately clear").
-
-Every one of the 155 examples got two new hand-curated fields in
-`build_function_word_examples.py`'s `EXAMPLES` tuples: `gloss_highlight` (the closest
-English substring, checked at build time to actually appear in `gloss`) and an optional
-`gloss_note` (~24 of 155 needed one -- e.g. H853's direct-object marker `'et`, which has
-literally no English translation at all, or H3426 `yesh`'s "there is" surfacing as English
-"have" via the `yesh li` possession idiom). The Hebrew side needed no new curation: the
-word already being highlighted is the same `word_id` used for `surface_form` since the
-first version of this feature -- `build_function_word_examples.py` now also computes
-`target_index` (that word's position within the already-extracted phrase, purely
-mechanical) so the frontend never has to search Hebrew text to find it.
-`verify_function_word_examples.py` re-derives `target_index` independently (from its own
-re-sliced phrase, not the shipped one) and confirms every `gloss_highlight` is a literal
-substring of its own `gloss`.
-
-`vocab.js`'s `cardBackEl()` renders both sides as DOM fragments (`hebPhraseFrag`/
-`glossFrag`) rather than string concatenation -- splits `phrase_hebrew` on spaces and
-wraps the word at `target_index`, and slices `gloss` around the `gloss_highlight`
-substring -- so Hard Rule 1 still holds (every Hebrew character still comes from `/data`,
-none of this touches or reorders it, just wraps an existing span in a class). Verified
-in-browser: H853's three examples (the one lemma where every example needs a note) all
-show the correct Hebrew word and English span highlighted together, in the accent green,
-in both themes. selftest 117/117 (+2 checks: `target_index` bounds, `gloss_highlight`
-substring/`gloss_note` non-empty sanity).
-
-## Next — Phase 5: Tiers 3–5 (grammar tiers), further lesson groups if scoped
-
-The Learn tab's original concept-list scope is fully built across five groups. Any
-further lesson group would be a new addition, not yet scoped. Weak verbs and derived
-stems (Tiers 3–4) are still further out and not yet scoped either. Reading order
-(CLAUDE.md) goes to Ruth next for reader expansion, whenever that's picked up,
-independent of when the grammar tiers get scoped.
+Contrast-pair particles (the 19 above, paired up — 'el vs le-, 'et vs `im, etc.) — Lane
+wants to brainstorm the format more before building (flashcards may not fit). Learn tab's
+5-group concept list is fully built; further groups are new, unscoped work.
+Tiers 3–4 (weak verbs, derived stems) not yet scoped. Reader goes to Ruth next.

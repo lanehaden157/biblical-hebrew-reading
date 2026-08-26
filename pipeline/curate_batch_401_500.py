@@ -31,7 +31,6 @@ OUT_PATH = os.path.join(HERE, "..", "glosses", "batch_401_500.json")
 
 CURATED = {
     "H53": "Absalom",
-    "H5922": "on, upon, concerning (Aramaic)",
     "H7676": "Sabbath, rest",
     "H6083": "dust",
     "H6862": "narrow, distress; adversary, foe",
@@ -53,7 +52,6 @@ CURATED = {
     "H7323": "run",
     "H8548": "continually, regularly",
     "H1157": "behind, through, for, on behalf of",
-    "H3606": "all, every (Aramaic)",
     "H3722": "cover, atone, make atonement",
     "H3499": "remainder, rest, excess",
     "H7489": "be evil, be bad; do evil, harm",
@@ -69,7 +67,6 @@ CURATED = {
     "H1481": "sojourn, dwell as an alien; fear, dread",
     "H7637": "seventh",
     "H8334": "serve, minister",
-    "H426": "God (Aramaic)",
     "H6215": "Esau",
     "H7097": "end, extremity, border",
     "H7646": "be satisfied, be full",
@@ -128,8 +125,15 @@ CURATED = {
     "H2145": "male",
     "H349": "how?",
     "H3778": "Chaldean",
-    "H3809": "not (Aramaic)",
     "H4910": "rule, have dominion",
+}
+
+# All four Aramaic (Ezra) -- cut, see build_vocab_deck.py.
+EXCLUDED = {
+    "H5922": "Aramaic (`al, Ezra)",
+    "H3809": "Aramaic (la', Ezra)",
+    "H3606": "Aramaic (all/every, Ezra/Daniel)",
+    "H426": "Aramaic (God, Ezra/Daniel)",
 }
 
 
@@ -137,14 +141,17 @@ def main():
     with open(DRAFTS_PATH, encoding="utf-8") as f:
         drafts = json.load(f)["entries"]
 
-    if len(CURATED) != len(drafts):
-        missing = [e["lemma_id"] for e in drafts if e["lemma_id"] not in CURATED]
-        extra = [k for k in CURATED if k not in {e["lemma_id"] for e in drafts}]
-        raise SystemExit(f"CURATED does not match drafts 1:1 -- missing={missing} extra={extra}")
+    expected = {e["lemma_id"] for e in drafts if e["lemma_id"] not in EXCLUDED}
+    if set(CURATED) != expected:
+        missing = expected - set(CURATED)
+        extra = set(CURATED) - expected
+        raise SystemExit(f"CURATED does not match drafts minus EXCLUDED -- missing={missing} extra={extra}")
 
     entries = []
     for e in drafts:
         lid = e["lemma_id"]
+        if lid in EXCLUDED:
+            continue
         entries.append({
             "rank": e["rank"],
             "lemma_id": lid,

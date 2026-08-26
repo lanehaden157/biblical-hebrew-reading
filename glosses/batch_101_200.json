@@ -32,7 +32,8 @@
       "pos": "Preposition",
       "frequency": 511,
       "gloss": "under, instead of, in place of",
-      "reviewed": true
+      "reviewed": true,
+      "core_schema": "Under something -- literally (underneath) or by substitution (in its place, instead of)."
     },
     {
       "rank": 104,
@@ -446,15 +447,6 @@
       "pos": "Noun",
       "frequency": 347,
       "gloss": "Aaron",
-      "reviewed": true
-    },
-    {
-      "rank": 150,
-      "lemma_id": "H1768",
-      "citation_form": "דִּי",
-      "pos": "Particle",
-      "frequency": 347,
-      "gloss": "that, which (Aramaic)",
       "reviewed": true
     },
     {

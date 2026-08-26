@@ -12,8 +12,10 @@ Checks:
      Particle/Definite article/Interrogative particle/Relative particle
      vocab entries) matches the shipped file's lemma list exactly -- no
      lemma silently missing or extra.
-  2. Every entry has example_count >= max(3, comma-separated senses in its
-     own full_gloss) -- the rule Lane and Claude agreed on.
+  2. Every entry has example_count >= max(TIER_TARGET, comma-separated
+     senses in its own full_gloss) -- TIER_TARGET is redeclared here
+     independently of build_function_word_examples.py's copy, so a lemma
+     dropped from one list without the other is caught.
   3. Every example's word_id is independently found in the claimed verse
      of the claimed book, its lemma independently resolves to the entry's
      lemma_id (function-code letter or Strong's number), and its
@@ -48,6 +50,11 @@ DATA_PATH = os.path.join(HERE, "..", "data", "function_word_examples.json")
 CANTILLATION_RE = re.compile("[֑-֯]")
 ALLOWED_HEB_RE = re.compile(r"^[֑-ׇ͏א-ת ]*$")
 ALLOWED_TRANSLIT_RE = re.compile(r"^['`a-z .,;:!?‘’]+$")
+
+TIER_TARGET = {
+    "F-l": 10, "F-b": 10, "F-m": 10, "H4480": 10, "H5921": 10, "H3588": 10,
+    "F-k": 10, "H5704": 10, "H310": 10, "H8478": 10, "H5048": 10,
+}
 
 TARGET_POS = {
     "Preposition", "Conjunction", "Particle",
@@ -142,7 +149,7 @@ def main():
 
         # --- 2. example count rule -----------------------------------------
         senses = [s.strip() for s in e["full_gloss"].split(",") if s.strip()]
-        needed = max(3, len(senses))
+        needed = max(TIER_TARGET.get(e["lemma_id"], 3), len(senses))
         if e["sense_count"] != len(senses):
             fail(f"{tag}: sense_count={e['sense_count']} but independent split of full_gloss gives {len(senses)}")
         if len(e["examples"]) < needed:

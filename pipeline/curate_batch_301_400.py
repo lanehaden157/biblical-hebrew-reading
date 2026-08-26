@@ -118,7 +118,6 @@ CURATED = {
     "H1058": "weep, cry",
     "H1431": "grow, become great",
     "H3513": "be heavy, be honored; make heavy, honor",
-    "H4481": "from (Aramaic)",
     "H7999": "be complete, be at peace; repay",
     "H4054": "pastureland, open land around a city",
     "H5012": "prophesy",
@@ -133,20 +132,30 @@ CURATED = {
     "H5045": "south, Negev",
 }
 
+# H4481 (min, "from") is Aramaic (Ezra) -- cut, see build_vocab_deck.py.
+EXCLUDED = {"H4481": "Aramaic (min, Ezra)"}
+
+CORE_SCHEMA = {
+    "H5048": "Facing something directly -- in front of, opposite, or (of people) in someone's presence.",
+}
+
 
 def main():
     with open(DRAFTS_PATH, encoding="utf-8") as f:
         drafts = json.load(f)["entries"]
 
-    if len(CURATED) != len(drafts):
-        missing = [e["lemma_id"] for e in drafts if e["lemma_id"] not in CURATED]
-        extra = [k for k in CURATED if k not in {e["lemma_id"] for e in drafts}]
-        raise SystemExit(f"CURATED does not match drafts 1:1 -- missing={missing} extra={extra}")
+    expected = {e["lemma_id"] for e in drafts if e["lemma_id"] not in EXCLUDED}
+    if set(CURATED) != expected:
+        missing = expected - set(CURATED)
+        extra = set(CURATED) - expected
+        raise SystemExit(f"CURATED does not match drafts minus EXCLUDED -- missing={missing} extra={extra}")
 
     entries = []
     for e in drafts:
         lid = e["lemma_id"]
-        entries.append({
+        if lid in EXCLUDED:
+            continue
+        entry = {
             "rank": e["rank"],
             "lemma_id": lid,
             "citation_form": e["citation_form"],
@@ -154,7 +163,10 @@ def main():
             "frequency": e["frequency"],
             "gloss": CURATED[lid],
             "reviewed": True,
-        })
+        }
+        if lid in CORE_SCHEMA:
+            entry["core_schema"] = CORE_SCHEMA[lid]
+        entries.append(entry)
     entries.sort(key=lambda e: e["rank"])
 
     out = {

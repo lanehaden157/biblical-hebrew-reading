@@ -111,7 +111,6 @@ CURATED = {
     "H3383": "Jordan",
     "H7223": "first, former",
     "H4124": "Moab",
-    "H4430": "king (Aramaic)",
     "H669": "Ephraim",
     "H2205": "old, elder",
     "H3898": "fight, wage war",
@@ -148,19 +147,25 @@ CURATED = {
     "H8145": "second",
 }
 
+# H4430 (melek, "king") is Aramaic (Ezra/Daniel) -- cut, see build_vocab_deck.py.
+EXCLUDED = {"H4430": "Aramaic (king, Ezra/Daniel)"}
+
 
 def main():
     with open(DRAFTS_PATH, encoding="utf-8") as f:
         drafts = json.load(f)["entries"]
 
-    if len(CURATED) != len(drafts):
-        missing = [e["lemma_id"] for e in drafts if e["lemma_id"] not in CURATED]
-        extra = [k for k in CURATED if k not in {e["lemma_id"] for e in drafts}]
-        raise SystemExit(f"CURATED does not match drafts 1:1 -- missing={missing} extra={extra}")
+    expected = {e["lemma_id"] for e in drafts if e["lemma_id"] not in EXCLUDED}
+    if set(CURATED) != expected:
+        missing = expected - set(CURATED)
+        extra = set(CURATED) - expected
+        raise SystemExit(f"CURATED does not match drafts minus EXCLUDED -- missing={missing} extra={extra}")
 
     entries = []
     for e in drafts:
         lid = e["lemma_id"]
+        if lid in EXCLUDED:
+            continue
         entries.append({
             "rank": e["rank"],
             "lemma_id": lid,

@@ -74,7 +74,6 @@ CURATED = {
     "H5324": "stand, take one's stand, station",
     "H4217": "sunrise, east",
     "H4720": "sanctuary, holy place",
-    "H5542": "selah (liturgical pause, meaning uncertain)",
     "H5795": "goat, she-goat",
     "H7023": "wall",
     "H7998": "plunder, spoil, booty",
@@ -86,7 +85,6 @@ CURATED = {
     "H631": "bind, tie, imprison",
     "H6869": "distress, trouble, anguish",
     "H730": "cedar",
-    "H1077": "not (poetic negative particle)",
     "H1410": "Gad",
     "H2790": "engrave, plow, devise; be silent, be deaf",
     "H4069": "why?",
@@ -96,11 +94,9 @@ CURATED = {
     "H7782": "ram's horn, trumpet",
     "H990": "belly, womb",
     "H1389": "hill",
-    "H1934": "be, become (Aramaic)",
     "H2275": "Hebron",
     "H3844": "Lebanon",
     "H452": "Elijah",
-    "H560": "say (Aramaic)",
     "H5775": "bird, flying creature",
     "H6381": "be extraordinary, be wonderful; do wonders",
     "H7673": "cease, rest",
@@ -131,19 +127,31 @@ CURATED = {
     "H6913": "grave, tomb",
 }
 
+# H5542/H1077 are poetry-only (v1 excludes poetry, per CLAUDE.md); H1934/H560
+# are Aramaic (Ezra/Daniel). All four cut -- see build_vocab_deck.py.
+EXCLUDED = {
+    "H5542": "poetry-only, meaning uncertain (selah)",
+    "H1077": "poetry-only negative particle (bal)",
+    "H1934": "Aramaic (be/become, Ezra/Daniel)",
+    "H560": "Aramaic (say, Ezra/Daniel)",
+}
+
 
 def main():
     with open(DRAFTS_PATH, encoding="utf-8") as f:
         drafts = json.load(f)["entries"]
 
-    if len(CURATED) != len(drafts):
-        missing = [e["lemma_id"] for e in drafts if e["lemma_id"] not in CURATED]
-        extra = [k for k in CURATED if k not in {e["lemma_id"] for e in drafts}]
-        raise SystemExit(f"CURATED does not match drafts 1:1 -- missing={missing} extra={extra}")
+    expected = {e["lemma_id"] for e in drafts if e["lemma_id"] not in EXCLUDED}
+    if set(CURATED) != expected:
+        missing = expected - set(CURATED)
+        extra = set(CURATED) - expected
+        raise SystemExit(f"CURATED does not match drafts minus EXCLUDED -- missing={missing} extra={extra}")
 
     entries = []
     for e in drafts:
         lid = e["lemma_id"]
+        if lid in EXCLUDED:
+            continue
         entries.append({
             "rank": e["rank"],
             "lemma_id": lid,

@@ -17,15 +17,6 @@
       "reviewed": true
     },
     {
-      "rank": 402,
-      "lemma_id": "H5922",
-      "citation_form": "עַל",
-      "pos": "Preposition",
-      "frequency": 111,
-      "gloss": "on, upon, concerning (Aramaic)",
-      "reviewed": true
-    },
-    {
       "rank": 403,
       "lemma_id": "H7676",
       "citation_form": "שַׁבָּת",
@@ -215,15 +206,6 @@
       "reviewed": true
     },
     {
-      "rank": 424,
-      "lemma_id": "H3606",
-      "citation_form": "כֹּל",
-      "pos": "Noun",
-      "frequency": 103,
-      "gloss": "all, every (Aramaic)",
-      "reviewed": true
-    },
-    {
       "rank": 425,
       "lemma_id": "H3722",
       "citation_form": "כָּפַר",
@@ -356,15 +338,6 @@
       "pos": "Verb",
       "frequency": 98,
       "gloss": "serve, minister",
-      "reviewed": true
-    },
-    {
-      "rank": 440,
-      "lemma_id": "H426",
-      "citation_form": "אֱלָהּ",
-      "pos": "Noun",
-      "frequency": 97,
-      "gloss": "God (Aramaic)",
       "reviewed": true
     },
     {
@@ -887,15 +860,6 @@
       "pos": "Noun",
       "frequency": 82,
       "gloss": "Chaldean",
-      "reviewed": true
-    },
-    {
-      "rank": 499,
-      "lemma_id": "H3809",
-      "citation_form": "לָא",
-      "pos": "Particle",
-      "frequency": 82,
-      "gloss": "not (Aramaic)",
       "reviewed": true
     },
     {

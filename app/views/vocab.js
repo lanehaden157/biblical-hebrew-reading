@@ -27,6 +27,62 @@ let functionWordExamples = {};
 
 const HINTS = ['tap for the sound', 'tap for the meaning'];
 
+const EXAMPLE_WINDOW = 3;
+
+// FNV-1a-style string hash -> 32-bit unsigned seed for the rotation shuffle below.
+function hashSeed(str) {
+  let h = 2166136261;
+  for (let i = 0; i < str.length; i++) {
+    h ^= str.charCodeAt(i);
+    h = Math.imul(h, 16777619);
+  }
+  return h >>> 0;
+}
+
+// mulberry32: tiny deterministic PRNG -- same seed always produces the same
+// sequence, which is what lets the rotation below be "random-looking" without
+// being genuinely random (a genuinely random pick could repeat the same 3
+// examples two reviews running, or skip others for a long time by chance).
+function mulberry32(seed) {
+  let a = seed;
+  return function rand() {
+    a |= 0; a = (a + 0x6D2B79F5) | 0;
+    let t = Math.imul(a ^ (a >>> 15), 1 | a);
+    t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+  };
+}
+
+function seededShuffle(arr, seed) {
+  const rand = mulberry32(seed);
+  const out = arr.slice();
+  for (let i = out.length - 1; i > 0; i--) {
+    const j = Math.floor(rand() * (i + 1));
+    [out[i], out[j]] = [out[j], out[i]];
+  }
+  return out;
+}
+
+// Which examples to show on this review: a lemma's examples are walked
+// EXAMPLE_WINDOW at a time in a shuffled order, guaranteeing every example is
+// seen once before any repeat ("a cycle"), and the shuffle is redrawn each
+// time a full cycle completes. Seeded on (lemma, cycle number) rather than
+// Math.random() so re-rendering the same review (e.g. a stray re-render, not
+// a re-grade) never swaps the examples out from under you mid-read -- only
+// grading the card (which advances `reps`) moves it to the next window.
+// Lemmas with <= EXAMPLE_WINDOW examples (most of them, for now) just show
+// everything every time -- there's nothing to rotate.
+function rotatingWindow(wex, item) {
+  const all = wex.examples;
+  if (all.length <= EXAMPLE_WINDOW) return all;
+  const reps = (item.card && item.card.reps) || 0;
+  const numBatches = Math.ceil(all.length / EXAMPLE_WINDOW);
+  const cycle = Math.floor(reps / numBatches);
+  const batch = reps % numBatches;
+  const order = seededShuffle(all.map((_, i) => i), hashSeed(`${item.entry.lemma_id}:${cycle}`));
+  return order.slice(batch * EXAMPLE_WINDOW, batch * EXAMPLE_WINDOW + EXAMPLE_WINDOW).map((i) => all[i]);
+}
+
 export function reset() {
   queue = [];
   session = null;
@@ -59,7 +115,7 @@ export function render(root, deck, examples) {
   perspective.className = 'flip-perspective';
   const flipCard = document.createElement('div');
   flipCard.className = 'flip-card';
-  flipCard.appendChild(flipped && wex ? cardBackEl(wex) : cardEl(item, wex));
+  flipCard.appendChild(flipped && wex ? cardBackEl(item, wex) : cardEl(item, wex));
   perspective.appendChild(flipCard);
   root.appendChild(perspective);
 
@@ -153,19 +209,31 @@ function cardEl(item, wex) {
     m.textContent = `${entry.pos} · ${entry.frequency.toLocaleString()}× in the Hebrew Bible`;
     el.appendChild(m);
 
+    // Curated for particles whose English glosses look like unrelated words
+    // (e.g. "in, on, with") but are really one spatial/relational idea --
+    // see build_vocab_deck.py. Only ~11 lemmas have this field; absent for
+    // everything else.
+    if (entry.core_schema) {
+      const s = document.createElement('p');
+      s.className = 'card-schema';
+      s.textContent = entry.core_schema;
+      el.appendChild(s);
+    }
+
     // Optional, doesn't block grading (see gradeRow) -- prepositions/
     // conjunctions/particles are hard to remember from a bare gloss alone
     // since (unlike a noun or verb) their meaning only comes clear from a
-    // real sentence. Only rendered for the ~51-word closed set that
+    // real sentence. Only rendered for the ~45-word closed set that
     // data/function_word_examples.json actually covers. Flips the whole
     // card over rather than expanding downward, and only reachable once
     // stage >= 2 (past the definition) -- flipping back to this face is
     // how you grade, so the examples stay a look-up, never a detour.
     if (wex) {
+      const shown = rotatingWindow(wex, item);
       const toggle = document.createElement('button');
       toggle.className = 'examples-toggle';
       toggle.type = 'button';
-      toggle.textContent = `See ${wex.examples.length} example${wex.examples.length === 1 ? '' : 's'} from the Bible`;
+      toggle.textContent = `See ${shown.length} example${shown.length === 1 ? '' : 's'} from the Bible`;
       toggle.addEventListener('click', (e) => {
         e.stopPropagation();
         triggerFlip(true);
@@ -237,7 +305,7 @@ function glossFrag(gloss, highlight) {
   return frag;
 }
 
-function cardBackEl(wex) {
+function cardBackEl(item, wex) {
   const el = document.createElement('div');
   el.className = 'card card-back';
   el.setAttribute('role', 'button');
@@ -250,41 +318,41 @@ function cardBackEl(wex) {
 
   const panel = document.createElement('div');
   panel.className = 'examples-panel';
-  for (const ex of wex.examples) {
-    const item = document.createElement('div');
-    item.className = 'example-item';
+  for (const ex of rotatingWindow(wex, item)) {
+    const exEl = document.createElement('div');
+    exEl.className = 'example-item';
 
     const heb = document.createElement('p');
     heb.className = 'example-heb heb';
     heb.lang = 'he';
     heb.appendChild(hebPhraseFrag(ex.phrase_hebrew, ex.target_index));
-    item.appendChild(heb);
+    exEl.appendChild(heb);
 
     const translit = document.createElement('p');
     translit.className = 'example-translit';
     translit.textContent = ex.phrase_transliteration;
-    item.appendChild(translit);
+    exEl.appendChild(translit);
 
     const gloss = document.createElement('p');
     gloss.className = 'example-gloss';
     gloss.appendChild(document.createTextNode('“'));
     gloss.appendChild(glossFrag(ex.gloss, ex.gloss_highlight));
     gloss.appendChild(document.createTextNode('”'));
-    item.appendChild(gloss);
+    exEl.appendChild(gloss);
 
     if (ex.gloss_note) {
       const note = document.createElement('p');
       note.className = 'example-note';
       note.textContent = ex.gloss_note;
-      item.appendChild(note);
+      exEl.appendChild(note);
     }
 
     const ref = document.createElement('p');
     ref.className = 'example-ref';
     ref.textContent = ex.ref;
-    item.appendChild(ref);
+    exEl.appendChild(ref);
 
-    panel.appendChild(item);
+    panel.appendChild(exEl);
   }
   el.appendChild(panel);
 

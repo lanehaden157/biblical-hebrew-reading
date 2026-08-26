@@ -413,15 +413,6 @@
       "reviewed": true
     },
     {
-      "rank": 546,
-      "lemma_id": "H5542",
-      "citation_form": "סֶלָה",
-      "pos": "Particle",
-      "frequency": 74,
-      "gloss": "selah (liturgical pause, meaning uncertain)",
-      "reviewed": true
-    },
-    {
       "rank": 547,
       "lemma_id": "H5795",
       "citation_form": "עֵז",
@@ -521,15 +512,6 @@
       "reviewed": true
     },
     {
-      "rank": 558,
-      "lemma_id": "H1077",
-      "citation_form": "בַּל",
-      "pos": "Particle",
-      "frequency": 72,
-      "gloss": "not (poetic negative particle)",
-      "reviewed": true
-    },
-    {
       "rank": 559,
       "lemma_id": "H1410",
       "citation_form": "גָּד",
@@ -611,15 +593,6 @@
       "reviewed": true
     },
     {
-      "rank": 568,
-      "lemma_id": "H1934",
-      "citation_form": "הָוָא",
-      "pos": "Verb",
-      "frequency": 71,
-      "gloss": "be, become (Aramaic)",
-      "reviewed": true
-    },
-    {
       "rank": 569,
       "lemma_id": "H2275",
       "citation_form": "חֶבְרוֹן",
@@ -644,15 +617,6 @@
       "pos": "Noun",
       "frequency": 71,
       "gloss": "Elijah",
-      "reviewed": true
-    },
-    {
-      "rank": 572,
-      "lemma_id": "H560",
-      "citation_form": "אֲמַר",
-      "pos": "Verb",
-      "frequency": 71,
-      "gloss": "say (Aramaic)",
       "reviewed": true
     },
     {

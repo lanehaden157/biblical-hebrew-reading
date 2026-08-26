@@ -32,7 +32,8 @@
       "pos": "Preposition",
       "frequency": 20851,
       "gloss": "to, for",
-      "reviewed": true
+      "reviewed": true,
+      "core_schema": "Direction toward something -- reaching it (to) or benefiting it (for) is the same motion."
     },
     {
       "rank": 4,
@@ -41,7 +42,8 @@
       "pos": "Preposition",
       "frequency": 15848,
       "gloss": "in, on, with",
-      "reviewed": true
+      "reviewed": true,
+      "core_schema": "A bounded space you're inside -- in, on, or acting within it (with)."
     },
     {
       "rank": 5,
@@ -68,7 +70,8 @@
       "pos": "Preposition",
       "frequency": 6415,
       "gloss": "from",
-      "reviewed": true
+      "reviewed": true,
+      "core_schema": "Motion away from a source -- literal (from a place) or figurative (some of, than). Same word as the standalone min."
     },
     {
       "rank": 8,
@@ -77,7 +80,8 @@
       "pos": "Preposition",
       "frequency": 5781,
       "gloss": "on, over, against",
-      "reviewed": true
+      "reviewed": true,
+      "core_schema": "Contact with weight from above -- on, over, or (metaphorically) against/about."
     },
     {
       "rank": 9,
@@ -140,7 +144,8 @@
       "pos": "Conjunction",
       "frequency": 4488,
       "gloss": "for, that, because, when",
-      "reviewed": true
+      "reviewed": true,
+      "core_schema": "Not one idea but three jobs, told apart by context: a reason (because/for), a quotation or fact (that), or a time clause (when)."
     },
     {
       "rank": 16,
@@ -158,7 +163,8 @@
       "pos": "Preposition",
       "frequency": 2973,
       "gloss": "like, as",
-      "reviewed": true
+      "reviewed": true,
+      "core_schema": "Comparison or approximation -- like, as, or (with a number) about/roughly."
     },
     {
       "rank": 18,
@@ -311,7 +317,8 @@
       "pos": "Preposition",
       "frequency": 1263,
       "gloss": "until, as far as",
-      "reviewed": true
+      "reviewed": true,
+      "core_schema": "A limit reached -- in time (until) or space (as far as) is the same idea."
     },
     {
       "rank": 35,
@@ -320,7 +327,8 @@
       "pos": "Preposition",
       "frequency": 1230,
       "gloss": "from",
-      "reviewed": true
+      "reviewed": true,
+      "core_schema": "Motion away from a source -- from, out of, some of, or than (comparison = distance from a standard). Same word as the prefix mi-."
     },
     {
       "rank": 36,
@@ -698,7 +706,8 @@
       "pos": "Preposition",
       "frequency": 718,
       "gloss": "after, behind",
-      "reviewed": true
+      "reviewed": true,
+      "core_schema": "Behind in space is after in time -- same word, same image."
     },
     {
       "rank": 78,

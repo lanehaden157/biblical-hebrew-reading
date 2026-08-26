@@ -84,7 +84,6 @@ CURATED = {
     "H3290": "Jacob",
     "H168": "tent",
     "H175": "Aaron",
-    "H1768": "that, which (Aramaic)",
     "H2568": "five",
     "H6240": "ten, -teen",
     "H5439": "around, surrounding",
@@ -137,20 +136,31 @@ CURATED = {
     "H4390": "fill, be full",
 }
 
+# H1768 (di, "that/which") is Aramaic (Ezra 4-6) -- this project teaches
+# Hebrew, so it's cut rather than curated. See build_vocab_deck.py.
+EXCLUDED = {"H1768": "Aramaic (di, Ezra)"}
+
+CORE_SCHEMA = {
+    "H8478": "Under something -- literally (underneath) or by substitution (in its place, instead of).",
+}
+
 
 def main():
     with open(DRAFTS_PATH, encoding="utf-8") as f:
         drafts = json.load(f)["entries"]
 
-    if len(CURATED) != len(drafts):
-        missing = [e["lemma_id"] for e in drafts if e["lemma_id"] not in CURATED]
-        extra = [k for k in CURATED if k not in {e["lemma_id"] for e in drafts}]
-        raise SystemExit(f"CURATED does not match drafts 1:1 -- missing={missing} extra={extra}")
+    expected = {e["lemma_id"] for e in drafts if e["lemma_id"] not in EXCLUDED}
+    if set(CURATED) != expected:
+        missing = expected - set(CURATED)
+        extra = set(CURATED) - expected
+        raise SystemExit(f"CURATED does not match drafts minus EXCLUDED -- missing={missing} extra={extra}")
 
     entries = []
     for e in drafts:
         lid = e["lemma_id"]
-        entries.append({
+        if lid in EXCLUDED:
+            continue
+        entry = {
             "rank": e["rank"],
             "lemma_id": lid,
             "citation_form": e["citation_form"],
@@ -158,7 +168,10 @@ def main():
             "frequency": e["frequency"],
             "gloss": CURATED[lid],
             "reviewed": True,
-        })
+        }
+        if lid in CORE_SCHEMA:
+            entry["core_schema"] = CORE_SCHEMA[lid]
+        entries.append(entry)
     entries.sort(key=lambda e: e["rank"])
 
     out = {

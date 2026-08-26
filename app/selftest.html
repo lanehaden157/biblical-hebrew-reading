@@ -66,25 +66,31 @@ async function run() {
     return finish();
   }
 
-  check(deck.length === 600, `deck has 600 entries (got ${deck.length})`);
+  // 600 minus 9 Aramaic loanwords and 2 poetry-only particles, cut at the
+  // curation stage (see build_vocab_deck.py) -- not backfilled to a round 600.
+  check(deck.length === 589, `deck has 589 entries (got ${deck.length})`);
 
   const ranks = new Set(deck.map(e => e.rank));
   const missing = [];
-  for (let r = 1; r <= 600; r++) if (!ranks.has(r)) missing.push(r);
-  check(missing.length === 0, `ranks 1-600 with no gaps${missing.length ? ` (missing ${missing.slice(0,8).join(',')}…)` : ''}`);
+  for (let r = 1; r <= deck.length; r++) if (!ranks.has(r)) missing.push(r);
+  check(missing.length === 0, `ranks 1-${deck.length} with no gaps${missing.length ? ` (missing ${missing.slice(0,8).join(',')}…)` : ''}`);
   check(ranks.size === deck.length, 'no duplicate ranks');
 
-  let noHeb = 0, badTrans = 0, noGloss = 0, noPos = 0;
+  let noHeb = 0, badTrans = 0, noGloss = 0, noPos = 0, aramaic = 0, badFlags = 0;
   for (const e of deck) {
     if (!e.citation_form || !HEBREW_RE.test(e.citation_form)) noHeb++;
     if (!e.transliteration || !TRANSLIT_RE.test(e.transliteration)) badTrans++;
     if (!e.gloss || !e.gloss.trim()) noGloss++;
     if (!e.pos) noPos++;
+    if (e.gloss && e.gloss.includes('(Aramaic)')) aramaic++;
+    if (typeof e.is_function_word !== 'boolean' || typeof e.drillable !== 'boolean') badFlags++;
   }
   check(noHeb === 0, `every entry has Hebrew in citation_form (${noHeb} bad)`);
   check(badTrans === 0, `every transliteration is in the locked ASCII scheme (${badTrans} bad)`);
   check(noGloss === 0, `every entry has a gloss — hard rule 4 (${noGloss} bad)`);
   check(noPos === 0, `every entry has a part of speech (${noPos} bad)`);
+  check(aramaic === 0, `no Aramaic entries remain (${aramaic} found)`);
+  check(badFlags === 0, `is_function_word/drillable are booleans on every entry (${badFlags} bad)`);
 
   const sorted = [...deck].sort((a, b) => a.rank - b.rank);
   let descending = true;
@@ -151,12 +157,23 @@ async function run() {
     wex = {};
   }
   const wexEntries = Object.values(wex);
+  // Mirrors build_function_word_examples.py's TIER_TARGET (tier-1 particles
+  // curated to 10 examples instead of the baseline 3) -- redeclared here too,
+  // per this project's independent-recheck convention.
+  const TIER_TARGET = {
+    'F-l': 10, 'F-b': 10, 'F-m': 10, 'H4480': 10, 'H5921': 10, 'H3588': 10,
+    'F-k': 10, 'H5704': 10, 'H310': 10, 'H8478': 10, 'H5048': 10,
+    'H413': 5, 'H834': 5, 'H518': 5, 'H5973': 5, 'H854': 5, 'H2009': 5,
+    'H2005': 5, 'H369': 5, 'H3426': 5, 'H3651': 5, 'H1571': 5, 'H637': 5,
+    'H389': 5, 'H7535': 5, 'H1115': 5, 'H1157': 5, 'H3644': 5, 'F-s': 5,
+    'H4616': 5,
+  };
   if (wexEntries.length) {
     const VERSE_TRANSLIT_RE = /^['`a-z .,;:!?‘’]+$/;
     let badCount = 0, badForm2 = 0, badGloss2 = 0, badSenseCount = 0, badIndex = 0, badHighlight = 0;
     for (const e of wexEntries) {
       const senses = e.full_gloss.split(',').map(s => s.trim()).filter(Boolean);
-      const needed = Math.max(3, senses.length);
+      const needed = Math.max(TIER_TARGET[e.lemma_id] || 3, senses.length);
       if (e.examples.length < needed) badCount++;
       if (e.sense_count !== senses.length) badSenseCount++;
       for (const ex of e.examples) {
@@ -171,7 +188,9 @@ async function run() {
         if (ex.gloss_note != null && !ex.gloss_note.trim()) badHighlight++;
       }
     }
-    check(wexEntries.length === 51, `function-word examples cover all 51 target lemmas (got ${wexEntries.length})`);
+    // 51 target lemmas minus the 6 (4 Aramaic particles + selah + bal) cut
+    // from the vocab deck along with the rest of the Aramaic/poetry-only set.
+    check(wexEntries.length === 45, `function-word examples cover all 45 target lemmas (got ${wexEntries.length})`);
     check(badSenseCount === 0, `every entry's sense_count matches its own full_gloss (${badSenseCount} bad)`);
     check(badCount === 0, `every entry has >= max(3, sense count) examples (${badCount} bad)`);
     check(badForm2 === 0, `every example has well-formed Hebrew + transliteration (${badForm2} bad)`);

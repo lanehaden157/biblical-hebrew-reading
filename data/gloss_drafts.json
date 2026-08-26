@@ -1,0 +1,1918 @@
+{
+  "metadata": {
+    "batch_rank_range": [
+      1,
+      100
+    ],
+    "status": "draft -- unreviewed Strong's/BDB extraction, see CLAUDE.md gloss curation notes"
+  },
+  "entries": [
+    {
+      "rank": 1,
+      "lemma_id": "F-c",
+      "citation_form": "וְ",
+      "pos": "Conjunction",
+      "frequency": 51272,
+      "oshb_codes": [
+        "c"
+      ],
+      "defs": [
+        "and"
+      ],
+      "meaning_text": null,
+      "usage": null,
+      "source": "hand-typed function-word gloss, not from Strong's",
+      "curated_gloss": null
+    },
+    {
+      "rank": 2,
+      "lemma_id": "F-d",
+      "citation_form": "הַ",
+      "pos": "Definite article",
+      "frequency": 24060,
+      "oshb_codes": [
+        "d"
+      ],
+      "defs": [
+        "the"
+      ],
+      "meaning_text": null,
+      "usage": null,
+      "source": "hand-typed function-word gloss, not from Strong's",
+      "curated_gloss": null
+    },
+    {
+      "rank": 3,
+      "lemma_id": "F-l",
+      "citation_form": "לְ",
+      "pos": "Preposition",
+      "frequency": 20851,
+      "oshb_codes": [
+        "l"
+      ],
+      "defs": [
+        "to, for"
+      ],
+      "meaning_text": null,
+      "usage": null,
+      "source": "hand-typed function-word gloss, not from Strong's",
+      "curated_gloss": null
+    },
+    {
+      "rank": 4,
+      "lemma_id": "F-b",
+      "citation_form": "בְּ",
+      "pos": "Preposition",
+      "frequency": 15848,
+      "oshb_codes": [
+        "b"
+      ],
+      "defs": [
+        "in, on, with, by"
+      ],
+      "meaning_text": null,
+      "usage": null,
+      "source": "hand-typed function-word gloss, not from Strong's",
+      "curated_gloss": null
+    },
+    {
+      "rank": 5,
+      "lemma_id": "H853",
+      "citation_form": "אֵת",
+      "pos": "Particle",
+      "frequency": 10979,
+      "oshb_codes": [
+        "853"
+      ],
+      "meaning_text": "properly, self (but generally used to point out more definitely the object of a verb or preposition, even or namely)",
+      "defs": [
+        "self",
+        "even",
+        "namely"
+      ],
+      "usage": "[as such unrepresented in English].",
+      "source": "apparent contracted from 226 in the demonstrative sense of entity;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 6,
+      "lemma_id": "H3068",
+      "citation_form": "יְהֹוָה",
+      "pos": "Noun",
+      "frequency": 6521,
+      "oshb_codes": [
+        "3068"
+      ],
+      "meaning_text": "(the) self-Existent or Eternal; Jeho-vah, Jewish national name of God",
+      "defs": [
+        "Existent",
+        "Jeho-vah"
+      ],
+      "usage": "Jehovah, the Lord. Compare",
+      "source": "from 1961;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 7,
+      "lemma_id": "F-m",
+      "citation_form": "מִ",
+      "pos": "Preposition",
+      "frequency": 6415,
+      "oshb_codes": [
+        "m"
+      ],
+      "defs": [
+        "from"
+      ],
+      "meaning_text": null,
+      "usage": null,
+      "source": "hand-typed function-word gloss, not from Strong's",
+      "curated_gloss": null
+    },
+    {
+      "rank": 8,
+      "lemma_id": "H5921",
+      "citation_form": "עַל",
+      "pos": "Preposition",
+      "frequency": 5781,
+      "oshb_codes": [
+        "5921 a",
+        "5921 b"
+      ],
+      "meaning_text": "above, over, upon, or against (yet always in this last relation with a downward aspect) in a great variety of applications",
+      "defs": [
+        "above",
+        "over",
+        "upon",
+        "against"
+      ],
+      "usage": "above, according to(-ly), after, (as) against, among, and, × as, at, because of, beside (the rest of), between, beyond the time, × both and, by (reason of), × had the charge of, concerning for, in (that), (forth, out) of, (from) (off), (up-) on, over, than, through(-out), to, touching, × with.",
+      "source": "properly, the same as 5920 used as a preposition (in the singular or plural often with prefix, or as conjunction with a particle following);",
+      "curated_gloss": null
+    },
+    {
+      "rank": 9,
+      "lemma_id": "H413",
+      "citation_form": "אֵל",
+      "pos": "Preposition",
+      "frequency": 5516,
+      "oshb_codes": [
+        "413"
+      ],
+      "meaning_text": "near, with or among; often in general, to",
+      "defs": [
+        "near",
+        "with",
+        "among",
+        "to"
+      ],
+      "usage": "about, according to, after, against, among, as for, at, because(-fore, -side), both...and, by, concerning, for, from, × hath, in(-to), near, (out) of, over, through, to(-ward), under, unto, upon, whether, with(-in).",
+      "source": "(but only used in the shortened constructive form אֶל ); a primitive particle; properly, denoting motion towards, but occasionally used of a quiescent position, i.e.",
+      "curated_gloss": null
+    },
+    {
+      "rank": 10,
+      "lemma_id": "H834",
+      "citation_form": "אֲשֶׁר",
+      "pos": "Particle",
+      "frequency": 5503,
+      "oshb_codes": [
+        "834 a",
+        "834 b",
+        "834 c",
+        "834 d"
+      ],
+      "meaning_text": "who, which, what, that; also (as an adverb and a conjunction) when, where, how, because, in order that, etc.",
+      "defs": [
+        "who",
+        "which",
+        "what",
+        "that",
+        "when",
+        "where",
+        "how",
+        "because",
+        "in order that"
+      ],
+      "usage": "× after, × alike, as (soon as), because, × every, for, + forasmuch, + from whence, + how(-soever), × if, (so) that ((thing) which, wherein), × though, + until, + whatsoever, when, where (+ -as, -in, -of, -on, -soever, -with), which, whilst, + whither(-soever), who(-m, -soever, -se). As it is indeclinable, it is often accompanied by the personal pronoun expletively, used to show the connection.",
+      "source": "a primitive relative pronoun (of every gender and number);",
+      "curated_gloss": null
+    },
+    {
+      "rank": 11,
+      "lemma_id": "H3605",
+      "citation_form": "כֹּל",
+      "pos": "Noun",
+      "frequency": 5417,
+      "oshb_codes": [
+        "3605"
+      ],
+      "meaning_text": "properly, the whole; hence, all, any or every (in the singular only, but often in a plural sense)",
+      "defs": [
+        "whole",
+        "all",
+        "any",
+        "every"
+      ],
+      "usage": "(in) all (manner, (ye)), altogether, any (manner), enough, every (one, place, thing), howsoever, as many as, (no-) thing, ought, whatsoever, (the) whole, whoso(-ever).",
+      "source": "or (Jeremiah 33:8) כּוֹל; from 3634;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 12,
+      "lemma_id": "H559",
+      "citation_form": "אָמַר",
+      "pos": "Verb",
+      "frequency": 5318,
+      "oshb_codes": [
+        "559"
+      ],
+      "meaning_text": "to say (used with great latitude)",
+      "defs": [
+        "say"
+      ],
+      "usage": "answer, appoint, avouch, bid, boast self, call, certify, challenge, charge,   (at the, give) command(-ment), commune, consider, declare, demand, × desire, determine, × expressly, × indeed, × intend, name, × plainly, promise, publish, report, require, say, speak (against, of), × still, × suppose, talk, tell, term, × that is, × think, use (speech), utter, × verily, × yet.",
+      "source": "a primitive root;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 13,
+      "lemma_id": "H3808",
+      "citation_form": "לֹא",
+      "pos": "Particle",
+      "frequency": 5191,
+      "oshb_codes": [
+        "3808"
+      ],
+      "meaning_text": "not (the simple or abs. negation); by implication, no; often used with other particles",
+      "defs": [
+        "not",
+        "no"
+      ],
+      "usage": "× before,   or else, ere,   except, ig(-norant), much, less, nay, neither, never, no((-ne), -r, (-thing)), (× as though...,(can-), for) not (out of), of nought, otherwise, out of,   surely,   as truly as,   of a truth,   verily, for want,   whether, without.",
+      "source": "or לוֹא; or לֹה; (Deuteronomy 3:11), a primitive particle;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 14,
+      "lemma_id": "H1121",
+      "citation_form": "בֵּן",
+      "pos": "Noun",
+      "frequency": 4942,
+      "oshb_codes": [
+        "1121 a",
+        "1121 b"
+      ],
+      "meaning_text": "a son (as a builder of the family name), in the widest sense (of literal and figurative relationship, including grandson, subject, nation, quality or condition, etc., (like father or brother), etc.)",
+      "defs": [
+        "son"
+      ],
+      "usage": "afflicted, age, (Ahoh-) (Ammon-) (Hachmon-) (Lev-) ite, (anoint-) ed one, appointed to, ( ) arrow, (Assyr-) (Babylon-) (Egypt-) (Grec-) ian, one born, bough, branch, breed,   (young) bullock,   (young) calf, × came up in, child, colt, × common, × corn, daughter, × of first,   firstborn, foal,   very fruitful,   postage, × in,   kid,   lamb, ( ) man, meet,   mighty,   nephew, old, ( ) people,   rebel,   robber, × servant born, × soldier, son,   spark,   steward,   stranger, × surely, them of,   tumultuous one,   valiant(-est), whelp, worthy, young (one), youth.",
+      "source": "from 1129;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 15,
+      "lemma_id": "H3588",
+      "citation_form": "כִּי",
+      "pos": "Conjunction",
+      "frequency": 4488,
+      "oshb_codes": [
+        "3588 a",
+        "3588 b",
+        "3588 c"
+      ],
+      "meaning_text": "(by implication) very widely used as a relative conjunction or adverb (as below); often largely modified by other particles annexed",
+      "defs": [
+        "relative conjunction"
+      ],
+      "usage": "and,   (forasmuch, inasmuch, where-) as, assured(-ly),   but, certainly, doubtless,   else, even,   except, for, how, (because, in, so, than) that,   nevertheless, now, rightly, seeing, since, surely, then, therefore,   (al-) though,   till, truly,   until, when, whether, while, whom, yea, yet.",
+      "source": "a primitive particle (the full form of the prepositional prefix) indicating causal relations of all kinds, antecedent or consequent;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 16,
+      "lemma_id": "H1961",
+      "citation_form": "הָיָה",
+      "pos": "Verb",
+      "frequency": 3576,
+      "oshb_codes": [
+        "1961"
+      ],
+      "meaning_text": "to exist, i.e. be or become, come to pass (always emphatic, and not a mere copula or auxiliary)",
+      "defs": [
+        "exist",
+        "be",
+        "become",
+        "come to pass"
+      ],
+      "usage": "beacon, × altogether, be(-come), accomplished, committed, like), break, cause, come (to pass), do, faint, fall,   follow, happen, × have, last, pertain, quit (one-) self, require, × use.",
+      "source": "a primitive root (compare 1933);",
+      "curated_gloss": null
+    },
+    {
+      "rank": 17,
+      "lemma_id": "F-k",
+      "citation_form": "כְּ",
+      "pos": "Preposition",
+      "frequency": 2973,
+      "oshb_codes": [
+        "k"
+      ],
+      "defs": [
+        "like, as"
+      ],
+      "meaning_text": null,
+      "usage": null,
+      "source": "hand-typed function-word gloss, not from Strong's",
+      "curated_gloss": null
+    },
+    {
+      "rank": 18,
+      "lemma_id": "H6213",
+      "citation_form": "עָשָׂה",
+      "pos": "Verb",
+      "frequency": 2640,
+      "oshb_codes": [
+        "6213",
+        "6213 a",
+        "6213 b"
+      ],
+      "meaning_text": "to do or make, in the broadest sense and widest application",
+      "defs": [
+        "do",
+        "make"
+      ],
+      "usage": "accomplish, advance, appoint, apt, be at, become, bear, bestow, bring forth, bruise, be busy, × certainly, have the charge of, commit, deal (with), deck,   displease, do, (ready) dress(-ed), (put in) execute(-ion), exercise, fashion,   feast, (fight-) ing man,   finish, fit, fly, follow, fulfill, furnish, gather, get, go about, govern, grant, great,   hinder, hold (a feast), × indeed,   be industrious,   journey, keep, labour, maintain, make, be meet, observe, be occupied, offer,   officer, pare, bring (come) to pass, perform, pracise, prepare, procure, provide, put, requite, × sacrifice, serve, set, shew, × sin, spend, × surely, take, × thoroughly, trim, × very,   vex, be (warr-) ior, work(-man), yield, use.",
+      "source": "a primitive root;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 19,
+      "lemma_id": "H430",
+      "citation_form": "אֱלֹהִים",
+      "pos": "Noun",
+      "frequency": 2600,
+      "oshb_codes": [
+        "430"
+      ],
+      "meaning_text": "gods in the ordinary sense; but specifically used (in the plural thus, especially with the article) of the supreme God; occasionally applied by way of deference to magistrates; and sometimes as a superlative",
+      "defs": [
+        "gods",
+        "God",
+        "magistrates"
+      ],
+      "usage": "angels, × exceeding, God (gods) (-dess, -ly), × (very) great, judges, × mighty.",
+      "source": "plural of 433;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 20,
+      "lemma_id": "H935",
+      "citation_form": "בּוֹא",
+      "pos": "Verb",
+      "frequency": 2592,
+      "oshb_codes": [
+        "935"
+      ],
+      "meaning_text": "to go or come (in a wide variety of applications)",
+      "defs": [
+        "go",
+        "come"
+      ],
+      "usage": "abide, apply, attain, × be, befall,   besiege, bring (forth, in, into, to pass), call, carry, × certainly, (cause, let, thing for) to come (against, in, out, upon, to pass), depart, × doubtless again,   eat,   employ, (cause to) enter (in, into, -tering, -trance, -try), be fallen, fetch,   follow, get, give, go (down, in, to war), grant,   have, × indeed, (in-) vade, lead, lift (up), mention, pull in, put, resort, run (down), send, set, × (well) stricken (in age), × surely, take (in), way.",
+      "source": "a primitive root;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 21,
+      "lemma_id": "H4428",
+      "citation_form": "מֶלֶךְ",
+      "pos": "Noun",
+      "frequency": 2526,
+      "oshb_codes": [
+        "4428"
+      ],
+      "meaning_text": "a king",
+      "defs": [
+        "king"
+      ],
+      "usage": "king, royal.",
+      "source": "from 4427;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 22,
+      "lemma_id": "H3478",
+      "citation_form": "יִשְׂרָאֵל",
+      "pos": "Noun",
+      "frequency": 2507,
+      "oshb_codes": [
+        "3478"
+      ],
+      "meaning_text": "he will rule as God; Jisraël, a symbolical name of Jacob; also (typically) of his posterity",
+      "defs": [
+        "he will rule as God",
+        "Jisraël"
+      ],
+      "usage": "Israel.",
+      "source": "from 8280 and 410;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 23,
+      "lemma_id": "H776",
+      "citation_form": "אֶרֶץ",
+      "pos": "Noun",
+      "frequency": 2505,
+      "oshb_codes": [
+        "776"
+      ],
+      "meaning_text": "the earth (at large, or partitively a land)",
+      "defs": [
+        "earth",
+        "land"
+      ],
+      "usage": "× common, country, earth, field, ground, land, × natins, way, + wilderness, world.",
+      "source": "from an unused root probably meaning to be firm;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 24,
+      "lemma_id": "H3117",
+      "citation_form": "יוֹם",
+      "pos": "Noun",
+      "frequency": 2304,
+      "oshb_codes": [
+        "3117"
+      ],
+      "meaning_text": "a day (as the warm hours), whether literal (from sunrise to sunset, or from one sunset to the next), or figurative (a space of time defined by an associated term), (often used adverb)",
+      "defs": [
+        "day"
+      ],
+      "usage": "age,   always,   chronicals, continually(-ance), daily, ((birth-), each, to) day, (now a, two) days (agone),   elder, × end,   evening,   (for) ever(-lasting, -more), × full, life, as (so) long as (... live), (even) now,   old,   outlived,   perpetually, presently,   remaineth, × required, season, × since, space, then, (process of) time,   as at other times,   in trouble, weather, (as) when, (a, the, within a) while (that), × whole (  age), (full) year(-ly),   younger.",
+      "source": "from an unused root meaning to be hot;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 25,
+      "lemma_id": "H376",
+      "citation_form": "אִישׁ",
+      "pos": "Noun",
+      "frequency": 2187,
+      "oshb_codes": [
+        "376"
+      ],
+      "meaning_text": "a man as an individual or a male person; often used as an adjunct to a more definite term (and in such cases frequently not expressed in translation)",
+      "defs": [
+        "man"
+      ],
+      "usage": "also, another, any (man), a certain,   champion, consent, each, every (one), fellow, (foot-, husband-) man, (good-, great, mighty) man, he, high (degree), him (that is), husband, man(-kind),   none, one, people, person,   steward, what (man) soever, whoso(-ever), worthy. Compare",
+      "source": "contracted for 582 (or perhaps rather from an unused root meaning to be extant);",
+      "curated_gloss": null
+    },
+    {
+      "rank": 26,
+      "lemma_id": "H6440",
+      "citation_form": "פָּנִים",
+      "pos": "Noun",
+      "frequency": 2127,
+      "oshb_codes": [
+        "6440"
+      ],
+      "meaning_text": "the face (as the part that turns); used in a great variety of applications (literally and figuratively); also (with prepositional prefix) as a preposition (before, etc.)",
+      "defs": [
+        "face",
+        "before"
+      ],
+      "usage": "accept, a-(be-) fore(-time), against, anger, × as (long as), at,   battle,   because (of),   beseech, countenance, edge,   employ, endure,   enquire, face, favour, fear of, for, forefront(-part), form(-er time, -ward), from, front, heaviness, × him(-self),   honourable,   impudent,   in, it, look(-eth) (-s), × me,   meet, × more than, mouth, of, off, (of) old (time), × on, open,   out of, over against, the partial, person,   please, presence, propect, was purposed, by reason of,   regard, right forth,   serve, × shewbread, sight, state, straight,   street, × thee, × them(-selves), through (  -out), till, time(-s) past, (un-) to(-ward),   upon, upside (  down), with(-in,   -stand), × ye, × you.",
+      "source": "plural (but always as singular) of an unused noun פָּנֶה; from 6437);",
+      "curated_gloss": null
+    },
+    {
+      "rank": 27,
+      "lemma_id": "H1004",
+      "citation_form": "בַּיִת",
+      "pos": "Noun",
+      "frequency": 2056,
+      "oshb_codes": [
+        "1004 a",
+        "1004 b"
+      ],
+      "meaning_text": "a house (in the greatest variation of applications, especially family, etc.)",
+      "defs": [
+        "a house"
+      ],
+      "usage": "court, daughter, door, + dungeon, family, + forth of, × great as would contain, hangings, home(born), (winter) house(-hold), inside(-ward), palace, place, + prison, + steward, + tablet, temple, web, + within(-out).",
+      "source": "probably from 1129 abbreviated;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 28,
+      "lemma_id": "H5414",
+      "citation_form": "נָתַן",
+      "pos": "Verb",
+      "frequency": 2015,
+      "oshb_codes": [
+        "5414"
+      ],
+      "meaning_text": "to give, used with greatest latitude of application (put, make, etc.)",
+      "defs": [
+        "give",
+        "put",
+        "make"
+      ],
+      "usage": "add, apply, appoint, ascribe, assign, × avenge, × be (healed), bestow, bring (forth, hither), cast, cause, charge, come, commit, consider, count,   cry, deliver (up), direct, distribute, do, × doubtless, × without fail, fasten, frame, × get, give (forth, over, up), grant, hang (up), × have, × indeed, lay (unto charge, up), (give) leave, lend, let (out),   lie, lift up, make,   O that, occupy, offer, ordain, pay, perform, place, pour, print, × pull, put (forth), recompense, render, requite, restore, send (out), set (forth), shew, shoot forth (up),   sing,   slander, strike, (sub-) mit, suffer, × surely, × take, thrust, trade, turn, utter,   weep,   willingly,   withdraw,   would (to) God, yield.",
+      "source": "a primitive root;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 29,
+      "lemma_id": "H1931",
+      "citation_form": "הוּא",
+      "pos": "Pronoun",
+      "frequency": 1889,
+      "oshb_codes": [
+        "1931"
+      ],
+      "meaning_text": "he (she or it); only expressed when emphatic or without a verb; also (intensively) self, or (especially with the article) the same; sometimes (as demonstrative) this or that; occasionally (instead of copula) as or are",
+      "defs": [
+        "he",
+        "she",
+        "it",
+        "self",
+        "same",
+        "this",
+        "that",
+        "as",
+        "are"
+      ],
+      "usage": "he, as for her, him(-self), it, the same, she (herself), such, that (...it), these, they, this, those, which (is), who.",
+      "source": "of which the feminine (beyond the Pentateuch) is הִיא; he a primitive word, the third person pronoun singular;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 30,
+      "lemma_id": "H5971",
+      "citation_form": "עַם",
+      "pos": "Noun",
+      "frequency": 1870,
+      "oshb_codes": [
+        "5971 a",
+        "5971 b"
+      ],
+      "meaning_text": "a people (as a congregated unit); specifically, a tribe (as those of Israel); hence (collectively) troops or attendants; figuratively, a flock",
+      "defs": [
+        "people",
+        "tribe",
+        "troops",
+        "attendants",
+        "flock"
+      ],
+      "usage": "folk, men, nation, people.",
+      "source": "from 6004;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 31,
+      "lemma_id": "H3027",
+      "citation_form": "יָד",
+      "pos": "Noun",
+      "frequency": 1627,
+      "oshb_codes": [
+        "3027"
+      ],
+      "meaning_text": "a hand (the open one [indicating power, means, direction, etc.], in distinction from 3709, the closed one); used (as noun, adverb, etc.) in a great variety of applications, both literally and figuratively, both proximate and remote [as follows]",
+      "defs": [
+        "hand",
+        "open",
+        "power",
+        "means",
+        "direction",
+        "closed"
+      ],
+      "usage": "(  be) able, × about,   armholes, at, axletree, because of, beside, border, × bounty,   broad, (broken-) handed, × by, charge, coast,   consecrate,   creditor, custody, debt, dominion, × enough,   fellowship, force, × from, hand(-staves, -y work), × he, himself, × in, labour,   large, ledge, (left-) handed, means, × mine, ministry, near, × of, × order, ordinance, × our, parts, pain, power, × presumptuously, service, side, sore, state, stay, draw with strength, stroke,   swear, terror, × thee, × by them, × themselves, × thine own, × thou, through, × throwing,   thumb, times, × to, × under, × us, × wait on, (way-) side, where,   wide, × with (him, me, you), work,   yield, × yourselves.",
+      "source": "a primitive word;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 32,
+      "lemma_id": "H1697",
+      "citation_form": "דָּבָר",
+      "pos": "Noun",
+      "frequency": 1455,
+      "oshb_codes": [
+        "1697"
+      ],
+      "meaning_text": "a word; by implication, a matter (as spoken of) or thing; adverbially, a cause",
+      "defs": [
+        "word",
+        "matter",
+        "spoken",
+        "thing",
+        "cause"
+      ],
+      "usage": "act, advice, affair, answer, × any such (thing), because of, book, business, care, case, cause, certain rate,   chronicles, commandment, × commune(-ication),   concern(-ing),   confer, counsel,   dearth, decree, deed, × disease, due, duty, effect,   eloquent, errand, (evil favoured-) ness,   glory,   harm, hurt,   iniquity,   judgment, language,   lying, manner, matter, message, (no) thing, oracle, × ought, × parts,   pertaining,   please, portion,   power, promise, provision, purpose, question, rate, reason, report, request, × (as hast) said, sake, saying, sentence,   sign,   so, some (uncleanness), somewhat to say,   song, speech, × spoken, talk, task,   that, × there done, thing (concerning), thought,   thus, tidings, what(-soever),   wherewith, which, word, work.",
+      "source": "from 1696;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 33,
+      "lemma_id": "H7200",
+      "citation_form": "רָאָה",
+      "pos": "Verb",
+      "frequency": 1314,
+      "oshb_codes": [
+        "7200"
+      ],
+      "meaning_text": "to see, literally or figuratively (in numerous applications, direct and implied, transitive, intransitive and causative)",
+      "defs": [
+        "see"
+      ],
+      "usage": "advise self, appear, approve, behold, × certainly, consider, discern, (make to) enjoy, have experience, gaze, take heed, × indeed, × joyfully, lo, look (on, one another, one on another, one upon another, out, up, upon), mark, meet, × be near, perceive, present, provide, regard, (have) respect, (fore-, cause to, let) see(-r, -m, one another), shew (self), × sight of others, (e-) spy, stare, × surely, × think, view, visions.",
+      "source": "a primitive root;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 34,
+      "lemma_id": "H5704",
+      "citation_form": "עַד",
+      "pos": "Preposition",
+      "frequency": 1263,
+      "oshb_codes": [
+        "5704"
+      ],
+      "meaning_text": "as far (or long, or much) as, whether of space (even unto) or time (during, while, until) or degree (equally with)",
+      "defs": [
+        "as far",
+        "long",
+        "much",
+        "as",
+        "even unto",
+        "during",
+        "while",
+        "until",
+        "equally with"
+      ],
+      "usage": "against, and, as, at, before, by (that), even (to), for(-asmuch as), (hither-) to,   how long, into, as long (much) as, (so) that, till, toward, until, when, while, (  as) yet.",
+      "source": "properly, the same as 5703 (used as a preposition, adverb or conjunction; especially with a preposition);",
+      "curated_gloss": null
+    },
+    {
+      "rank": 35,
+      "lemma_id": "H4480",
+      "citation_form": "מִן",
+      "pos": "Preposition",
+      "frequency": 1230,
+      "oshb_codes": [
+        "4480 a",
+        "4480 b"
+      ],
+      "meaning_text": "properly, a part of; hence (prepositionally), from or out of in many senses",
+      "defs": [
+        "part",
+        "from",
+        "out of"
+      ],
+      "usage": "above, after, among, at, because of, by (reason of), from (among), in, × neither, × nor, (out) of, over, since, × then, through, × whether, with.",
+      "source": "or מִנִּי; or מִנֵּי; (constructive plural) (Isaiah 30:11); for 4482;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 36,
+      "lemma_id": "H1",
+      "citation_form": "אָב",
+      "pos": "Noun",
+      "frequency": 1213,
+      "oshb_codes": [
+        "1"
+      ],
+      "meaning_text": "father, in a literal and immediate, or figurative and remote application",
+      "defs": [
+        "father"
+      ],
+      "usage": "chief, (fore-) father(-less), × patrimony, principal. Compare names in 'Abi-'.",
+      "source": "a primitive word;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 37,
+      "lemma_id": "H2088",
+      "citation_form": "זֶה",
+      "pos": "Pronoun",
+      "frequency": 1178,
+      "oshb_codes": [
+        "2088"
+      ],
+      "meaning_text": "the masculine demonstrative pronoun, this or that",
+      "defs": [
+        "this",
+        "that"
+      ],
+      "usage": "he, × hence, × here, it(-self), × now, × of him, the one...the other, × than the other, (× out of) the (self) same, such (a one) that, these, this (hath, man), on this side...on that side, × thus, very, which. Compare",
+      "source": "a primitive word;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 38,
+      "lemma_id": "H8085",
+      "citation_form": "שָׁמַע",
+      "pos": "Verb",
+      "frequency": 1165,
+      "oshb_codes": [
+        "8085"
+      ],
+      "meaning_text": "to hear intelligently (often with implication of attention, obedience, etc.; causatively, to tell, etc.)",
+      "defs": [
+        "hear",
+        "tell"
+      ],
+      "usage": "× attentively, call (gather) together, × carefully, × certainly, consent, consider, be content, declare, × diligently, discern, give ear, (cause to, let, make to) hear(-ken, tell), × indeed, listen, make (a) noise, (be) obedient, obey, perceive, (make a) proclaim(-ation), publish, regard, report, shew (forth), (make a) sound, × surely, tell, understand, whosoever (heareth), witness.",
+      "source": "a primitive root;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 39,
+      "lemma_id": "H1696",
+      "citation_form": "דָבַר",
+      "pos": "Verb",
+      "frequency": 1144,
+      "oshb_codes": [
+        "1696"
+      ],
+      "meaning_text": "perhaps properly, to arrange; but used figuratively (of words), to speak; rarely (in a destructive sense) to subdue",
+      "defs": [
+        "arrange",
+        "speak",
+        "subdue"
+      ],
+      "usage": "answer, appoint, bid, command, commune, declare, destroy, give, name, promise, pronounce, rehearse, say, speak, be spokesman, subdue, talk, teach, tell, think, use (entreaties), utter, × well, × work.",
+      "source": "a primitive root;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 40,
+      "lemma_id": "H859",
+      "citation_form": "אַתָּה",
+      "pos": "Pronoun",
+      "frequency": 1104,
+      "oshb_codes": [
+        "859 a",
+        "859 b",
+        "859 c",
+        "859 d",
+        "859 e"
+      ],
+      "meaning_text": "thou and thee, or (plural) ye and you",
+      "defs": [
+        "thou",
+        "thee",
+        "ye",
+        "you"
+      ],
+      "usage": "thee, thou, ye, you.",
+      "source": "or (shortened); אַתָּ; or אַת; feminine (irregular) sometimes אַתִּי; plural masculine אַתֶּם; feminine אַתֶּן; or אַתֵּנָהlemma אתֵּנָה missing vowel, corrected to אַתֵּנָה; or אַתֵּנָּה; a primitive pronoun of the second person;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 41,
+      "lemma_id": "H5892",
+      "citation_form": "עִיר",
+      "pos": "Noun",
+      "frequency": 1095,
+      "oshb_codes": [
+        "5892 a",
+        "5892 b"
+      ],
+      "meaning_text": "a city (a place guarded by waking or a watch) in the widest sense (even of a mere encampment or post)",
+      "defs": [
+        "city",
+        "waking",
+        "encampment",
+        "post"
+      ],
+      "usage": "Ai (from margin), city, court (from margin), town.",
+      "source": "or (in the plural) עָר; or עָיַר; (Judges 10:4), from 5782",
+      "curated_gloss": null
+    },
+    {
+      "rank": 42,
+      "lemma_id": "H3427",
+      "citation_form": "יָשַׁב",
+      "pos": "Verb",
+      "frequency": 1092,
+      "oshb_codes": [
+        "3427"
+      ],
+      "meaning_text": "properly, to sit down (specifically as judge. in ambush, in quiet); by implication, to dwell, to remain; causatively, to settle, to marry",
+      "defs": [
+        "sit",
+        "dwell",
+        "remain",
+        "settle",
+        "marry"
+      ],
+      "usage": "(make to) abide(-ing), continue, (cause to, make to) dwell(-ing), ease self, endure, establish, × fail, habitation, haunt, (make to) inhabit(-ant), make to keep (house), lurking, × marry(-ing), (bring again to) place, remain, return, seat, set(-tle), (down-) sit(-down, still, -ting down, -ting (place) -uate), take, tarry.",
+      "source": "a primitive root;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 43,
+      "lemma_id": "H3318",
+      "citation_form": "יָצָא",
+      "pos": "Verb",
+      "frequency": 1076,
+      "oshb_codes": [
+        "3318"
+      ],
+      "meaning_text": "to go (causatively, bring) out, in a great variety of applications, literally and figuratively, direct and proxim.",
+      "defs": [
+        "go",
+        "bring",
+        "out"
+      ],
+      "usage": "× after, appear, × assuredly, bear out, × begotten, break out, bring forth (out, up), carry out, come (abroad, out, thereat, without),   be condemned, depart(-ing, -ure), draw forth, in the end, escape, exact, fail, fall (out), fetch forth (out), get away (forth, hence, out), (able to, cause to, let) go abroad (forth, on, out), going out, grow, have forth (out), issue out, lay (lie) out, lead out, pluck out, proceed, pull out, put away, be risen, × scarce, send with commandment, shoot forth, spread, spring out, stand out, × still, × surely, take forth (out), at any time, × to (and fro), utter.",
+      "source": "a primitive root;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 44,
+      "lemma_id": "H1732",
+      "citation_form": "דָּוִד",
+      "pos": "Noun",
+      "frequency": 1075,
+      "oshb_codes": [
+        "1732"
+      ],
+      "meaning_text": "David, the youngest son of Jesse",
+      "defs": [
+        "David"
+      ],
+      "usage": "David.",
+      "source": "rarely (fully); דָּוִיד; from the same as 1730; loving;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 45,
+      "lemma_id": "H7725",
+      "citation_form": "שׁוּב",
+      "pos": "Verb",
+      "frequency": 1073,
+      "oshb_codes": [
+        "7725"
+      ],
+      "meaning_text": "to turn back (hence, away) transitively or intransitively, literally or figuratively (not necessarily with the idea of return to the starting point); generally to retreat; often adverbial, again",
+      "defs": [
+        "turn",
+        "return",
+        "retreat",
+        "again"
+      ],
+      "usage": "((break, build, circumcise, dig, do anything, do evil, feed, lay down, lie down, lodge, make, rejoice, send, take, weep)) × again, (cause to) answer (  again), × in any case (wise), × at all, averse, bring (again, back, home again), call (to mind), carry again (back), cease, × certainly, come again (back), × consider,   continually, convert, deliver (again),   deny, draw back, fetch home again, × fro, get (oneself) (back) again, × give (again), go again (back, home), (go) out, hinder, let, (see) more, × needs, be past, × pay, pervert, pull in again, put (again, up again), recall, recompense, recover, refresh, relieve, render (again), requite, rescue, restore, retrieve, (cause to, make to) return, reverse, reward,   say nay, send back, set again, slide back, still, × surely, take back (off), (cause to, make to) turn (again, self again, away, back, back again, backward, from, off), withdraw.",
+      "source": "a primitive root;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 46,
+      "lemma_id": "H518",
+      "citation_form": "אִם",
+      "pos": "Conjunction",
+      "frequency": 1070,
+      "oshb_codes": [
+        "518 a",
+        "518 b"
+      ],
+      "meaning_text": "used very widely as demonstrative, lo!; interrogative, whether?; or conditional, if, although; also Oh that!, when; hence, as a negative, not",
+      "defs": [
+        "lo!",
+        "whether?",
+        "if",
+        "although",
+        "Oh that!",
+        "when",
+        "not"
+      ],
+      "usage": "(and, can-, doubtless, if, that) (not), + but, either, + except, + more(-over if, than), neither, nevertheless, nor, oh that, or, + save (only, -ing), seeing, since, sith, + surely (no more, none, not), though, + of a truth, + unless, + verily, when, whereas, whether, while, + yet.",
+      "source": "a primitive particle;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 47,
+      "lemma_id": "H5973",
+      "citation_form": "עִם",
+      "pos": "Preposition",
+      "frequency": 1049,
+      "oshb_codes": [
+        "5973 a",
+        "5973 b"
+      ],
+      "meaning_text": "adverb or preposition, with (i.e. in conjunction with), in varied applications; specifically, equally with; often with prepositional prefix (and then usually unrepresented in English)",
+      "defs": [
+        "with",
+        "equally with"
+      ],
+      "usage": "accompanying, against, and, as (× long as), before, beside, by (reason of), for all, from (among, between), in, like, more than, of, (un-) to, with(-al).",
+      "source": "from 6004;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 48,
+      "lemma_id": "H3212",
+      "citation_form": "יָלַךְ",
+      "pos": "Verb",
+      "frequency": 1044,
+      "oshb_codes": [
+        "3212"
+      ],
+      "meaning_text": "to walk (literally or figuratively); causatively, to carry (in various senses)",
+      "defs": [
+        "walk",
+        "carry"
+      ],
+      "usage": "× again, away, bear, bring, carry (away), come (away), depart, flow,   follow(-ing), get (away, hence, him), (cause to, made) go (away, -ing, -ne, one's way, out), grow, lead (forth), let down, march, prosper,   pursue, cause to run, spread, take away (-journey), vanish, (cause to) walk(-ing), wax, × be weak.",
+      "source": "a primitive root (compare 1980);",
+      "curated_gloss": null
+    },
+    {
+      "rank": 49,
+      "lemma_id": "H259",
+      "citation_form": "אֶחָד",
+      "pos": "Adjective",
+      "frequency": 976,
+      "oshb_codes": [
+        "259"
+      ],
+      "meaning_text": "properly, united, i.e. one; or (as an ordinal) first",
+      "defs": [
+        "united",
+        "one",
+        "first"
+      ],
+      "usage": "a, alike, alone, altogether, and, any(-thing), apiece, a certain, (dai-) ly, each (one),   eleven, every, few, first,   highway, a man, once, one, only, other, some, together,",
+      "source": "a numeral from 258;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 50,
+      "lemma_id": "H3947",
+      "citation_form": "לָקַח",
+      "pos": "Verb",
+      "frequency": 967,
+      "oshb_codes": [
+        "3947"
+      ],
+      "meaning_text": "to take (in the widest variety of applications)",
+      "defs": [
+        "take"
+      ],
+      "usage": "accept, bring, buy, carry away, drawn, fetch, get, infold, × many, mingle, place, receive(-ing), reserve, seize, send for, take (away, -ing, up), use, win.",
+      "source": "a primitive root;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 51,
+      "lemma_id": "H3045",
+      "citation_form": "יָדַע",
+      "pos": "Verb",
+      "frequency": 953,
+      "oshb_codes": [
+        "3045"
+      ],
+      "meaning_text": "to know (properly, to ascertain by seeing); used in a great variety of senses, figuratively, literally, euphemistically and inferentially (including observation, care, recognition; and causatively, instruction, designation, punishment, etc.)",
+      "defs": [
+        "know",
+        "seeing",
+        "observation",
+        "care",
+        "recognition",
+        "instruction",
+        "designation",
+        "punishment"
+      ],
+      "usage": "acknowledge, acquaintance(-ted with), advise, answer, appoint, assuredly, be aware, (un-) awares, can(-not), certainly, comprehend, consider, × could they, cunning, declare, be diligent, (can, cause to) discern, discover, endued with, familiar friend, famous, feel, can have, be (ig-) norant, instruct, kinsfolk, kinsman, (cause to let, make) know, (come to give, have, take) knowledge, have (knowledge), (be, make, make to be, make self) known,   be learned,   lie by man, mark, perceive, privy to, × prognosticator, regard, have respect, skilful, shew, can (man of) skill, be sure, of a surety, teach, (can) tell, understand, have (understanding), × will be, wist, wit, wot.",
+      "source": "a primitive root;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 52,
+      "lemma_id": "H5869",
+      "citation_form": "עַיִן",
+      "pos": "Noun",
+      "frequency": 897,
+      "oshb_codes": [
+        "5869",
+        "5869 a",
+        "5869 b"
+      ],
+      "meaning_text": "an eye (literally or figuratively); by analogy, a fountain (as the eye of the landscape)",
+      "defs": [
+        "eye",
+        "fountain",
+        "eye"
+      ],
+      "usage": "affliction, outward appearance,   before,   think best, colour, conceit,   be content, countenance,   displease, eye((-brow), (-d), -sight), face,   favour, fountain, furrow (from the margin), × him,   humble, knowledge, look, (  well), × me, open(-ly),   (not) please, presence,   regard, resemblance, sight, × thee, × them,   think, × us, well, × you(-rselves).",
+      "source": "probably a primitive word;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 53,
+      "lemma_id": "H5927",
+      "citation_form": "עָלָה",
+      "pos": "Verb",
+      "frequency": 894,
+      "oshb_codes": [
+        "5927"
+      ],
+      "meaning_text": "to ascend, intransitively (be high) or actively (mount); used in a great variety of senses, primary and secondary, literal and figurative",
+      "defs": [
+        "ascend",
+        "high",
+        "mount"
+      ],
+      "usage": "arise (up), (cause to) ascend up, at once, break (the day) (up), bring (up), (cause to) burn, carry up, cast up,   shew, climb (up), (cause to, make to) come (up), cut off, dawn, depart, exalt, excel, fall, fetch up, get up, (make to) go (away, up); grow (over) increase, lay, leap, levy, lift (self) up, light, (make) up, × mention, mount up, offer, make to pay,   perfect, prefer, put (on), raise, recover, restore, (make to) rise (up), scale, set (up), shoot forth (up), (begin to) spring (up), stir up, take away (up), work.",
+      "source": "a primitive root;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 54,
+      "lemma_id": "H854",
+      "citation_form": "אֵת",
+      "pos": "Preposition",
+      "frequency": 889,
+      "oshb_codes": [
+        "854"
+      ],
+      "meaning_text": "properly, nearness (used only as a preposition or an adverb), near; hence, generally, with, by, at, among, etc.",
+      "defs": [
+        "nearness",
+        "near",
+        "with",
+        "by",
+        "at",
+        "among"
+      ],
+      "usage": "against, among, before, by, for, from, in(-to), (out) of, with. Often with another prepositional prefix.",
+      "source": "probably from 579;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 55,
+      "lemma_id": "H8141",
+      "citation_form": "שָׁנֶה",
+      "pos": "Noun",
+      "frequency": 880,
+      "oshb_codes": [
+        "8141"
+      ],
+      "meaning_text": "a year (as a revolution of time)",
+      "defs": [
+        "year",
+        "revolution"
+      ],
+      "usage": "whole age, × long,   old, year(× -ly).",
+      "source": "(in plural or (feminine) שָׁנָה; from 8138;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 56,
+      "lemma_id": "H589",
+      "citation_form": "אֲנִי",
+      "pos": "Pronoun",
+      "frequency": 874,
+      "oshb_codes": [
+        "589"
+      ],
+      "meaning_text": "I",
+      "defs": [
+        "I"
+      ],
+      "usage": "I, (as for) me, mine, myself, we, × which, × who.",
+      "source": "contracted from 595;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 57,
+      "lemma_id": "H8034",
+      "citation_form": "שֵׁם",
+      "pos": "Noun",
+      "frequency": 864,
+      "oshb_codes": [
+        "8034"
+      ],
+      "meaning_text": "an appellation, as a mark or memorial of individuality; by implication honor, authority, character",
+      "defs": [
+        "appellation",
+        "honor",
+        "authority",
+        "character"
+      ],
+      "usage": "base, (in-) fame(-ous), named(-d), renown, report.",
+      "source": "a primitive word [perhaps rather from 7760 through the idea of definite and conspicuous position; compare 8064];",
+      "curated_gloss": null
+    },
+    {
+      "rank": 58,
+      "lemma_id": "H7971",
+      "citation_form": "שָׁלַח",
+      "pos": "Verb",
+      "frequency": 847,
+      "oshb_codes": [
+        "7971"
+      ],
+      "meaning_text": "to send away, for, or out (in a great variety of applications)",
+      "defs": [
+        "send"
+      ],
+      "usage": "× any wise, appoint, bring (on the way), cast (away, out), conduct, × earnestly, forsake, give (up), grow long, lay, leave, let depart (down, go, loose), push away, put (away, forth, in, out), reach forth, send (away, forth, out), set, shoot (forth, out), sow, spread, stretch forth (out).",
+      "source": "a primitive root;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 59,
+      "lemma_id": "H2009",
+      "citation_form": "הִנֵּה",
+      "pos": "Particle",
+      "frequency": 843,
+      "oshb_codes": [
+        "2009"
+      ],
+      "meaning_text": "lo!",
+      "defs": [
+        "lo!"
+      ],
+      "usage": "behold, lo, see.",
+      "source": "prolongation for 2005;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 60,
+      "lemma_id": "H4191",
+      "citation_form": "מוּת",
+      "pos": "Verb",
+      "frequency": 839,
+      "oshb_codes": [
+        "4191"
+      ],
+      "meaning_text": "to die (literally or figuratively); causatively, to kill",
+      "defs": [
+        "die",
+        "kill"
+      ],
+      "usage": "× at all, × crying, (be) dead (body, man, one), (put to, worthy of) death, destroy(-er), (cause to, be like to, must) die, kill, necro(-mancer), × must needs, slay, × surely, × very suddenly, × in (no) wise.",
+      "source": "a primitive root;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 61,
+      "lemma_id": "H8033",
+      "citation_form": "שָׁם",
+      "pos": "Adverb",
+      "frequency": 835,
+      "oshb_codes": [
+        "8033"
+      ],
+      "meaning_text": "there (transferring to time) then; often thither, or thence",
+      "defs": [
+        "there",
+        "then",
+        "thither",
+        "thence"
+      ],
+      "usage": "in it,   thence, there (-in,   of,   out),   thither,   whither.",
+      "source": "a primitive particle (rather from the relative pronoun, 834);",
+      "curated_gloss": null
+    },
+    {
+      "rank": 62,
+      "lemma_id": "H3063",
+      "citation_form": "יְהוּדָה",
+      "pos": "Noun",
+      "frequency": 819,
+      "oshb_codes": [
+        "3063"
+      ],
+      "meaning_text": "Jehudah (or Judah), the name of five Israelites; also of the tribe descended from the first, and of its territory",
+      "defs": [
+        "Jehudah"
+      ],
+      "usage": "Judah.",
+      "source": "from 3034; celebrated;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 63,
+      "lemma_id": "H398",
+      "citation_form": "אָכַל",
+      "pos": "Verb",
+      "frequency": 815,
+      "oshb_codes": [
+        "398"
+      ],
+      "meaning_text": "to eat (literally or figuratively)",
+      "defs": [
+        "eat"
+      ],
+      "usage": "× at all, burn up, consume, devour(-er, up), dine, eat(-er, up), feed (with), food, × freely, × in...wise(-deed, plenty), (lay) meat, × quite.",
+      "source": "a primitive root;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 64,
+      "lemma_id": "H5650",
+      "citation_form": "עֶבֶד",
+      "pos": "Noun",
+      "frequency": 803,
+      "oshb_codes": [
+        "5650"
+      ],
+      "meaning_text": "a servant",
+      "defs": [
+        "servant"
+      ],
+      "usage": "× bondage, bondman, (bond-) servant, (man-) servant.",
+      "source": "from 5647;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 65,
+      "lemma_id": "H369",
+      "citation_form": "אַיִן",
+      "pos": "Particle",
+      "frequency": 790,
+      "oshb_codes": [
+        "369"
+      ],
+      "meaning_text": "a nonentity; generally used as a negative particle",
+      "defs": [
+        "nonentity"
+      ],
+      "usage": "else, except, fail, (father-) less, be gone, in(-curable), neither, never, no (where), none, nor, (any, thing), not, nothing, to nought, past, un(-searchable), well-nigh, without. Compare",
+      "source": "as if from a primitive root meaning to be nothing or not exist;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 66,
+      "lemma_id": "H802",
+      "citation_form": "אִשָּׁה",
+      "pos": "Noun",
+      "frequency": 781,
+      "oshb_codes": [
+        "802"
+      ],
+      "meaning_text": "a woman",
+      "defs": [
+        "woman"
+      ],
+      "usage": "(adulter) ess, each, every, female, × many,   none, one,   together, wife, woman. Often unexpressed in English.",
+      "source": "feminine of 376 or 582; irregular plural, נָשִׁים;(used in the same wide sense as 582)",
+      "curated_gloss": null
+    },
+    {
+      "rank": 67,
+      "lemma_id": "H3651",
+      "citation_form": "כֵּן",
+      "pos": "Particle",
+      "frequency": 771,
+      "oshb_codes": [
+        "3651",
+        "3651 a",
+        "3651 b",
+        "3651 c"
+      ],
+      "meaning_text": "properly, set upright; hence (figuratively as adjective) just; but usually (as adverb or conjunction) rightly or so (in various applications to manner, time and relation; often with other particles)",
+      "defs": [
+        "set upright",
+        "just",
+        "rightly",
+        "so"
+      ],
+      "usage": "after that (this, -ward, -wards), as... as,   (for-) asmuch as yet,   be (for which) cause,   following, howbeit, in (the) like (manner, -wise), × the more, right, (even) so, state, straightway, such (thing), surely,   there (where) -fore, this, thus, true, well, × you.",
+      "source": "from 3559;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 68,
+      "lemma_id": "H1571",
+      "citation_form": "גַּם",
+      "pos": "Particle",
+      "frequency": 769,
+      "oshb_codes": [
+        "1571"
+      ],
+      "meaning_text": "properly, assemblage; used only adverbially also, even, yea, though; often repeated as correl. both...and",
+      "defs": [
+        "assemblage",
+        "also",
+        "even",
+        "yea",
+        "though",
+        "both",
+        "and"
+      ],
+      "usage": "again, alike, also, (so much) as (soon), both (so)...and, but, either...or, even, for all, (in) likewise (manner), moreover, nay...neither, one, then(-refore), though, what, with, yea.",
+      "source": "by contraction from an unused root meaning to gather;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 69,
+      "lemma_id": "H8147",
+      "citation_form": "שְׁנַיִם",
+      "pos": "Adjective",
+      "frequency": 769,
+      "oshb_codes": [
+        "8147"
+      ],
+      "meaning_text": "two; also (as ordinal) twofold",
+      "defs": [
+        "two",
+        "twofold"
+      ],
+      "usage": "both, couple, double, second, twain,   twelfth,   twelve,   twenty (sixscore) thousand, twice, two.",
+      "source": "dual of 8145; feminine שְׁתַּיִם;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 70,
+      "lemma_id": "H4872",
+      "citation_form": "מֹשֶׁה",
+      "pos": "Noun",
+      "frequency": 766,
+      "oshb_codes": [
+        "4872"
+      ],
+      "meaning_text": "Mosheh, the Israelite lawgiver",
+      "defs": [
+        "Mosheh"
+      ],
+      "usage": "Moses.",
+      "source": "from 4871; drawing out (of the water), i.e. rescued;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 71,
+      "lemma_id": "H5315",
+      "citation_form": "נֶפֶשׁ",
+      "pos": "Noun",
+      "frequency": 757,
+      "oshb_codes": [
+        "5315"
+      ],
+      "meaning_text": "properly, a breathing creature, i.e. animal of (abstractly) vitality; used very widely in a literal, accommodated or figurative sense (bodily or mental)",
+      "defs": [
+        "breathing creature",
+        "animal",
+        "vitality"
+      ],
+      "usage": "any, appetite, beast, body, breath, creature, × dead(-ly), desire, × (dis-) contented, × fish, ghost,   greedy, he, heart(-y), (hath, × jeopardy of) life (× in jeopardy), lust, man, me, mind, mortally, one, own, person, pleasure, (her-, him-, my-, thy-) self, them (your) -selves,   slay, soul,   tablet, they, thing, (× she) will, × would have it.",
+      "source": "from 5314;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 72,
+      "lemma_id": "H3548",
+      "citation_form": "כֹּהֵן",
+      "pos": "Noun",
+      "frequency": 750,
+      "oshb_codes": [
+        "3548"
+      ],
+      "meaning_text": "literally one officiating, a priest; also (by courtesy) an acting priest (although a layman)",
+      "defs": [
+        "officiating",
+        "priest",
+        "acting priest"
+      ],
+      "usage": "chief ruler, × own, priest, prince, principal officer.",
+      "source": "active participle of 3547;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 73,
+      "lemma_id": "H4100",
+      "citation_form": "מָה",
+      "pos": "Particle",
+      "frequency": 750,
+      "oshb_codes": [
+        "4100"
+      ],
+      "meaning_text": "properly, interrogative what? (including how? why? when?); but also exclamation, what! (including how!), or indefinitely what (including whatever, and even relatively, that which); often used with prefixes in various adverbial or conjunctive senses",
+      "defs": [
+        "what?",
+        "how?",
+        "why?",
+        "when?",
+        "what!",
+        "how!",
+        "what",
+        "whatever",
+        "that which"
+      ],
+      "usage": "how (long, oft, (-soever)), (no-) thing, what (end, good, purpose, thing), whereby(-fore, -in, -to, -with), (for) why.",
+      "source": "or מַה; or מָ; or מַ; also מֶה; a primitive particle;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 74,
+      "lemma_id": "H428",
+      "citation_form": "אֵלֶּה",
+      "pos": "Pronoun",
+      "frequency": 747,
+      "oshb_codes": [
+        "428"
+      ],
+      "meaning_text": "these or those",
+      "defs": [
+        "these",
+        "those"
+      ],
+      "usage": "an-(the) other; one sort, so, some, such, them, these (same), they, this, those, thus, which, who(-m).",
+      "source": "prolonged from 411;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 75,
+      "lemma_id": "H7121",
+      "citation_form": "קָרָא",
+      "pos": "Verb",
+      "frequency": 739,
+      "oshb_codes": [
+        "7121"
+      ],
+      "meaning_text": "to call out to (i.e. properly, address by name, but used in a wide variety of applications)",
+      "defs": [
+        "call out to"
+      ],
+      "usage": "bewray (self), that are bidden, call (for, forth, self, upon), cry (unto), (be) famous, guest, invite, mention, (give) name, preach, (make) proclaim(-ation), pronounce, publish, read, renowned, say.",
+      "source": "a primitive root (rather identical with 7122 through the idea of accosting a person met);",
+      "curated_gloss": null
+    },
+    {
+      "rank": 76,
+      "lemma_id": "H408",
+      "citation_form": "אַל",
+      "pos": "Particle",
+      "frequency": 725,
+      "oshb_codes": [
+        "408"
+      ],
+      "meaning_text": "not (the qualified negation, used as a deprecative); once (Job 24:25) as a noun, nothing",
+      "defs": [
+        "not",
+        "nothing"
+      ],
+      "usage": "nay, neither, + never, no, nor, not, nothing (worth), rather than.",
+      "source": "a negative particle (akin to 3808);",
+      "curated_gloss": null
+    },
+    {
+      "rank": 77,
+      "lemma_id": "H310",
+      "citation_form": "אַחַר",
+      "pos": "Preposition",
+      "frequency": 718,
+      "oshb_codes": [
+        "310 a",
+        "310 b"
+      ],
+      "meaning_text": "properly, the hind part; generally used as an adverb or conjunction, after (in various senses)",
+      "defs": [
+        "the hind part",
+        "after"
+      ],
+      "usage": "after (that, -ward), again, at, away from, back (from, -side), behind, beside, by, follow (after, -ing), forasmuch, from, hereafter, hinder end, + out (over) live, + persecute, posterity, pursuing, remnant, seeing, since, thence(-forth), when, with.",
+      "source": "from 309;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 78,
+      "lemma_id": "H1870",
+      "citation_form": "דֶּרֶךְ",
+      "pos": "Noun",
+      "frequency": 712,
+      "oshb_codes": [
+        "1870"
+      ],
+      "meaning_text": "a road (as trodden); figuratively, a course of life or mode of action, often adverb",
+      "defs": [
+        "road",
+        "trodden",
+        "course",
+        "mode"
+      ],
+      "usage": "along, away, because of,   by, conversation, custom, (east-) ward, journey, manner, passenger, through, toward, (high-) (path-) way(-side), whither(-soever).",
+      "source": "from 1869;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 79,
+      "lemma_id": "H7451",
+      "citation_form": "רַע",
+      "pos": "Adjective",
+      "frequency": 666,
+      "oshb_codes": [
+        "7451",
+        "7451 a",
+        "7451 b",
+        "7451 c"
+      ],
+      "meaning_text": "bad or (as noun) evil (natural or moral)",
+      "defs": [
+        "bad",
+        "evil"
+      ],
+      "usage": "adversity, affliction, bad, calamity,   displease(-ure), distress, evil((-favouredness), man, thing),   exceedingly, × great, grief(-vous), harm, heavy, hurt(-ful), ill (favoured),   mark, mischief(-vous), misery, naught(-ty), noisome,   not please, sad(-ly), sore, sorrow, trouble, vex, wicked(-ly, -ness, one), worse(-st), wretchedness, wrong. (Incl. feminine raaah; as adjective or noun.).",
+      "source": "from 7489;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 80,
+      "lemma_id": "F-i",
+      "citation_form": "הֲ",
+      "pos": "Interrogative particle",
+      "frequency": 662,
+      "oshb_codes": [
+        "i"
+      ],
+      "defs": [
+        "(marks a yes/no question)"
+      ],
+      "meaning_text": null,
+      "usage": null,
+      "source": "hand-typed function-word gloss, not from Strong's",
+      "curated_gloss": null
+    },
+    {
+      "rank": 81,
+      "lemma_id": "H5375",
+      "citation_form": "נָשָׂא",
+      "pos": "Verb",
+      "frequency": 654,
+      "oshb_codes": [
+        "5375"
+      ],
+      "meaning_text": "to lift, in a great variety of applications, literal and figurative, absolute and relative",
+      "defs": [
+        "lift"
+      ],
+      "usage": "accept, advance, arise, (able to, (armor), suffer to) bear(-er, up), bring (forth), burn, carry (away), cast, contain, desire, ease, exact, exalt (self), extol, fetch, forgive, furnish, further, give, go on, help, high, hold up, honorable (  man), lade, lay, lift (self) up, lofty, marry, magnify, × needs, obtain, pardon, raise (up), receive, regard, respect, set (up), spare, stir up,   swear, take (away, up), × utterly, wear, yield.",
+      "source": "or נָסָה; (Psalm 4:6 [7]), a primitive root;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 82,
+      "lemma_id": "H3389",
+      "citation_form": "יְרוּשָׁלִַ͏ם",
+      "pos": "Noun",
+      "frequency": 643,
+      "oshb_codes": [
+        "3389"
+      ],
+      "meaning_text": "Jerushalaim or Jerushalem, the capital city of Palestine",
+      "defs": [
+        "Jerushalaim",
+        "Jerushalem"
+      ],
+      "usage": "Jerusalem.",
+      "source": "rarely יְרוּשָׁלַיִם; a dual (in allusion to its two main hills (the true pointing, at least of the former reading, seems to be that of 3390)); probably from (the passive participle of) 3384 and 7999; founded peaceful;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 83,
+      "lemma_id": "H4714",
+      "citation_form": "מִצְרַיִם",
+      "pos": "Noun",
+      "frequency": 635,
+      "oshb_codes": [
+        "4714"
+      ],
+      "meaning_text": "Mitsrajim, i.e. Upper and Lower Egypt",
+      "defs": [
+        "Mitsrajim"
+      ],
+      "usage": "Egypt, Egyptians, Mizraim.",
+      "source": "dual of 4693;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 84,
+      "lemma_id": "H251",
+      "citation_form": "אָח",
+      "pos": "Noun",
+      "frequency": 630,
+      "oshb_codes": [
+        "251"
+      ],
+      "meaning_text": "a brother (used in the widest sense of literal relationship and metaphorical affinity or resemblance [like 1])",
+      "defs": [
+        "brother"
+      ],
+      "usage": "another, brother(-ly); kindred, like, other. Compare also the proper names beginning with 'Ah-' or 'Ahi-'.",
+      "source": "a primitive word;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 85,
+      "lemma_id": "H6965",
+      "citation_form": "קוּם",
+      "pos": "Verb",
+      "frequency": 628,
+      "oshb_codes": [
+        "6965 a",
+        "6965 b"
+      ],
+      "meaning_text": "to rise (in various applications, literal, figurative, intensive and causative)",
+      "defs": [
+        "rise"
+      ],
+      "usage": "abide, accomplish, × be clearer, confirm, continue, decree, × be dim, endure, × enemy, enjoin, get up, make good, help, hold, (help to) lift up (again), make, × but newly, ordain, perform, pitch, raise (up), rear (up), remain, (a-) rise (up) (again, against), rouse up, set (up), (e-) stablish, (make to) stand (up), stir up, strengthen, succeed, (as-, make) sure(-ly), (be) up(-hold, -rising).",
+      "source": "a primitive root;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 86,
+      "lemma_id": "H2063",
+      "citation_form": "זֹאת",
+      "pos": "Pronoun",
+      "frequency": 605,
+      "oshb_codes": [
+        "2063"
+      ],
+      "meaning_text": "this (often used adverb)",
+      "defs": [
+        "this"
+      ],
+      "usage": "hereby (-in, -with), it, likewise, the one (other, same), she, so (much), such (deed), that, therefore, these, this (thing), thus.",
+      "source": "irregular feminine of 2088;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 87,
+      "lemma_id": "H7218",
+      "citation_form": "רֹאשׁ",
+      "pos": "Noun",
+      "frequency": 600,
+      "oshb_codes": [
+        "7218 a",
+        "7218 b"
+      ],
+      "meaning_text": "the head (as most easily shaken), whether literal or figurative (in many applications, of place, time, rank, itc.)",
+      "defs": [
+        "head"
+      ],
+      "usage": "band, beginning, captain, chapiter, chief(-est place, man, things), company, end, × every (man), excellent, first, forefront, (be-)head, height, (on) high(-est part, (priest)), × lead, × poor, principal, ruler, sum, top.",
+      "source": "from an unused root apparently meaning to shake;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 88,
+      "lemma_id": "H3820",
+      "citation_form": "לֵב",
+      "pos": "Noun",
+      "frequency": 596,
+      "oshb_codes": [
+        "3820",
+        "3820 a",
+        "3820 b"
+      ],
+      "meaning_text": "the heart; also used (figuratively) very widely for the feelings, the will and even the intellect; likewise for the centre of anything",
+      "defs": [
+        "heart",
+        "feelings",
+        "will",
+        "intellect",
+        "centre"
+      ],
+      "usage": "care for, comfortably, consent, × considered, courag(-eous), friend(-ly), ((broken-), (hard-), (merry-), (stiff-), (stout-), double) heart(-ed), × heed, × I, kindly, midst, mind(-ed), × regard(-ed), × themselves, × unawares, understanding, × well, willingly, wisdom.",
+      "source": "a form of 3824;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 89,
+      "lemma_id": "H1323",
+      "citation_form": "בַּת",
+      "pos": "Noun",
+      "frequency": 590,
+      "oshb_codes": [
+        "1323"
+      ],
+      "meaning_text": "a daughter (used in the same wide sense as other terms of relationship, literally and figuratively)",
+      "defs": [
+        "daughter"
+      ],
+      "usage": "apple (of the eye), branch, company, daughter, × first, × old,   owl, town, village.",
+      "source": "from 1129 (as feminine of 1121);",
+      "curated_gloss": null
+    },
+    {
+      "rank": 90,
+      "lemma_id": "H7760",
+      "citation_form": "שׂוּם",
+      "pos": "Verb",
+      "frequency": 586,
+      "oshb_codes": [
+        "7760 a",
+        "7760 b"
+      ],
+      "meaning_text": "to put (used in a great variety of applications, literal, figurative, inferentially, and elliptically)",
+      "defs": [
+        "put"
+      ],
+      "usage": "× any wise, appoint, bring, call (a name), care, cast in, change, charge, commit, consider, convey, determine,   disguise, dispose, do, get, give, heap up, hold, impute, lay (down, up), leave, look, make (out), mark,   name, × on, ordain, order,   paint, place, preserve, purpose, put (on),   regard, rehearse, reward, (cause to) set (on, up), shew,   stedfastly, take, × tell,   tread down, (over-)turn, × wholly, work.",
+      "source": "or שִׂים; a primitive root;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 91,
+      "lemma_id": "H3967",
+      "citation_form": "מֵאָה",
+      "pos": "Adjective",
+      "frequency": 583,
+      "oshb_codes": [
+        "3967"
+      ],
+      "meaning_text": "a hundred; also as a multiplicative and a fraction",
+      "defs": [
+        "hundred"
+      ],
+      "usage": "hundred((-fold), -th),   sixscore.",
+      "source": "or מֵאיָה; properly, a primitive numeral",
+      "curated_gloss": null
+    },
+    {
+      "rank": 92,
+      "lemma_id": "H4325",
+      "citation_form": "מַיִם",
+      "pos": "Noun",
+      "frequency": 582,
+      "oshb_codes": [
+        "4325"
+      ],
+      "meaning_text": "water; figuratively, juice; by euphemism, urine, semen",
+      "defs": [
+        "water",
+        "juice",
+        "urine",
+        "semen"
+      ],
+      "usage": "piss, wasting, water(-ing, (-course, -flood, -spring)).",
+      "source": "dual of a primitive noun (but used in a singular sense);",
+      "curated_gloss": null
+    },
+    {
+      "rank": 93,
+      "lemma_id": "H3541",
+      "citation_form": "כֹּה",
+      "pos": "Adverb",
+      "frequency": 577,
+      "oshb_codes": [
+        "3541"
+      ],
+      "meaning_text": "properly, like this, i.e. by implication, (of manner) thus (or so); also (of place) here (or hither); or (of time) now",
+      "defs": [
+        "like this",
+        "thus",
+        "so",
+        "here",
+        "hither",
+        "now"
+      ],
+      "usage": "also, here,   hitherto, like, on the other side, so (and much), such, on that manner, (on) this (manner, side, way, way and that way),   mean while, yonder.",
+      "source": "from the prefix k and 1931;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 94,
+      "lemma_id": "H1471",
+      "citation_form": "גּוֹי",
+      "pos": "Noun",
+      "frequency": 567,
+      "oshb_codes": [
+        "1471 a",
+        "1471 b"
+      ],
+      "meaning_text": "a foreign nation; hence, a Gentile; also (figuratively) a troop of animals, or a flight of locusts",
+      "defs": [
+        "nation",
+        "a Gentile",
+        "troop",
+        "flight"
+      ],
+      "usage": "Gentile, heathen, nation, people.",
+      "source": "rarely (shortened) גֹּי; apparently from the same root as 1465 (in the sense of massing);",
+      "curated_gloss": null
+    },
+    {
+      "rank": 95,
+      "lemma_id": "H1992",
+      "citation_form": "הֵם",
+      "pos": "Pronoun",
+      "frequency": 566,
+      "oshb_codes": [
+        "1992"
+      ],
+      "meaning_text": "they (only used when emphatic)",
+      "defs": [
+        "they"
+      ],
+      "usage": "it, like, × (how, so) many (soever, more as) they (be), (the) same, × so, × such, their, them, these, they, those, which, who, whom, withal, ye.",
+      "source": "or (prolonged) הֵמָּה; masculine plural from 1931;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 96,
+      "lemma_id": "H2896",
+      "citation_form": "טוֹב",
+      "pos": "Adjective",
+      "frequency": 565,
+      "oshb_codes": [
+        "2896 a",
+        "2896 b",
+        "2896 c"
+      ],
+      "meaning_text": "good (as an adjective) in the widest sense; used likewise as a noun, both in the masculine and the feminine, the singular and the plural (good, a good or good thing, a good man or woman; the good, goods or good things, good men or women), also as an adverb (well)",
+      "defs": [
+        "good"
+      ],
+      "usage": "beautiful, best, better, bountiful, cheerful, at ease, × fair (word), (be in) favour, fine, glad, good (deed, -lier, -liest, -ly, -ness, -s), graciously, joyful, kindly, kindness, liketh (best), loving, merry, × most, pleasant,   pleaseth, pleasure, precious, prosperity, ready, sweet, wealth, welfare, (be) well(-favoured).",
+      "source": "from 2895;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 97,
+      "lemma_id": "H5674",
+      "citation_form": "עָבַר",
+      "pos": "Verb",
+      "frequency": 562,
+      "oshb_codes": [
+        "5674 a",
+        "5674 b"
+      ],
+      "meaning_text": "to cross over; used very widely of any transition (literal or figurative; transitive, intransitive, intensive, causative); specifically, to cover (in copulation)",
+      "defs": [
+        "cross",
+        "transition",
+        "cover"
+      ],
+      "usage": "alienate, alter, × at all, beyond, bring (over, through), carry over, (over-) come (on, over), conduct (over), convey over, current, deliver, do away, enter, escape, fail, gender, get over, (make) go (away, beyond, by, forth, his way, in, on, over, through), have away (more), lay, meddle, overrun, make partition, (cause to, give, make to, over) pass(-age, along, away, beyond, by, -enger, on, out, over, through), (cause to, make)   proclaim(-amation), perish, provoke to anger, put away, rage,   raiser of taxes, remove, send over, set apart,   shave, cause to (make) sound, × speedily, × sweet smelling, take (away), (make to) transgress(-or), translate, turn away, (way-) faring man, be wrath.",
+      "source": "a primitive root;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 98,
+      "lemma_id": "H120",
+      "citation_form": "אָדָם",
+      "pos": "Noun",
+      "frequency": 552,
+      "oshb_codes": [
+        "120"
+      ],
+      "meaning_text": "ruddy i.e. a human being (an individual or the species, mankind, etc.)",
+      "defs": [
+        "ruddy",
+        "human being",
+        "mankind"
+      ],
+      "usage": "× another,   hypocrite,   common sort, × low, man (mean, of low degree), person.",
+      "source": "from 119;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 99,
+      "lemma_id": "H2022",
+      "citation_form": "הַר",
+      "pos": "Noun",
+      "frequency": 547,
+      "oshb_codes": [
+        "2022"
+      ],
+      "meaning_text": "a mountain or range of hills (sometimes used figuratively)",
+      "defs": [
+        "mountain",
+        "range"
+      ],
+      "usage": "hill (country), mount(-ain), × promotion.",
+      "source": "a shortened form of 2042;",
+      "curated_gloss": null
+    },
+    {
+      "rank": 100,
+      "lemma_id": "H1419",
+      "citation_form": "גָּדוֹל",
+      "pos": "Adjective",
+      "frequency": 530,
+      "oshb_codes": [
+        "1419 a",
+        "1419 b"
+      ],
+      "meaning_text": "great (in any sense); hence, older; also insolent",
+      "defs": [
+        "great",
+        "older",
+        "insolent"
+      ],
+      "usage": "aloud, elder(-est),   exceeding(-ly),   far, (man of) great (man, matter, thing,-er,-ness), high, long, loud, mighty, more, much, noble, proud thing, × sore, (×) very.",
+      "source": "or גָּדֹל; (shortened) from 1431;",
+      "curated_gloss": null
+    }
+  ]
+}

@@ -87,6 +87,24 @@ export function isDue(stored, now = new Date()) {
   return new Date(stored.due).getTime() <= now.getTime();
 }
 
+/** Deck entries flagged non-drillable (e.g. H853 'et, which has no English
+ *  translation and can't be recalled from a gloss) never enter the SRS
+ *  queue -- they're still "known" for readers/lessons, just never graded. */
+function drillableEntries(deck) {
+  return deck.filter((e) => e.drillable !== false);
+}
+
+// Ranks 1-25 of the deck are ~half function words (prepositions/particles/
+// conjunctions), which front-loads the hardest, most abstract material into
+// the exact moment there's the least context to decode it. Cap the standing
+// ratio of introduced function words to 1-in-6 -- computed cumulatively over
+// every card ever introduced, not per session, so it holds as a property of
+// the whole curriculum. A function word skipped today just waits for its
+// turn on a later day once enough content words have "earned" it; since
+// function words are well under 1-in-6 of the whole deck, nothing is ever
+// blocked forever.
+const FUNCTION_WORD_RATIO = 1 / 6;
+
 /**
  * Build the session queue.
  *
@@ -105,10 +123,11 @@ export function isDue(stored, now = new Date()) {
  * card in storage, so two decks sharing one cards object (vocab and parse)
  * get independent pacing budgets rather than silently competing for one.
  */
-export function buildQueue(deck, now = new Date(), keyFn = (e) => e.lemma_id) {
+export function buildQueue(rawDeck, now = new Date(), keyFn = (e) => e.lemma_id) {
   const state = load();
   const { dailyCap, newPerDay } = state.settings;
   const cards = state.cards;
+  const deck = drillableEntries(rawDeck);
   const deckKeys = new Set(deck.map(keyFn));
 
   const due = [];
@@ -125,10 +144,25 @@ export function buildQueue(deck, now = new Date(), keyFn = (e) => e.lemma_id) {
     dailyCap - due.length
   ));
 
+  let introducedTotal = 0;
+  let introducedFn = 0;
+  for (const entry of deck) {
+    if (cards[keyFn(entry)]) {
+      introducedTotal++;
+      if (entry.is_function_word) introducedFn++;
+    }
+  }
+
   const fresh = [];
   for (const entry of deck) {
     if (fresh.length >= newBudget) break;
-    if (!cards[keyFn(entry)]) fresh.push({ entry, card: null, isNew: true });
+    if (cards[keyFn(entry)]) continue;
+    if (entry.is_function_word && (introducedFn + 1) > (introducedTotal + 1) * FUNCTION_WORD_RATIO) {
+      continue; // defer to a later day, once more content words have been introduced
+    }
+    fresh.push({ entry, card: null, isNew: true });
+    introducedTotal++;
+    if (entry.is_function_word) introducedFn++;
   }
 
   const reviews = due.slice(0, Math.max(0, dailyCap - fresh.length));
@@ -155,8 +189,9 @@ function interleave(reviews, fresh) {
 
 /** Counts for the settings screen. Not shown during a drill -- no streaks, no
  *  progress bars to feel bad about (hard rule 5). */
-export function stats(deck, now = new Date(), keyFn = (e) => e.lemma_id) {
+export function stats(rawDeck, now = new Date(), keyFn = (e) => e.lemma_id) {
   const cards = load().cards;
+  const deck = drillableEntries(rawDeck);
   let seen = 0, learning = 0, review = 0, dueNow = 0;
   for (const entry of deck) {
     const c = cards[keyFn(entry)];

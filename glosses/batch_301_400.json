@@ -50,7 +50,8 @@
       "pos": "Preposition",
       "frequency": 150,
       "gloss": "in front of, opposite, before",
-      "reviewed": true
+      "reviewed": true,
+      "core_schema": "Facing something directly -- in front of, opposite, or (of people) in someone's presence."
     },
     {
       "rank": 306,
@@ -788,15 +789,6 @@
       "pos": "Verb",
       "frequency": 116,
       "gloss": "be heavy, be honored; make heavy, honor",
-      "reviewed": true
-    },
-    {
-      "rank": 388,
-      "lemma_id": "H4481",
-      "citation_form": "מִן",
-      "pos": "Preposition",
-      "frequency": 116,
-      "gloss": "from (Aramaic)",
       "reviewed": true
     },
     {
