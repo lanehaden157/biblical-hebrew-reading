@@ -82,6 +82,11 @@ function authHeaders(token) {
   };
 }
 
+// Fallback backoff when GitHub's response doesn't say when to retry (neither
+// Retry-After nor X-RateLimit-Reset present). 15 min errs conservative --
+// better to under-sync for a bit than to keep re-hammering a 401/403.
+const FALLBACK_BACKOFF_MS = 15 * 60 * 1000;
+
 async function apiFetch(path, token, init = {}) {
   const res = await fetch(`${API}${path}`, {
     ...init,
@@ -90,10 +95,25 @@ async function apiFetch(path, token, init = {}) {
   if (!res.ok) {
     let detail = '';
     try { detail = (await res.json()).message || ''; } catch { /* ignore */ }
-    if (res.status === 401) throw new Error('Token was rejected -- check it was copied correctly and hasn\'t expired.');
-    if (res.status === 403) throw new Error(`Forbidden (rate limit, or the token isn't scoped to Gists). ${detail}`);
-    if (res.status === 404) throw new Error('Gist not found -- it may have been deleted on GitHub.');
-    throw new Error(`GitHub API error ${res.status}: ${detail || res.statusText}`);
+    let message;
+    if (res.status === 401) message = 'Token was rejected -- check it was copied correctly and hasn\'t expired.';
+    else if (res.status === 403) message = `Forbidden (rate limit, or the token isn't scoped to Gists). ${detail}`;
+    else if (res.status === 404) message = 'Gist not found -- it may have been deleted on GitHub.';
+    else message = `GitHub API error ${res.status}: ${detail || res.statusText}`;
+    const err = new Error(message);
+    // 401/403 mean retrying right away won't help -- a bad/expired token or
+    // an exhausted rate limit are both still true 3 seconds (or one reload)
+    // later. Attach when it's actually worth trying again so syncNow() can
+    // stop auto-retrying until then, instead of re-failing (and re-spending
+    // quota) on every boot and background-flush in the meantime.
+    if (res.status === 401 || res.status === 403) {
+      const retryAfter = res.headers.get('Retry-After');
+      const reset = res.headers.get('X-RateLimit-Reset');
+      err.backoffUntil = retryAfter ? Date.now() + Number(retryAfter) * 1000
+        : reset ? Number(reset) * 1000
+        : Date.now() + FALLBACK_BACKOFF_MS;
+    }
+    throw err;
   }
   return res.json();
 }
@@ -166,6 +186,15 @@ function earlierDay(a, b) {
   return [a, b].filter(Boolean).sort()[0];
 }
 
+/** Whether there's anything worth writing back to the gist -- comparing only
+ *  `cards` (not the whole state) since settings are deliberately local-only,
+ *  see mergeStates' docstring. Boot-time syncNow() almost never has fresher
+ *  cards than what it just pulled, so this turns the everyday case into a
+ *  pull-only check instead of a pull+push pair. */
+function cardsEqual(a, b) {
+  return JSON.stringify(a || {}) === JSON.stringify(b || {});
+}
+
 /** Per-card merge -- see module docstring for why this isn't a whole-blob
  *  "newer wins". Settings are deliberately NOT merged: they're a per-device
  *  preference (sound, theme, daily cap), not progress, so the local
@@ -226,21 +255,27 @@ let inFlight = null;
  *  the one automatic pull-on-boot (see main.js) -- opening the app on a
  *  second device should pick up the first device's latest progress without
  *  waiting for that device to make a new change first. */
-export function syncNow() {
+export function syncNow({ force = false } = {}) {
   if (inFlight) return inFlight;
   const s = readSyncState();
   if (!s.token || !s.gistId) return Promise.resolve();
+  // Skip automatic attempts (boot, debounced save, background-flush) while
+  // backing off from a 401/403 -- only the explicit "Sync now" button
+  // (force: true) is worth spending a request to find out early.
+  if (!force && s.backoffUntil && Date.now() < s.backoffUntil) return Promise.resolve();
   inFlight = (async () => {
     writeSyncState({ syncing: true });
     try {
       const remote = await pullGist(s.token, s.gistId);
       const local = load();
       const merged = mergeStates(local, remote);
-      await pushGist(s.token, s.gistId, merged);
+      if (!cardsEqual(merged.cards, remote && remote.cards)) {
+        await pushGist(s.token, s.gistId, merged);
+      }
       update((state) => { Object.assign(state, merged); });
-      writeSyncState({ syncing: false, lastSyncedAt: new Date().toISOString(), lastError: null });
+      writeSyncState({ syncing: false, lastSyncedAt: new Date().toISOString(), lastError: null, backoffUntil: null });
     } catch (e) {
-      writeSyncState({ syncing: false, lastError: String(e.message || e) });
+      writeSyncState({ syncing: false, lastError: String(e.message || e), backoffUntil: e.backoffUntil || null });
       throw e;
     } finally {
       inFlight = null;

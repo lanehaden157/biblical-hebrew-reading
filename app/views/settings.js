@@ -255,7 +255,7 @@ function syncBlock(rerender) {
 
   wrap.appendChild(button('Sync now', async () => {
     try {
-      await sync.syncNow();
+      await sync.syncNow({ force: true });
     } catch (e) {
       connectError = String(e.message || e);
     }
