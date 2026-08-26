@@ -28,6 +28,7 @@
 import { update, today, load } from '../store.js';
 import { buildQueue, newCard, applyGrade, preview, GRADES } from '../srs.js';
 import * as feedback from '../feedback.js';
+import { translitFrag } from '../translit_display.js';
 
 const keyFn = (entry) => `parse:${entry.id}`;
 
@@ -159,7 +160,7 @@ function cardEl(item) {
     el.appendChild(hr());
     const t = document.createElement('p');
     t.className = 'card-translit';
-    t.textContent = entry.transliteration;
+    t.appendChild(translitFrag(entry.transliteration));
     el.appendChild(t);
   }
 
@@ -174,7 +175,7 @@ function cardEl(item) {
 
     const rootT = document.createElement('p');
     rootT.className = 'card-translit';
-    rootT.textContent = entry.root_transliteration;
+    rootT.appendChild(translitFrag(entry.root_transliteration));
     el.appendChild(rootT);
 
     const g = document.createElement('p');

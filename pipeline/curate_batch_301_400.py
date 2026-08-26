@@ -139,6 +139,11 @@ CORE_SCHEMA = {
     "H5048": "Facing something directly -- in front of, opposite, or (of people) in someone's presence.",
 }
 
+CONFUSABLE_WITH = {
+    "F-s": "Same job as 'asher (who, which, that) -- but she- is almost entirely poetry (Ecclesiastes, Song of Songs); you'll meet 'asher far more in your reading.",
+    "H3644": "A poetic-register twin of ke- (like, as) -- ke- is the one you'll drill constantly; kemo shows up more in poetry and Job.",
+}
+
 
 def main():
     with open(DRAFTS_PATH, encoding="utf-8") as f:
@@ -166,6 +171,8 @@ def main():
         }
         if lid in CORE_SCHEMA:
             entry["core_schema"] = CORE_SCHEMA[lid]
+        if lid in CONFUSABLE_WITH:
+            entry["confusable_with"] = CONFUSABLE_WITH[lid]
         entries.append(entry)
     entries.sort(key=lambda e: e["rank"])
 

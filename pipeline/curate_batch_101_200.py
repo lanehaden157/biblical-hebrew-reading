@@ -144,6 +144,10 @@ CORE_SCHEMA = {
     "H8478": "Under something -- literally (underneath) or by substitution (in its place, instead of).",
 }
 
+CONFUSABLE_WITH = {
+    "H2005": "Close to hineh (behold) in meaning, but skews toward the prophetic books (Jeremiah, Isaiah, Ezekiel) -- hineh is the one you'll meet constantly in narrative.",
+}
+
 
 def main():
     with open(DRAFTS_PATH, encoding="utf-8") as f:
@@ -171,6 +175,8 @@ def main():
         }
         if lid in CORE_SCHEMA:
             entry["core_schema"] = CORE_SCHEMA[lid]
+        if lid in CONFUSABLE_WITH:
+            entry["confusable_with"] = CONFUSABLE_WITH[lid]
         entries.append(entry)
     entries.sort(key=lambda e: e["rank"])
 

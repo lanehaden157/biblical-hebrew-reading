@@ -1,0 +1,223 @@
+{
+  "metadata": {
+    "generated": "2026-08-26T17:24:53.900579+00:00",
+    "group": 6,
+    "group_title": "Confusable words",
+    "source": "Jonah, Ruth, Joshua, Judges, 2 Kings, 1 Kings (WLC) -- word ids re-selected from already-verified data/function_word_examples.json entries",
+    "lesson_count": 3,
+    "example_count": 10
+  },
+  "lessons": [
+    {
+      "id": "el-vs-le",
+      "order": 1,
+      "title": "'el vs le- — “to” that isn't “to”",
+      "paragraphs": [
+        "Both 'el and le- can be glossed “to,” which makes them look interchangeable -- they aren't. 'el marks physical direction: motion toward a place, or a person spoken to. le- marks the dative/benefactive relationship -- who something is done for or given to -- and doubles as the marker on an infinitive (“to do” as a verb form, not a direction).",
+        "The structural tell is visible on the page, not just in meaning: 'el is always its own separate word, standing before whatever it points at. le- is never separate -- it fuses directly onto the front of the next word, the same way be- and ke- do."
+      ],
+      "examples": [
+        {
+          "ref": "Jonah.1.2",
+          "surface_form": "אֶל",
+          "transliteration": "'el",
+          "prefix_form": "",
+          "prefix_morphemes": [],
+          "base_form": "אֶל",
+          "suffix_form": "",
+          "suffix_kind": null,
+          "suffix_pgn": null,
+          "lemma_citation_form": "אֵל",
+          "lemma_transliteration": "'el",
+          "gloss": "to, toward",
+          "highlight": "base",
+          "note": "'el as its own word: physical direction -- go TO Nineveh."
+        },
+        {
+          "ref": "Ruth.1.15",
+          "surface_form": "אֶל",
+          "transliteration": "'el",
+          "prefix_form": "",
+          "prefix_morphemes": [],
+          "base_form": "אֶל",
+          "suffix_form": "",
+          "suffix_kind": null,
+          "suffix_pgn": null,
+          "lemma_citation_form": "אֵל",
+          "lemma_transliteration": "'el",
+          "gloss": "to, toward",
+          "highlight": "base",
+          "note": "'el again: “your sister-in-law has returned TO her people” -- still direction, not benefit."
+        },
+        {
+          "ref": "Josh.1.10",
+          "surface_form": "לֵאמֹֽר",
+          "transliteration": "le'mor",
+          "prefix_form": "לֵ",
+          "prefix_morphemes": [
+            {
+              "citation_form": "לְ",
+              "transliteration": "le",
+              "gloss": "to, for"
+            }
+          ],
+          "base_form": "אמֹֽר",
+          "suffix_form": "",
+          "suffix_kind": null,
+          "suffix_pgn": null,
+          "lemma_citation_form": "אָמַר",
+          "lemma_transliteration": "'amar",
+          "gloss": "say",
+          "highlight": "prefix",
+          "note": "le- fused onto “say”: le'mor, the standard formula introducing a quotation (“...saying”). A third job 'el never does -- marking an infinitive, not a direction or a person."
+        }
+      ]
+    },
+    {
+      "id": "im-vs-im",
+      "order": 2,
+      "title": "'im vs `im — one mark, unrelated words",
+      "paragraphs": [
+        "These are close to the same three letters in this app's ASCII scheme -- 'im and `im -- and mean completely unrelated things: 'im introduces a conditional (“if”), `im means “with.” The only difference is which mark opens the word: alef (') for “if”, ayin (`) for “with” -- colored differently throughout this app so they're easier to tell apart at a glance.",
+        "`im also has a written twin: 'et (אֵת) is a completely different-looking word that's read exactly the same way, “with.” The Vocab tab treats `im and 'et as one card, since drilling recall for two spellings of one idea doesn't test anything real -- but both spellings show up in real text, so the example below is 'et, not `im."
+      ],
+      "examples": [
+        {
+          "ref": "Judg.4.8",
+          "surface_form": "אִם",
+          "transliteration": "'im",
+          "prefix_form": "",
+          "prefix_morphemes": [],
+          "base_form": "אִם",
+          "suffix_form": "",
+          "suffix_kind": null,
+          "suffix_pgn": null,
+          "lemma_citation_form": "אִם",
+          "lemma_transliteration": "'im",
+          "gloss": "if",
+          "highlight": "base",
+          "note": "'im opening a conditional: “if you go with me, I will go.”"
+        },
+        {
+          "ref": "Ruth.2.4",
+          "surface_form": "עִמָּכֶם",
+          "transliteration": "`imakhem",
+          "prefix_form": "",
+          "prefix_morphemes": [],
+          "base_form": "עִמָּ",
+          "suffix_form": "כֶם",
+          "suffix_kind": "pronominal",
+          "suffix_pgn": {
+            "person": "2",
+            "gender": "m",
+            "number": "p"
+          },
+          "lemma_citation_form": "עִם",
+          "lemma_transliteration": "`im",
+          "gloss": "with",
+          "highlight": "base",
+          "note": "`im with a pronoun suffix: “the LORD be with you (all).” Same three consonants as 'im above, opened by the other mark."
+        },
+        {
+          "ref": "Ruth.1.10",
+          "surface_form": "אִתָּךְ",
+          "transliteration": "'itakh",
+          "prefix_form": "",
+          "prefix_morphemes": [],
+          "base_form": "אִתָּ",
+          "suffix_form": "ךְ",
+          "suffix_kind": "pronominal",
+          "suffix_pgn": {
+            "person": "2",
+            "gender": "f",
+            "number": "s"
+          },
+          "lemma_citation_form": "אֵת",
+          "lemma_transliteration": "'et",
+          "gloss": "with",
+          "highlight": "base",
+          "note": "'et, not `im -- but the same idea: “with you we will return to your people.” This is the alternate spelling folded into the `im card."
+        }
+      ]
+    },
+    {
+      "id": "yesh-vs-ayin",
+      "order": 3,
+      "title": "yesh vs 'ayin — existence and its opposite",
+      "paragraphs": [
+        "yesh and 'ayin are opposites: yesh asserts that something exists or is present (“there is”), 'ayin asserts its absence (“there is not”). Neither is a verb -- Hebrew doesn't need “to be” for simple existence; these two particles do the whole job by themselves.",
+        "Both combine with a pronoun suffix, or with le- + a pronoun, as the standard way to say “I have” / “I don't have”: yesh li (“there is to me”) is “I have”; 'eyn li (“there is not to me”) is “I don't have.”"
+      ],
+      "examples": [
+        {
+          "ref": "Judg.6.36",
+          "surface_form": "יֶשְׁךָ",
+          "transliteration": "yeshkha",
+          "prefix_form": "",
+          "prefix_morphemes": [],
+          "base_form": "יֶשְׁ",
+          "suffix_form": "ךָ",
+          "suffix_kind": "pronominal",
+          "suffix_pgn": {
+            "person": "2",
+            "gender": "m",
+            "number": "s"
+          },
+          "lemma_citation_form": "יֵשׁ",
+          "lemma_transliteration": "yesh",
+          "gloss": "there is, there are",
+          "highlight": "base",
+          "note": "yesh with a 2nd-person suffix: yeshkha, literally “there-is-to-you” -- “if you will save Israel.”"
+        },
+        {
+          "ref": "2Kgs.3.12",
+          "surface_form": "יֵשׁ",
+          "transliteration": "yesh",
+          "prefix_form": "",
+          "prefix_morphemes": [],
+          "base_form": "יֵשׁ",
+          "suffix_form": "",
+          "suffix_kind": null,
+          "suffix_pgn": null,
+          "lemma_citation_form": "יֵשׁ",
+          "lemma_transliteration": "yesh",
+          "gloss": "there is, there are",
+          "highlight": "base",
+          "note": "yesh on its own: “the word of the LORD IS with him” -- a plain assertion that something is the case."
+        },
+        {
+          "ref": "Judg.17.6",
+          "surface_form": "אֵין",
+          "transliteration": "'eyn",
+          "prefix_form": "",
+          "prefix_morphemes": [],
+          "base_form": "אֵין",
+          "suffix_form": "",
+          "suffix_kind": null,
+          "suffix_pgn": null,
+          "lemma_citation_form": "אַיִן",
+          "lemma_transliteration": "'ayin",
+          "gloss": "there is not, no",
+          "highlight": "base",
+          "note": "'ayin (here “ein”) asserting absence: “there was no king in Israel.”"
+        },
+        {
+          "ref": "1Kgs.5.18",
+          "surface_form": "אֵין",
+          "transliteration": "'eyn",
+          "prefix_form": "",
+          "prefix_morphemes": [],
+          "base_form": "אֵין",
+          "suffix_form": "",
+          "suffix_kind": null,
+          "suffix_pgn": null,
+          "lemma_citation_form": "אַיִן",
+          "lemma_transliteration": "'ayin",
+          "gloss": "there is not, no",
+          "highlight": "base",
+          "note": "'ayin again: “there is no adversary and no misfortune.”"
+        }
+      ]
+    }
+  ]
+}

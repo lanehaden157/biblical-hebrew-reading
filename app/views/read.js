@@ -24,6 +24,7 @@
  */
 
 import * as feedback from '../feedback.js';
+import { translitFrag } from '../translit_display.js';
 
 const openIds = new Set();
 let lastChapterKey = null;
@@ -108,7 +109,7 @@ function wordEl(word) {
   if (isOpen) {
     const t = document.createElement('span');
     t.className = 'reader-word-translit';
-    t.textContent = word.transliteration;
+    t.appendChild(translitFrag(word.transliteration));
     chip.appendChild(t);
 
     const g = document.createElement('span');

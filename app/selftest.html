@@ -92,6 +92,24 @@ async function run() {
   check(aramaic === 0, `no Aramaic entries remain (${aramaic} found)`);
   check(badFlags === 0, `is_function_word/drillable are booleans on every entry (${badFlags} bad)`);
 
+  // H854 ('et) is folded into H5973 (`im) -- both just mean "with" -- via
+  // build_vocab_deck.py's MERGED_LEMMAS. See merged_with/merged_into there.
+  const byLemma = Object.fromEntries(deck.map(e => [e.lemma_id, e]));
+  const primary = byLemma['H5973'], secondary = byLemma['H854'];
+  const mergeOk = primary && secondary
+    && primary.merged_with && primary.merged_with.lemma_id === 'H854'
+    && primary.merged_with.citation_form === secondary.citation_form
+    && secondary.merged_into === 'H5973'
+    && secondary.drillable === false
+    && primary.gloss === secondary.gloss;
+  check(mergeOk, 'H854 merges into H5973 (merged_with/merged_into agree, H854 non-drillable, glosses match)');
+
+  let badConfusable = 0;
+  for (const e of deck) {
+    if ('confusable_with' in e && (typeof e.confusable_with !== 'string' || !e.confusable_with.trim())) badConfusable++;
+  }
+  check(badConfusable === 0, `confusable_with, where present, is non-empty (${badConfusable} bad)`);
+
   const sorted = [...deck].sort((a, b) => a.rank - b.rank);
   let descending = true;
   for (let i = 1; i < sorted.length; i++) {

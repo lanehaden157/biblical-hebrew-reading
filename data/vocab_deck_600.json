@@ -63,6 +63,16 @@
       {
         "lemma_id": "H853",
         "reason": "direct-object marker, usually untranslated -- not recallable from a gloss"
+      },
+      {
+        "lemma_id": "H854",
+        "reason": "merged into H5973 (`im) -- both simply mean \"with\""
+      }
+    ],
+    "merged": [
+      {
+        "secondary": "H854",
+        "primary": "H5973"
       }
     ]
   },
@@ -625,7 +635,8 @@
       "frequency": 1070,
       "gloss": "if",
       "is_function_word": true,
-      "drillable": true
+      "drillable": true,
+      "confusable_with": "Looks almost identical to `im (\"with\", H5973) in transliteration -- only the alef/ayin mark differs. Unrelated meaning."
     },
     {
       "rank": 47,
@@ -637,7 +648,14 @@
       "frequency": 1049,
       "gloss": "with",
       "is_function_word": true,
-      "drillable": true
+      "drillable": true,
+      "confusable_with": "Looks almost identical to 'im (\"if\") in transliteration -- only the alef/ayin mark differs. Unrelated meaning.",
+      "merged_with": {
+        "lemma_id": "H854",
+        "citation_form": "אֵת",
+        "transliteration": "'et",
+        "frequency": 889
+      }
     },
     {
       "rank": 48,
@@ -721,7 +739,8 @@
       "frequency": 889,
       "gloss": "with",
       "is_function_word": true,
-      "drillable": true
+      "drillable": false,
+      "merged_into": "H5973"
     },
     {
       "rank": 55,
@@ -2031,7 +2050,8 @@
       "frequency": 318,
       "gloss": "behold, if",
       "is_function_word": true,
-      "drillable": true
+      "drillable": true,
+      "confusable_with": "Close to hineh (behold) in meaning, but skews toward the prophetic books (Jeremiah, Isaiah, Ezekiel) -- hineh is the one you'll meet constantly in narrative."
     },
     {
       "rank": 164,
@@ -3555,7 +3575,8 @@
       "frequency": 161,
       "gloss": "surely, only, but",
       "is_function_word": true,
-      "drillable": true
+      "drillable": true,
+      "confusable_with": "Close to raq (only, surely) in meaning, but 'akh leans more poetic/prophetic -- raq is the one you'll meet constantly in narrative."
     },
     {
       "rank": 291,
@@ -3928,7 +3949,8 @@
       "frequency": 142,
       "gloss": "that, which, who",
       "is_function_word": true,
-      "drillable": true
+      "drillable": true,
+      "confusable_with": "Same job as 'asher (who, which, that) -- but she- is almost entirely poetry (Ecclesiastes, Song of Songs); you'll meet 'asher far more in your reading."
     },
     {
       "rank": 322,
@@ -3952,7 +3974,8 @@
       "frequency": 142,
       "gloss": "like, as",
       "is_function_word": true,
-      "drillable": true
+      "drillable": true,
+      "confusable_with": "A poetic-register twin of ke- (like, as) -- ke- is the one you'll drill constantly; kemo shows up more in poetry and Job."
     },
     {
       "rank": 324,

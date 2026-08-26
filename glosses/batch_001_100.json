@@ -427,7 +427,8 @@
       "pos": "Conjunction",
       "frequency": 1070,
       "gloss": "if",
-      "reviewed": true
+      "reviewed": true,
+      "confusable_with": "Looks almost identical to `im (\"with\", H5973) in transliteration -- only the alef/ayin mark differs. Unrelated meaning."
     },
     {
       "rank": 47,
@@ -436,7 +437,8 @@
       "pos": "Preposition",
       "frequency": 1049,
       "gloss": "with",
-      "reviewed": true
+      "reviewed": true,
+      "confusable_with": "Looks almost identical to 'im (\"if\") in transliteration -- only the alef/ayin mark differs. Unrelated meaning."
     },
     {
       "rank": 48,

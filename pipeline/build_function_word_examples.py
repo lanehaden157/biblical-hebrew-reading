@@ -659,6 +659,23 @@ def main():
             "examples": examples_out,
         })
 
+    # Fold a merged lemma's examples into its primary card (see
+    # build_vocab_deck.py's MERGED_LEMMAS -- H854/H5973 both mean "with").
+    # Both lemmas were still individually curated and corpus-verified above;
+    # this is a pure data step after the fact, not a curation shortcut, and
+    # it's what lets the merged card show real examples of both written forms.
+    by_lemma_out = {e["lemma_id"]: e for e in entries_out}
+    for secondary_id, entry in targets.items():
+        primary_id = entry.get("merged_into")
+        if not primary_id:
+            continue
+        primary_out = by_lemma_out.get(primary_id)
+        secondary_out = by_lemma_out.get(secondary_id)
+        if primary_out is None or secondary_out is None:
+            sys.exit(f"merge: {secondary_id} -> {primary_id} but one or both missing from built entries")
+        primary_out["examples"].extend(secondary_out["examples"])
+        entries_out.remove(secondary_out)
+
     out = {
         "metadata": {
             "generated": datetime.now(timezone.utc).isoformat(),

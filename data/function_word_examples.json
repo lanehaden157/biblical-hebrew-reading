@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated": "2026-08-26T03:47:24.425174+00:00",
+    "generated": "2026-08-26T17:17:31.314148+00:00",
     "scope": "F-<letter> prefix morphemes plus Preposition/Conjunction/Particle/Definite article/Interrogative particle/Relative particle vocab entries",
     "example_count_rule": "max(TIER_TARGET.get(lemma_id, 3), comma-separated senses in the curated gloss)",
     "phrase_rule": "Hebrew is trimmed to the phrase matching the curated English gloss, not the full verse",
     "highlight_rule": "target_index marks the Hebrew word being taught; gloss_highlight marks the closest English word(s), with gloss_note explaining any non-obvious correspondence",
-    "lemma_count": 45,
+    "lemma_count": 44,
     "example_count": 250
   },
   "entries": [
@@ -1494,16 +1494,7 @@
           "gloss": "face to face the LORD spoke with you",
           "gloss_highlight": "with you",
           "gloss_note": null
-        }
-      ]
-    },
-    {
-      "lemma_id": "H854",
-      "citation_form": "אֵת",
-      "transliteration": "'et",
-      "full_gloss": "with",
-      "sense_count": 1,
-      "examples": [
+        },
         {
           "ref": "Gen.6.18",
           "surface_form": "אִתָּךְ",

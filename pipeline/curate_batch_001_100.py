@@ -137,6 +137,17 @@ CORE_SCHEMA = {
     "H310": "Behind in space is after in time -- same word, same image.",
 }
 
+# A curated one-liner for lemmas easily mixed up with another word already
+# in the deck -- either because they look alike in transliteration or
+# because they're near-synonyms with very different real-world frequency.
+# Not the same thing as CORE_SCHEMA (one word's own scattered senses) --
+# this is about two *different* words. Curriculum decision, not corpus
+# data -- see build_vocab_deck.py's docstring.
+CONFUSABLE_WITH = {
+    "H518": "Looks almost identical to `im (\"with\", H5973) in transliteration -- only the alef/ayin mark differs. Unrelated meaning.",
+    "H5973": "Looks almost identical to 'im (\"if\") in transliteration -- only the alef/ayin mark differs. Unrelated meaning.",
+}
+
 
 def main():
     with open(DRAFTS_PATH, encoding="utf-8") as f:
@@ -161,6 +172,8 @@ def main():
         }
         if lid in CORE_SCHEMA:
             entry["core_schema"] = CORE_SCHEMA[lid]
+        if lid in CONFUSABLE_WITH:
+            entry["confusable_with"] = CONFUSABLE_WITH[lid]
         entries.append(entry)
     entries.sort(key=lambda e: e["rank"])
 

@@ -15,6 +15,7 @@
 import { update, today, load } from '../store.js';
 import { buildQueue, newCard, applyGrade, preview, GRADES } from '../srs.js';
 import * as feedback from '../feedback.js';
+import { translitFrag } from '../translit_display.js';
 
 let queue = [];
 let pos = 0;
@@ -194,8 +195,27 @@ function cardEl(item, wex) {
     el.appendChild(hr());
     const t = document.createElement('p');
     t.className = 'card-translit';
-    t.textContent = entry.transliteration;
+    t.appendChild(translitFrag(entry.transliteration));
     el.appendChild(t);
+
+    // A card whose secondary form was folded in (see build_vocab_deck.py's
+    // MERGED_LEMMAS -- 'et/`im both just mean "with") shows that second
+    // written form here, at the same reveal stage as the primary's own
+    // transliteration, since recognizing either spelling is the actual goal.
+    if (entry.merged_with) {
+      const alt = document.createElement('p');
+      alt.className = 'card-merged';
+      const altHeb = document.createElement('span');
+      altHeb.className = 'heb';
+      altHeb.lang = 'he';
+      altHeb.textContent = entry.merged_with.citation_form;
+      alt.appendChild(document.createTextNode('also written '));
+      alt.appendChild(altHeb);
+      alt.appendChild(document.createTextNode(' ('));
+      alt.appendChild(translitFrag(entry.merged_with.transliteration));
+      alt.appendChild(document.createTextNode(') — same word for reading'));
+      el.appendChild(alt);
+    }
   }
 
   if (stage >= 2) {
@@ -218,6 +238,18 @@ function cardEl(item, wex) {
       s.className = 'card-schema';
       s.textContent = entry.core_schema;
       el.appendChild(s);
+    }
+
+    // A one-line warning that this word is easily mixed up with a
+    // *different* word already in the deck -- either they look alike in
+    // transliteration ('im/`im) or one is a much rarer synonym of the
+    // other (she-/'asher). See build_vocab_deck.py. A handful of lemmas
+    // have this; absent for everything else.
+    if (entry.confusable_with) {
+      const c = document.createElement('p');
+      c.className = 'card-confusable';
+      c.textContent = entry.confusable_with;
+      el.appendChild(c);
     }
 
     // Optional, doesn't block grading (see gradeRow) -- prepositions/
@@ -330,7 +362,7 @@ function cardBackEl(item, wex) {
 
     const translit = document.createElement('p');
     translit.className = 'example-translit';
-    translit.textContent = ex.phrase_transliteration;
+    translit.appendChild(translitFrag(ex.phrase_transliteration));
     exEl.appendChild(translit);
 
     const gloss = document.createElement('p');

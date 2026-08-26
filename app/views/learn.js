@@ -40,6 +40,8 @@
  * data/lessons_group*.json at runtime.
  */
 
+import { translitFrag } from '../translit_display.js';
+
 let selectedId = null;
 
 export function render(root, groups) {
@@ -141,7 +143,7 @@ function wordExampleCard(ex) {
 
   const t = document.createElement('p');
   t.className = 'card-translit';
-  t.textContent = ex.transliteration;
+  t.appendChild(translitFrag(ex.transliteration));
   card.appendChild(t);
 
   const cf = citationLine(ex);
@@ -188,7 +190,7 @@ function chainExampleCard(ex) {
 
   const t = document.createElement('p');
   t.className = 'card-translit';
-  t.textContent = ex.tokens.map((tok) => tok.transliteration).join(' ');
+  t.appendChild(translitFrag(ex.tokens.map((tok) => tok.transliteration).join(' ')));
   card.appendChild(t);
 
   const g = document.createElement('p');
@@ -212,7 +214,9 @@ function citationLine(word) {
   heb.textContent = word.lemma_citation_form;
   p.appendChild(document.createTextNode('dictionary form: '));
   p.appendChild(heb);
-  p.appendChild(document.createTextNode(` (${word.lemma_transliteration})`));
+  p.appendChild(document.createTextNode(' ('));
+  p.appendChild(translitFrag(word.lemma_transliteration));
+  p.appendChild(document.createTextNode(')'));
   return p;
 }
 

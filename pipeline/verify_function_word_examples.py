@@ -61,6 +61,12 @@ TARGET_POS = {
     "Definite article", "Interrogative particle", "Relative particle",
 }
 
+# {secondary_lemma_id: primary_lemma_id} -- mirrors build_vocab_deck.py's
+# MERGED_LEMMAS. The secondary isn't shipped as its own top-level entry;
+# its examples live under the primary's, so the per-example lemma check
+# below has to accept either lemma id for a merged primary's examples.
+EXPECTED_MERGED = {"H854": "H5973"}
+
 failures = []
 
 
@@ -79,6 +85,8 @@ def independent_target_set():
     out = {}
     for e in deck["entries"]:
         if e["lemma_id"].startswith("F-") or e["pos"] in TARGET_POS:
+            if e["lemma_id"] in EXPECTED_MERGED:
+                continue  # folded into its primary's entry, not shipped separately
             out[e["lemma_id"]] = e
     return out
 
@@ -177,8 +185,9 @@ def main():
             if vid != ex["ref"]:
                 fail(f"{tag}: word id {ex['word_id']!r} independently found in {vid}, not claimed ref {ex['ref']!r}")
                 continue
-            if not word_matches_lemma(target["lemma"].split("/"), lemma_id):
-                fail(f"{tag}: word id {ex['word_id']!r} lemma {target['lemma']!r} does not resolve to {lemma_id}")
+            valid_lemma_ids = {lemma_id} | {s for s, p in EXPECTED_MERGED.items() if p == lemma_id}
+            if not any(word_matches_lemma(target["lemma"].split("/"), lid) for lid in valid_lemma_ids):
+                fail(f"{tag}: word id {ex['word_id']!r} lemma {target['lemma']!r} does not resolve to any of {sorted(valid_lemma_ids)}")
 
             expected_surface = strip_cant(target["text"].replace("/", ""))
             if ex["surface_form"] != expected_surface:

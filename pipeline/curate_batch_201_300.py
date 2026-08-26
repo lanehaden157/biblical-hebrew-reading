@@ -150,6 +150,10 @@ CURATED = {
 # H4430 (melek, "king") is Aramaic (Ezra/Daniel) -- cut, see build_vocab_deck.py.
 EXCLUDED = {"H4430": "Aramaic (king, Ezra/Daniel)"}
 
+CONFUSABLE_WITH = {
+    "H389": "Close to raq (only, surely) in meaning, but 'akh leans more poetic/prophetic -- raq is the one you'll meet constantly in narrative.",
+}
+
 
 def main():
     with open(DRAFTS_PATH, encoding="utf-8") as f:
@@ -166,7 +170,7 @@ def main():
         lid = e["lemma_id"]
         if lid in EXCLUDED:
             continue
-        entries.append({
+        entry = {
             "rank": e["rank"],
             "lemma_id": lid,
             "citation_form": e["citation_form"],
@@ -174,7 +178,10 @@ def main():
             "frequency": e["frequency"],
             "gloss": CURATED[lid],
             "reviewed": True,
-        })
+        }
+        if lid in CONFUSABLE_WITH:
+            entry["confusable_with"] = CONFUSABLE_WITH[lid]
+        entries.append(entry)
     entries.sort(key=lambda e: e["rank"])
 
     out = {

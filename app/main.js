@@ -32,6 +32,7 @@ export const LESSON_GROUPS = [
   { key: 'group3', url: new URL('../data/lessons_group3.json', import.meta.url) },
   { key: 'group4', url: new URL('../data/lessons_group4.json', import.meta.url) },
   { key: 'group5', url: new URL('../data/lessons_group5.json', import.meta.url) },
+  { key: 'group6', url: new URL('../data/lessons_group6.json', import.meta.url) },
 ];
 
 // Reader chapters in reading order (CLAUDE.md's locked order: Jonah, then

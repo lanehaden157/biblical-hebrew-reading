@@ -17,6 +17,8 @@
   --again: #a32d2d;
   --again-bg: rgba(163, 45, 45, 0.10);
   --tap-highlight: rgba(0, 0, 0, 0.04);
+  --translit-alef: #3a6ea5;
+  --translit-ayin: #8a3f6b;
 
   --radius: 14px;
   --pad: 20px;
@@ -38,6 +40,8 @@
   --again: #f09595;
   --again-bg: rgba(240, 149, 149, 0.14);
   --tap-highlight: rgba(255, 255, 255, 0.05);
+  --translit-alef: #7fb3e8;
+  --translit-ayin: #d98fc0;
 }
 
 * { box-sizing: border-box; }
@@ -225,6 +229,12 @@ body {
   letter-spacing: 0.02em;
 }
 
+/* ' (alef) and ` (ayin) look nearly identical in monospace at this size --
+   colored so they read as different marks at a glance. Display-only: see
+   translit_display.js. */
+.translit-alef { color: var(--translit-alef); font-weight: 700; }
+.translit-ayin { color: var(--translit-ayin); font-weight: 700; }
+
 .card-gloss {
   font-size: 21px;
   margin: 0;
@@ -237,11 +247,24 @@ body {
   margin: 0;
 }
 
+.card-merged {
+  font-size: 14px;
+  color: var(--text-dim);
+  margin: 4px 0 0;
+}
+
 .card-schema {
   font-size: 14px;
   font-style: italic;
   color: var(--accent-2);
   max-width: 30ch;
+  margin: 4px 0 0;
+}
+
+.card-confusable {
+  font-size: 13px;
+  color: var(--again);
+  max-width: 32ch;
   margin: 4px 0 0;
 }
 

@@ -32,6 +32,21 @@ the existing "Pual/Hophal: recognition only" call):
   readers/lessons) but excludes it from the SRS queue. H853 ('et, the
   direct-object marker) has no English translation at all -- it cannot be
   recalled from a gloss, only recognized by exposure while reading.
+- MERGED_LEMMAS folds a second lemma into an existing card rather than
+  drilling it separately, for pairs that are functionally identical for
+  *reading* comprehension even though they're distinct Hebrew words -- H854
+  ('et) and H5973 (`im) both simply mean "with", and testing recall of two
+  cards for one concept doesn't teach anything a single card wouldn't.
+  Implemented via the same drillable=false mechanism as NON_DRILL_LEMMAS,
+  plus a `merged_with` pointer on the surviving card so the app can show
+  both written forms.
+
+A third, unrelated curated field also passes through here: `confusable_with`
+(curated per-lemma in curate_batch_*.py, next to core_schema) is a one-line
+note for a lemma easily mixed up with a *different* word already in the
+deck -- either they look alike in transliteration ('im/`im) or one is a
+much-rarer synonym of the other (she-/'asher). Distinct from a merge: both
+words are still drilled on their own cards, this just flags the mix-up risk.
 """
 import json
 import os
@@ -67,6 +82,16 @@ EXCLUDED_LEMMAS = {
 
 NON_DRILL_LEMMAS = {
     "H853": "direct-object marker, usually untranslated -- not recallable from a gloss",
+    "H854": "merged into H5973 (`im) -- both simply mean \"with\"",
+}
+
+# {secondary_lemma_id: primary_lemma_id}. The secondary must also appear in
+# NON_DRILL_LEMMAS above (a merge implies never drilling the secondary on
+# its own). Kept as a separate dict rather than folded into NON_DRILL_LEMMAS
+# because it drives an extra step (attaching merged_with to the primary),
+# not just a reason string.
+MERGED_LEMMAS = {
+    "H854": "H5973",
 }
 
 # Mirrors build_function_word_examples.py's TARGET_POS exactly, so "is this
@@ -110,7 +135,30 @@ def main():
         }
         if "core_schema" in e:
             out_entry["core_schema"] = e["core_schema"]
+        if "confusable_with" in e:
+            out_entry["confusable_with"] = e["confusable_with"]
         entries.append(out_entry)
+
+    by_lemma = {e["lemma_id"]: e for e in entries}
+    for secondary_id, primary_id in MERGED_LEMMAS.items():
+        if secondary_id not in NON_DRILL_LEMMAS:
+            raise SystemExit(f"MERGED_LEMMAS: {secondary_id} must also be in NON_DRILL_LEMMAS")
+        secondary = by_lemma.get(secondary_id)
+        primary = by_lemma.get(primary_id)
+        if secondary is None or primary is None:
+            raise SystemExit(f"MERGED_LEMMAS: {secondary_id} -> {primary_id} but one or both missing from the deck")
+        if primary["gloss"] != secondary["gloss"]:
+            raise SystemExit(
+                f"MERGED_LEMMAS: {secondary_id} ({secondary['gloss']!r}) and {primary_id} "
+                f"({primary['gloss']!r}) don't share a gloss -- merge assumption violated"
+            )
+        primary["merged_with"] = {
+            "lemma_id": secondary["lemma_id"],
+            "citation_form": secondary["citation_form"],
+            "transliteration": secondary["transliteration"],
+            "frequency": secondary["frequency"],
+        }
+        secondary["merged_into"] = primary_id
 
     out = {
         "metadata": {
@@ -119,6 +167,7 @@ def main():
             "source_batches": BATCH_FILES,
             "excluded": [{"lemma_id": k, "reason": v} for k, v in EXCLUDED_LEMMAS.items()],
             "non_drill": [{"lemma_id": k, "reason": v} for k, v in NON_DRILL_LEMMAS.items()],
+            "merged": [{"secondary": k, "primary": v} for k, v in MERGED_LEMMAS.items()],
         },
         "entries": entries,
     }

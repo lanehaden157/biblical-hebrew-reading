@@ -27,7 +27,10 @@ EXPECTED_EXCLUDED = {
     "H1768", "H4481", "H5922", "H3809", "H4430", "H3606", "H426", "H1934", "H560",
     "H5542", "H1077",
 }
-EXPECTED_NON_DRILL = {"H853"}
+EXPECTED_NON_DRILL = {"H853", "H854"}
+# {secondary_lemma_id: primary_lemma_id} -- see build_vocab_deck.py's
+# MERGED_LEMMAS docstring.
+EXPECTED_MERGED = {"H854": "H5973"}
 EXPECTED_FUNCTION_POS = {
     "Preposition", "Conjunction", "Particle",
     "Definite article", "Interrogative particle", "Relative particle",
@@ -38,6 +41,9 @@ EXPECTED_FUNCTION_POS = {
 EXPECTED_SCHEMA_LEMMAS = {
     "F-l", "F-b", "F-m", "H4480", "H5921", "H3588", "F-k", "H5704", "H310", "H8478", "H5048",
 }
+# Lemmas curated with a confusable_with note (see build_vocab_deck.py's
+# docstring and glosses/*.json).
+EXPECTED_CONFUSABLE_LEMMAS = {"H518", "H5973", "H2005", "H389", "F-s", "H3644"}
 
 
 def main():
@@ -78,6 +84,13 @@ def main():
             f"unexpected={sorted(schema_lemmas - EXPECTED_SCHEMA_LEMMAS)}"
         )
 
+    confusable_lemmas = {e["lemma_id"] for e in entries if e.get("confusable_with")}
+    if confusable_lemmas != EXPECTED_CONFUSABLE_LEMMAS:
+        failures.append(
+            f"confusable_with lemma set mismatch: missing={sorted(EXPECTED_CONFUSABLE_LEMMAS - confusable_lemmas)}, "
+            f"unexpected={sorted(confusable_lemmas - EXPECTED_CONFUSABLE_LEMMAS)}"
+        )
+
     for e in entries:
         tag = f"rank {e['rank']} ({e['lemma_id']})"
         if not e.get("citation_form") or not HEBREW_CHAR_RE.search(e["citation_form"]):
@@ -97,6 +110,31 @@ def main():
         expected_drillable = e["lemma_id"] not in EXPECTED_NON_DRILL
         if e.get("drillable") != expected_drillable:
             failures.append(f"{tag}: drillable={e.get('drillable')}, expected {expected_drillable}")
+
+    by_lemma = {e["lemma_id"]: e for e in entries}
+    for secondary_id, primary_id in EXPECTED_MERGED.items():
+        secondary = by_lemma.get(secondary_id)
+        primary = by_lemma.get(primary_id)
+        if secondary is None or primary is None:
+            failures.append(f"merge {secondary_id}->{primary_id}: one or both lemmas missing from deck")
+            continue
+        if secondary.get("merged_into") != primary_id:
+            failures.append(f"{secondary_id}: merged_into={secondary.get('merged_into')!r}, expected {primary_id!r}")
+        mw = primary.get("merged_with") or {}
+        if mw.get("lemma_id") != secondary_id:
+            failures.append(f"{primary_id}: merged_with.lemma_id={mw.get('lemma_id')!r}, expected {secondary_id!r}")
+        if mw.get("citation_form") != secondary.get("citation_form"):
+            failures.append(f"{primary_id}: merged_with.citation_form doesn't match {secondary_id}'s own citation_form")
+        if mw.get("transliteration") != secondary.get("transliteration"):
+            failures.append(f"{primary_id}: merged_with.transliteration doesn't match {secondary_id}'s own transliteration")
+        if primary["gloss"] != secondary["gloss"]:
+            failures.append(f"merge {secondary_id}->{primary_id}: glosses differ ({secondary['gloss']!r} vs {primary['gloss']!r})")
+    for e in entries:
+        lid = e["lemma_id"]
+        if lid not in EXPECTED_MERGED and "merged_into" in e:
+            failures.append(f"{lid}: unexpected merged_into field ({e['merged_into']!r})")
+        if lid not in EXPECTED_MERGED.values() and "merged_with" in e:
+            failures.append(f"{lid}: unexpected merged_with field")
 
     # Cross-check against the source batch files: every gloss-batch entry
     # (minus exclusions) must appear in the deck with an identical
@@ -125,6 +163,8 @@ def main():
                 failures.append(f"source_rank {src['rank']}: lemma_id mismatch vs {os.path.basename(path)}")
             if src.get("core_schema") and deck_e.get("core_schema") != src["core_schema"]:
                 failures.append(f"source_rank {src['rank']}: core_schema mismatch vs {os.path.basename(path)}")
+            if src.get("confusable_with") and deck_e.get("confusable_with") != src["confusable_with"]:
+                failures.append(f"source_rank {src['rank']}: confusable_with mismatch vs {os.path.basename(path)}")
 
     with open(os.path.join(HERE, "..", "scratch_verify_deck.txt"), "w", encoding="utf-8") as f:
         f.write(f"Checked {len(entries)} deck entries.\n")

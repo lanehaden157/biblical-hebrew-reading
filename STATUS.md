@@ -187,9 +187,31 @@ baseline 3. 213 → 250 examples. Caught one bad target word id (H3651/ken in Jo
 had grabbed the neighboring pronoun "hu" by mistake) via the build script's own lemma-match
 check, not by eye.
 
+## Phase 5: particle curriculum, contrast pairs (brainstorm outcome)
+
+Corpus-frequency check first, not flashcards: most "contrast pairs" turned out to be a
+register split, not a real confusion (she- is 91% poetry vs 'asher's 74% prose; similar
+for hen/hineh, 'akh/raq, kemo/ke-). Built four things instead of a cloze drill (deferred):
+
+- **Merged 'et (H854) into `im (H5973)** — both just mean "with"; drilling two cards for
+  one idea taught nothing real. `build_vocab_deck.py`'s new `MERGED_LEMMAS` marks H854
+  `drillable: false` and attaches a `merged_with` pointer to H5973's card; the vocab card
+  shows both written forms. `build_function_word_examples.py` folds H854's 5 examples into
+  H5973's, so the merged card ships 10. 45 → 44 shipped function-word-example lemmas.
+- **`confusable_with`** — a one-line curated note (same mechanism as `core_schema`) on 6
+  lemmas: the notation-collision pair ('im "if" / `im "with", H518/H5973) and 4 poetry-
+  register warnings (F-s, H2005, H389, H3644).
+- **Alef/ayin now render in distinct colors** everywhere transliteration is shown
+  (`app/translit_display.js`'s `translitFrag`, wired into vocab/parse/read/learn) — display
+  only, the stored ASCII text is untouched so copy-paste still works.
+- **Learn tab group 6** ("Confusable words", `build_lessons_group6.py`) — the two pairs
+  with real grammatical content, not just a register warning: 'el vs le- (direction vs
+  dative), 'im vs `im vs 'et (ties into the merge above), yesh vs 'ayin (existence vs
+  negation). Reuses group 1's `decompose()`; word ids re-selected from already-verified
+  tier-A/B corpus picks, not fresh curation.
+
 ## Next
 
-Contrast-pair particles (the 19 above, paired up — 'el vs le-, 'et vs `im, etc.) — Lane
-wants to brainstorm the format more before building (flashcards may not fit). Learn tab's
-5-group concept list is fully built; further groups are new, unscoped work.
-Tiers 3–4 (weak verbs, derived stems) not yet scoped. Reader goes to Ruth next.
+Learn tab's 6-group list is fully built; further groups are new, unscoped work. Cloze
+particle drill still deferred. Tiers 3–4 (weak verbs, derived stems) not yet scoped.
+Reader goes to Ruth next.

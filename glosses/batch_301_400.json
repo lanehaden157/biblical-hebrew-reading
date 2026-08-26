@@ -213,7 +213,8 @@
       "pos": "Relative particle",
       "frequency": 142,
       "gloss": "that, which, who",
-      "reviewed": true
+      "reviewed": true,
+      "confusable_with": "Same job as 'asher (who, which, that) -- but she- is almost entirely poetry (Ecclesiastes, Song of Songs); you'll meet 'asher far more in your reading."
     },
     {
       "rank": 324,
@@ -231,7 +232,8 @@
       "pos": "Preposition",
       "frequency": 142,
       "gloss": "like, as",
-      "reviewed": true
+      "reviewed": true,
+      "confusable_with": "A poetic-register twin of ke- (like, as) -- ke- is the one you'll drill constantly; kemo shows up more in poetry and Job."
     },
     {
       "rank": 326,
