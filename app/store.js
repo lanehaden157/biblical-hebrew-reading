@@ -77,6 +77,15 @@ let sessionBaseline = null;
 let onSave = () => {};
 export function setSyncHook(fn) { onSave = fn; }
 
+// Separate from onSave: a normal save should only ever *merge* with a synced
+// remote (see sync.js), but resetAll() below needs the remote copy wiped
+// too, not merged with -- otherwise the very next sync (automatic or the
+// "Sync now" button) pulls the old cards back in, since a per-card merge
+// always prefers whichever side has more review activity, and empty loses
+// every time. main.js wires this to sync.js's force-push-the-wipe path.
+let onReset = () => {};
+export function setResetHook(fn) { onReset = fn; }
+
 export function load() {
   if (cache) return cache;
   let raw = null;
@@ -183,6 +192,7 @@ export function resetAll() {
   // button must never produce.
   sessionBaseline = {};
   save();
+  onReset();
   return cache;
 }
 

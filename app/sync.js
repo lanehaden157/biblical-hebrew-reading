@@ -286,6 +286,33 @@ export function syncNow({ force = false } = {}) {
 
 let debounceTimer = null;
 
+/** Overwrite the gist with local state as-is -- no pull, no merge. The one
+ *  case a normal syncNow() must never handle: right after resetAll(), local
+ *  is intentionally empty, and mergeStates() has no way to tell "empty on
+ *  purpose" from "empty because this device hasn't loaded anything yet" --
+ *  it always prefers whichever side has more review activity, so a plain
+ *  sync would pull the pre-reset cards straight back in. Shares the same
+ *  `inFlight` slot as syncNow() so a "Sync now" click racing this force-push
+ *  awaits it instead of pulling stale (pre-reset) remote data out from under
+ *  it. No-ops when sync was never configured, same as scheduleSync(). */
+export function pushReset() {
+  const s = readSyncState();
+  if (!s.token || !s.gistId) return Promise.resolve();
+  if (debounceTimer) { clearTimeout(debounceTimer); debounceTimer = null; }
+  inFlight = (async () => {
+    writeSyncState({ syncing: true });
+    try {
+      await pushGist(s.token, s.gistId, load());
+      writeSyncState({ syncing: false, lastSyncedAt: new Date().toISOString(), lastError: null, backoffUntil: null });
+    } catch (e) {
+      writeSyncState({ syncing: false, lastError: String(e.message || e), backoffUntil: e.backoffUntil || null });
+    } finally {
+      inFlight = null;
+    }
+  })();
+  return inFlight;
+}
+
 /** Called from store.js on every save() (via the hook main.js wires up at
  *  boot) -- debounced so a burst of grades in one review session produces
  *  one push, not one per card. No-ops entirely when sync isn't configured,

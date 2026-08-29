@@ -236,6 +236,7 @@ function fail(err) {
 async function boot() {
   theme.init();
   store.setSyncHook(sync.scheduleSync);
+  store.setResetHook(sync.pushReset);
   vocab.setRerender(rerender);
   parseView.setRerender(rerender);
   readView.setRerender(rerender);
