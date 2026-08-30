@@ -43,10 +43,12 @@
  */
 import { load, update, SCHEMA } from './store.js';
 
-const SYNC_KEY = 'hebrew:sync:v1';
-const GIST_FILENAME = 'hebrew-reading-progress.json';
+// Exported so app/browse.js's read-only "peek remote" diagnostic can talk to
+// the same gist without redeclaring these and risking drift.
+export const SYNC_KEY = 'hebrew:sync:v1';
+export const GIST_FILENAME = 'hebrew-reading-progress.json';
+export const API = 'https://api.github.com';
 const GIST_DESCRIPTION = 'Biblical Hebrew reading app -- progress sync (do not edit manually)';
-const API = 'https://api.github.com';
 const DEBOUNCE_MS = 3000;
 
 function readSyncState() {

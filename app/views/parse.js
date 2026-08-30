@@ -99,7 +99,7 @@ export function render(root, deck) {
 
   const item = queue[pos];
   root.appendChild(headRow(item));
-  const card = cardEl(item);
+  const card = cardEl(item, stage);
   root.appendChild(card);
   if (stage === 2) root.appendChild(gradeRow(item, deck));
 }
@@ -123,10 +123,16 @@ function headRow(item) {
   return head;
 }
 
-function cardEl(item) {
+// stage is an explicit parameter (not read from the module-level `stage`
+// above) so app/browse.js can call this directly to preview any card at any
+// reveal stage without touching the live review queue at all -- the default
+// `advance` behavior below still drives the module variable for the real
+// review flow; opts.onAdvance lets a caller like browse.js substitute its
+// own local state instead.
+export function cardEl(item, stageArg, opts = {}) {
   const { entry } = item;
   const el = document.createElement('div');
-  el.className = 'card' + (stage === 2 ? ' is-open' : '');
+  el.className = 'card' + (stageArg === 2 ? ' is-open' : '');
   el.setAttribute('role', 'button');
   el.tabIndex = 0;
 
@@ -156,7 +162,7 @@ function cardEl(item) {
   if (entry.suffix_form) heb.appendChild(span(entry.suffix_form, 'card-heb-affix'));
   el.appendChild(heb);
 
-  if (stage >= 1) {
+  if (stageArg >= 1) {
     el.appendChild(hr());
     const t = document.createElement('p');
     t.className = 'card-translit';
@@ -164,7 +170,7 @@ function cardEl(item) {
     el.appendChild(t);
   }
 
-  if (stage >= 2) {
+  if (stageArg >= 2) {
     el.appendChild(hr());
 
     const root = document.createElement('p');
@@ -198,16 +204,16 @@ function cardEl(item) {
   } else {
     const hint = document.createElement('p');
     hint.className = 'card-hint';
-    hint.textContent = HINTS[stage];
+    hint.textContent = HINTS[stageArg];
     el.appendChild(hint);
   }
 
-  const advance = () => {
+  const advance = opts.onAdvance || (() => {
     if (stage >= 2) return;
     stage++;
     feedback.tap(stage);
     rerender();
-  };
+  });
   el.addEventListener('click', advance);
   el.addEventListener('keydown', (e) => {
     if (e.key === ' ' || e.key === 'Enter') { e.preventDefault(); advance(); }

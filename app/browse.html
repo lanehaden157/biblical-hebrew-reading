@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Browse &amp; diagnostics</title>
+<link rel="stylesheet" href="app.css">
+<style>
+  .view { padding: 20px; padding-bottom: 60px; }
+  .subtabs { display: flex; gap: 8px; margin: 0 0 18px; }
+  .subtab { flex: 1; }
+  .subtab.active { color: var(--text); border-color: var(--accent); }
+  .section { display: none; }
+  .section.active { display: block; }
+  .browse-controls { display: flex; gap: 8px; margin-bottom: 10px; }
+  .browse-controls .btn { flex: 1; }
+  .results { max-height: 260px; overflow-y: auto; border: 1px solid var(--border, #3333); border-radius: 8px; margin-bottom: 16px; }
+  .result-row { padding: 8px 10px; border-bottom: 1px solid var(--border, #3333); cursor: pointer; font-size: 14px; }
+  .result-row:last-child { border-bottom: 0; }
+  .result-row:hover, .result-row:active { background: var(--tap-highlight); }
+  .card-preview { max-width: 360px; margin-bottom: 10px; }
+  .stage-controls { display: flex; gap: 8px; margin-bottom: 20px; }
+  .diag-block { margin-bottom: 20px; }
+  .diag-block h2 { font-size: 15px; margin: 0 0 8px; }
+  .diag-row { font-family: ui-monospace, Menlo, Consolas, monospace; font-size: 12.5px; line-height: 1.7; }
+  .diag-row .k { color: var(--text-faint); }
+  .changes-list { list-style: none; margin: 0; padding: 0; }
+  .changes-list li { font-size: 13px; padding: 8px 0; border-bottom: 1px solid var(--border, #3333); }
+</style>
+</head>
+<body data-theme="light">
+<main class="view">
+  <h1 class="title">Browse &amp; diagnostics</h1>
+  <p class="note">A dev-only page, not linked from the app itself. Reading a card here never grades it, changes what's due, or writes to storage.</p>
+
+  <div class="subtabs">
+    <button class="btn subtab active" data-section="cards">Cards</button>
+    <button class="btn subtab" data-section="changes">Recent changes</button>
+    <button class="btn subtab" data-section="diagnostics">Diagnostics</button>
+  </div>
+
+  <section class="section active" id="section-cards"></section>
+  <section class="section" id="section-changes"></section>
+  <section class="section" id="section-diagnostics"></section>
+</main>
+
+<script type="module" src="browse.js"></script>
+</body>
+</html>

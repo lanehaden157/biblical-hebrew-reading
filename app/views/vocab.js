@@ -116,7 +116,7 @@ export function render(root, deck, examples) {
   perspective.className = 'flip-perspective';
   const flipCard = document.createElement('div');
   flipCard.className = 'flip-card';
-  flipCard.appendChild(flipped && wex ? cardBackEl(item, wex) : cardEl(item, wex));
+  flipCard.appendChild(flipped && wex ? cardBackEl(item, wex) : cardEl(item, wex, stage));
   perspective.appendChild(flipCard);
   root.appendChild(perspective);
 
@@ -178,10 +178,16 @@ function headRow(item) {
   return head;
 }
 
-function cardEl(item, wex) {
+// stage is an explicit parameter (not read from the module-level `stage`
+// above) so app/browse.js can call this directly to preview any card at any
+// reveal stage without touching the live review queue at all -- the default
+// `advance` behavior below still drives the module variable for the real
+// review flow; opts.onAdvance/opts.onExamples let a caller like browse.js
+// substitute its own local state instead.
+export function cardEl(item, wex, stageArg, opts = {}) {
   const { entry } = item;
   const el = document.createElement('div');
-  el.className = 'card' + (stage === 2 ? ' is-open' : '');
+  el.className = 'card' + (stageArg === 2 ? ' is-open' : '');
   el.setAttribute('role', 'button');
   el.tabIndex = 0;
 
@@ -191,7 +197,7 @@ function cardEl(item, wex) {
   heb.textContent = entry.citation_form;   // from /data, never a literal
   el.appendChild(heb);
 
-  if (stage >= 1) {
+  if (stageArg >= 1) {
     el.appendChild(hr());
     const t = document.createElement('p');
     t.className = 'card-translit';
@@ -218,7 +224,7 @@ function cardEl(item, wex) {
     }
   }
 
-  if (stage >= 2) {
+  if (stageArg >= 2) {
     const g = document.createElement('p');
     g.className = 'card-gloss';
     g.textContent = entry.gloss;
@@ -268,23 +274,23 @@ function cardEl(item, wex) {
       toggle.textContent = `See ${shown.length} example${shown.length === 1 ? '' : 's'} from the Bible`;
       toggle.addEventListener('click', (e) => {
         e.stopPropagation();
-        triggerFlip(true);
+        (opts.onExamples || (() => triggerFlip(true)))();
       });
       el.appendChild(toggle);
     }
   } else {
     const hint = document.createElement('p');
     hint.className = 'card-hint';
-    hint.textContent = HINTS[stage];
+    hint.textContent = HINTS[stageArg];
     el.appendChild(hint);
   }
 
-  const advance = () => {
+  const advance = opts.onAdvance || (() => {
     if (stage >= 2) return;
     stage++;
     feedback.tap(stage);
     rerender();
-  };
+  });
   el.addEventListener('click', advance);
   el.addEventListener('keydown', (e) => {
     if (e.key === ' ' || e.key === 'Enter') { e.preventDefault(); advance(); }
@@ -337,7 +343,9 @@ function glossFrag(gloss, highlight) {
   return frag;
 }
 
-function cardBackEl(item, wex) {
+// opts.onFlipBack lets app/browse.js substitute its own local flip state
+// instead of the live review flow's module-level `flipped`/rerender.
+export function cardBackEl(item, wex, opts = {}) {
   const el = document.createElement('div');
   el.className = 'card card-back';
   el.setAttribute('role', 'button');
@@ -392,13 +400,13 @@ function cardBackEl(item, wex) {
   back.className = 'flip-back-btn';
   back.type = 'button';
   back.textContent = '← Flip back to grade';
+  const flipBack = opts.onFlipBack || (() => triggerFlip(false));
   back.addEventListener('click', (e) => {
     e.stopPropagation();
-    triggerFlip(false);
+    flipBack();
   });
   el.appendChild(back);
 
-  const flipBack = () => triggerFlip(false);
   el.addEventListener('click', flipBack);
   el.addEventListener('keydown', (e) => {
     if (e.key === ' ' || e.key === 'Enter') { e.preventDefault(); flipBack(); }
