@@ -32,14 +32,32 @@ import { translitFrag } from '../translit_display.js';
 
 const keyFn = (entry) => `parse:${entry.id}`;
 
+// The parenthetical names the conjugation's actual job, not just its label --
+// "narrative"/"perfect"/"imperfect" alone are the traditional grammar terms
+// but don't say what the form does for a reader starting from zero. wayyiqtol
+// and weqatal specifically call out the leading "and": that vav isn't a
+// separate word glossed on its own line (see prefixGlossLine below, which
+// deliberately stays silent for these two) -- it's the very thing that turns
+// a plain yiqtol/qatal into this conjugation, so it belongs in the same
+// breath as the conjugation's name, not disconnected from it.
 const CONJ_NAMES = {
-  qatal: 'qatal (perfect)',
-  weqatal: 'weqatal (sequential perfect)',
-  wayyiqtol: 'wayyiqtol (narrative)',
-  yiqtol: 'yiqtol (imperfect)',
-  participle: 'participle',
-  infinitive_construct: 'infinitive construct',
+  qatal: 'qatal (completed action)',
+  weqatal: '"and" + qatal, continuing a sequence (weqatal)',
+  wayyiqtol: '"and then" + yiqtol, narrating what happened (wayyiqtol)',
+  yiqtol: 'yiqtol (incomplete/future action)',
+  participle: 'participle (ongoing action, "-ing")',
+  infinitive_construct: 'infinitive construct ("to ___")',
 };
+
+// wayyiqtol/weqatal always carry the vav-consecutive as their verb-prefix --
+// Hebrew has no way to also attach a separate preposition/article/relative
+// onto a finite verb, so prefix_morphemes for these two conjugations is
+// always just that one vav. Showing it a second time as a bare "and" (see
+// prefixGlossLine) would repeat, disconnected, the very thing CONJ_NAMES
+// above already explains -- suppressed here rather than fixed at the data
+// layer, since the morphology itself (a real conjunction-coded prefix) is
+// correctly tagged; this is a display decision, not a parsing correction.
+const VAV_CONSECUTIVE_CONJUGATIONS = new Set(['wayyiqtol', 'weqatal']);
 const PERSON_NAMES = { 1: '1st', 2: '2nd', 3: '3rd' };
 const GENDER_NAMES = { m: 'masc.', f: 'fem.', c: 'common' };
 const NUMBER_NAMES = { s: 'sing.', p: 'pl.', d: 'dual' };
@@ -69,6 +87,7 @@ function parseLabel(entry) {
 
 function prefixGlossLine(entry) {
   if (!entry.prefix_morphemes || !entry.prefix_morphemes.length) return '';
+  if (VAV_CONSECUTIVE_CONJUGATIONS.has(entry.conjugation)) return '';
   return entry.prefix_morphemes.map((m) => m.gloss).join(' + ');
 }
 
