@@ -21,6 +21,7 @@ import * as feedback from './feedback.js';
 export const DECK_URL = new URL('../data/vocab_deck_600.json', import.meta.url);
 export const PARSE_DECK_URL = new URL('../data/parse_qal_strong.json', import.meta.url);
 export const FUNCTION_WORD_EXAMPLES_URL = new URL('../data/function_word_examples.json', import.meta.url);
+export const VOCAB_EXAMPLES_URL = new URL('../data/vocab_examples.json', import.meta.url);
 
 // Lesson groups in teaching order (see STATUS.md for why group 2 -- construct
 // chains -- followed group 1 -- prefixes/suffixes). Add a new group here once
@@ -53,6 +54,7 @@ const TAB_ORDER = ['vocab', 'parse', 'read', 'learn', 'settings'];
 let deck = null;
 let parseDeck = null;
 let functionWordExamplesByLemma = {};
+let vocabExamplesByLemma = {}; // ordinary (non-function-word) cards; see build_vocab_examples.py
 const readerCache = {}; // chapter key -> loaded reader JSON
 let readerChapterKey = READER_CHAPTERS[0].key;
 const lessonGroupCache = {}; // group key -> loaded lessons JSON
@@ -79,6 +81,21 @@ export async function loadFunctionWordExamples() {
   if (!Array.isArray(json.entries) || !json.entries.length) {
     throw new Error('function-word examples contains no entries');
   }
+  const byLemma = {};
+  for (const e of json.entries) byLemma[e.lemma_id] = e;
+  return byLemma;
+}
+
+// Ordinary vocab cards' examples -- coverage is partial and grows in
+// batches (see build_vocab_examples.py's metadata.pending_count), so an
+// empty/missing lemma here is expected, not an error; only a totally
+// missing/malformed file is fatal, same non-fatal-overall treatment as
+// loadFunctionWordExamples() above (see the call site in boot()).
+export async function loadVocabExamples() {
+  const res = await fetch(VOCAB_EXAMPLES_URL, { cache: 'no-cache' });
+  if (!res.ok) throw new Error(`vocab examples fetch failed: ${res.status} ${res.statusText}`);
+  const json = await res.json();
+  if (!Array.isArray(json.entries)) throw new Error('vocab examples has no entries array');
   const byLemma = {};
   for (const e of json.entries) byLemma[e.lemma_id] = e;
   return byLemma;
@@ -146,7 +163,11 @@ function rerender() {
     const groups = LESSON_GROUPS.map((g) => lessonGroupCache[g.key]);
     if (groups.some((g) => !g)) { root.textContent = 'Loading…'; return; }
     learnView.render(root, groups);
-  } else vocab.render(root, deck, functionWordExamplesByLemma);
+  // Disjoint lemma sets by construction (build_vocab_examples.py explicitly
+  // excludes anything function_word_examples.json already covers), so a
+  // plain merge needs no precedence rule -- vocab.js's cardEl doesn't care
+  // which file an example came from, only that wex.examples exists.
+  } else vocab.render(root, deck, { ...vocabExamplesByLemma, ...functionWordExamplesByLemma });
 }
 
 async function loadReaderChapter(key) {
@@ -260,6 +281,9 @@ async function boot() {
   loadFunctionWordExamples()
     .then((byLemma) => { functionWordExamplesByLemma = byLemma; rerender(); })
     .catch((err) => console.warn('function-word examples failed to load', err));
+  loadVocabExamples()
+    .then((byLemma) => { vocabExamplesByLemma = byLemma; rerender(); })
+    .catch((err) => console.warn('vocab examples failed to load', err));
   rerender();
 
   // One pull-and-merge on boot, not blocking the initial render -- opening

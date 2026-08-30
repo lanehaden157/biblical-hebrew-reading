@@ -22,7 +22,7 @@
 </main>
 
 <script type="module">
-import { DECK_URL, loadDeck, PARSE_DECK_URL, loadParseDeck, FUNCTION_WORD_EXAMPLES_URL, loadFunctionWordExamples, READER_CHAPTERS, loadReaderData, LESSON_GROUPS, loadLessonGroup } from './main.js';
+import { DECK_URL, loadDeck, PARSE_DECK_URL, loadParseDeck, FUNCTION_WORD_EXAMPLES_URL, loadFunctionWordExamples, VOCAB_EXAMPLES_URL, loadVocabExamples, READER_CHAPTERS, loadReaderData, LESSON_GROUPS, loadLessonGroup } from './main.js';
 import { newCard, applyGrade, describeInterval, GRADES } from './srs.js';
 
 const out = document.getElementById('out');
@@ -208,14 +208,50 @@ async function run() {
       }
     }
     // 51 target lemmas minus the 6 (4 Aramaic particles + selah + bal) cut
-    // from the vocab deck along with the rest of the Aramaic/poetry-only set.
-    check(wexEntries.length === 45, `function-word examples cover all 45 target lemmas (got ${wexEntries.length})`);
+    // from the vocab deck along with the rest of the Aramaic/poetry-only
+    // set, minus 1 more for the 'et/`im merge (H854 folds into H5973's
+    // entry rather than shipping separately -- see MERGED_LEMMAS).
+    check(wexEntries.length === 44, `function-word examples cover all 44 target lemmas (got ${wexEntries.length})`);
     check(badSenseCount === 0, `every entry's sense_count matches its own full_gloss (${badSenseCount} bad)`);
     check(badCount === 0, `every entry has >= max(3, sense count) examples (${badCount} bad)`);
     check(badForm2 === 0, `every example has well-formed Hebrew + transliteration (${badForm2} bad)`);
     check(badGloss2 === 0, `every example has a non-empty gloss (${badGloss2} bad)`);
     check(badIndex === 0, `every example's target_index points at a real word in its phrase (${badIndex} bad)`);
     check(badHighlight === 0, `every example's gloss_highlight is a real substring of its gloss, and gloss_note (if any) is non-empty (${badHighlight} bad)`);
+  }
+
+  let vex;
+  try {
+    vex = await loadVocabExamples();
+    ok(`vocab examples loaded from ${VOCAB_EXAMPLES_URL.pathname}`);
+  } catch (e) {
+    bad(`vocab examples failed to load: ${e.message}`);
+    vex = {};
+  }
+  const vexEntries = Object.values(vex);
+  if (vexEntries.length) {
+    const VERSE_TRANSLIT_RE = /^['`a-z .,;:!?‘’]+$/;
+    let badForm3 = 0, badGloss3 = 0, badIndex3 = 0, badHighlight3 = 0, overlapCount = 0;
+    for (const e of vexEntries) {
+      if (e.lemma_id in wex) overlapCount++; // must not double-cover a function-word lemma
+      if (!e.examples.length) badForm3++;
+      for (const ex of e.examples) {
+        if (!ex.surface_form || !HEBREW_RE.test(ex.surface_form)) badForm3++;
+        if (!ex.phrase_hebrew || !HEBREW_RE.test(ex.phrase_hebrew)) badForm3++;
+        if (!ex.transliteration || !TRANSLIT_RE.test(ex.transliteration)) badForm3++;
+        if (!ex.phrase_transliteration || !VERSE_TRANSLIT_RE.test(ex.phrase_transliteration)) badForm3++;
+        if (!ex.gloss || !ex.gloss.trim()) badGloss3++;
+        const words = ex.phrase_hebrew.split(' ');
+        if (!Number.isInteger(ex.target_index) || ex.target_index < 0 || ex.target_index >= words.length) badIndex3++;
+        if (!ex.gloss_highlight || !ex.gloss.includes(ex.gloss_highlight)) badHighlight3++;
+        if (ex.gloss_note != null && !ex.gloss_note.trim()) badHighlight3++;
+      }
+    }
+    check(overlapCount === 0, `no vocab-example lemma duplicates a function-word lemma (${overlapCount} overlap)`);
+    check(badForm3 === 0, `every vocab example has well-formed Hebrew + transliteration, and every entry has >= 1 example (${badForm3} bad)`);
+    check(badGloss3 === 0, `every vocab example has a non-empty gloss (${badGloss3} bad)`);
+    check(badIndex3 === 0, `every vocab example's target_index points at a real word in its phrase (${badIndex3} bad)`);
+    check(badHighlight3 === 0, `every vocab example's gloss_highlight is a real substring of its gloss, and gloss_note (if any) is non-empty (${badHighlight3} bad)`);
   }
 
   const vocabIds = new Set(deck.map(e => e.lemma_id));

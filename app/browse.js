@@ -18,7 +18,7 @@
  * rather than mutating the live review queue.
  */
 
-import { loadDeck, loadParseDeck, loadFunctionWordExamples } from './main.js';
+import { loadDeck, loadParseDeck, loadFunctionWordExamples, loadVocabExamples } from './main.js';
 import { cardEl as vocabCardEl, cardBackEl as vocabCardBackEl } from './views/vocab.js';
 import { cardEl as parseCardEl } from './views/parse.js';
 import { load as loadStore } from './store.js';
@@ -41,6 +41,7 @@ for (const btn of document.querySelectorAll('.subtab')) {
 let vocabDeck = [];
 let parseDeck = [];
 let functionWordExamples = {};
+let vocabExamples = {};
 let loadErrors = [];
 
 (async function boot() {
@@ -48,6 +49,7 @@ let loadErrors = [];
     loadDeck(),
     loadParseDeck(),
     loadFunctionWordExamples(),
+    loadVocabExamples(),
   ]);
   if (results[0].status === 'fulfilled') vocabDeck = results[0].value;
   else loadErrors.push(`vocab deck: ${results[0].reason}`);
@@ -55,6 +57,8 @@ let loadErrors = [];
   else loadErrors.push(`parse deck: ${results[1].reason}`);
   if (results[2].status === 'fulfilled') functionWordExamples = results[2].value;
   else loadErrors.push(`function-word examples: ${results[2].reason}`);
+  if (results[3].status === 'fulfilled') vocabExamples = results[3].value;
+  else loadErrors.push(`vocab examples: ${results[3].reason}`);
 
   renderCardsSection();
   renderChangesSection();
@@ -158,7 +162,9 @@ function renderPreview() {
   wrap.className = 'card-preview flip-perspective';
 
   const item = { entry: selected, card: null };
-  const wex = browseSource === 'vocab' ? functionWordExamples[selected.lemma_id] : null;
+  const wex = browseSource === 'vocab'
+    ? (vocabExamples[selected.lemma_id] || functionWordExamples[selected.lemma_id])
+    : null;
 
   const rerenderPreviewOnly = () => renderPreview();
 
@@ -329,6 +335,7 @@ function renderDiagnosticsSection() {
   diagRow(contentBlock, 'vocab entries', vocabDeck.length);
   diagRow(contentBlock, 'parse entries', parseDeck.length);
   diagRow(contentBlock, 'function-word lemmas', Object.keys(functionWordExamples).length);
+  diagRow(contentBlock, 'vocab-example lemmas', Object.keys(vocabExamples).length);
   if (loadErrors.length) {
     for (const err of loadErrors) diagRow(contentBlock, 'load error', err);
   }

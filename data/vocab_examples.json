@@ -1,0 +1,431 @@
+{
+  "metadata": {
+    "source": "build_vocab_examples.py",
+    "target_lemma_count": 544,
+    "curated_count": 20,
+    "skipped": [],
+    "pending_count": 524
+  },
+  "entries": [
+    {
+      "lemma_id": "H559",
+      "citation_form": "אָמַר",
+      "transliteration": "'amar",
+      "full_gloss": "say",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.1.3",
+          "surface_form": "וַיֹּאמֶר",
+          "transliteration": "wayo'mer",
+          "word_id": "01thY",
+          "phrase_hebrew": "וַיֹּאמֶר אֱלֹהִים",
+          "phrase_transliteration": "wayo'mer 'elohim",
+          "target_index": 0,
+          "gloss": "God said",
+          "gloss_highlight": "said",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H1961",
+      "citation_form": "הָיָה",
+      "transliteration": "hayah",
+      "full_gloss": "be, become, happen",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.1.3",
+          "surface_form": "וַֽיְהִי",
+          "transliteration": "wayhi",
+          "word_id": "01yw4",
+          "phrase_hebrew": "וַֽיְהִי אֽוֹר",
+          "phrase_transliteration": "wayhi 'or",
+          "target_index": 0,
+          "gloss": "there was light",
+          "gloss_highlight": "was",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H6213",
+      "citation_form": "עָשָׂה",
+      "transliteration": "`asah",
+      "full_gloss": "do, make",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.1.7",
+          "surface_form": "וַיַּעַשׂ",
+          "transliteration": "waya`as",
+          "word_id": "01bmv",
+          "phrase_hebrew": "וַיַּעַשׂ אֱלֹהִים",
+          "phrase_transliteration": "waya`as 'elohim",
+          "target_index": 0,
+          "gloss": "God made",
+          "gloss_highlight": "made",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H935",
+      "citation_form": "בּוֹא",
+      "transliteration": "bo'",
+      "full_gloss": "come, go, enter",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Jonah.3.4",
+          "surface_form": "לָבוֹא",
+          "transliteration": "lavo'",
+          "word_id": "32gBW",
+          "phrase_hebrew": "לָבוֹא בָעִיר",
+          "phrase_transliteration": "lavo' va`ir",
+          "target_index": 0,
+          "gloss": "to enter the city",
+          "gloss_highlight": "enter",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H5414",
+      "citation_form": "נָתַן",
+      "transliteration": "natan",
+      "full_gloss": "give",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.1.29",
+          "surface_form": "נָתַתִּי",
+          "transliteration": "natati",
+          "word_id": "012gM",
+          "phrase_hebrew": "נָתַתִּי לָכֶם",
+          "phrase_transliteration": "natati lakhem",
+          "target_index": 0,
+          "gloss": "I have given [it] to you",
+          "gloss_highlight": "given",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H7200",
+      "citation_form": "רָאָה",
+      "transliteration": "ra'ah",
+      "full_gloss": "see",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.1.4",
+          "surface_form": "וַיַּרְא",
+          "transliteration": "wayar'",
+          "word_id": "01USR",
+          "phrase_hebrew": "וַיַּרְא אֱלֹהִים",
+          "phrase_transliteration": "wayar' 'elohim",
+          "target_index": 0,
+          "gloss": "God saw",
+          "gloss_highlight": "saw",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H8085",
+      "citation_form": "שָׁמַע",
+      "transliteration": "shama`",
+      "full_gloss": "hear, listen, obey",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.3.17",
+          "surface_form": "שָׁמַעְתָּ",
+          "transliteration": "shama`ta",
+          "word_id": "01S67",
+          "phrase_hebrew": "שָׁמַעְתָּ לְקוֹל אִשְׁתֶּךָ",
+          "phrase_transliteration": "shama`ta leqol 'ishtekha",
+          "target_index": 0,
+          "gloss": "you listened to your wife",
+          "gloss_highlight": "listened",
+          "gloss_note": "lit. \"to the voice of\" -- shama` + le- idiomatically means listen to/obey, not just hear"
+        }
+      ]
+    },
+    {
+      "lemma_id": "H1696",
+      "citation_form": "דָבַר",
+      "transliteration": "davar",
+      "full_gloss": "speak",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.8.15",
+          "surface_form": "וַיְדַבֵּר",
+          "transliteration": "waydaber",
+          "word_id": "01ZXK",
+          "phrase_hebrew": "וַיְדַבֵּר אֱלֹהִים",
+          "phrase_transliteration": "waydaber 'elohim",
+          "target_index": 0,
+          "gloss": "God spoke",
+          "gloss_highlight": "spoke",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H3427",
+      "citation_form": "יָשַׁב",
+      "transliteration": "yashav",
+      "full_gloss": "sit, dwell, live",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Ruth.1.4",
+          "surface_form": "וַיֵּשְׁבוּ",
+          "transliteration": "wayeshvu",
+          "word_id": "08wM5",
+          "phrase_hebrew": "וַיֵּשְׁבוּ שָׁם",
+          "phrase_transliteration": "wayeshvu sham",
+          "target_index": 0,
+          "gloss": "they lived there",
+          "gloss_highlight": "lived",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H3318",
+      "citation_form": "יָצָא",
+      "transliteration": "yatsa'",
+      "full_gloss": "go out, come out",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Jonah.4.5",
+          "surface_form": "וַיֵּצֵא",
+          "transliteration": "wayetse'",
+          "word_id": "32LsC",
+          "phrase_hebrew": "וַיֵּצֵא יוֹנָה מִן הָעִיר",
+          "phrase_transliteration": "wayetse' yonah min ha`ir",
+          "target_index": 0,
+          "gloss": "Jonah went out of the city",
+          "gloss_highlight": "went out",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H7725",
+      "citation_form": "שׁוּב",
+      "transliteration": "shuv",
+      "full_gloss": "return, turn back",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Ruth.1.6",
+          "surface_form": "וַתָּשָׁב",
+          "transliteration": "watashav",
+          "word_id": "08tKT",
+          "phrase_hebrew": "וַתָּשָׁב מִשְּׂדֵי מוֹאָב",
+          "phrase_transliteration": "watashav misdey mo'av",
+          "target_index": 0,
+          "gloss": "she returned from the fields of Moab",
+          "gloss_highlight": "returned",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H3212",
+      "citation_form": "יָלַךְ",
+      "transliteration": "yalakh",
+      "full_gloss": "go, walk",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Ruth.1.1",
+          "surface_form": "וַיֵּלֶךְ",
+          "transliteration": "wayelekh",
+          "word_id": "08LN3",
+          "phrase_hebrew": "וַיֵּלֶךְ אִישׁ",
+          "phrase_transliteration": "wayelekh 'ish",
+          "target_index": 0,
+          "gloss": "a man went",
+          "gloss_highlight": "went",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H3947",
+      "citation_form": "לָקַח",
+      "transliteration": "laqakh",
+      "full_gloss": "take",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Ruth.4.13",
+          "surface_form": "וַיִּקַּח",
+          "transliteration": "wayiqakh",
+          "word_id": "08E57",
+          "phrase_hebrew": "וַיִּקַּח בֹּעַז אֶת רוּת",
+          "phrase_transliteration": "wayiqakh bo`az 'et rut",
+          "target_index": 0,
+          "gloss": "Boaz took Ruth",
+          "gloss_highlight": "took",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H3045",
+      "citation_form": "יָדַע",
+      "transliteration": "yada`",
+      "full_gloss": "know",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Jonah.1.10",
+          "surface_form": "יָדְעוּ",
+          "transliteration": "yad`u",
+          "word_id": "32AxB",
+          "phrase_hebrew": "כִּֽי יָדְעוּ הָאֲנָשִׁים",
+          "phrase_transliteration": "ki yad`u ha'anashim",
+          "target_index": 1,
+          "gloss": "for the men knew",
+          "gloss_highlight": "knew",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H5927",
+      "citation_form": "עָלָה",
+      "transliteration": "`alah",
+      "full_gloss": "go up, ascend",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Ruth.4.1",
+          "surface_form": "עָלָה",
+          "transliteration": "`alah",
+          "word_id": "08rzR",
+          "phrase_hebrew": "וּבֹעַז עָלָה הַשַּׁעַר",
+          "phrase_transliteration": "uvo`az `alah hasha`ar",
+          "target_index": 1,
+          "gloss": "Boaz went up to the gate",
+          "gloss_highlight": "went up",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H7971",
+      "citation_form": "שָׁלַח",
+      "transliteration": "shalakh",
+      "full_gloss": "send",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.8.8",
+          "surface_form": "וַיְשַׁלַּח",
+          "transliteration": "wayshalakh",
+          "word_id": "01kTA",
+          "phrase_hebrew": "וַיְשַׁלַּח אֶת הַיּוֹנָה",
+          "phrase_transliteration": "wayshalakh 'et hayonah",
+          "target_index": 0,
+          "gloss": "he sent out the dove",
+          "gloss_highlight": "sent out",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H4191",
+      "citation_form": "מוּת",
+      "transliteration": "mut",
+      "full_gloss": "die",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Ruth.1.3",
+          "surface_form": "וַיָּמָת",
+          "transliteration": "wayamat",
+          "word_id": "08nAB",
+          "phrase_hebrew": "וַיָּמָת אֱלִימֶלֶךְ",
+          "phrase_transliteration": "wayamat 'elimelekh",
+          "target_index": 0,
+          "gloss": "Elimelech died",
+          "gloss_highlight": "died",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H398",
+      "citation_form": "אָכַל",
+      "transliteration": "'akhal",
+      "full_gloss": "eat",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Ruth.2.14",
+          "surface_form": "וְאָכַלְתְּ",
+          "transliteration": "we'akhalt",
+          "word_id": "08nzj",
+          "phrase_hebrew": "וְאָכַלְתְּ מִן הַלֶּחֶם",
+          "phrase_transliteration": "we'akhalt min halekhem",
+          "target_index": 0,
+          "gloss": "eat some of the bread",
+          "gloss_highlight": "eat",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H7121",
+      "citation_form": "קָרָא",
+      "transliteration": "qara'",
+      "full_gloss": "call, call out, proclaim, read aloud",
+      "sense_count": 4,
+      "examples": [
+        {
+          "ref": "Jonah.1.2",
+          "surface_form": "וּקְרָא",
+          "transliteration": "uqra'",
+          "word_id": "32PB6",
+          "phrase_hebrew": "וּקְרָא עָלֶיהָ",
+          "phrase_transliteration": "uqra' `aleyha",
+          "target_index": 0,
+          "gloss": "and call out against it",
+          "gloss_highlight": "call out",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H5375",
+      "citation_form": "נָשָׂא",
+      "transliteration": "nasa'",
+      "full_gloss": "lift, carry, bear",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Jonah.1.15",
+          "surface_form": "וַיִּשְׂאוּ",
+          "transliteration": "wayis'u",
+          "word_id": "32ecS",
+          "phrase_hebrew": "וַיִּשְׂאוּ אֶת יוֹנָה",
+          "phrase_transliteration": "wayis'u 'et yonah",
+          "target_index": 0,
+          "gloss": "they lifted up Jonah",
+          "gloss_highlight": "lifted up",
+          "gloss_note": null
+        }
+      ]
+    }
+  ]
+}
