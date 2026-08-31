@@ -2,9 +2,9 @@
   "metadata": {
     "source": "build_vocab_examples.py",
     "target_lemma_count": 544,
-    "curated_count": 503,
+    "curated_count": 523,
     "skipped": [],
-    "pending_count": 41
+    "pending_count": 21
   },
   "entries": [
     {
@@ -10566,6 +10566,426 @@
           "target_index": 0,
           "gloss": "and iron",
           "gloss_highlight": "iron",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H4713",
+      "citation_form": "מִצְרִי",
+      "transliteration": "mitsri",
+      "full_gloss": "Egyptian",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.12.12",
+          "surface_form": "הַמִּצְרִים",
+          "transliteration": "hamitsrim",
+          "word_id": "01Bfx",
+          "phrase_hebrew": "יִרְאוּ אֹתָךְ הַמִּצְרִים",
+          "phrase_transliteration": "yir'u 'otakh hamitsrim",
+          "target_index": 2,
+          "gloss": "the Egyptians will see you",
+          "gloss_highlight": "Egyptians",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H4735",
+      "citation_form": "מִקְנֶה",
+      "transliteration": "miqneh",
+      "full_gloss": "livestock, cattle, property",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.4.20",
+          "surface_form": "וּמִקְנֶֽה",
+          "transliteration": "umiqneh",
+          "word_id": "015hr",
+          "phrase_hebrew": "וּמִקְנֶֽה",
+          "phrase_transliteration": "umiqneh",
+          "target_index": 0,
+          "gloss": "and livestock",
+          "gloss_highlight": "livestock",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H5291",
+      "citation_form": "נַעֲרָה",
+      "transliteration": "na`arah",
+      "full_gloss": "girl, young woman",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.24.14",
+          "surface_form": "הַֽנַּעֲרָ",
+          "transliteration": "hana`ara",
+          "word_id": "015NB",
+          "phrase_hebrew": "וְהָיָה הַֽנַּעֲרָ",
+          "phrase_transliteration": "wehayah hana`ara",
+          "target_index": 1,
+          "gloss": "let the girl be [the one]",
+          "gloss_highlight": "girl",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H7161",
+      "citation_form": "קֶרֶן",
+      "transliteration": "qeren",
+      "full_gloss": "horn",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.22.13",
+          "surface_form": "בְּקַרְנָיו",
+          "transliteration": "beqarnayw",
+          "word_id": "015gH",
+          "phrase_hebrew": "בְּקַרְנָיו",
+          "phrase_transliteration": "beqarnayw",
+          "target_index": 0,
+          "gloss": "by his horns",
+          "gloss_highlight": "horns",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H7198",
+      "citation_form": "קֶשֶׁת",
+      "transliteration": "qeshet",
+      "full_gloss": "bow (weapon)",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.9.13",
+          "surface_form": "קַשְׁתִּי",
+          "transliteration": "qashti",
+          "word_id": "01sKp",
+          "phrase_hebrew": "אֶת קַשְׁתִּי",
+          "phrase_transliteration": "'et qashti",
+          "target_index": 1,
+          "gloss": "my bow",
+          "gloss_highlight": "bow",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H8641",
+      "citation_form": "תְּרוּמָה",
+      "transliteration": "terumah",
+      "full_gloss": "contribution, offering",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Exod.25.2",
+          "surface_form": "תְּרוּמָה",
+          "transliteration": "terumah",
+          "word_id": "02hN7",
+          "phrase_hebrew": "לִי תְּרוּמָה",
+          "phrase_transliteration": "li terumah",
+          "target_index": 1,
+          "gloss": "let them take a contribution for me",
+          "gloss_highlight": "contribution",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H4217",
+      "citation_form": "מִזְרָח",
+      "transliteration": "mizrakh",
+      "full_gloss": "sunrise, east",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Josh.1.15",
+          "surface_form": "מִזְרַח",
+          "transliteration": "mizrakh",
+          "word_id": "06DDb",
+          "phrase_hebrew": "מִזְרַח הַשָּֽׁמֶשׁ",
+          "phrase_transliteration": "mizrakh hashamesh",
+          "target_index": 0,
+          "gloss": "toward the sunrise",
+          "gloss_highlight": "sunrise",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H4720",
+      "citation_form": "מִקְדָּשׁ",
+      "transliteration": "miqdash",
+      "full_gloss": "sanctuary, holy place",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Exod.25.8",
+          "surface_form": "מִקְדָּשׁ",
+          "transliteration": "miqdash",
+          "word_id": "02Am6",
+          "phrase_hebrew": "לִי מִקְדָּשׁ",
+          "phrase_transliteration": "li miqdash",
+          "target_index": 1,
+          "gloss": "let them make me a sanctuary",
+          "gloss_highlight": "sanctuary",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H5795",
+      "citation_form": "עֵז",
+      "transliteration": "`ez",
+      "full_gloss": "goat, she-goat",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.15.9",
+          "surface_form": "וְעֵז",
+          "transliteration": "we`ez",
+          "word_id": "01R79",
+          "phrase_hebrew": "וְעֵז מְשֻׁלֶּשֶׁת",
+          "phrase_transliteration": "we`ez meshuleshet",
+          "target_index": 0,
+          "gloss": "a three-year-old female goat",
+          "gloss_highlight": "goat",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H7023",
+      "citation_form": "קִיר",
+      "transliteration": "qir",
+      "full_gloss": "wall",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Lev.1.15",
+          "surface_form": "קִיר",
+          "transliteration": "qir",
+          "word_id": "03VTb",
+          "phrase_hebrew": "עַל קִיר",
+          "phrase_transliteration": "`al qir",
+          "target_index": 1,
+          "gloss": "against the wall of the altar",
+          "gloss_highlight": "wall",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H7998",
+      "citation_form": "שָׁלָל",
+      "transliteration": "shalal",
+      "full_gloss": "plunder, spoil, booty",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.49.27",
+          "surface_form": "שָׁלָֽל",
+          "transliteration": "shalal",
+          "word_id": "012Gx",
+          "phrase_hebrew": "יְחַלֵּק שָׁלָֽל",
+          "phrase_transliteration": "yekhaleq shalal",
+          "target_index": 1,
+          "gloss": "he divides the spoil",
+          "gloss_highlight": "spoil",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H1892",
+      "citation_form": "הֶבֶל",
+      "transliteration": "hevel",
+      "full_gloss": "breath, vapor; vanity, futility",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Eccl.1.2",
+          "surface_form": "הֲבֵל",
+          "transliteration": "havel",
+          "word_id": "21nPh",
+          "phrase_hebrew": "הֲבֵל הֲבָלִים",
+          "phrase_transliteration": "havel havalim",
+          "target_index": 0,
+          "gloss": "vanity of vanities",
+          "gloss_highlight": "vanity",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H2781",
+      "citation_form": "חֶרְפָּה",
+      "transliteration": "kherpah",
+      "full_gloss": "reproach, disgrace, scorn",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.30.23",
+          "surface_form": "חֶרְפָּתִֽי",
+          "transliteration": "kherpati",
+          "word_id": "01qv7",
+          "phrase_hebrew": "אֶת חֶרְפָּתִֽי",
+          "phrase_transliteration": "'et kherpati",
+          "target_index": 1,
+          "gloss": "God has taken away my disgrace",
+          "gloss_highlight": "disgrace",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H3669",
+      "citation_form": "כְּנַעַנִי",
+      "transliteration": "kena`ani",
+      "full_gloss": "Canaanite",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.10.18",
+          "surface_form": "הַֽכְּנַעֲנִֽי",
+          "transliteration": "hakna`ani",
+          "word_id": "01Lva",
+          "phrase_hebrew": "מִשְׁפְּחוֹת הַֽכְּנַעֲנִֽי",
+          "phrase_transliteration": "mishpekhot hakna`ani",
+          "target_index": 1,
+          "gloss": "the families of the Canaanite",
+          "gloss_highlight": "Canaanite",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H6869",
+      "citation_form": "צָרָה",
+      "transliteration": "tsarah",
+      "full_gloss": "distress, trouble, anguish",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.35.3",
+          "surface_form": "צָֽרָתִי",
+          "transliteration": "tsarati",
+          "word_id": "01RmD",
+          "phrase_hebrew": "בְּיוֹם צָֽרָתִי",
+          "phrase_transliteration": "beyom tsarati",
+          "target_index": 1,
+          "gloss": "in the day of my distress",
+          "gloss_highlight": "distress",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H730",
+      "citation_form": "אֶרֶז",
+      "transliteration": "'erez",
+      "full_gloss": "cedar",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Ps.29.5",
+          "surface_form": "אֲרָזִים",
+          "transliteration": "'arazim",
+          "word_id": "19tnE",
+          "phrase_hebrew": "שֹׁבֵר אֲרָזִים",
+          "phrase_transliteration": "shover 'arazim",
+          "target_index": 1,
+          "gloss": "breaks the cedars",
+          "gloss_highlight": "cedars",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H1410",
+      "citation_form": "גָּד",
+      "transliteration": "gad",
+      "full_gloss": "Gad",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.30.11",
+          "surface_form": "גָּֽד",
+          "transliteration": "gad",
+          "word_id": "0188b",
+          "phrase_hebrew": "שְׁמוֹ גָּֽד",
+          "phrase_transliteration": "shemo gad",
+          "target_index": 1,
+          "gloss": "she called his name Gad",
+          "gloss_highlight": "Gad",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H499",
+      "citation_form": "אֶלְעָזָר",
+      "transliteration": "'el`azar",
+      "full_gloss": "Eleazar",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Josh.14.1",
+          "surface_form": "אֶלְעָזָר",
+          "transliteration": "'el`azar",
+          "word_id": "06VEY",
+          "phrase_hebrew": "אֶלְעָזָר הַכֹּהֵן",
+          "phrase_transliteration": "'el`azar hakohen",
+          "target_index": 0,
+          "gloss": "Eleazar the priest",
+          "gloss_highlight": "Eleazar",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H7205",
+      "citation_form": "רְאוּבֵן",
+      "transliteration": "re'uven",
+      "full_gloss": "Reuben",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.29.32",
+          "surface_form": "רְאוּבֵן",
+          "transliteration": "re'uven",
+          "word_id": "01Q8W",
+          "phrase_hebrew": "שְׁמוֹ רְאוּבֵן",
+          "phrase_transliteration": "shemo re'uven",
+          "target_index": 1,
+          "gloss": "she called his name Reuben",
+          "gloss_highlight": "Reuben",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H7782",
+      "citation_form": "שׁוֹפָר",
+      "transliteration": "shofar",
+      "full_gloss": "ram's horn, trumpet",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Josh.6.5",
+          "surface_form": "הַשּׁוֹפָר",
+          "transliteration": "hashofar",
+          "word_id": "067ug",
+          "phrase_hebrew": "קוֹל הַשּׁוֹפָר",
+          "phrase_transliteration": "qol hashofar",
+          "target_index": 1,
+          "gloss": "the sound of the trumpet",
+          "gloss_highlight": "trumpet",
           "gloss_note": null
         }
       ]

@@ -31,3 +31,4 @@
 - 2026-08-30: vocab_examples.json batch 22: next 20 nouns (yarov`am through khelev); yarov`am/tamid/akh'av sourced from 1 Kings/Exodus. 81 pending overall.
 - 2026-08-30: vocab_examples.json batch 23: next 20 nouns (kerem through beytlekhem); 6 sourced outside Genesis (Psalms, 1 Kings, 2 Samuel, Leviticus, Exodus). 61 pending overall.
 - 2026-08-30: vocab_examples.json batch 24: next 20 nouns (kasdi through barzel); 10 sourced outside Genesis. 41 pending overall -- close to done.
+- 2026-08-30: vocab_examples.json batch 25: next 20 nouns (mitsri through shofar); 8 sourced outside Genesis. 21 pending overall -- one batch left.

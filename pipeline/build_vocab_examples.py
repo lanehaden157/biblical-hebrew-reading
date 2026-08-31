@@ -639,6 +639,29 @@ CURATED = {
     "H3444": [("Gen", "01Jpo", "01Jpo", "019o5", "for your salvation I wait", "salvation", None)],
     "H8605": [("Ps", "19Qnr", "19Qnr", "19Qnr", "my prayer", "prayer", None)],
     "H1270": [("Gen", "01sd2", "01sd2", "01sd2", "and iron", "iron", None)],
+
+    # Batch 25 (2026-08-30): next 20 nouns. 8 have no Genesis occurrence,
+    # sourced from Exodus, Joshua, Leviticus, Ecclesiastes, and Psalms.
+    "H4713": [("Gen", "01Bfx", "01X7L", "01Bfx", "the Egyptians will see you", "Egyptians", None)],
+    "H4735": [("Gen", "015hr", "015hr", "015hr", "and livestock", "livestock", None)],
+    "H5291": [("Gen", "015NB", "01x31", "015NB", "let the girl be [the one]", "girl", None)],
+    "H7161": [("Gen", "015gH", "015gH", "015gH", "by his horns", "horns", None)],
+    "H7198": [("Gen", "01sKp", "016dK", "01sKp", "my bow", "bow", None)],
+    "H8641": [("Exod", "02hN7", "029V6", "02hN7", "let them take a contribution for me", "contribution", None)],
+    "H4217": [("Josh", "06DDb", "06DDb", "06RCg", "toward the sunrise", "sunrise", None)],
+    "H4720": [("Exod", "02Am6", "02qn3", "02Am6", "let them make me a sanctuary", "sanctuary", None)],
+    "H5795": [("Gen", "01R79", "01R79", "01xRL", "a three-year-old female goat", "goat", None)],
+    "H7023": [("Lev", "03VTb", "03CZB", "03VTb", "against the wall of the altar", "wall", None)],
+    "H7998": [("Gen", "012Gx", "01nmN", "012Gx", "he divides the spoil", "spoil", None)],
+    "H1892": [("Eccl", "21nPh", "21nPh", "21LN3", "vanity of vanities", "vanity", None)],
+    "H2781": [("Gen", "01qv7", "01E5m", "01qv7", "God has taken away my disgrace", "disgrace", None)],
+    "H3669": [("Gen", "01Lva", "01gAT", "01Lva", "the families of the Canaanite", "Canaanite", None)],
+    "H6869": [("Gen", "01RmD", "01riF", "01RmD", "in the day of my distress", "distress", None)],
+    "H730": [("Ps", "19tnE", "19qqw", "19tnE", "breaks the cedars", "cedars", None)],
+    "H1410": [("Gen", "0188b", "01Pj7", "0188b", "she called his name Gad", "Gad", None)],
+    "H499": [("Josh", "06VEY", "06VEY", "06neC", "Eleazar the priest", "Eleazar", None)],
+    "H7205": [("Gen", "01Q8W", "01U9B", "01Q8W", "she called his name Reuben", "Reuben", None)],
+    "H7782": [("Josh", "067ug", "06yxA", "067ug", "the sound of the trumpet", "trumpet", None)],
 }
 
 # Lemmas Lane said to file away rather than force a single example onto --
