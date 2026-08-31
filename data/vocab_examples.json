@@ -2,9 +2,9 @@
   "metadata": {
     "source": "build_vocab_examples.py",
     "target_lemma_count": 544,
-    "curated_count": 523,
+    "curated_count": 544,
     "skipped": [],
-    "pending_count": 21
+    "pending_count": 0
   },
   "entries": [
     {
@@ -10986,6 +10986,447 @@
           "target_index": 1,
           "gloss": "the sound of the trumpet",
           "gloss_highlight": "trumpet",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H990",
+      "citation_form": "בֶּטֶן",
+      "transliteration": "beten",
+      "full_gloss": "belly, womb",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.25.23",
+          "surface_form": "בְּבִטְנֵךְ",
+          "transliteration": "bevitnekh",
+          "word_id": "01CPj",
+          "phrase_hebrew": "בְּבִטְנֵךְ",
+          "phrase_transliteration": "bevitnekh",
+          "target_index": 0,
+          "gloss": "in your womb",
+          "gloss_highlight": "womb",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H1389",
+      "citation_form": "גִּבְעָה",
+      "transliteration": "giv`ah",
+      "full_gloss": "hill",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.49.26",
+          "surface_form": "גִּבְעֹת",
+          "transliteration": "giv`ot",
+          "word_id": "01FBw",
+          "phrase_hebrew": "תַּאֲוַת גִּבְעֹת",
+          "phrase_transliteration": "ta'awat giv`ot",
+          "target_index": 1,
+          "gloss": "the bounty of the everlasting hills",
+          "gloss_highlight": "hills",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H2275",
+      "citation_form": "חֶבְרוֹן",
+      "transliteration": "khevron",
+      "full_gloss": "Hebron",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.13.18",
+          "surface_form": "בְּחֶבְרוֹן",
+          "transliteration": "bekhevron",
+          "word_id": "01b1X",
+          "phrase_hebrew": "אֲשֶׁר בְּחֶבְרוֹן",
+          "phrase_transliteration": "'asher bekhevron",
+          "target_index": 1,
+          "gloss": "which is in Hebron",
+          "gloss_highlight": "Hebron",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H3844",
+      "citation_form": "לְבָנוֹן",
+      "transliteration": "levanon",
+      "full_gloss": "Lebanon",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Ps.29.6",
+          "surface_form": "לְבָנוֹן",
+          "transliteration": "levanon",
+          "word_id": "19Zbw",
+          "phrase_hebrew": "עֵגֶל לְבָנוֹן",
+          "phrase_transliteration": "`egel levanon",
+          "target_index": 1,
+          "gloss": "like a calf of Lebanon",
+          "gloss_highlight": "Lebanon",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H452",
+      "citation_form": "אֵלִיָּה",
+      "transliteration": "'eliyah",
+      "full_gloss": "Elijah",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "1Kgs.17.1",
+          "surface_form": "אֵלִיָּהוּ",
+          "transliteration": "'eliyahu",
+          "word_id": "11mHz",
+          "phrase_hebrew": "וַיֹּאמֶר אֵלִיָּהוּ",
+          "phrase_transliteration": "wayo'mer 'eliyahu",
+          "target_index": 1,
+          "gloss": "Elijah said",
+          "gloss_highlight": "Elijah",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H5775",
+      "citation_form": "עוֹף",
+      "transliteration": "`of",
+      "full_gloss": "bird, flying creature",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.1.20",
+          "surface_form": "וְעוֹף",
+          "transliteration": "we`of",
+          "word_id": "012tG",
+          "phrase_hebrew": "וְעוֹף יְעוֹפֵף",
+          "phrase_transliteration": "we`of ye`ofef",
+          "target_index": 0,
+          "gloss": "let birds fly",
+          "gloss_highlight": "birds",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H7979",
+      "citation_form": "שֻׁלְחָן",
+      "transliteration": "shulkhan",
+      "full_gloss": "table",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Exod.25.23",
+          "surface_form": "שֻׁלְחָן",
+          "transliteration": "shulkhan",
+          "word_id": "02b3r",
+          "phrase_hebrew": "וְעָשִׂיתָ שֻׁלְחָן",
+          "phrase_transliteration": "we`asita shulkhan",
+          "target_index": 1,
+          "gloss": "you shall make a table",
+          "gloss_highlight": "table",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H1835",
+      "citation_form": "דָּן",
+      "transliteration": "dan",
+      "full_gloss": "Dan",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.14.14",
+          "surface_form": "דָּֽן",
+          "transliteration": "dan",
+          "word_id": "01WDZ",
+          "phrase_hebrew": "עַד דָּֽן",
+          "phrase_transliteration": "`ad dan",
+          "target_index": 1,
+          "gloss": "he pursued as far as Dan",
+          "gloss_highlight": "Dan",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H5707",
+      "citation_form": "עֵד",
+      "transliteration": "`ed",
+      "full_gloss": "witness",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.31.44",
+          "surface_form": "לְעֵד",
+          "transliteration": "le`ed",
+          "word_id": "01BDH",
+          "phrase_hebrew": "וְהָיָה לְעֵד",
+          "phrase_transliteration": "wehayah le`ed",
+          "target_index": 1,
+          "gloss": "let it be a witness",
+          "gloss_highlight": "witness",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H1293",
+      "citation_form": "בְּרָכָה",
+      "transliteration": "berakhah",
+      "full_gloss": "blessing",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.12.2",
+          "surface_form": "בְּרָכָֽה",
+          "transliteration": "berakhah",
+          "word_id": "012mU",
+          "phrase_hebrew": "וֶהְיֵה בְּרָכָֽה",
+          "phrase_transliteration": "wehyeh berakhah",
+          "target_index": 1,
+          "gloss": "and be a blessing",
+          "gloss_highlight": "blessing",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H2580",
+      "citation_form": "חֵן",
+      "transliteration": "khen",
+      "full_gloss": "favor, grace",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.6.8",
+          "surface_form": "חֵן",
+          "transliteration": "khen",
+          "word_id": "01Sx5",
+          "phrase_hebrew": "מָצָא חֵן",
+          "phrase_transliteration": "matsa' khen",
+          "target_index": 1,
+          "gloss": "found favor",
+          "gloss_highlight": "favor",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H441",
+      "citation_form": "אַלּוּף",
+      "transliteration": "'aluf",
+      "full_gloss": "chief, leader; friend, companion",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.36.15",
+          "surface_form": "אַלּוּפֵי",
+          "transliteration": "'alufey",
+          "word_id": "01eFs",
+          "phrase_hebrew": "אֵלֶּה אַלּוּפֵי",
+          "phrase_transliteration": "'eleh 'alufey",
+          "target_index": 1,
+          "gloss": "these are the chiefs of Esau",
+          "gloss_highlight": "chiefs",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H6010",
+      "citation_form": "עֵמֶק",
+      "transliteration": "`emeq",
+      "full_gloss": "valley",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.14.3",
+          "surface_form": "עֵמֶק",
+          "transliteration": "`emeq",
+          "word_id": "011M6",
+          "phrase_hebrew": "אֶל עֵמֶק",
+          "phrase_transliteration": "'el `emeq",
+          "target_index": 1,
+          "gloss": "to the Valley of Siddim",
+          "gloss_highlight": "Valley",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H6921",
+      "citation_form": "קָדִים",
+      "transliteration": "qadim",
+      "full_gloss": "east, east wind",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.41.6",
+          "surface_form": "קָדִים",
+          "transliteration": "qadim",
+          "word_id": "01jvw",
+          "phrase_hebrew": "וּשְׁדוּפֹת קָדִים",
+          "phrase_transliteration": "ushdufot qadim",
+          "target_index": 1,
+          "gloss": "blighted by the east wind",
+          "gloss_highlight": "east wind",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H3603",
+      "citation_form": "כִּכָּר",
+      "transliteration": "kikar",
+      "full_gloss": "district, circle; talent (weight); loaf",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.13.10",
+          "surface_form": "כִּכַּר",
+          "transliteration": "kikar",
+          "word_id": "01ti5",
+          "phrase_hebrew": "כָּל כִּכַּר",
+          "phrase_transliteration": "kal kikar",
+          "target_index": 1,
+          "gloss": "the whole plain of the Jordan",
+          "gloss_highlight": "plain",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H884",
+      "citation_form": "בְּאֵר שֶׁבַע",
+      "transliteration": "be'ersheva`",
+      "full_gloss": "Beersheba",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.21.14",
+          "surface_form": "בְּאֵר",
+          "transliteration": "be'er",
+          "word_id": "01RnE",
+          "phrase_hebrew": "בְּמִדְבַּר בְּאֵר שָֽׁבַע",
+          "phrase_transliteration": "bemidbar be'er shava`",
+          "target_index": 1,
+          "gloss": "in the wilderness of Beersheba",
+          "gloss_highlight": "Beersheba",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H953",
+      "citation_form": "בּוֹר",
+      "transliteration": "bor",
+      "full_gloss": "pit, cistern",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.37.20",
+          "surface_form": "הַבֹּרוֹת",
+          "transliteration": "haborot",
+          "word_id": "01PSi",
+          "phrase_hebrew": "בְּאַחַד הַבֹּרוֹת",
+          "phrase_transliteration": "be'akhad haborot",
+          "target_index": 1,
+          "gloss": "into one of the pits",
+          "gloss_highlight": "pits",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H2506",
+      "citation_form": "חֵלֶק",
+      "transliteration": "kheleq",
+      "full_gloss": "portion, share, territory",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.14.24",
+          "surface_form": "וְחֵלֶק",
+          "transliteration": "wekheleq",
+          "word_id": "01YKJ",
+          "phrase_hebrew": "וְחֵלֶק הָֽאֲנָשִׁים",
+          "phrase_transliteration": "wekheleq ha'anashim",
+          "target_index": 0,
+          "gloss": "the share of the men",
+          "gloss_highlight": "share",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H3802",
+      "citation_form": "כָּתֵף",
+      "transliteration": "katef",
+      "full_gloss": "shoulder",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Exod.27.14",
+          "surface_form": "לַכָּתֵף",
+          "transliteration": "lakatef",
+          "word_id": "02Cho",
+          "phrase_hebrew": "לַכָּתֵף",
+          "phrase_transliteration": "lakatef",
+          "target_index": 0,
+          "gloss": "for the side [of the court]",
+          "gloss_highlight": "side",
+          "gloss_note": "katef's core sense is shoulder; here idiomatically \"side\" (of the tabernacle courtyard)"
+        }
+      ]
+    },
+    {
+      "lemma_id": "H40",
+      "citation_form": "אֲבִימֶלֶךְ",
+      "transliteration": "'avimelekh",
+      "full_gloss": "Abimelech",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.20.2",
+          "surface_form": "אֲבִימֶלֶךְ",
+          "transliteration": "'avimelekh",
+          "word_id": "01RC9",
+          "phrase_hebrew": "וַיִּשְׁלַח אֲבִימֶלֶךְ",
+          "phrase_transliteration": "wayishlakh 'avimelekh",
+          "target_index": 1,
+          "gloss": "Abimelech sent",
+          "gloss_highlight": "Abimelech",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H6913",
+      "citation_form": "קֶבֶר",
+      "transliteration": "qever",
+      "full_gloss": "grave, tomb",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.23.4",
+          "surface_form": "קֶבֶר",
+          "transliteration": "qever",
+          "word_id": "01HZs",
+          "phrase_hebrew": "אֲחֻזַּת קֶבֶר",
+          "phrase_transliteration": "'akhuzat qever",
+          "target_index": 1,
+          "gloss": "a burial site",
+          "gloss_highlight": "burial",
           "gloss_note": null
         }
       ]

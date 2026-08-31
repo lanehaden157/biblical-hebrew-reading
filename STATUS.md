@@ -210,6 +210,26 @@ for hen/hineh, 'akh/raq, kemo/ke-). Built four things instead of a cloze drill (
   negation). Reuses group 1's `decompose()`; word ids re-selected from already-verified
   tier-A/B corpus picks, not fresh curation.
 
+## Phase 6: sync fixes, dev tooling, full-deck examples
+
+- **Sync bugs fixed**: `syncNow()` was pushing on every boot even with nothing new to
+  send (halved to pull-only unless cards actually changed); a 401/403 now backs off using
+  GitHub's own `Retry-After`/`X-RateLimit-Reset` instead of re-failing every reload;
+  `resetAll()` now force-pushes the wipe to the gist (a merge was always losing to the old
+  remote copy before).
+- **`app/browse.html`** — dev-only page: search-and-preview any vocab/parse card at any
+  reveal stage without touching the review queue (never imports `srs.js`, never calls
+  `update()`), plus a diagnostics panel (sync state, backup keys, read-only gist peek,
+  load counts) and a rendered view of `improvements_log.md`.
+- **`pipeline/build_vocab_examples.py`** (new, sibling to the function-word one) — real,
+  corpus-verified Bible examples for every drillable vocab_deck_600 lemma the function-word
+  set doesn't already cover. One example per lemma (not tiered — content words aren't
+  ambiguous the way function words are), sourced mostly from Genesis 1–8/Jonah/Ruth with
+  ~45 lemmas pulled from Exodus, Leviticus, Joshua, Judges, 1–2 Samuel, 1–2 Kings, Psalms,
+  Proverbs, Jeremiah, and Ecclesiastes where no Genesis/Jonah/Ruth occurrence exists. Done
+  in 26 batches (verbs → adjectives → nouns/pronouns/adverbs, per Lane's priority order);
+  all 544 target lemmas curated, zero skipped.
+
 ## Next
 
 Learn tab's 6-group list is fully built; further groups are new, unscoped work. Cloze

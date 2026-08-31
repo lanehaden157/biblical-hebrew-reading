@@ -32,3 +32,4 @@
 - 2026-08-30: vocab_examples.json batch 23: next 20 nouns (kerem through beytlekhem); 6 sourced outside Genesis (Psalms, 1 Kings, 2 Samuel, Leviticus, Exodus). 61 pending overall.
 - 2026-08-30: vocab_examples.json batch 24: next 20 nouns (kasdi through barzel); 10 sourced outside Genesis. 41 pending overall -- close to done.
 - 2026-08-30: vocab_examples.json batch 25: next 20 nouns (mitsri through shofar); 8 sourced outside Genesis. 21 pending overall -- one batch left.
+- 2026-08-30: vocab_examples.json batch 26 (FINAL): last 21 lemmas (beten through qever) -- all 544 target lemmas now have a real, corpus-verified Bible example, zero skipped. Project complete: every drillable vocab card has at least one example, function words additionally tiered 3-10.

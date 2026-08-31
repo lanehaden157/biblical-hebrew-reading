@@ -662,6 +662,31 @@ CURATED = {
     "H499": [("Josh", "06VEY", "06VEY", "06neC", "Eleazar the priest", "Eleazar", None)],
     "H7205": [("Gen", "01Q8W", "01U9B", "01Q8W", "she called his name Reuben", "Reuben", None)],
     "H7782": [("Josh", "067ug", "06yxA", "067ug", "the sound of the trumpet", "trumpet", None)],
+
+    # Batch 26 (2026-08-30): FINAL 21 lemmas -- completes all 544 targets.
+    # levanon, eliyah, shulkhan, katef have no Genesis occurrence,
+    # sourced from Psalms, 1 Kings, and Exodus.
+    "H990": [("Gen", "01CPj", "01CPj", "01CPj", "in your womb", "womb", None)],
+    "H1389": [("Gen", "01FBw", "01ezC", "01FBw", "the bounty of the everlasting hills", "hills", None)],
+    "H2275": [("Gen", "01b1X", "01Zhq", "01b1X", "which is in Hebron", "Hebron", None)],
+    "H3844": [("Ps", "19Zbw", "194gZ", "19Zbw", "like a calf of Lebanon", "Lebanon", None)],
+    "H452": [("1Kgs", "11mHz", "11kL7", "11mHz", "Elijah said", "Elijah", None)],
+    "H5775": [("Gen", "012tG", "012tG", "01Xzm", "let birds fly", "birds", None)],
+    "H7979": [("Exod", "02b3r", "02jqf", "02b3r", "you shall make a table", "table", None)],
+    "H1835": [("Gen", "01WDZ", "01Dcn", "01WDZ", "he pursued as far as Dan", "Dan", None)],
+    "H5707": [("Gen", "01BDH", "01djy", "01BDH", "let it be a witness", "witness", None)],
+    "H1293": [("Gen", "012mU", "01GLn", "012mU", "and be a blessing", "blessing", None)],
+    "H2580": [("Gen", "01Sx5", "01tZs", "01Sx5", "found favor", "favor", None)],
+    "H441": [("Gen", "01eFs", "014D5", "01eFs", "these are the chiefs of Esau", "chiefs", None)],
+    "H6010": [("Gen", "011M6", "0124k", "011M6", "to the Valley of Siddim", "Valley", None)],
+    "H6921": [("Gen", "01jvw", "01Xdi", "01jvw", "blighted by the east wind", "east wind", None)],
+    "H3603": [("Gen", "01ti5", "01RCx", "01ti5", "the whole plain of the Jordan", "plain", None)],
+    "H884": [("Gen", "01RnE", "01hib", "01oQP", "in the wilderness of Beersheba", "Beersheba", None)],
+    "H953": [("Gen", "01PSi", "017qD", "01PSi", "into one of the pits", "pits", None)],
+    "H2506": [("Gen", "01YKJ", "01YKJ", "0131a", "the share of the men", "share", None)],
+    "H3802": [("Exod", "02Cho", "02Cho", "02Cho", "for the side [of the court]", "side", "katef's core sense is shoulder; here idiomatically \"side\" (of the tabernacle courtyard)")],
+    "H40": [("Gen", "01RC9", "01uTK", "01RC9", "Abimelech sent", "Abimelech", None)],
+    "H6913": [("Gen", "01HZs", "01LFe", "01HZs", "a burial site", "burial", None)],
 }
 
 # Lemmas Lane said to file away rather than force a single example onto --
