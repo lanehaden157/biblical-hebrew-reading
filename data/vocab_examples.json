@@ -2,9 +2,9 @@
   "metadata": {
     "source": "build_vocab_examples.py",
     "target_lemma_count": 544,
-    "curated_count": 443,
+    "curated_count": 463,
     "skipped": [],
-    "pending_count": 101
+    "pending_count": 81
   },
   "entries": [
     {
@@ -9306,6 +9306,426 @@
           "target_index": 1,
           "gloss": "only at the high places",
           "gloss_highlight": "high places",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H3379",
+      "citation_form": "יָרׇבְעָם",
+      "transliteration": "yarov`am",
+      "full_gloss": "Jeroboam",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "1Kgs.11.26",
+          "surface_form": "וְיָרָבְעָם",
+          "transliteration": "weyarav`am",
+          "word_id": "11vo1",
+          "phrase_hebrew": "וְיָרָבְעָם בֶּן",
+          "phrase_transliteration": "weyarav`am ben",
+          "target_index": 0,
+          "gloss": "and Jeroboam son of Nebat",
+          "gloss_highlight": "Jeroboam",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H4758",
+      "citation_form": "מַרְאֶה",
+      "transliteration": "mar'eh",
+      "full_gloss": "appearance, sight, vision",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.2.9",
+          "surface_form": "לְמַרְאֶה",
+          "transliteration": "lemar'eh",
+          "word_id": "01Kov",
+          "phrase_hebrew": "נֶחְמָד לְמַרְאֶה",
+          "phrase_transliteration": "nekhmad lemar'eh",
+          "target_index": 1,
+          "gloss": "pleasant to the sight",
+          "gloss_highlight": "sight",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H8548",
+      "citation_form": "תָּמִיד",
+      "transliteration": "tamid",
+      "full_gloss": "continually, regularly",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Exod.25.30",
+          "surface_form": "תָּמִֽיד",
+          "transliteration": "tamid",
+          "word_id": "02XTv",
+          "phrase_hebrew": "לְפָנַי תָּמִֽיד",
+          "phrase_transliteration": "lefanay tamid",
+          "target_index": 1,
+          "gloss": "before me continually",
+          "gloss_highlight": "continually",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H3499",
+      "citation_form": "יֶתֶר",
+      "transliteration": "yeter",
+      "full_gloss": "remainder, rest, excess",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.49.3",
+          "surface_form": "יֶתֶר",
+          "transliteration": "yeter",
+          "word_id": "01dy7",
+          "phrase_hebrew": "יֶתֶר שְׂאֵת",
+          "phrase_transliteration": "yeter se'et",
+          "target_index": 0,
+          "gloss": "excelling in dignity",
+          "gloss_highlight": "excelling",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H4592",
+      "citation_form": "מְעַט",
+      "transliteration": "me`at",
+      "full_gloss": "little, few",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.18.4",
+          "surface_form": "מְעַט",
+          "transliteration": "me`at",
+          "word_id": "01a9y",
+          "phrase_hebrew": "מְעַט מַיִם",
+          "phrase_transliteration": "me`at mayim",
+          "target_index": 0,
+          "gloss": "a little water",
+          "gloss_highlight": "little",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H7341",
+      "citation_form": "רֹחַב",
+      "transliteration": "rokhav",
+      "full_gloss": "width, breadth",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.6.15",
+          "surface_form": "רָחְבָּהּ",
+          "transliteration": "rakhbah",
+          "word_id": "01G8f",
+          "phrase_hebrew": "רָחְבָּהּ",
+          "phrase_transliteration": "rakhbah",
+          "target_index": 0,
+          "gloss": "its width",
+          "gloss_highlight": "width",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H7458",
+      "citation_form": "רָעָב",
+      "transliteration": "ra`av",
+      "full_gloss": "hunger, famine",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.12.10",
+          "surface_form": "רָעָב",
+          "transliteration": "ra`av",
+          "word_id": "01QLb",
+          "phrase_hebrew": "וַיְהִי רָעָב",
+          "phrase_transliteration": "wayhi ra`av",
+          "target_index": 1,
+          "gloss": "there was famine in the land",
+          "gloss_highlight": "famine",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H123",
+      "citation_form": "אֱדֹם",
+      "transliteration": "'edom",
+      "full_gloss": "Edom",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.25.30",
+          "surface_form": "אֱדֽוֹם",
+          "transliteration": "'edom",
+          "word_id": "01GhY",
+          "phrase_hebrew": "קָרָֽא שְׁמוֹ אֱדֽוֹם",
+          "phrase_transliteration": "qara' shemo 'edom",
+          "target_index": 2,
+          "gloss": "he called his name Edom",
+          "gloss_highlight": "Edom",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H5785",
+      "citation_form": "עוֹר",
+      "transliteration": "`or",
+      "full_gloss": "skin, hide",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.3.21",
+          "surface_form": "עוֹר",
+          "transliteration": "`or",
+          "word_id": "01Atm",
+          "phrase_hebrew": "כָּתְנוֹת עוֹר",
+          "phrase_transliteration": "katnot `or",
+          "target_index": 1,
+          "gloss": "garments of skin",
+          "gloss_highlight": "skin",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H6215",
+      "citation_form": "עֵשָׂו",
+      "transliteration": "`esaw",
+      "full_gloss": "Esau",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.25.25",
+          "surface_form": "עֵשָֽׂו",
+          "transliteration": "`esaw",
+          "word_id": "01eJb",
+          "phrase_hebrew": "וַיִּקְרְאוּ שְׁמוֹ עֵשָֽׂו",
+          "phrase_transliteration": "wayiqre'u shemo `esaw",
+          "target_index": 2,
+          "gloss": "they called his name Esau",
+          "gloss_highlight": "Esau",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H7097",
+      "citation_form": "קָצֶה",
+      "transliteration": "qatseh",
+      "full_gloss": "end, extremity, border",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.8.3",
+          "surface_form": "מִקְצֵה",
+          "transliteration": "miqtseh",
+          "word_id": "01pMT",
+          "phrase_hebrew": "הַמַּיִם מִקְצֵה",
+          "phrase_transliteration": "hamayim miqtseh",
+          "target_index": 1,
+          "gloss": "the waters had decreased at the end [of 150 days]",
+          "gloss_highlight": "end",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H2543",
+      "citation_form": "חֲמוֹר",
+      "transliteration": "khamor",
+      "full_gloss": "donkey",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.12.16",
+          "surface_form": "וַחֲמֹרִים",
+          "transliteration": "wakhamorim",
+          "word_id": "01S8J",
+          "phrase_hebrew": "וַחֲמֹרִים",
+          "phrase_transliteration": "wakhamorim",
+          "target_index": 0,
+          "gloss": "and donkeys",
+          "gloss_highlight": "donkeys",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H753",
+      "citation_form": "אֹרֶךְ",
+      "transliteration": "'orekh",
+      "full_gloss": "length",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.6.15",
+          "surface_form": "אֹרֶךְ",
+          "transliteration": "'orekh",
+          "word_id": "01K8B",
+          "phrase_hebrew": "אֹרֶךְ הַתֵּבָה",
+          "phrase_transliteration": "'orekh hatevah",
+          "target_index": 0,
+          "gloss": "the length of the ark",
+          "gloss_highlight": "length",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H3667",
+      "citation_form": "כְּנַעַן",
+      "transliteration": "kena`an",
+      "full_gloss": "Canaan",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.9.18",
+          "surface_form": "כְנָֽעַן",
+          "transliteration": "khena`an",
+          "word_id": "01afe",
+          "phrase_hebrew": "אֲבִי כְנָֽעַן",
+          "phrase_transliteration": "'avi khena`an",
+          "target_index": 1,
+          "gloss": "the father of Canaan",
+          "gloss_highlight": "Canaan",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H8057",
+      "citation_form": "שִׂמְחָה",
+      "transliteration": "simkhah",
+      "full_gloss": "joy, gladness",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.31.27",
+          "surface_form": "בְּשִׂמְחָה",
+          "transliteration": "besimkhah",
+          "word_id": "018ii",
+          "phrase_hebrew": "בְּשִׂמְחָה וּבְשִׁרִים",
+          "phrase_transliteration": "besimkhah uvshirim",
+          "target_index": 0,
+          "gloss": "with joy and songs",
+          "gloss_highlight": "joy",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H1847",
+      "citation_form": "דַּעַת",
+      "transliteration": "da`at",
+      "full_gloss": "knowledge",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.2.9",
+          "surface_form": "הַדַּעַת",
+          "transliteration": "hada`at",
+          "word_id": "01m55",
+          "phrase_hebrew": "וְעֵץ הַדַּעַת",
+          "phrase_transliteration": "we`ets hada`at",
+          "target_index": 1,
+          "gloss": "the tree of knowledge",
+          "gloss_highlight": "knowledge",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H256",
+      "citation_form": "אַחְאָב",
+      "transliteration": "'akh'av",
+      "full_gloss": "Ahab",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "1Kgs.16.28",
+          "surface_form": "אַחְאָב",
+          "transliteration": "'akh'av",
+          "word_id": "11uo7",
+          "phrase_hebrew": "וַיִּמְלֹךְ אַחְאָב בְּנוֹ",
+          "phrase_transliteration": "wayimlokh 'akh'av beno",
+          "target_index": 1,
+          "gloss": "Ahab his son reigned",
+          "gloss_highlight": "Ahab",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H6588",
+      "citation_form": "פֶּשַׁע",
+      "transliteration": "pesha`",
+      "full_gloss": "transgression, rebellion",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.31.36",
+          "surface_form": "פִּשְׁעִי",
+          "transliteration": "pish`i",
+          "word_id": "01dE1",
+          "phrase_hebrew": "מַה פִּשְׁעִי",
+          "phrase_transliteration": "mah pish`i",
+          "target_index": 1,
+          "gloss": "what is my transgression",
+          "gloss_highlight": "transgression",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H1616",
+      "citation_form": "גֵּר",
+      "transliteration": "ger",
+      "full_gloss": "sojourner, resident alien, foreigner",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.15.13",
+          "surface_form": "גֵר",
+          "transliteration": "ger",
+          "word_id": "01yf4",
+          "phrase_hebrew": "גֵר יִהְיֶה",
+          "phrase_transliteration": "ger yihyeh",
+          "target_index": 0,
+          "gloss": "a sojourner your offspring will be",
+          "gloss_highlight": "sojourner",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H2459",
+      "citation_form": "חֶלֶב",
+      "transliteration": "khelev",
+      "full_gloss": "fat",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.4.4",
+          "surface_form": "וּמֵֽחֶלְבֵהֶן",
+          "transliteration": "umekhelvehen",
+          "word_id": "01xjb",
+          "phrase_hebrew": "וּמֵֽחֶלְבֵהֶן",
+          "phrase_transliteration": "umekhelvehen",
+          "target_index": 0,
+          "gloss": "and from their fat",
+          "gloss_highlight": "fat",
           "gloss_note": null
         }
       ]

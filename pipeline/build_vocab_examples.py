@@ -569,6 +569,29 @@ CURATED = {
     "H5983": [("Gen", "018MU", "019uw", "018MU", "the father of the sons of Ammon", "Ammon", None)],
     "H2708": [("Gen", "01cee", "01cee", "01cee", "my statutes", "statutes", None)],
     "H1116": [("1Kgs", "11NrV", "11oQV", "11NrV", "only at the high places", "high places", None)],
+
+    # Batch 22 (2026-08-30): next 20 nouns. yarov`am, tamid, akh'av have
+    # no Genesis occurrence, sourced from 1 Kings/Exodus.
+    "H3379": [("1Kgs", "11vo1", "11vo1", "11jQT", "and Jeroboam son of Nebat", "Jeroboam", None)],
+    "H4758": [("Gen", "01Kov", "01qVv", "01Kov", "pleasant to the sight", "sight", None)],
+    "H8548": [("Exod", "02XTv", "02giK", "02XTv", "before me continually", "continually", None)],
+    "H3499": [("Gen", "01dy7", "01dy7", "016Lt", "excelling in dignity", "excelling", None)],
+    "H4592": [("Gen", "01a9y", "01a9y", "01am8", "a little water", "little", None)],
+    "H7341": [("Gen", "01G8f", "01G8f", "01G8f", "its width", "width", None)],
+    "H7458": [("Gen", "01QLb", "01gob", "01QLb", "there was famine in the land", "famine", None)],
+    "H123": [("Gen", "01GhY", "01ZHm", "01GhY", "he called his name Edom", "Edom", None)],
+    "H5785": [("Gen", "01Atm", "01pjd", "01Atm", "garments of skin", "skin", None)],
+    "H6215": [("Gen", "01eJb", "01RA2", "01eJb", "they called his name Esau", "Esau", None)],
+    "H7097": [("Gen", "01pMT", "01JEg", "01pMT", "the waters had decreased at the end [of 150 days]", "end", None)],
+    "H2543": [("Gen", "01S8J", "01S8J", "01S8J", "and donkeys", "donkeys", None)],
+    "H753": [("Gen", "01K8B", "01K8B", "01qTM", "the length of the ark", "length", None)],
+    "H3667": [("Gen", "01afe", "01NZQ", "01afe", "the father of Canaan", "Canaan", None)],
+    "H8057": [("Gen", "018ii", "018ii", "01WYG", "with joy and songs", "joy", None)],
+    "H1847": [("Gen", "01m55", "01qTT", "01m55", "the tree of knowledge", "knowledge", None)],
+    "H256": [("1Kgs", "11uo7", "11SGr", "11CVH", "Ahab his son reigned", "Ahab", None)],
+    "H6588": [("Gen", "01dE1", "01bU5", "01dE1", "what is my transgression", "transgression", None)],
+    "H1616": [("Gen", "01yf4", "01yf4", "01kib", "a sojourner your offspring will be", "sojourner", None)],
+    "H2459": [("Gen", "01xjb", "01xjb", "01xjb", "and from their fat", "fat", None)],
 }
 
 # Lemmas Lane said to file away rather than force a single example onto --
