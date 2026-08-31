@@ -498,6 +498,30 @@ CURATED = {
     "H804": [("Gen", "013Yo", "01ht4", "013Yo", "east of Assyria", "Assyria", None)],
     "H7230": [("Gen", "01eZb", "01imA", "01eZb", "it shall not be counted, for abundance", "abundance", None)],
     "H2451": [("Prov", "20Wkf", "20nAB", "20Wkf", "the beginning of knowledge is wisdom", "wisdom", None)],
+
+    # Batch 19 (2026-08-30): next 20 nouns/adverbs. `edah, yirmeyah,
+    # yo'av, shemu'el, and mishkan have no Genesis occurrence, sourced
+    # from Exodus/Jeremiah/2 Samuel/1 Samuel.
+    "H5712": [("Exod", "021cW", "02ZsF", "02AjK", "the whole congregation of Israel", "congregation", None)],
+    "H3414": [("Jer", "24Nvk", "24xeN", "24Nvk", "the words of Jeremiah", "Jeremiah", None)],
+    "H4519": [("Gen", "01MXa", "01Z6G", "01MXa", "the name of the firstborn was Manasseh", "Manasseh", None)],
+    "H3097": [("2Sam", "10LzS", "10LzS", "10hQD", "and Joab son of Zeruiah", "Joab", None)],
+    "H5656": [("Gen", "01nYd", "01nYd", "01yCA", "for the service which you will serve", "service", None)],
+    "H1008": [("Gen", "01Uit", "01Uit", "01mrd", "to Bethel", "Bethel", None)],
+    "H3162": [("Gen", "01c4r", "01PcK", "01c4r", "to dwell together", "together", None)],
+    "H227": [("Gen", "015AY", "015AY", "01HUX", "then people began", "then", None)],
+    "H3196": [("Gen", "01Wke", "01sJH", "01Wke", "from the wine", "wine", None)],
+    "H3225": [("Gen", "01SiH", "01Pcn", "01SiH", "or if to the right", "right", None)],
+    "H5158": [("Gen", "01Y3a", "01Y3a", "01T6R", "in the valley of Gerar", "valley", None)],
+    "H5483": [("Gen", "01Jj9", "01Jj9", "01Jj9", "for the horses", "horses", None)],
+    "H4605": [("Gen", "01EZX", "01EZX", "01EZX", "from above", "above", None)],
+    "H5178": [("Gen", "01rMp", "01USJ", "01rMp", "a forger of bronze", "bronze", None)],
+    "H8050": [("1Sam", "09ou4", "09QH2", "09ou4", "his name Samuel", "Samuel", None)],
+    "H4908": [("Exod", "02c7F", "02pqU", "02c7F", "the pattern of the tabernacle", "tabernacle", None)],
+    "H3678": [("Gen", "01aKZ", "0133u", "01aKZ", "only the throne", "throne", None)],
+    "H1568": [("Gen", "01imi", "01ChQ", "01imi", "Mount Gilead", "Gilead", None)],
+    "H4557": [("Gen", "018eG", "01125", "018eG", "few in number", "number", None)],
+    "H5387": [("Gen", "01F8H", "0133v", "01F8H", "twelve princes", "princes", None)],
 }
 
 # Lemmas Lane said to file away rather than force a single example onto --

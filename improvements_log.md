@@ -25,3 +25,4 @@
 - 2026-08-30: vocab_examples.json batch 16: next 20 nouns (bavel through torah), all found in Genesis. 201 pending overall.
 - 2026-08-30: vocab_examples.json batch 17: next 20 nouns (em through sefer); yehoshua` sourced from Joshua. 181 pending overall.
 - 2026-08-30: vocab_examples.json batch 18: next 20 nouns (mitswah through khokhmah); tsiyon/khokhmah sourced from Psalms/Proverbs. 161 pending overall.
+- 2026-08-30: vocab_examples.json batch 19: next 20 nouns/adverbs (edah through nasi'); 5 sourced outside Genesis (Exodus, Jeremiah, 2 Samuel, 1 Samuel). 141 pending overall.

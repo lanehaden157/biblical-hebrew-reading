@@ -2,9 +2,9 @@
   "metadata": {
     "source": "build_vocab_examples.py",
     "target_lemma_count": 544,
-    "curated_count": 383,
+    "curated_count": 403,
     "skipped": [],
-    "pending_count": 161
+    "pending_count": 141
   },
   "entries": [
     {
@@ -8046,6 +8046,426 @@
           "target_index": 2,
           "gloss": "the beginning of knowledge is wisdom",
           "gloss_highlight": "wisdom",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H5712",
+      "citation_form": "עֵדָה",
+      "transliteration": "`edah",
+      "full_gloss": "congregation, assembly",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Exod.12.3",
+          "surface_form": "עֲדַת",
+          "transliteration": "`adat",
+          "word_id": "021cW",
+          "phrase_hebrew": "כָּל עֲדַת יִשְׂרָאֵל",
+          "phrase_transliteration": "kal `adat yisra'el",
+          "target_index": 1,
+          "gloss": "the whole congregation of Israel",
+          "gloss_highlight": "congregation",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H3414",
+      "citation_form": "יִרְמְיָה",
+      "transliteration": "yirmeyah",
+      "full_gloss": "Jeremiah",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Jer.1.1",
+          "surface_form": "יִרְמְיָהוּ",
+          "transliteration": "yirmeyahu",
+          "word_id": "24Nvk",
+          "phrase_hebrew": "דִּבְרֵי יִרְמְיָהוּ",
+          "phrase_transliteration": "divrey yirmeyahu",
+          "target_index": 1,
+          "gloss": "the words of Jeremiah",
+          "gloss_highlight": "Jeremiah",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H4519",
+      "citation_form": "מְנַשֶּׁה",
+      "transliteration": "menasheh",
+      "full_gloss": "Manasseh",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.41.51",
+          "surface_form": "מְנַשֶּׁה",
+          "transliteration": "menasheh",
+          "word_id": "01MXa",
+          "phrase_hebrew": "שֵׁם הַבְּכוֹר מְנַשֶּׁה",
+          "phrase_transliteration": "shem habkhor menasheh",
+          "target_index": 2,
+          "gloss": "the name of the firstborn was Manasseh",
+          "gloss_highlight": "Manasseh",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H3097",
+      "citation_form": "יוֹאָב",
+      "transliteration": "yo'av",
+      "full_gloss": "Joab",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "2Sam.2.13",
+          "surface_form": "וְיוֹאָב",
+          "transliteration": "weyo'av",
+          "word_id": "10LzS",
+          "phrase_hebrew": "וְיוֹאָב בֶּן צְרוּיָה",
+          "phrase_transliteration": "weyo'av ben tseruyah",
+          "target_index": 0,
+          "gloss": "and Joab son of Zeruiah",
+          "gloss_highlight": "Joab",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H5656",
+      "citation_form": "עֲבֹדָה",
+      "transliteration": "`avodah",
+      "full_gloss": "service, work, labor",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.29.27",
+          "surface_form": "בַּעֲבֹדָה",
+          "transliteration": "ba`avodah",
+          "word_id": "01nYd",
+          "phrase_hebrew": "בַּעֲבֹדָה אֲשֶׁר",
+          "phrase_transliteration": "ba`avodah 'asher",
+          "target_index": 0,
+          "gloss": "for the service which you will serve",
+          "gloss_highlight": "service",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H1008",
+      "citation_form": "בֵּית־אֵל",
+      "transliteration": "beyt'el",
+      "full_gloss": "Bethel",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.12.8",
+          "surface_form": "לְבֵֽית",
+          "transliteration": "leveyt",
+          "word_id": "01Uit",
+          "phrase_hebrew": "לְבֵֽית אֵל",
+          "phrase_transliteration": "leveyt 'el",
+          "target_index": 0,
+          "gloss": "to Bethel",
+          "gloss_highlight": "Bethel",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H3162",
+      "citation_form": "יַחַד",
+      "transliteration": "yakhad",
+      "full_gloss": "together, alike",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.13.6",
+          "surface_form": "יַחְדָּו",
+          "transliteration": "yakhdaw",
+          "word_id": "01c4r",
+          "phrase_hebrew": "לָשֶׁבֶת יַחְדָּו",
+          "phrase_transliteration": "lashevet yakhdaw",
+          "target_index": 1,
+          "gloss": "to dwell together",
+          "gloss_highlight": "together",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H227",
+      "citation_form": "אָז",
+      "transliteration": "'az",
+      "full_gloss": "then, at that time",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.4.26",
+          "surface_form": "אָז",
+          "transliteration": "'az",
+          "word_id": "015AY",
+          "phrase_hebrew": "אָז הוּחַל",
+          "phrase_transliteration": "'az hukhal",
+          "target_index": 0,
+          "gloss": "then people began",
+          "gloss_highlight": "then",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H3196",
+      "citation_form": "יַיִן",
+      "transliteration": "yayin",
+      "full_gloss": "wine",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.9.21",
+          "surface_form": "הַיַּיִן",
+          "transliteration": "hayayin",
+          "word_id": "01Wke",
+          "phrase_hebrew": "מִן הַיַּיִן",
+          "phrase_transliteration": "min hayayin",
+          "target_index": 1,
+          "gloss": "from the wine",
+          "gloss_highlight": "wine",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H3225",
+      "citation_form": "יָמִין",
+      "transliteration": "yamin",
+      "full_gloss": "right hand, right side, south",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.13.9",
+          "surface_form": "הַיָּמִין",
+          "transliteration": "hayamin",
+          "word_id": "01SiH",
+          "phrase_hebrew": "וְאִם הַיָּמִין",
+          "phrase_transliteration": "we'im hayamin",
+          "target_index": 1,
+          "gloss": "or if to the right",
+          "gloss_highlight": "right",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H5158",
+      "citation_form": "נַחַל",
+      "transliteration": "nakhal",
+      "full_gloss": "stream, wadi, valley",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.26.17",
+          "surface_form": "בְּנַֽחַל",
+          "transliteration": "benakhal",
+          "word_id": "01Y3a",
+          "phrase_hebrew": "בְּנַֽחַל גְּרָר",
+          "phrase_transliteration": "benakhal gerar",
+          "target_index": 0,
+          "gloss": "in the valley of Gerar",
+          "gloss_highlight": "valley",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H5483",
+      "citation_form": "סוּס",
+      "transliteration": "sus",
+      "full_gloss": "horse",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.47.17",
+          "surface_form": "בַּסּוּסִים",
+          "transliteration": "basusim",
+          "word_id": "01Jj9",
+          "phrase_hebrew": "בַּסּוּסִים",
+          "phrase_transliteration": "basusim",
+          "target_index": 0,
+          "gloss": "for the horses",
+          "gloss_highlight": "horses",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H4605",
+      "citation_form": "מַעַל",
+      "transliteration": "ma`al",
+      "full_gloss": "above, upward",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.6.16",
+          "surface_form": "מִלְמַעְלָה",
+          "transliteration": "milma`lah",
+          "word_id": "01EZX",
+          "phrase_hebrew": "מִלְמַעְלָה",
+          "phrase_transliteration": "milma`lah",
+          "target_index": 0,
+          "gloss": "from above",
+          "gloss_highlight": "above",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H5178",
+      "citation_form": "נְחֹשֶׁת",
+      "transliteration": "nekhoshet",
+      "full_gloss": "bronze, copper",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.4.22",
+          "surface_form": "נְחֹשֶׁת",
+          "transliteration": "nekhoshet",
+          "word_id": "01rMp",
+          "phrase_hebrew": "חֹרֵשׁ נְחֹשֶׁת",
+          "phrase_transliteration": "khoresh nekhoshet",
+          "target_index": 1,
+          "gloss": "a forger of bronze",
+          "gloss_highlight": "bronze",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H8050",
+      "citation_form": "שְׁמוּאֵל",
+      "transliteration": "shemu'el",
+      "full_gloss": "Samuel",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "1Sam.1.20",
+          "surface_form": "שְׁמוּאֵל",
+          "transliteration": "shemu'el",
+          "word_id": "09ou4",
+          "phrase_hebrew": "אֶת שְׁמוֹ שְׁמוּאֵל",
+          "phrase_transliteration": "'et shemo shemu'el",
+          "target_index": 2,
+          "gloss": "his name Samuel",
+          "gloss_highlight": "Samuel",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H4908",
+      "citation_form": "מִשְׁכָּן",
+      "transliteration": "mishkan",
+      "full_gloss": "dwelling place, tabernacle",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Exod.25.9",
+          "surface_form": "הַמִּשְׁכָּן",
+          "transliteration": "hamishkan",
+          "word_id": "02c7F",
+          "phrase_hebrew": "תַּבְנִית הַמִּשְׁכָּן",
+          "phrase_transliteration": "tavnit hamishkan",
+          "target_index": 1,
+          "gloss": "the pattern of the tabernacle",
+          "gloss_highlight": "tabernacle",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H3678",
+      "citation_form": "כִּסֵּא",
+      "transliteration": "kise'",
+      "full_gloss": "throne, seat",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.41.40",
+          "surface_form": "הַכִּסֵּא",
+          "transliteration": "hakise'",
+          "word_id": "01aKZ",
+          "phrase_hebrew": "רַק הַכִּסֵּא",
+          "phrase_transliteration": "raq hakise'",
+          "target_index": 1,
+          "gloss": "only the throne",
+          "gloss_highlight": "throne",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H1568",
+      "citation_form": "גִּלְעָד",
+      "transliteration": "gil`ad",
+      "full_gloss": "Gilead",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.31.21",
+          "surface_form": "הַגִּלְעָֽד",
+          "transliteration": "hagil`ad",
+          "word_id": "01imi",
+          "phrase_hebrew": "הַר הַגִּלְעָֽד",
+          "phrase_transliteration": "har hagil`ad",
+          "target_index": 1,
+          "gloss": "Mount Gilead",
+          "gloss_highlight": "Gilead",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H4557",
+      "citation_form": "מִסְפָּר",
+      "transliteration": "mispar",
+      "full_gloss": "number, count",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.34.30",
+          "surface_form": "מִסְפָּר",
+          "transliteration": "mispar",
+          "word_id": "018eG",
+          "phrase_hebrew": "מְתֵי מִסְפָּר",
+          "phrase_transliteration": "metey mispar",
+          "target_index": 1,
+          "gloss": "few in number",
+          "gloss_highlight": "number",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H5387",
+      "citation_form": "נָשִׂיא",
+      "transliteration": "nasi'",
+      "full_gloss": "leader, chief, prince",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.17.20",
+          "surface_form": "נְשִׂיאִם",
+          "transliteration": "nesi'im",
+          "word_id": "01F8H",
+          "phrase_hebrew": "שְׁנֵים עָשָׂר נְשִׂיאִם",
+          "phrase_transliteration": "sheneym `asar nesi'im",
+          "target_index": 2,
+          "gloss": "twelve princes",
+          "gloss_highlight": "princes",
           "gloss_note": null
         }
       ]
