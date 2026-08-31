@@ -430,6 +430,28 @@ CURATED = {
     "H4057": [("Gen", "01XAP", "01Kk2", "01XAP", "by the wilderness", "wilderness", None)],
     "H1320": [("Gen", "01nRw", "0131Z", "01nRw", "he closed up the flesh", "flesh", None)],
     "H6547": [("Gen", "01r2p", "01fBS", "01r2p", "the officials of Pharaoh", "Pharaoh", None)],
+
+    # Batch 16 (2026-08-30): next 20 nouns, all found in Genesis.
+    "H894": [("Gen", "01nPn", "01gCC", "01nPn", "the beginning of his kingdom was Babylon", "Babylon", None)],
+    "H3824": [("Gen", "01XQZ", "01BMP", "01XQZ", "in the integrity of my heart", "heart", None)],
+    "H4294": [("Gen", "01jKF", "01jKF", "01WWp", "and your staff that is in your hand", "staff", None)],
+    "H2617": [("Gen", "01M8k", "01W2g", "01M8k", "you have shown great kindness", "kindness", None)],
+    "H7272": [("Gen", "019jg", "01SdW", "019jg", "for the sole of her foot", "foot", None)],
+    "H520": [("Gen", "015Jx", "01sX9", "015Jx", "three hundred cubits", "cubits", None)],
+    "H410": [("Gen", "01rXs", "014xN", "01rXs", "priest of God Most High", "God", None)],
+    "H1366": [("Gen", "01tYs", "01sCe", "01SFu", "the territory of the Canaanites was", "territory", None)],
+    "H5288": [("Gen", "014we", "01r3M", "014we", "what the young men have eaten", "young men", None)],
+    "H7965": [("Gen", "01Hip", "01DAW", "01Hip", "you shall go to your fathers in peace", "peace", None)],
+    "H3915": [("Gen", "01sMn", "01LeN", "01sMn", "he called [it] night", "night", None)],
+    "H4639": [("Gen", "01zGh", "01zGh", "01zGh", "from our work", "work", None)],
+    "H2428": [("Gen", "01qoF", "017JY", "01qoF", "all their wealth", "wealth", None)],
+    "H5771": [("Gen", "01Lz7", "01MEe", "01Lz7", "my guilt is greater [than I can bear]", "guilt", None)],
+    "H2233": [("Gen", "01VA9", "01Bbz", "01VA9", "yielding seed", "seed", None)],
+    "H7130": [("Gen", "01SsZ", "01SsZ", "01SsZ", "within herself", "within", None)],
+    "H127": [("Gen", "01zEm", "016zt", "01zEm", "creatures of the ground", "ground", None)],
+    "H4150": [("Gen", "01SHw", "01SHw", "01SHw", "and for appointed times", "appointed times", None)],
+    "H5159": [("Gen", "01CgJ", "01Q7w", "01CgJ", "portion or inheritance", "inheritance", None)],
+    "H8451": [("Gen", "01tND", "01tND", "01tND", "and my instructions", "instructions", None)],
 }
 
 # Lemmas Lane said to file away rather than force a single example onto --

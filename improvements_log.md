@@ -22,3 +22,4 @@
 - 2026-08-30: vocab_examples.json batch 13: next 20 nouns/adverbs (mayim through kherev); qodesh sourced from the burning bush scene (Exodus 3). 261 pending overall.
 - 2026-08-30: vocab_examples.json batch 14: next 20 nouns/pronouns (sha'ul through keli); aharon sourced from Exodus. 241 pending overall.
 - 2026-08-30: vocab_examples.json batch 15: next 20 nouns/adverbs (milkhamah through par'oh); shelomoh/lewiyi sourced from 1 Kings/Exodus. 221 pending overall.
+- 2026-08-30: vocab_examples.json batch 16: next 20 nouns (bavel through torah), all found in Genesis. 201 pending overall.

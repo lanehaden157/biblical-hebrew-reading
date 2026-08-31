@@ -2,9 +2,9 @@
   "metadata": {
     "source": "build_vocab_examples.py",
     "target_lemma_count": 544,
-    "curated_count": 323,
+    "curated_count": 343,
     "skipped": [],
-    "pending_count": 221
+    "pending_count": 201
   },
   "entries": [
     {
@@ -6786,6 +6786,426 @@
           "target_index": 1,
           "gloss": "the officials of Pharaoh",
           "gloss_highlight": "Pharaoh",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H894",
+      "citation_form": "בָּבֶל",
+      "transliteration": "bavel",
+      "full_gloss": "Babylon",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.10.10",
+          "surface_form": "בָּבֶל",
+          "transliteration": "bavel",
+          "word_id": "01nPn",
+          "phrase_hebrew": "מַמְלַכְתּוֹ בָּבֶל",
+          "phrase_transliteration": "mamlakhto bavel",
+          "target_index": 1,
+          "gloss": "the beginning of his kingdom was Babylon",
+          "gloss_highlight": "Babylon",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H3824",
+      "citation_form": "לֵבָב",
+      "transliteration": "levav",
+      "full_gloss": "heart, mind",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.20.5",
+          "surface_form": "לְבָבִי",
+          "transliteration": "levavi",
+          "word_id": "01XQZ",
+          "phrase_hebrew": "בְּתָם לְבָבִי",
+          "phrase_transliteration": "betam levavi",
+          "target_index": 1,
+          "gloss": "in the integrity of my heart",
+          "gloss_highlight": "heart",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H4294",
+      "citation_form": "מַטֶּה",
+      "transliteration": "mateh",
+      "full_gloss": "tribe, staff, rod",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.38.18",
+          "surface_form": "וּמַטְּךָ",
+          "transliteration": "umatkha",
+          "word_id": "01jKF",
+          "phrase_hebrew": "וּמַטְּךָ אֲשֶׁר",
+          "phrase_transliteration": "umatkha 'asher",
+          "target_index": 0,
+          "gloss": "and your staff that is in your hand",
+          "gloss_highlight": "staff",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H2617",
+      "citation_form": "חֶסֶד",
+      "transliteration": "khesed",
+      "full_gloss": "kindness, loyalty, faithful love",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.19.19",
+          "surface_form": "חַסְדְּךָ",
+          "transliteration": "khasdekha",
+          "word_id": "01M8k",
+          "phrase_hebrew": "וַתַּגְדֵּל חַסְדְּךָ",
+          "phrase_transliteration": "watagdel khasdekha",
+          "target_index": 1,
+          "gloss": "you have shown great kindness",
+          "gloss_highlight": "kindness",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H7272",
+      "citation_form": "רֶגֶל",
+      "transliteration": "regel",
+      "full_gloss": "foot",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.8.9",
+          "surface_form": "רַגְלָהּ",
+          "transliteration": "raglah",
+          "word_id": "019jg",
+          "phrase_hebrew": "לְכַף רַגְלָהּ",
+          "phrase_transliteration": "lekhaf raglah",
+          "target_index": 1,
+          "gloss": "for the sole of her foot",
+          "gloss_highlight": "foot",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H520",
+      "citation_form": "אַמָּה",
+      "transliteration": "'amah",
+      "full_gloss": "cubit",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.6.15",
+          "surface_form": "אַמָּה",
+          "transliteration": "'amah",
+          "word_id": "015Jx",
+          "phrase_hebrew": "שְׁלֹשׁ מֵאוֹת אַמָּה",
+          "phrase_transliteration": "shelosh me'ot 'amah",
+          "target_index": 2,
+          "gloss": "three hundred cubits",
+          "gloss_highlight": "cubits",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H410",
+      "citation_form": "אֵל",
+      "transliteration": "'el",
+      "full_gloss": "God, god, mighty one",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.14.18",
+          "surface_form": "לְאֵל",
+          "transliteration": "le'el",
+          "word_id": "01rXs",
+          "phrase_hebrew": "כֹהֵן לְאֵל",
+          "phrase_transliteration": "khohen le'el",
+          "target_index": 1,
+          "gloss": "priest of God Most High",
+          "gloss_highlight": "God",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H1366",
+      "citation_form": "גְּבוּל",
+      "transliteration": "gevul",
+      "full_gloss": "border, territory, boundary",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.10.19",
+          "surface_form": "גְּבוּל",
+          "transliteration": "gevul",
+          "word_id": "01tYs",
+          "phrase_hebrew": "וַֽיְהִי גְּבוּל הַֽכְּנַעֲנִי",
+          "phrase_transliteration": "wayhi gevul hakna`ani",
+          "target_index": 1,
+          "gloss": "the territory of the Canaanites was",
+          "gloss_highlight": "territory",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H5288",
+      "citation_form": "נַעַר",
+      "transliteration": "na`ar",
+      "full_gloss": "boy, young man, servant",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.14.24",
+          "surface_form": "הַנְּעָרִים",
+          "transliteration": "han`arim",
+          "word_id": "014we",
+          "phrase_hebrew": "אֲשֶׁר אָֽכְלוּ הַנְּעָרִים",
+          "phrase_transliteration": "'asher 'akhlu han`arim",
+          "target_index": 2,
+          "gloss": "what the young men have eaten",
+          "gloss_highlight": "young men",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H7965",
+      "citation_form": "שָׁלוֹם",
+      "transliteration": "shalom",
+      "full_gloss": "peace, well-being, completeness",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.15.15",
+          "surface_form": "בְּשָׁלוֹם",
+          "transliteration": "beshalom",
+          "word_id": "01Hip",
+          "phrase_hebrew": "אֲבֹתֶיךָ בְּשָׁלוֹם",
+          "phrase_transliteration": "'avoteykha beshalom",
+          "target_index": 1,
+          "gloss": "you shall go to your fathers in peace",
+          "gloss_highlight": "peace",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H3915",
+      "citation_form": "לַיִל",
+      "transliteration": "layil",
+      "full_gloss": "night",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.1.5",
+          "surface_form": "לָיְלָה",
+          "transliteration": "laylah",
+          "word_id": "01sMn",
+          "phrase_hebrew": "קָרָא לָיְלָה",
+          "phrase_transliteration": "qara' laylah",
+          "target_index": 1,
+          "gloss": "he called [it] night",
+          "gloss_highlight": "night",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H4639",
+      "citation_form": "מַעֲשֶׂה",
+      "transliteration": "ma`aseh",
+      "full_gloss": "deed, work, action",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.5.29",
+          "surface_form": "מִֽמַּעֲשֵׂנוּ",
+          "transliteration": "mima`asenu",
+          "word_id": "01zGh",
+          "phrase_hebrew": "מִֽמַּעֲשֵׂנוּ",
+          "phrase_transliteration": "mima`asenu",
+          "target_index": 0,
+          "gloss": "from our work",
+          "gloss_highlight": "work",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H2428",
+      "citation_form": "חַיִל",
+      "transliteration": "khayil",
+      "full_gloss": "strength, army, wealth",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.34.29",
+          "surface_form": "חֵילָם",
+          "transliteration": "kheylam",
+          "word_id": "01qoF",
+          "phrase_hebrew": "כָּל חֵילָם",
+          "phrase_transliteration": "kal kheylam",
+          "target_index": 1,
+          "gloss": "all their wealth",
+          "gloss_highlight": "wealth",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H5771",
+      "citation_form": "עָוֺן",
+      "transliteration": "`awon",
+      "full_gloss": "iniquity, guilt, sin",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.4.13",
+          "surface_form": "עֲוֺנִי",
+          "transliteration": "`awoni",
+          "word_id": "01Lz7",
+          "phrase_hebrew": "גָּדוֹל עֲוֺנִי",
+          "phrase_transliteration": "gadol `awoni",
+          "target_index": 1,
+          "gloss": "my guilt is greater [than I can bear]",
+          "gloss_highlight": "guilt",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H2233",
+      "citation_form": "זֶרַע",
+      "transliteration": "zera`",
+      "full_gloss": "seed, offspring, descendants",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.1.11",
+          "surface_form": "זֶרַע",
+          "transliteration": "zera`",
+          "word_id": "01VA9",
+          "phrase_hebrew": "מַזְרִיעַ זֶרַע",
+          "phrase_transliteration": "mazria` zera`",
+          "target_index": 1,
+          "gloss": "yielding seed",
+          "gloss_highlight": "seed",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H7130",
+      "citation_form": "קֶרֶב",
+      "transliteration": "qerev",
+      "full_gloss": "midst, inward part",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.18.12",
+          "surface_form": "בְּקִרְבָּהּ",
+          "transliteration": "beqirbah",
+          "word_id": "01SsZ",
+          "phrase_hebrew": "בְּקִרְבָּהּ",
+          "phrase_transliteration": "beqirbah",
+          "target_index": 0,
+          "gloss": "within herself",
+          "gloss_highlight": "within",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H127",
+      "citation_form": "אֲדָמָה",
+      "transliteration": "'adamah",
+      "full_gloss": "ground, land, soil",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.1.25",
+          "surface_form": "הָֽאֲדָמָה",
+          "transliteration": "ha'adamah",
+          "word_id": "01zEm",
+          "phrase_hebrew": "רֶמֶשׂ הָֽאֲדָמָה",
+          "phrase_transliteration": "remes ha'adamah",
+          "target_index": 1,
+          "gloss": "creatures of the ground",
+          "gloss_highlight": "ground",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H4150",
+      "citation_form": "מוֹעֵד",
+      "transliteration": "mo`ed",
+      "full_gloss": "appointed time, festival, meeting",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.1.14",
+          "surface_form": "וּלְמוֹעֲדִים",
+          "transliteration": "ulmo`adim",
+          "word_id": "01SHw",
+          "phrase_hebrew": "וּלְמוֹעֲדִים",
+          "phrase_transliteration": "ulmo`adim",
+          "target_index": 0,
+          "gloss": "and for appointed times",
+          "gloss_highlight": "appointed times",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H5159",
+      "citation_form": "נַחֲלָה",
+      "transliteration": "nakhalah",
+      "full_gloss": "inheritance, possession",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.31.14",
+          "surface_form": "וְנַחֲלָה",
+          "transliteration": "wenakhalah",
+          "word_id": "01CgJ",
+          "phrase_hebrew": "חֵלֶק וְנַחֲלָה",
+          "phrase_transliteration": "kheleq wenakhalah",
+          "target_index": 1,
+          "gloss": "portion or inheritance",
+          "gloss_highlight": "inheritance",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H8451",
+      "citation_form": "תּוֹרָה",
+      "transliteration": "torah",
+      "full_gloss": "law, instruction, teaching",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.26.5",
+          "surface_form": "וְתוֹרֹתָֽי",
+          "transliteration": "wetorotay",
+          "word_id": "01tND",
+          "phrase_hebrew": "וְתוֹרֹתָֽי",
+          "phrase_transliteration": "wetorotay",
+          "target_index": 0,
+          "gloss": "and my instructions",
+          "gloss_highlight": "instructions",
           "gloss_note": null
         }
       ]
