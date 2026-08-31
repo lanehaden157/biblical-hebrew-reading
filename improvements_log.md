@@ -27,3 +27,4 @@
 - 2026-08-30: vocab_examples.json batch 18: next 20 nouns (mitswah through khokhmah); tsiyon/khokhmah sourced from Psalms/Proverbs. 161 pending overall.
 - 2026-08-30: vocab_examples.json batch 19: next 20 nouns/adverbs (edah through nasi'); 5 sourced outside Genesis (Exodus, Jeremiah, 2 Samuel, 1 Samuel). 141 pending overall.
 - 2026-08-30: vocab_examples.json batch 20: next 20 nouns/pronouns (erev through tsedeq); 4 sourced outside Genesis (Joshua, 2 Kings, Exodus, Psalms). 121 pending overall.
+- 2026-08-30: vocab_examples.json batch 21: next 20 nouns (bekhor through bamah); 8 sourced outside Genesis (Joshua, Exodus, 2 Samuel, 1 Kings). 101 pending overall.

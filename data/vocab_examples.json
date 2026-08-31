@@ -2,9 +2,9 @@
   "metadata": {
     "source": "build_vocab_examples.py",
     "target_lemma_count": 544,
-    "curated_count": 423,
+    "curated_count": 443,
     "skipped": [],
-    "pending_count": 121
+    "pending_count": 101
   },
   "entries": [
     {
@@ -8886,6 +8886,426 @@
           "target_index": 1,
           "gloss": "sacrifices of righteousness",
           "gloss_highlight": "righteousness",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H1060",
+      "citation_form": "בְּכוֹר",
+      "transliteration": "bekhor",
+      "full_gloss": "firstborn",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.10.15",
+          "surface_form": "בְּכֹרוֹ",
+          "transliteration": "bekhoro",
+          "word_id": "01f82",
+          "phrase_hebrew": "בְּכֹרוֹ",
+          "phrase_transliteration": "bekhoro",
+          "target_index": 0,
+          "gloss": "his firstborn",
+          "gloss_highlight": "firstborn",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H6471",
+      "citation_form": "פַּעַם",
+      "transliteration": "pa`am",
+      "full_gloss": "time, occurrence; foot, step",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.2.23",
+          "surface_form": "הַפַּעַם",
+          "transliteration": "hapa`am",
+          "word_id": "01ctU",
+          "phrase_hebrew": "הַפַּעַם",
+          "phrase_transliteration": "hapa`am",
+          "target_index": 0,
+          "gloss": "this time",
+          "gloss_highlight": "time",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H8441",
+      "citation_form": "תּוֹעֵבַה",
+      "transliteration": "to`evah",
+      "full_gloss": "abomination, detestable thing",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.43.32",
+          "surface_form": "תוֹעֵבָה",
+          "transliteration": "to`evah",
+          "word_id": "01bMo",
+          "phrase_hebrew": "כִּי תוֹעֵבָה",
+          "phrase_transliteration": "ki to`evah",
+          "target_index": 1,
+          "gloss": "for it is an abomination to the Egyptians",
+          "gloss_highlight": "abomination",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H3956",
+      "citation_form": "לָשׁוֹן",
+      "transliteration": "lashon",
+      "full_gloss": "tongue, language",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.10.5",
+          "surface_form": "לִלְשֹׁנוֹ",
+          "transliteration": "lilshono",
+          "word_id": "01ud1",
+          "phrase_hebrew": "אִישׁ לִלְשֹׁנוֹ",
+          "phrase_transliteration": "'ish lilshono",
+          "target_index": 1,
+          "gloss": "each according to his language",
+          "gloss_highlight": "language",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H4467",
+      "citation_form": "מַמְלָכָה",
+      "transliteration": "mamlakhah",
+      "full_gloss": "kingdom, dominion, reign",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.10.10",
+          "surface_form": "מַמְלַכְתּוֹ",
+          "transliteration": "mamlakhto",
+          "word_id": "01gCC",
+          "phrase_hebrew": "רֵאשִׁית מַמְלַכְתּוֹ",
+          "phrase_transliteration": "re'shit mamlakhto",
+          "target_index": 1,
+          "gloss": "the beginning of his kingdom",
+          "gloss_highlight": "kingdom",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H4054",
+      "citation_form": "מִגְרָשׁ",
+      "transliteration": "migrash",
+      "full_gloss": "pastureland, open land around a city",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Josh.14.4",
+          "surface_form": "וּמִגְרְשֵׁיהֶם",
+          "transliteration": "umigresheyhem",
+          "word_id": "06qiE",
+          "phrase_hebrew": "וּמִגְרְשֵׁיהֶם",
+          "phrase_transliteration": "umigresheyhem",
+          "target_index": 0,
+          "gloss": "and their pasturelands",
+          "gloss_highlight": "pasturelands",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H8267",
+      "citation_form": "שֶׁקֶר",
+      "transliteration": "sheqer",
+      "full_gloss": "lie, falsehood, deception",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Exod.20.16",
+          "surface_form": "שָֽׁקֶר",
+          "transliteration": "shaqer",
+          "word_id": "02hnS",
+          "phrase_hebrew": "עֵד שָֽׁקֶר",
+          "phrase_transliteration": "`ed shaqer",
+          "target_index": 1,
+          "gloss": "a false witness",
+          "gloss_highlight": "false",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H5982",
+      "citation_form": "עַמּוּד",
+      "transliteration": "`amud",
+      "full_gloss": "pillar, column",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Exod.13.21",
+          "surface_form": "בְּעַמּוּד",
+          "transliteration": "be`amud",
+          "word_id": "023fY",
+          "phrase_hebrew": "בְּעַמּוּד עָנָן",
+          "phrase_transliteration": "be`amud `anan",
+          "target_index": 0,
+          "gloss": "in a pillar of cloud",
+          "gloss_highlight": "pillar",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H3671",
+      "citation_form": "כָּנָף",
+      "transliteration": "kanaf",
+      "full_gloss": "wing, edge, extremity",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.1.21",
+          "surface_form": "כָּנָף",
+          "transliteration": "kanaf",
+          "word_id": "01bYD",
+          "phrase_hebrew": "עוֹף כָּנָף",
+          "phrase_transliteration": "`of kanaf",
+          "target_index": 1,
+          "gloss": "every winged bird",
+          "gloss_highlight": "winged",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H5045",
+      "citation_form": "נֶגֶב",
+      "transliteration": "negev",
+      "full_gloss": "south, Negev",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.12.9",
+          "surface_form": "הַנֶּֽגְבָּה",
+          "transliteration": "hanegbah",
+          "word_id": "01Ztm",
+          "phrase_hebrew": "הַנֶּֽגְבָּה",
+          "phrase_transliteration": "hanegbah",
+          "target_index": 0,
+          "gloss": "toward the Negev",
+          "gloss_highlight": "Negev",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H53",
+      "citation_form": "אֲבִישָׁלוֹם",
+      "transliteration": "'avishalom",
+      "full_gloss": "Absalom",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "2Sam.3.3",
+          "surface_form": "אַבְשָׁלוֹם",
+          "transliteration": "'avshalom",
+          "word_id": "10drK",
+          "phrase_hebrew": "וְהַשְּׁלִשִׁי אַבְשָׁלוֹם",
+          "phrase_transliteration": "wehashlishi 'avshalom",
+          "target_index": 1,
+          "gloss": "and the third, Absalom",
+          "gloss_highlight": "Absalom",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H7676",
+      "citation_form": "שַׁבָּת",
+      "transliteration": "shabat",
+      "full_gloss": "Sabbath, rest",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Exod.16.25",
+          "surface_form": "שַׁבָּת",
+          "transliteration": "shabat",
+          "word_id": "028ms",
+          "phrase_hebrew": "כִּֽי שַׁבָּת הַיּוֹם",
+          "phrase_transliteration": "ki shabat hayom",
+          "target_index": 1,
+          "gloss": "for today is a Sabbath",
+          "gloss_highlight": "Sabbath",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H6083",
+      "citation_form": "עָפָר",
+      "transliteration": "`afar",
+      "full_gloss": "dust",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.2.7",
+          "surface_form": "עָפָר",
+          "transliteration": "`afar",
+          "word_id": "01ViB",
+          "phrase_hebrew": "עָפָר מִן הָאֲדָמָה",
+          "phrase_transliteration": "`afar min ha'adamah",
+          "target_index": 0,
+          "gloss": "dust from the ground",
+          "gloss_highlight": "dust",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H6862",
+      "citation_form": "צַר",
+      "transliteration": "tsar",
+      "full_gloss": "narrow, distress; adversary, foe",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.14.20",
+          "surface_form": "צָרֶיךָ",
+          "transliteration": "tsareykha",
+          "word_id": "01QJA",
+          "phrase_hebrew": "מִגֵּן צָרֶיךָ",
+          "phrase_transliteration": "migen tsareykha",
+          "target_index": 1,
+          "gloss": "who has delivered your enemies into your hand",
+          "gloss_highlight": "enemies",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H8111",
+      "citation_form": "שֹׁמְרוֹן",
+      "transliteration": "shomron",
+      "full_gloss": "Samaria",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "1Kgs.16.24",
+          "surface_form": "שֹׁמְרוֹן",
+          "transliteration": "shomron",
+          "word_id": "111QH",
+          "phrase_hebrew": "הָהָר שֹׁמְרוֹן",
+          "phrase_transliteration": "hahar shomron",
+          "target_index": 1,
+          "gloss": "the hill of Samaria",
+          "gloss_highlight": "Samaria",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H3327",
+      "citation_form": "יִצְחָק",
+      "transliteration": "yitskhaq",
+      "full_gloss": "Isaac",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.17.19",
+          "surface_form": "יִצְחָק",
+          "transliteration": "yitskhaq",
+          "word_id": "01qCy",
+          "phrase_hebrew": "שְׁמוֹ יִצְחָק",
+          "phrase_transliteration": "shemo yitskhaq",
+          "target_index": 1,
+          "gloss": "you shall call his name Isaac",
+          "gloss_highlight": "Isaac",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H3532",
+      "citation_form": "כֶּבֶשׂ",
+      "transliteration": "keves",
+      "full_gloss": "lamb",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Exod.12.5",
+          "surface_form": "הַכְּבָשִׂים",
+          "transliteration": "hakvasim",
+          "word_id": "02swM",
+          "phrase_hebrew": "מִן הַכְּבָשִׂים",
+          "phrase_transliteration": "min hakvasim",
+          "target_index": 1,
+          "gloss": "from the lambs",
+          "gloss_highlight": "lambs",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H5983",
+      "citation_form": "עַמּוֹן",
+      "transliteration": "`amon",
+      "full_gloss": "Ammon",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.19.38",
+          "surface_form": "עַמּוֹן",
+          "transliteration": "`amon",
+          "word_id": "018MU",
+          "phrase_hebrew": "אֲבִי בְנֵֽי עַמּוֹן",
+          "phrase_transliteration": "'avi veney `amon",
+          "target_index": 2,
+          "gloss": "the father of the sons of Ammon",
+          "gloss_highlight": "Ammon",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H2708",
+      "citation_form": "חֻקָּה",
+      "transliteration": "khuqah",
+      "full_gloss": "statute, ordinance",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.26.5",
+          "surface_form": "חֻקּוֹתַי",
+          "transliteration": "khuqotay",
+          "word_id": "01cee",
+          "phrase_hebrew": "חֻקּוֹתַי",
+          "phrase_transliteration": "khuqotay",
+          "target_index": 0,
+          "gloss": "my statutes",
+          "gloss_highlight": "statutes",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H1116",
+      "citation_form": "בָּמָה",
+      "transliteration": "bamah",
+      "full_gloss": "high place",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "1Kgs.3.3",
+          "surface_form": "בַּבָּמוֹת",
+          "transliteration": "babamot",
+          "word_id": "11NrV",
+          "phrase_hebrew": "רַק בַּבָּמוֹת",
+          "phrase_transliteration": "raq babamot",
+          "target_index": 1,
+          "gloss": "only at the high places",
+          "gloss_highlight": "high places",
           "gloss_note": null
         }
       ]

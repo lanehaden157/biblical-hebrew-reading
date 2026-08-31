@@ -546,6 +546,29 @@ CURATED = {
     "H5104": [("Gen", "01zCS", "01zCS", "01LsC", "a river flowed out of Eden", "river", None)],
     "H6529": [("Gen", "01Sov", "01fV3", "01Sov", "fruit tree", "fruit", None)],
     "H6664": [("Ps", "19koG", "19qVd", "19koG", "sacrifices of righteousness", "righteousness", None)],
+
+    # Batch 21 (2026-08-30): next 20 nouns. 8 have no Genesis occurrence,
+    # sourced from Joshua, Exodus, 2 Samuel, and 1 Kings.
+    "H1060": [("Gen", "01f82", "01f82", "01f82", "his firstborn", "firstborn", None)],
+    "H6471": [("Gen", "01ctU", "01ctU", "01ctU", "this time", "time", None)],
+    "H8441": [("Gen", "01bMo", "01ZUV", "01bMo", "for it is an abomination to the Egyptians", "abomination", None)],
+    "H3956": [("Gen", "01ud1", "019g8", "01ud1", "each according to his language", "language", None)],
+    "H4467": [("Gen", "01gCC", "011Xj", "01gCC", "the beginning of his kingdom", "kingdom", None)],
+    "H4054": [("Josh", "06qiE", "06qiE", "06qiE", "and their pasturelands", "pasturelands", None)],
+    "H8267": [("Exod", "02hnS", "02WW6", "02hnS", "a false witness", "false", None)],
+    "H5982": [("Exod", "023fY", "023fY", "024sy", "in a pillar of cloud", "pillar", None)],
+    "H3671": [("Gen", "01bYD", "01q1G", "01bYD", "every winged bird", "winged", None)],
+    "H5045": [("Gen", "01Ztm", "01Ztm", "01Ztm", "toward the Negev", "Negev", None)],
+    "H53": [("2Sam", "10drK", "10F5j", "10drK", "and the third, Absalom", "Absalom", None)],
+    "H7676": [("Exod", "028ms", "02GfP", "024aE", "for today is a Sabbath", "Sabbath", None)],
+    "H6083": [("Gen", "01ViB", "01ViB", "015Ja", "dust from the ground", "dust", None)],
+    "H6862": [("Gen", "01QJA", "01mjE", "01QJA", "who has delivered your enemies into your hand", "enemies", None)],
+    "H8111": [("1Kgs", "111QH", "11jWN", "111QH", "the hill of Samaria", "Samaria", None)],
+    "H3327": [("Gen", "01qCy", "016iZ", "01qCy", "you shall call his name Isaac", "Isaac", None)],
+    "H3532": [("Exod", "02swM", "022y9", "02swM", "from the lambs", "lambs", None)],
+    "H5983": [("Gen", "018MU", "019uw", "018MU", "the father of the sons of Ammon", "Ammon", None)],
+    "H2708": [("Gen", "01cee", "01cee", "01cee", "my statutes", "statutes", None)],
+    "H1116": [("1Kgs", "11NrV", "11oQV", "11NrV", "only at the high places", "high places", None)],
 }
 
 # Lemmas Lane said to file away rather than force a single example onto --
