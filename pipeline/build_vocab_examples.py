@@ -107,6 +107,29 @@ CURATED = {
     "H6030": [("Ruth", "08p7s", "08p7s", "08ZBR", "Boaz answered", "answered", None)],
     "H6485": [("Ruth", "08L7t", "08L7t", "08xdF", "the LORD had visited his people", "visited", None)],
     "H5493": [("Ruth", "08rKT", "08rKT", "08rHh", "turn aside, sit here", "turn aside", None)],
+
+    # Batch 3 (2026-08-30): next 20 verbs by frequency. katav has no
+    # Genesis/Jonah/Ruth occurrence, so sourced from Exodus instead.
+    "H2388": [("Gen", "01hfu", "01hfu", "01Luf", "the men seized his hand", "seized", None)],
+    "H3772": [("Gen", "01yTL", "01yTL", "01cZp", "the LORD made a covenant with Abram", "made a covenant", "lit. \"cut\" a covenant -- karat's core sense is to cut/sever")],
+    "H5647": [("Gen", "01sCi", "01sCi", "01S3d", "to work it and keep it", "work", None)],
+    "H341": [("Gen", "01J3C", "01Qi4", "01J3C", "the gate of his enemies", "enemies", "a Qal participle (\"those who are hostile\") used as a noun, not a finite verb form")],
+    "H7126": [("Jonah", "32sRU", "32sRU", "32Wxq", "he approached him", "approached", None)],
+    "H2421": [("Gen", "01Anx", "01Anx", "01kWB", "Adam lived", "lived", None)],
+    "H4390": [("Gen", "01RCg", "01RCg", "01qVd", "fill the waters", "fill", None)],
+    "H2398": [("Gen", "012ps", "01UR1", "01DM4", "how have I sinned against you", "sinned", None)],
+    "H2142": [("Jonah", "32jjy", "326JA", "32jjy", "I remembered the LORD", "remembered", None)],
+    "H7235": [("Gen", "01DDb", "01cK8", "01DDb", "be fruitful and multiply", "multiply", None)],
+    "H3423": [("Gen", "01iih", "01iih", "01vUK", "he is my heir", "heir", "lit. \"inherits/possesses me\" -- yarash's core sense is to take possession")],
+    "H3789": [("Exod", "02XSs", "02XSs", "02gF9", "Moses wrote", "wrote", None)],
+    "H1245": [("Ruth", "0831Z", "0831Z", "08qjY", "shall I seek rest for you", "seek", None)],
+    "H3559": [("Gen", "01KDA", "01KDA", "01RvZ", "the matter is certain", "certain", "kun's core sense is to be firm/established -- here of a decision being fixed, not physically built")],
+    "H8354": [("Gen", "015dP", "015dP", "01Wke", "he drank from the wine", "drank", None)],
+    "H5186": [("Gen", "018NY", "018NY", "01BdS", "he pitched his tent", "pitched", "lit. \"stretched out/extended\" -- natah's core sense, here idiomatically \"pitch a tent\"")],
+    "H5800": [("Gen", "01Gpp", "01Gpp", "01T85", "a man shall leave [his father]", "leave", None)],
+    "H5337": [("Gen", "01bNf", "01bNf", "01gYW", "God delivered [it]", "delivered", "here of God transferring Laban's flocks to Jacob, not a rescue from danger")],
+    "H7901": [("Jonah", "32tKT", "32tKT", "32NRT", "he lay down and fell asleep", "lay down", None)],
+    "H157": [("Gen", "018Fj", "01ESV", "018Fj", "whom you love", "love", None)],
 }
 
 # Lemmas Lane said to file away rather than force a single example onto --

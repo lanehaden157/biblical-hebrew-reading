@@ -2,9 +2,9 @@
   "metadata": {
     "source": "build_vocab_examples.py",
     "target_lemma_count": 544,
-    "curated_count": 40,
+    "curated_count": 60,
     "skipped": [],
-    "pending_count": 504
+    "pending_count": 484
   },
   "entries": [
     {
@@ -843,6 +843,426 @@
           "target_index": 0,
           "gloss": "turn aside, sit here",
           "gloss_highlight": "turn aside",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H2388",
+      "citation_form": "חָזַק",
+      "transliteration": "khazaq",
+      "full_gloss": "be strong, strengthen, seize",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.19.16",
+          "surface_form": "וַיַּחֲזִקוּ",
+          "transliteration": "wayakhaziqu",
+          "word_id": "01hfu",
+          "phrase_hebrew": "וַיַּחֲזִקוּ הָאֲנָשִׁים בְּיָדוֹ",
+          "phrase_transliteration": "wayakhaziqu ha'anashim beyado",
+          "target_index": 0,
+          "gloss": "the men seized his hand",
+          "gloss_highlight": "seized",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H3772",
+      "citation_form": "כָּרַת",
+      "transliteration": "karat",
+      "full_gloss": "cut, cut off; make (a covenant)",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.15.18",
+          "surface_form": "כָּרַת",
+          "transliteration": "karat",
+          "word_id": "01yTL",
+          "phrase_hebrew": "כָּרַת יְהוָה אֶת אַבְרָם בְּרִית",
+          "phrase_transliteration": "karat yehwah 'et 'avram berit",
+          "target_index": 0,
+          "gloss": "the LORD made a covenant with Abram",
+          "gloss_highlight": "made a covenant",
+          "gloss_note": "lit. \"cut\" a covenant -- karat's core sense is to cut/sever"
+        }
+      ]
+    },
+    {
+      "lemma_id": "H5647",
+      "citation_form": "עָבַד",
+      "transliteration": "`avad",
+      "full_gloss": "serve, work",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.2.15",
+          "surface_form": "לְעָבְדָהּ",
+          "transliteration": "le`avdah",
+          "word_id": "01sCi",
+          "phrase_hebrew": "לְעָבְדָהּ וּלְשָׁמְרָֽהּ",
+          "phrase_transliteration": "le`avdah ulshamrah",
+          "target_index": 0,
+          "gloss": "to work it and keep it",
+          "gloss_highlight": "work",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H341",
+      "citation_form": "אֹיֵב",
+      "transliteration": "'oyev",
+      "full_gloss": "enemy",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.22.17",
+          "surface_form": "אֹיְבָֽיו",
+          "transliteration": "'oyvayw",
+          "word_id": "01J3C",
+          "phrase_hebrew": "שַׁעַר אֹיְבָֽיו",
+          "phrase_transliteration": "sha`ar 'oyvayw",
+          "target_index": 1,
+          "gloss": "the gate of his enemies",
+          "gloss_highlight": "enemies",
+          "gloss_note": "a Qal participle (\"those who are hostile\") used as a noun, not a finite verb form"
+        }
+      ]
+    },
+    {
+      "lemma_id": "H7126",
+      "citation_form": "קָרַב",
+      "transliteration": "qarav",
+      "full_gloss": "come near, approach",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Jonah.1.6",
+          "surface_form": "וַיִּקְרַב",
+          "transliteration": "wayiqrav",
+          "word_id": "32sRU",
+          "phrase_hebrew": "וַיִּקְרַב אֵלָיו",
+          "phrase_transliteration": "wayiqrav 'elayw",
+          "target_index": 0,
+          "gloss": "he approached him",
+          "gloss_highlight": "approached",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H2421",
+      "citation_form": "חָיָה",
+      "transliteration": "khayah",
+      "full_gloss": "live",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.5.3",
+          "surface_form": "וַֽיְחִי",
+          "transliteration": "waykhi",
+          "word_id": "01Anx",
+          "phrase_hebrew": "וַֽיְחִי אָדָם",
+          "phrase_transliteration": "waykhi 'adam",
+          "target_index": 0,
+          "gloss": "Adam lived",
+          "gloss_highlight": "lived",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H4390",
+      "citation_form": "מָלֵא",
+      "transliteration": "male'",
+      "full_gloss": "fill, be full",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.1.22",
+          "surface_form": "וּמִלְאוּ",
+          "transliteration": "umil'u",
+          "word_id": "01RCg",
+          "phrase_hebrew": "וּמִלְאוּ אֶת הַמַּיִם",
+          "phrase_transliteration": "umil'u 'et hamayim",
+          "target_index": 0,
+          "gloss": "fill the waters",
+          "gloss_highlight": "fill",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H2398",
+      "citation_form": "חָטָא",
+      "transliteration": "khata'",
+      "full_gloss": "sin, miss the mark, do wrong",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.20.9",
+          "surface_form": "חָטָאתִי",
+          "transliteration": "khata'ti",
+          "word_id": "012ps",
+          "phrase_hebrew": "וּמֶֽה חָטָאתִי לָךְ",
+          "phrase_transliteration": "umeh khata'ti lakh",
+          "target_index": 1,
+          "gloss": "how have I sinned against you",
+          "gloss_highlight": "sinned",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H2142",
+      "citation_form": "זָכַר",
+      "transliteration": "zakhar",
+      "full_gloss": "remember, mention",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Jonah.2.8",
+          "surface_form": "זָכָרְתִּי",
+          "transliteration": "zakharti",
+          "word_id": "32jjy",
+          "phrase_hebrew": "אֶת יְהוָה זָכָרְתִּי",
+          "phrase_transliteration": "'et yehwah zakharti",
+          "target_index": 2,
+          "gloss": "I remembered the LORD",
+          "gloss_highlight": "remembered",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H7235",
+      "citation_form": "רָבָה",
+      "transliteration": "ravah",
+      "full_gloss": "increase, multiply",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.1.22",
+          "surface_form": "וּרְבוּ",
+          "transliteration": "urvu",
+          "word_id": "01DDb",
+          "phrase_hebrew": "פְּרוּ וּרְבוּ",
+          "phrase_transliteration": "peru urvu",
+          "target_index": 1,
+          "gloss": "be fruitful and multiply",
+          "gloss_highlight": "multiply",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H3423",
+      "citation_form": "יָרַשׁ",
+      "transliteration": "yarash",
+      "full_gloss": "take possession of, inherit, dispossess",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.15.3",
+          "surface_form": "יוֹרֵשׁ",
+          "transliteration": "yoresh",
+          "word_id": "01iih",
+          "phrase_hebrew": "יוֹרֵשׁ אֹתִֽי",
+          "phrase_transliteration": "yoresh 'oti",
+          "target_index": 0,
+          "gloss": "he is my heir",
+          "gloss_highlight": "heir",
+          "gloss_note": "lit. \"inherits/possesses me\" -- yarash's core sense is to take possession"
+        }
+      ]
+    },
+    {
+      "lemma_id": "H3789",
+      "citation_form": "כָּתַב",
+      "transliteration": "katav",
+      "full_gloss": "write",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Exod.24.4",
+          "surface_form": "וַיִּכְתֹּב",
+          "transliteration": "wayikhtov",
+          "word_id": "02XSs",
+          "phrase_hebrew": "וַיִּכְתֹּב מֹשֶׁה",
+          "phrase_transliteration": "wayikhtov mosheh",
+          "target_index": 0,
+          "gloss": "Moses wrote",
+          "gloss_highlight": "wrote",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H1245",
+      "citation_form": "בָּקַשׁ",
+      "transliteration": "baqash",
+      "full_gloss": "seek, search for",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Ruth.3.1",
+          "surface_form": "אֲבַקֶּשׁ",
+          "transliteration": "'avaqesh",
+          "word_id": "0831Z",
+          "phrase_hebrew": "אֲבַקֶּשׁ לָךְ מָנוֹחַ",
+          "phrase_transliteration": "'avaqesh lakh manoakh",
+          "target_index": 0,
+          "gloss": "shall I seek rest for you",
+          "gloss_highlight": "seek",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H3559",
+      "citation_form": "כּוּן",
+      "transliteration": "kun",
+      "full_gloss": "be firm, establish, prepare",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.41.32",
+          "surface_form": "נָכוֹן",
+          "transliteration": "nakhon",
+          "word_id": "01KDA",
+          "phrase_hebrew": "נָכוֹן הַדָּבָר",
+          "phrase_transliteration": "nakhon hadavar",
+          "target_index": 0,
+          "gloss": "the matter is certain",
+          "gloss_highlight": "certain",
+          "gloss_note": "kun's core sense is to be firm/established -- here of a decision being fixed, not physically built"
+        }
+      ]
+    },
+    {
+      "lemma_id": "H8354",
+      "citation_form": "שָׁתָה",
+      "transliteration": "shatah",
+      "full_gloss": "drink",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.9.21",
+          "surface_form": "וַיֵּשְׁתְּ",
+          "transliteration": "wayesht",
+          "word_id": "015dP",
+          "phrase_hebrew": "וַיֵּשְׁתְּ מִן הַיַּיִן",
+          "phrase_transliteration": "wayesht min hayayin",
+          "target_index": 0,
+          "gloss": "he drank from the wine",
+          "gloss_highlight": "drank",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H5186",
+      "citation_form": "נָטָה",
+      "transliteration": "natah",
+      "full_gloss": "stretch out, extend, turn aside",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.12.8",
+          "surface_form": "וַיֵּט",
+          "transliteration": "wayet",
+          "word_id": "018NY",
+          "phrase_hebrew": "וַיֵּט אָהֳלֹה",
+          "phrase_transliteration": "wayet 'aholoh",
+          "target_index": 0,
+          "gloss": "he pitched his tent",
+          "gloss_highlight": "pitched",
+          "gloss_note": "lit. \"stretched out/extended\" -- natah's core sense, here idiomatically \"pitch a tent\""
+        }
+      ]
+    },
+    {
+      "lemma_id": "H5800",
+      "citation_form": "עָזַב",
+      "transliteration": "`azav",
+      "full_gloss": "abandon, forsake, leave",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.2.24",
+          "surface_form": "יַֽעֲזָב",
+          "transliteration": "ya`azav",
+          "word_id": "01Gpp",
+          "phrase_hebrew": "יַֽעֲזָב אִישׁ",
+          "phrase_transliteration": "ya`azav 'ish",
+          "target_index": 0,
+          "gloss": "a man shall leave [his father]",
+          "gloss_highlight": "leave",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H5337",
+      "citation_form": "נָצַל",
+      "transliteration": "natsal",
+      "full_gloss": "deliver, rescue, snatch away",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.31.9",
+          "surface_form": "וַיַּצֵּל",
+          "transliteration": "wayatsel",
+          "word_id": "01bNf",
+          "phrase_hebrew": "וַיַּצֵּל אֱלֹהִים",
+          "phrase_transliteration": "wayatsel 'elohim",
+          "target_index": 0,
+          "gloss": "God delivered [it]",
+          "gloss_highlight": "delivered",
+          "gloss_note": "here of God transferring Laban's flocks to Jacob, not a rescue from danger"
+        }
+      ]
+    },
+    {
+      "lemma_id": "H7901",
+      "citation_form": "שָׁכַב",
+      "transliteration": "shakhav",
+      "full_gloss": "lie down",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Jonah.1.5",
+          "surface_form": "וַיִּשְׁכַּב",
+          "transliteration": "wayishkav",
+          "word_id": "32tKT",
+          "phrase_hebrew": "וַיִּשְׁכַּב וַיֵּרָדַֽם",
+          "phrase_transliteration": "wayishkav wayeradam",
+          "target_index": 0,
+          "gloss": "he lay down and fell asleep",
+          "gloss_highlight": "lay down",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H157",
+      "citation_form": "אָהַב",
+      "transliteration": "'ahav",
+      "full_gloss": "love",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.22.2",
+          "surface_form": "אָהַבְתָּ",
+          "transliteration": "'ahavta",
+          "word_id": "018Fj",
+          "phrase_hebrew": "אֲשֶׁר אָהַבְתָּ",
+          "phrase_transliteration": "'asher 'ahavta",
+          "target_index": 1,
+          "gloss": "whom you love",
+          "gloss_highlight": "love",
           "gloss_note": null
         }
       ]
