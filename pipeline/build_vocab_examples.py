@@ -475,6 +475,29 @@ CURATED = {
     "H7453": [("Gen", "01pyb", "01DaL", "01pyb", "each to his neighbor", "neighbor", None)],
     "H241": [("Gen", "01a92", "01a92", "01a92", "in their ears", "ears", None)],
     "H5612": [("Gen", "018jj", "015Xt", "018jj", "this is the book", "book", None)],
+
+    # Batch 18 (2026-08-30): next 20 nouns. tsiyon/khokhmah have no
+    # Genesis occurrence, sourced from Psalms/Proverbs.
+    "H4687": [("Gen", "01KPR", "01KPR", "01KPR", "my commandments", "commandments", None)],
+    "H1241": [("Gen", "01o5N", "01eLd", "01o5N", "sheep and oxen", "oxen", None)],
+    "H3383": [("Gen", "01rN3", "01ti5", "01rN3", "the whole plain of the Jordan", "Jordan", None)],
+    "H4124": [("Gen", "01mdG", "014rn", "01mdG", "she called his name Moab", "Moab", None)],
+    "H669": [("Gen", "01zCA", "01H1E", "01zCA", "he called [him] Ephraim", "Ephraim", None)],
+    "H8193": [("Gen", "01dve", "01dve", "01xj3", "one language", "language", None)],
+    "H85": [("Gen", "01TCv", "01Ycg", "01TCv", "your name shall be Abraham", "Abraham", None)],
+    "H1755": [("Gen", "01ZxQ", "01ZxQ", "01ZxQ", "in his generations", "generations", None)],
+    "H1144": [("Gen", "01bpG", "01Vfn", "01bpG", "he called him Benjamin", "Benjamin", None)],
+    "H4399": [("Gen", "01GtT", "01GtT", "01GtT", "his work", "work", None)],
+    "H2351": [("Gen", "01fqr", "01uQX", "01fqr", "inside and outside", "outside", None)],
+    "H6607": [("Gen", "01Ggr", "01Ggr", "01Ggr", "at the door", "door", None)],
+    "H2077": [("Gen", "01TLG", "01wee", "01TLG", "Jacob offered a sacrifice", "sacrifice", None)],
+    "H6666": [("Gen", "01Q3M", "01FpW", "01Q3M", "to him as righteousness", "righteousness", None)],
+    "H4194": [("Gen", "01Suh", "01Suh", "01GJe", "the death of the child", "death", None)],
+    "H6726": [("Ps", "19zQ2", "19iy2", "19zQ2", "upon Zion, my holy hill", "Zion", None)],
+    "H6828": [("Gen", "01Bwp", "01Bwp", "01yNo", "northward and southward", "north", None)],
+    "H804": [("Gen", "013Yo", "01ht4", "013Yo", "east of Assyria", "Assyria", None)],
+    "H7230": [("Gen", "01eZb", "01imA", "01eZb", "it shall not be counted, for abundance", "abundance", None)],
+    "H2451": [("Prov", "20Wkf", "20nAB", "20Wkf", "the beginning of knowledge is wisdom", "wisdom", None)],
 }
 
 # Lemmas Lane said to file away rather than force a single example onto --

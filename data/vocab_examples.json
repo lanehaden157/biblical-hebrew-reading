@@ -2,9 +2,9 @@
   "metadata": {
     "source": "build_vocab_examples.py",
     "target_lemma_count": 544,
-    "curated_count": 363,
+    "curated_count": 383,
     "skipped": [],
-    "pending_count": 181
+    "pending_count": 161
   },
   "entries": [
     {
@@ -7626,6 +7626,426 @@
           "target_index": 1,
           "gloss": "this is the book",
           "gloss_highlight": "book",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H4687",
+      "citation_form": "מִצְוָה",
+      "transliteration": "mitswah",
+      "full_gloss": "commandment",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.26.5",
+          "surface_form": "מִצְוֺתַי",
+          "transliteration": "mitswotay",
+          "word_id": "01KPR",
+          "phrase_hebrew": "מִצְוֺתַי",
+          "phrase_transliteration": "mitswotay",
+          "target_index": 0,
+          "gloss": "my commandments",
+          "gloss_highlight": "commandments",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H1241",
+      "citation_form": "בָּקָר",
+      "transliteration": "baqar",
+      "full_gloss": "cattle, herd, ox",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.12.16",
+          "surface_form": "וּבָקָר",
+          "transliteration": "uvaqar",
+          "word_id": "01o5N",
+          "phrase_hebrew": "צֹאן וּבָקָר",
+          "phrase_transliteration": "tso'n uvaqar",
+          "target_index": 1,
+          "gloss": "sheep and oxen",
+          "gloss_highlight": "oxen",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H3383",
+      "citation_form": "יַרְדֵּן",
+      "transliteration": "yarden",
+      "full_gloss": "Jordan",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.13.10",
+          "surface_form": "הַיַּרְדֵּן",
+          "transliteration": "hayarden",
+          "word_id": "01rN3",
+          "phrase_hebrew": "כִּכַּר הַיַּרְדֵּן",
+          "phrase_transliteration": "kikar hayarden",
+          "target_index": 1,
+          "gloss": "the whole plain of the Jordan",
+          "gloss_highlight": "Jordan",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H4124",
+      "citation_form": "מוֹאָב",
+      "transliteration": "mo'av",
+      "full_gloss": "Moab",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.19.37",
+          "surface_form": "מוֹאָב",
+          "transliteration": "mo'av",
+          "word_id": "01mdG",
+          "phrase_hebrew": "שְׁמוֹ מוֹאָב",
+          "phrase_transliteration": "shemo mo'av",
+          "target_index": 1,
+          "gloss": "she called his name Moab",
+          "gloss_highlight": "Moab",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H669",
+      "citation_form": "אֶפְרַיִם",
+      "transliteration": "'efrayim",
+      "full_gloss": "Ephraim",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.41.52",
+          "surface_form": "אֶפְרָיִם",
+          "transliteration": "'efrayim",
+          "word_id": "01zCA",
+          "phrase_hebrew": "קָרָא אֶפְרָיִם",
+          "phrase_transliteration": "qara' 'efrayim",
+          "target_index": 1,
+          "gloss": "he called [him] Ephraim",
+          "gloss_highlight": "Ephraim",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H8193",
+      "citation_form": "שָׂפָה",
+      "transliteration": "safah",
+      "full_gloss": "lip, language, edge",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.11.1",
+          "surface_form": "שָׂפָה",
+          "transliteration": "safah",
+          "word_id": "01dve",
+          "phrase_hebrew": "שָׂפָה אֶחָת",
+          "phrase_transliteration": "safah 'ekhat",
+          "target_index": 0,
+          "gloss": "one language",
+          "gloss_highlight": "language",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H85",
+      "citation_form": "אַבְרָהָם",
+      "transliteration": "'avraham",
+      "full_gloss": "Abraham",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.17.5",
+          "surface_form": "אַבְרָהָם",
+          "transliteration": "'avraham",
+          "word_id": "01TCv",
+          "phrase_hebrew": "שִׁמְךָ אַבְרָהָם",
+          "phrase_transliteration": "shimkha 'avraham",
+          "target_index": 1,
+          "gloss": "your name shall be Abraham",
+          "gloss_highlight": "Abraham",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H1755",
+      "citation_form": "דּוֹר",
+      "transliteration": "dor",
+      "full_gloss": "generation",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.6.9",
+          "surface_form": "בְּדֹֽרֹתָיו",
+          "transliteration": "bedorotayw",
+          "word_id": "01ZxQ",
+          "phrase_hebrew": "בְּדֹֽרֹתָיו",
+          "phrase_transliteration": "bedorotayw",
+          "target_index": 0,
+          "gloss": "in his generations",
+          "gloss_highlight": "generations",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H1144",
+      "citation_form": "בִּנְיָמִין",
+      "transliteration": "binyamin",
+      "full_gloss": "Benjamin",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.35.18",
+          "surface_form": "בִנְיָמִֽין",
+          "transliteration": "vinyamin",
+          "word_id": "01bpG",
+          "phrase_hebrew": "קָֽרָא לוֹ בִנְיָמִֽין",
+          "phrase_transliteration": "qara' lo vinyamin",
+          "target_index": 2,
+          "gloss": "he called him Benjamin",
+          "gloss_highlight": "Benjamin",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H4399",
+      "citation_form": "מְלָאכָה",
+      "transliteration": "mela'khah",
+      "full_gloss": "work, occupation, labor",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.2.2",
+          "surface_form": "מְלַאכְתּוֹ",
+          "transliteration": "mela'khto",
+          "word_id": "01GtT",
+          "phrase_hebrew": "מְלַאכְתּוֹ",
+          "phrase_transliteration": "mela'khto",
+          "target_index": 0,
+          "gloss": "his work",
+          "gloss_highlight": "work",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H2351",
+      "citation_form": "חוּץ",
+      "transliteration": "khuts",
+      "full_gloss": "outside, street",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.6.14",
+          "surface_form": "וּמִחוּץ",
+          "transliteration": "umikhuts",
+          "word_id": "01fqr",
+          "phrase_hebrew": "מִבַּיִת וּמִחוּץ",
+          "phrase_transliteration": "mibayit umikhuts",
+          "target_index": 1,
+          "gloss": "inside and outside",
+          "gloss_highlight": "outside",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H6607",
+      "citation_form": "פֶּתַח",
+      "transliteration": "petakh",
+      "full_gloss": "entrance, doorway, opening",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.4.7",
+          "surface_form": "לַפֶּתַח",
+          "transliteration": "lapetakh",
+          "word_id": "01Ggr",
+          "phrase_hebrew": "לַפֶּתַח",
+          "phrase_transliteration": "lapetakh",
+          "target_index": 0,
+          "gloss": "at the door",
+          "gloss_highlight": "door",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H2077",
+      "citation_form": "זֶבַח",
+      "transliteration": "zevakh",
+      "full_gloss": "sacrifice",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.31.54",
+          "surface_form": "זֶבַח",
+          "transliteration": "zevakh",
+          "word_id": "01TLG",
+          "phrase_hebrew": "יַעֲקֹב זֶבַח",
+          "phrase_transliteration": "ya`aqov zevakh",
+          "target_index": 1,
+          "gloss": "Jacob offered a sacrifice",
+          "gloss_highlight": "sacrifice",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H6666",
+      "citation_form": "צְדָקָה",
+      "transliteration": "tsedaqah",
+      "full_gloss": "righteousness",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.15.6",
+          "surface_form": "צְדָקָֽה",
+          "transliteration": "tsedaqah",
+          "word_id": "01Q3M",
+          "phrase_hebrew": "לּוֹ צְדָקָֽה",
+          "phrase_transliteration": "lo tsedaqah",
+          "target_index": 1,
+          "gloss": "to him as righteousness",
+          "gloss_highlight": "righteousness",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H4194",
+      "citation_form": "מָוֶת",
+      "transliteration": "mawet",
+      "full_gloss": "death",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.21.16",
+          "surface_form": "בְּמוֹת",
+          "transliteration": "bemot",
+          "word_id": "01Suh",
+          "phrase_hebrew": "בְּמוֹת הַיָּלֶד",
+          "phrase_transliteration": "bemot hayaled",
+          "target_index": 0,
+          "gloss": "the death of the child",
+          "gloss_highlight": "death",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H6726",
+      "citation_form": "צִיּוֹן",
+      "transliteration": "tsiyon",
+      "full_gloss": "Zion",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Ps.2.6",
+          "surface_form": "צִיּוֹן",
+          "transliteration": "tsiyon",
+          "word_id": "19zQ2",
+          "phrase_hebrew": "עַל צִיּוֹן",
+          "phrase_transliteration": "`al tsiyon",
+          "target_index": 1,
+          "gloss": "upon Zion, my holy hill",
+          "gloss_highlight": "Zion",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H6828",
+      "citation_form": "צָפוֹן",
+      "transliteration": "tsafon",
+      "full_gloss": "north",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.13.14",
+          "surface_form": "צָפֹנָה",
+          "transliteration": "tsafonah",
+          "word_id": "01Bwp",
+          "phrase_hebrew": "צָפֹנָה וָנֶגְבָּה",
+          "phrase_transliteration": "tsafonah wanegbah",
+          "target_index": 0,
+          "gloss": "northward and southward",
+          "gloss_highlight": "north",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H804",
+      "citation_form": "אַשּׁוּר",
+      "transliteration": "'ashur",
+      "full_gloss": "Assyria, Asshur",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.2.14",
+          "surface_form": "אַשּׁוּר",
+          "transliteration": "'ashur",
+          "word_id": "013Yo",
+          "phrase_hebrew": "קִדְמַת אַשּׁוּר",
+          "phrase_transliteration": "qidmat 'ashur",
+          "target_index": 1,
+          "gloss": "east of Assyria",
+          "gloss_highlight": "Assyria",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H7230",
+      "citation_form": "רֹב",
+      "transliteration": "rov",
+      "full_gloss": "abundance, multitude",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.16.10",
+          "surface_form": "מֵרֹֽב",
+          "transliteration": "merov",
+          "word_id": "01eZb",
+          "phrase_hebrew": "יִסָּפֵר מֵרֹֽב",
+          "phrase_transliteration": "yisafer merov",
+          "target_index": 1,
+          "gloss": "it shall not be counted, for abundance",
+          "gloss_highlight": "abundance",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H2451",
+      "citation_form": "חׇכְמָה",
+      "transliteration": "khokhmah",
+      "full_gloss": "wisdom",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Prov.1.7",
+          "surface_form": "חָכְמָה",
+          "transliteration": "khakhmah",
+          "word_id": "20Wkf",
+          "phrase_hebrew": "רֵאשִׁית דָּעַת חָכְמָה",
+          "phrase_transliteration": "re'shit da`at khakhmah",
+          "target_index": 2,
+          "gloss": "the beginning of knowledge is wisdom",
+          "gloss_highlight": "wisdom",
           "gloss_note": null
         }
       ]

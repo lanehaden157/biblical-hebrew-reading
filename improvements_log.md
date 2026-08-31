@@ -24,3 +24,4 @@
 - 2026-08-30: vocab_examples.json batch 15: next 20 nouns/adverbs (milkhamah through par'oh); shelomoh/lewiyi sourced from 1 Kings/Exodus. 221 pending overall.
 - 2026-08-30: vocab_examples.json batch 16: next 20 nouns (bavel through torah), all found in Genesis. 201 pending overall.
 - 2026-08-30: vocab_examples.json batch 17: next 20 nouns (em through sefer); yehoshua` sourced from Joshua. 181 pending overall.
+- 2026-08-30: vocab_examples.json batch 18: next 20 nouns (mitswah through khokhmah); tsiyon/khokhmah sourced from Psalms/Proverbs. 161 pending overall.
