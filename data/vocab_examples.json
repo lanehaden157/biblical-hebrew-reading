@@ -2,9 +2,9 @@
   "metadata": {
     "source": "build_vocab_examples.py",
     "target_lemma_count": 544,
-    "curated_count": 179,
+    "curated_count": 223,
     "skipped": [],
-    "pending_count": 365
+    "pending_count": 321
   },
   "entries": [
     {
@@ -3762,6 +3762,930 @@
           "target_index": 0,
           "gloss": "spread your wing over [your servant]",
           "gloss_highlight": "spread",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H259",
+      "citation_form": "אֶחָד",
+      "transliteration": "'ekhad",
+      "full_gloss": "one",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.1.5",
+          "surface_form": "אֶחָֽד",
+          "transliteration": "'ekhad",
+          "word_id": "01NFp",
+          "phrase_hebrew": "יוֹם אֶחָֽד",
+          "phrase_transliteration": "yom 'ekhad",
+          "target_index": 1,
+          "gloss": "one day",
+          "gloss_highlight": "one",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H8147",
+      "citation_form": "שְׁנַיִם",
+      "transliteration": "shenayim",
+      "full_gloss": "two",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.1.16",
+          "surface_form": "שְׁנֵי",
+          "transliteration": "sheney",
+          "word_id": "01YHH",
+          "phrase_hebrew": "שְׁנֵי הַמְּאֹרֹת",
+          "phrase_transliteration": "sheney ham'orot",
+          "target_index": 0,
+          "gloss": "the two great lights",
+          "gloss_highlight": "two",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H7451",
+      "citation_form": "רַע",
+      "transliteration": "ra`",
+      "full_gloss": "evil, bad",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.2.9",
+          "surface_form": "וָרָֽע",
+          "transliteration": "wara`",
+          "word_id": "015ED",
+          "phrase_hebrew": "טוֹב וָרָֽע",
+          "phrase_transliteration": "tov wara`",
+          "target_index": 1,
+          "gloss": "good and evil",
+          "gloss_highlight": "evil",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H3967",
+      "citation_form": "מֵאָה",
+      "transliteration": "me'ah",
+      "full_gloss": "hundred",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.5.4",
+          "surface_form": "מֵאֹת",
+          "transliteration": "me'ot",
+          "word_id": "01nfi",
+          "phrase_hebrew": "שְׁמֹנֶה מֵאֹת",
+          "phrase_transliteration": "shemoneh me'ot",
+          "target_index": 1,
+          "gloss": "eight hundred years",
+          "gloss_highlight": "hundred",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H2896",
+      "citation_form": "טוֹב",
+      "transliteration": "tov",
+      "full_gloss": "good",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.1.4",
+          "surface_form": "טוֹב",
+          "transliteration": "tov",
+          "word_id": "01g2y",
+          "phrase_hebrew": "כִּי טוֹב",
+          "phrase_transliteration": "ki tov",
+          "target_index": 1,
+          "gloss": "that it was good",
+          "gloss_highlight": "good",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H1419",
+      "citation_form": "גָּדוֹל",
+      "transliteration": "gadol",
+      "full_gloss": "great, big",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.1.16",
+          "surface_form": "הַגְּדֹלִים",
+          "transliteration": "hagdolim",
+          "word_id": "01iee",
+          "phrase_hebrew": "הַמְּאֹרֹת הַגְּדֹלִים",
+          "phrase_transliteration": "ham'orot hagdolim",
+          "target_index": 1,
+          "gloss": "the great lights",
+          "gloss_highlight": "great",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H505",
+      "citation_form": "אֶלֶף",
+      "transliteration": "'elef",
+      "full_gloss": "thousand",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.20.16",
+          "surface_form": "אֶלֶף",
+          "transliteration": "'elef",
+          "word_id": "01PdT",
+          "phrase_hebrew": "נָתַתִּי אֶלֶף כֶּסֶף",
+          "phrase_transliteration": "natati 'elef kesef",
+          "target_index": 1,
+          "gloss": "I have given a thousand [pieces] of silver",
+          "gloss_highlight": "thousand",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H7227",
+      "citation_form": "רַב",
+      "transliteration": "rav",
+      "full_gloss": "much, many, great",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.6.5",
+          "surface_form": "רַבָּה",
+          "transliteration": "rabah",
+          "word_id": "01mM8",
+          "phrase_hebrew": "כִּי רַבָּה",
+          "phrase_transliteration": "ki rabah",
+          "target_index": 1,
+          "gloss": "that [man's wickedness] was great",
+          "gloss_highlight": "great",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H7969",
+      "citation_form": "שָׁלוֹשׁ",
+      "transliteration": "shalosh",
+      "full_gloss": "three",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.5.22",
+          "surface_form": "שְׁלֹשׁ",
+          "transliteration": "shelosh",
+          "word_id": "01Lrp",
+          "phrase_hebrew": "שְׁלֹשׁ מֵאוֹת",
+          "phrase_transliteration": "shelosh me'ot",
+          "target_index": 0,
+          "gloss": "three hundred years",
+          "gloss_highlight": "three",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H7651",
+      "citation_form": "שֶׁבַע",
+      "transliteration": "sheva`",
+      "full_gloss": "seven",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.5.7",
+          "surface_form": "שֶׁבַע",
+          "transliteration": "sheva`",
+          "word_id": "015VT",
+          "phrase_hebrew": "שֶׁבַע שָׁנִים",
+          "phrase_transliteration": "sheva` shanim",
+          "target_index": 0,
+          "gloss": "seven years",
+          "gloss_highlight": "seven",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H2568",
+      "citation_form": "חָמֵשׁ",
+      "transliteration": "khamesh",
+      "full_gloss": "five",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.5.6",
+          "surface_form": "חָמֵשׁ",
+          "transliteration": "khamesh",
+          "word_id": "01nnJ",
+          "phrase_hebrew": "חָמֵשׁ שָׁנִים",
+          "phrase_transliteration": "khamesh shanim",
+          "target_index": 0,
+          "gloss": "five years",
+          "gloss_highlight": "five",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H6240",
+      "citation_form": "עָשָׂר",
+      "transliteration": "`asar",
+      "full_gloss": "ten, -teen",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.5.8",
+          "surface_form": "עֶשְׂרֵה",
+          "transliteration": "`esreh",
+          "word_id": "01jDT",
+          "phrase_hebrew": "שְׁתֵּים עֶשְׂרֵה",
+          "phrase_transliteration": "sheteym `esreh",
+          "target_index": 1,
+          "gloss": "twelve years",
+          "gloss_highlight": "twelve",
+          "gloss_note": "`asar/`esreh is the \"-teen\" suffix combined with a ones digit (here sheteym `esreh = twelve), not a standalone word for \"ten\" (that's `eser, a separate lemma)"
+        }
+      ]
+    },
+    {
+      "lemma_id": "H702",
+      "citation_form": "אַרְבַּע",
+      "transliteration": "'arba`",
+      "full_gloss": "four",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.2.10",
+          "surface_form": "לְאַרְבָּעָה",
+          "transliteration": "le'arba`ah",
+          "word_id": "01Ekx",
+          "phrase_hebrew": "וְהָיָה לְאַרְבָּעָה",
+          "phrase_transliteration": "wehayah le'arba`ah",
+          "target_index": 1,
+          "gloss": "it became four [heads]",
+          "gloss_highlight": "four",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H6242",
+      "citation_form": "עֶשְׂרִים",
+      "transliteration": "`esrim",
+      "full_gloss": "twenty",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.6.3",
+          "surface_form": "וְעֶשְׂרִים",
+          "transliteration": "we`esrim",
+          "word_id": "01peT",
+          "phrase_hebrew": "מֵאָה וְעֶשְׂרִים",
+          "phrase_transliteration": "me'ah we`esrim",
+          "target_index": 1,
+          "gloss": "a hundred and twenty years",
+          "gloss_highlight": "twenty",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H7563",
+      "citation_form": "רָשָׁע",
+      "transliteration": "rasha`",
+      "full_gloss": "wicked",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.18.23",
+          "surface_form": "רָשָֽׁע",
+          "transliteration": "rasha`",
+          "word_id": "01iLp",
+          "phrase_hebrew": "צַדִּיק עִם רָשָֽׁע",
+          "phrase_transliteration": "tsadiq `im rasha`",
+          "target_index": 2,
+          "gloss": "righteous with the wicked",
+          "gloss_highlight": "wicked",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H8337",
+      "citation_form": "שֵׁשׁ",
+      "transliteration": "shesh",
+      "full_gloss": "six",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.7.6",
+          "surface_form": "שֵׁשׁ",
+          "transliteration": "shesh",
+          "word_id": "01UWF",
+          "phrase_hebrew": "שֵׁשׁ מֵאוֹת",
+          "phrase_transliteration": "shesh me'ot",
+          "target_index": 0,
+          "gloss": "six hundred years",
+          "gloss_highlight": "six",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H6662",
+      "citation_form": "צַדִּיק",
+      "transliteration": "tsadiq",
+      "full_gloss": "righteous, just",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.6.9",
+          "surface_form": "צַדִּיק",
+          "transliteration": "tsadiq",
+          "word_id": "01QzN",
+          "phrase_hebrew": "אִישׁ צַדִּיק תָּמִים",
+          "phrase_transliteration": "'ish tsadiq tamim",
+          "target_index": 1,
+          "gloss": "a righteous, blameless man",
+          "gloss_highlight": "righteous",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H7223",
+      "citation_form": "רִאשׁוֹן",
+      "transliteration": "ri'shon",
+      "full_gloss": "first, former",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.8.13",
+          "surface_form": "בָּֽרִאשׁוֹן",
+          "transliteration": "bari'shon",
+          "word_id": "015tL",
+          "phrase_hebrew": "בָּֽרִאשׁוֹן בְּאֶחָד",
+          "phrase_transliteration": "bari'shon be'ekhad",
+          "target_index": 0,
+          "gloss": "in the first [month]",
+          "gloss_highlight": "first",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H2205",
+      "citation_form": "זָקֵן",
+      "transliteration": "zaqen",
+      "full_gloss": "old, elder",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.18.11",
+          "surface_form": "זְקֵנִים",
+          "transliteration": "zeqenim",
+          "word_id": "01zTW",
+          "phrase_hebrew": "וְאַבְרָהָם וְשָׂרָה זְקֵנִים",
+          "phrase_transliteration": "we'avraham wesarah zeqenim",
+          "target_index": 2,
+          "gloss": "Abraham and Sarah were old",
+          "gloss_highlight": "old",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H6235",
+      "citation_form": "עֶשֶׂר",
+      "transliteration": "`eser",
+      "full_gloss": "ten",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.16.3",
+          "surface_form": "עֶשֶׂר",
+          "transliteration": "`eser",
+          "word_id": "01YsH",
+          "phrase_hebrew": "מִקֵּץ עֶשֶׂר",
+          "phrase_transliteration": "miqets `eser",
+          "target_index": 1,
+          "gloss": "at the end of ten years",
+          "gloss_highlight": "ten",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H7970",
+      "citation_form": "שְׁלוֹשִׁים",
+      "transliteration": "sheloshim",
+      "full_gloss": "thirty",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.5.3",
+          "surface_form": "שְׁלֹשִׁים",
+          "transliteration": "sheloshim",
+          "word_id": "0126j",
+          "phrase_hebrew": "שְׁלֹשִׁים וּמְאַת",
+          "phrase_transliteration": "sheloshim um'at",
+          "target_index": 0,
+          "gloss": "thirty and a hundred years",
+          "gloss_highlight": "thirty",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H312",
+      "citation_form": "אַחֵר",
+      "transliteration": "'akher",
+      "full_gloss": "other, another",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.4.25",
+          "surface_form": "אַחֵר",
+          "transliteration": "'akher",
+          "word_id": "01MWU",
+          "phrase_hebrew": "זֶרַע אַחֵר",
+          "phrase_transliteration": "zera` 'akher",
+          "target_index": 1,
+          "gloss": "another offspring",
+          "gloss_highlight": "another",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H2572",
+      "citation_form": "חֲמִשִּׁים",
+      "transliteration": "khamishim",
+      "full_gloss": "fifty",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.6.15",
+          "surface_form": "חֲמִשִּׁים",
+          "transliteration": "khamishim",
+          "word_id": "01kST",
+          "phrase_hebrew": "חֲמִשִּׁים אַמָּה רָחְבָּהּ",
+          "phrase_transliteration": "khamishim 'amah rakhbah",
+          "target_index": 0,
+          "gloss": "fifty cubits its width",
+          "gloss_highlight": "fifty",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H1368",
+      "citation_form": "גִּבּוֹר",
+      "transliteration": "gibor",
+      "full_gloss": "mighty, warrior, hero",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.10.8",
+          "surface_form": "גִּבֹּר",
+          "transliteration": "gibor",
+          "word_id": "0162h",
+          "phrase_hebrew": "לִֽהְיוֹת גִּבֹּר",
+          "phrase_transliteration": "lihyot gibor",
+          "target_index": 1,
+          "gloss": "he began to be a mighty man",
+          "gloss_highlight": "mighty",
+          "gloss_note": "of Nimrod, Gen 10:8"
+        }
+      ]
+    },
+    {
+      "lemma_id": "H8145",
+      "citation_form": "שֵׁנִי",
+      "transliteration": "sheni",
+      "full_gloss": "second",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.1.8",
+          "surface_form": "שֵׁנִֽי",
+          "transliteration": "sheni",
+          "word_id": "0187B",
+          "phrase_hebrew": "יוֹם שֵׁנִֽי",
+          "phrase_transliteration": "yom sheni",
+          "target_index": 1,
+          "gloss": "a second day",
+          "gloss_highlight": "second",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H2450",
+      "citation_form": "חָכָם",
+      "transliteration": "khakham",
+      "full_gloss": "wise",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.41.33",
+          "surface_form": "וְחָכָם",
+          "transliteration": "wekhakham",
+          "word_id": "01kMw",
+          "phrase_hebrew": "אִישׁ נָבוֹן וְחָכָם",
+          "phrase_transliteration": "'ish navon wekhakham",
+          "target_index": 2,
+          "gloss": "a discerning and wise man",
+          "gloss_highlight": "wise",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H705",
+      "citation_form": "אַרְבָּעִים",
+      "transliteration": "'arba`im",
+      "full_gloss": "forty",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.7.4",
+          "surface_form": "אַרְבָּעִים",
+          "transliteration": "'arba`im",
+          "word_id": "01ngx",
+          "phrase_hebrew": "אַרְבָּעִים יוֹם",
+          "phrase_transliteration": "'arba`im yom",
+          "target_index": 0,
+          "gloss": "forty days",
+          "gloss_highlight": "forty",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H3477",
+      "citation_form": "יָשָׁר",
+      "transliteration": "yashar",
+      "full_gloss": "straight, upright",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Deut.6.18",
+          "surface_form": "הַיָּשָׁר",
+          "transliteration": "hayashar",
+          "word_id": "05HnC",
+          "phrase_hebrew": "וְעָשִׂיתָ הַיָּשָׁר",
+          "phrase_transliteration": "we`asita hayashar",
+          "target_index": 1,
+          "gloss": "you shall do what is right",
+          "gloss_highlight": "right",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H6918",
+      "citation_form": "קָדוֹשׁ",
+      "transliteration": "qadosh",
+      "full_gloss": "holy",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Exod.19.6",
+          "surface_form": "קָדוֹשׁ",
+          "transliteration": "qadosh",
+          "word_id": "026DP",
+          "phrase_hebrew": "וְגוֹי קָדוֹשׁ",
+          "phrase_transliteration": "wegoy qadosh",
+          "target_index": 1,
+          "gloss": "and a holy nation",
+          "gloss_highlight": "holy",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H8083",
+      "citation_form": "שְׁמֹנֶה",
+      "transliteration": "shemoneh",
+      "full_gloss": "eight",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.5.4",
+          "surface_form": "שְׁמֹנֶה",
+          "transliteration": "shemoneh",
+          "word_id": "01bu5",
+          "phrase_hebrew": "שְׁמֹנֶה מֵאֹת",
+          "phrase_transliteration": "shemoneh me'ot",
+          "target_index": 0,
+          "gloss": "eight hundred years",
+          "gloss_highlight": "eight",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H7992",
+      "citation_form": "שְׁלִישִׁי",
+      "transliteration": "shelishi",
+      "full_gloss": "third",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.1.13",
+          "surface_form": "שְׁלִישִֽׁי",
+          "transliteration": "shelishi",
+          "word_id": "01oAj",
+          "phrase_hebrew": "יוֹם שְׁלִישִֽׁי",
+          "phrase_transliteration": "yom shelishi",
+          "target_index": 1,
+          "gloss": "a third day",
+          "gloss_highlight": "third",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H6996",
+      "citation_form": "קָטָן",
+      "transliteration": "qatan",
+      "full_gloss": "small, young, insignificant",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.1.16",
+          "surface_form": "הַקָּטֹן",
+          "transliteration": "haqaton",
+          "word_id": "01dSQ",
+          "phrase_hebrew": "הַמָּאוֹר הַקָּטֹן",
+          "phrase_transliteration": "hama'or haqaton",
+          "target_index": 1,
+          "gloss": "the lesser light",
+          "gloss_highlight": "lesser",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H7637",
+      "citation_form": "שְׁבִיעִי",
+      "transliteration": "shevi`i",
+      "full_gloss": "seventh",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.2.2",
+          "surface_form": "הַשְּׁבִיעִי",
+          "transliteration": "hashvi`i",
+          "word_id": "01rZH",
+          "phrase_hebrew": "בַּיּוֹם הַשְּׁבִיעִי",
+          "phrase_transliteration": "bayom hashvi`i",
+          "target_index": 1,
+          "gloss": "on the seventh day",
+          "gloss_highlight": "seventh",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H2491",
+      "citation_form": "חָלָל",
+      "transliteration": "khalal",
+      "full_gloss": "slain, pierced",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.34.27",
+          "surface_form": "הַחֲלָלִים",
+          "transliteration": "hakhalalim",
+          "word_id": "016Ep",
+          "phrase_hebrew": "עַל הַחֲלָלִים",
+          "phrase_transliteration": "`al hakhalalim",
+          "target_index": 1,
+          "gloss": "[they] came upon the slain",
+          "gloss_highlight": "slain",
+          "gloss_note": "of Shechem, Gen 34:27"
+        }
+      ]
+    },
+    {
+      "lemma_id": "H2889",
+      "citation_form": "טָהוֹר",
+      "transliteration": "tahor",
+      "full_gloss": "clean, pure",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Lev.7.19",
+          "surface_form": "טָהוֹר",
+          "transliteration": "tahor",
+          "word_id": "03kav",
+          "phrase_hebrew": "כָּל טָהוֹר יֹאכַל",
+          "phrase_transliteration": "kal tahor yo'khal",
+          "target_index": 1,
+          "gloss": "every clean [animal] may be eaten",
+          "gloss_highlight": "clean",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H7657",
+      "citation_form": "שִׁבְעִים",
+      "transliteration": "shiv`im",
+      "full_gloss": "seventy",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.5.12",
+          "surface_form": "שִׁבְעִים",
+          "transliteration": "shiv`im",
+          "word_id": "01BKq",
+          "phrase_hebrew": "שִׁבְעִים שָׁנָה",
+          "phrase_transliteration": "shiv`im shanah",
+          "target_index": 0,
+          "gloss": "seventy years",
+          "gloss_highlight": "seventy",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H8549",
+      "citation_form": "תָּמִים",
+      "transliteration": "tamim",
+      "full_gloss": "blameless, complete, whole",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.17.1",
+          "surface_form": "תָמִֽים",
+          "transliteration": "tamim",
+          "word_id": "01SxU",
+          "phrase_hebrew": "וֶהְיֵה תָמִֽים",
+          "phrase_transliteration": "wehyeh tamim",
+          "target_index": 1,
+          "gloss": "be blameless",
+          "gloss_highlight": "blameless",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H2931",
+      "citation_form": "טָמֵא",
+      "transliteration": "tame'",
+      "full_gloss": "unclean, impure",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Lev.5.2",
+          "surface_form": "טָמֵא",
+          "transliteration": "tame'",
+          "word_id": "03KGK",
+          "phrase_hebrew": "בְּכָל דָּבָר טָמֵא",
+          "phrase_transliteration": "bekhal davar tame'",
+          "target_index": 2,
+          "gloss": "any unclean thing",
+          "gloss_highlight": "unclean",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H7350",
+      "citation_form": "רָחוֹק",
+      "transliteration": "rakhoq",
+      "full_gloss": "far, distant",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.22.4",
+          "surface_form": "מֵרָחֹֽק",
+          "transliteration": "merakhoq",
+          "word_id": "01oMA",
+          "phrase_hebrew": "הַמָּקוֹם מֵרָחֹֽק",
+          "phrase_transliteration": "hamaqom merakhoq",
+          "target_index": 1,
+          "gloss": "he saw the place from afar",
+          "gloss_highlight": "from afar",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H2145",
+      "citation_form": "זָכָר",
+      "transliteration": "zakhar",
+      "full_gloss": "male",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.1.27",
+          "surface_form": "זָכָר",
+          "transliteration": "zakhar",
+          "word_id": "01gc8",
+          "phrase_hebrew": "אֹתוֹ זָכָר וּנְקֵבָה",
+          "phrase_transliteration": "'oto zakhar unqevah",
+          "target_index": 1,
+          "gloss": "male and female he created them",
+          "gloss_highlight": "male",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H6041",
+      "citation_form": "עָנִי",
+      "transliteration": "`ani",
+      "full_gloss": "poor, afflicted, humble",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Exod.22.24",
+          "surface_form": "הֶֽעָנִי",
+          "transliteration": "he`ani",
+          "word_id": "02vyC",
+          "phrase_hebrew": "אֶת הֶֽעָנִי",
+          "phrase_transliteration": "'et he`ani",
+          "target_index": 1,
+          "gloss": "the poor [among you]",
+          "gloss_highlight": "poor",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H7138",
+      "citation_form": "קָרוֹב",
+      "transliteration": "qarov",
+      "full_gloss": "near",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.45.10",
+          "surface_form": "קָרוֹב",
+          "transliteration": "qarov",
+          "word_id": "01WqV",
+          "phrase_hebrew": "וְהָיִיתָ קָרוֹב אֵלַי",
+          "phrase_transliteration": "wehayita qarov 'elay",
+          "target_index": 1,
+          "gloss": "you shall be near me",
+          "gloss_highlight": "near",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H2114",
+      "citation_form": "זוּר",
+      "transliteration": "zur",
+      "full_gloss": "be a stranger, be strange",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Exod.29.33",
+          "surface_form": "וְזָר",
+          "transliteration": "wezar",
+          "word_id": "02qBE",
+          "phrase_hebrew": "וְזָר לֹא",
+          "phrase_transliteration": "wezar lo'",
+          "target_index": 0,
+          "gloss": "an outsider shall not eat [it]",
+          "gloss_highlight": "outsider",
+          "gloss_note": "zur's participle used substantively (\"one who is estranged/a stranger\"), not describing the verb's action directly"
+        }
+      ]
+    },
+    {
+      "lemma_id": "H3684",
+      "citation_form": "כְּסִיל",
+      "transliteration": "kesil",
+      "full_gloss": "fool, stupid person",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Prov.1.32",
+          "surface_form": "כְּסִילִים",
+          "transliteration": "kesilim",
+          "word_id": "20dAC",
+          "phrase_hebrew": "וְשַׁלְוַת כְּסִילִים",
+          "phrase_transliteration": "weshalwat kesilim",
+          "target_index": 1,
+          "gloss": "the complacency of fools",
+          "gloss_highlight": "fools",
           "gloss_note": null
         }
       ]
