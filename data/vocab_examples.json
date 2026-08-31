@@ -2,9 +2,9 @@
   "metadata": {
     "source": "build_vocab_examples.py",
     "target_lemma_count": 544,
-    "curated_count": 120,
+    "curated_count": 140,
     "skipped": [],
-    "pending_count": 424
+    "pending_count": 404
   },
   "entries": [
     {
@@ -2523,6 +2523,426 @@
           "target_index": 0,
           "gloss": "the people of Nineveh believed God",
           "gloss_highlight": "believed",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H3498",
+      "citation_form": "יָתַר",
+      "transliteration": "yatar",
+      "full_gloss": "remain, be left over; excel, exceed",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.32.25",
+          "surface_form": "וַיִּוָּתֵר",
+          "transliteration": "wayiwater",
+          "word_id": "01tFY",
+          "phrase_hebrew": "וַיִּוָּתֵר יַעֲקֹב לְבַדּוֹ",
+          "phrase_transliteration": "wayiwater ya`aqov levado",
+          "target_index": 0,
+          "gloss": "Jacob was left alone",
+          "gloss_highlight": "left",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H1350",
+      "citation_form": "גָּאַל",
+      "transliteration": "ga'al",
+      "full_gloss": "redeem, act as kinsman-redeemer",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Ruth.3.9",
+          "surface_form": "גֹאֵל",
+          "transliteration": "go'el",
+          "word_id": "08bvs",
+          "phrase_hebrew": "כִּי גֹאֵל אָֽתָּה",
+          "phrase_transliteration": "ki go'el 'atah",
+          "target_index": 1,
+          "gloss": "for you are a redeemer",
+          "gloss_highlight": "redeemer",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H7323",
+      "citation_form": "רוּץ",
+      "transliteration": "ruts",
+      "full_gloss": "run",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.18.7",
+          "surface_form": "רָץ",
+          "transliteration": "rats",
+          "word_id": "01cpk",
+          "phrase_hebrew": "רָץ אַבְרָהָם",
+          "phrase_transliteration": "rats 'avraham",
+          "target_index": 0,
+          "gloss": "Abraham ran",
+          "gloss_highlight": "ran",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H3722",
+      "citation_form": "כָּפַר",
+      "transliteration": "kafar",
+      "full_gloss": "cover, atone, make atonement",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.6.14",
+          "surface_form": "וְכָֽפַרְתָּ",
+          "transliteration": "wekhafarta",
+          "word_id": "01min",
+          "phrase_hebrew": "וְכָֽפַרְתָּ אֹתָהּ",
+          "phrase_transliteration": "wekhafarta 'otah",
+          "target_index": 0,
+          "gloss": "you shall coat it [with pitch]",
+          "gloss_highlight": "coat",
+          "gloss_note": "here of waterproofing the ark; kafar's more common sense in the Torah is \"atone/make atonement\", related to covering"
+        }
+      ]
+    },
+    {
+      "lemma_id": "H7489",
+      "citation_form": "רָעַע",
+      "transliteration": "ra`a`",
+      "full_gloss": "be evil, be bad; do evil, harm",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Jonah.4.1",
+          "surface_form": "וַיֵּרַע",
+          "transliteration": "wayera`",
+          "word_id": "32FyK",
+          "phrase_hebrew": "וַיֵּרַע אֶל",
+          "phrase_transliteration": "wayera` 'el",
+          "target_index": 0,
+          "gloss": "it displeased Jonah greatly",
+          "gloss_highlight": "displeased",
+          "gloss_note": "idiom: ra`a` + 'el = be evil/displeasing to"
+        }
+      ]
+    },
+    {
+      "lemma_id": "H7911",
+      "citation_form": "שָׁכַח",
+      "transliteration": "shakhakh",
+      "full_gloss": "forget",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.40.23",
+          "surface_form": "וַיִּשְׁכָּחֵֽהוּ",
+          "transliteration": "wayishkakhehu",
+          "word_id": "016ta",
+          "phrase_hebrew": "וַיִּשְׁכָּחֵֽהוּ",
+          "phrase_transliteration": "wayishkakhehu",
+          "target_index": 0,
+          "gloss": "he forgot him",
+          "gloss_highlight": "forgot",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H7125",
+      "citation_form": "קִרְאָה",
+      "transliteration": "qir'ah",
+      "full_gloss": "meet, encounter",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.14.17",
+          "surface_form": "לִקְרָאתוֹ",
+          "transliteration": "liqra'to",
+          "word_id": "01Gbm",
+          "phrase_hebrew": "לִקְרָאתוֹ",
+          "phrase_transliteration": "liqra'to",
+          "target_index": 0,
+          "gloss": "to meet him",
+          "gloss_highlight": "meet",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H1481",
+      "citation_form": "גּוּר",
+      "transliteration": "gur",
+      "full_gloss": "sojourn, dwell as an alien; fear, dread",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Ruth.1.1",
+          "surface_form": "לָגוּר",
+          "transliteration": "lagur",
+          "word_id": "08qNN",
+          "phrase_hebrew": "לָגוּר בִּשְׂדֵי מוֹאָב",
+          "phrase_transliteration": "lagur bisdey mo'av",
+          "target_index": 0,
+          "gloss": "to sojourn in the fields of Moab",
+          "gloss_highlight": "sojourn",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H8334",
+      "citation_form": "שָׁרַת",
+      "transliteration": "sharat",
+      "full_gloss": "serve, minister",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.39.4",
+          "surface_form": "וַיְשָׁרֶת",
+          "transliteration": "waysharet",
+          "word_id": "01YgJ",
+          "phrase_hebrew": "וַיְשָׁרֶת אֹתוֹ",
+          "phrase_transliteration": "waysharet 'oto",
+          "target_index": 0,
+          "gloss": "he served him",
+          "gloss_highlight": "served",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H7646",
+      "citation_form": "שָׂבַע",
+      "transliteration": "sava`",
+      "full_gloss": "be satisfied, be full",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Ruth.2.14",
+          "surface_form": "וַתִּשְׂבַּע",
+          "transliteration": "watisba`",
+          "word_id": "08AF1",
+          "phrase_hebrew": "וַתֹּאכַל וַתִּשְׂבַּע",
+          "phrase_transliteration": "wato'khal watisba`",
+          "target_index": 1,
+          "gloss": "she ate and was satisfied",
+          "gloss_highlight": "satisfied",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H2891",
+      "citation_form": "טָהֵר",
+      "transliteration": "taher",
+      "full_gloss": "be clean, be pure",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.35.2",
+          "surface_form": "וְהִֽטַּהֲרוּ",
+          "transliteration": "wehitaharu",
+          "word_id": "01Lmg",
+          "phrase_hebrew": "וְהִֽטַּהֲרוּ",
+          "phrase_transliteration": "wehitaharu",
+          "target_index": 0,
+          "gloss": "purify yourselves",
+          "gloss_highlight": "purify",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H4422",
+      "citation_form": "מָלַט",
+      "transliteration": "malat",
+      "full_gloss": "escape; deliver, rescue",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.19.19",
+          "surface_form": "לְהִמָּלֵט",
+          "transliteration": "lehimalet",
+          "word_id": "01coZ",
+          "phrase_hebrew": "לֹא אוּכַל לְהִמָּלֵט",
+          "phrase_transliteration": "lo' 'ukhal lehimalet",
+          "target_index": 2,
+          "gloss": "I am not able to escape",
+          "gloss_highlight": "escape",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H1197",
+      "citation_form": "בָּעַר",
+      "transliteration": "ba`ar",
+      "full_gloss": "burn, consume; be stupid, be brutish",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Exod.3.2",
+          "surface_form": "בֹּעֵר",
+          "transliteration": "bo`er",
+          "word_id": "02w6U",
+          "phrase_hebrew": "הַסְּנֶה בֹּעֵר בָּאֵשׁ",
+          "phrase_transliteration": "hasneh bo`er ba'esh",
+          "target_index": 1,
+          "gloss": "the bush was burning with fire",
+          "gloss_highlight": "burning",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H2015",
+      "citation_form": "הָפַךְ",
+      "transliteration": "hafakh",
+      "full_gloss": "turn, overturn, change",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Jonah.3.4",
+          "surface_form": "נֶהְפָּֽכֶת",
+          "transliteration": "nehpakhet",
+          "word_id": "32S38",
+          "phrase_hebrew": "וְנִֽינְוֵה נֶהְפָּֽכֶת",
+          "phrase_transliteration": "weninweh nehpakhet",
+          "target_index": 1,
+          "gloss": "Nineveh shall be overturned",
+          "gloss_highlight": "overturned",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H2181",
+      "citation_form": "זָנָה",
+      "transliteration": "zanah",
+      "full_gloss": "be a prostitute, commit fornication, commit idolatry",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.38.15",
+          "surface_form": "לְזוֹנָה",
+          "transliteration": "lezonah",
+          "word_id": "01nXv",
+          "phrase_hebrew": "וַֽיַּחְשְׁבֶהָ לְזוֹנָה",
+          "phrase_transliteration": "wayakhsheveha lezonah",
+          "target_index": 1,
+          "gloss": "he thought her a prostitute",
+          "gloss_highlight": "prostitute",
+          "gloss_note": "of Tamar disguised, Gen 38"
+        }
+      ]
+    },
+    {
+      "lemma_id": "H5462",
+      "citation_form": "סָגַר",
+      "transliteration": "sagar",
+      "full_gloss": "shut, close; deliver up",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.7.16",
+          "surface_form": "וַיִּסְגֹּר",
+          "transliteration": "wayisgor",
+          "word_id": "01FXw",
+          "phrase_hebrew": "וַיִּסְגֹּר יְהוָה בַּֽעֲדֽוֹ",
+          "phrase_transliteration": "wayisgor yehwah ba`ado",
+          "target_index": 0,
+          "gloss": "the LORD shut him in",
+          "gloss_highlight": "shut",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H2734",
+      "citation_form": "חָרָה",
+      "transliteration": "kharah",
+      "full_gloss": "burn, be kindled (of anger)",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.4.6",
+          "surface_form": "חָרָה",
+          "transliteration": "kharah",
+          "word_id": "01b2J",
+          "phrase_hebrew": "לָמָּה חָרָה לָךְ",
+          "phrase_transliteration": "lamah kharah lakh",
+          "target_index": 1,
+          "gloss": "why are you angry",
+          "gloss_highlight": "angry",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H8045",
+      "citation_form": "שָׁמַד",
+      "transliteration": "shamad",
+      "full_gloss": "destroy, exterminate",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.34.30",
+          "surface_form": "וְנִשְׁמַדְתִּי",
+          "transliteration": "wenishmadti",
+          "word_id": "01pUz",
+          "phrase_hebrew": "וְנִשְׁמַדְתִּי אֲנִי",
+          "phrase_transliteration": "wenishmadti 'ani",
+          "target_index": 0,
+          "gloss": "I will be destroyed",
+          "gloss_highlight": "destroyed",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H7891",
+      "citation_form": "שִׁיר",
+      "transliteration": "shir",
+      "full_gloss": "sing",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Exod.15.1",
+          "surface_form": "יָשִֽׁיר",
+          "transliteration": "yashir",
+          "word_id": "02gWC",
+          "phrase_hebrew": "אָז יָשִֽׁיר מֹשֶׁה",
+          "phrase_transliteration": "'az yashir mosheh",
+          "target_index": 1,
+          "gloss": "then Moses sang",
+          "gloss_highlight": "sang",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H3885",
+      "citation_form": "לוּן",
+      "transliteration": "lun",
+      "full_gloss": "spend the night, lodge; grumble, complain",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.19.2",
+          "surface_form": "וְלִינוּ",
+          "transliteration": "welinu",
+          "word_id": "01Ue8",
+          "phrase_hebrew": "וְלִינוּ",
+          "phrase_transliteration": "welinu",
+          "target_index": 0,
+          "gloss": "and spend the night [here]",
+          "gloss_highlight": "spend the night",
           "gloss_note": null
         }
       ]

@@ -13,3 +13,4 @@
 - 2026-08-30: vocab_examples.json batch 4: next 20 verbs (yasaf through ra`ah); yasha` and lakham sourced from Exodus 14 (a CLAUDE.md target chapter). 80 of 179 verbs done, 464 pending overall.
 - 2026-08-30: vocab_examples.json batch 5: next 20 verbs (tame' through shakhan). 100 of 179 verbs done, 444 pending overall.
 - 2026-08-30: vocab_examples.json batch 6: next 20 verbs (qavats through 'aman); lakhad/batakh/qatar/nava' sourced outside Gen/Jonah/Ruth (Joshua, Psalms, Leviticus, Jeremiah). 120 of 179 verbs done, 424 pending overall.
+- 2026-08-30: vocab_examples.json batch 7: next 20 verbs (yatar through lun); ba`ar's clearest hit is the burning bush (Exodus 3), shir sourced from the Song of the Sea (Exodus 15, right after Exodus 14). 140 of 179 verbs done, 404 pending overall.

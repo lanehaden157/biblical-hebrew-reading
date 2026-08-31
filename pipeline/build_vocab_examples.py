@@ -200,6 +200,29 @@ CURATED = {
     "H3847": [("Jonah", "32e3z", "32e3z", "322c6", "they put on sackcloth", "put on", None)],
     "H5162": [("Gen", "01jsC", "01jsC", "01VLV", "the LORD regretted [making humanity]", "regretted", None)],
     "H539": [("Jonah", "32eN1", "32eN1", "325QX", "the people of Nineveh believed God", "believed", None)],
+
+    # Batch 7 (2026-08-30): next 20 verbs. ba`ar's clearest occurrence is
+    # the burning bush (Exodus 3, a CLAUDE.md target chapter).
+    "H3498": [("Gen", "01tFY", "01tFY", "01Hbx", "Jacob was left alone", "left", None)],
+    "H1350": [("Ruth", "08bvs", "08y7z", "08Gxe", "for you are a redeemer", "redeemer", None)],
+    "H7323": [("Gen", "01cpk", "01cpk", "01mqu", "Abraham ran", "ran", None)],
+    "H3722": [("Gen", "01min", "01min", "01iic", "you shall coat it [with pitch]", "coat", "here of waterproofing the ark; kafar's more common sense in the Torah is \"atone/make atonement\", related to covering")],
+    "H7489": [("Jonah", "32FyK", "32FyK", "32XjR", "it displeased Jonah greatly", "displeased", "idiom: ra`a` + 'el = be evil/displeasing to")],
+    "H7911": [("Gen", "016ta", "016ta", "016ta", "he forgot him", "forgot", None)],
+    "H7125": [("Gen", "01Gbm", "01Gbm", "01Gbm", "to meet him", "meet", None)],
+    "H1481": [("Ruth", "08qNN", "08qNN", "08PB6", "to sojourn in the fields of Moab", "sojourn", None)],
+    "H8334": [("Gen", "01YgJ", "01YgJ", "01wF3", "he served him", "served", None)],
+    "H7646": [("Ruth", "08AF1", "08m55", "08AF1", "she ate and was satisfied", "satisfied", None)],
+    "H2891": [("Gen", "01Lmg", "01Lmg", "01Lmg", "purify yourselves", "purify", None)],
+    "H4422": [("Gen", "01coZ", "01B9T", "01coZ", "I am not able to escape", "escape", None)],
+    "H1197": [("Exod", "02w6U", "02g5u", "02ifL", "the bush was burning with fire", "burning", None)],
+    "H2015": [("Jonah", "32S38", "32QvZ", "32S38", "Nineveh shall be overturned", "overturned", None)],
+    "H2181": [("Gen", "01nXv", "01jJh", "01nXv", "he thought her a prostitute", "prostitute", "of Tamar disguised, Gen 38")],
+    "H5462": [("Gen", "01FXw", "01FXw", "01roj", "the LORD shut him in", "shut", None)],
+    "H2734": [("Gen", "01b2J", "015on", "01MnD", "why are you angry", "angry", None)],
+    "H8045": [("Gen", "01pUz", "01pUz", "01GbB", "I will be destroyed", "destroyed", None)],
+    "H7891": [("Exod", "02gWC", "02LQN", "02c6U", "then Moses sang", "sang", None)],
+    "H3885": [("Gen", "01Ue8", "01Ue8", "01Ue8", "and spend the night [here]", "spend the night", None)],
 }
 
 # Lemmas Lane said to file away rather than force a single example onto --
