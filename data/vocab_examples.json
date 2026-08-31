@@ -2,9 +2,9 @@
   "metadata": {
     "source": "build_vocab_examples.py",
     "target_lemma_count": 544,
-    "curated_count": 160,
+    "curated_count": 179,
     "skipped": [],
-    "pending_count": 384
+    "pending_count": 365
   },
   "entries": [
     {
@@ -3363,6 +3363,405 @@
           "target_index": 1,
           "gloss": "your father is sick",
           "gloss_highlight": "sick",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H2654",
+      "citation_form": "חָפֵץ",
+      "transliteration": "khafets",
+      "full_gloss": "delight in, desire, be pleased with",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Jonah.1.14",
+          "surface_form": "חָפַצְתָּ",
+          "transliteration": "khafatsta",
+          "word_id": "32Ddq",
+          "phrase_hebrew": "כַּאֲשֶׁר חָפַצְתָּ",
+          "phrase_transliteration": "ka'asher khafatsta",
+          "target_index": 1,
+          "gloss": "as you have desired",
+          "gloss_highlight": "desired",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H3240",
+      "citation_form": "יָנַח",
+      "transliteration": "yanakh",
+      "full_gloss": "leave, deposit, set down; allow to rest",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.2.15",
+          "surface_form": "וַיַּנִּחֵהוּ",
+          "transliteration": "wayanikhehu",
+          "word_id": "01vdQ",
+          "phrase_hebrew": "וַיַּנִּחֵהוּ בְגַן עֵדֶן",
+          "phrase_transliteration": "wayanikhehu vegan `eden",
+          "target_index": 0,
+          "gloss": "he placed him in the garden of Eden",
+          "gloss_highlight": "placed",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H5324",
+      "citation_form": "נָצַב",
+      "transliteration": "natsav",
+      "full_gloss": "stand, take one's stand, station",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.18.2",
+          "surface_form": "נִצָּבִים",
+          "transliteration": "nitsavim",
+          "word_id": "01nre",
+          "phrase_hebrew": "אֲנָשִׁים נִצָּבִים",
+          "phrase_transliteration": "'anashim nitsavim",
+          "target_index": 1,
+          "gloss": "men were standing [before him]",
+          "gloss_highlight": "standing",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H2199",
+      "citation_form": "זָעַק",
+      "transliteration": "za`aq",
+      "full_gloss": "cry out",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Jonah.1.5",
+          "surface_form": "וַֽיִּזְעֲקוּ",
+          "transliteration": "wayiz`aqu",
+          "word_id": "328M6",
+          "phrase_hebrew": "וַֽיִּזְעֲקוּ אִישׁ אֶל אֱלֹהָיו",
+          "phrase_transliteration": "wayiz`aqu 'ish 'el 'elohayw",
+          "target_index": 0,
+          "gloss": "they cried out, each to his god",
+          "gloss_highlight": "cried out",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H3001",
+      "citation_form": "יָבֵשׁ",
+      "transliteration": "yavesh",
+      "full_gloss": "be dry, wither; be ashamed, disappointed",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Jonah.4.7",
+          "surface_form": "וַיִּיבָֽשׁ",
+          "transliteration": "wayivash",
+          "word_id": "32g5u",
+          "phrase_hebrew": "וַיִּיבָֽשׁ",
+          "phrase_transliteration": "wayivash",
+          "target_index": 0,
+          "gloss": "it withered",
+          "gloss_highlight": "withered",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H631",
+      "citation_form": "אָסַר",
+      "transliteration": "'asar",
+      "full_gloss": "bind, tie, imprison",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.40.3",
+          "surface_form": "אָסוּר",
+          "transliteration": "'asur",
+          "word_id": "012iV",
+          "phrase_hebrew": "יוֹסֵף אָסוּר",
+          "phrase_transliteration": "yosef 'asur",
+          "target_index": 1,
+          "gloss": "Joseph was imprisoned there",
+          "gloss_highlight": "imprisoned",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H2790",
+      "citation_form": "חָרַשׁ",
+      "transliteration": "kharash",
+      "full_gloss": "engrave, plow, devise; be silent, be deaf",
+      "sense_count": 4,
+      "examples": [
+        {
+          "ref": "Gen.34.5",
+          "surface_form": "וְהֶחֱרִשׁ",
+          "transliteration": "wehekherish",
+          "word_id": "01kBL",
+          "phrase_hebrew": "וְהֶחֱרִשׁ יַעֲקֹב",
+          "phrase_transliteration": "wehekherish ya`aqov",
+          "target_index": 0,
+          "gloss": "Jacob remained silent",
+          "gloss_highlight": "remained silent",
+          "gloss_note": "Hiphil of kharash -- \"be silent\" sense; the root's other core senses are \"engrave/plow\""
+        }
+      ]
+    },
+    {
+      "lemma_id": "H7364",
+      "citation_form": "רָחַץ",
+      "transliteration": "rakhats",
+      "full_gloss": "wash",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.18.4",
+          "surface_form": "וְרַחֲצוּ",
+          "transliteration": "werakhatsu",
+          "word_id": "01CQM",
+          "phrase_hebrew": "וְרַחֲצוּ רַגְלֵיכֶם",
+          "phrase_transliteration": "werakhatsu ragleykhem",
+          "target_index": 0,
+          "gloss": "wash your feet",
+          "gloss_highlight": "wash",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H6381",
+      "citation_form": "פָּלָא",
+      "transliteration": "pala'",
+      "full_gloss": "be extraordinary, be wonderful; do wonders",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.18.14",
+          "surface_form": "הֲיִפָּלֵא",
+          "transliteration": "hayipale'",
+          "word_id": "01Kzw",
+          "phrase_hebrew": "הֲיִפָּלֵא מֵיְהוָה דָּבָר",
+          "phrase_transliteration": "hayipale' meyhwah davar",
+          "target_index": 0,
+          "gloss": "is anything too wonderful for the LORD",
+          "gloss_highlight": "wonderful",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H7673",
+      "citation_form": "שָׁבַת",
+      "transliteration": "shavat",
+      "full_gloss": "cease, rest",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.2.2",
+          "surface_form": "וַיִּשְׁבֹּת",
+          "transliteration": "wayishbot",
+          "word_id": "01CMD",
+          "phrase_hebrew": "וַיִּשְׁבֹּת בַּיּוֹם הַשְּׁבִיעִי",
+          "phrase_transliteration": "wayishbot bayom hashvi`i",
+          "target_index": 0,
+          "gloss": "he rested on the seventh day",
+          "gloss_highlight": "rested",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H5027",
+      "citation_form": "נָבַט",
+      "transliteration": "navat",
+      "full_gloss": "look, look intently, regard",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.15.5",
+          "surface_form": "הַבֶּט",
+          "transliteration": "habet",
+          "word_id": "01bD6",
+          "phrase_hebrew": "הַבֶּט נָא הַשָּׁמַיְמָה",
+          "phrase_transliteration": "habet na' hashamaymah",
+          "target_index": 0,
+          "gloss": "look now toward the heavens",
+          "gloss_highlight": "look",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H7378",
+      "citation_form": "רִיב",
+      "transliteration": "riv",
+      "full_gloss": "strive, contend, quarrel; bring a legal case",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.26.20",
+          "surface_form": "וַיָּרִיבוּ",
+          "transliteration": "wayarivu",
+          "word_id": "012Yq",
+          "phrase_hebrew": "וַיָּרִיבוּ רֹעֵי גְרָר",
+          "phrase_transliteration": "wayarivu ro`ey gerar",
+          "target_index": 0,
+          "gloss": "the herdsmen of Gerar quarreled",
+          "gloss_highlight": "quarreled",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H8628",
+      "citation_form": "תָּקַע",
+      "transliteration": "taqa`",
+      "full_gloss": "blow (a trumpet), thrust, clap",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.31.25",
+          "surface_form": "תָּקַע",
+          "transliteration": "taqa`",
+          "word_id": "01fr8",
+          "phrase_hebrew": "וְיַעֲקֹב תָּקַע",
+          "phrase_transliteration": "weya`aqov taqa`",
+          "target_index": 1,
+          "gloss": "Jacob pitched his tent",
+          "gloss_highlight": "pitched",
+          "gloss_note": "lit. \"thrust/drove in\" (tent pegs) -- taqa`'s core sense; also used for blowing a trumpet"
+        }
+      ]
+    },
+    {
+      "lemma_id": "H4886",
+      "citation_form": "מָשַׁח",
+      "transliteration": "mashakh",
+      "full_gloss": "anoint",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.31.13",
+          "surface_form": "מָשַׁחְתָּ",
+          "transliteration": "mashakhta",
+          "word_id": "01jH9",
+          "phrase_hebrew": "אֲשֶׁר מָשַׁחְתָּ",
+          "phrase_transliteration": "'asher mashakhta",
+          "target_index": 1,
+          "gloss": "where you anointed [a pillar]",
+          "gloss_highlight": "anointed",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H7495",
+      "citation_form": "רָפָא",
+      "transliteration": "rafa'",
+      "full_gloss": "heal",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.20.17",
+          "surface_form": "וַיִּרְפָּא",
+          "transliteration": "wayirpa'",
+          "word_id": "019iL",
+          "phrase_hebrew": "וַיִּרְפָּא אֱלֹהִים אֶת אֲבִימֶלֶךְ",
+          "phrase_transliteration": "wayirpa' 'elohim 'et 'avimelekh",
+          "target_index": 0,
+          "gloss": "God healed Abimelech",
+          "gloss_highlight": "healed",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H270",
+      "citation_form": "אָחַז",
+      "transliteration": "'akhaz",
+      "full_gloss": "seize, grasp, take hold of",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.22.13",
+          "surface_form": "נֶאֱחַז",
+          "transliteration": "ne'ekhaz",
+          "word_id": "019SJ",
+          "phrase_hebrew": "אַחַר נֶאֱחַז",
+          "phrase_transliteration": "'akhar ne'ekhaz",
+          "target_index": 1,
+          "gloss": "a ram was caught [in the thicket]",
+          "gloss_highlight": "caught",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H6327",
+      "citation_form": "פּוּץ",
+      "transliteration": "puts",
+      "full_gloss": "scatter, disperse",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.11.4",
+          "surface_form": "נָפוּץ",
+          "transliteration": "nafuts",
+          "word_id": "01FD2",
+          "phrase_hebrew": "פֶּן נָפוּץ",
+          "phrase_transliteration": "pen nafuts",
+          "target_index": 1,
+          "gloss": "lest we be scattered [over all the earth]",
+          "gloss_highlight": "scattered",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H5117",
+      "citation_form": "נוּחַ",
+      "transliteration": "nuakh",
+      "full_gloss": "rest, settle down",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.8.4",
+          "surface_form": "וַתָּנַח",
+          "transliteration": "watanakh",
+          "word_id": "01QL7",
+          "phrase_hebrew": "וַתָּנַח הַתֵּבָה",
+          "phrase_transliteration": "watanakh hatevah",
+          "target_index": 0,
+          "gloss": "the ark came to rest",
+          "gloss_highlight": "rest",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H6566",
+      "citation_form": "פָּרַשׂ",
+      "transliteration": "paras",
+      "full_gloss": "spread out",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Ruth.3.9",
+          "surface_form": "וּפָרַשְׂתָּ",
+          "transliteration": "ufarasta",
+          "word_id": "08XwG",
+          "phrase_hebrew": "וּפָרַשְׂתָּ כְנָפֶךָ",
+          "phrase_transliteration": "ufarasta khenafekha",
+          "target_index": 0,
+          "gloss": "spread your wing over [your servant]",
+          "gloss_highlight": "spread",
           "gloss_note": null
         }
       ]

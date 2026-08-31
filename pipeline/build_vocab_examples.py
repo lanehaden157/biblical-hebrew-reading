@@ -247,6 +247,27 @@ CURATED = {
     "H3988": [("1Sam", "09fVR", "09ZoM", "09fVR", "they have not rejected you", "rejected", None)],
     "H6186": [("Gen", "012HK", "012HK", "01PUW", "he arranged the wood", "arranged", None)],
     "H2470": [("Gen", "01PJe", "01J66", "01PJe", "your father is sick", "sick", None)],
+
+    # Batch 9 (2026-08-30): final 19 verbs -- completes all 179.
+    "H2654": [("Jonah", "32Ddq", "32chR", "32Ddq", "as you have desired", "desired", None)],
+    "H3240": [("Gen", "01vdQ", "01vdQ", "01HK3", "he placed him in the garden of Eden", "placed", None)],
+    "H5324": [("Gen", "01nre", "01fnW", "01nre", "men were standing [before him]", "standing", None)],
+    "H2199": [("Jonah", "328M6", "328M6", "325gQ", "they cried out, each to his god", "cried out", None)],
+    "H3001": [("Jonah", "32g5u", "32g5u", "32g5u", "it withered", "withered", None)],
+    "H631": [("Gen", "012iV", "01cVC", "012iV", "Joseph was imprisoned there", "imprisoned", None)],
+    "H2790": [("Gen", "01kBL", "01kBL", "01ae2", "Jacob remained silent", "remained silent", "Hiphil of kharash -- \"be silent\" sense; the root's other core senses are \"engrave/plow\"")],
+    "H7364": [("Gen", "01CQM", "01CQM", "01MHE", "wash your feet", "wash", None)],
+    "H6381": [("Gen", "01Kzw", "01Kzw", "01t9h", "is anything too wonderful for the LORD", "wonderful", None)],
+    "H7673": [("Gen", "01CMD", "01CMD", "01Cj2", "he rested on the seventh day", "rested", None)],
+    "H5027": [("Gen", "01bD6", "01bD6", "01S4Y", "look now toward the heavens", "look", None)],
+    "H7378": [("Gen", "012Yq", "012Yq", "01v8s", "the herdsmen of Gerar quarreled", "quarreled", None)],
+    "H8628": [("Gen", "01fr8", "01iBK", "01fr8", "Jacob pitched his tent", "pitched", "lit. \"thrust/drove in\" (tent pegs) -- taqa`'s core sense; also used for blowing a trumpet")],
+    "H4886": [("Gen", "01jH9", "01f4t", "01jH9", "where you anointed [a pillar]", "anointed", None)],
+    "H7495": [("Gen", "019iL", "019iL", "01N3B", "God healed Abimelech", "healed", None)],
+    "H270": [("Gen", "019SJ", "01rFn", "019SJ", "a ram was caught [in the thicket]", "caught", None)],
+    "H6327": [("Gen", "01FD2", "01wVX", "01FD2", "lest we be scattered [over all the earth]", "scattered", None)],
+    "H5117": [("Gen", "01QL7", "01QL7", "01cRW", "the ark came to rest", "rest", None)],
+    "H6566": [("Ruth", "08XwG", "08XwG", "08iPC", "spread your wing over [your servant]", "spread", None)],
 }
 
 # Lemmas Lane said to file away rather than force a single example onto --

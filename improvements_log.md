@@ -15,3 +15,4 @@
 - 2026-08-30: vocab_examples.json batch 6: next 20 verbs (qavats through 'aman); lakhad/batakh/qatar/nava' sourced outside Gen/Jonah/Ruth (Joshua, Psalms, Leviticus, Jeremiah). 120 of 179 verbs done, 424 pending overall.
 - 2026-08-30: vocab_examples.json batch 7: next 20 verbs (yatar through lun); ba`ar's clearest hit is the burning bush (Exodus 3), shir sourced from the Song of the Sea (Exodus 15, right after Exodus 14). 140 of 179 verbs done, 404 pending overall.
 - 2026-08-30: vocab_examples.json batch 8: next 20 verbs (lamad through khalah); 5 lemmas sourced outside Gen/Jonah/Ruth (Deuteronomy, Leviticus, Judges, 2 Samuel, 1 Samuel). 160 of 179 verbs done, 384 pending overall.
+- 2026-08-30: vocab_examples.json batch 9: final 19 verbs (khafets through paras) -- all 179 verb lemmas now have a verified example, zero skipped. 365 lemmas (44 adjectives, 321 nouns/pronouns/adverbs) pending; verbs finished, adjectives next per Lane's priority order.
