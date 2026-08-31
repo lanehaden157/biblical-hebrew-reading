@@ -2,9 +2,9 @@
   "metadata": {
     "source": "build_vocab_examples.py",
     "target_lemma_count": 544,
-    "curated_count": 463,
+    "curated_count": 483,
     "skipped": [],
-    "pending_count": 81
+    "pending_count": 61
   },
   "entries": [
     {
@@ -9726,6 +9726,426 @@
           "target_index": 0,
           "gloss": "and from their fat",
           "gloss_highlight": "fat",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H3754",
+      "citation_form": "כֶּרֶם",
+      "transliteration": "kerem",
+      "full_gloss": "vineyard",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.9.20",
+          "surface_form": "כָּֽרֶם",
+          "transliteration": "karem",
+          "word_id": "01MnE",
+          "phrase_hebrew": "וַיִּטַּע כָּֽרֶם",
+          "phrase_transliteration": "wayita` karem",
+          "target_index": 1,
+          "gloss": "he planted a vineyard",
+          "gloss_highlight": "vineyard",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H5676",
+      "citation_form": "עֵבֶר",
+      "transliteration": "`ever",
+      "full_gloss": "region beyond, side, across",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.50.10",
+          "surface_form": "בְּעֵבֶר",
+          "transliteration": "be`ever",
+          "word_id": "01fVE",
+          "phrase_hebrew": "בְּעֵבֶר הַיַּרְדֵּן",
+          "phrase_transliteration": "be`ever hayarden",
+          "target_index": 0,
+          "gloss": "beyond the Jordan",
+          "gloss_highlight": "beyond",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H5797",
+      "citation_form": "עֹז",
+      "transliteration": "`oz",
+      "full_gloss": "strength, might",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Ps.21.2",
+          "surface_form": "בְּעָזְּךָ",
+          "transliteration": "be`azkha",
+          "word_id": "19UBC",
+          "phrase_hebrew": "יְֽהוָה בְּעָזְּךָ",
+          "phrase_transliteration": "yehwah be`azkha",
+          "target_index": 1,
+          "gloss": "LORD, in your strength",
+          "gloss_highlight": "strength",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H2220",
+      "citation_form": "זְרוֹעַ",
+      "transliteration": "zeroa`",
+      "full_gloss": "arm; strength",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.49.24",
+          "surface_form": "זְרֹעֵי",
+          "transliteration": "zero`ey",
+          "word_id": "01Vtt",
+          "phrase_hebrew": "זְרֹעֵי יָדָיו",
+          "phrase_transliteration": "zero`ey yadayw",
+          "target_index": 0,
+          "gloss": "the arms of his hands",
+          "gloss_highlight": "arms",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H3742",
+      "citation_form": "כְּרוּב",
+      "transliteration": "keruv",
+      "full_gloss": "cherub",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.3.24",
+          "surface_form": "הַכְּרֻבִים",
+          "transliteration": "hakruvim",
+          "word_id": "014Ed",
+          "phrase_hebrew": "הַכְּרֻבִים",
+          "phrase_transliteration": "hakruvim",
+          "target_index": 0,
+          "gloss": "the cherubim",
+          "gloss_highlight": "cherubim",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H4438",
+      "citation_form": "מַלְכוּת",
+      "transliteration": "malkhut",
+      "full_gloss": "kingdom, royal power, reign",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "1Kgs.2.12",
+          "surface_form": "מַלְכֻתוֹ",
+          "transliteration": "malkhuto",
+          "word_id": "11Ci2",
+          "phrase_hebrew": "וַתִּכֹּן מַלְכֻתוֹ",
+          "phrase_transliteration": "watikon malkhuto",
+          "target_index": 1,
+          "gloss": "his kingdom was firmly established",
+          "gloss_highlight": "kingdom",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H7892",
+      "citation_form": "שִׁיר",
+      "transliteration": "shir",
+      "full_gloss": "song",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.31.27",
+          "surface_form": "וּבְשִׁרִים",
+          "transliteration": "uvshirim",
+          "word_id": "01WYG",
+          "phrase_hebrew": "וּבְשִׁרִים",
+          "phrase_transliteration": "uvshirim",
+          "target_index": 0,
+          "gloss": "and with songs",
+          "gloss_highlight": "songs",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H3206",
+      "citation_form": "יֶלֶד",
+      "transliteration": "yeled",
+      "full_gloss": "child, boy",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.4.23",
+          "surface_form": "וְיֶלֶד",
+          "transliteration": "weyeled",
+          "word_id": "01UeK",
+          "phrase_hebrew": "וְיֶלֶד לְחַבֻּרָתִֽי",
+          "phrase_transliteration": "weyeled lekhaburati",
+          "target_index": 0,
+          "gloss": "and a boy for my wound",
+          "gloss_highlight": "boy",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H6098",
+      "citation_form": "עֵצָה",
+      "transliteration": "`etsah",
+      "full_gloss": "counsel, advice, plan",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "2Sam.15.31",
+          "surface_form": "עֲצַת",
+          "transliteration": "`atsat",
+          "word_id": "10SCB",
+          "phrase_hebrew": "אֶת עֲצַת",
+          "phrase_transliteration": "'et `atsat",
+          "target_index": 1,
+          "gloss": "the counsel of Ahithophel",
+          "gloss_highlight": "counsel",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H1817",
+      "citation_form": "דֶּלֶת",
+      "transliteration": "delet",
+      "full_gloss": "door",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.19.6",
+          "surface_form": "וְהַדֶּלֶת",
+          "transliteration": "wehadelet",
+          "word_id": "01U84",
+          "phrase_hebrew": "וְהַדֶּלֶת סָגַר",
+          "phrase_transliteration": "wehadelet sagar",
+          "target_index": 0,
+          "gloss": "and he shut the door",
+          "gloss_highlight": "door",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H8255",
+      "citation_form": "שֶׁקֶל",
+      "transliteration": "sheqel",
+      "full_gloss": "shekel",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.23.15",
+          "surface_form": "שֶֽׁקֶל",
+          "transliteration": "sheqel",
+          "word_id": "01RXz",
+          "phrase_hebrew": "מֵאֹת שֶֽׁקֶל",
+          "phrase_transliteration": "me'ot sheqel",
+          "target_index": 1,
+          "gloss": "four hundred shekels of silver",
+          "gloss_highlight": "shekels",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H567",
+      "citation_form": "אֱמֹרִי",
+      "transliteration": "'emori",
+      "full_gloss": "Amorite",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.10.16",
+          "surface_form": "הָאֱמֹרִי",
+          "transliteration": "ha'emori",
+          "word_id": "01RyE",
+          "phrase_hebrew": "וְאֶת הָאֱמֹרִי",
+          "phrase_transliteration": "we'et ha'emori",
+          "target_index": 1,
+          "gloss": "and the Amorite",
+          "gloss_highlight": "Amorite",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H6051",
+      "citation_form": "עָנָן",
+      "transliteration": "`anan",
+      "full_gloss": "cloud",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.9.13",
+          "surface_form": "בֶּֽעָנָן",
+          "transliteration": "be`anan",
+          "word_id": "01bVT",
+          "phrase_hebrew": "נָתַתִּי בֶּֽעָנָן",
+          "phrase_transliteration": "natati be`anan",
+          "target_index": 1,
+          "gloss": "I have set [it] in the cloud",
+          "gloss_highlight": "cloud",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H6924",
+      "citation_form": "קֶדֶם",
+      "transliteration": "qedem",
+      "full_gloss": "east; ancient time, of old",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.2.8",
+          "surface_form": "מִקֶּדֶם",
+          "transliteration": "miqedem",
+          "word_id": "01ZMk",
+          "phrase_hebrew": "מִקֶּדֶם",
+          "phrase_transliteration": "miqedem",
+          "target_index": 0,
+          "gloss": "in the east",
+          "gloss_highlight": "east",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H8002",
+      "citation_form": "שֶׁלֶם",
+      "transliteration": "shelem",
+      "full_gloss": "peace offering, fellowship offering",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Lev.3.1",
+          "surface_form": "שְׁלָמִים",
+          "transliteration": "shelamim",
+          "word_id": "033iR",
+          "phrase_hebrew": "זֶבַח שְׁלָמִים",
+          "phrase_transliteration": "zevakh shelamim",
+          "target_index": 1,
+          "gloss": "a sacrifice of peace offerings",
+          "gloss_highlight": "peace offerings",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H6285",
+      "citation_form": "פֵּאָה",
+      "transliteration": "pe'ah",
+      "full_gloss": "corner, side, edge",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Exod.25.26",
+          "surface_form": "הַפֵּאֹת",
+          "transliteration": "hape'ot",
+          "word_id": "0279S",
+          "phrase_hebrew": "אַרְבַּע הַפֵּאֹת",
+          "phrase_transliteration": "'arba` hape'ot",
+          "target_index": 1,
+          "gloss": "on the four corners",
+          "gloss_highlight": "corners",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H1995",
+      "citation_form": "הָמוֹן",
+      "transliteration": "hamon",
+      "full_gloss": "multitude, crowd, noise, abundance",
+      "sense_count": 4,
+      "examples": [
+        {
+          "ref": "Gen.17.4",
+          "surface_form": "הֲמוֹן",
+          "transliteration": "hamon",
+          "word_id": "01P34",
+          "phrase_hebrew": "לְאַב הֲמוֹן גּוֹיִֽם",
+          "phrase_transliteration": "le'av hamon goyim",
+          "target_index": 1,
+          "gloss": "a father of a multitude of nations",
+          "gloss_highlight": "multitude",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H3092",
+      "citation_form": "יְהוֹשָׁפָט",
+      "transliteration": "yehoshafat",
+      "full_gloss": "Jehoshaphat",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "1Kgs.4.17",
+          "surface_form": "יְהוֹשָׁפָט",
+          "transliteration": "yehoshafat",
+          "word_id": "115n2",
+          "phrase_hebrew": "יְהוֹשָׁפָט בֶּן",
+          "phrase_transliteration": "yehoshafat ben",
+          "target_index": 0,
+          "gloss": "Jehoshaphat son of Paruah",
+          "gloss_highlight": "Jehoshaphat",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H1167",
+      "citation_form": "בַּעַל",
+      "transliteration": "ba`al",
+      "full_gloss": "master, owner, husband; Baal",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.14.13",
+          "surface_form": "בַּעֲלֵי",
+          "transliteration": "ba`aley",
+          "word_id": "017h8",
+          "phrase_hebrew": "בַּעֲלֵי בְרִית",
+          "phrase_transliteration": "ba`aley verit",
+          "target_index": 0,
+          "gloss": "allies [in covenant] with Abram",
+          "gloss_highlight": "allies",
+          "gloss_note": "lit. \"masters/possessors of a covenant\" -- ba`al's core sense is master/owner; here an idiom for treaty allies"
+        }
+      ]
+    },
+    {
+      "lemma_id": "H1035",
+      "citation_form": "בֵּית לֶחֶם",
+      "transliteration": "beytlekhem",
+      "full_gloss": "Bethlehem",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.35.19",
+          "surface_form": "בֵּית",
+          "transliteration": "beyt",
+          "word_id": "01dR3",
+          "phrase_hebrew": "הִוא בֵּית לָֽחֶם",
+          "phrase_transliteration": "hiw' beyt lakhem",
+          "target_index": 1,
+          "gloss": "that is Bethlehem",
+          "gloss_highlight": "Bethlehem",
           "gloss_note": null
         }
       ]

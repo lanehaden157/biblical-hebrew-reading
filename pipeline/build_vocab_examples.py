@@ -592,6 +592,29 @@ CURATED = {
     "H6588": [("Gen", "01dE1", "01bU5", "01dE1", "what is my transgression", "transgression", None)],
     "H1616": [("Gen", "01yf4", "01yf4", "01kib", "a sojourner your offspring will be", "sojourner", None)],
     "H2459": [("Gen", "01xjb", "01xjb", "01xjb", "and from their fat", "fat", None)],
+
+    # Batch 23 (2026-08-30): next 20 nouns. 6 have no Genesis occurrence,
+    # sourced from Psalms, 1 Kings, 2 Samuel, Leviticus, and Exodus.
+    "H3754": [("Gen", "01MnE", "0162B", "01MnE", "he planted a vineyard", "vineyard", None)],
+    "H5676": [("Gen", "01fVE", "01fVE", "016aT", "beyond the Jordan", "beyond", None)],
+    "H5797": [("Ps", "19UBC", "193zy", "19UBC", "LORD, in your strength", "strength", None)],
+    "H2220": [("Gen", "01Vtt", "01Vtt", "01J1d", "the arms of his hands", "arms", None)],
+    "H3742": [("Gen", "014Ed", "014Ed", "014Ed", "the cherubim", "cherubim", None)],
+    "H4438": [("1Kgs", "11Ci2", "11MRd", "11Ci2", "his kingdom was firmly established", "kingdom", None)],
+    "H7892": [("Gen", "01WYG", "01WYG", "01WYG", "and with songs", "songs", None)],
+    "H3206": [("Gen", "01UeK", "01UeK", "01CYD", "and a boy for my wound", "boy", None)],
+    "H6098": [("2Sam", "10SCB", "10feu", "10SCB", "the counsel of Ahithophel", "counsel", None)],
+    "H1817": [("Gen", "01U84", "01U84", "01Jy2", "and he shut the door", "door", None)],
+    "H8255": [("Gen", "01RXz", "01PeM", "01RXz", "four hundred shekels of silver", "shekels", None)],
+    "H567": [("Gen", "01RyE", "01q1D", "01RyE", "and the Amorite", "Amorite", None)],
+    "H6051": [("Gen", "01bVT", "01icY", "01bVT", "I have set [it] in the cloud", "cloud", None)],
+    "H6924": [("Gen", "01ZMk", "01ZMk", "01ZMk", "in the east", "east", None)],
+    "H8002": [("Lev", "033iR", "03gXh", "033iR", "a sacrifice of peace offerings", "peace offerings", None)],
+    "H6285": [("Exod", "0279S", "02vAz", "0279S", "on the four corners", "corners", None)],
+    "H1995": [("Gen", "01P34", "01nou", "01xcW", "a father of a multitude of nations", "multitude", None)],
+    "H3092": [("1Kgs", "115n2", "115n2", "11WG2", "Jehoshaphat son of Paruah", "Jehoshaphat", None)],
+    "H1167": [("Gen", "017h8", "017h8", "01EAv", "allies [in covenant] with Abram", "allies", "lit. \"masters/possessors of a covenant\" -- ba`al's core sense is master/owner; here an idiom for treaty allies")],
+    "H1035": [("Gen", "01dR3", "01gt7", "01pmS", "that is Bethlehem", "Bethlehem", None)],
 }
 
 # Lemmas Lane said to file away rather than force a single example onto --
