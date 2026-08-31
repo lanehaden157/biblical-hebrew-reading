@@ -84,6 +84,29 @@ CURATED = {
     "H398": [("Ruth", "08nzj", "08nzj", "083Sx", "eat some of the bread", "eat", None)],
     "H7121": [("Jonah", "32PB6", "32PB6", "3237c", "and call out against it", "call out", None)],
     "H5375": [("Jonah", "32ecS", "32ecS", "32Xzm", "they lifted up Jonah", "lifted up", None)],
+
+    # Batch 2 (2026-08-29): next 20 verbs by frequency, same Genesis 1-8 /
+    # Jonah / Ruth sourcing for variety.
+    "H6965": [("Jonah", "32TZE", "32TZE", "32thY", "Jonah got up", "got up", None)],
+    "H7760": [("Gen", "01irW", "01irW", "01x72", "he placed [the man] there", "placed", None)],
+    "H5674": [("Ruth", "08eHZ", "08A76", "08eHZ", "the redeemer was passing by", "passing by", None)],
+    "H5975": [("Jonah", "32uXX", "32uXX", "32xCL", "the sea stood [still]", "stood", None)],
+    "H1980": [("Ruth", "08jP7", "08jP7", "08jv3", "go to the vessels", "go", None)],
+    "H5221": [("Jonah", "32ht4", "32ht4", "32pYb", "it struck the plant", "struck", None)],
+    "H3205": [("Ruth", "08h1i", "08h1i", "08c5a", "she bore a son", "bore", None)],
+    "H6680": [("Gen", "01RFe", "01RFe", "01AwN", "the LORD God commanded", "commanded", None)],
+    "H8104": [("Gen", "01S3d", "01sCi", "01S3d", "to work it and keep it", "keep", None)],
+    "H4672": [("Jonah", "32v6U", "32v6U", "325SS", "he found a ship", "found", None)],
+    "H5307": [("Ruth", "083t6", "083t6", "08LDn", "she fell on her face", "fell", None)],
+    "H3381": [("Jonah", "32jbg", "32jbg", "32USR", "he went down to Joppa", "went down", None)],
+    "H1129": [("Gen", "012oH", "012oH", "01wQL", "the LORD God built [it]", "built", "of God fashioning the rib into a woman, not literal construction")],
+    "H5046": [("Jonah", "32LFW", "32j63", "32FbT", "for he had told them", "told", None)],
+    "H4427": [("Gen", "01xVz", "01xVz", "01eRE", "Bela became king in Edom", "became king", None)],
+    "H1288": [("Gen", "01kDf", "01kDf", "01WPn", "God blessed them", "blessed", None)],
+    "H3372": [("Gen", "01m49", "013dA", "01HAZ", "do not fear, Abram", "fear", None)],
+    "H6030": [("Ruth", "08p7s", "08p7s", "08ZBR", "Boaz answered", "answered", None)],
+    "H6485": [("Ruth", "08L7t", "08L7t", "08xdF", "the LORD had visited his people", "visited", None)],
+    "H5493": [("Ruth", "08rKT", "08rKT", "08rHh", "turn aside, sit here", "turn aside", None)],
 }
 
 # Lemmas Lane said to file away rather than force a single example onto --

@@ -2,9 +2,9 @@
   "metadata": {
     "source": "build_vocab_examples.py",
     "target_lemma_count": 544,
-    "curated_count": 20,
+    "curated_count": 40,
     "skipped": [],
-    "pending_count": 524
+    "pending_count": 504
   },
   "entries": [
     {
@@ -423,6 +423,426 @@
           "target_index": 0,
           "gloss": "they lifted up Jonah",
           "gloss_highlight": "lifted up",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H6965",
+      "citation_form": "קוּם",
+      "transliteration": "qum",
+      "full_gloss": "rise, stand up",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Jonah.1.3",
+          "surface_form": "וַיָּקָם",
+          "transliteration": "wayaqam",
+          "word_id": "32TZE",
+          "phrase_hebrew": "וַיָּקָם יוֹנָה",
+          "phrase_transliteration": "wayaqam yonah",
+          "target_index": 0,
+          "gloss": "Jonah got up",
+          "gloss_highlight": "got up",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H7760",
+      "citation_form": "שׂוּם",
+      "transliteration": "sum",
+      "full_gloss": "put, place, set",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.2.8",
+          "surface_form": "וַיָּשֶׂם",
+          "transliteration": "wayasem",
+          "word_id": "01irW",
+          "phrase_hebrew": "וַיָּשֶׂם שָׁם",
+          "phrase_transliteration": "wayasem sham",
+          "target_index": 0,
+          "gloss": "he placed [the man] there",
+          "gloss_highlight": "placed",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H5674",
+      "citation_form": "עָבַר",
+      "transliteration": "`avar",
+      "full_gloss": "cross over, pass through",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Ruth.4.1",
+          "surface_form": "עֹבֵר",
+          "transliteration": "`over",
+          "word_id": "08eHZ",
+          "phrase_hebrew": "הַגֹּאֵל עֹבֵר",
+          "phrase_transliteration": "hago'el `over",
+          "target_index": 1,
+          "gloss": "the redeemer was passing by",
+          "gloss_highlight": "passing by",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H5975",
+      "citation_form": "עָמַד",
+      "transliteration": "`amad",
+      "full_gloss": "stand",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Jonah.1.15",
+          "surface_form": "וַיַּעֲמֹד",
+          "transliteration": "waya`amod",
+          "word_id": "32uXX",
+          "phrase_hebrew": "וַיַּעֲמֹד הַיָּם",
+          "phrase_transliteration": "waya`amod hayam",
+          "target_index": 0,
+          "gloss": "the sea stood [still]",
+          "gloss_highlight": "stood",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H1980",
+      "citation_form": "הָלַךְ",
+      "transliteration": "halakh",
+      "full_gloss": "walk, go",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Ruth.2.9",
+          "surface_form": "וְהָלַכְתְּ",
+          "transliteration": "wehalakht",
+          "word_id": "08jP7",
+          "phrase_hebrew": "וְהָלַכְתְּ אֶל הַכֵּלִים",
+          "phrase_transliteration": "wehalakht 'el hakelim",
+          "target_index": 0,
+          "gloss": "go to the vessels",
+          "gloss_highlight": "go",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H5221",
+      "citation_form": "נָכָה",
+      "transliteration": "nakhah",
+      "full_gloss": "strike, hit, kill",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Jonah.4.7",
+          "surface_form": "וַתַּךְ",
+          "transliteration": "watakh",
+          "word_id": "32ht4",
+          "phrase_hebrew": "וַתַּךְ אֶת הַקִּֽיקָיוֹן",
+          "phrase_transliteration": "watakh 'et haqiqayon",
+          "target_index": 0,
+          "gloss": "it struck the plant",
+          "gloss_highlight": "struck",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H3205",
+      "citation_form": "יָלַד",
+      "transliteration": "yalad",
+      "full_gloss": "bear (a child), give birth, beget",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Ruth.4.13",
+          "surface_form": "וַתֵּלֶד",
+          "transliteration": "wateled",
+          "word_id": "08h1i",
+          "phrase_hebrew": "וַתֵּלֶד בֵּֽן",
+          "phrase_transliteration": "wateled ben",
+          "target_index": 0,
+          "gloss": "she bore a son",
+          "gloss_highlight": "bore",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H6680",
+      "citation_form": "צָוָה",
+      "transliteration": "tsawah",
+      "full_gloss": "command",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.2.16",
+          "surface_form": "וַיְצַו",
+          "transliteration": "waytsaw",
+          "word_id": "01RFe",
+          "phrase_hebrew": "וַיְצַו יְהוָה אֱלֹהִים",
+          "phrase_transliteration": "waytsaw yehwah 'elohim",
+          "target_index": 0,
+          "gloss": "the LORD God commanded",
+          "gloss_highlight": "commanded",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H8104",
+      "citation_form": "שָׁמַר",
+      "transliteration": "shamar",
+      "full_gloss": "keep, guard, observe",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.2.15",
+          "surface_form": "וּלְשָׁמְרָֽהּ",
+          "transliteration": "ulshamrah",
+          "word_id": "01S3d",
+          "phrase_hebrew": "לְעָבְדָהּ וּלְשָׁמְרָֽהּ",
+          "phrase_transliteration": "le`avdah ulshamrah",
+          "target_index": 1,
+          "gloss": "to work it and keep it",
+          "gloss_highlight": "keep",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H4672",
+      "citation_form": "מָצָא",
+      "transliteration": "matsa'",
+      "full_gloss": "find",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Jonah.1.3",
+          "surface_form": "וַיִּמְצָא",
+          "transliteration": "wayimtsa'",
+          "word_id": "32v6U",
+          "phrase_hebrew": "וַיִּמְצָא אָנִיָּה",
+          "phrase_transliteration": "wayimtsa' 'aniyah",
+          "target_index": 0,
+          "gloss": "he found a ship",
+          "gloss_highlight": "found",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H5307",
+      "citation_form": "נָפַל",
+      "transliteration": "nafal",
+      "full_gloss": "fall",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Ruth.2.10",
+          "surface_form": "וַתִּפֹּל",
+          "transliteration": "watipol",
+          "word_id": "083t6",
+          "phrase_hebrew": "וַתִּפֹּל עַל פָּנֶיהָ",
+          "phrase_transliteration": "watipol `al paneyha",
+          "target_index": 0,
+          "gloss": "she fell on her face",
+          "gloss_highlight": "fell",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H3381",
+      "citation_form": "יָרַד",
+      "transliteration": "yarad",
+      "full_gloss": "go down, descend",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Jonah.1.3",
+          "surface_form": "וַיֵּרֶד",
+          "transliteration": "wayered",
+          "word_id": "32jbg",
+          "phrase_hebrew": "וַיֵּרֶד יָפוֹ",
+          "phrase_transliteration": "wayered yafo",
+          "target_index": 0,
+          "gloss": "he went down to Joppa",
+          "gloss_highlight": "went down",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H1129",
+      "citation_form": "בָּנָה",
+      "transliteration": "banah",
+      "full_gloss": "build",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.2.22",
+          "surface_form": "וַיִּבֶן",
+          "transliteration": "wayiven",
+          "word_id": "012oH",
+          "phrase_hebrew": "וַיִּבֶן יְהוָה אֱלֹהִים",
+          "phrase_transliteration": "wayiven yehwah 'elohim",
+          "target_index": 0,
+          "gloss": "the LORD God built [it]",
+          "gloss_highlight": "built",
+          "gloss_note": "of God fashioning the rib into a woman, not literal construction"
+        }
+      ]
+    },
+    {
+      "lemma_id": "H5046",
+      "citation_form": "נָגַד",
+      "transliteration": "nagad",
+      "full_gloss": "tell, declare, report",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Jonah.1.10",
+          "surface_form": "הִגִּיד",
+          "transliteration": "higid",
+          "word_id": "32LFW",
+          "phrase_hebrew": "כִּי הִגִּיד לָהֶֽם",
+          "phrase_transliteration": "ki higid lahem",
+          "target_index": 1,
+          "gloss": "for he had told them",
+          "gloss_highlight": "told",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H4427",
+      "citation_form": "מָלַךְ",
+      "transliteration": "malakh",
+      "full_gloss": "reign, be king, become king",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.36.32",
+          "surface_form": "וַיִּמְלֹךְ",
+          "transliteration": "wayimlokh",
+          "word_id": "01xVz",
+          "phrase_hebrew": "וַיִּמְלֹךְ בֶּאֱדוֹם בֶּלַע",
+          "phrase_transliteration": "wayimlokh be'edom bela`",
+          "target_index": 0,
+          "gloss": "Bela became king in Edom",
+          "gloss_highlight": "became king",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H1288",
+      "citation_form": "בָּרַךְ",
+      "transliteration": "barakh",
+      "full_gloss": "bless",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.1.22",
+          "surface_form": "וַיְבָרֶךְ",
+          "transliteration": "wayvarekh",
+          "word_id": "01kDf",
+          "phrase_hebrew": "וַיְבָרֶךְ אֹתָם אֱלֹהִים",
+          "phrase_transliteration": "wayvarekh 'otam 'elohim",
+          "target_index": 0,
+          "gloss": "God blessed them",
+          "gloss_highlight": "blessed",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H3372",
+      "citation_form": "יָרֵא",
+      "transliteration": "yare'",
+      "full_gloss": "fear",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.15.1",
+          "surface_form": "תִּירָא",
+          "transliteration": "tira'",
+          "word_id": "01m49",
+          "phrase_hebrew": "אַל תִּירָא אַבְרָם",
+          "phrase_transliteration": "'al tira' 'avram",
+          "target_index": 1,
+          "gloss": "do not fear, Abram",
+          "gloss_highlight": "fear",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H6030",
+      "citation_form": "עָנָה",
+      "transliteration": "`anah",
+      "full_gloss": "answer, respond",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Ruth.2.11",
+          "surface_form": "וַיַּעַן",
+          "transliteration": "waya`an",
+          "word_id": "08p7s",
+          "phrase_hebrew": "וַיַּעַן בֹּעַז",
+          "phrase_transliteration": "waya`an bo`az",
+          "target_index": 0,
+          "gloss": "Boaz answered",
+          "gloss_highlight": "answered",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H6485",
+      "citation_form": "פָּקַד",
+      "transliteration": "paqad",
+      "full_gloss": "attend to, visit, appoint, muster",
+      "sense_count": 4,
+      "examples": [
+        {
+          "ref": "Ruth.1.6",
+          "surface_form": "פָקַד",
+          "transliteration": "faqad",
+          "word_id": "08L7t",
+          "phrase_hebrew": "פָקַד יְהוָה אֶת עַמּוֹ",
+          "phrase_transliteration": "faqad yehwah 'et `amo",
+          "target_index": 0,
+          "gloss": "the LORD had visited his people",
+          "gloss_highlight": "visited",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H5493",
+      "citation_form": "סוּר",
+      "transliteration": "sur",
+      "full_gloss": "turn aside, depart",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Ruth.4.1",
+          "surface_form": "סוּרָה",
+          "transliteration": "surah",
+          "word_id": "08rKT",
+          "phrase_hebrew": "סוּרָה שְׁבָה פֹּה",
+          "phrase_transliteration": "surah shevah poh",
+          "target_index": 0,
+          "gloss": "turn aside, sit here",
+          "gloss_highlight": "turn aside",
           "gloss_note": null
         }
       ]
