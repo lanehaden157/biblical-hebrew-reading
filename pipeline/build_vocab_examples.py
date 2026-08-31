@@ -407,6 +407,29 @@ CURATED = {
     "H6086": [("Gen", "01fV3", "01fV3", "01Sov", "fruit tree", "tree", None)],
     "H113": [("Gen", "01sDg", "01sDg", "01sDg", "my lord", "lord", None)],
     "H3627": [("Gen", "01F4E", "01F4E", "01wMa", "vessels of silver", "vessels", None)],
+
+    # Batch 15 (2026-08-30): next 20 nouns/adverbs. shelomoh and lewiyi
+    # have no Genesis occurrence, sourced from 1 Kings and Exodus.
+    "H4421": [("Gen", "01Gcz", "015PZ", "01Gcz", "they made war", "war", None)],
+    "H5030": [("Gen", "01UMk", "01P7Z", "01yqU", "for he is a prophet", "prophet", None)],
+    "H3069": [("Gen", "01hRC", "01w93", "01hRC", "O Lord GOD", "GOD", None)],
+    "H4940": [("Gen", "01Lzv", "01Lzv", "01Lzv", "by their families", "families", None)],
+    "H3966": [("Gen", "01dPK", "01ce9", "01dPK", "very good", "very", None)],
+    "H2403": [("Gen", "01hnA", "01Ggr", "01hnA", "sin is crouching at the door", "sin", None)],
+    "H3899": [("Gen", "012Ss", "01c7o", "012Ss", "you shall eat bread", "bread", None)],
+    "H6256": [("Gen", "01p6C", "01p6C", "01Dn5", "at the time of evening", "time", None)],
+    "H8010": [("1Kgs", "113Lj", "1175P", "113Lj", "the mother of Solomon", "Solomon", None)],
+    "H6430": [("Gen", "019Bj", "019Bj", "019Bj", "Philistines", "Philistines", None)],
+    "H5930": [("Gen", "01hNg", "01aVY", "01hNg", "he offered burnt offerings", "burnt offerings", None)],
+    "H3881": [("Exod", "022B3", "022B3", "022B3", "the Levite", "Levite", None)],
+    "H1285": [("Gen", "01yyf", "017nT", "01yyf", "my covenant", "covenant", None)],
+    "H2320": [("Gen", "01p5C", "01p5C", "01pLh", "in the second month", "month", None)],
+    "H639": [("Gen", "01YQ8", "01YQ8", "01YQ8", "into his nostrils", "nostrils", None)],
+    "H6629": [("Gen", "01HQC", "015oN", "01HQC", "a shepherd of sheep", "sheep", None)],
+    "H68": [("Gen", "01w7p", "01w7p", "01k7H", "and onyx stone", "stone", None)],
+    "H4057": [("Gen", "01XAP", "01Kk2", "01XAP", "by the wilderness", "wilderness", None)],
+    "H1320": [("Gen", "01nRw", "0131Z", "01nRw", "he closed up the flesh", "flesh", None)],
+    "H6547": [("Gen", "01r2p", "01fBS", "01r2p", "the officials of Pharaoh", "Pharaoh", None)],
 }
 
 # Lemmas Lane said to file away rather than force a single example onto --

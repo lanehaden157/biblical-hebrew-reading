@@ -2,9 +2,9 @@
   "metadata": {
     "source": "build_vocab_examples.py",
     "target_lemma_count": 544,
-    "curated_count": 303,
+    "curated_count": 323,
     "skipped": [],
-    "pending_count": 241
+    "pending_count": 221
   },
   "entries": [
     {
@@ -6366,6 +6366,426 @@
           "target_index": 0,
           "gloss": "vessels of silver",
           "gloss_highlight": "vessels",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H4421",
+      "citation_form": "מִלְחָמָה",
+      "transliteration": "milkhamah",
+      "full_gloss": "war, battle",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.14.2",
+          "surface_form": "מִלְחָמָה",
+          "transliteration": "milkhamah",
+          "word_id": "01Gcz",
+          "phrase_hebrew": "עָשׂוּ מִלְחָמָה",
+          "phrase_transliteration": "`asu milkhamah",
+          "target_index": 1,
+          "gloss": "they made war",
+          "gloss_highlight": "war",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H5030",
+      "citation_form": "נָבִיא",
+      "transliteration": "navi'",
+      "full_gloss": "prophet",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.20.7",
+          "surface_form": "נָבִיא",
+          "transliteration": "navi'",
+          "word_id": "01UMk",
+          "phrase_hebrew": "כִּֽי נָבִיא הוּא",
+          "phrase_transliteration": "ki navi' hu'",
+          "target_index": 1,
+          "gloss": "for he is a prophet",
+          "gloss_highlight": "prophet",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H3069",
+      "citation_form": "יְהֹוִה",
+      "transliteration": "yehowih",
+      "full_gloss": "YHWH",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.15.2",
+          "surface_form": "יֱהוִה",
+          "transliteration": "yehwih",
+          "word_id": "01hRC",
+          "phrase_hebrew": "אֲדֹנָי יֱהוִה",
+          "phrase_transliteration": "'adonay yehwih",
+          "target_index": 1,
+          "gloss": "O Lord GOD",
+          "gloss_highlight": "GOD",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H4940",
+      "citation_form": "מִשְׁפָּחָה",
+      "transliteration": "mishpakhah",
+      "full_gloss": "family, clan",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.8.19",
+          "surface_form": "לְמִשְׁפְּחֹתֵיהֶם",
+          "transliteration": "lemishpekhoteyhem",
+          "word_id": "01Lzv",
+          "phrase_hebrew": "לְמִשְׁפְּחֹתֵיהֶם",
+          "phrase_transliteration": "lemishpekhoteyhem",
+          "target_index": 0,
+          "gloss": "by their families",
+          "gloss_highlight": "families",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H3966",
+      "citation_form": "מְאֹד",
+      "transliteration": "me'od",
+      "full_gloss": "very, exceedingly",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.1.31",
+          "surface_form": "מְאֹד",
+          "transliteration": "me'od",
+          "word_id": "01dPK",
+          "phrase_hebrew": "טוֹב מְאֹד",
+          "phrase_transliteration": "tov me'od",
+          "target_index": 1,
+          "gloss": "very good",
+          "gloss_highlight": "very",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H2403",
+      "citation_form": "חַטָּאָה",
+      "transliteration": "khata'ah",
+      "full_gloss": "sin, sin offering",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.4.7",
+          "surface_form": "חַטָּאת",
+          "transliteration": "khata't",
+          "word_id": "01hnA",
+          "phrase_hebrew": "לַפֶּתַח חַטָּאת",
+          "phrase_transliteration": "lapetakh khata't",
+          "target_index": 1,
+          "gloss": "sin is crouching at the door",
+          "gloss_highlight": "sin",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H3899",
+      "citation_form": "לֶחֶם",
+      "transliteration": "lekhem",
+      "full_gloss": "bread, food",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.3.19",
+          "surface_form": "לֶחֶם",
+          "transliteration": "lekhem",
+          "word_id": "012Ss",
+          "phrase_hebrew": "תֹּאכַל לֶחֶם",
+          "phrase_transliteration": "to'khal lekhem",
+          "target_index": 1,
+          "gloss": "you shall eat bread",
+          "gloss_highlight": "bread",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H6256",
+      "citation_form": "עֵת",
+      "transliteration": "`et",
+      "full_gloss": "time",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.8.11",
+          "surface_form": "לְעֵת",
+          "transliteration": "le`et",
+          "word_id": "01p6C",
+          "phrase_hebrew": "לְעֵת עֶרֶב",
+          "phrase_transliteration": "le`et `erev",
+          "target_index": 0,
+          "gloss": "at the time of evening",
+          "gloss_highlight": "time",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H8010",
+      "citation_form": "שְׁלֹמֹה",
+      "transliteration": "shelomoh",
+      "full_gloss": "Solomon",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "1Kgs.1.11",
+          "surface_form": "שְׁלֹמֹה",
+          "transliteration": "shelomoh",
+          "word_id": "113Lj",
+          "phrase_hebrew": "אֵם שְׁלֹמֹה",
+          "phrase_transliteration": "'em shelomoh",
+          "target_index": 1,
+          "gloss": "the mother of Solomon",
+          "gloss_highlight": "Solomon",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H6430",
+      "citation_form": "פְּלִשְׁתִּי",
+      "transliteration": "pelishti",
+      "full_gloss": "Philistine",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.10.14",
+          "surface_form": "פְּלִשְׁתִּים",
+          "transliteration": "pelishtim",
+          "word_id": "019Bj",
+          "phrase_hebrew": "פְּלִשְׁתִּים",
+          "phrase_transliteration": "pelishtim",
+          "target_index": 0,
+          "gloss": "Philistines",
+          "gloss_highlight": "Philistines",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H5930",
+      "citation_form": "עֹלָה",
+      "transliteration": "`olah",
+      "full_gloss": "burnt offering",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.8.20",
+          "surface_form": "עֹלֹת",
+          "transliteration": "`olot",
+          "word_id": "01hNg",
+          "phrase_hebrew": "וַיַּעַל עֹלֹת",
+          "phrase_transliteration": "waya`al `olot",
+          "target_index": 1,
+          "gloss": "he offered burnt offerings",
+          "gloss_highlight": "burnt offerings",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H3881",
+      "citation_form": "לֵוִיִּי",
+      "transliteration": "lewiyi",
+      "full_gloss": "Levite",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Exod.4.14",
+          "surface_form": "הַלֵּוִי",
+          "transliteration": "halewi",
+          "word_id": "022B3",
+          "phrase_hebrew": "הַלֵּוִי",
+          "phrase_transliteration": "halewi",
+          "target_index": 0,
+          "gloss": "the Levite",
+          "gloss_highlight": "Levite",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H1285",
+      "citation_form": "בְּרִית",
+      "transliteration": "berit",
+      "full_gloss": "covenant",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.6.18",
+          "surface_form": "בְּרִיתִי",
+          "transliteration": "beriti",
+          "word_id": "01yyf",
+          "phrase_hebrew": "אֶת בְּרִיתִי",
+          "phrase_transliteration": "'et beriti",
+          "target_index": 1,
+          "gloss": "my covenant",
+          "gloss_highlight": "covenant",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H2320",
+      "citation_form": "חֹדֶשׁ",
+      "transliteration": "khodesh",
+      "full_gloss": "month, new moon",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.7.11",
+          "surface_form": "בַּחֹדֶשׁ",
+          "transliteration": "bakhodesh",
+          "word_id": "01p5C",
+          "phrase_hebrew": "בַּחֹדֶשׁ הַשֵּׁנִי",
+          "phrase_transliteration": "bakhodesh hasheni",
+          "target_index": 0,
+          "gloss": "in the second month",
+          "gloss_highlight": "month",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H639",
+      "citation_form": "אַף",
+      "transliteration": "'af",
+      "full_gloss": "nose, anger",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.2.7",
+          "surface_form": "בְּאַפָּיו",
+          "transliteration": "be'apayw",
+          "word_id": "01YQ8",
+          "phrase_hebrew": "בְּאַפָּיו",
+          "phrase_transliteration": "be'apayw",
+          "target_index": 0,
+          "gloss": "into his nostrils",
+          "gloss_highlight": "nostrils",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H6629",
+      "citation_form": "צֹאן",
+      "transliteration": "tso'n",
+      "full_gloss": "flock (sheep and goats)",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.4.2",
+          "surface_form": "צֹאן",
+          "transliteration": "tso'n",
+          "word_id": "01HQC",
+          "phrase_hebrew": "רֹעֵה צֹאן",
+          "phrase_transliteration": "ro`eh tso'n",
+          "target_index": 1,
+          "gloss": "a shepherd of sheep",
+          "gloss_highlight": "sheep",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H68",
+      "citation_form": "אֶבֶן",
+      "transliteration": "'even",
+      "full_gloss": "stone",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.2.12",
+          "surface_form": "וְאֶבֶן",
+          "transliteration": "we'even",
+          "word_id": "01w7p",
+          "phrase_hebrew": "וְאֶבֶן הַשֹּֽׁהַם",
+          "phrase_transliteration": "we'even hashoham",
+          "target_index": 0,
+          "gloss": "and onyx stone",
+          "gloss_highlight": "stone",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H4057",
+      "citation_form": "מִדְבָּר",
+      "transliteration": "midbar",
+      "full_gloss": "wilderness, desert",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.14.6",
+          "surface_form": "הַמִּדְבָּֽר",
+          "transliteration": "hamidbar",
+          "word_id": "01XAP",
+          "phrase_hebrew": "עַל הַמִּדְבָּֽר",
+          "phrase_transliteration": "`al hamidbar",
+          "target_index": 1,
+          "gloss": "by the wilderness",
+          "gloss_highlight": "wilderness",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H1320",
+      "citation_form": "בָּשָׂר",
+      "transliteration": "basar",
+      "full_gloss": "flesh, body",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.2.21",
+          "surface_form": "בָּשָׂר",
+          "transliteration": "basar",
+          "word_id": "01nRw",
+          "phrase_hebrew": "וַיִּסְגֹּר בָּשָׂר",
+          "phrase_transliteration": "wayisgor basar",
+          "target_index": 1,
+          "gloss": "he closed up the flesh",
+          "gloss_highlight": "flesh",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H6547",
+      "citation_form": "פַּרְעֹה",
+      "transliteration": "par`oh",
+      "full_gloss": "Pharaoh",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.12.15",
+          "surface_form": "פַרְעֹה",
+          "transliteration": "far`oh",
+          "word_id": "01r2p",
+          "phrase_hebrew": "שָׂרֵי פַרְעֹה",
+          "phrase_transliteration": "sarey far`oh",
+          "target_index": 1,
+          "gloss": "the officials of Pharaoh",
+          "gloss_highlight": "Pharaoh",
           "gloss_note": null
         }
       ]
