@@ -2,9 +2,9 @@
   "metadata": {
     "source": "build_vocab_examples.py",
     "target_lemma_count": 544,
-    "curated_count": 483,
+    "curated_count": 503,
     "skipped": [],
-    "pending_count": 61
+    "pending_count": 41
   },
   "entries": [
     {
@@ -10146,6 +10146,426 @@
           "target_index": 1,
           "gloss": "that is Bethlehem",
           "gloss_highlight": "Bethlehem",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H3778",
+      "citation_form": "כַּשְׂדִּי",
+      "transliteration": "kasdi",
+      "full_gloss": "Chaldean",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.11.28",
+          "surface_form": "כַּשְׂדִּֽים",
+          "transliteration": "kasdim",
+          "word_id": "01ZdC",
+          "phrase_hebrew": "בְּאוּר כַּשְׂדִּֽים",
+          "phrase_transliteration": "be'ur kasdim",
+          "target_index": 1,
+          "gloss": "in Ur of the Chaldeans",
+          "gloss_highlight": "Chaldeans",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H6311",
+      "citation_form": "פֹּה",
+      "transliteration": "poh",
+      "full_gloss": "here",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.19.12",
+          "surface_form": "פֹה",
+          "transliteration": "foh",
+          "word_id": "01V3V",
+          "phrase_hebrew": "מִֽי לְךָ פֹה",
+          "phrase_transliteration": "mi lekha foh",
+          "target_index": 2,
+          "gloss": "who else do you have here",
+          "gloss_highlight": "here",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H7133",
+      "citation_form": "קׇרְבָּן",
+      "transliteration": "qorban",
+      "full_gloss": "offering, sacrifice",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Lev.1.2",
+          "surface_form": "קָרְבָּן",
+          "transliteration": "qarban",
+          "word_id": "03KZG",
+          "phrase_hebrew": "קָרְבָּן לַֽיהוָה",
+          "phrase_transliteration": "qarban layhwah",
+          "target_index": 0,
+          "gloss": "an offering to the LORD",
+          "gloss_highlight": "offering",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H3064",
+      "citation_form": "יְהוּדִי",
+      "transliteration": "yehudi",
+      "full_gloss": "Jew, Judean",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "2Kgs.16.6",
+          "surface_form": "הַיְהוּדִים",
+          "transliteration": "hayhudim",
+          "word_id": "12Ash",
+          "phrase_hebrew": "אֶת הַיְהוּדִים",
+          "phrase_transliteration": "'et hayhudim",
+          "target_index": 1,
+          "gloss": "the Jews",
+          "gloss_highlight": "Jews",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H738",
+      "citation_form": "אֲרִי",
+      "transliteration": "'ari",
+      "full_gloss": "lion",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.49.9",
+          "surface_form": "אַרְיֵה",
+          "transliteration": "'aryeh",
+          "word_id": "01JUs",
+          "phrase_hebrew": "גּוּר אַרְיֵה יְהוּדָה",
+          "phrase_transliteration": "gur 'aryeh yehudah",
+          "target_index": 1,
+          "gloss": "Judah is a lion's cub",
+          "gloss_highlight": "lion",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H1168",
+      "citation_form": "בַּעַל",
+      "transliteration": "ba`al",
+      "full_gloss": "Baal",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Judg.2.13",
+          "surface_form": "לַבַּעַל",
+          "transliteration": "laba`al",
+          "word_id": "07s3h",
+          "phrase_hebrew": "וַיַּעַבְדוּ לַבַּעַל",
+          "phrase_transliteration": "waya`avdu laba`al",
+          "target_index": 1,
+          "gloss": "they served Baal",
+          "gloss_highlight": "Baal",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H1964",
+      "citation_form": "הֵיכָל",
+      "transliteration": "heykhal",
+      "full_gloss": "palace, temple",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "1Kgs.6.3",
+          "surface_form": "הֵיכַל",
+          "transliteration": "heykhal",
+          "word_id": "11Khz",
+          "phrase_hebrew": "הֵיכַל הַבַּיִת",
+          "phrase_transliteration": "heykhal habayit",
+          "target_index": 0,
+          "gloss": "the hall of the house",
+          "gloss_highlight": "hall",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H2822",
+      "citation_form": "חֹשֶׁךְ",
+      "transliteration": "khoshekh",
+      "full_gloss": "darkness",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.1.2",
+          "surface_form": "וְחֹשֶׁךְ",
+          "transliteration": "wekhoshekh",
+          "word_id": "01C5U",
+          "phrase_hebrew": "וְחֹשֶׁךְ",
+          "phrase_transliteration": "wekhoshekh",
+          "target_index": 0,
+          "gloss": "and darkness",
+          "gloss_highlight": "darkness",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H3083",
+      "citation_form": "יְהוֹנָתָן",
+      "transliteration": "yehonatan",
+      "full_gloss": "Jonathan",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "1Sam.14.6",
+          "surface_form": "יְהוֹנָתָן",
+          "transliteration": "yehonatan",
+          "word_id": "09Z5P",
+          "phrase_hebrew": "וַיֹּאמֶר יְהוֹנָתָן",
+          "phrase_transliteration": "wayo'mer yehonatan",
+          "target_index": 1,
+          "gloss": "Jonathan said",
+          "gloss_highlight": "Jonathan",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H205",
+      "citation_form": "אָוֶן",
+      "transliteration": "'awen",
+      "full_gloss": "wickedness, iniquity, trouble; idol",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Ps.6.9",
+          "surface_form": "אָוֶן",
+          "transliteration": "'awen",
+          "word_id": "19fcv",
+          "phrase_hebrew": "כָּל פֹּעֲלֵי אָוֶן",
+          "phrase_transliteration": "kal po`aley 'awen",
+          "target_index": 2,
+          "gloss": "all workers of iniquity",
+          "gloss_highlight": "iniquity",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H214",
+      "citation_form": "אוֹצָר",
+      "transliteration": "'otsar",
+      "full_gloss": "storehouse, treasury",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Josh.6.19",
+          "surface_form": "אוֹצַר",
+          "transliteration": "'otsar",
+          "word_id": "065Jx",
+          "phrase_hebrew": "אוֹצַר יְהוָה",
+          "phrase_transliteration": "'otsar yehwah",
+          "target_index": 0,
+          "gloss": "the treasury of the LORD",
+          "gloss_highlight": "treasury",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H226",
+      "citation_form": "אוֹת",
+      "transliteration": "'ot",
+      "full_gloss": "sign, signal",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.1.14",
+          "surface_form": "לְאֹתֹת",
+          "transliteration": "le'otot",
+          "word_id": "01rTK",
+          "phrase_hebrew": "לְאֹתֹת",
+          "phrase_transliteration": "le'otot",
+          "target_index": 0,
+          "gloss": "for signs",
+          "gloss_highlight": "signs",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H7794",
+      "citation_form": "שׁוֹר",
+      "transliteration": "shor",
+      "full_gloss": "bull, ox",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.32.6",
+          "surface_form": "שׁוֹר",
+          "transliteration": "shor",
+          "word_id": "01fo7",
+          "phrase_hebrew": "לִי שׁוֹר",
+          "phrase_transliteration": "li shor",
+          "target_index": 1,
+          "gloss": "I have oxen",
+          "gloss_highlight": "oxen",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H4931",
+      "citation_form": "מִשְׁמֶרֶת",
+      "transliteration": "mishmeret",
+      "full_gloss": "watch, charge, duty, obligation",
+      "sense_count": 4,
+      "examples": [
+        {
+          "ref": "Gen.26.5",
+          "surface_form": "מִשְׁמַרְתִּי",
+          "transliteration": "mishmarti",
+          "word_id": "01W2r",
+          "phrase_hebrew": "מִשְׁמַרְתִּי",
+          "phrase_transliteration": "mishmarti",
+          "target_index": 0,
+          "gloss": "my charge",
+          "gloss_highlight": "charge",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H5061",
+      "citation_form": "נֶגַע",
+      "transliteration": "nega`",
+      "full_gloss": "plague, mark, spot (esp. skin disease)",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.12.17",
+          "surface_form": "נְגָעִים",
+          "transliteration": "nega`im",
+          "word_id": "01avv",
+          "phrase_hebrew": "נְגָעִים גְּדֹלִים",
+          "phrase_transliteration": "nega`im gedolim",
+          "target_index": 0,
+          "gloss": "great plagues",
+          "gloss_highlight": "plagues",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H6697",
+      "citation_form": "צוּר",
+      "transliteration": "tsur",
+      "full_gloss": "rock, cliff; refuge",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Ps.18.32",
+          "surface_form": "צוּר",
+          "transliteration": "tsur",
+          "word_id": "19wbu",
+          "phrase_hebrew": "וּמִי צוּר",
+          "phrase_transliteration": "umi tsur",
+          "target_index": 1,
+          "gloss": "and who is a rock",
+          "gloss_highlight": "rock",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H1486",
+      "citation_form": "גּוֹרָל",
+      "transliteration": "goral",
+      "full_gloss": "lot (cast for decision); portion, destiny",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Josh.15.1",
+          "surface_form": "הַגּוֹרָל",
+          "transliteration": "hagoral",
+          "word_id": "06aG2",
+          "phrase_hebrew": "וַיְהִי הַגּוֹרָל",
+          "phrase_transliteration": "wayhi hagoral",
+          "target_index": 1,
+          "gloss": "the lot was",
+          "gloss_highlight": "lot",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H3444",
+      "citation_form": "יְשׁוּעָה",
+      "transliteration": "yeshu`ah",
+      "full_gloss": "salvation, deliverance, victory",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.49.18",
+          "surface_form": "לִֽישׁוּעָתְךָ",
+          "transliteration": "lishu`atkha",
+          "word_id": "01Jpo",
+          "phrase_hebrew": "לִֽישׁוּעָתְךָ קִוִּיתִי",
+          "phrase_transliteration": "lishu`atkha qiwiti",
+          "target_index": 0,
+          "gloss": "for your salvation I wait",
+          "gloss_highlight": "salvation",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H8605",
+      "citation_form": "תְּפִלָּה",
+      "transliteration": "tefilah",
+      "full_gloss": "prayer",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Ps.4.2",
+          "surface_form": "תְּפִלָּתִֽי",
+          "transliteration": "tefilati",
+          "word_id": "19Qnr",
+          "phrase_hebrew": "תְּפִלָּתִֽי",
+          "phrase_transliteration": "tefilati",
+          "target_index": 0,
+          "gloss": "my prayer",
+          "gloss_highlight": "prayer",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H1270",
+      "citation_form": "בַּרְזֶל",
+      "transliteration": "barzel",
+      "full_gloss": "iron",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.4.22",
+          "surface_form": "וּבַרְזֶל",
+          "transliteration": "uvarzel",
+          "word_id": "01sd2",
+          "phrase_hebrew": "וּבַרְזֶל",
+          "phrase_transliteration": "uvarzel",
+          "target_index": 0,
+          "gloss": "and iron",
+          "gloss_highlight": "iron",
           "gloss_note": null
         }
       ]

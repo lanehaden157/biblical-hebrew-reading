@@ -615,6 +615,30 @@ CURATED = {
     "H3092": [("1Kgs", "115n2", "115n2", "11WG2", "Jehoshaphat son of Paruah", "Jehoshaphat", None)],
     "H1167": [("Gen", "017h8", "017h8", "01EAv", "allies [in covenant] with Abram", "allies", "lit. \"masters/possessors of a covenant\" -- ba`al's core sense is master/owner; here an idiom for treaty allies")],
     "H1035": [("Gen", "01dR3", "01gt7", "01pmS", "that is Bethlehem", "Bethlehem", None)],
+
+    # Batch 24 (2026-08-30): next 20 nouns. 10 have no Genesis occurrence,
+    # sourced from Leviticus, 2 Kings, Judges, 1 Kings, 1 Samuel, Psalms,
+    # and Joshua.
+    "H3778": [("Gen", "01ZdC", "01znQ", "01ZdC", "in Ur of the Chaldeans", "Chaldeans", None)],
+    "H6311": [("Gen", "01V3V", "01EZv", "01V3V", "who else do you have here", "here", None)],
+    "H7133": [("Lev", "03KZG", "03KZG", "03TZE", "an offering to the LORD", "offering", None)],
+    "H3064": [("2Kgs", "12Ash", "12pd3", "12Ash", "the Jews", "Jews", None)],
+    "H738": [("Gen", "01JUs", "01Tum", "01VCf", "Judah is a lion's cub", "lion", None)],
+    "H1168": [("Judg", "07s3h", "07x5W", "07s3h", "they served Baal", "Baal", None)],
+    "H1964": [("1Kgs", "11Khz", "11Khz", "11A9P", "the hall of the house", "hall", None)],
+    "H2822": [("Gen", "01C5U", "01C5U", "01C5U", "and darkness", "darkness", None)],
+    "H3083": [("1Sam", "09Z5P", "091f5", "09Z5P", "Jonathan said", "Jonathan", None)],
+    "H205": [("Ps", "19fcv", "1989r", "19fcv", "all workers of iniquity", "iniquity", None)],
+    "H214": [("Josh", "065Jx", "065Jx", "06K8B", "the treasury of the LORD", "treasury", None)],
+    "H226": [("Gen", "01rTK", "01rTK", "01rTK", "for signs", "signs", None)],
+    "H7794": [("Gen", "01fo7", "01h45", "01fo7", "I have oxen", "oxen", None)],
+    "H4931": [("Gen", "01W2r", "01W2r", "01W2r", "my charge", "charge", None)],
+    "H5061": [("Gen", "01avv", "01avv", "01bKm", "great plagues", "plagues", None)],
+    "H6697": [("Ps", "19wbu", "19WRG", "19wbu", "and who is a rock", "rock", None)],
+    "H1486": [("Josh", "06aG2", "06jPW", "06aG2", "the lot was", "lot", None)],
+    "H3444": [("Gen", "01Jpo", "01Jpo", "019o5", "for your salvation I wait", "salvation", None)],
+    "H8605": [("Ps", "19Qnr", "19Qnr", "19Qnr", "my prayer", "prayer", None)],
+    "H1270": [("Gen", "01sd2", "01sd2", "01sd2", "and iron", "iron", None)],
 }
 
 # Lemmas Lane said to file away rather than force a single example onto --
