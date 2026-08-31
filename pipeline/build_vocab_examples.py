@@ -176,6 +176,30 @@ CURATED = {
     "H6912": [("Ruth", "08Qnr", "08xCL", "08Qnr", "there I will be buried", "buried", None)],
     "H7604": [("Ruth", "083TL", "083TL", "08LeN", "she was left [with her two sons]", "was left", None)],
     "H7931": [("Gen", "01Xv2", "01Xv2", "01qDj", "let him dwell in the tents of Shem", "dwell", None)],
+
+    # Batch 6 (2026-08-30): next 20 verbs. lakhad/batakh/qatar/nava' have no
+    # Genesis/Jonah/Ruth occurrence, sourced from Joshua/Psalms/Leviticus/
+    # Jeremiah instead.
+    "H6908": [("Gen", "01Kg2", "01Kg2", "01Kg2", "he gathered", "gathered", None)],
+    "H5066": [("Ruth", "08BFZ", "08BFZ", "08shy", "come here", "come", "lit. \"approach/draw near\" -- nagash's core sense; \"goshi halom\" is an idiom, \"draw near here\"")],
+    "H7993": [("Gen", "01meh", "01meh", "01jYS", "she put the child [under a bush]", "put", "lit. \"threw/cast\" -- shalakh's core sense; here of Hagar setting Ishmael down, not violent throwing (distinct root from H7971 \"send\")")],
+    "H2803": [("Gen", "01awo", "01awo", "01FpW", "he credited it to him", "credited", "of Abram's faith counted as righteousness (Gen 15:6)")],
+    "H3920": [("Josh", "06CXn", "06CXn", "06z2s", "they captured the city", "captured", None)],
+    "H982": [("Ps", "19KGj", "19KGj", "198xz", "let them trust in you", "trust", None)],
+    "H6999": [("Lev", "03Qsh", "03Qsh", "03zTj", "the priest burned it [on the altar]", "burned", "Hiphil of qatar -- to turn into smoke/burn as an offering, not ordinary burning")],
+    "H8210": [("Gen", "01cw6", "01BDF", "01cw6", "his blood shall be shed", "shed", None)],
+    "H8313": [("Gen", "01D4i", "01D4i", "01qRk", "let us burn [them] thoroughly", "burn", "of firing bricks (Tower of Babel), not a punishment")],
+    "H1058": [("Ruth", "08TXw", "08TXw", "08TXw", "they wept", "wept", None)],
+    "H1431": [("Gen", "0156w", "0156w", "01h2d", "I will make your name great", "great", None)],
+    "H3513": [("Gen", "01Pf6", "01Zh8", "01Pf6", "Abram was very wealthy", "wealthy", "lit. \"heavy\" -- kavad's core sense; here idiomatically of great material wealth")],
+    "H7999": [("Ruth", "08FyK", "08FyK", "08jaD", "may the LORD repay your deeds", "repay", None)],
+    "H5012": [("Jer", "24prm", "24oG9", "24prm", "the prophets prophesied", "prophesied", None)],
+    "H3034": [("Gen", "01hti", "01nGF", "01KTs", "this time I will praise the LORD", "praise", None)],
+    "H954": [("Gen", "01rio", "01fE2", "01rio", "they were not ashamed", "ashamed", None)],
+    "H3190": [("Jonah", "32AF1", "32AF1", "32zCS", "is it right for you to be angry", "right", "lit. \"is it good\" -- yatav's core sense; the LORD questioning Jonah's anger")],
+    "H3847": [("Jonah", "32e3z", "32e3z", "322c6", "they put on sackcloth", "put on", None)],
+    "H5162": [("Gen", "01jsC", "01jsC", "01VLV", "the LORD regretted [making humanity]", "regretted", None)],
+    "H539": [("Jonah", "32eN1", "32eN1", "325QX", "the people of Nineveh believed God", "believed", None)],
 }
 
 # Lemmas Lane said to file away rather than force a single example onto --

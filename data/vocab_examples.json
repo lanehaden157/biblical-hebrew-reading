@@ -2,9 +2,9 @@
   "metadata": {
     "source": "build_vocab_examples.py",
     "target_lemma_count": 544,
-    "curated_count": 100,
+    "curated_count": 120,
     "skipped": [],
-    "pending_count": 444
+    "pending_count": 424
   },
   "entries": [
     {
@@ -2103,6 +2103,426 @@
           "target_index": 0,
           "gloss": "let him dwell in the tents of Shem",
           "gloss_highlight": "dwell",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H6908",
+      "citation_form": "קָבַץ",
+      "transliteration": "qavats",
+      "full_gloss": "gather",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.41.48",
+          "surface_form": "וַיִּקְבֹּץ",
+          "transliteration": "wayiqbots",
+          "word_id": "01Kg2",
+          "phrase_hebrew": "וַיִּקְבֹּץ",
+          "phrase_transliteration": "wayiqbots",
+          "target_index": 0,
+          "gloss": "he gathered",
+          "gloss_highlight": "gathered",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H5066",
+      "citation_form": "נָגַשׁ",
+      "transliteration": "nagash",
+      "full_gloss": "approach, draw near",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Ruth.2.14",
+          "surface_form": "גֹּשִֽׁי",
+          "transliteration": "goshi",
+          "word_id": "08BFZ",
+          "phrase_hebrew": "גֹּשִֽׁי הֲלֹם",
+          "phrase_transliteration": "goshi halom",
+          "target_index": 0,
+          "gloss": "come here",
+          "gloss_highlight": "come",
+          "gloss_note": "lit. \"approach/draw near\" -- nagash's core sense; \"goshi halom\" is an idiom, \"draw near here\""
+        }
+      ]
+    },
+    {
+      "lemma_id": "H7993",
+      "citation_form": "שָׁלַךְ",
+      "transliteration": "shalakh",
+      "full_gloss": "throw, cast",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.21.15",
+          "surface_form": "וַתַּשְׁלֵךְ",
+          "transliteration": "watashlekh",
+          "word_id": "01meh",
+          "phrase_hebrew": "וַתַּשְׁלֵךְ אֶת הַיֶּלֶד",
+          "phrase_transliteration": "watashlekh 'et hayeled",
+          "target_index": 0,
+          "gloss": "she put the child [under a bush]",
+          "gloss_highlight": "put",
+          "gloss_note": "lit. \"threw/cast\" -- shalakh's core sense; here of Hagar setting Ishmael down, not violent throwing (distinct root from H7971 \"send\")"
+        }
+      ]
+    },
+    {
+      "lemma_id": "H2803",
+      "citation_form": "חָשַׁב",
+      "transliteration": "khashav",
+      "full_gloss": "think, consider, plan, reckon",
+      "sense_count": 4,
+      "examples": [
+        {
+          "ref": "Gen.15.6",
+          "surface_form": "וַיַּחְשְׁבֶהָ",
+          "transliteration": "wayakhsheveha",
+          "word_id": "01awo",
+          "phrase_hebrew": "וַיַּחְשְׁבֶהָ לּוֹ",
+          "phrase_transliteration": "wayakhsheveha lo",
+          "target_index": 0,
+          "gloss": "he credited it to him",
+          "gloss_highlight": "credited",
+          "gloss_note": "of Abram's faith counted as righteousness (Gen 15:6)"
+        }
+      ]
+    },
+    {
+      "lemma_id": "H3920",
+      "citation_form": "לָכַד",
+      "transliteration": "lakhad",
+      "full_gloss": "capture, seize",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Josh.6.20",
+          "surface_form": "וַֽיִּלְכְּדוּ",
+          "transliteration": "wayilkedu",
+          "word_id": "06CXn",
+          "phrase_hebrew": "וַֽיִּלְכְּדוּ אֶת הָעִֽיר",
+          "phrase_transliteration": "wayilkedu 'et ha`ir",
+          "target_index": 0,
+          "gloss": "they captured the city",
+          "gloss_highlight": "captured",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H982",
+      "citation_form": "בָּטַח",
+      "transliteration": "batakh",
+      "full_gloss": "trust",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Ps.9.11",
+          "surface_form": "וְיִבְטְחוּ",
+          "transliteration": "weyivtekhu",
+          "word_id": "19KGj",
+          "phrase_hebrew": "וְיִבְטְחוּ בְךָ",
+          "phrase_transliteration": "weyivtekhu vekha",
+          "target_index": 0,
+          "gloss": "let them trust in you",
+          "gloss_highlight": "trust",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H6999",
+      "citation_form": "קָטַר",
+      "transliteration": "qatar",
+      "full_gloss": "burn incense, make smoke",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Lev.1.9",
+          "surface_form": "וְהִקְטִיר",
+          "transliteration": "wehiqtir",
+          "word_id": "03Qsh",
+          "phrase_hebrew": "וְהִקְטִיר הַכֹּהֵן",
+          "phrase_transliteration": "wehiqtir hakohen",
+          "target_index": 0,
+          "gloss": "the priest burned it [on the altar]",
+          "gloss_highlight": "burned",
+          "gloss_note": "Hiphil of qatar -- to turn into smoke/burn as an offering, not ordinary burning"
+        }
+      ]
+    },
+    {
+      "lemma_id": "H8210",
+      "citation_form": "שָׁפַךְ",
+      "transliteration": "shafakh",
+      "full_gloss": "pour out",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.9.6",
+          "surface_form": "יִשָּׁפֵךְ",
+          "transliteration": "yishafekh",
+          "word_id": "01cw6",
+          "phrase_hebrew": "דָּמוֹ יִשָּׁפֵךְ",
+          "phrase_transliteration": "damo yishafekh",
+          "target_index": 1,
+          "gloss": "his blood shall be shed",
+          "gloss_highlight": "shed",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H8313",
+      "citation_form": "שָׂרַף",
+      "transliteration": "saraf",
+      "full_gloss": "burn",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.11.3",
+          "surface_form": "וְנִשְׂרְפָה",
+          "transliteration": "wenisrefah",
+          "word_id": "01D4i",
+          "phrase_hebrew": "וְנִשְׂרְפָה לִשְׂרֵפָה",
+          "phrase_transliteration": "wenisrefah lisrefah",
+          "target_index": 0,
+          "gloss": "let us burn [them] thoroughly",
+          "gloss_highlight": "burn",
+          "gloss_note": "of firing bricks (Tower of Babel), not a punishment"
+        }
+      ]
+    },
+    {
+      "lemma_id": "H1058",
+      "citation_form": "בָּכָה",
+      "transliteration": "bakhah",
+      "full_gloss": "weep, cry",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Ruth.1.9",
+          "surface_form": "וַתִּבְכֶּֽינָה",
+          "transliteration": "wativkeynah",
+          "word_id": "08TXw",
+          "phrase_hebrew": "וַתִּבְכֶּֽינָה",
+          "phrase_transliteration": "wativkeynah",
+          "target_index": 0,
+          "gloss": "they wept",
+          "gloss_highlight": "wept",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H1431",
+      "citation_form": "גָּדַל",
+      "transliteration": "gadal",
+      "full_gloss": "grow, become great",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.12.2",
+          "surface_form": "וַאֲגַדְּלָה",
+          "transliteration": "wa'agadlah",
+          "word_id": "0156w",
+          "phrase_hebrew": "וַאֲגַדְּלָה שְׁמֶךָ",
+          "phrase_transliteration": "wa'agadlah shemekha",
+          "target_index": 0,
+          "gloss": "I will make your name great",
+          "gloss_highlight": "great",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H3513",
+      "citation_form": "כָּבַד",
+      "transliteration": "kavad",
+      "full_gloss": "be heavy, be honored; make heavy, honor",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.13.2",
+          "surface_form": "כָּבֵד",
+          "transliteration": "kaved",
+          "word_id": "01Pf6",
+          "phrase_hebrew": "וְאַבְרָם כָּבֵד",
+          "phrase_transliteration": "we'avram kaved",
+          "target_index": 1,
+          "gloss": "Abram was very wealthy",
+          "gloss_highlight": "wealthy",
+          "gloss_note": "lit. \"heavy\" -- kavad's core sense; here idiomatically of great material wealth"
+        }
+      ]
+    },
+    {
+      "lemma_id": "H7999",
+      "citation_form": "שָׁלַם",
+      "transliteration": "shalam",
+      "full_gloss": "be complete, be at peace; repay",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Ruth.2.12",
+          "surface_form": "יְשַׁלֵּם",
+          "transliteration": "yeshalem",
+          "word_id": "08FyK",
+          "phrase_hebrew": "יְשַׁלֵּם יְהוָה פָּעֳלֵךְ",
+          "phrase_transliteration": "yeshalem yehwah pa`olekh",
+          "target_index": 0,
+          "gloss": "may the LORD repay your deeds",
+          "gloss_highlight": "repay",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H5012",
+      "citation_form": "נָבָא",
+      "transliteration": "nava'",
+      "full_gloss": "prophesy",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Jer.5.31",
+          "surface_form": "נִבְּאוּ",
+          "transliteration": "nib'u",
+          "word_id": "24prm",
+          "phrase_hebrew": "הַנְּבִיאִים נִבְּאוּ",
+          "phrase_transliteration": "hanvi'im nib'u",
+          "target_index": 1,
+          "gloss": "the prophets prophesied",
+          "gloss_highlight": "prophesied",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H3034",
+      "citation_form": "יָדָה",
+      "transliteration": "yadah",
+      "full_gloss": "give thanks, praise; confess",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.29.35",
+          "surface_form": "אוֹדֶה",
+          "transliteration": "'odeh",
+          "word_id": "01hti",
+          "phrase_hebrew": "הַפַּעַם אוֹדֶה אֶת יְהוָה",
+          "phrase_transliteration": "hapa`am 'odeh 'et yehwah",
+          "target_index": 1,
+          "gloss": "this time I will praise the LORD",
+          "gloss_highlight": "praise",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H954",
+      "citation_form": "בּוּשׁ",
+      "transliteration": "bush",
+      "full_gloss": "be ashamed",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.2.25",
+          "surface_form": "יִתְבֹּשָֽׁשׁוּ",
+          "transliteration": "yitboshashu",
+          "word_id": "01rio",
+          "phrase_hebrew": "וְלֹא יִתְבֹּשָֽׁשׁוּ",
+          "phrase_transliteration": "welo' yitboshashu",
+          "target_index": 1,
+          "gloss": "they were not ashamed",
+          "gloss_highlight": "ashamed",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H3190",
+      "citation_form": "יָטַב",
+      "transliteration": "yatav",
+      "full_gloss": "be good, go well; do well, make good",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Jonah.4.4",
+          "surface_form": "הַהֵיטֵב",
+          "transliteration": "haheytev",
+          "word_id": "32AF1",
+          "phrase_hebrew": "הַהֵיטֵב חָרָה לָֽךְ",
+          "phrase_transliteration": "haheytev kharah lakh",
+          "target_index": 0,
+          "gloss": "is it right for you to be angry",
+          "gloss_highlight": "right",
+          "gloss_note": "lit. \"is it good\" -- yatav's core sense; the LORD questioning Jonah's anger"
+        }
+      ]
+    },
+    {
+      "lemma_id": "H3847",
+      "citation_form": "לָבַשׁ",
+      "transliteration": "lavash",
+      "full_gloss": "wear, put on, clothe",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Jonah.3.5",
+          "surface_form": "וַיִּלְבְּשׁוּ",
+          "transliteration": "wayilbeshu",
+          "word_id": "32e3z",
+          "phrase_hebrew": "וַיִּלְבְּשׁוּ שַׂקִּים",
+          "phrase_transliteration": "wayilbeshu saqim",
+          "target_index": 0,
+          "gloss": "they put on sackcloth",
+          "gloss_highlight": "put on",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H5162",
+      "citation_form": "נָחַם",
+      "transliteration": "nakham",
+      "full_gloss": "comfort, console; be sorry, regret",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.6.6",
+          "surface_form": "וַיִּנָּחֶם",
+          "transliteration": "wayinakhem",
+          "word_id": "01jsC",
+          "phrase_hebrew": "וַיִּנָּחֶם יְהוָה",
+          "phrase_transliteration": "wayinakhem yehwah",
+          "target_index": 0,
+          "gloss": "the LORD regretted [making humanity]",
+          "gloss_highlight": "regretted",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H539",
+      "citation_form": "אָמַן",
+      "transliteration": "'aman",
+      "full_gloss": "be firm, be faithful, trust, believe",
+      "sense_count": 4,
+      "examples": [
+        {
+          "ref": "Jonah.3.5",
+          "surface_form": "וַֽיַּאֲמִינוּ",
+          "transliteration": "waya'aminu",
+          "word_id": "32eN1",
+          "phrase_hebrew": "וַֽיַּאֲמִינוּ אַנְשֵׁי נִֽינְוֵה בֵּֽאלֹהִים",
+          "phrase_transliteration": "waya'aminu 'anshey ninweh be'lohim",
+          "target_index": 0,
+          "gloss": "the people of Nineveh believed God",
+          "gloss_highlight": "believed",
           "gloss_note": null
         }
       ]
