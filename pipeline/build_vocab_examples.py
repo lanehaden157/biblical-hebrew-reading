@@ -452,6 +452,29 @@ CURATED = {
     "H4150": [("Gen", "01SHw", "01SHw", "01SHw", "and for appointed times", "appointed times", None)],
     "H5159": [("Gen", "01CgJ", "01Q7w", "01CgJ", "portion or inheritance", "inheritance", None)],
     "H8451": [("Gen", "01tND", "01tND", "01tND", "and my instructions", "instructions", None)],
+
+    # Batch 17 (2026-08-30): next 20 nouns. yehoshua` has no Genesis
+    # occurrence, sourced from Joshua.
+    "H517": [("Gen", "01fiZ", "01E2x", "01fiZ", "and his mother", "mother", None)],
+    "H3091": [("Josh", "06aPd", "06Qzf", "06C5U", "the LORD spoke to Joshua son of Nun", "Joshua", None)],
+    "H899": [("Gen", "014cr", "014cr", "014cr", "and garments", "garments", None)],
+    "H4264": [("Gen", "01ks1", "01ks1", "01HPH", "the camp of God", "camp", None)],
+    "H1242": [("Gen", "01kA7", "01uLf", "01kA7", "there was morning", "morning", None)],
+    "H3130": [("Gen", "01jSR", "01Pjw", "01jSR", "she called his name Joseph", "Joseph", None)],
+    "H4397": [("Gen", "01yqG", "01yqG", "016ev", "the angel of the LORD", "angel", None)],
+    "H4503": [("Gen", "0128H", "0128H", "01cog", "an offering to the LORD", "offering", None)],
+    "H727": [("Gen", "01dCe", "01xuy", "01dCe", "he was placed in a coffin", "coffin", "of Joseph's coffin in Egypt -- a general word for chest/box, also used for the Ark of the Covenant")],
+    "H905": [("Gen", "01vL9", "01vL9", "01vL9", "alone", "alone", None)],
+    "H3519": [("Gen", "014m8", "01YZe", "014m8", "all this wealth", "wealth", "kavod's core sense is glory/honor; here idiomatically of Jacob's material prosperity")],
+    "H352": [("Gen", "01vxt", "01vxt", "0126U", "and a three-year-old ram", "ram", None)],
+    "H3709": [("Gen", "01SdW", "01SdW", "019jg", "for the sole of her foot", "sole", None)],
+    "H8081": [("Gen", "01ycr", "01B7Q", "01ycr", "he poured oil", "oil", None)],
+    "H2691": [("Gen", "01cGb", "01cGb", "01cGb", "in their settlements", "settlements", None)],
+    "H7626": [("Gen", "01ZcT", "01Gzy", "01ZcT", "the scepter shall not depart", "scepter", "shevet's core sense is tribe/rod; here idiomatically \"scepter\", a rod of authority (Jacob's blessing on Judah, Gen 49:10)")],
+    "H929": [("Gen", "01ou4", "01xxn", "01ou4", "livestock according to their kinds", "livestock", None)],
+    "H7453": [("Gen", "01pyb", "01DaL", "01pyb", "each to his neighbor", "neighbor", None)],
+    "H241": [("Gen", "01a92", "01a92", "01a92", "in their ears", "ears", None)],
+    "H5612": [("Gen", "018jj", "015Xt", "018jj", "this is the book", "book", None)],
 }
 
 # Lemmas Lane said to file away rather than force a single example onto --

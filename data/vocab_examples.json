@@ -2,9 +2,9 @@
   "metadata": {
     "source": "build_vocab_examples.py",
     "target_lemma_count": 544,
-    "curated_count": 343,
+    "curated_count": 363,
     "skipped": [],
-    "pending_count": 201
+    "pending_count": 181
   },
   "entries": [
     {
@@ -7206,6 +7206,426 @@
           "target_index": 0,
           "gloss": "and my instructions",
           "gloss_highlight": "instructions",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H517",
+      "citation_form": "אֵם",
+      "transliteration": "'em",
+      "full_gloss": "mother",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.2.24",
+          "surface_form": "אִמּוֹ",
+          "transliteration": "'imo",
+          "word_id": "01fiZ",
+          "phrase_hebrew": "אֶת אָבִיו וְאֶת אִמּוֹ",
+          "phrase_transliteration": "'et 'aviw we'et 'imo",
+          "target_index": 3,
+          "gloss": "and his mother",
+          "gloss_highlight": "mother",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H3091",
+      "citation_form": "יְהוֹשׁוּעַ",
+      "transliteration": "yehoshua`",
+      "full_gloss": "Joshua",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Josh.1.1",
+          "surface_form": "יְהוֹשֻׁעַ",
+          "transliteration": "yehoshua`",
+          "word_id": "06aPd",
+          "phrase_hebrew": "אֶל יְהוֹשֻׁעַ בִּן נוּן",
+          "phrase_transliteration": "'el yehoshua` bin nun",
+          "target_index": 1,
+          "gloss": "the LORD spoke to Joshua son of Nun",
+          "gloss_highlight": "Joshua",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H899",
+      "citation_form": "בֶּגֶד",
+      "transliteration": "beged",
+      "full_gloss": "garment, clothing",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.24.53",
+          "surface_form": "וּבְגָדִים",
+          "transliteration": "uvgadim",
+          "word_id": "014cr",
+          "phrase_hebrew": "וּבְגָדִים",
+          "phrase_transliteration": "uvgadim",
+          "target_index": 0,
+          "gloss": "and garments",
+          "gloss_highlight": "garments",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H4264",
+      "citation_form": "מַחֲנֶה",
+      "transliteration": "makhaneh",
+      "full_gloss": "camp, army",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.32.3",
+          "surface_form": "מַחֲנֵה",
+          "transliteration": "makhaneh",
+          "word_id": "01ks1",
+          "phrase_hebrew": "מַחֲנֵה אֱלֹהִים",
+          "phrase_transliteration": "makhaneh 'elohim",
+          "target_index": 0,
+          "gloss": "the camp of God",
+          "gloss_highlight": "camp",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H1242",
+      "citation_form": "בֹּקֶר",
+      "transliteration": "boqer",
+      "full_gloss": "morning",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.1.5",
+          "surface_form": "בֹקֶר",
+          "transliteration": "voqer",
+          "word_id": "01kA7",
+          "phrase_hebrew": "וַֽיְהִי בֹקֶר",
+          "phrase_transliteration": "wayhi voqer",
+          "target_index": 1,
+          "gloss": "there was morning",
+          "gloss_highlight": "morning",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H3130",
+      "citation_form": "יוֹסֵף",
+      "transliteration": "yosef",
+      "full_gloss": "Joseph",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.30.24",
+          "surface_form": "יוֹסֵף",
+          "transliteration": "yosef",
+          "word_id": "01jSR",
+          "phrase_hebrew": "שְׁמוֹ יוֹסֵף",
+          "phrase_transliteration": "shemo yosef",
+          "target_index": 1,
+          "gloss": "she called his name Joseph",
+          "gloss_highlight": "Joseph",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H4397",
+      "citation_form": "מַלְאָךְ",
+      "transliteration": "mal'akh",
+      "full_gloss": "messenger, angel",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.16.7",
+          "surface_form": "מַלְאַךְ",
+          "transliteration": "mal'akh",
+          "word_id": "01yqG",
+          "phrase_hebrew": "מַלְאַךְ יְהוָה",
+          "phrase_transliteration": "mal'akh yehwah",
+          "target_index": 0,
+          "gloss": "the angel of the LORD",
+          "gloss_highlight": "angel",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H4503",
+      "citation_form": "מִנְחָה",
+      "transliteration": "minkhah",
+      "full_gloss": "gift, offering, tribute",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.4.3",
+          "surface_form": "מִנְחָה",
+          "transliteration": "minkhah",
+          "word_id": "0128H",
+          "phrase_hebrew": "מִנְחָה לַֽיהוָֽה",
+          "phrase_transliteration": "minkhah layhwah",
+          "target_index": 0,
+          "gloss": "an offering to the LORD",
+          "gloss_highlight": "offering",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H727",
+      "citation_form": "אָרוֹן",
+      "transliteration": "'aron",
+      "full_gloss": "ark, chest",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.50.26",
+          "surface_form": "בָּאָרוֹן",
+          "transliteration": "ba'aron",
+          "word_id": "01dCe",
+          "phrase_hebrew": "וַיִּישֶׂם בָּאָרוֹן",
+          "phrase_transliteration": "wayisem ba'aron",
+          "target_index": 1,
+          "gloss": "he was placed in a coffin",
+          "gloss_highlight": "coffin",
+          "gloss_note": "of Joseph's coffin in Egypt -- a general word for chest/box, also used for the Ark of the Covenant"
+        }
+      ]
+    },
+    {
+      "lemma_id": "H905",
+      "citation_form": "בַּד",
+      "transliteration": "bad",
+      "full_gloss": "part, portion; bar, pole (for carrying); alone, apart",
+      "sense_count": 4,
+      "examples": [
+        {
+          "ref": "Gen.2.18",
+          "surface_form": "לְבַדּוֹ",
+          "transliteration": "levado",
+          "word_id": "01vL9",
+          "phrase_hebrew": "לְבַדּוֹ",
+          "phrase_transliteration": "levado",
+          "target_index": 0,
+          "gloss": "alone",
+          "gloss_highlight": "alone",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H3519",
+      "citation_form": "כָּבוֹד",
+      "transliteration": "kavod",
+      "full_gloss": "glory, honor",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.31.1",
+          "surface_form": "הַכָּבֹד",
+          "transliteration": "hakavod",
+          "word_id": "014m8",
+          "phrase_hebrew": "כָּל הַכָּבֹד",
+          "phrase_transliteration": "kal hakavod",
+          "target_index": 1,
+          "gloss": "all this wealth",
+          "gloss_highlight": "wealth",
+          "gloss_note": "kavod's core sense is glory/honor; here idiomatically of Jacob's material prosperity"
+        }
+      ]
+    },
+    {
+      "lemma_id": "H352",
+      "citation_form": "אַיִל",
+      "transliteration": "'ayil",
+      "full_gloss": "ram; pillar, pilaster; leader, chief",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.15.9",
+          "surface_form": "וְאַיִל",
+          "transliteration": "we'ayil",
+          "word_id": "01vxt",
+          "phrase_hebrew": "וְאַיִל מְשֻׁלָּשׁ",
+          "phrase_transliteration": "we'ayil meshulash",
+          "target_index": 0,
+          "gloss": "and a three-year-old ram",
+          "gloss_highlight": "ram",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H3709",
+      "citation_form": "כַּף",
+      "transliteration": "kaf",
+      "full_gloss": "palm (of hand), sole (of foot)",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.8.9",
+          "surface_form": "לְכַף",
+          "transliteration": "lekhaf",
+          "word_id": "01SdW",
+          "phrase_hebrew": "לְכַף רַגְלָהּ",
+          "phrase_transliteration": "lekhaf raglah",
+          "target_index": 0,
+          "gloss": "for the sole of her foot",
+          "gloss_highlight": "sole",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H8081",
+      "citation_form": "שֶׁמֶן",
+      "transliteration": "shemen",
+      "full_gloss": "oil, fat",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.28.18",
+          "surface_form": "שֶׁמֶן",
+          "transliteration": "shemen",
+          "word_id": "01ycr",
+          "phrase_hebrew": "וַיִּצֹק שֶׁמֶן",
+          "phrase_transliteration": "wayitsoq shemen",
+          "target_index": 1,
+          "gloss": "he poured oil",
+          "gloss_highlight": "oil",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H2691",
+      "citation_form": "חָצֵר",
+      "transliteration": "khatser",
+      "full_gloss": "courtyard, settlement, village",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.25.16",
+          "surface_form": "בְּחַצְרֵיהֶם",
+          "transliteration": "bekhatsreyhem",
+          "word_id": "01cGb",
+          "phrase_hebrew": "בְּחַצְרֵיהֶם",
+          "phrase_transliteration": "bekhatsreyhem",
+          "target_index": 0,
+          "gloss": "in their settlements",
+          "gloss_highlight": "settlements",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H7626",
+      "citation_form": "שֵׁבֶט",
+      "transliteration": "shevet",
+      "full_gloss": "tribe, rod, staff",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.49.10",
+          "surface_form": "שֵׁבֶט",
+          "transliteration": "shevet",
+          "word_id": "01ZcT",
+          "phrase_hebrew": "יָסוּר שֵׁבֶט",
+          "phrase_transliteration": "yasur shevet",
+          "target_index": 1,
+          "gloss": "the scepter shall not depart",
+          "gloss_highlight": "scepter",
+          "gloss_note": "shevet's core sense is tribe/rod; here idiomatically \"scepter\", a rod of authority (Jacob's blessing on Judah, Gen 49:10)"
+        }
+      ]
+    },
+    {
+      "lemma_id": "H929",
+      "citation_form": "בְּהֵמָה",
+      "transliteration": "behemah",
+      "full_gloss": "animal, beast, cattle",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.1.24",
+          "surface_form": "בְּהֵמָה",
+          "transliteration": "behemah",
+          "word_id": "01ou4",
+          "phrase_hebrew": "לְמִינָהּ בְּהֵמָה",
+          "phrase_transliteration": "leminah behemah",
+          "target_index": 1,
+          "gloss": "livestock according to their kinds",
+          "gloss_highlight": "livestock",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H7453",
+      "citation_form": "רֵעַ",
+      "transliteration": "rea`",
+      "full_gloss": "friend, companion, neighbor",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.11.3",
+          "surface_form": "רֵעֵהוּ",
+          "transliteration": "re`ehu",
+          "word_id": "01pyb",
+          "phrase_hebrew": "אִישׁ אֶל רֵעֵהוּ",
+          "phrase_transliteration": "'ish 'el re`ehu",
+          "target_index": 2,
+          "gloss": "each to his neighbor",
+          "gloss_highlight": "neighbor",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H241",
+      "citation_form": "אֹזֶן",
+      "transliteration": "'ozen",
+      "full_gloss": "ear",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.20.8",
+          "surface_form": "בְּאָזְנֵיהֶם",
+          "transliteration": "be'azneyhem",
+          "word_id": "01a92",
+          "phrase_hebrew": "בְּאָזְנֵיהֶם",
+          "phrase_transliteration": "be'azneyhem",
+          "target_index": 0,
+          "gloss": "in their ears",
+          "gloss_highlight": "ears",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H5612",
+      "citation_form": "סֵפֶר",
+      "transliteration": "sefer",
+      "full_gloss": "book, scroll, document",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.5.1",
+          "surface_form": "סֵפֶר",
+          "transliteration": "sefer",
+          "word_id": "018jj",
+          "phrase_hebrew": "זֶה סֵפֶר",
+          "phrase_transliteration": "zeh sefer",
+          "target_index": 1,
+          "gloss": "this is the book",
+          "gloss_highlight": "book",
           "gloss_note": null
         }
       ]
