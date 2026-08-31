@@ -2,9 +2,9 @@
   "metadata": {
     "source": "build_vocab_examples.py",
     "target_lemma_count": 544,
-    "curated_count": 140,
+    "curated_count": 160,
     "skipped": [],
-    "pending_count": 404
+    "pending_count": 384
   },
   "entries": [
     {
@@ -2943,6 +2943,426 @@
           "target_index": 0,
           "gloss": "and spend the night [here]",
           "gloss_highlight": "spend the night",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H3925",
+      "citation_form": "לָמַד",
+      "transliteration": "lamad",
+      "full_gloss": "learn; teach",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Deut.4.5",
+          "surface_form": "לִמַּדְתִּי",
+          "transliteration": "limadti",
+          "word_id": "05eof",
+          "phrase_hebrew": "לִמַּדְתִּי אֶתְכֶם חֻקִּים",
+          "phrase_transliteration": "limadti 'etkhem khuqim",
+          "target_index": 0,
+          "gloss": "I have taught you statutes",
+          "gloss_highlight": "taught",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H3384",
+      "citation_form": "יָרָה",
+      "transliteration": "yarah",
+      "full_gloss": "throw, shoot; teach, instruct",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.46.28",
+          "surface_form": "לְהוֹרֹת",
+          "transliteration": "lehorot",
+          "word_id": "01Ykc",
+          "phrase_hebrew": "לְהוֹרֹת לְפָנָיו",
+          "phrase_transliteration": "lehorot lefanayw",
+          "target_index": 0,
+          "gloss": "to show the way ahead of him",
+          "gloss_highlight": "show",
+          "gloss_note": "Hiphil of yarah (\"teach/direct\"), lit. \"to point out/instruct\""
+        }
+      ]
+    },
+    {
+      "lemma_id": "H7069",
+      "citation_form": "קָנָה",
+      "transliteration": "qanah",
+      "full_gloss": "acquire, buy; create",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.4.1",
+          "surface_form": "קָנִיתִי",
+          "transliteration": "qaniti",
+          "word_id": "01jGt",
+          "phrase_hebrew": "קָנִיתִי אִישׁ",
+          "phrase_transliteration": "qaniti 'ish",
+          "target_index": 0,
+          "gloss": "I have acquired a man",
+          "gloss_highlight": "acquired",
+          "gloss_note": "Eve naming Cain (qayin), a wordplay on qanah"
+        }
+      ]
+    },
+    {
+      "lemma_id": "H7896",
+      "citation_form": "שִׁית",
+      "transliteration": "shit",
+      "full_gloss": "put, place, set",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.3.15",
+          "surface_form": "אָשִׁית",
+          "transliteration": "'ashit",
+          "word_id": "01EyU",
+          "phrase_hebrew": "וְאֵיבָה אָשִׁית",
+          "phrase_transliteration": "we'eyvah 'ashit",
+          "target_index": 1,
+          "gloss": "I will put enmity [between you]",
+          "gloss_highlight": "put",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H8074",
+      "citation_form": "שָׁמֵם",
+      "transliteration": "shamem",
+      "full_gloss": "be desolate, be appalled",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Lev.26.31",
+          "surface_form": "וַהֲשִׁמּוֹתִי",
+          "transliteration": "wahashimoti",
+          "word_id": "03Awo",
+          "phrase_hebrew": "וַהֲשִׁמּוֹתִי אֶת מִקְדְּשֵׁיכֶם",
+          "phrase_transliteration": "wahashimoti 'et miqdesheykhem",
+          "target_index": 0,
+          "gloss": "I will make your sanctuaries desolate",
+          "gloss_highlight": "desolate",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H6419",
+      "citation_form": "פָּלַל",
+      "transliteration": "palal",
+      "full_gloss": "pray, intercede",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Jonah.2.2",
+          "surface_form": "וַיִּתְפַּלֵּל",
+          "transliteration": "wayitpalel",
+          "word_id": "321jv",
+          "phrase_hebrew": "וַיִּתְפַּלֵּל יוֹנָה אֶל יְהוָה",
+          "phrase_transliteration": "wayitpalel yonah 'el yehwah",
+          "target_index": 0,
+          "gloss": "Jonah prayed to the LORD",
+          "gloss_highlight": "prayed",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H6031",
+      "citation_form": "עָנָה",
+      "transliteration": "`anah",
+      "full_gloss": "afflict, oppress, humble",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.16.6",
+          "surface_form": "וַתְּעַנֶּהָ",
+          "transliteration": "wat`aneha",
+          "word_id": "016Yk",
+          "phrase_hebrew": "וַתְּעַנֶּהָ שָׂרַי",
+          "phrase_transliteration": "wat`aneha saray",
+          "target_index": 0,
+          "gloss": "Sarai afflicted her",
+          "gloss_highlight": "afflicted",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H4910",
+      "citation_form": "מָשַׁל",
+      "transliteration": "mashal",
+      "full_gloss": "rule, have dominion",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.1.18",
+          "surface_form": "וְלִמְשֹׁל",
+          "transliteration": "welimshol",
+          "word_id": "01n9v",
+          "phrase_hebrew": "וְלִמְשֹׁל בַּיּוֹם",
+          "phrase_transliteration": "welimshol bayom",
+          "target_index": 0,
+          "gloss": "to rule the day",
+          "gloss_highlight": "rule",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H5641",
+      "citation_form": "סָתַר",
+      "transliteration": "satar",
+      "full_gloss": "hide, conceal",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.4.14",
+          "surface_form": "אֶסָּתֵר",
+          "transliteration": "'esater",
+          "word_id": "017Xe",
+          "phrase_hebrew": "וּמִפָּנֶיךָ אֶסָּתֵר",
+          "phrase_transliteration": "umipaneykha 'esater",
+          "target_index": 1,
+          "gloss": "from your face I will be hidden",
+          "gloss_highlight": "hidden",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H5826",
+      "citation_form": "עָזַר",
+      "transliteration": "`azar",
+      "full_gloss": "help",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.49.25",
+          "surface_form": "וְיַעְזְרֶךָּ",
+          "transliteration": "weya`zereka",
+          "word_id": "01dgN",
+          "phrase_hebrew": "וְיַעְזְרֶךָּ",
+          "phrase_transliteration": "weya`zereka",
+          "target_index": 0,
+          "gloss": "may he help you",
+          "gloss_highlight": "help",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H7043",
+      "citation_form": "קָלַל",
+      "transliteration": "qalal",
+      "full_gloss": "be light, be swift; curse",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.8.11",
+          "surface_form": "קַלּוּ",
+          "transliteration": "qalu",
+          "word_id": "01CUd",
+          "phrase_hebrew": "כִּי קַלּוּ הַמַּיִם",
+          "phrase_transliteration": "ki qalu hamayim",
+          "target_index": 1,
+          "gloss": "the waters had subsided",
+          "gloss_highlight": "subsided",
+          "gloss_note": "lit. \"were light/diminished\" -- qalal's core sense; here of floodwaters receding, distinct from its more common \"curse\" sense"
+        }
+      ]
+    },
+    {
+      "lemma_id": "H7819",
+      "citation_form": "שָׁחַט",
+      "transliteration": "shakhat",
+      "full_gloss": "slaughter",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.22.10",
+          "surface_form": "לִשְׁחֹט",
+          "transliteration": "lishkhot",
+          "word_id": "01rb5",
+          "phrase_hebrew": "לִשְׁחֹט אֶת בְּנֽוֹ",
+          "phrase_transliteration": "lishkhot 'et beno",
+          "target_index": 0,
+          "gloss": "to slaughter his son",
+          "gloss_highlight": "slaughter",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H4376",
+      "citation_form": "מָכַר",
+      "transliteration": "makhar",
+      "full_gloss": "sell",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.25.33",
+          "surface_form": "וַיִּמְכֹּר",
+          "transliteration": "wayimkor",
+          "word_id": "01ZMA",
+          "phrase_hebrew": "וַיִּמְכֹּר אֶת בְּכֹרָתוֹ",
+          "phrase_transliteration": "wayimkor 'et bekhorato",
+          "target_index": 0,
+          "gloss": "he sold his birthright",
+          "gloss_highlight": "sold",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H5782",
+      "citation_form": "עוּר",
+      "transliteration": "`ur",
+      "full_gloss": "wake, rouse, stir up",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Judg.5.12",
+          "surface_form": "עוּרִי",
+          "transliteration": "`uri",
+          "word_id": "07CVL",
+          "phrase_hebrew": "עוּרִי עוּרִי",
+          "phrase_transliteration": "`uri `uri",
+          "target_index": 0,
+          "gloss": "awake, awake",
+          "gloss_highlight": "awake",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H2603",
+      "citation_form": "חָנַן",
+      "transliteration": "khanan",
+      "full_gloss": "be gracious, show favor; implore favor",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.33.5",
+          "surface_form": "חָנַן",
+          "transliteration": "khanan",
+          "word_id": "01ASY",
+          "phrase_hebrew": "אֲשֶׁר חָנַן אֱלֹהִים",
+          "phrase_transliteration": "'asher khanan 'elohim",
+          "target_index": 1,
+          "gloss": "whom God has graciously given [your servant]",
+          "gloss_highlight": "graciously given",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H3289",
+      "citation_form": "יָעַץ",
+      "transliteration": "ya`ats",
+      "full_gloss": "advise, counsel",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "2Sam.16.23",
+          "surface_form": "יָעַץ",
+          "transliteration": "ya`ats",
+          "word_id": "10N8y",
+          "phrase_hebrew": "אֲשֶׁר יָעַץ",
+          "phrase_transliteration": "'asher ya`ats",
+          "target_index": 1,
+          "gloss": "which he advised",
+          "gloss_highlight": "advised",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H7392",
+      "citation_form": "רָכַב",
+      "transliteration": "rakhav",
+      "full_gloss": "ride",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.24.61",
+          "surface_form": "וַתִּרְכַּבְנָה",
+          "transliteration": "watirkavnah",
+          "word_id": "01AfW",
+          "phrase_hebrew": "וַתִּרְכַּבְנָה עַל הַגְּמַלִּים",
+          "phrase_transliteration": "watirkavnah `al hagmalim",
+          "target_index": 0,
+          "gloss": "they rode on the camels",
+          "gloss_highlight": "rode",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H3988",
+      "citation_form": "מָאַס",
+      "transliteration": "ma'as",
+      "full_gloss": "reject, despise, refuse",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "1Sam.8.7",
+          "surface_form": "מָאָסוּ",
+          "transliteration": "ma'asu",
+          "word_id": "09fVR",
+          "phrase_hebrew": "לֹא אֹֽתְךָ מָאָסוּ",
+          "phrase_transliteration": "lo' 'otkha ma'asu",
+          "target_index": 2,
+          "gloss": "they have not rejected you",
+          "gloss_highlight": "rejected",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H6186",
+      "citation_form": "עָרַךְ",
+      "transliteration": "`arakh",
+      "full_gloss": "arrange, set in order, draw up (for battle)",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.22.9",
+          "surface_form": "וַֽיַּעֲרֹךְ",
+          "transliteration": "waya`arokh",
+          "word_id": "012HK",
+          "phrase_hebrew": "וַֽיַּעֲרֹךְ אֶת הָעֵצִים",
+          "phrase_transliteration": "waya`arokh 'et ha`etsim",
+          "target_index": 0,
+          "gloss": "he arranged the wood",
+          "gloss_highlight": "arranged",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H2470",
+      "citation_form": "חָלָה",
+      "transliteration": "khalah",
+      "full_gloss": "be sick, be weak; entreat",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.48.1",
+          "surface_form": "חֹלֶה",
+          "transliteration": "kholeh",
+          "word_id": "01PJe",
+          "phrase_hebrew": "אָבִיךָ חֹלֶה",
+          "phrase_transliteration": "'avikha kholeh",
+          "target_index": 1,
+          "gloss": "your father is sick",
+          "gloss_highlight": "sick",
           "gloss_note": null
         }
       ]

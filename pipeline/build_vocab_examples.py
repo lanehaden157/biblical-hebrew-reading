@@ -223,6 +223,30 @@ CURATED = {
     "H8045": [("Gen", "01pUz", "01pUz", "01GbB", "I will be destroyed", "destroyed", None)],
     "H7891": [("Exod", "02gWC", "02LQN", "02c6U", "then Moses sang", "sang", None)],
     "H3885": [("Gen", "01Ue8", "01Ue8", "01Ue8", "and spend the night [here]", "spend the night", None)],
+
+    # Batch 8 (2026-08-30): next 20 verbs. lamad/shamem/`ur/ya`ats/ma'as
+    # have no Genesis/Jonah/Ruth occurrence, sourced from Deuteronomy,
+    # Leviticus, Judges, 2 Samuel, and 1 Samuel instead.
+    "H3925": [("Deut", "05eof", "05eof", "05x6W", "I have taught you statutes", "taught", None)],
+    "H3384": [("Gen", "01Ykc", "01Ykc", "01V5w", "to show the way ahead of him", "show", "Hiphil of yarah (\"teach/direct\"), lit. \"to point out/instruct\"")],
+    "H7069": [("Gen", "01jGt", "01jGt", "01tyS", "I have acquired a man", "acquired", "Eve naming Cain (qayin), a wordplay on qanah")],
+    "H7896": [("Gen", "01EyU", "01Xh3", "01EyU", "I will put enmity [between you]", "put", None)],
+    "H8074": [("Lev", "03Awo", "03Awo", "03yn6", "I will make your sanctuaries desolate", "desolate", None)],
+    "H6419": [("Jonah", "321jv", "321jv", "32RCg", "Jonah prayed to the LORD", "prayed", None)],
+    "H6031": [("Gen", "016Yk", "016Yk", "01yaX", "Sarai afflicted her", "afflicted", None)],
+    "H4910": [("Gen", "01n9v", "01n9v", "01gYe", "to rule the day", "rule", None)],
+    "H5641": [("Gen", "017Xe", "01nM3", "017Xe", "from your face I will be hidden", "hidden", None)],
+    "H5826": [("Gen", "01dgN", "01dgN", "01dgN", "may he help you", "help", None)],
+    "H7043": [("Gen", "01CUd", "01W19", "01dBb", "the waters had subsided", "subsided", "lit. \"were light/diminished\" -- qalal's core sense; here of floodwaters receding, distinct from its more common \"curse\" sense")],
+    "H7819": [("Gen", "01rb5", "01rb5", "01URH", "to slaughter his son", "slaughter", None)],
+    "H4376": [("Gen", "01ZMA", "01ZMA", "01rm7", "he sold his birthright", "sold", None)],
+    "H5782": [("Judg", "07CVL", "07CVL", "079vz", "awake, awake", "awake", None)],
+    "H2603": [("Gen", "01ASY", "01hWa", "01HYe", "whom God has graciously given [your servant]", "graciously given", None)],
+    "H3289": [("2Sam", "10N8y", "10rif", "10N8y", "which he advised", "advised", None)],
+    "H7392": [("Gen", "01AfW", "01AfW", "01qni", "they rode on the camels", "rode", None)],
+    "H3988": [("1Sam", "09fVR", "09ZoM", "09fVR", "they have not rejected you", "rejected", None)],
+    "H6186": [("Gen", "012HK", "012HK", "01PUW", "he arranged the wood", "arranged", None)],
+    "H2470": [("Gen", "01PJe", "01J66", "01PJe", "your father is sick", "sick", None)],
 }
 
 # Lemmas Lane said to file away rather than force a single example onto --
