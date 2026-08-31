@@ -361,6 +361,29 @@ CURATED = {
     "H7218": [("Gen", "01PG7", "01Ekx", "01PG7", "into four heads", "heads", None)],
     "H3820": [("Gen", "01zuP", "01gi1", "01zuP", "the intent of his heart's thoughts", "heart", None)],
     "H1323": [("Gen", "01A4n", "01A4n", "01A4n", "and daughters", "daughters", None)],
+
+    # Batch 13 (2026-08-30): next 20 nouns/adverbs. qodesh's clearest hit
+    # is the burning bush -- "it is holy ground" (Exodus 3).
+    "H4325": [("Gen", "01TZE", "0129t", "01TZE", "upon the face of the water", "water", None)],
+    "H3541": [("Gen", "01WUC", "01WUC", "013VU", "so shall your offspring be", "so", None)],
+    "H1471": [("Gen", "01adv", "01b5P", "01adv", "the coastlands of the nations", "nations", None)],
+    "H1992": [("Gen", "01pVx", "01HQ9", "01pVx", "that they were naked", "they", None)],
+    "H120": [("Gen", "01gPX", "01oiy", "01gPX", "let us make man", "man", None)],
+    "H2022": [("Gen", "01etw", "01Gy9", "01GQd", "all the high mountains", "mountains", None)],
+    "H6963": [("Gen", "011go", "01PHG", "011go", "they heard the sound [of the LORD]", "sound", None)],
+    "H2416": [("Gen", "01ecS", "01dSp", "01ecS", "a living creature", "living", None)],
+    "H6310": [("Gen", "01NH6", "01EWV", "01NH6", "has opened its mouth", "mouth", None)],
+    "H5750": [("Gen", "0125j", "014VF", "0125j", "Adam knew [his wife] again", "again", None)],
+    "H6635": [("Gen", "01EZz", "01taY", "01EZz", "and all their host", "host", None)],
+    "H6944": [("Exod", "02njg", "02Wyn", "02L6G", "it is holy ground", "holy", None)],
+    "H136": [("Gen", "01w93", "01w93", "01hRC", "O Lord GOD", "Lord", None)],
+    "H5769": [("Gen", "01cy3", "01CGY", "01cy3", "and live forever", "forever", None)],
+    "H6258": [("Gen", "01tvR", "01tvR", "01tvR", "and now", "now", None)],
+    "H4941": [("Gen", "013cG", "01f26", "013cG", "righteousness and justice", "justice", None)],
+    "H8064": [("Gen", "01TSc", "01vuQ", "01TSc", "the heavens", "heavens", None)],
+    "H8269": [("Gen", "01fBS", "01fBS", "01r2p", "the officials of Pharaoh", "officials", None)],
+    "H8432": [("Gen", "018M6", "018M6", "01wM5", "in the midst of the waters", "midst", None)],
+    "H2719": [("Gen", "01RZP", "01FUa", "01RZP", "the flame of the sword", "sword", None)],
 }
 
 # Lemmas Lane said to file away rather than force a single example onto --

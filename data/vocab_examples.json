@@ -2,9 +2,9 @@
   "metadata": {
     "source": "build_vocab_examples.py",
     "target_lemma_count": 544,
-    "curated_count": 263,
+    "curated_count": 283,
     "skipped": [],
-    "pending_count": 281
+    "pending_count": 261
   },
   "entries": [
     {
@@ -5526,6 +5526,426 @@
           "target_index": 0,
           "gloss": "and daughters",
           "gloss_highlight": "daughters",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H4325",
+      "citation_form": "מַיִם",
+      "transliteration": "mayim",
+      "full_gloss": "water",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.1.2",
+          "surface_form": "הַמָּֽיִם",
+          "transliteration": "hamayim",
+          "word_id": "01TZE",
+          "phrase_hebrew": "עַל פְּנֵי הַמָּֽיִם",
+          "phrase_transliteration": "`al peney hamayim",
+          "target_index": 2,
+          "gloss": "upon the face of the water",
+          "gloss_highlight": "water",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H3541",
+      "citation_form": "כֹּה",
+      "transliteration": "koh",
+      "full_gloss": "thus, so",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.15.5",
+          "surface_form": "כֹּה",
+          "transliteration": "koh",
+          "word_id": "01WUC",
+          "phrase_hebrew": "כֹּה יִהְיֶה זַרְעֶֽךָ",
+          "phrase_transliteration": "koh yihyeh zar`ekha",
+          "target_index": 0,
+          "gloss": "so shall your offspring be",
+          "gloss_highlight": "so",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H1471",
+      "citation_form": "גּוֹי",
+      "transliteration": "goy",
+      "full_gloss": "nation, people",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.10.5",
+          "surface_form": "הַגּוֹיִם",
+          "transliteration": "hagoyim",
+          "word_id": "01adv",
+          "phrase_hebrew": "אִיֵּי הַגּוֹיִם",
+          "phrase_transliteration": "'iyey hagoyim",
+          "target_index": 1,
+          "gloss": "the coastlands of the nations",
+          "gloss_highlight": "nations",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H1992",
+      "citation_form": "הֵם",
+      "transliteration": "hem",
+      "full_gloss": "they (m.)",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.3.7",
+          "surface_form": "הֵם",
+          "transliteration": "hem",
+          "word_id": "01pVx",
+          "phrase_hebrew": "כִּי עֵֽירֻמִּם הֵם",
+          "phrase_transliteration": "ki `eyrumim hem",
+          "target_index": 2,
+          "gloss": "that they were naked",
+          "gloss_highlight": "they",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H120",
+      "citation_form": "אָדָם",
+      "transliteration": "'adam",
+      "full_gloss": "man, mankind, Adam",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.1.26",
+          "surface_form": "אָדָם",
+          "transliteration": "'adam",
+          "word_id": "01gPX",
+          "phrase_hebrew": "נַֽעֲשֶׂה אָדָם",
+          "phrase_transliteration": "na`aseh 'adam",
+          "target_index": 1,
+          "gloss": "let us make man",
+          "gloss_highlight": "man",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H2022",
+      "citation_form": "הַר",
+      "transliteration": "har",
+      "full_gloss": "mountain, hill",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.7.19",
+          "surface_form": "הֶֽהָרִים",
+          "transliteration": "heharim",
+          "word_id": "01etw",
+          "phrase_hebrew": "כָּל הֶֽהָרִים הַגְּבֹהִים",
+          "phrase_transliteration": "kal heharim hagvohim",
+          "target_index": 1,
+          "gloss": "all the high mountains",
+          "gloss_highlight": "mountains",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H6963",
+      "citation_form": "קוֹל",
+      "transliteration": "qol",
+      "full_gloss": "voice, sound",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.3.8",
+          "surface_form": "קוֹל",
+          "transliteration": "qol",
+          "word_id": "011go",
+          "phrase_hebrew": "אֶת קוֹל",
+          "phrase_transliteration": "'et qol",
+          "target_index": 1,
+          "gloss": "they heard the sound [of the LORD]",
+          "gloss_highlight": "sound",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H2416",
+      "citation_form": "חַי",
+      "transliteration": "khay",
+      "full_gloss": "living, alive",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.1.20",
+          "surface_form": "חַיָּה",
+          "transliteration": "khayah",
+          "word_id": "01ecS",
+          "phrase_hebrew": "נֶפֶשׁ חַיָּה",
+          "phrase_transliteration": "nefesh khayah",
+          "target_index": 1,
+          "gloss": "a living creature",
+          "gloss_highlight": "living",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H6310",
+      "citation_form": "פֶּה",
+      "transliteration": "peh",
+      "full_gloss": "mouth",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.4.11",
+          "surface_form": "פִּיהָ",
+          "transliteration": "piha",
+          "word_id": "01NH6",
+          "phrase_hebrew": "פָּצְתָה אֶת פִּיהָ",
+          "phrase_transliteration": "patstah 'et piha",
+          "target_index": 2,
+          "gloss": "has opened its mouth",
+          "gloss_highlight": "mouth",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H5750",
+      "citation_form": "עוֹד",
+      "transliteration": "`od",
+      "full_gloss": "still, yet, again",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.4.25",
+          "surface_form": "עוֹד",
+          "transliteration": "`od",
+          "word_id": "0125j",
+          "phrase_hebrew": "וַיֵּדַע אָדָם עוֹד",
+          "phrase_transliteration": "wayeda` 'adam `od",
+          "target_index": 2,
+          "gloss": "Adam knew [his wife] again",
+          "gloss_highlight": "again",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H6635",
+      "citation_form": "צָבָא",
+      "transliteration": "tsava'",
+      "full_gloss": "army, host",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.2.1",
+          "surface_form": "צְבָאָֽם",
+          "transliteration": "tseva'am",
+          "word_id": "01EZz",
+          "phrase_hebrew": "וְכָל צְבָאָֽם",
+          "phrase_transliteration": "wekhal tseva'am",
+          "target_index": 1,
+          "gloss": "and all their host",
+          "gloss_highlight": "host",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H6944",
+      "citation_form": "קֹדֶשׁ",
+      "transliteration": "qodesh",
+      "full_gloss": "holiness, holy thing",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Exod.3.5",
+          "surface_form": "קֹדֶשׁ",
+          "transliteration": "qodesh",
+          "word_id": "02njg",
+          "phrase_hebrew": "אַדְמַת קֹדֶשׁ הֽוּא",
+          "phrase_transliteration": "'admat qodesh hu'",
+          "target_index": 1,
+          "gloss": "it is holy ground",
+          "gloss_highlight": "holy",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H136",
+      "citation_form": "אֲדֹנָי",
+      "transliteration": "'adonay",
+      "full_gloss": "Lord (divine title)",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.15.2",
+          "surface_form": "אֲדֹנָי",
+          "transliteration": "'adonay",
+          "word_id": "01w93",
+          "phrase_hebrew": "אֲדֹנָי יֱהוִה",
+          "phrase_transliteration": "'adonay yehwih",
+          "target_index": 0,
+          "gloss": "O Lord GOD",
+          "gloss_highlight": "Lord",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H5769",
+      "citation_form": "עוֹלָם",
+      "transliteration": "`olam",
+      "full_gloss": "forever, eternity, long duration",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.3.22",
+          "surface_form": "לְעֹלָֽם",
+          "transliteration": "le`olam",
+          "word_id": "01cy3",
+          "phrase_hebrew": "וָחַי לְעֹלָֽם",
+          "phrase_transliteration": "wakhay le`olam",
+          "target_index": 1,
+          "gloss": "and live forever",
+          "gloss_highlight": "forever",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H6258",
+      "citation_form": "עַתָּה",
+      "transliteration": "`atah",
+      "full_gloss": "now",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.3.22",
+          "surface_form": "וְעַתָּה",
+          "transliteration": "we`atah",
+          "word_id": "01tvR",
+          "phrase_hebrew": "וְעַתָּה",
+          "phrase_transliteration": "we`atah",
+          "target_index": 0,
+          "gloss": "and now",
+          "gloss_highlight": "now",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H4941",
+      "citation_form": "מִשְׁפָּט",
+      "transliteration": "mishpat",
+      "full_gloss": "justice, judgment, ordinance",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.18.19",
+          "surface_form": "וּמִשְׁפָּט",
+          "transliteration": "umishpat",
+          "word_id": "013cG",
+          "phrase_hebrew": "צְדָקָה וּמִשְׁפָּט",
+          "phrase_transliteration": "tsedaqah umishpat",
+          "target_index": 1,
+          "gloss": "righteousness and justice",
+          "gloss_highlight": "justice",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H8064",
+      "citation_form": "שָׁמַיִם",
+      "transliteration": "shamayim",
+      "full_gloss": "heaven, sky",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.1.1",
+          "surface_form": "הַשָּׁמַיִם",
+          "transliteration": "hashamayim",
+          "word_id": "01TSc",
+          "phrase_hebrew": "אֵת הַשָּׁמַיִם",
+          "phrase_transliteration": "'et hashamayim",
+          "target_index": 1,
+          "gloss": "the heavens",
+          "gloss_highlight": "heavens",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H8269",
+      "citation_form": "שַׂר",
+      "transliteration": "sar",
+      "full_gloss": "official, chief, prince",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.12.15",
+          "surface_form": "שָׂרֵי",
+          "transliteration": "sarey",
+          "word_id": "01fBS",
+          "phrase_hebrew": "שָׂרֵי פַרְעֹה",
+          "phrase_transliteration": "sarey far`oh",
+          "target_index": 0,
+          "gloss": "the officials of Pharaoh",
+          "gloss_highlight": "officials",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H8432",
+      "citation_form": "תָּוֶךְ",
+      "transliteration": "tawekh",
+      "full_gloss": "midst, middle",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.1.6",
+          "surface_form": "בְּתוֹךְ",
+          "transliteration": "betokh",
+          "word_id": "018M6",
+          "phrase_hebrew": "בְּתוֹךְ הַמָּיִם",
+          "phrase_transliteration": "betokh hamayim",
+          "target_index": 0,
+          "gloss": "in the midst of the waters",
+          "gloss_highlight": "midst",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H2719",
+      "citation_form": "חֶרֶב",
+      "transliteration": "kherev",
+      "full_gloss": "sword",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.3.24",
+          "surface_form": "הַחֶרֶב",
+          "transliteration": "hakherev",
+          "word_id": "01RZP",
+          "phrase_hebrew": "לַהַט הַחֶרֶב",
+          "phrase_transliteration": "lahat hakherev",
+          "target_index": 1,
+          "gloss": "the flame of the sword",
+          "gloss_highlight": "sword",
           "gloss_note": null
         }
       ]
