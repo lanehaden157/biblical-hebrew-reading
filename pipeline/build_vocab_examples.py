@@ -154,6 +154,28 @@ CURATED = {
     "H1875": [("Gen", "01pvb", "01Ygk", "01pvb", "she went to inquire [of the LORD]", "inquire", None)],
     "H1984": [("Gen", "01RiY", "01RiY", "01ZhF", "they praised her", "praised", None)],
     "H7462": [("Gen", "015oN", "01mQU", "01HQC", "Abel was a shepherd of sheep", "shepherd", None)],
+
+    # Batch 5 (2026-08-30): next 20 verbs.
+    "H2930": [("Gen", "011sW", "011sW", "01tto", "he had defiled Dinah", "defiled", None)],
+    "H5127": [("Gen", "01Fm5", "01Fm5", "01KQn", "the king of Sodom fled", "fled", None)],
+    "H5608": [("Gen", "01pJA", "01pJA", "01T7j", "count the stars", "count", None)],
+    "H5437": [("Jonah", "32aSJ", "32aSJ", "32Kz2", "the weeds wrapped around me", "wrapped around", None)],
+    "H8055": [("Jonah", "32eWA", "32eWA", "32CqN", "Jonah rejoiced", "rejoiced", None)],
+    "H3680": [("Gen", "01f6y", "01f6y", "01etw", "all the mountains were covered", "covered", None)],
+    "H5060": [("Gen", "01pvY", "01LG5", "01pvY", "you shall not touch it", "touch", None)],
+    "H7665": [("Jonah", "32hh7", "32NFp", "32hh7", "the ship was about to break apart", "break apart", None)],
+    "H8130": [("Gen", "01xTu", "01VUz", "01hya", "you have hated me", "hated", None)],
+    "H7843": [("Gen", "01XKu", "018w5", "01XKu", "it was corrupt", "corrupt", None)],
+    "H5265": [("Gen", "012W4", "012W4", "01Uzr", "Abram set out", "set out", None)],
+    "H6605": [("Gen", "01nTK", "01nTK", "01sBD", "Noah opened [the window]", "opened", None)],
+    "H7291": [("Gen", "01nXq", "01nXq", "01WDZ", "he pursued as far as Dan", "pursued", None)],
+    "H2490": [("Gen", "01ZkJ", "01LaJ", "01rrP", "when man began [to multiply]", "began", "khalal's \"begin\" sense (Hiphil) -- distinct from its unrelated \"profane/defile\" sense")],
+    "H2583": [("Gen", "01SPW", "01SPW", "01T6R", "he camped in the valley of Gerar", "camped", None)],
+    "H6437": [("Gen", "01evQ", "01evQ", "01NA8", "the men turned away from there", "turned", None)],
+    "H2076": [("Jonah", "32xAF", "32xAF", "326w9", "they offered a sacrifice to the LORD", "offered a sacrifice", None)],
+    "H6912": [("Ruth", "08Qnr", "08xCL", "08Qnr", "there I will be buried", "buried", None)],
+    "H7604": [("Ruth", "083TL", "083TL", "08LeN", "she was left [with her two sons]", "was left", None)],
+    "H7931": [("Gen", "01Xv2", "01Xv2", "01qDj", "let him dwell in the tents of Shem", "dwell", None)],
 }
 
 # Lemmas Lane said to file away rather than force a single example onto --

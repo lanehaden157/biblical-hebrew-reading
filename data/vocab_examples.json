@@ -2,9 +2,9 @@
   "metadata": {
     "source": "build_vocab_examples.py",
     "target_lemma_count": 544,
-    "curated_count": 80,
+    "curated_count": 100,
     "skipped": [],
-    "pending_count": 464
+    "pending_count": 444
   },
   "entries": [
     {
@@ -1683,6 +1683,426 @@
           "target_index": 1,
           "gloss": "Abel was a shepherd of sheep",
           "gloss_highlight": "shepherd",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H2930",
+      "citation_form": "טָמֵא",
+      "transliteration": "tame'",
+      "full_gloss": "be unclean, defiled",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.34.5",
+          "surface_form": "טִמֵּא",
+          "transliteration": "time'",
+          "word_id": "011sW",
+          "phrase_hebrew": "טִמֵּא אֶת דִּינָה",
+          "phrase_transliteration": "time' 'et dinah",
+          "target_index": 0,
+          "gloss": "he had defiled Dinah",
+          "gloss_highlight": "defiled",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H5127",
+      "citation_form": "נוּס",
+      "transliteration": "nus",
+      "full_gloss": "flee",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.14.10",
+          "surface_form": "וַיָּנֻסוּ",
+          "transliteration": "wayanusu",
+          "word_id": "01Fm5",
+          "phrase_hebrew": "וַיָּנֻסוּ מֶֽלֶךְ סְדֹם",
+          "phrase_transliteration": "wayanusu melekh sedom",
+          "target_index": 0,
+          "gloss": "the king of Sodom fled",
+          "gloss_highlight": "fled",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H5608",
+      "citation_form": "סָפַר",
+      "transliteration": "safar",
+      "full_gloss": "count, recount, tell",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.15.5",
+          "surface_form": "וּסְפֹר",
+          "transliteration": "usfor",
+          "word_id": "01pJA",
+          "phrase_hebrew": "וּסְפֹר הַכּוֹכָבִים",
+          "phrase_transliteration": "usfor hakokhavim",
+          "target_index": 0,
+          "gloss": "count the stars",
+          "gloss_highlight": "count",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H5437",
+      "citation_form": "סָבַב",
+      "transliteration": "savav",
+      "full_gloss": "turn, surround, go around",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Jonah.2.6",
+          "surface_form": "יְסֹבְבֵנִי",
+          "transliteration": "yesovveni",
+          "word_id": "32aSJ",
+          "phrase_hebrew": "יְסֹבְבֵנִי סוּף",
+          "phrase_transliteration": "yesovveni suf",
+          "target_index": 0,
+          "gloss": "the weeds wrapped around me",
+          "gloss_highlight": "wrapped around",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H8055",
+      "citation_form": "שָׂמַח",
+      "transliteration": "samakh",
+      "full_gloss": "rejoice, be glad",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Jonah.4.6",
+          "surface_form": "וַיִּשְׂמַח",
+          "transliteration": "wayismakh",
+          "word_id": "32eWA",
+          "phrase_hebrew": "וַיִּשְׂמַח יוֹנָה",
+          "phrase_transliteration": "wayismakh yonah",
+          "target_index": 0,
+          "gloss": "Jonah rejoiced",
+          "gloss_highlight": "rejoiced",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H3680",
+      "citation_form": "כָּסָה",
+      "transliteration": "kasah",
+      "full_gloss": "cover",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.7.19",
+          "surface_form": "וַיְכֻסּוּ",
+          "transliteration": "waykhusu",
+          "word_id": "01f6y",
+          "phrase_hebrew": "וַיְכֻסּוּ כָּל הֶֽהָרִים",
+          "phrase_transliteration": "waykhusu kal heharim",
+          "target_index": 0,
+          "gloss": "all the mountains were covered",
+          "gloss_highlight": "covered",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H5060",
+      "citation_form": "נָגַע",
+      "transliteration": "naga`",
+      "full_gloss": "touch, reach, strike",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.3.3",
+          "surface_form": "תִגְּעוּ",
+          "transliteration": "tig`u",
+          "word_id": "01pvY",
+          "phrase_hebrew": "וְלֹא תִגְּעוּ",
+          "phrase_transliteration": "welo' tig`u",
+          "target_index": 1,
+          "gloss": "you shall not touch it",
+          "gloss_highlight": "touch",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H7665",
+      "citation_form": "שָׁבַר",
+      "transliteration": "shavar",
+      "full_gloss": "break, shatter",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Jonah.1.4",
+          "surface_form": "לְהִשָּׁבֵֽר",
+          "transliteration": "lehishaver",
+          "word_id": "32hh7",
+          "phrase_hebrew": "וְהָאֳנִיָּה חִשְּׁבָה לְהִשָּׁבֵֽר",
+          "phrase_transliteration": "weha'oniyah khishvah lehishaver",
+          "target_index": 2,
+          "gloss": "the ship was about to break apart",
+          "gloss_highlight": "break apart",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H8130",
+      "citation_form": "שָׂנֵא",
+      "transliteration": "sane'",
+      "full_gloss": "hate",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.26.27",
+          "surface_form": "שְׂנֵאתֶם",
+          "transliteration": "sene'tem",
+          "word_id": "01xTu",
+          "phrase_hebrew": "וְאַתֶּם שְׂנֵאתֶם אֹתִי",
+          "phrase_transliteration": "we'atem sene'tem 'oti",
+          "target_index": 1,
+          "gloss": "you have hated me",
+          "gloss_highlight": "hated",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H7843",
+      "citation_form": "שָׁחַת",
+      "transliteration": "shakhat",
+      "full_gloss": "destroy, ruin, corrupt",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.6.12",
+          "surface_form": "נִשְׁחָתָה",
+          "transliteration": "nishkhatah",
+          "word_id": "01XKu",
+          "phrase_hebrew": "וְהִנֵּה נִשְׁחָתָה",
+          "phrase_transliteration": "wehineh nishkhatah",
+          "target_index": 1,
+          "gloss": "it was corrupt",
+          "gloss_highlight": "corrupt",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H5265",
+      "citation_form": "נָסַע",
+      "transliteration": "nasa`",
+      "full_gloss": "set out, journey, pull up (tent stakes)",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.12.9",
+          "surface_form": "וַיִּסַּע",
+          "transliteration": "wayisa`",
+          "word_id": "012W4",
+          "phrase_hebrew": "וַיִּסַּע אַבְרָם",
+          "phrase_transliteration": "wayisa` 'avram",
+          "target_index": 0,
+          "gloss": "Abram set out",
+          "gloss_highlight": "set out",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H6605",
+      "citation_form": "פָּתַח",
+      "transliteration": "patakh",
+      "full_gloss": "open",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.8.6",
+          "surface_form": "וַיִּפְתַּח",
+          "transliteration": "wayiftakh",
+          "word_id": "01nTK",
+          "phrase_hebrew": "וַיִּפְתַּח נֹחַ",
+          "phrase_transliteration": "wayiftakh noakh",
+          "target_index": 0,
+          "gloss": "Noah opened [the window]",
+          "gloss_highlight": "opened",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H7291",
+      "citation_form": "רָדַף",
+      "transliteration": "radaf",
+      "full_gloss": "pursue, chase",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.14.14",
+          "surface_form": "וַיִּרְדֹּף",
+          "transliteration": "wayirdof",
+          "word_id": "01nXq",
+          "phrase_hebrew": "וַיִּרְדֹּף עַד דָּֽן",
+          "phrase_transliteration": "wayirdof `ad dan",
+          "target_index": 0,
+          "gloss": "he pursued as far as Dan",
+          "gloss_highlight": "pursued",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H2490",
+      "citation_form": "חָלַל",
+      "transliteration": "khalal",
+      "full_gloss": "begin; profane, defile",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.6.1",
+          "surface_form": "הֵחֵל",
+          "transliteration": "hekhel",
+          "word_id": "01ZkJ",
+          "phrase_hebrew": "כִּֽי הֵחֵל הָֽאָדָם",
+          "phrase_transliteration": "ki hekhel ha'adam",
+          "target_index": 1,
+          "gloss": "when man began [to multiply]",
+          "gloss_highlight": "began",
+          "gloss_note": "khalal's \"begin\" sense (Hiphil) -- distinct from its unrelated \"profane/defile\" sense"
+        }
+      ]
+    },
+    {
+      "lemma_id": "H2583",
+      "citation_form": "חָנָה",
+      "transliteration": "khanah",
+      "full_gloss": "camp, encamp",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.26.17",
+          "surface_form": "וַיִּחַן",
+          "transliteration": "wayikhan",
+          "word_id": "01SPW",
+          "phrase_hebrew": "וַיִּחַן בְּנַֽחַל גְּרָר",
+          "phrase_transliteration": "wayikhan benakhal gerar",
+          "target_index": 0,
+          "gloss": "he camped in the valley of Gerar",
+          "gloss_highlight": "camped",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H6437",
+      "citation_form": "פָּנָה",
+      "transliteration": "panah",
+      "full_gloss": "turn, face, turn toward",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.18.22",
+          "surface_form": "וַיִּפְנוּ",
+          "transliteration": "wayifnu",
+          "word_id": "01evQ",
+          "phrase_hebrew": "וַיִּפְנוּ מִשָּׁם הָֽאֲנָשִׁים",
+          "phrase_transliteration": "wayifnu misham ha'anashim",
+          "target_index": 0,
+          "gloss": "the men turned away from there",
+          "gloss_highlight": "turned",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H2076",
+      "citation_form": "זָבַח",
+      "transliteration": "zavakh",
+      "full_gloss": "slaughter, sacrifice",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Jonah.1.16",
+          "surface_form": "וַיִּֽזְבְּחוּ",
+          "transliteration": "wayizbekhu",
+          "word_id": "32xAF",
+          "phrase_hebrew": "וַיִּֽזְבְּחוּ זֶבַח לַֽיהוָה",
+          "phrase_transliteration": "wayizbekhu zevakh layhwah",
+          "target_index": 0,
+          "gloss": "they offered a sacrifice to the LORD",
+          "gloss_highlight": "offered a sacrifice",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H6912",
+      "citation_form": "קָבַר",
+      "transliteration": "qavar",
+      "full_gloss": "bury",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Ruth.1.17",
+          "surface_form": "אֶקָּבֵר",
+          "transliteration": "'eqaver",
+          "word_id": "08Qnr",
+          "phrase_hebrew": "וְשָׁם אֶקָּבֵר",
+          "phrase_transliteration": "wesham 'eqaver",
+          "target_index": 1,
+          "gloss": "there I will be buried",
+          "gloss_highlight": "buried",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H7604",
+      "citation_form": "שָׁאַר",
+      "transliteration": "sha'ar",
+      "full_gloss": "remain, be left over",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Ruth.1.3",
+          "surface_form": "וַתִּשָּׁאֵר",
+          "transliteration": "watisha'er",
+          "word_id": "083TL",
+          "phrase_hebrew": "וַתִּשָּׁאֵר הִיא",
+          "phrase_transliteration": "watisha'er hi'",
+          "target_index": 0,
+          "gloss": "she was left [with her two sons]",
+          "gloss_highlight": "was left",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H7931",
+      "citation_form": "שָׁכַן",
+      "transliteration": "shakhan",
+      "full_gloss": "dwell, settle, abide",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.9.27",
+          "surface_form": "וְיִשְׁכֹּן",
+          "transliteration": "weyishkon",
+          "word_id": "01Xv2",
+          "phrase_hebrew": "וְיִשְׁכֹּן בְּאָֽהֳלֵי שֵׁם",
+          "phrase_transliteration": "weyishkon be'aholey shem",
+          "target_index": 0,
+          "gloss": "let him dwell in the tents of Shem",
+          "gloss_highlight": "dwell",
           "gloss_note": null
         }
       ]
