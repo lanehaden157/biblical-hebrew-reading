@@ -2,9 +2,9 @@
   "metadata": {
     "source": "build_vocab_examples.py",
     "target_lemma_count": 544,
-    "curated_count": 243,
+    "curated_count": 263,
     "skipped": [],
-    "pending_count": 301
+    "pending_count": 281
   },
   "entries": [
     {
@@ -5106,6 +5106,426 @@
           "target_index": 3,
           "gloss": "and Jesse fathered David",
           "gloss_highlight": "David",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H5869",
+      "citation_form": "עַיִן",
+      "transliteration": "`ayin",
+      "full_gloss": "eye, spring",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.3.5",
+          "surface_form": "עֵֽינֵיכֶם",
+          "transliteration": "`eyneykhem",
+          "word_id": "01P1s",
+          "phrase_hebrew": "וְנִפְקְחוּ עֵֽינֵיכֶם",
+          "phrase_transliteration": "wenifqekhu `eyneykhem",
+          "target_index": 1,
+          "gloss": "your eyes will be opened",
+          "gloss_highlight": "eyes",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H8141",
+      "citation_form": "שָׁנֶה",
+      "transliteration": "shaneh",
+      "full_gloss": "year",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.1.14",
+          "surface_form": "וְשָׁנִֽים",
+          "transliteration": "weshanim",
+          "word_id": "01Axb",
+          "phrase_hebrew": "וְשָׁנִֽים",
+          "phrase_transliteration": "weshanim",
+          "target_index": 0,
+          "gloss": "and years",
+          "gloss_highlight": "years",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H589",
+      "citation_form": "אֲנִי",
+      "transliteration": "'ani",
+      "full_gloss": "I",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.6.17",
+          "surface_form": "וַאֲנִי",
+          "transliteration": "wa'ani",
+          "word_id": "01T4t",
+          "phrase_hebrew": "וַאֲנִי הִנְנִי",
+          "phrase_transliteration": "wa'ani hinni",
+          "target_index": 0,
+          "gloss": "and as for me, behold",
+          "gloss_highlight": "me",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H8034",
+      "citation_form": "שֵׁם",
+      "transliteration": "shem",
+      "full_gloss": "name",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.2.11",
+          "surface_form": "שֵׁם",
+          "transliteration": "shem",
+          "word_id": "01EL8",
+          "phrase_hebrew": "שֵׁם הָֽאֶחָד פִּישׁוֹן",
+          "phrase_transliteration": "shem ha'ekhad pishon",
+          "target_index": 0,
+          "gloss": "the name of the first is Pishon",
+          "gloss_highlight": "name",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H8033",
+      "citation_form": "שָׁם",
+      "transliteration": "sham",
+      "full_gloss": "there",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.2.8",
+          "surface_form": "שָׁם",
+          "transliteration": "sham",
+          "word_id": "01x72",
+          "phrase_hebrew": "וַיָּשֶׂם שָׁם",
+          "phrase_transliteration": "wayasem sham",
+          "target_index": 1,
+          "gloss": "he placed [him] there",
+          "gloss_highlight": "there",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H3063",
+      "citation_form": "יְהוּדָה",
+      "transliteration": "yehudah",
+      "full_gloss": "Judah",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.29.35",
+          "surface_form": "יְהוּדָה",
+          "transliteration": "yehudah",
+          "word_id": "01uoQ",
+          "phrase_hebrew": "שְׁמוֹ יְהוּדָה",
+          "phrase_transliteration": "shemo yehudah",
+          "target_index": 1,
+          "gloss": "she called his name Judah",
+          "gloss_highlight": "Judah",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H5650",
+      "citation_form": "עֶבֶד",
+      "transliteration": "`eved",
+      "full_gloss": "servant, slave",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.9.25",
+          "surface_form": "עֶבֶד",
+          "transliteration": "`eved",
+          "word_id": "01N1Q",
+          "phrase_hebrew": "עֶבֶד עֲבָדִים יִֽהְיֶה",
+          "phrase_transliteration": "`eved `avadim yihyeh",
+          "target_index": 0,
+          "gloss": "a servant of servants he shall be",
+          "gloss_highlight": "servant",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H802",
+      "citation_form": "אִשָּׁה",
+      "transliteration": "'ishah",
+      "full_gloss": "woman, wife",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.2.22",
+          "surface_form": "לְאִשָּׁה",
+          "transliteration": "le'ishah",
+          "word_id": "01ymv",
+          "phrase_hebrew": "לְאִשָּׁה",
+          "phrase_transliteration": "le'ishah",
+          "target_index": 0,
+          "gloss": "into a woman",
+          "gloss_highlight": "woman",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H4872",
+      "citation_form": "מֹשֶׁה",
+      "transliteration": "mosheh",
+      "full_gloss": "Moses",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Exod.2.10",
+          "surface_form": "מֹשֶׁה",
+          "transliteration": "mosheh",
+          "word_id": "02pAw",
+          "phrase_hebrew": "וַתִּקְרָא שְׁמוֹ מֹשֶׁה",
+          "phrase_transliteration": "watiqra' shemo mosheh",
+          "target_index": 2,
+          "gloss": "she called his name Moses",
+          "gloss_highlight": "Moses",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H5315",
+      "citation_form": "נֶפֶשׁ",
+      "transliteration": "nefesh",
+      "full_gloss": "soul, self, life, person",
+      "sense_count": 4,
+      "examples": [
+        {
+          "ref": "Gen.1.20",
+          "surface_form": "נֶפֶשׁ",
+          "transliteration": "nefesh",
+          "word_id": "01dSp",
+          "phrase_hebrew": "נֶפֶשׁ חַיָּה",
+          "phrase_transliteration": "nefesh khayah",
+          "target_index": 0,
+          "gloss": "living creature",
+          "gloss_highlight": "creature",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H3548",
+      "citation_form": "כֹּהֵן",
+      "transliteration": "kohen",
+      "full_gloss": "priest",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.14.18",
+          "surface_form": "כֹהֵן",
+          "transliteration": "khohen",
+          "word_id": "014xN",
+          "phrase_hebrew": "וְהוּא כֹהֵן",
+          "phrase_transliteration": "wehu' khohen",
+          "target_index": 1,
+          "gloss": "he was priest [of God Most High]",
+          "gloss_highlight": "priest",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H428",
+      "citation_form": "אֵלֶּה",
+      "transliteration": "'eleh",
+      "full_gloss": "these",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.2.4",
+          "surface_form": "אֵלֶּה",
+          "transliteration": "'eleh",
+          "word_id": "01idA",
+          "phrase_hebrew": "אֵלֶּה תוֹלְדוֹת",
+          "phrase_transliteration": "'eleh toldot",
+          "target_index": 0,
+          "gloss": "these are the generations",
+          "gloss_highlight": "these",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H1870",
+      "citation_form": "דֶּרֶךְ",
+      "transliteration": "derekh",
+      "full_gloss": "way, road, journey",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.3.24",
+          "surface_form": "דֶּרֶךְ",
+          "transliteration": "derekh",
+          "word_id": "01fSj",
+          "phrase_hebrew": "לִשְׁמֹר אֶת דֶּרֶךְ",
+          "phrase_transliteration": "lishmor 'et derekh",
+          "target_index": 2,
+          "gloss": "to guard the way [to the tree of life]",
+          "gloss_highlight": "way",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H3389",
+      "citation_form": "יְרוּשָׁלִַ͏ם",
+      "transliteration": "yerushalam",
+      "full_gloss": "Jerusalem",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Josh.10.1",
+          "surface_form": "יְרוּשָׁלִַם",
+          "transliteration": "yerushalam",
+          "word_id": "06YgF",
+          "phrase_hebrew": "מֶלֶךְ יְרוּשָׁלִַם",
+          "phrase_transliteration": "melekh yerushalam",
+          "target_index": 1,
+          "gloss": "king of Jerusalem",
+          "gloss_highlight": "Jerusalem",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H4714",
+      "citation_form": "מִצְרַיִם",
+      "transliteration": "mitsrayim",
+      "full_gloss": "Egypt",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.10.6",
+          "surface_form": "וּמִצְרַיִם",
+          "transliteration": "umitsrayim",
+          "word_id": "01GfA",
+          "phrase_hebrew": "וּמִצְרַיִם",
+          "phrase_transliteration": "umitsrayim",
+          "target_index": 0,
+          "gloss": "and Egypt",
+          "gloss_highlight": "Egypt",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H251",
+      "citation_form": "אָח",
+      "transliteration": "'akh",
+      "full_gloss": "brother",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.4.2",
+          "surface_form": "אָחִיו",
+          "transliteration": "'akhiw",
+          "word_id": "01zJw",
+          "phrase_hebrew": "אֶת אָחִיו",
+          "phrase_transliteration": "'et 'akhiw",
+          "target_index": 1,
+          "gloss": "his brother",
+          "gloss_highlight": "brother",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H2063",
+      "citation_form": "זֹאת",
+      "transliteration": "zo't",
+      "full_gloss": "this (f.)",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.2.23",
+          "surface_form": "זֹאת",
+          "transliteration": "zo't",
+          "word_id": "01WMK",
+          "phrase_hebrew": "זֹאת הַפַּעַם",
+          "phrase_transliteration": "zo't hapa`am",
+          "target_index": 0,
+          "gloss": "this time/this one",
+          "gloss_highlight": "this",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H7218",
+      "citation_form": "רֹאשׁ",
+      "transliteration": "ro'sh",
+      "full_gloss": "head, top, chief",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.2.10",
+          "surface_form": "רָאשִֽׁים",
+          "transliteration": "ra'shim",
+          "word_id": "01PG7",
+          "phrase_hebrew": "לְאַרְבָּעָה רָאשִֽׁים",
+          "phrase_transliteration": "le'arba`ah ra'shim",
+          "target_index": 1,
+          "gloss": "into four heads",
+          "gloss_highlight": "heads",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H3820",
+      "citation_form": "לֵב",
+      "transliteration": "lev",
+      "full_gloss": "heart, mind",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.6.5",
+          "surface_form": "לִבּוֹ",
+          "transliteration": "libo",
+          "word_id": "01zuP",
+          "phrase_hebrew": "מַחְשְׁבֹת לִבּוֹ",
+          "phrase_transliteration": "makhshevot libo",
+          "target_index": 1,
+          "gloss": "the intent of his heart's thoughts",
+          "gloss_highlight": "heart",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H1323",
+      "citation_form": "בַּת",
+      "transliteration": "bat",
+      "full_gloss": "daughter",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.5.4",
+          "surface_form": "וּבָנֽוֹת",
+          "transliteration": "uvanot",
+          "word_id": "01A4n",
+          "phrase_hebrew": "וּבָנֽוֹת",
+          "phrase_transliteration": "uvanot",
+          "target_index": 0,
+          "gloss": "and daughters",
+          "gloss_highlight": "daughters",
           "gloss_note": null
         }
       ]

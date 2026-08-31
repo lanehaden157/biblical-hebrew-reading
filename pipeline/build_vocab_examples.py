@@ -338,6 +338,29 @@ CURATED = {
     "H859": [("Gen", "01ZgJ", "01WMb", "01ZgJ", "cursed are you", "you", None)],
     "H5892": [("Gen", "01D9B", "01QR7", "01D9B", "he was building a city", "city", None)],
     "H1732": [("Ruth", "08AuA", "08DR2", "08AuA", "and Jesse fathered David", "David", None)],
+
+    # Batch 12 (2026-08-30): next 20 nouns/pronouns/adverbs. mosheh and
+    # yerushalam have no Genesis occurrence, sourced from Exodus/Joshua.
+    "H5869": [("Gen", "01P1s", "01YfW", "01P1s", "your eyes will be opened", "eyes", None)],
+    "H8141": [("Gen", "01Axb", "01Axb", "01Axb", "and years", "years", None)],
+    "H589": [("Gen", "01T4t", "01T4t", "01CXn", "and as for me, behold", "me", None)],
+    "H8034": [("Gen", "01EL8", "01EL8", "01XSi", "the name of the first is Pishon", "name", None)],
+    "H8033": [("Gen", "01x72", "01irW", "01x72", "he placed [him] there", "there", None)],
+    "H3063": [("Gen", "01uoQ", "01QsQ", "01uoQ", "she called his name Judah", "Judah", None)],
+    "H5650": [("Gen", "01N1Q", "01N1Q", "01sKY", "a servant of servants he shall be", "servant", None)],
+    "H802": [("Gen", "01ymv", "01ymv", "01ymv", "into a woman", "woman", None)],
+    "H4872": [("Exod", "02pAw", "02Ygn", "02pAw", "she called his name Moses", "Moses", None)],
+    "H5315": [("Gen", "01dSp", "01dSp", "01ecS", "living creature", "creature", None)],
+    "H3548": [("Gen", "014xN", "01cUQ", "014xN", "he was priest [of God Most High]", "priest", None)],
+    "H428": [("Gen", "01idA", "01idA", "01Z4D", "these are the generations", "these", None)],
+    "H1870": [("Gen", "01fSj", "01UwQ", "01fSj", "to guard the way [to the tree of life]", "way", None)],
+    "H3389": [("Josh", "06YgF", "06u5x", "06YgF", "king of Jerusalem", "Jerusalem", None)],
+    "H4714": [("Gen", "01GfA", "01GfA", "01GfA", "and Egypt", "Egypt", None)],
+    "H251": [("Gen", "01zJw", "01jJf", "01zJw", "his brother", "brother", None)],
+    "H2063": [("Gen", "01WMK", "01WMK", "01ctU", "this time/this one", "this", None)],
+    "H7218": [("Gen", "01PG7", "01Ekx", "01PG7", "into four heads", "heads", None)],
+    "H3820": [("Gen", "01zuP", "01gi1", "01zuP", "the intent of his heart's thoughts", "heart", None)],
+    "H1323": [("Gen", "01A4n", "01A4n", "01A4n", "and daughters", "daughters", None)],
 }
 
 # Lemmas Lane said to file away rather than force a single example onto --

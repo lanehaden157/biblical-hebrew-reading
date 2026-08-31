@@ -18,3 +18,4 @@
 - 2026-08-30: vocab_examples.json batch 9: final 19 verbs (khafets through paras) -- all 179 verb lemmas now have a verified example, zero skipped. 365 lemmas (44 adjectives, 321 nouns/pronouns/adverbs) pending; verbs finished, adjectives next per Lane's priority order.
 - 2026-08-30: vocab_examples.json batch 10: all 44 adjectives done (numbers one-through-seventy plus tov/ra`/gadol/qatan/tsadiq/rasha`/qadosh/tame' etc.), zero skipped; 6 sourced outside Gen/Jonah/Ruth (Deuteronomy, Exodus, Leviticus, Proverbs). 321 lemmas (nouns/pronouns/adverbs) pending -- the last tier.
 - 2026-08-30: vocab_examples.json batch 11: first 20 nouns/pronouns by frequency (yehowah through dawid). 301 pending overall.
+- 2026-08-30: vocab_examples.json batch 12: next 20 nouns/pronouns/adverbs (ayin through bat); mosheh/yerushalam sourced from Exodus/Joshua. 281 pending overall.
