@@ -384,6 +384,29 @@ CURATED = {
     "H8269": [("Gen", "01fBS", "01fBS", "01r2p", "the officials of Pharaoh", "officials", None)],
     "H8432": [("Gen", "018M6", "018M6", "01wM5", "in the midst of the waters", "midst", None)],
     "H2719": [("Gen", "01RZP", "01FUa", "01RZP", "the flame of the sword", "sword", None)],
+
+    # Batch 14 (2026-08-30): next 20 nouns/pronouns. aharon has no
+    # Genesis occurrence, sourced from Exodus.
+    "H7586": [("Gen", "01pH1", "01KrB", "01pH1", "Saul reigned in his place", "Saul", None)],
+    "H3701": [("Gen", "01peM", "01peM", "01dMe", "in silver and gold", "silver", None)],
+    "H4196": [("Gen", "01em6", "01LXw", "01em6", "Noah built an altar", "altar", None)],
+    "H4725": [("Gen", "01Q7E", "01tRR", "01dv1", "to one place", "place", None)],
+    "H3220": [("Gen", "019KV", "01fJN", "019KV", "he called [them] seas", "seas", None)],
+    "H2091": [("Gen", "01vwH", "01vwH", "01vwH", "the gold", "gold", None)],
+    "H7307": [("Gen", "0137c", "0137c", "01x9c", "and the spirit of God", "spirit", None)],
+    "H784": [("Gen", "01hwb", "01icS", "01hwb", "and a flaming torch", "flaming", None)],
+    "H5002": [("Gen", "01CmJ", "01CmJ", "01Q6h", "declares the LORD", "declares", None)],
+    "H8179": [("Gen", "01kXh", "01SDq", "01URX", "sitting in the gate of Sodom", "gate", None)],
+    "H1818": [("Gen", "01jGA", "019Gr", "01Q9B", "the voice of your brother's blood", "blood", None)],
+    "H595": [("Gen", "01GFP", "01bcQ", "01GFP", "I was naked", "I", None)],
+    "H3290": [("Gen", "01DcB", "01etA", "01DcB", "he called his name Jacob", "Jacob", None)],
+    "H168": [("Gen", "01f7v", "01dip", "01f7v", "dwelling in tents", "tents", None)],
+    "H175": [("Exod", "02b2J", "025on", "02MnD", "is there not Aaron your brother", "Aaron", None)],
+    "H5439": [("Gen", "01av2", "01xBa", "01av2", "all around its border", "around", None)],
+    "H7704": [("Gen", "01GmF", "0189r", "01GmF", "the shrub of the field", "field", None)],
+    "H6086": [("Gen", "01fV3", "01fV3", "01Sov", "fruit tree", "tree", None)],
+    "H113": [("Gen", "01sDg", "01sDg", "01sDg", "my lord", "lord", None)],
+    "H3627": [("Gen", "01F4E", "01F4E", "01wMa", "vessels of silver", "vessels", None)],
 }
 
 # Lemmas Lane said to file away rather than force a single example onto --

@@ -2,9 +2,9 @@
   "metadata": {
     "source": "build_vocab_examples.py",
     "target_lemma_count": 544,
-    "curated_count": 283,
+    "curated_count": 303,
     "skipped": [],
-    "pending_count": 261
+    "pending_count": 241
   },
   "entries": [
     {
@@ -5946,6 +5946,426 @@
           "target_index": 1,
           "gloss": "the flame of the sword",
           "gloss_highlight": "sword",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H7586",
+      "citation_form": "שָׁאוּל",
+      "transliteration": "sha'ul",
+      "full_gloss": "Saul",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.36.37",
+          "surface_form": "שָׁאוּל",
+          "transliteration": "sha'ul",
+          "word_id": "01pH1",
+          "phrase_hebrew": "וַיִּמְלֹךְ תַּחְתָּיו שָׁאוּל",
+          "phrase_transliteration": "wayimlokh takhtayw sha'ul",
+          "target_index": 2,
+          "gloss": "Saul reigned in his place",
+          "gloss_highlight": "Saul",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H3701",
+      "citation_form": "כֶּסֶף",
+      "transliteration": "kesef",
+      "full_gloss": "silver, money",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.13.2",
+          "surface_form": "בַּכֶּסֶף",
+          "transliteration": "bakesef",
+          "word_id": "01peM",
+          "phrase_hebrew": "בַּכֶּסֶף וּבַזָּהָֽב",
+          "phrase_transliteration": "bakesef uvazahav",
+          "target_index": 0,
+          "gloss": "in silver and gold",
+          "gloss_highlight": "silver",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H4196",
+      "citation_form": "מִזְבֵּחַ",
+      "transliteration": "mizbeakh",
+      "full_gloss": "altar",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.8.20",
+          "surface_form": "מִזְבֵּחַ",
+          "transliteration": "mizbeakh",
+          "word_id": "01em6",
+          "phrase_hebrew": "וַיִּבֶן נֹחַ מִזְבֵּחַ",
+          "phrase_transliteration": "wayiven noakh mizbeakh",
+          "target_index": 2,
+          "gloss": "Noah built an altar",
+          "gloss_highlight": "altar",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H4725",
+      "citation_form": "מָקוֹם",
+      "transliteration": "maqom",
+      "full_gloss": "place",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.1.9",
+          "surface_form": "מָקוֹם",
+          "transliteration": "maqom",
+          "word_id": "01Q7E",
+          "phrase_hebrew": "אֶל מָקוֹם אֶחָד",
+          "phrase_transliteration": "'el maqom 'ekhad",
+          "target_index": 1,
+          "gloss": "to one place",
+          "gloss_highlight": "place",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H3220",
+      "citation_form": "יָם",
+      "transliteration": "yam",
+      "full_gloss": "sea",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.1.10",
+          "surface_form": "יַמִּים",
+          "transliteration": "yamim",
+          "word_id": "019KV",
+          "phrase_hebrew": "קָרָא יַמִּים",
+          "phrase_transliteration": "qara' yamim",
+          "target_index": 1,
+          "gloss": "he called [them] seas",
+          "gloss_highlight": "seas",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H2091",
+      "citation_form": "זָהָב",
+      "transliteration": "zahav",
+      "full_gloss": "gold",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.2.11",
+          "surface_form": "הַזָּהָֽב",
+          "transliteration": "hazahav",
+          "word_id": "01vwH",
+          "phrase_hebrew": "הַזָּהָֽב",
+          "phrase_transliteration": "hazahav",
+          "target_index": 0,
+          "gloss": "the gold",
+          "gloss_highlight": "gold",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H7307",
+      "citation_form": "רוּחַ",
+      "transliteration": "ruakh",
+      "full_gloss": "wind, breath, spirit",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.1.2",
+          "surface_form": "וְרוּחַ",
+          "transliteration": "weruakh",
+          "word_id": "0137c",
+          "phrase_hebrew": "וְרוּחַ אֱלֹהִים",
+          "phrase_transliteration": "weruakh 'elohim",
+          "target_index": 0,
+          "gloss": "and the spirit of God",
+          "gloss_highlight": "spirit",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H784",
+      "citation_form": "אֵשׁ",
+      "transliteration": "'esh",
+      "full_gloss": "fire",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.15.17",
+          "surface_form": "אֵשׁ",
+          "transliteration": "'esh",
+          "word_id": "01hwb",
+          "phrase_hebrew": "וְלַפִּיד אֵשׁ",
+          "phrase_transliteration": "welapid 'esh",
+          "target_index": 1,
+          "gloss": "and a flaming torch",
+          "gloss_highlight": "flaming",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H5002",
+      "citation_form": "נְאֻם",
+      "transliteration": "ne'um",
+      "full_gloss": "declaration, oracle",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.22.16",
+          "surface_form": "נְאֻם",
+          "transliteration": "ne'um",
+          "word_id": "01CmJ",
+          "phrase_hebrew": "נְאֻם יְהוָה",
+          "phrase_transliteration": "ne'um yehwah",
+          "target_index": 0,
+          "gloss": "declares the LORD",
+          "gloss_highlight": "declares",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H8179",
+      "citation_form": "שַׁעַר",
+      "transliteration": "sha`ar",
+      "full_gloss": "gate",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.19.1",
+          "surface_form": "בְּשַֽׁעַר",
+          "transliteration": "besha`ar",
+          "word_id": "01kXh",
+          "phrase_hebrew": "יֹשֵׁב בְּשַֽׁעַר סְדֹם",
+          "phrase_transliteration": "yoshev besha`ar sedom",
+          "target_index": 1,
+          "gloss": "sitting in the gate of Sodom",
+          "gloss_highlight": "gate",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H1818",
+      "citation_form": "דָּם",
+      "transliteration": "dam",
+      "full_gloss": "blood",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.4.10",
+          "surface_form": "דְּמֵי",
+          "transliteration": "demey",
+          "word_id": "01jGA",
+          "phrase_hebrew": "קוֹל דְּמֵי אָחִיךָ",
+          "phrase_transliteration": "qol demey 'akhikha",
+          "target_index": 1,
+          "gloss": "the voice of your brother's blood",
+          "gloss_highlight": "blood",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H595",
+      "citation_form": "אָנֹכִי",
+      "transliteration": "'anokhi",
+      "full_gloss": "I (emphatic)",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.3.10",
+          "surface_form": "אָנֹכִי",
+          "transliteration": "'anokhi",
+          "word_id": "01GFP",
+          "phrase_hebrew": "עֵירֹם אָנֹכִי",
+          "phrase_transliteration": "`eyrom 'anokhi",
+          "target_index": 1,
+          "gloss": "I was naked",
+          "gloss_highlight": "I",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H3290",
+      "citation_form": "יַעֲקֹב",
+      "transliteration": "ya`aqov",
+      "full_gloss": "Jacob",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.25.26",
+          "surface_form": "יַעֲקֹב",
+          "transliteration": "ya`aqov",
+          "word_id": "01DcB",
+          "phrase_hebrew": "שְׁמוֹ יַעֲקֹב",
+          "phrase_transliteration": "shemo ya`aqov",
+          "target_index": 1,
+          "gloss": "he called his name Jacob",
+          "gloss_highlight": "Jacob",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H168",
+      "citation_form": "אֹהֶל",
+      "transliteration": "'ohel",
+      "full_gloss": "tent",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.4.20",
+          "surface_form": "אֹהֶל",
+          "transliteration": "'ohel",
+          "word_id": "01f7v",
+          "phrase_hebrew": "יֹשֵׁב אֹהֶל",
+          "phrase_transliteration": "yoshev 'ohel",
+          "target_index": 1,
+          "gloss": "dwelling in tents",
+          "gloss_highlight": "tents",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H175",
+      "citation_form": "אַהֲרוֹן",
+      "transliteration": "'aharon",
+      "full_gloss": "Aaron",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Exod.4.14",
+          "surface_form": "אַהֲרֹן",
+          "transliteration": "'aharon",
+          "word_id": "02b2J",
+          "phrase_hebrew": "הֲלֹא אַהֲרֹן אָחִיךָ",
+          "phrase_transliteration": "halo' 'aharon 'akhikha",
+          "target_index": 1,
+          "gloss": "is there not Aaron your brother",
+          "gloss_highlight": "Aaron",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H5439",
+      "citation_form": "סָבִיב",
+      "transliteration": "saviv",
+      "full_gloss": "around, surrounding",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.23.17",
+          "surface_form": "סָבִֽיב",
+          "transliteration": "saviv",
+          "word_id": "01av2",
+          "phrase_hebrew": "גְּבֻלוֹ סָבִֽיב",
+          "phrase_transliteration": "gevulo saviv",
+          "target_index": 1,
+          "gloss": "all around its border",
+          "gloss_highlight": "around",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H7704",
+      "citation_form": "שָׂדֶה",
+      "transliteration": "sadeh",
+      "full_gloss": "field",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.2.5",
+          "surface_form": "הַשָּׂדֶה",
+          "transliteration": "hasadeh",
+          "word_id": "01GmF",
+          "phrase_hebrew": "שִׂיחַ הַשָּׂדֶה",
+          "phrase_transliteration": "siakh hasadeh",
+          "target_index": 1,
+          "gloss": "the shrub of the field",
+          "gloss_highlight": "field",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H6086",
+      "citation_form": "עֵץ",
+      "transliteration": "`ets",
+      "full_gloss": "tree, wood",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.1.11",
+          "surface_form": "עֵץ",
+          "transliteration": "`ets",
+          "word_id": "01fV3",
+          "phrase_hebrew": "עֵץ פְּרִי",
+          "phrase_transliteration": "`ets peri",
+          "target_index": 0,
+          "gloss": "fruit tree",
+          "gloss_highlight": "tree",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H113",
+      "citation_form": "אָדוֹן",
+      "transliteration": "'adon",
+      "full_gloss": "lord, master",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.18.3",
+          "surface_form": "אֲדֹנָי",
+          "transliteration": "'adonay",
+          "word_id": "01sDg",
+          "phrase_hebrew": "אֲדֹנָי",
+          "phrase_transliteration": "'adonay",
+          "target_index": 0,
+          "gloss": "my lord",
+          "gloss_highlight": "lord",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H3627",
+      "citation_form": "כְּלִי",
+      "transliteration": "keli",
+      "full_gloss": "vessel, utensil, tool",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.24.53",
+          "surface_form": "כְּלֵי",
+          "transliteration": "keley",
+          "word_id": "01F4E",
+          "phrase_hebrew": "כְּלֵי כֶסֶף",
+          "phrase_transliteration": "keley khesef",
+          "target_index": 0,
+          "gloss": "vessels of silver",
+          "gloss_highlight": "vessels",
           "gloss_note": null
         }
       ]
