@@ -316,6 +316,28 @@ CURATED = {
     "H7138": [("Gen", "01WqV", "01H37", "01YgK", "you shall be near me", "near", None)],
     "H2114": [("Exod", "02qBE", "02qBE", "02LSn", "an outsider shall not eat [it]", "outsider", "zur's participle used substantively (\"one who is estranged/a stranger\"), not describing the verb's action directly")],
     "H3684": [("Prov", "20dAC", "20GvF", "20dAC", "the complacency of fools", "fools", None)],
+
+    # Batch 11 (2026-08-30): first 20 nouns/pronouns by frequency.
+    "H3068": [("Gen", "01gcK", "01M7H", "01p7s", "when the LORD God made", "LORD", None)],
+    "H3605": [("Gen", "01xAF", "01xAF", "016w9", "every living creature", "every", None)],
+    "H1121": [("Gen", "01UeD", "01Mef", "01UeD", "after the name of his son", "son", None)],
+    "H430": [("Gen", "01TyA", "01Nvk", "01TyA", "God created", "God", None)],
+    "H4428": [("Gen", "01BFg", "01Tdr", "01T8E", "Amraphel king of Shinar", "king", None)],
+    "H3478": [("Gen", "01Q1E", "01Q1E", "01Q1E", "Israel", "Israel", None)],
+    "H776": [("Gen", "01nPh", "01nPh", "01nPh", "the earth", "earth", None)],
+    "H3117": [("Gen", "013TS", "013TS", "01NFp", "one day", "day", None)],
+    "H376": [("Gen", "01T85", "01Gpp", "01T85", "a man shall leave [his father]", "man", None)],
+    "H6440": [("Gen", "01EVS", "01qNN", "01PB6", "upon the face of the deep", "face", None)],
+    "H1004": [("Gen", "01LrK", "01pSV", "01LrK", "and all your household", "household", None)],
+    "H1931": [("Gen", "01ELV", "01XSi", "01ELV", "Pishon -- it is the one that flows around", "it", None)],
+    "H5971": [("Gen", "01WQT", "01LrY", "01m63", "behold, one people", "people", None)],
+    "H3027": [("Gen", "01Wgd", "01Wgd", "01Wgd", "from your hand", "hand", None)],
+    "H1697": [("Gen", "0142S", "0142S", "01rNq", "and the same words", "words", None)],
+    "H1": [("Gen", "01XZe", "01Jrt", "01XZe", "he was the father [of tent-dwellers]", "father", None)],
+    "H2088": [("Gen", "015Xt", "015Xt", "018jj", "this is the book", "this", None)],
+    "H859": [("Gen", "01ZgJ", "01WMb", "01ZgJ", "cursed are you", "you", None)],
+    "H5892": [("Gen", "01D9B", "01QR7", "01D9B", "he was building a city", "city", None)],
+    "H1732": [("Ruth", "08AuA", "08DR2", "08AuA", "and Jesse fathered David", "David", None)],
 }
 
 # Lemmas Lane said to file away rather than force a single example onto --

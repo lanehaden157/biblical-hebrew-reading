@@ -2,9 +2,9 @@
   "metadata": {
     "source": "build_vocab_examples.py",
     "target_lemma_count": 544,
-    "curated_count": 223,
+    "curated_count": 243,
     "skipped": [],
-    "pending_count": 321
+    "pending_count": 301
   },
   "entries": [
     {
@@ -4686,6 +4686,426 @@
           "target_index": 1,
           "gloss": "the complacency of fools",
           "gloss_highlight": "fools",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H3068",
+      "citation_form": "יְהֹוָה",
+      "transliteration": "yehowah",
+      "full_gloss": "YHWH",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.2.4",
+          "surface_form": "יְהוָה",
+          "transliteration": "yehwah",
+          "word_id": "01gcK",
+          "phrase_hebrew": "עֲשׂוֹת יְהוָה אֱלֹהִים",
+          "phrase_transliteration": "`asot yehwah 'elohim",
+          "target_index": 1,
+          "gloss": "when the LORD God made",
+          "gloss_highlight": "LORD",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H3605",
+      "citation_form": "כֹּל",
+      "transliteration": "kol",
+      "full_gloss": "all, every",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.1.21",
+          "surface_form": "כָּל",
+          "transliteration": "kal",
+          "word_id": "01xAF",
+          "phrase_hebrew": "כָּל נֶפֶשׁ הַֽחַיָּה",
+          "phrase_transliteration": "kal nefesh hakhayah",
+          "target_index": 0,
+          "gloss": "every living creature",
+          "gloss_highlight": "every",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H1121",
+      "citation_form": "בֵּן",
+      "transliteration": "ben",
+      "full_gloss": "son",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.4.17",
+          "surface_form": "בְּנוֹ",
+          "transliteration": "beno",
+          "word_id": "01UeD",
+          "phrase_hebrew": "כְּשֵׁם בְּנוֹ",
+          "phrase_transliteration": "keshem beno",
+          "target_index": 1,
+          "gloss": "after the name of his son",
+          "gloss_highlight": "son",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H430",
+      "citation_form": "אֱלֹהִים",
+      "transliteration": "'elohim",
+      "full_gloss": "God, gods",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.1.1",
+          "surface_form": "אֱלֹהִים",
+          "transliteration": "'elohim",
+          "word_id": "01TyA",
+          "phrase_hebrew": "בָּרָא אֱלֹהִים",
+          "phrase_transliteration": "bara' 'elohim",
+          "target_index": 1,
+          "gloss": "God created",
+          "gloss_highlight": "God",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H4428",
+      "citation_form": "מֶלֶךְ",
+      "transliteration": "melekh",
+      "full_gloss": "king",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.14.1",
+          "surface_form": "מֶֽלֶךְ",
+          "transliteration": "melekh",
+          "word_id": "01BFg",
+          "phrase_hebrew": "אַמְרָפֶל מֶֽלֶךְ שִׁנְעָר",
+          "phrase_transliteration": "'amrafel melekh shin`ar",
+          "target_index": 1,
+          "gloss": "Amraphel king of Shinar",
+          "gloss_highlight": "king",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H3478",
+      "citation_form": "יִשְׂרָאֵל",
+      "transliteration": "yisra'el",
+      "full_gloss": "Israel",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.32.29",
+          "surface_form": "יִשְׂרָאֵל",
+          "transliteration": "yisra'el",
+          "word_id": "01Q1E",
+          "phrase_hebrew": "יִשְׂרָאֵל",
+          "phrase_transliteration": "yisra'el",
+          "target_index": 0,
+          "gloss": "Israel",
+          "gloss_highlight": "Israel",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H776",
+      "citation_form": "אֶרֶץ",
+      "transliteration": "'erets",
+      "full_gloss": "land, earth",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.1.1",
+          "surface_form": "הָאָֽרֶץ",
+          "transliteration": "ha'arets",
+          "word_id": "01nPh",
+          "phrase_hebrew": "הָאָֽרֶץ",
+          "phrase_transliteration": "ha'arets",
+          "target_index": 0,
+          "gloss": "the earth",
+          "gloss_highlight": "earth",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H3117",
+      "citation_form": "יוֹם",
+      "transliteration": "yom",
+      "full_gloss": "day",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.1.5",
+          "surface_form": "יוֹם",
+          "transliteration": "yom",
+          "word_id": "013TS",
+          "phrase_hebrew": "יוֹם אֶחָֽד",
+          "phrase_transliteration": "yom 'ekhad",
+          "target_index": 0,
+          "gloss": "one day",
+          "gloss_highlight": "day",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H376",
+      "citation_form": "אִישׁ",
+      "transliteration": "'ish",
+      "full_gloss": "man",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.2.24",
+          "surface_form": "אִישׁ",
+          "transliteration": "'ish",
+          "word_id": "01T85",
+          "phrase_hebrew": "יַֽעֲזָב אִישׁ",
+          "phrase_transliteration": "ya`azav 'ish",
+          "target_index": 1,
+          "gloss": "a man shall leave [his father]",
+          "gloss_highlight": "man",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H6440",
+      "citation_form": "פָּנִים",
+      "transliteration": "panim",
+      "full_gloss": "face",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.1.2",
+          "surface_form": "פְּנֵי",
+          "transliteration": "peney",
+          "word_id": "01EVS",
+          "phrase_hebrew": "עַל פְּנֵי תְהוֹם",
+          "phrase_transliteration": "`al peney tehom",
+          "target_index": 1,
+          "gloss": "upon the face of the deep",
+          "gloss_highlight": "face",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H1004",
+      "citation_form": "בַּיִת",
+      "transliteration": "bayit",
+      "full_gloss": "house",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.7.1",
+          "surface_form": "בֵּיתְךָ",
+          "transliteration": "beytkha",
+          "word_id": "01LrK",
+          "phrase_hebrew": "וְכָל בֵּיתְךָ",
+          "phrase_transliteration": "wekhal beytkha",
+          "target_index": 1,
+          "gloss": "and all your household",
+          "gloss_highlight": "household",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H1931",
+      "citation_form": "הוּא",
+      "transliteration": "hu'",
+      "full_gloss": "he, it",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.2.11",
+          "surface_form": "הוּא",
+          "transliteration": "hu'",
+          "word_id": "01ELV",
+          "phrase_hebrew": "פִּישׁוֹן הוּא",
+          "phrase_transliteration": "pishon hu'",
+          "target_index": 1,
+          "gloss": "Pishon -- it is the one that flows around",
+          "gloss_highlight": "it",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H5971",
+      "citation_form": "עַם",
+      "transliteration": "`am",
+      "full_gloss": "people",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.11.6",
+          "surface_form": "עַם",
+          "transliteration": "`am",
+          "word_id": "01WQT",
+          "phrase_hebrew": "הֵן עַם אֶחָד",
+          "phrase_transliteration": "hen `am 'ekhad",
+          "target_index": 1,
+          "gloss": "behold, one people",
+          "gloss_highlight": "people",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H3027",
+      "citation_form": "יָד",
+      "transliteration": "yad",
+      "full_gloss": "hand",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.4.11",
+          "surface_form": "מִיָּדֶֽךָ",
+          "transliteration": "miyadekha",
+          "word_id": "01Wgd",
+          "phrase_hebrew": "מִיָּדֶֽךָ",
+          "phrase_transliteration": "miyadekha",
+          "target_index": 0,
+          "gloss": "from your hand",
+          "gloss_highlight": "hand",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H1697",
+      "citation_form": "דָּבָר",
+      "transliteration": "davar",
+      "full_gloss": "word, thing",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.11.1",
+          "surface_form": "וּדְבָרִים",
+          "transliteration": "udvarim",
+          "word_id": "0142S",
+          "phrase_hebrew": "וּדְבָרִים אֲחָדִֽים",
+          "phrase_transliteration": "udvarim 'akhadim",
+          "target_index": 0,
+          "gloss": "and the same words",
+          "gloss_highlight": "words",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H1",
+      "citation_form": "אָב",
+      "transliteration": "'av",
+      "full_gloss": "father",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.4.20",
+          "surface_form": "אֲבִי",
+          "transliteration": "'avi",
+          "word_id": "01XZe",
+          "phrase_hebrew": "הוּא הָיָה אֲבִי",
+          "phrase_transliteration": "hu' hayah 'avi",
+          "target_index": 2,
+          "gloss": "he was the father [of tent-dwellers]",
+          "gloss_highlight": "father",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H2088",
+      "citation_form": "זֶה",
+      "transliteration": "zeh",
+      "full_gloss": "this",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.5.1",
+          "surface_form": "זֶה",
+          "transliteration": "zeh",
+          "word_id": "015Xt",
+          "phrase_hebrew": "זֶה סֵפֶר",
+          "phrase_transliteration": "zeh sefer",
+          "target_index": 0,
+          "gloss": "this is the book",
+          "gloss_highlight": "this",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H859",
+      "citation_form": "אַתָּה",
+      "transliteration": "'atah",
+      "full_gloss": "you (m.s.)",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.3.14",
+          "surface_form": "אַתָּה",
+          "transliteration": "'atah",
+          "word_id": "01ZgJ",
+          "phrase_hebrew": "אָרוּר אַתָּה",
+          "phrase_transliteration": "'arur 'atah",
+          "target_index": 1,
+          "gloss": "cursed are you",
+          "gloss_highlight": "you",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H5892",
+      "citation_form": "עִיר",
+      "transliteration": "`ir",
+      "full_gloss": "city",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.4.17",
+          "surface_form": "עִיר",
+          "transliteration": "`ir",
+          "word_id": "01D9B",
+          "phrase_hebrew": "וַֽיְהִי בֹּנֶה עִיר",
+          "phrase_transliteration": "wayhi boneh `ir",
+          "target_index": 2,
+          "gloss": "he was building a city",
+          "gloss_highlight": "city",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H1732",
+      "citation_form": "דָּוִד",
+      "transliteration": "dawid",
+      "full_gloss": "David",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Ruth.4.22",
+          "surface_form": "דָּוִֽד",
+          "transliteration": "dawid",
+          "word_id": "08AuA",
+          "phrase_hebrew": "וְיִשַׁי הוֹלִיד אֶת דָּוִֽד",
+          "phrase_transliteration": "weyishay holid 'et dawid",
+          "target_index": 3,
+          "gloss": "and Jesse fathered David",
+          "gloss_highlight": "David",
           "gloss_note": null
         }
       ]
