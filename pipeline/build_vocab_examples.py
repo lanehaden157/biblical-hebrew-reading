@@ -522,6 +522,30 @@ CURATED = {
     "H1568": [("Gen", "01imi", "01ChQ", "01imi", "Mount Gilead", "Gilead", None)],
     "H4557": [("Gen", "018eG", "01125", "018eG", "few in number", "number", None)],
     "H5387": [("Gen", "01F8H", "0133v", "01F8H", "twelve princes", "princes", None)],
+
+    # Batch 20 (2026-08-30): next 20 nouns/pronouns. khomah, khizqiyah,
+    # khetsi, tsedeq have no Genesis occurrence, sourced from Joshua,
+    # 2 Kings, Exodus, and Psalms.
+    "H6153": [("Gen", "01NQN", "01Y3z", "01NQN", "there was evening", "evening", None)],
+    "H8121": [("Gen", "011qL", "01EMQ", "011qL", "the sun was going down", "sun", None)],
+    "H2346": [("Josh", "066E3", "06Jdo", "066P5", "the wall of the city will fall down", "wall", None)],
+    "H6499": [("Gen", "01WzM", "01WzM", "01TYq", "and ten bulls", "bulls", None)],
+    "H758": [("Gen", "012Bh", "012Bh", "012Bh", "and Aram", "Aram", None)],
+    "H2396": [("2Kgs", "12dor", "12ytA", "12kRt", "Hezekiah his son reigned", "Hezekiah", None)],
+    "H2706": [("Gen", "01eWQ", "01B2x", "01ZUN", "for it was a portion for the priests", "portion", None)],
+    "H3581": [("Gen", "01wp8", "014Ei", "01wp8", "to yield its strength", "strength", None)],
+    "H571": [("Gen", "01T4z", "01T4z", "01T4z", "and his faithfulness", "faithfulness", None)],
+    "H6106": [("Gen", "01CmP", "01CmP", "01LY2", "bone of my bones", "bone", None)],
+    "H2534": [("Gen", "01dGK", "01rLz", "01dGK", "until your brother's fury turns away", "fury", None)],
+    "H2677": [("Exod", "02q8X", "02PrL", "02q8X", "Moses took half of the blood", "half", None)],
+    "H6951": [("Gen", "01qjr", "01qjr", "01wRN", "into an assembly of peoples", "assembly", None)],
+    "H216": [("Gen", "01W26", "01fpo", "01W26", "let there be light", "light", None)],
+    "H587": [("Gen", "01ujL", "01aM6", "01ujL", "we are brothers", "we", None)],
+    "H7393": [("Gen", "01juN", "01daH", "01juN", "also chariots", "chariots", None)],
+    "H269": [("Gen", "01Ssu", "01Ssu", "01x1x", "and the sister of Tubal-Cain", "sister", None)],
+    "H5104": [("Gen", "01zCS", "01zCS", "01LsC", "a river flowed out of Eden", "river", None)],
+    "H6529": [("Gen", "01Sov", "01fV3", "01Sov", "fruit tree", "fruit", None)],
+    "H6664": [("Ps", "19koG", "19qVd", "19koG", "sacrifices of righteousness", "righteousness", None)],
 }
 
 # Lemmas Lane said to file away rather than force a single example onto --

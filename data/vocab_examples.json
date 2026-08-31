@@ -2,9 +2,9 @@
   "metadata": {
     "source": "build_vocab_examples.py",
     "target_lemma_count": 544,
-    "curated_count": 403,
+    "curated_count": 423,
     "skipped": [],
-    "pending_count": 141
+    "pending_count": 121
   },
   "entries": [
     {
@@ -8466,6 +8466,426 @@
           "target_index": 2,
           "gloss": "twelve princes",
           "gloss_highlight": "princes",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H6153",
+      "citation_form": "עֶרֶב",
+      "transliteration": "`erev",
+      "full_gloss": "evening",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.1.5",
+          "surface_form": "עֶרֶב",
+          "transliteration": "`erev",
+          "word_id": "01NQN",
+          "phrase_hebrew": "וַֽיְהִי עֶרֶב",
+          "phrase_transliteration": "wayhi `erev",
+          "target_index": 1,
+          "gloss": "there was evening",
+          "gloss_highlight": "evening",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H8121",
+      "citation_form": "שֶׁמֶשׁ",
+      "transliteration": "shemesh",
+      "full_gloss": "sun",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.15.12",
+          "surface_form": "הַשֶּׁמֶשׁ",
+          "transliteration": "hashemesh",
+          "word_id": "011qL",
+          "phrase_hebrew": "וַיְהִי הַשֶּׁמֶשׁ",
+          "phrase_transliteration": "wayhi hashemesh",
+          "target_index": 1,
+          "gloss": "the sun was going down",
+          "gloss_highlight": "sun",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H2346",
+      "citation_form": "חוֹמָה",
+      "transliteration": "khomah",
+      "full_gloss": "wall",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Josh.6.5",
+          "surface_form": "חוֹמַת",
+          "transliteration": "khomat",
+          "word_id": "066E3",
+          "phrase_hebrew": "וְנָפְלָה חוֹמַת הָעִיר",
+          "phrase_transliteration": "wenaflah khomat ha`ir",
+          "target_index": 1,
+          "gloss": "the wall of the city will fall down",
+          "gloss_highlight": "wall",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H6499",
+      "citation_form": "פַּר",
+      "transliteration": "par",
+      "full_gloss": "bull, bullock",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.32.16",
+          "surface_form": "וּפָרִים",
+          "transliteration": "ufarim",
+          "word_id": "01WzM",
+          "phrase_hebrew": "וּפָרִים עֲשָׂרָה",
+          "phrase_transliteration": "ufarim `asarah",
+          "target_index": 0,
+          "gloss": "and ten bulls",
+          "gloss_highlight": "bulls",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H758",
+      "citation_form": "אֲרָם",
+      "transliteration": "'aram",
+      "full_gloss": "Aram, Syria",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.10.22",
+          "surface_form": "וַֽאֲרָֽם",
+          "transliteration": "wa'aram",
+          "word_id": "012Bh",
+          "phrase_hebrew": "וַֽאֲרָֽם",
+          "phrase_transliteration": "wa'aram",
+          "target_index": 0,
+          "gloss": "and Aram",
+          "gloss_highlight": "Aram",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H2396",
+      "citation_form": "חִזְקִיָּה",
+      "transliteration": "khizqiyah",
+      "full_gloss": "Hezekiah",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "2Kgs.16.20",
+          "surface_form": "חִזְקִיָּהוּ",
+          "transliteration": "khizqiyahu",
+          "word_id": "12dor",
+          "phrase_hebrew": "וַיִּמְלֹךְ חִזְקִיָּהוּ בְנוֹ",
+          "phrase_transliteration": "wayimlokh khizqiyahu veno",
+          "target_index": 1,
+          "gloss": "Hezekiah his son reigned",
+          "gloss_highlight": "Hezekiah",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H2706",
+      "citation_form": "חֹק",
+      "transliteration": "khoq",
+      "full_gloss": "statute, decree, portion",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.47.22",
+          "surface_form": "חֹק",
+          "transliteration": "khoq",
+          "word_id": "01eWQ",
+          "phrase_hebrew": "כִּי חֹק לַכֹּהֲנִים",
+          "phrase_transliteration": "ki khoq lakohanim",
+          "target_index": 1,
+          "gloss": "for it was a portion for the priests",
+          "gloss_highlight": "portion",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H3581",
+      "citation_form": "כֹּחַ",
+      "transliteration": "koakh",
+      "full_gloss": "strength, power",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.4.12",
+          "surface_form": "כֹּחָהּ",
+          "transliteration": "kokhah",
+          "word_id": "01wp8",
+          "phrase_hebrew": "תֵּת כֹּחָהּ",
+          "phrase_transliteration": "tet kokhah",
+          "target_index": 1,
+          "gloss": "to yield its strength",
+          "gloss_highlight": "strength",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H571",
+      "citation_form": "אֶמֶת",
+      "transliteration": "'emet",
+      "full_gloss": "truth, faithfulness",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.24.27",
+          "surface_form": "וַאֲמִתּוֹ",
+          "transliteration": "wa'amito",
+          "word_id": "01T4z",
+          "phrase_hebrew": "וַאֲמִתּוֹ",
+          "phrase_transliteration": "wa'amito",
+          "target_index": 0,
+          "gloss": "and his faithfulness",
+          "gloss_highlight": "faithfulness",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H6106",
+      "citation_form": "עֶצֶם",
+      "transliteration": "`etsem",
+      "full_gloss": "bone; substance, self",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.2.23",
+          "surface_form": "עֶצֶם",
+          "transliteration": "`etsem",
+          "word_id": "01CmP",
+          "phrase_hebrew": "עֶצֶם מֵֽעֲצָמַי",
+          "phrase_transliteration": "`etsem me`atsamay",
+          "target_index": 0,
+          "gloss": "bone of my bones",
+          "gloss_highlight": "bone",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H2534",
+      "citation_form": "חֵמָה",
+      "transliteration": "khemah",
+      "full_gloss": "heat, wrath, anger",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.27.44",
+          "surface_form": "חֲמַת",
+          "transliteration": "khamat",
+          "word_id": "01dGK",
+          "phrase_hebrew": "תָּשׁוּב חֲמַת",
+          "phrase_transliteration": "tashuv khamat",
+          "target_index": 1,
+          "gloss": "until your brother's fury turns away",
+          "gloss_highlight": "fury",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H2677",
+      "citation_form": "חֵצִי",
+      "transliteration": "khetsi",
+      "full_gloss": "half",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Exod.24.6",
+          "surface_form": "חֲצִי",
+          "transliteration": "khatsi",
+          "word_id": "02q8X",
+          "phrase_hebrew": "מֹשֶׁה חֲצִי",
+          "phrase_transliteration": "mosheh khatsi",
+          "target_index": 1,
+          "gloss": "Moses took half of the blood",
+          "gloss_highlight": "half",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H6951",
+      "citation_form": "קָהָל",
+      "transliteration": "qahal",
+      "full_gloss": "assembly, congregation",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.28.3",
+          "surface_form": "לִקְהַל",
+          "transliteration": "liqhal",
+          "word_id": "01qjr",
+          "phrase_hebrew": "לִקְהַל עַמִּֽים",
+          "phrase_transliteration": "liqhal `amim",
+          "target_index": 0,
+          "gloss": "into an assembly of peoples",
+          "gloss_highlight": "assembly",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H216",
+      "citation_form": "אוֹר",
+      "transliteration": "'or",
+      "full_gloss": "light",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.1.3",
+          "surface_form": "אוֹר",
+          "transliteration": "'or",
+          "word_id": "01W26",
+          "phrase_hebrew": "יְהִי אוֹר",
+          "phrase_transliteration": "yehi 'or",
+          "target_index": 1,
+          "gloss": "let there be light",
+          "gloss_highlight": "light",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H587",
+      "citation_form": "אֲנַחְנוּ",
+      "transliteration": "'anakhnu",
+      "full_gloss": "we",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.13.8",
+          "surface_form": "אֲנָֽחְנוּ",
+          "transliteration": "'anakhnu",
+          "word_id": "01ujL",
+          "phrase_hebrew": "אַחִים אֲנָֽחְנוּ",
+          "phrase_transliteration": "'akhim 'anakhnu",
+          "target_index": 1,
+          "gloss": "we are brothers",
+          "gloss_highlight": "we",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H7393",
+      "citation_form": "רֶכֶב",
+      "transliteration": "rekhev",
+      "full_gloss": "chariot, chariotry",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.50.9",
+          "surface_form": "רֶכֶב",
+          "transliteration": "rekhev",
+          "word_id": "01juN",
+          "phrase_hebrew": "גַּם רֶכֶב",
+          "phrase_transliteration": "gam rekhev",
+          "target_index": 1,
+          "gloss": "also chariots",
+          "gloss_highlight": "chariots",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H269",
+      "citation_form": "אָחוֹת",
+      "transliteration": "'akhot",
+      "full_gloss": "sister",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.4.22",
+          "surface_form": "וַֽאֲחוֹת",
+          "transliteration": "wa'akhot",
+          "word_id": "01Ssu",
+          "phrase_hebrew": "וַֽאֲחוֹת תּֽוּבַל",
+          "phrase_transliteration": "wa'akhot tuval",
+          "target_index": 0,
+          "gloss": "and the sister of Tubal-Cain",
+          "gloss_highlight": "sister",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H5104",
+      "citation_form": "נָהָר",
+      "transliteration": "nahar",
+      "full_gloss": "river",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.2.10",
+          "surface_form": "וְנָהָרּ",
+          "transliteration": "wenahar",
+          "word_id": "01zCS",
+          "phrase_hebrew": "וְנָהָרּ יֹצֵא",
+          "phrase_transliteration": "wenahar yotse'",
+          "target_index": 0,
+          "gloss": "a river flowed out of Eden",
+          "gloss_highlight": "river",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H6529",
+      "citation_form": "פְּרִי",
+      "transliteration": "peri",
+      "full_gloss": "fruit",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.1.11",
+          "surface_form": "פְּרִי",
+          "transliteration": "peri",
+          "word_id": "01Sov",
+          "phrase_hebrew": "עֵץ פְּרִי",
+          "phrase_transliteration": "`ets peri",
+          "target_index": 1,
+          "gloss": "fruit tree",
+          "gloss_highlight": "fruit",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H6664",
+      "citation_form": "צֶדֶק",
+      "transliteration": "tsedeq",
+      "full_gloss": "righteousness, justice",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Ps.4.6",
+          "surface_form": "צֶדֶק",
+          "transliteration": "tsedeq",
+          "word_id": "19koG",
+          "phrase_hebrew": "זִבְחֵי צֶדֶק",
+          "phrase_transliteration": "zivkhey tsedeq",
+          "target_index": 1,
+          "gloss": "sacrifices of righteousness",
+          "gloss_highlight": "righteousness",
           "gloss_note": null
         }
       ]
