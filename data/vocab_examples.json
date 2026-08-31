@@ -2,9 +2,9 @@
   "metadata": {
     "source": "build_vocab_examples.py",
     "target_lemma_count": 544,
-    "curated_count": 60,
+    "curated_count": 80,
     "skipped": [],
-    "pending_count": 484
+    "pending_count": 464
   },
   "entries": [
     {
@@ -1263,6 +1263,426 @@
           "target_index": 1,
           "gloss": "whom you love",
           "gloss_highlight": "love",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H3254",
+      "citation_form": "יָסַף",
+      "transliteration": "yasaf",
+      "full_gloss": "add, do again, continue",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.4.2",
+          "surface_form": "וַתֹּסֶף",
+          "transliteration": "watosef",
+          "word_id": "01Hod",
+          "phrase_hebrew": "וַתֹּסֶף לָלֶדֶת",
+          "phrase_transliteration": "watosef laledet",
+          "target_index": 0,
+          "gloss": "she bore [him] again",
+          "gloss_highlight": "again",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H3467",
+      "citation_form": "יָשַׁע",
+      "transliteration": "yasha`",
+      "full_gloss": "save, deliver, help",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Exod.14.30",
+          "surface_form": "וַיּוֹשַׁע",
+          "transliteration": "wayosha`",
+          "word_id": "026Da",
+          "phrase_hebrew": "וַיּוֹשַׁע יְהוָה",
+          "phrase_transliteration": "wayosha` yehwah",
+          "target_index": 0,
+          "gloss": "the LORD saved [Israel]",
+          "gloss_highlight": "saved",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H3615",
+      "citation_form": "כָּלָה",
+      "transliteration": "kalah",
+      "full_gloss": "finish, complete, come to an end",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.2.2",
+          "surface_form": "וַיְכַל",
+          "transliteration": "waykhal",
+          "word_id": "01Hnw",
+          "phrase_hebrew": "וַיְכַל אֱלֹהִים",
+          "phrase_transliteration": "waykhal 'elohim",
+          "target_index": 0,
+          "gloss": "God finished",
+          "gloss_highlight": "finished",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H8199",
+      "citation_form": "שָׁפַט",
+      "transliteration": "shafat",
+      "full_gloss": "judge, govern",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.16.5",
+          "surface_form": "יִשְׁפֹּט",
+          "transliteration": "yishpot",
+          "word_id": "01ujg",
+          "phrase_hebrew": "יִשְׁפֹּט יְהוָה",
+          "phrase_transliteration": "yishpot yehwah",
+          "target_index": 0,
+          "gloss": "may the LORD judge",
+          "gloss_highlight": "judge",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H622",
+      "citation_form": "אָסַף",
+      "transliteration": "'asaf",
+      "full_gloss": "gather",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.6.21",
+          "surface_form": "וְאָסַפְתָּ",
+          "transliteration": "we'asafta",
+          "word_id": "01g5k",
+          "phrase_hebrew": "וְאָסַפְתָּ אֵלֶיךָ",
+          "phrase_transliteration": "we'asafta 'eleykha",
+          "target_index": 0,
+          "gloss": "gather [food] to yourself",
+          "gloss_highlight": "gather",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H3201",
+      "citation_form": "יָכֹל",
+      "transliteration": "yakhol",
+      "full_gloss": "be able, can, prevail",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Jonah.1.13",
+          "surface_form": "יָכֹלוּ",
+          "transliteration": "yakholu",
+          "word_id": "327mS",
+          "phrase_hebrew": "וְלֹא יָכֹלוּ",
+          "phrase_transliteration": "welo' yakholu",
+          "target_index": 1,
+          "gloss": "but they were not able",
+          "gloss_highlight": "able",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H7311",
+      "citation_form": "רוּם",
+      "transliteration": "rum",
+      "full_gloss": "be high, be exalted, rise",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.7.17",
+          "surface_form": "וַתָּרָם",
+          "transliteration": "wataram",
+          "word_id": "015TM",
+          "phrase_hebrew": "וַתָּרָם מֵעַל הָאָֽרֶץ",
+          "phrase_transliteration": "wataram me`al ha'arets",
+          "target_index": 0,
+          "gloss": "it rose above the earth",
+          "gloss_highlight": "rose",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H1540",
+      "citation_form": "גָּלָה",
+      "transliteration": "galah",
+      "full_gloss": "uncover, reveal; go into exile",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.35.7",
+          "surface_form": "נִגְלוּ",
+          "transliteration": "niglu",
+          "word_id": "01CFi",
+          "phrase_hebrew": "נִגְלוּ אֵלָיו",
+          "phrase_transliteration": "niglu 'elayw",
+          "target_index": 0,
+          "gloss": "God had revealed himself to him",
+          "gloss_highlight": "revealed",
+          "gloss_note": "a Niphal (reflexive) form -- galah's core sense is to uncover/reveal"
+        }
+      ]
+    },
+    {
+      "lemma_id": "H7650",
+      "citation_form": "שָׁבַע",
+      "transliteration": "shava`",
+      "full_gloss": "swear, take an oath",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.21.23",
+          "surface_form": "הִשָּׁבְעָה",
+          "transliteration": "hishav`ah",
+          "word_id": "01qYw",
+          "phrase_hebrew": "הִשָּׁבְעָה לִּי",
+          "phrase_transliteration": "hishav`ah li",
+          "target_index": 0,
+          "gloss": "swear to me",
+          "gloss_highlight": "swear",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H6",
+      "citation_form": "אָבַד",
+      "transliteration": "'avad",
+      "full_gloss": "perish, be destroyed; destroy",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Jonah.1.14",
+          "surface_form": "נֹאבְדָה",
+          "transliteration": "no'vdah",
+          "word_id": "326qf",
+          "phrase_hebrew": "אַל נָא נֹאבְדָה",
+          "phrase_transliteration": "'al na' no'vdah",
+          "target_index": 2,
+          "gloss": "let us not perish",
+          "gloss_highlight": "perish",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H3898",
+      "citation_form": "לָחַם",
+      "transliteration": "lakham",
+      "full_gloss": "fight, wage war",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Exod.14.14",
+          "surface_form": "יִלָּחֵם",
+          "transliteration": "yilakhem",
+          "word_id": "02nt7",
+          "phrase_hebrew": "יְהוָה יִלָּחֵם לָכֶם",
+          "phrase_transliteration": "yehwah yilakhem lakhem",
+          "target_index": 1,
+          "gloss": "the LORD will fight for you",
+          "gloss_highlight": "fight",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H7592",
+      "citation_form": "שָׁאַל",
+      "transliteration": "sha'al",
+      "full_gloss": "ask, inquire, request",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.24.47",
+          "surface_form": "וָאֶשְׁאַל",
+          "transliteration": "wa'esh'al",
+          "word_id": "01xy2",
+          "phrase_hebrew": "וָאֶשְׁאַל אֹתָהּ",
+          "phrase_transliteration": "wa'esh'al 'otah",
+          "target_index": 0,
+          "gloss": "I asked her",
+          "gloss_highlight": "asked",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H7812",
+      "citation_form": "שָׁחָה",
+      "transliteration": "shakhah",
+      "full_gloss": "bow down, worship",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.18.2",
+          "surface_form": "וַיִּשְׁתַּחוּ",
+          "transliteration": "wayishtakhu",
+          "word_id": "01bdm",
+          "phrase_hebrew": "וַיִּשְׁתַּחוּ אָֽרְצָה",
+          "phrase_transliteration": "wayishtakhu 'artsah",
+          "target_index": 0,
+          "gloss": "he bowed down to the ground",
+          "gloss_highlight": "bowed down",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H6942",
+      "citation_form": "קָדַשׁ",
+      "transliteration": "qadash",
+      "full_gloss": "be holy, consecrate, sanctify",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.2.3",
+          "surface_form": "וַיְקַדֵּשׁ",
+          "transliteration": "wayqadesh",
+          "word_id": "01jv3",
+          "phrase_hebrew": "וַיְקַדֵּשׁ אֹתוֹ",
+          "phrase_transliteration": "wayqadesh 'oto",
+          "target_index": 0,
+          "gloss": "he sanctified it",
+          "gloss_highlight": "sanctified",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H995",
+      "citation_form": "בִּין",
+      "transliteration": "bin",
+      "full_gloss": "understand, discern",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.41.33",
+          "surface_form": "נָבוֹן",
+          "transliteration": "navon",
+          "word_id": "01PSv",
+          "phrase_hebrew": "אִישׁ נָבוֹן",
+          "phrase_transliteration": "'ish navon",
+          "target_index": 1,
+          "gloss": "a discerning man",
+          "gloss_highlight": "discerning",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H977",
+      "citation_form": "בָּחַר",
+      "transliteration": "bakhar",
+      "full_gloss": "choose",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.13.11",
+          "surface_form": "וַיִּבְחַר",
+          "transliteration": "wayivkhar",
+          "word_id": "01ino",
+          "phrase_hebrew": "וַיִּבְחַר לוֹ לוֹט",
+          "phrase_transliteration": "wayivkhar lo lot",
+          "target_index": 0,
+          "gloss": "Lot chose for himself",
+          "gloss_highlight": "chose",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H2026",
+      "citation_form": "הָרַג",
+      "transliteration": "harag",
+      "full_gloss": "kill, slay",
+      "sense_count": 2,
+      "examples": [
+        {
+          "ref": "Gen.4.8",
+          "surface_form": "וַיַּהַרְגֵֽהוּ",
+          "transliteration": "wayahargehu",
+          "word_id": "01c5a",
+          "phrase_hebrew": "וַיַּהַרְגֵֽהוּ",
+          "phrase_transliteration": "wayahargehu",
+          "target_index": 0,
+          "gloss": "he killed him",
+          "gloss_highlight": "killed",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H1875",
+      "citation_form": "דָּרַשׁ",
+      "transliteration": "darash",
+      "full_gloss": "seek, inquire, require",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.25.22",
+          "surface_form": "לִדְרֹשׁ",
+          "transliteration": "lidrosh",
+          "word_id": "01pvb",
+          "phrase_hebrew": "וַתֵּלֶךְ לִדְרֹשׁ",
+          "phrase_transliteration": "watelekh lidrosh",
+          "target_index": 1,
+          "gloss": "she went to inquire [of the LORD]",
+          "gloss_highlight": "inquire",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H1984",
+      "citation_form": "הָלַל",
+      "transliteration": "halal",
+      "full_gloss": "praise",
+      "sense_count": 1,
+      "examples": [
+        {
+          "ref": "Gen.12.15",
+          "surface_form": "וַיְהַֽלְלוּ",
+          "transliteration": "wayhallu",
+          "word_id": "01RiY",
+          "phrase_hebrew": "וַיְהַֽלְלוּ אֹתָהּ",
+          "phrase_transliteration": "wayhallu 'otah",
+          "target_index": 0,
+          "gloss": "they praised her",
+          "gloss_highlight": "praised",
+          "gloss_note": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "H7462",
+      "citation_form": "רָעָה",
+      "transliteration": "ra`ah",
+      "full_gloss": "shepherd, tend, pasture",
+      "sense_count": 3,
+      "examples": [
+        {
+          "ref": "Gen.4.2",
+          "surface_form": "רֹעֵה",
+          "transliteration": "ro`eh",
+          "word_id": "015oN",
+          "phrase_hebrew": "הֶבֶל רֹעֵה צֹאן",
+          "phrase_transliteration": "hevel ro`eh tso'n",
+          "target_index": 1,
+          "gloss": "Abel was a shepherd of sheep",
+          "gloss_highlight": "shepherd",
           "gloss_note": null
         }
       ]

@@ -130,6 +130,30 @@ CURATED = {
     "H5337": [("Gen", "01bNf", "01bNf", "01gYW", "God delivered [it]", "delivered", "here of God transferring Laban's flocks to Jacob, not a rescue from danger")],
     "H7901": [("Jonah", "32tKT", "32tKT", "32NRT", "he lay down and fell asleep", "lay down", None)],
     "H157": [("Gen", "018Fj", "01ESV", "018Fj", "whom you love", "love", None)],
+
+    # Batch 4 (2026-08-30): next 20 verbs. yasha` and lakham have no
+    # Genesis/Jonah/Ruth occurrence -- both sourced from Exodus 14, one of
+    # CLAUDE.md's target reading chapters, which is a bonus fit.
+    "H3254": [("Gen", "01Hod", "01Hod", "01LbG", "she bore [him] again", "again", None)],
+    "H3467": [("Exod", "026Da", "026Da", "02C4U", "the LORD saved [Israel]", "saved", None)],
+    "H3615": [("Gen", "01Hnw", "01Hnw", "01pXi", "God finished", "finished", None)],
+    "H8199": [("Gen", "01ujg", "01ujg", "01n8U", "may the LORD judge", "judge", None)],
+    "H622": [("Gen", "01g5k", "01g5k", "01wJN", "gather [food] to yourself", "gather", None)],
+    "H3201": [("Jonah", "327mS", "32cn3", "327mS", "but they were not able", "able", None)],
+    "H7311": [("Gen", "015TM", "015TM", "01ygk", "it rose above the earth", "rose", None)],
+    "H1540": [("Gen", "01CFi", "01CFi", "01Ksw", "God had revealed himself to him", "revealed", "a Niphal (reflexive) form -- galah's core sense is to uncover/reveal")],
+    "H7650": [("Gen", "01qYw", "01qYw", "01gBf", "swear to me", "swear", None)],
+    "H6": [("Jonah", "326qf", "32CZB", "326qf", "let us not perish", "perish", None)],
+    "H3898": [("Exod", "02nt7", "02VX2", "02Pk3", "the LORD will fight for you", "fight", None)],
+    "H7592": [("Gen", "01xy2", "01xy2", "01Tpm", "I asked her", "asked", None)],
+    "H7812": [("Gen", "01bdm", "01bdm", "01qiM", "he bowed down to the ground", "bowed down", None)],
+    "H6942": [("Gen", "01jv3", "01jv3", "01ggL", "he sanctified it", "sanctified", None)],
+    "H995": [("Gen", "01PSv", "01zs3", "01PSv", "a discerning man", "discerning", None)],
+    "H977": [("Gen", "01ino", "01ino", "01ZsF", "Lot chose for himself", "chose", None)],
+    "H2026": [("Gen", "01c5a", "01c5a", "01c5a", "he killed him", "killed", None)],
+    "H1875": [("Gen", "01pvb", "01Ygk", "01pvb", "she went to inquire [of the LORD]", "inquire", None)],
+    "H1984": [("Gen", "01RiY", "01RiY", "01ZhF", "they praised her", "praised", None)],
+    "H7462": [("Gen", "015oN", "01mQU", "01HQC", "Abel was a shepherd of sheep", "shepherd", None)],
 }
 
 # Lemmas Lane said to file away rather than force a single example onto --
