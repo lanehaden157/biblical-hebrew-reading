@@ -6,6 +6,7 @@ already present. Delete pipeline/corpus/ to force a re-fetch.
 Sources are pinned to a specific npm version / git commit so the corpus we
 build against does not silently drift under us.
 """
+import hashlib
 import io
 import os
 import tarfile
@@ -18,6 +19,9 @@ LEXICON_DIR = os.path.join(CORPUS_DIR, "lexicon")
 
 MORPHHB_VERSION = "2.0.2"
 MORPHHB_URL = f"https://registry.npmjs.org/morphhb/-/morphhb-{MORPHHB_VERSION}.tgz"
+# Registry-published sha1 for morphhb-2.0.2.tgz (checked 2026-09-12); catches a
+# silently-republished or corrupted tarball before it enters the corpus.
+MORPHHB_SHA1 = "2ea8c8adc94ff7bd1b3ac3fdbcfd1a489a4c145a"
 
 # openscriptures/HebrewLexicon has no version tags; pin to a specific commit
 # (checked 2026-08-22) rather than "master" so the fetch is reproducible.
@@ -28,6 +32,9 @@ HEBREWLEXICON_URL = (
 
 EXPECTED_BOOK_COUNT = 39  # 39 canonical Protestant OT books, one XML file each
 
+# AugIndex.xml resolves the augmented lemma ids (e.g. "1254 a") that morphhb uses.
+LEXICON_FILES = ("AugIndex.xml", "LexicalIndex.xml", "HebrewStrong.xml", "BrownDriverBriggs.xml")
+
 
 def already_fetched():
     if not os.path.isdir(WLC_DIR):
@@ -35,7 +42,7 @@ def already_fetched():
     xml_files = [f for f in os.listdir(WLC_DIR) if f.endswith(".xml")]
     if len(xml_files) < EXPECTED_BOOK_COUNT:
         return False
-    return os.path.isfile(os.path.join(LEXICON_DIR, "HebrewStrong.xml"))
+    return all(os.path.isfile(os.path.join(LEXICON_DIR, f)) for f in LEXICON_FILES)
 
 
 def fetch_morphhb():
@@ -43,6 +50,12 @@ def fetch_morphhb():
     with urllib.request.urlopen(MORPHHB_URL) as resp:
         data = resp.read()
     print(f"  {len(data) / 1e6:.1f} MB downloaded")
+    digest = hashlib.sha1(data).hexdigest()
+    if digest != MORPHHB_SHA1:
+        raise RuntimeError(
+            f"morphhb-{MORPHHB_VERSION}.tgz sha1 mismatch: expected {MORPHHB_SHA1}, got {digest} "
+            "-- tarball may have changed or download was corrupted"
+        )
     os.makedirs(WLC_DIR, exist_ok=True)
     n = 0
     with tarfile.open(fileobj=io.BytesIO(data), mode="r:gz") as tar:
@@ -70,19 +83,21 @@ def fetch_lexicon():
         data = resp.read()
     print(f"  {len(data) / 1e6:.1f} MB downloaded")
     os.makedirs(LEXICON_DIR, exist_ok=True)
-    found = False
+    found = set()
     with tarfile.open(fileobj=io.BytesIO(data), mode="r:gz") as tar:
         for member in tar.getmembers():
             if not member.isfile():
                 continue
-            if os.path.basename(member.name) == "HebrewStrong.xml":
-                member.name = "HebrewStrong.xml"
+            # Top-level files only; the archive root is HebrewLexicon-<commit>/
+            base = os.path.basename(member.name)
+            if base in LEXICON_FILES and member.name.count("/") == 1:
+                member.name = base
                 tar.extract(member, path=LEXICON_DIR, filter="data")
-                found = True
-                break
-    if not found:
-        raise RuntimeError("HebrewStrong.xml not found in HebrewLexicon archive")
-    print(f"  extracted HebrewStrong.xml to {LEXICON_DIR}")
+                found.add(base)
+    missing = set(LEXICON_FILES) - found
+    if missing:
+        raise RuntimeError(f"not found in HebrewLexicon archive: {sorted(missing)}")
+    print(f"  extracted {', '.join(LEXICON_FILES)} to {LEXICON_DIR}")
 
 
 def main():
