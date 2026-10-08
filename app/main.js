@@ -58,6 +58,7 @@ function settingsScreen() {
     toggle('5-minute day (review and one reading, no new items)', 'fiveMin'));
 }
 
+window.addEventListener('exit-session', () => todayScreen());
 nav.addEventListener('click', e => {
   const t = e.target.dataset && e.target.dataset.t;
   if (t === 'today') todayScreen(); else if (t === 'lessons') lessonsScreen(); else if (t === 'settings') settingsScreen();

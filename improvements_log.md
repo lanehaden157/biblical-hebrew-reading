@@ -63,3 +63,4 @@
 ## 2026-10-08 — Phase 4a (app core)
 - New: index.html, sw.js, app/{data,store,srs,render,cards,lessons,session,main}.js, app/style.css, pipeline/verify_app.py.
 - Removed legacy package.json, package-lock.json, morphology-reference.md, transliteration-reference.md.
+- Lesson layout: Hebrew inline with English text, translit on tap in parentheses; Exit button on every session screen.

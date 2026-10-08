@@ -41,3 +41,11 @@ button.start { width:100%; padding:20px; font-size:1.2rem; }
 .toggle { display:block; margin:16px 0; }
 #nav { position:fixed; bottom:0; left:0; right:0; display:flex; background:var(--bg); border-top:1px solid var(--line); padding-bottom:env(safe-area-inset-bottom); }
 #nav[hidden] { display:none; } #nav button { flex:1; border:0; border-radius:0; background:none; color:var(--mut); } #nav button.on { color:var(--acc); }
+.lesson .w { display:inline; margin:0 .2em; }
+.lesson .he { display:inline; font-size:1.45em; line-height:1.3; unicode-bidi:isolate; }
+.lesson .tr { display:inline; font-size:.8em; margin-left:.25em; }
+.lesson .tr::before { content:"("; } .lesson .tr::after { content:")"; }
+.lesson .tr.hid { display:none; }
+.lw { white-space:normal; }
+.lesson p, .lesson li { line-height:1.9; }
+.exit { float:right; background:none; border:0; color:var(--mut); padding:0 4px; min-height:0; font-size:.85rem; }

@@ -104,7 +104,7 @@ function lessonsFor(newItems) {
 // ---------- UI ----------
 
 function stage(root, label) {
-  root.replaceChildren(h('div', { class: 'stage' }, label));
+  root.replaceChildren(h('div', { class: 'stage' }, h('button', { class: 'exit', onclick: () => window.dispatchEvent(new Event('exit-session')) }, 'Exit'), label));
   const box = h('div', { class: 'card' });
   root.append(box);
   window.scrollTo(0, 0);
