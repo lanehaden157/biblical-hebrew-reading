@@ -54,3 +54,8 @@
 - Added pipeline/web.py, tahot.py, lexicon.py, build_text.py, verify_text.py (data/text per chapter).
 - Added build_items.py, build_lessons.py, verify_content.py, review_page.py + template, apply_review.py; lessons/unit0-1.md; glosses/*.json.
 - translit.py returns read-only `features`. Review page artifact PtU2bU41Fshzt4dWBi9KBh.
+
+## 2026-10-08 — Phase 3 part 2 (Units 2-3 content)
+- build_items.py: `SEGMENTS` + `segment_classes()` (noun endings, suffix shapes, directional -ah, story-tense markers) with `hlc` letter ranges; `build_names`; `pick_forms` (next wayyiqtol, one per lemma+parse, skips fully quarantined); form `facets`; verse readings (M8c); units.json `parse`.
+- glosses: lemmas 51-190, forms (61 more), names.json (10). lessons/unit2.md (9), unit3.md (5).
+- verify_content.py: re-classifies segment exemplars, letter ranges, short/long pairs, facets, names.

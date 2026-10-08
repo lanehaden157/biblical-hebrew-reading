@@ -1,0 +1,13 @@
+{
+ "_note": "Curated name glosses (item type 10: who/where). Key = OSHB lemma. Checked against TBESH/BDB. reviewed is set only via pipeline/apply_review.py.",
+ "3068": {"gloss": "YHWH (the LORD): the name of Israel's God", "source": "curated vs BDB (TBESH)", "reviewed": false},
+ "3478": {"gloss": "Israel: Jacob's other name; the people descended from him; (later) the northern kingdom", "source": "curated vs BDB (TBESH)", "reviewed": false},
+ "1732": {"gloss": "David: Jesse's son, second king of Israel", "source": "curated vs BDB (TBESH)", "reviewed": false},
+ "4872": {"gloss": "Moses: leader of Israel out of Egypt", "source": "curated vs BDB (TBESH)", "reviewed": false},
+ "7586": {"gloss": "Saul: first king of Israel, a Benjaminite", "source": "curated vs BDB (TBESH)", "reviewed": false},
+ "4714": {"gloss": "Egypt (place); also the Egyptians", "source": "curated vs BDB (TBESH)", "reviewed": false},
+ "3063": {"gloss": "Judah: Jacob's son; his tribe and territory; (later) the southern kingdom", "source": "curated vs BDB (TBESH)", "reviewed": false},
+ "6430": {"gloss": "Philistine(s): people of the southern coastal plain, Israel's enemies", "source": "curated vs BDB (TBESH)", "reviewed": false},
+ "6547": {"gloss": "Pharaoh: title of the king of Egypt", "source": "curated vs BDB (TBESH)", "reviewed": false},
+ "175": {"gloss": "Aaron: Moses' brother, the first high priest", "source": "curated vs BDB (TBESH)", "reviewed": false}
+}

@@ -25,10 +25,15 @@ Phase log for the v1 rebuild (see `BUILD_PLAN.md`). Pre-rebuild history: tag `v0
 - Lane decisions: core 750; Unit 11 teaches only rule-opaque forms; Gen 12:1-9 opens Unit 6; 2 Sam 1:19-27 and 2 Kgs 19:21-28 now poems (corpus 123,358 tokens); hishtachaveh one card, no stem facet. Recorded in SPEC section 7.
 - Next: Phase 3 content, Units 0-3.
 
-## Phase 3 — Content (Units 0-1 built 2026-10-08; Lane gloss review pending)
+## Phase 3 — Content, Units 0-3 (done 2026-10-08)
 - Text layer `build_text.py` -> `data/text/<Book>/<ch>.json` (281 chapters, 21 MB): token, translit, TAHOT per-word gloss (99.96%; rest TBESH), TAHOT sense tag, WEB English via TVTMS map. Gate `verify_text.py` (~25 s).
 - WEB's Strong's tags sit one verse off in renumbered chapters (Gen 32, Exod 8, ...), so the map is checked against TAHOT English instead: 16 weak verses (cap 25).
 - Items `build_items.py`: lemma queue 1-750 (573 dictionary-form fronts, 157 bare, 20 in-word), Unit 0 (37 reading words, 60 decode checks with rule-based distractors), Unit 1 (14 prefix items, 8 verb forms, 40 micro-readings). Lessons `build_lessons.py`: 18 (Units 0-1). Gate `verify_content.py` (~1 s).
 - Curated glosses: lemmas 1-50 (per TBESH sense), 8 forms, 14 morphemes, all unreviewed.
 - Upfront gloss review dropped (Lane, 2026-10-08): problems get reported while studying. Review page artifact PtU2bU41Fshzt4dWBi9KBh unused; `apply_review.py` kept for folding in reports.
-- Next: Units 2-3 content (lemmas 51-190, 30 morphemes, 61 forms, names, M8b/M8c pools, lessons).
+- Part 2 (Units 2-3). Lane chose: suffix cards by PGN x shape (after singular vs after plural/'el), Unit 2 forms = next 6 wayyiqtol (not ranks 9-14), 8 story-tense markers.
+- Unit 2: 24 segment cards (6 noun endings, 9 + 8 suffix shapes, directional -ah; 2fs -ayikh dropped at 11 tokens), 6 forms, 10 names, 50 readings (M8b, 4-8 words). Unit 3: 8 markers, 55 wayyiqtol forms (one per lemma+parse; vayyishtachu skipped, all tokens quarantined), 60 verse readings (M8c). 14 lessons (L2.1-2.9, L3.1-3.5).
+- New snapshot field `hlc` (letter-cluster ranges) highlights endings and prefix letters that are not their own OSHB morpheme. Forms carry chip `facets` (stem/conj/pgn); units.json `parse` lists facets asked (Unit 3: conj, pgn).
+- Curated, unreviewed: lemma glosses 51-190, 61 form glosses, 10 name glosses (`glosses/names.json`). Segment meanings come from the `SEGMENTS` table.
+- Gate `verify_content.py` (~1.5 s) re-classifies every exemplar, checks letter ranges, short/long pairs (vayyar / yir'eh) and facets. Build ~35 s.
+- Next: Phase 4 app core.

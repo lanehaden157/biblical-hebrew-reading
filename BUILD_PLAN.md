@@ -44,7 +44,7 @@ Each phase ends with a `verify_*.py` gate and, where marked, a **Lane check** be
 - Output: `MEASURES.md` report. Sets real unit budgets, rank cut-offs, micro-reading pools, Exodus top-up size.
 - **Lane check:** confirm 750 cut-off and unit sizes given the actual numbers.
 
-### Phase 3 — Content, Units 0–3 — Units 0–1 built 2026-10-08 (review page out to Lane); Units 2–3 next
+### Phase 3 — Content, Units 0–3 — DONE 2026-10-08 (part 1 fbf1bf8; part 2 Units 2–3)
 - Ranked lemma deck; gloss seeding + per-occurrence curation (source + `reviewed` flag); morpheme items; whole-form verb items (M6); names; micro-reading pools M8a–c; Unit 0–3 lessons (Hebrew referenced by token id only).
 - Each generator ships its verifier.
 - ~~Lane check: gloss review batch~~ dropped 2026-10-08; report-a-problem in Phase 4 feeds `apply_review.py`.
@@ -65,6 +65,14 @@ Each phase ends with a `verify_*.py` gate and, where marked, a **Lane check** be
 
 ### Phase 7 — Units 11–12
 - Exodus 3/14 top-up (M10); milestone mode (hidden help, logged lookups); pace forecast from M12 data.
+
+## Handoff notes for Phase 4 (from Phase 3, 2026-10-08)
+
+- Data: `data/units.json` (help level, `parse` facets per unit, lesson ids, item file), `data/items/lemmas.json` (queue), `data/items/unit<N>.json`, `data/lessons.json` (body with `{n}` placeholders -> refs -> `toks`), `data/text/<Book>/<ch>.json`.
+- Item kinds: lemma, form (type 3; `facets` for type 4 chips), morpheme (type 2; `group` prefix/ending/suffix/marker), name (type 10), micro (type 7; Unit 3 = whole verses), decode / decode-read (type 11).
+- Highlight: snapshot `hl` = OSHB part index; `hlc` = [[start, end), ...] letter-cluster ranges over the whole word (cluster = letter + following marks; `build_items.clusters`). Prefer `hlc` when present.
+- `M:short` carries `contrast` (the long -eh yiqtol for each example: vayyar / yir'eh) for the card back.
+- Glosses: every gloss has `gloss_src` + `reviewed` (all false so far); mark unreviewed subtly (SPEC Q4). Report-a-problem feeds `apply_review.py`.
 
 ## Handoff notes for Phase 3 part 2 (from part 1, 2026-10-08)
 

@@ -1,0 +1,9732 @@
+{
+ "_note": "Generated. Unit 2 endings and suffixes, whole verb forms, names, micro-readings.",
+ "unit": 2,
+ "items": [
+  {
+   "id": "M:im",
+   "kind": "morpheme",
+   "group": "ending",
+   "unit": 2,
+   "label": "-im",
+   "gloss": "plural (mostly masculine nouns)",
+   "gloss_src": "curated (grammar)",
+   "reviewed": false,
+   "count": 2737,
+   "examples": [
+    {
+     "id": "012Kw",
+     "ref": "Gen.5.7",
+     "s": "בָּנִ֖ים",
+     "tr": "banim",
+     "g": "sons",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "בָּנִ֖ים",
+       "1121 a",
+       "Ncmpa"
+      ]
+     ],
+     "hl": 0,
+     "hlc": [
+      [
+       2,
+       4
+      ]
+     ]
+    },
+    {
+     "id": "01Hqt",
+     "ref": "Gen.14.17",
+     "s": "הַמְּלָכִ֖ים",
+     "tr": "hammelakhim",
+     "g": "the kings",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "הַ",
+       "d",
+       "Td"
+      ],
+      [
+       "מְּלָכִ֖ים",
+       "4428",
+       "Ncmpa"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       4,
+       6
+      ]
+     ]
+    },
+    {
+     "id": "011fa",
+     "ref": "Gen.19.10",
+     "s": "הָֽאֲנָשִׁים֙",
+     "tr": "ha'anashim",
+     "g": "the men",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "הָֽ",
+       "d",
+       "Td"
+      ],
+      [
+       "אֲנָשִׁים֙",
+       "376",
+       "Ncmpa"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       4,
+       6
+      ]
+     ]
+    },
+    {
+     "id": "0162Y",
+     "ref": "Gen.6.4",
+     "s": "בַּיָּמִ֣ים",
+     "tr": "bayyamim",
+     "g": "in the days",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "בַּ",
+       "b",
+       "Rd"
+      ],
+      [
+       "יָּמִ֣ים",
+       "3117",
+       "Ncmpa"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       3,
+       5
+      ]
+     ]
+    },
+    {
+     "id": "0262r",
+     "ref": "Exod.12.13",
+     "s": "הַבָּתִּים֙",
+     "tr": "habbattim",
+     "g": "the houses",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "הַ",
+       "d",
+       "Td"
+      ],
+      [
+       "בָּתִּים֙",
+       "1004 b",
+       "Ncmpa"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       3,
+       5
+      ]
+     ]
+    },
+    {
+     "id": "01Ctn",
+     "ref": "Gen.48.4",
+     "s": "עַמִּ֑ים",
+     "tr": "`ammim",
+     "g": "peoples",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "עַמִּ֑ים",
+       "5971 a",
+       "Ncmpa"
+      ]
+     ],
+     "hl": 0,
+     "hlc": [
+      [
+       2,
+       4
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "M:ot",
+   "kind": "morpheme",
+   "group": "ending",
+   "unit": 2,
+   "label": "-ot",
+   "gloss": "plural (mostly feminine nouns)",
+   "gloss_src": "curated (grammar)",
+   "reviewed": false,
+   "count": 528,
+   "examples": [
+    {
+     "id": "012Mh",
+     "ref": "Gen.5.26",
+     "s": "וּבָנֽוֹת",
+     "tr": "uvanot",
+     "g": "and daughters",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "וּ",
+       "c",
+       "C"
+      ],
+      [
+       "בָנֽוֹת",
+       "1323",
+       "Ncfpa"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       3,
+       5
+      ]
+     ]
+    },
+    {
+     "id": "01gAT",
+     "ref": "Gen.10.18",
+     "s": "מִשְׁפְּח֖וֹת",
+     "tr": "mishpechot",
+     "g": "the clans of",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "מִשְׁפְּח֖וֹת",
+       "4940",
+       "Ncfpc"
+      ]
+     ],
+     "hl": 0,
+     "hlc": [
+      [
+       4,
+       6
+      ]
+     ]
+    },
+    {
+     "id": "065yw",
+     "ref": "Josh.14.12",
+     "s": "גְּדֹל֣וֹת",
+     "tr": "gedolot",
+     "g": "large",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "גְּדֹל֣וֹת",
+       "1419 a",
+       "Aafpa"
+      ]
+     ],
+     "hl": 0,
+     "hlc": [
+      [
+       3,
+       5
+      ]
+     ]
+    },
+    {
+     "id": "011QV",
+     "ref": "Gen.41.5",
+     "s": "וְטֹבֽוֹת",
+     "tr": "vetovot",
+     "g": "and good",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "וְ",
+       "c",
+       "C"
+      ],
+      [
+       "טֹבֽוֹת",
+       "2896 a",
+       "Aafpa"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       3,
+       5
+      ]
+     ]
+    },
+    {
+     "id": "07DCB",
+     "ref": "Judg.3.1",
+     "s": "מִלְחֲמ֥וֹת",
+     "tr": "milchamot",
+     "g": "the wars of",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "מִלְחֲמ֥וֹת",
+       "4421",
+       "Ncfpc"
+      ]
+     ],
+     "hl": 0,
+     "hlc": [
+      [
+       4,
+       6
+      ]
+     ]
+    },
+    {
+     "id": "02uss",
+     "ref": "Exod.10.25",
+     "s": "וְעֹל֑וֹת",
+     "tr": "ve`olot",
+     "g": "and burnt offerings",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "וְ",
+       "c",
+       "C"
+      ],
+      [
+       "עֹל֑וֹת",
+       "5930 a",
+       "Ncfpa"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       3,
+       5
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "M:ah_f",
+   "kind": "morpheme",
+   "group": "ending",
+   "unit": 2,
+   "label": "-ah",
+   "gloss": "feminine singular",
+   "gloss_src": "curated (grammar)",
+   "reviewed": false,
+   "count": 2617,
+   "examples": [
+    {
+     "id": "01124",
+     "ref": "Gen.5.10",
+     "s": "שָׁנָ֑ה",
+     "tr": "shanah",
+     "g": "years",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "שָׁנָ֑ה",
+       "8141",
+       "Ncfsa"
+      ]
+     ],
+     "hl": 0,
+     "hlc": [
+      [
+       2,
+       3
+      ]
+     ]
+    },
+    {
+     "id": "014Se",
+     "ref": "Gen.12.19",
+     "s": "לְאִשָּׁ֑ה",
+     "tr": "le'ishshah",
+     "g": "to a wife",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "לְ",
+       "l",
+       "R"
+      ],
+      [
+       "אִשָּׁ֑ה",
+       "802",
+       "Ncfsa"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       3,
+       4
+      ]
+     ]
+    },
+    {
+     "id": "12Zkm",
+     "ref": "2Kgs.19.3",
+     "s": "לְלֵדָֽה",
+     "tr": "leledah",
+     "g": "for giving birth",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "לְ",
+       "l",
+       "R"
+      ],
+      [
+       "לֵדָֽה",
+       "3205",
+       "Ncfsa"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       3,
+       4
+      ]
+     ]
+    },
+    {
+     "id": "094tC",
+     "ref": "1Sam.20.29",
+     "s": "מִשְׁפָּחָ֨ה",
+     "tr": "mishpachah",
+     "g": "the clan",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "מִשְׁפָּחָ֨ה",
+       "4940",
+       "Ncfsa"
+      ]
+     ],
+     "hl": 0,
+     "hlc": [
+      [
+       4,
+       5
+      ]
+     ]
+    },
+    {
+     "id": "01HHr",
+     "ref": "Gen.39.9",
+     "s": "הַגְּדֹלָה֙",
+     "tr": "haggedolah",
+     "g": "great",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "הַ",
+       "d",
+       "Td"
+      ],
+      [
+       "גְּדֹלָה֙",
+       "1419 a",
+       "Aafsa"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       4,
+       5
+      ]
+     ]
+    },
+    {
+     "id": "01MRq",
+     "ref": "Gen.15.15",
+     "s": "טוֹבָֽה",
+     "tr": "tovah",
+     "g": "good",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "טוֹבָֽה",
+       "2896 a",
+       "Aafsa"
+      ]
+     ],
+     "hl": 0,
+     "hlc": [
+      [
+       3,
+       4
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "M:ayim",
+   "kind": "morpheme",
+   "group": "ending",
+   "unit": 2,
+   "label": "-ayim",
+   "gloss": "dual: a pair, two of",
+   "gloss_src": "curated (grammar)",
+   "reviewed": false,
+   "count": 96,
+   "examples": [
+    {
+     "id": "02Tfb",
+     "ref": "Exod.21.21",
+     "s": "יוֹמַ֖יִם",
+     "tr": "yomáyim",
+     "g": "two days",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "יוֹמַ֖יִם",
+       "3117",
+       "Ncmda"
+      ]
+     ],
+     "hl": 0,
+     "hlc": [
+      [
+       3,
+       5
+      ]
+     ]
+    },
+    {
+     "id": "01Gxh",
+     "ref": "Gen.34.21",
+     "s": "יָדַ֖יִם",
+     "tr": "yadáyim",
+     "g": "both hands",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "יָדַ֖יִם",
+       "3027",
+       "Ncbda"
+      ]
+     ],
+     "hl": 0,
+     "hlc": [
+      [
+       2,
+       4
+      ]
+     ]
+    },
+    {
+     "id": "013fq",
+     "ref": "Gen.45.6",
+     "s": "שְׁנָתַ֥יִם",
+     "tr": "shenatáyim",
+     "g": "two years",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "שְׁנָתַ֥יִם",
+       "8141",
+       "Ncfda"
+      ]
+     ],
+     "hl": 0,
+     "hlc": [
+      [
+       3,
+       5
+      ]
+     ]
+    },
+    {
+     "id": "013up",
+     "ref": "Gen.20.16",
+     "s": "עֵינַ֔יִם",
+     "tr": "`enáyim",
+     "g": "eyes",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "עֵינַ֔יִם",
+       "5869 a",
+       "Ncbda"
+      ]
+     ],
+     "hl": 0,
+     "hlc": [
+      [
+       3,
+       5
+      ]
+     ]
+    },
+    {
+     "id": "02oR8",
+     "ref": "Exod.25.23",
+     "s": "אַמָּתַ֤יִם",
+     "tr": "ammatáyim",
+     "g": "will be two cubits",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "אַמָּתַ֤יִם",
+       "520 a",
+       "Ncfda"
+      ]
+     ],
+     "hl": 0,
+     "hlc": [
+      [
+       3,
+       5
+      ]
+     ]
+    },
+    {
+     "id": "10Gmx",
+     "ref": "2Sam.4.4",
+     "s": "רַגְלָ֑יִם",
+     "tr": "ragláyim",
+     "g": "feet",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "רַגְלָ֑יִם",
+       "7272",
+       "Ncfda"
+      ]
+     ],
+     "hl": 0,
+     "hlc": [
+      [
+       3,
+       5
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "M:ey",
+   "kind": "morpheme",
+   "group": "ending",
+   "unit": 2,
+   "label": "-e (yod after tsere, no ending after it)",
+   "gloss": "plural 'of' form: the X-s of",
+   "gloss_src": "curated (grammar)",
+   "reviewed": false,
+   "count": 3226,
+   "examples": [
+    {
+     "id": "011Hs",
+     "ref": "Gen.42.5",
+     "s": "בְּנֵ֣י",
+     "tr": "bene",
+     "g": "the sons of",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "בְּנֵ֣י",
+       "1121 a",
+       "Ncmpc"
+      ]
+     ],
+     "hl": 0,
+     "hlc": [
+      [
+       2,
+       3
+      ]
+     ]
+    },
+    {
+     "id": "01EHw",
+     "ref": "Gen.17.16",
+     "s": "מַלְכֵ֥י",
+     "tr": "malkhe",
+     "g": "kings of",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "מַלְכֵ֥י",
+       "4428",
+       "Ncmpc"
+      ]
+     ],
+     "hl": 0,
+     "hlc": [
+      [
+       3,
+       4
+      ]
+     ]
+    },
+    {
+     "id": "013Ep",
+     "ref": "Gen.29.22",
+     "s": "אַנְשֵׁ֥י",
+     "tr": "anshe",
+     "g": "the people of",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "אַנְשֵׁ֥י",
+       "376",
+       "Ncmpc"
+      ]
+     ],
+     "hl": 0,
+     "hlc": [
+      [
+       3,
+       4
+      ]
+     ]
+    },
+    {
+     "id": "01297",
+     "ref": "Gen.3.17",
+     "s": "יְמֵ֥י",
+     "tr": "yeme",
+     "g": "the days of",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "יְמֵ֥י",
+       "3117",
+       "Ncmpc"
+      ]
+     ],
+     "hl": 0,
+     "hlc": [
+      [
+       2,
+       3
+      ]
+     ]
+    },
+    {
+     "id": "024Jj",
+     "ref": "Exod.10.6",
+     "s": "וּבָתֵּ֣י",
+     "tr": "uvatte",
+     "g": "and the houses of",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "וּ",
+       "c",
+       "C"
+      ],
+      [
+       "בָתֵּ֣י",
+       "1004 b",
+       "Ncmpc"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       3,
+       4
+      ]
+     ]
+    },
+    {
+     "id": "06eF7",
+     "ref": "Josh.4.24",
+     "s": "עַמֵּ֤י",
+     "tr": "`amme",
+     "g": "the peoples of",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "עַמֵּ֤י",
+       "5971 a",
+       "Ncmpc"
+      ]
+     ],
+     "hl": 0,
+     "hlc": [
+      [
+       2,
+       3
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "M:at",
+   "kind": "morpheme",
+   "group": "ending",
+   "unit": 2,
+   "label": "-at",
+   "gloss": "feminine 'of' form: the X of",
+   "gloss_src": "curated (grammar)",
+   "reviewed": false,
+   "count": 709,
+   "examples": [
+    {
+     "id": "01Ee6",
+     "ref": "Gen.7.11",
+     "s": "בִּשְׁנַ֨ת",
+     "tr": "bishnat",
+     "g": "in year",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "בִּ",
+       "b",
+       "R"
+      ],
+      [
+       "שְׁנַ֨ת",
+       "8141",
+       "Ncfsc"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       3,
+       4
+      ]
+     ]
+    },
+    {
+     "id": "08zqr",
+     "ref": "Ruth.2.1",
+     "s": "מִמִּשְׁפַּ֖חַת",
+     "tr": "mimmishpáchat",
+     "g": "from the clan of",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "מִ",
+       "m",
+       "R"
+      ],
+      [
+       "מִּשְׁפַּ֖חַת",
+       "4940",
+       "Ncfsc"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       5,
+       6
+      ]
+     ]
+    },
+    {
+     "id": "02Kr7",
+     "ref": "Exod.29.42",
+     "s": "עֹלַ֤ת",
+     "tr": "`olat",
+     "g": "a burnt offering of",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "עֹלַ֤ת",
+       "5930 a",
+       "Ncfsc"
+      ]
+     ],
+     "hl": 0,
+     "hlc": [
+      [
+       2,
+       3
+      ]
+     ]
+    },
+    {
+     "id": "062oN",
+     "ref": "Josh.19.9",
+     "s": "נַחֲלַ֖ת",
+     "tr": "nachalat",
+     "g": "the inheritance of",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "נַחֲלַ֖ת",
+       "5159",
+       "Ncfsc"
+      ]
+     ],
+     "hl": 0,
+     "hlc": [
+      [
+       3,
+       4
+      ]
+     ]
+    },
+    {
+     "id": "021cW",
+     "ref": "Exod.12.3",
+     "s": "עֲדַ֤ת",
+     "tr": "`adat",
+     "g": "the congregation of",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "עֲדַ֤ת",
+       "5712",
+       "Ncfsc"
+      ]
+     ],
+     "hl": 0,
+     "hlc": [
+      [
+       2,
+       3
+      ]
+     ]
+    },
+    {
+     "id": "02fHZ",
+     "ref": "Exod.29.41",
+     "s": "כְּמִנְחַ֨ת",
+     "tr": "keminchat",
+     "g": "like the grain offering of",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "כְּ",
+       "k",
+       "R"
+      ],
+      [
+       "מִנְחַ֨ת",
+       "4503",
+       "Ncfsc"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       4,
+       5
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "M:s_3ms",
+   "kind": "morpheme",
+   "group": "suffix",
+   "unit": 2,
+   "label": "-o, -hu (after a singular noun or l-, b-, 'et)",
+   "gloss": "his; him",
+   "gloss_src": "curated (grammar)",
+   "reviewed": false,
+   "count": 3080,
+   "examples": [
+    {
+     "id": "011eb",
+     "ref": "Gen.38.10",
+     "s": "אֹתֽוֹ",
+     "tr": "oto",
+     "g": "[obj] him",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "אֹתֽ",
+       "853",
+       "To"
+      ],
+      [
+       "וֹ",
+       "",
+       "Sp3ms"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       2,
+       3
+      ]
+     ]
+    },
+    {
+     "id": "015Zp",
+     "ref": "Gen.17.23",
+     "s": "בְּנ֗וֹ",
+     "tr": "beno",
+     "g": "his son",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "בְּנ֗",
+       "1121 a",
+       "Ncmsc"
+      ],
+      [
+       "וֹ",
+       "",
+       "Sp3ms"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       2,
+       3
+      ]
+     ]
+    },
+    {
+     "id": "019LN",
+     "ref": "Gen.25.25",
+     "s": "כֻּלּ֖וֹ",
+     "tr": "kullo",
+     "g": "all of him",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "כֻּלּ֖",
+       "3605",
+       "Ncmsc"
+      ],
+      [
+       "וֹ",
+       "",
+       "Sp3ms"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       2,
+       3
+      ]
+     ]
+    },
+    {
+     "id": "1131h",
+     "ref": "1Kgs.20.20",
+     "s": "אִישׁ֔וֹ",
+     "tr": "isho",
+     "g": "his man",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "אִישׁ֔",
+       "376",
+       "Ncmsc"
+      ],
+      [
+       "וֹ",
+       "",
+       "Sp3ms"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       3,
+       4
+      ]
+     ]
+    },
+    {
+     "id": "028kj",
+     "ref": "Exod.18.27",
+     "s": "אַרְצֽוֹ",
+     "tr": "artso",
+     "g": "his land",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "אַרְצֽ",
+       "776",
+       "Ncbsc"
+      ],
+      [
+       "וֹ",
+       "",
+       "Sp3ms"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       3,
+       4
+      ]
+     ]
+    },
+    {
+     "id": "09t1v",
+     "ref": "1Sam.26.10",
+     "s": "יוֹמ֤וֹ",
+     "tr": "yomo",
+     "g": "his day",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "יוֹמ֤",
+       "3117",
+       "Ncmsc"
+      ],
+      [
+       "וֹ",
+       "",
+       "Sp3ms"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       3,
+       4
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "M:s_3fs",
+   "kind": "morpheme",
+   "group": "suffix",
+   "unit": 2,
+   "label": "-ah (dot in the he) (after a singular noun or l-, b-, 'et)",
+   "gloss": "her",
+   "gloss_src": "curated (grammar)",
+   "reviewed": false,
+   "count": 686,
+   "examples": [
+    {
+     "id": "013n3",
+     "ref": "Gen.17.16",
+     "s": "אֹתָ֔הּ",
+     "tr": "otah",
+     "g": "[obj] her",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "אֹתָ֔",
+       "853",
+       "To"
+      ],
+      [
+       "הּ",
+       "",
+       "Sp3fs"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       2,
+       3
+      ]
+     ]
+    },
+    {
+     "id": "01CbA",
+     "ref": "Gen.21.10",
+     "s": "בְּנָ֑הּ",
+     "tr": "benah",
+     "g": "her son",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "בְּנָ֑",
+       "1121 a",
+       "Ncmsc"
+      ],
+      [
+       "הּ",
+       "",
+       "Sp3fs"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       2,
+       3
+      ]
+     ]
+    },
+    {
+     "id": "01boU",
+     "ref": "Gen.13.10",
+     "s": "כֻלָּ֖הּ",
+     "tr": "khullah",
+     "g": "all of it",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "כֻלָּ֖",
+       "3605",
+       "Ncmsc"
+      ],
+      [
+       "הּ",
+       "",
+       "Sp3fs"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       2,
+       3
+      ]
+     ]
+    },
+    {
+     "id": "061cW",
+     "ref": "Josh.10.28",
+     "s": "מַלְכָּהּ֒",
+     "tr": "malkah",
+     "g": "its king",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "מַלְכָּ",
+       "4428",
+       "Ncmsc"
+      ],
+      [
+       "הּ֒",
+       "",
+       "Sp3fs"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       3,
+       4
+      ]
+     ]
+    },
+    {
+     "id": "0196j",
+     "ref": "Gen.16.3",
+     "s": "אִישָׁ֖הּ",
+     "tr": "ishah",
+     "g": "her husband",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "אִישָׁ֖",
+       "376",
+       "Ncmsc"
+      ],
+      [
+       "הּ",
+       "",
+       "Sp3fs"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       3,
+       4
+      ]
+     ]
+    },
+    {
+     "id": "01PBi",
+     "ref": "Gen.39.14",
+     "s": "בֵיתָ֗הּ",
+     "tr": "vetah",
+     "g": "her household",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "בֵיתָ֗",
+       "1004 b",
+       "Ncmsc"
+      ],
+      [
+       "הּ",
+       "",
+       "Sp3fs"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       3,
+       4
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "M:s_3mp",
+   "kind": "morpheme",
+   "group": "suffix",
+   "unit": 2,
+   "label": "-am, -hem (after a singular noun or l-, b-, 'et)",
+   "gloss": "their; them",
+   "gloss_src": "curated (grammar)",
+   "reviewed": false,
+   "count": 1113,
+   "examples": [
+    {
+     "id": "011AP",
+     "ref": "Gen.5.2",
+     "s": "אֹתָ֗ם",
+     "tr": "otam",
+     "g": "[obj] them",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "אֹתָ֗",
+       "853",
+       "To"
+      ],
+      [
+       "ם",
+       "",
+       "Sp3mp"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       2,
+       3
+      ]
+     ]
+    },
+    {
+     "id": "011cc",
+     "ref": "Gen.44.6",
+     "s": "אֲלֵהֶ֔ם",
+     "tr": "alehem",
+     "g": "to them",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "אֲלֵ",
+       "413",
+       "R"
+      ],
+      [
+       "הֶ֔ם",
+       "",
+       "Sp3mp"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       2,
+       4
+      ]
+     ]
+    },
+    {
+     "id": "01pCM",
+     "ref": "Gen.43.34",
+     "s": "כֻּלָּ֖ם",
+     "tr": "kullam",
+     "g": "all of them",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "כֻּלָּ֖",
+       "3605",
+       "Ncmsc"
+      ],
+      [
+       "ם",
+       "",
+       "Sp3mp"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       2,
+       3
+      ]
+     ]
+    },
+    {
+     "id": "019gw",
+     "ref": "Gen.47.20",
+     "s": "עֲלֵהֶ֖ם",
+     "tr": "`alehem",
+     "g": "on them",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "עֲלֵ",
+       "5921 a",
+       "R"
+      ],
+      [
+       "הֶ֖ם",
+       "",
+       "Sp3mp"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       2,
+       4
+      ]
+     ]
+    },
+    {
+     "id": "10n76",
+     "ref": "2Sam.12.30",
+     "s": "מַלְכָּם֩",
+     "tr": "malkam",
+     "g": "their king",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "מַלְכָּ",
+       "4428",
+       "Ncmsc"
+      ],
+      [
+       "ם֩",
+       "",
+       "Sp3mp"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       3,
+       4
+      ]
+     ]
+    },
+    {
+     "id": "06KVW",
+     "ref": "Josh.12.1",
+     "s": "אַרְצָ֔ם",
+     "tr": "artsam",
+     "g": "their land",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "אַרְצָ֔",
+       "776",
+       "Ncbsc"
+      ],
+      [
+       "ם",
+       "",
+       "Sp3mp"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       3,
+       4
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "M:s_3fp",
+   "kind": "morpheme",
+   "group": "suffix",
+   "unit": 2,
+   "label": "-an, -hen (after a singular noun or l-, b-, 'et)",
+   "gloss": "their; them (f.)",
+   "gloss_src": "curated (grammar)",
+   "reviewed": false,
+   "count": 40,
+   "examples": [
+    {
+     "id": "012Kd",
+     "ref": "Gen.19.8",
+     "s": "אֶתְהֶן֙",
+     "tr": "ethen",
+     "g": "[obj] them",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "אֶתְ",
+       "853",
+       "To"
+      ],
+      [
+       "הֶן֙",
+       "",
+       "Sp3fp"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       2,
+       4
+      ]
+     ]
+    },
+    {
+     "id": "02RXg",
+     "ref": "Exod.1.19",
+     "s": "אֲלֵהֶ֛ן",
+     "tr": "alehen",
+     "g": "to them",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "אֲלֵ",
+       "413",
+       "R"
+      ],
+      [
+       "הֶ֛ן",
+       "",
+       "Sp3fp"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       2,
+       4
+      ]
+     ]
+    },
+    {
+     "id": "01ETb",
+     "ref": "Gen.42.36",
+     "s": "כֻלָּֽנָה",
+     "tr": "khullánah",
+     "g": "all of them",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "כֻלָּֽ",
+       "3605",
+       "Ncmsc"
+      ],
+      [
+       "נָה",
+       "",
+       "Sp3fp"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       2,
+       4
+      ]
+     ]
+    },
+    {
+     "id": "083y8",
+     "ref": "Ruth.1.9",
+     "s": "קוֹלָ֖ן",
+     "tr": "qolan",
+     "g": "their voice",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "קוֹלָ֖",
+       "6963 a",
+       "Ncmsc"
+      ],
+      [
+       "ן",
+       "",
+       "Sp3fp"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       3,
+       4
+      ]
+     ]
+    },
+    {
+     "id": "09rKw",
+     "ref": "1Sam.7.14",
+     "s": "גְּבוּלָ֔ן",
+     "tr": "gevulan",
+     "g": "their territory",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "גְּבוּלָ֔",
+       "1366",
+       "Ncmsc"
+      ],
+      [
+       "ן",
+       "",
+       "Sp3fp"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       4,
+       5
+      ]
+     ]
+    },
+    {
+     "id": "02PKq",
+     "ref": "Exod.35.26",
+     "s": "לִבָּ֛ן",
+     "tr": "libban",
+     "g": "their heart",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "לִבָּ֛",
+       "3820 a",
+       "Ncmsc"
+      ],
+      [
+       "ן",
+       "",
+       "Sp3fp"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       2,
+       3
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "M:s_2ms",
+   "kind": "morpheme",
+   "group": "suffix",
+   "unit": 2,
+   "label": "-kha (after a singular noun or l-, b-, 'et)",
+   "gloss": "your; you (m. sg.)",
+   "gloss_src": "curated (grammar)",
+   "reviewed": false,
+   "count": 1090,
+   "examples": [
+    {
+     "id": "015Ay",
+     "ref": "Gen.20.6",
+     "s": "אֽוֹתְךָ֖",
+     "tr": "otekha",
+     "g": "[obj] you",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "אֽוֹתְ",
+       "853",
+       "To"
+      ],
+      [
+       "ךָ֖",
+       "",
+       "Sp2ms"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       3,
+       4
+      ]
+     ]
+    },
+    {
+     "id": "0144o",
+     "ref": "Gen.24.5",
+     "s": "בִּנְךָ֔",
+     "tr": "binkha",
+     "g": "your son",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "בִּנְ",
+       "1121 a",
+       "Ncmsc"
+      ],
+      [
+       "ךָ֔",
+       "",
+       "Sp2ms"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       2,
+       3
+      ]
+     ]
+    },
+    {
+     "id": "025Ta",
+     "ref": "Exod.34.24",
+     "s": "אַרְצְךָ֔",
+     "tr": "artsekha",
+     "g": "your land",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "אַרְצְ",
+       "776",
+       "Ncbsc"
+      ],
+      [
+       "ךָ֔",
+       "",
+       "Sp2ms"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       3,
+       4
+      ]
+     ]
+    },
+    {
+     "id": "01LrK",
+     "ref": "Gen.7.1",
+     "s": "בֵּיתְךָ֖",
+     "tr": "betekha",
+     "g": "your household",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "בֵּיתְ",
+       "1004 b",
+       "Ncmsc"
+      ],
+      [
+       "ךָ֖",
+       "",
+       "Sp2ms"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       3,
+       4
+      ]
+     ]
+    },
+    {
+     "id": "02K8f",
+     "ref": "Exod.34.10",
+     "s": "עַמְּךָ֙",
+     "tr": "`ammekha",
+     "g": "your people",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "עַמְּ",
+       "5971 a",
+       "Ncmsc"
+      ],
+      [
+       "ךָ֙",
+       "",
+       "Sp2ms"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       2,
+       3
+      ]
+     ]
+    },
+    {
+     "id": "01Xtc",
+     "ref": "Gen.24.2",
+     "s": "יָדְךָ֖",
+     "tr": "yadekha",
+     "g": "your hand",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "יָדְ",
+       "3027",
+       "Ncbsc"
+      ],
+      [
+       "ךָ֖",
+       "",
+       "Sp2ms"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       2,
+       3
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "M:s_2fs",
+   "kind": "morpheme",
+   "group": "suffix",
+   "unit": 2,
+   "label": "-ekh (after a singular noun or l-, b-, 'et)",
+   "gloss": "your; you (f. sg.)",
+   "gloss_src": "curated (grammar)",
+   "reviewed": false,
+   "count": 131,
+   "examples": [
+    {
+     "id": "01JBi",
+     "ref": "Gen.39.9",
+     "s": "אוֹתָ֖ךְ",
+     "tr": "otakh",
+     "g": "[obj] you",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "אוֹתָ֖",
+       "853",
+       "To"
+      ],
+      [
+       "ךְ",
+       "",
+       "Sp2fs"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       3,
+       4
+      ]
+     ]
+    },
+    {
+     "id": "013os",
+     "ref": "Gen.30.15",
+     "s": "בְנֵֽךְ",
+     "tr": "venekh",
+     "g": "your son",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "בְנֵֽ",
+       "1121 a",
+       "Ncmsc"
+      ],
+      [
+       "ךְ",
+       "",
+       "Sp2fs"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       2,
+       3
+      ]
+     ]
+    },
+    {
+     "id": "01ioH",
+     "ref": "Gen.3.16",
+     "s": "אִישֵׁךְ֙",
+     "tr": "ishekh",
+     "g": "your husband",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "אִישֵׁ",
+       "376",
+       "Ncmsc"
+      ],
+      [
+       "ךְ֙",
+       "",
+       "Sp2fs"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       3,
+       4
+      ]
+     ]
+    },
+    {
+     "id": "06j8W",
+     "ref": "Josh.2.19",
+     "s": "בֵיתֵ֧ךְ",
+     "tr": "vetekh",
+     "g": "your house",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "בֵיתֵ֧",
+       "1004 b",
+       "Ncmsc"
+      ],
+      [
+       "ךְ",
+       "",
+       "Sp2fs"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       3,
+       4
+      ]
+     ]
+    },
+    {
+     "id": "08ecS",
+     "ref": "Ruth.1.16",
+     "s": "עַמֵּ֣ךְ",
+     "tr": "`ammekh",
+     "g": "your people",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "עַמֵּ֣",
+       "5971 a",
+       "Ncmsc"
+      ],
+      [
+       "ךְ",
+       "",
+       "Sp2fs"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       2,
+       3
+      ]
+     ]
+    },
+    {
+     "id": "01wkA",
+     "ref": "Gen.21.18",
+     "s": "יָדֵ֖ךְ",
+     "tr": "yadekh",
+     "g": "your hand",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "יָדֵ֖",
+       "3027",
+       "Ncbsc"
+      ],
+      [
+       "ךְ",
+       "",
+       "Sp2fs"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       2,
+       3
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "M:s_2mp",
+   "kind": "morpheme",
+   "group": "suffix",
+   "unit": 2,
+   "label": "-khem (after a singular noun or l-, b-, 'et)",
+   "gloss": "your; you (pl.)",
+   "gloss_src": "curated (grammar)",
+   "reviewed": false,
+   "count": 543,
+   "examples": [
+    {
+     "id": "0191T",
+     "ref": "Gen.48.21",
+     "s": "אֶתְכֶ֔ם",
+     "tr": "etkhem",
+     "g": "[obj] you",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "אֶתְ",
+       "853",
+       "To"
+      ],
+      [
+       "כֶ֔ם",
+       "",
+       "Sp2mp"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       2,
+       4
+      ]
+     ]
+    },
+    {
+     "id": "01mJY",
+     "ref": "Gen.42.14",
+     "s": "אֲלֵכֶ֛ם",
+     "tr": "alekhem",
+     "g": "to you",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "אֲלֵ",
+       "413",
+       "R"
+      ],
+      [
+       "כֶ֛ם",
+       "",
+       "Sp2mp"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       2,
+       4
+      ]
+     ]
+    },
+    {
+     "id": "06AES",
+     "ref": "Josh.8.4",
+     "s": "כֻּלְּכֶ֖ם",
+     "tr": "kullekhem",
+     "g": "all of you",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "כֻּלְּ",
+       "3605",
+       "Ncmsc"
+      ],
+      [
+       "כֶ֖ם",
+       "",
+       "Sp2mp"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       2,
+       4
+      ]
+     ]
+    },
+    {
+     "id": "02f9x",
+     "ref": "Exod.12.13",
+     "s": "עֲלֵכֶ֑ם",
+     "tr": "`alekhem",
+     "g": "over you",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "עֲלֵ",
+       "5921 a",
+       "R"
+      ],
+      [
+       "כֶ֑ם",
+       "",
+       "Sp2mp"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       2,
+       4
+      ]
+     ]
+    },
+    {
+     "id": "09WV1",
+     "ref": "1Sam.12.25",
+     "s": "מַלְכְּכֶ֖ם",
+     "tr": "malkekhem",
+     "g": "your king",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "מַלְכְּ",
+       "4428",
+       "Ncmsc"
+      ],
+      [
+       "כֶ֖ם",
+       "",
+       "Sp2mp"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       3,
+       5
+      ]
+     ]
+    },
+    {
+     "id": "09U8y",
+     "ref": "1Sam.6.5",
+     "s": "אַרְצְכֶֽם",
+     "tr": "artsekhem",
+     "g": "your land",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "אַרְצְ",
+       "776",
+       "Ncbsc"
+      ],
+      [
+       "כֶֽם",
+       "",
+       "Sp2mp"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       3,
+       5
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "M:s_1cs",
+   "kind": "morpheme",
+   "group": "suffix",
+   "unit": 2,
+   "label": "-i (after a singular noun or l-, b-, 'et)",
+   "gloss": "my; me",
+   "gloss_src": "curated (grammar)",
+   "reviewed": false,
+   "count": 1453,
+   "examples": [
+    {
+     "id": "0121H",
+     "ref": "Gen.42.36",
+     "s": "אֹתִ֖י",
+     "tr": "oti",
+     "g": "[obj] me",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "אֹתִ֖",
+       "853",
+       "To"
+      ],
+      [
+       "י",
+       "",
+       "Sp1cs"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       2,
+       3
+      ]
+     ]
+    },
+    {
+     "id": "0169b",
+     "ref": "Gen.24.8",
+     "s": "בְּנִ֔י",
+     "tr": "beni",
+     "g": "my son",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "בְּנִ֔",
+       "1121 a",
+       "Ncmsc"
+      ],
+      [
+       "י",
+       "",
+       "Sp1cs"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       2,
+       3
+      ]
+     ]
+    },
+    {
+     "id": "10hFJ",
+     "ref": "2Sam.19.44",
+     "s": "מַלְכִּ֑י",
+     "tr": "malki",
+     "g": "my king",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "מַלְכִּ֑",
+       "4428",
+       "Ncmsc"
+      ],
+      [
+       "י",
+       "",
+       "Sp1cs"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       3,
+       4
+      ]
+     ]
+    },
+    {
+     "id": "0152a",
+     "ref": "Gen.29.34",
+     "s": "אִישִׁי֙",
+     "tr": "ishi",
+     "g": "my husband",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "אִישִׁ",
+       "376",
+       "Ncmsc"
+      ],
+      [
+       "י֙",
+       "",
+       "Sp1cs"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       3,
+       4
+      ]
+     ]
+    },
+    {
+     "id": "01ZDv",
+     "ref": "Gen.20.15",
+     "s": "אַרְצִ֖י",
+     "tr": "artsi",
+     "g": "my land",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "אַרְצִ֖",
+       "776",
+       "Ncbsc"
+      ],
+      [
+       "י",
+       "",
+       "Sp1cs"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       3,
+       4
+      ]
+     ]
+    },
+    {
+     "id": "01WtT",
+     "ref": "Gen.41.40",
+     "s": "בֵּיתִ֔י",
+     "tr": "beti",
+     "g": "my house",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "בֵּיתִ֔",
+       "1004 b",
+       "Ncmsc"
+      ],
+      [
+       "י",
+       "",
+       "Sp1cs"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       3,
+       4
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "M:s_1cp",
+   "kind": "morpheme",
+   "group": "suffix",
+   "unit": 2,
+   "label": "-nu, -enu (after a singular noun or l-, b-, 'et)",
+   "gloss": "our; us",
+   "gloss_src": "curated (grammar)",
+   "reviewed": false,
+   "count": 300,
+   "examples": [
+    {
+     "id": "0177c",
+     "ref": "Gen.34.9",
+     "s": "אֹתָ֑נוּ",
+     "tr": "otánu",
+     "g": "with us",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "אֹתָ֑",
+       "853",
+       "To"
+      ],
+      [
+       "נוּ",
+       "",
+       "Sp1cp"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       2,
+       4
+      ]
+     ]
+    },
+    {
+     "id": "01KGP",
+     "ref": "Gen.42.11",
+     "s": "כֻּלָּ֕נוּ",
+     "tr": "kullánu",
+     "g": "all of us",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "כֻּלָּ֕",
+       "3605",
+       "Ncmsc"
+      ],
+      [
+       "נוּ",
+       "",
+       "Sp1cp"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       2,
+       4
+      ]
+     ]
+    },
+    {
+     "id": "09y7b",
+     "ref": "1Sam.8.20",
+     "s": "מַלְכֵּ֨נוּ֙",
+     "tr": "malkénu",
+     "g": "our king",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "מַלְכֵּ֨",
+       "4428",
+       "Ncmsc"
+      ],
+      [
+       "נוּ֙",
+       "",
+       "Sp1cp"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       3,
+       5
+      ]
+     ]
+    },
+    {
+     "id": "06KjQ",
+     "ref": "Josh.9.11",
+     "s": "אַרְצֵ֜נוּ",
+     "tr": "artsénu",
+     "g": "our land",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "אַרְצֵ֜",
+       "776",
+       "Ncbsc"
+      ],
+      [
+       "נוּ",
+       "",
+       "Sp1cp"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       3,
+       5
+      ]
+     ]
+    },
+    {
+     "id": "10QWv",
+     "ref": "2Sam.10.12",
+     "s": "עַמֵּ֔נוּ",
+     "tr": "`amménu",
+     "g": "our people",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "עַמֵּ֔",
+       "5971 a",
+       "Ncmsc"
+      ],
+      [
+       "נוּ",
+       "",
+       "Sp1cp"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       2,
+       4
+      ]
+     ]
+    },
+    {
+     "id": "06Wyn",
+     "ref": "Josh.2.20",
+     "s": "דְּבָרֵ֣נוּ",
+     "tr": "devarénu",
+     "g": "our business",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "דְּבָרֵ֣",
+       "1697",
+       "Ncmsc"
+      ],
+      [
+       "נוּ",
+       "",
+       "Sp1cp"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       3,
+       5
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "M:p_3ms",
+   "kind": "morpheme",
+   "group": "suffix",
+   "unit": 2,
+   "label": "-av (yod before it: after a plural noun or 'el, `al)",
+   "gloss": "his; him",
+   "gloss_src": "curated (grammar)",
+   "reviewed": false,
+   "count": 1599,
+   "examples": [
+    {
+     "id": "011EK",
+     "ref": "Gen.8.9",
+     "s": "אֵלָ֖יו",
+     "tr": "elav",
+     "g": "to him",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "אֵלָ֖י",
+       "413",
+       "R"
+      ],
+      [
+       "ו",
+       "",
+       "Sp3ms"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       2,
+       4
+      ]
+     ]
+    },
+    {
+     "id": "015W2",
+     "ref": "Gen.50.13",
+     "s": "בָנָיו֙",
+     "tr": "vanav",
+     "g": "his sons",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "בָנָי",
+       "1121 a",
+       "Ncmpc"
+      ],
+      [
+       "ו֙",
+       "",
+       "Sp3ms"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       2,
+       4
+      ]
+     ]
+    },
+    {
+     "id": "011gq",
+     "ref": "Gen.18.2",
+     "s": "עָלָ֑יו",
+     "tr": "`alav",
+     "g": "with him",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "עָלָ֑י",
+       "5921 a",
+       "R"
+      ],
+      [
+       "ו",
+       "",
+       "Sp3ms"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       2,
+       4
+      ]
+     ]
+    },
+    {
+     "id": "01G9z",
+     "ref": "Gen.24.59",
+     "s": "אֲנָשָֽׁיו",
+     "tr": "anashav",
+     "g": "his men",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "אֲנָשָֽׁי",
+       "376",
+       "Ncmpc"
+      ],
+      [
+       "ו",
+       "",
+       "Sp3ms"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       3,
+       5
+      ]
+     ]
+    },
+    {
+     "id": "01c5N",
+     "ref": "Gen.6.3",
+     "s": "יָמָ֔יו",
+     "tr": "yamav",
+     "g": "his days",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "יָמָ֔י",
+       "3117",
+       "Ncmpc"
+      ],
+      [
+       "ו",
+       "",
+       "Sp3ms"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       2,
+       4
+      ]
+     ]
+    },
+    {
+     "id": "01QAB",
+     "ref": "Gen.27.16",
+     "s": "יָדָ֑יו",
+     "tr": "yadav",
+     "g": "his hands",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "יָדָ֑י",
+       "3027",
+       "Ncbdc"
+      ],
+      [
+       "ו",
+       "",
+       "Sp3ms"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       2,
+       4
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "M:p_3fs",
+   "kind": "morpheme",
+   "group": "suffix",
+   "unit": 2,
+   "label": "-eha (yod before it: after a plural noun or 'el, `al)",
+   "gloss": "her",
+   "gloss_src": "curated (grammar)",
+   "reviewed": false,
+   "count": 293,
+   "examples": [
+    {
+     "id": "011TU",
+     "ref": "Gen.29.21",
+     "s": "אֵלֶֽיהָ",
+     "tr": "eléha",
+     "g": "into her",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "אֵלֶֽי",
+       "413",
+       "R"
+      ],
+      [
+       "הָ",
+       "",
+       "Sp3fs"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       2,
+       4
+      ]
+     ]
+    },
+    {
+     "id": "024iz",
+     "ref": "Exod.18.3",
+     "s": "בָנֶ֑יהָ",
+     "tr": "vanéha",
+     "g": "her sons",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "בָנֶ֑י",
+       "1121 a",
+       "Ncmpc"
+      ],
+      [
+       "הָ",
+       "",
+       "Sp3fs"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       2,
+       4
+      ]
+     ]
+    },
+    {
+     "id": "0114c",
+     "ref": "Gen.35.14",
+     "s": "עָלֶ֖יהָ",
+     "tr": "`aléha",
+     "g": "on it",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "עָלֶ֖י",
+       "5921 a",
+       "R"
+      ],
+      [
+       "הָ",
+       "",
+       "Sp3fs"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       2,
+       4
+      ]
+     ]
+    },
+    {
+     "id": "06P8j",
+     "ref": "Josh.10.2",
+     "s": "אֲנָשֶׁ֖יהָ",
+     "tr": "anashéha",
+     "g": "its men",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "אֲנָשֶׁ֖י",
+       "376",
+       "Ncmpc"
+      ],
+      [
+       "הָ",
+       "",
+       "Sp3fs"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       3,
+       5
+      ]
+     ]
+    },
+    {
+     "id": "01qXw",
+     "ref": "Gen.25.24",
+     "s": "יָמֶ֖יהָ",
+     "tr": "yaméha",
+     "g": "her days",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "יָמֶ֖י",
+       "3117",
+       "Ncmpc"
+      ],
+      [
+       "הָ",
+       "",
+       "Sp3fs"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       2,
+       4
+      ]
+     ]
+    },
+    {
+     "id": "01Ceq",
+     "ref": "Gen.24.22",
+     "s": "יָדֶ֔יהָ",
+     "tr": "yadéha",
+     "g": "her hands",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "יָדֶ֔י",
+       "3027",
+       "Ncbdc"
+      ],
+      [
+       "הָ",
+       "",
+       "Sp3fs"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       2,
+       4
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "M:p_3mp",
+   "kind": "morpheme",
+   "group": "suffix",
+   "unit": 2,
+   "label": "-ehem (yod before it: after a plural noun or 'el, `al)",
+   "gloss": "their; them",
+   "gloss_src": "curated (grammar)",
+   "reviewed": false,
+   "count": 583,
+   "examples": [
+    {
+     "id": "01Frk",
+     "ref": "Gen.37.13",
+     "s": "אֲלֵיהֶ֑ם",
+     "tr": "alehem",
+     "g": "to them",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "אֲלֵי",
+       "413",
+       "R"
+      ],
+      [
+       "הֶ֑ם",
+       "",
+       "Sp3mp"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       2,
+       5
+      ]
+     ]
+    },
+    {
+     "id": "06bEv",
+     "ref": "Josh.5.7",
+     "s": "בְּנֵיהֶם֙",
+     "tr": "benehem",
+     "g": "their children",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "בְּנֵי",
+       "1121 a",
+       "Ncmpc"
+      ],
+      [
+       "הֶם֙",
+       "",
+       "Sp3mp"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       2,
+       5
+      ]
+     ]
+    },
+    {
+     "id": "018dU",
+     "ref": "Gen.45.15",
+     "s": "עֲלֵיהֶ֑ם",
+     "tr": "`alehem",
+     "g": "over them",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "עֲלֵי",
+       "5921 a",
+       "R"
+      ],
+      [
+       "הֶ֑ם",
+       "",
+       "Sp3mp"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       2,
+       5
+      ]
+     ]
+    },
+    {
+     "id": "06hca",
+     "ref": "Josh.11.17",
+     "s": "מַלְכֵיהֶם֙",
+     "tr": "malkhehem",
+     "g": "their kings",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "מַלְכֵי",
+       "4428",
+       "Ncmpc"
+      ],
+      [
+       "הֶם֙",
+       "",
+       "Sp3mp"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       3,
+       6
+      ]
+     ]
+    },
+    {
+     "id": "11eVj",
+     "ref": "1Kgs.15.16",
+     "s": "יְמֵיהֶֽם",
+     "tr": "yemehem",
+     "g": "their days",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "יְמֵי",
+       "3117",
+       "Ncmpc"
+      ],
+      [
+       "הֶֽם",
+       "",
+       "Sp3mp"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       2,
+       5
+      ]
+     ]
+    },
+    {
+     "id": "04Pez",
+     "ref": "Num.16.32",
+     "s": "בָּתֵּיהֶ֑ם",
+     "tr": "battehem",
+     "g": "their households",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "בָּתֵּי",
+       "1004 b",
+       "Ncmpc"
+      ],
+      [
+       "הֶ֑ם",
+       "",
+       "Sp3mp"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       2,
+       5
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "M:p_3fp",
+   "kind": "morpheme",
+   "group": "suffix",
+   "unit": 2,
+   "label": "-ehen (yod before it: after a plural noun or 'el, `al)",
+   "gloss": "their; them (f.)",
+   "gloss_src": "curated (grammar)",
+   "reviewed": false,
+   "count": 56,
+   "examples": [
+    {
+     "id": "02xva",
+     "ref": "Exod.1.17",
+     "s": "אֲלֵיהֶ֖ן",
+     "tr": "alehen",
+     "g": "to them",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "אֲלֵי",
+       "413",
+       "R"
+      ],
+      [
+       "הֶ֖ן",
+       "",
+       "Sp3fp"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       2,
+       5
+      ]
+     ]
+    },
+    {
+     "id": "08e6B",
+     "ref": "Ruth.1.19",
+     "s": "עֲלֵיהֶ֔ן",
+     "tr": "`alehen",
+     "g": "on them",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "עֲלֵי",
+       "5921 a",
+       "R"
+      ],
+      [
+       "הֶ֔ן",
+       "",
+       "Sp3fp"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       2,
+       5
+      ]
+     ]
+    },
+    {
+     "id": "09cYB",
+     "ref": "1Sam.25.43",
+     "s": "שְׁתֵּיהֶ֥ן",
+     "tr": "shetehen",
+     "g": "both of them",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "שְׁתֵּי",
+       "8147",
+       "Acfdc"
+      ],
+      [
+       "הֶ֥ן",
+       "",
+       "Sp3fp"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       2,
+       5
+      ]
+     ]
+    },
+    {
+     "id": "01Bvv",
+     "ref": "Gen.41.30",
+     "s": "אַחֲרֵיהֶ֔ן",
+     "tr": "acharehen",
+     "g": "after them",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "אַחֲרֵי",
+       "310 a",
+       "R"
+      ],
+      [
+       "הֶ֔ן",
+       "",
+       "Sp3fp"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       3,
+       6
+      ]
+     ]
+    },
+    {
+     "id": "063Yr",
+     "ref": "Josh.21.3",
+     "s": "מִגְרְשֵׁיהֶֽן",
+     "tr": "migreshehen",
+     "g": "their pasture lands",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "מִגְרְשֵׁי",
+       "4054",
+       "Ncmpc"
+      ],
+      [
+       "הֶֽן",
+       "",
+       "Sp3fp"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       4,
+       7
+      ]
+     ]
+    },
+    {
+     "id": "01WnM",
+     "ref": "Gen.33.2",
+     "s": "יַלְדֵיהֶ֖ן",
+     "tr": "yaldehen",
+     "g": "their children",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "יַלְדֵי",
+       "3206",
+       "Ncmpc"
+      ],
+      [
+       "הֶ֖ן",
+       "",
+       "Sp3fp"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       3,
+       6
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "M:p_2ms",
+   "kind": "morpheme",
+   "group": "suffix",
+   "unit": 2,
+   "label": "-ekha (yod before it: after a plural noun or 'el, `al)",
+   "gloss": "your; you (m. sg.)",
+   "gloss_src": "curated (grammar)",
+   "reviewed": false,
+   "count": 581,
+   "examples": [
+    {
+     "id": "019yY",
+     "ref": "Gen.18.14",
+     "s": "אֵלֶ֛יךָ",
+     "tr": "elékha",
+     "g": "to you",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "אֵלֶ֛י",
+       "413",
+       "R"
+      ],
+      [
+       "ךָ",
+       "",
+       "Sp2ms"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       2,
+       4
+      ]
+     ]
+    },
+    {
+     "id": "013Y4",
+     "ref": "Gen.48.5",
+     "s": "בָנֶיךָ֩",
+     "tr": "vanékha",
+     "g": "your sons",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "בָנֶי",
+       "1121 a",
+       "Ncmpc"
+      ],
+      [
+       "ךָ֩",
+       "",
+       "Sp2ms"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       2,
+       4
+      ]
+     ]
+    },
+    {
+     "id": "013Eu",
+     "ref": "Gen.41.15",
+     "s": "עָלֶ֨יךָ֙",
+     "tr": "`alékha",
+     "g": "on you",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "עָלֶ֨י",
+       "5921 a",
+       "R"
+      ],
+      [
+       "ךָ֙",
+       "",
+       "Sp2ms"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       2,
+       4
+      ]
+     ]
+    },
+    {
+     "id": "02NM4",
+     "ref": "Exod.23.26",
+     "s": "יָמֶ֖יךָ",
+     "tr": "yamékha",
+     "g": "your days",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "יָמֶ֖י",
+       "3117",
+       "Ncmpc"
+      ],
+      [
+       "ךָ",
+       "",
+       "Sp2ms"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       2,
+       4
+      ]
+     ]
+    },
+    {
+     "id": "02JsT",
+     "ref": "Exod.10.6",
+     "s": "בָתֶּ֜יךָ",
+     "tr": "vattékha",
+     "g": "your houses",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "בָתֶּ֜י",
+       "1004 b",
+       "Ncmpc"
+      ],
+      [
+       "ךָ",
+       "",
+       "Sp2ms"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       2,
+       4
+      ]
+     ]
+    },
+    {
+     "id": "06uJ1",
+     "ref": "Josh.10.6",
+     "s": "יָדֶ֖יךָ",
+     "tr": "yadékha",
+     "g": "your hands",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "יָדֶ֖י",
+       "3027",
+       "Ncbdc"
+      ],
+      [
+       "ךָ",
+       "",
+       "Sp2ms"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       2,
+       4
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "M:p_2mp",
+   "kind": "morpheme",
+   "group": "suffix",
+   "unit": 2,
+   "label": "-ekhem (yod before it: after a plural noun or 'el, `al)",
+   "gloss": "your; you (pl.)",
+   "gloss_src": "curated (grammar)",
+   "reviewed": false,
+   "count": 339,
+   "examples": [
+    {
+     "id": "01ADc",
+     "ref": "Gen.22.5",
+     "s": "אֲלֵיכֶֽם",
+     "tr": "alekhem",
+     "g": "to you",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "אֲלֵי",
+       "413",
+       "R"
+      ],
+      [
+       "כֶֽם",
+       "",
+       "Sp2mp"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       2,
+       5
+      ]
+     ]
+    },
+    {
+     "id": "02Ld7",
+     "ref": "Exod.12.26",
+     "s": "בְּנֵיכֶ֑ם",
+     "tr": "benekhem",
+     "g": "your children",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "בְּנֵי",
+       "1121 a",
+       "Ncmpc"
+      ],
+      [
+       "כֶ֑ם",
+       "",
+       "Sp2mp"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       2,
+       5
+      ]
+     ]
+    },
+    {
+     "id": "02H2d",
+     "ref": "Exod.32.29",
+     "s": "עֲלֵיכֶ֛ם",
+     "tr": "`alekhem",
+     "g": "on yourselves",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "עֲלֵי",
+       "5921 a",
+       "R"
+      ],
+      [
+       "כֶ֛ם",
+       "",
+       "Sp2mp"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       2,
+       5
+      ]
+     ]
+    },
+    {
+     "id": "01GFQ",
+     "ref": "Gen.45.18",
+     "s": "בָּתֵּיכֶ֖ם",
+     "tr": "battekhem",
+     "g": "your households",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "בָּתֵּי",
+       "1004 b",
+       "Ncmpc"
+      ],
+      [
+       "כֶ֖ם",
+       "",
+       "Sp2mp"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       2,
+       5
+      ]
+     ]
+    },
+    {
+     "id": "10bYm",
+     "ref": "2Sam.2.7",
+     "s": "יְדֵיכֶ֗ם",
+     "tr": "yedekhem",
+     "g": "your hands",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "יְדֵי",
+       "3027",
+       "Ncbdc"
+      ],
+      [
+       "כֶ֗ם",
+       "",
+       "Sp2mp"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       2,
+       5
+      ]
+     ]
+    },
+    {
+     "id": "01qEo",
+     "ref": "Gen.48.21",
+     "s": "אֲבֹתֵיכֶֽם",
+     "tr": "avotekhem",
+     "g": "your fathers",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "אֲבֹתֵי",
+       "1",
+       "Ncmpc"
+      ],
+      [
+       "כֶֽם",
+       "",
+       "Sp2mp"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       3,
+       6
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "M:p_1cs",
+   "kind": "morpheme",
+   "group": "suffix",
+   "unit": 2,
+   "label": "-ay (yod before it: after a plural noun or 'el, `al)",
+   "gloss": "my; me",
+   "gloss_src": "curated (grammar)",
+   "reviewed": false,
+   "count": 448,
+   "examples": [
+    {
+     "id": "013dF",
+     "ref": "Gen.24.40",
+     "s": "אֵלָ֑י",
+     "tr": "elay",
+     "g": "to me",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "אֵלָ֑",
+       "413",
+       "R"
+      ],
+      [
+       "י",
+       "",
+       "Sp1cs"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       2,
+       3
+      ]
+     ]
+    },
+    {
+     "id": "01FwY",
+     "ref": "Gen.42.37",
+     "s": "בָנַי֙",
+     "tr": "vanay",
+     "g": "my sons",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "בָנַ",
+       "1121 a",
+       "Ncmpc"
+      ],
+      [
+       "י֙",
+       "",
+       "Sp1cs"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       2,
+       3
+      ]
+     ]
+    },
+    {
+     "id": "014Jo",
+     "ref": "Gen.34.30",
+     "s": "עָלַי֙",
+     "tr": "`alay",
+     "g": "on me",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "עָלַ",
+       "5921 a",
+       "R"
+      ],
+      [
+       "י֙",
+       "",
+       "Sp1cs"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       2,
+       3
+      ]
+     ]
+    },
+    {
+     "id": "09sL7",
+     "ref": "1Sam.23.12",
+     "s": "אֲנָשַׁ֖י",
+     "tr": "anashay",
+     "g": "my men",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "אֲנָשַׁ֖",
+       "376",
+       "Ncmpc"
+      ],
+      [
+       "י",
+       "",
+       "Sp1cs"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       3,
+       4
+      ]
+     ]
+    },
+    {
+     "id": "01gmT",
+     "ref": "Gen.29.21",
+     "s": "יָמָ֑י",
+     "tr": "yamay",
+     "g": "my days",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "יָמָ֑",
+       "3117",
+       "Ncmpc"
+      ],
+      [
+       "י",
+       "",
+       "Sp1cs"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       2,
+       3
+      ]
+     ]
+    },
+    {
+     "id": "014uw",
+     "ref": "Gen.47.9",
+     "s": "אֲבֹתַ֔י",
+     "tr": "avotay",
+     "g": "my ancestors",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "אֲבֹתַ֔",
+       "1",
+       "Ncmpc"
+      ],
+      [
+       "י",
+       "",
+       "Sp1cs"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       3,
+       4
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "M:p_1cp",
+   "kind": "morpheme",
+   "group": "suffix",
+   "unit": 2,
+   "label": "-enu (yod before it: after a plural noun or 'el, `al)",
+   "gloss": "our; us",
+   "gloss_src": "curated (grammar)",
+   "reviewed": false,
+   "count": 195,
+   "examples": [
+    {
+     "id": "015KQ",
+     "ref": "Gen.44.27",
+     "s": "אֵלֵ֑ינוּ",
+     "tr": "elénu",
+     "g": "to us",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "אֵלֵ֑י",
+       "413",
+       "R"
+      ],
+      [
+       "נוּ",
+       "",
+       "Sp1cp"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       2,
+       5
+      ]
+     ]
+    },
+    {
+     "id": "06Mv3",
+     "ref": "Josh.22.25",
+     "s": "בָּנֵ֔ינוּ",
+     "tr": "banénu",
+     "g": "our descendants",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "בָּנֵ֔י",
+       "1121 a",
+       "Ncmpc"
+      ],
+      [
+       "נוּ",
+       "",
+       "Sp1cp"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       2,
+       5
+      ]
+     ]
+    },
+    {
+     "id": "01BfF",
+     "ref": "Gen.43.18",
+     "s": "עָלֵ֨ינוּ֙",
+     "tr": "`alénu",
+     "g": "on us",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "עָלֵ֨י",
+       "5921 a",
+       "R"
+      ],
+      [
+       "נוּ֙",
+       "",
+       "Sp1cp"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       2,
+       5
+      ]
+     ]
+    },
+    {
+     "id": "02in2",
+     "ref": "Exod.12.27",
+     "s": "בָּתֵּ֣ינוּ",
+     "tr": "batténu",
+     "g": "our houses",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "בָּתֵּ֣י",
+       "1004 b",
+       "Ncmpc"
+      ],
+      [
+       "נוּ",
+       "",
+       "Sp1cp"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       2,
+       5
+      ]
+     ]
+    },
+    {
+     "id": "01Jdo",
+     "ref": "Gen.5.29",
+     "s": "יָדֵ֔ינוּ",
+     "tr": "yadénu",
+     "g": "our hands",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "יָדֵ֔י",
+       "3027",
+       "Ncbdc"
+      ],
+      [
+       "נוּ",
+       "",
+       "Sp1cp"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       2,
+       5
+      ]
+     ]
+    },
+    {
+     "id": "01a9Y",
+     "ref": "Gen.47.3",
+     "s": "אֲבוֹתֵֽינוּ",
+     "tr": "avoténu",
+     "g": "our fathers",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "אֲבוֹתֵֽי",
+       "1",
+       "Ncmpc"
+      ],
+      [
+       "נוּ",
+       "",
+       "Sp1cp"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       4,
+       7
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "M:dir",
+   "kind": "morpheme",
+   "group": "suffix",
+   "unit": 2,
+   "label": "-ah (unstressed, on a place)",
+   "gloss": "toward, to (direction)",
+   "gloss_src": "curated (grammar)",
+   "reviewed": false,
+   "count": 650,
+   "examples": [
+    {
+     "id": "013ms",
+     "ref": "Gen.44.11",
+     "s": "אָ֑רְצָה",
+     "tr": "áretsah",
+     "g": "the ground towards",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "אָ֑רְצָ",
+       "776",
+       "Ncbsa"
+      ],
+      [
+       "ה",
+       "",
+       "Sd"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       3,
+       4
+      ]
+     ]
+    },
+    {
+     "id": "02Ae1",
+     "ref": "Exod.13.10",
+     "s": "יָמִֽימָה",
+     "tr": "yamímah",
+     "g": "days towards",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "יָמִֽימָ",
+       "3117",
+       "Ncmpa"
+      ],
+      [
+       "ה",
+       "",
+       "Sd"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       4,
+       5
+      ]
+     ]
+    },
+    {
+     "id": "01ZT5",
+     "ref": "Gen.28.2",
+     "s": "בֵּ֥יתָה",
+     "tr": "bétah",
+     "g": "the house of towards",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "בֵּ֥יתָ",
+       "1004 b",
+       "Ncmsc"
+      ],
+      [
+       "ה",
+       "",
+       "Sd"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       3,
+       4
+      ]
+     ]
+    },
+    {
+     "id": "016E7",
+     "ref": "Gen.20.13",
+     "s": "שָׁ֔מָּה",
+     "tr": "shámmah",
+     "g": "there towards",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "שָׁ֔מָּ",
+       "8033",
+       "D"
+      ],
+      [
+       "ה",
+       "",
+       "Sd"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       2,
+       3
+      ]
+     ]
+    },
+    {
+     "id": "01yU7",
+     "ref": "Gen.14.10",
+     "s": "הֶ֥רָה",
+     "tr": "hérah",
+     "g": "the hill country towards",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "הֶ֥רָ",
+       "2022",
+       "Ncmsa"
+      ],
+      [
+       "ה",
+       "",
+       "Sd"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       2,
+       3
+      ]
+     ]
+    },
+    {
+     "id": "01Awt",
+     "ref": "Gen.28.14",
+     "s": "יָ֥מָּה",
+     "tr": "yámmah",
+     "g": "west -ward",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "יָ֥מָּ",
+       "3220",
+       "Ncmsa"
+      ],
+      [
+       "ה",
+       "",
+       "Sd"
+      ]
+     ],
+     "hl": 1,
+     "hlc": [
+      [
+       2,
+       3
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "F:6213_a:HC/Vqw3ms:1f95f1",
+   "kind": "form",
+   "unit": 2,
+   "rank": 9,
+   "count": 168,
+   "lemma": "6213 a",
+   "morph": "HC/Vqw3ms",
+   "parse": "w Qal wayyiqtol 3ms",
+   "family": "wayyiqtol",
+   "facets": {
+    "stem": "q",
+    "conj": "wayyiqtol",
+    "pgn": "3ms"
+   },
+   "ambiguous": false,
+   "tr": "vayyá`as",
+   "examples": [
+    {
+     "id": "02W2c",
+     "ref": "Exod.1.21",
+     "s": "וַיַּ֥עַשׂ",
+     "tr": "vayyá`as",
+     "g": "and he appointed",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "וַ",
+       "c",
+       "C"
+      ],
+      [
+       "יַּ֥עַשׂ",
+       "6213 a",
+       "Vqw3ms"
+      ]
+     ]
+    },
+    {
+     "id": "01syM",
+     "ref": "Gen.6.22",
+     "s": "וַיַּ֖עַשׂ",
+     "tr": "vayyá`as",
+     "g": "and he did",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "וַ",
+       "c",
+       "C"
+      ],
+      [
+       "יַּ֖עַשׂ",
+       "6213 a",
+       "Vqw3ms"
+      ]
+     ]
+    },
+    {
+     "id": "02Kw3",
+     "ref": "Exod.36.20",
+     "s": "וַיַּ֥עַשׂ",
+     "tr": "vayyá`as",
+     "g": "and he made",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "וַ",
+       "c",
+       "C"
+      ],
+      [
+       "יַּ֥עַשׂ",
+       "6213 a",
+       "Vqw3ms"
+      ]
+     ]
+    },
+    {
+     "id": "06Us4",
+     "ref": "Josh.9.15",
+     "s": "וַיַּ֨עַשׂ",
+     "tr": "vayyá`as",
+     "g": "and he made",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "וַ",
+       "c",
+       "C"
+      ],
+      [
+       "יַּ֨עַשׂ",
+       "6213 a",
+       "Vqw3ms"
+      ]
+     ]
+    }
+   ],
+   "gloss": "and he made; and he did",
+   "gloss_src": "curated vs BDB (TBESH)",
+   "reviewed": false,
+   "tahot_glosses": [
+    [
+     "and he made",
+     78
+    ],
+    [
+     "and he did",
+     71
+    ],
+    [
+     "and he prepared",
+     7
+    ],
+    [
+     "and he appointed",
+     5
+    ]
+   ]
+  },
+  {
+   "id": "F:7121:HC/Vqw3ms:541d94",
+   "kind": "form",
+   "unit": 2,
+   "rank": 10,
+   "count": 164,
+   "lemma": "7121",
+   "morph": "HC/Vqw3ms",
+   "parse": "w Qal wayyiqtol 3ms",
+   "family": "wayyiqtol",
+   "facets": {
+    "stem": "q",
+    "conj": "wayyiqtol",
+    "pgn": "3ms"
+   },
+   "ambiguous": false,
+   "tr": "vayyiqra",
+   "examples": [
+    {
+     "id": "10jQ8",
+     "ref": "2Sam.1.7",
+     "s": "וַיִּקְרָ֣א",
+     "tr": "vayyiqra",
+     "g": "and he called",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "וַ",
+       "c",
+       "C"
+      ],
+      [
+       "יִּקְרָ֣א",
+       "7121",
+       "Vqw3ms"
+      ]
+     ]
+    },
+    {
+     "id": "125mW",
+     "ref": "2Kgs.4.15",
+     "s": "וַיִּקְרָא",
+     "tr": "vayyiqra-",
+     "g": "and he summoned",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "וַ",
+       "c",
+       "C"
+      ],
+      [
+       "יִּקְרָא",
+       "7121",
+       "Vqw3ms"
+      ]
+     ]
+    },
+    {
+     "id": "01YUq",
+     "ref": "Gen.1.8",
+     "s": "וַיִּקְרָ֧א",
+     "tr": "vayyiqra",
+     "g": "and he called",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "וַ",
+       "c",
+       "C"
+      ],
+      [
+       "יִּקְרָ֧א",
+       "7121",
+       "Vqw3ms"
+      ]
+     ]
+    },
+    {
+     "id": "019d7",
+     "ref": "Gen.3.20",
+     "s": "וַיִּקְרָ֧א",
+     "tr": "vayyiqra",
+     "g": "and he called",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "וַ",
+       "c",
+       "C"
+      ],
+      [
+       "יִּקְרָ֧א",
+       "7121",
+       "Vqw3ms"
+      ]
+     ]
+    }
+   ],
+   "gloss": "and he called; and he summoned; and he named",
+   "gloss_src": "curated vs BDB (TBESH)",
+   "reviewed": false,
+   "tahot_glosses": [
+    [
+     "and he called",
+     73
+    ],
+    [
+     "and he summoned",
+     44
+    ],
+    [
+     "and he called out",
+     24
+    ],
+    [
+     "and someone called",
+     10
+    ]
+   ]
+  },
+  {
+   "id": "F:3947:HC/Vqw3ms:616b37",
+   "kind": "form",
+   "unit": 2,
+   "rank": 13,
+   "count": 159,
+   "lemma": "3947",
+   "morph": "HC/Vqw3ms",
+   "parse": "w Qal wayyiqtol 3ms",
+   "family": "wayyiqtol",
+   "facets": {
+    "stem": "q",
+    "conj": "wayyiqtol",
+    "pgn": "3ms"
+   },
+   "ambiguous": false,
+   "tr": "vayyiqqach",
+   "examples": [
+    {
+     "id": "018H3",
+     "ref": "Gen.29.23",
+     "s": "וַיִּקַּח֙",
+     "tr": "vayyiqqach",
+     "g": "and he took",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "וַ",
+       "c",
+       "C"
+      ],
+      [
+       "יִּקַּח֙",
+       "3947",
+       "Vqw3ms"
+      ]
+     ]
+    },
+    {
+     "id": "01D5u",
+     "ref": "Gen.42.24",
+     "s": "וַיִּקַּ֤ח",
+     "tr": "vayyiqqach",
+     "g": "and he took",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "וַ",
+       "c",
+       "C"
+      ],
+      [
+       "יִּקַּ֤ח",
+       "3947",
+       "Vqw3ms"
+      ]
+     ]
+    },
+    {
+     "id": "08FCG",
+     "ref": "Ruth.4.2",
+     "s": "וַיִּקַּ֞ח",
+     "tr": "vayyiqqach",
+     "g": "and he took",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "וַ",
+       "c",
+       "C"
+      ],
+      [
+       "יִּקַּ֞ח",
+       "3947",
+       "Vqw3ms"
+      ]
+     ]
+    },
+    {
+     "id": "12ibj",
+     "ref": "2Kgs.5.24",
+     "s": "וַיִּקַּ֥ח",
+     "tr": "vayyiqqach",
+     "g": "and he took them",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "וַ",
+       "c",
+       "C"
+      ],
+      [
+       "יִּקַּ֥ח",
+       "3947",
+       "Vqw3ms"
+      ]
+     ]
+    }
+   ],
+   "gloss": "and he took",
+   "gloss_src": "curated vs BDB (TBESH)",
+   "reviewed": false,
+   "tahot_glosses": [
+    [
+     "and he took",
+     147
+    ],
+    [
+     "and he brought",
+     3
+    ],
+    [
+     "and it took",
+     3
+    ],
+    [
+     "and he had taken",
+     2
+    ]
+   ]
+  },
+  {
+   "id": "F:7971:HC/Vqw3ms:99b117",
+   "kind": "form",
+   "unit": 2,
+   "rank": 15,
+   "count": 140,
+   "lemma": "7971",
+   "morph": "HC/Vqw3ms",
+   "parse": "w Qal wayyiqtol 3ms",
+   "family": "wayyiqtol",
+   "facets": {
+    "stem": "q",
+    "conj": "wayyiqtol",
+    "pgn": "3ms"
+   },
+   "ambiguous": false,
+   "tr": "vayyishlach",
+   "examples": [
+    {
+     "id": "07qiE",
+     "ref": "Judg.11.38",
+     "s": "וַיִּשְׁלַ֥ח",
+     "tr": "vayyishlach",
+     "g": "and he sent away",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "וַ",
+       "c",
+       "C"
+      ],
+      [
+       "יִּשְׁלַ֥ח",
+       "7971",
+       "Vqw3ms"
+      ]
+     ]
+    },
+    {
+     "id": "104tb",
+     "ref": "2Sam.11.4",
+     "s": "וַיִּשְׁלַח֩",
+     "tr": "vayyishlach",
+     "g": "and he sent",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "וַ",
+       "c",
+       "C"
+      ],
+      [
+       "יִּשְׁלַח֩",
+       "7971",
+       "Vqw3ms"
+      ]
+     ]
+    },
+    {
+     "id": "02WoZ",
+     "ref": "Exod.24.5",
+     "s": "וַיִּשְׁלַ֗ח",
+     "tr": "vayyishlach",
+     "g": "and he sent",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "וַ",
+       "c",
+       "C"
+      ],
+      [
+       "יִּשְׁלַ֗ח",
+       "7971",
+       "Vqw3ms"
+      ]
+     ]
+    },
+    {
+     "id": "06UYd",
+     "ref": "Josh.7.22",
+     "s": "וַיִּשְׁלַ֤ח",
+     "tr": "vayyishlach",
+     "g": "and he sent",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "וַ",
+       "c",
+       "C"
+      ],
+      [
+       "יִּשְׁלַ֤ח",
+       "7971",
+       "Vqw3ms"
+      ]
+     ]
+    }
+   ],
+   "gloss": "and he sent; and he stretched out (his hand)",
+   "gloss_src": "curated vs BDB (TBESH)",
+   "reviewed": false,
+   "tahot_glosses": [
+    [
+     "and he sent",
+     114
+    ],
+    [
+     "and he stretched out",
+     12
+    ],
+    [
+     "and it sent",
+     4
+    ],
+    [
+     "and he sent them",
+     4
+    ]
+   ]
+  },
+  {
+   "id": "F:935:HC/Vqw3mp:4d6ed0",
+   "kind": "form",
+   "unit": 2,
+   "rank": 16,
+   "count": 137,
+   "lemma": "935",
+   "morph": "HC/Vqw3mp",
+   "parse": "w Qal wayyiqtol 3mp",
+   "family": "wayyiqtol",
+   "facets": {
+    "stem": "q",
+    "conj": "wayyiqtol",
+    "pgn": "3mp"
+   },
+   "ambiguous": false,
+   "tr": "vayyavó'u",
+   "examples": [
+    {
+     "id": "02rD9",
+     "ref": "Exod.36.4",
+     "s": "וַיָּבֹ֨אוּ֙",
+     "tr": "vayyavó'u",
+     "g": "and they came",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "וַ",
+       "c",
+       "C"
+      ],
+      [
+       "יָּבֹ֨אוּ֙",
+       "935",
+       "Vqw3mp"
+      ]
+     ]
+    },
+    {
+     "id": "0965F",
+     "ref": "1Sam.30.9",
+     "s": "וַיָּבֹ֖אוּ",
+     "tr": "vayyavó'u",
+     "g": "and they came",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "וַ",
+       "c",
+       "C"
+      ],
+      [
+       "יָּבֹ֖אוּ",
+       "935",
+       "Vqw3mp"
+      ]
+     ]
+    },
+    {
+     "id": "112zb",
+     "ref": "1Kgs.8.3",
+     "s": "וַיָּבֹ֕אוּ",
+     "tr": "vayyavó'u",
+     "g": "and they came",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "וַ",
+       "c",
+       "C"
+      ],
+      [
+       "יָּבֹ֕אוּ",
+       "935",
+       "Vqw3mp"
+      ]
+     ]
+    },
+    {
+     "id": "01WPk",
+     "ref": "Gen.7.15",
+     "s": "וַיָּבֹ֥אוּ",
+     "tr": "vayyavó'u",
+     "g": "and they came",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "וַ",
+       "c",
+       "C"
+      ],
+      [
+       "יָּבֹ֥אוּ",
+       "935",
+       "Vqw3mp"
+      ]
+     ]
+    }
+   ],
+   "gloss": "and they came; and they went in",
+   "gloss_src": "curated vs BDB (TBESH)",
+   "reviewed": false,
+   "tahot_glosses": [
+    [
+     "and they came",
+     95
+    ],
+    [
+     "and they went",
+     41
+    ],
+    [
+     "and people came",
+     1
+    ]
+   ]
+  },
+  {
+   "id": "F:1696:HC/Vpw3ms:0130bd",
+   "kind": "form",
+   "unit": 2,
+   "rank": 17,
+   "count": 127,
+   "lemma": "1696",
+   "morph": "HC/Vpw3ms",
+   "parse": "w Piel wayyiqtol 3ms",
+   "family": "wayyiqtol",
+   "facets": {
+    "stem": "p",
+    "conj": "wayyiqtol",
+    "pgn": "3ms"
+   },
+   "ambiguous": false,
+   "tr": "vayedabber",
+   "examples": [
+    {
+     "id": "024a7",
+     "ref": "Exod.20.1",
+     "s": "וַיְדַבֵּ֣ר",
+     "tr": "vayedabber",
+     "g": "and he spoke",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "וַ",
+       "c",
+       "C"
+      ],
+      [
+       "יְדַבֵּ֣ר",
+       "1696",
+       "Vpw3ms"
+      ]
+     ]
+    },
+    {
+     "id": "12zTj",
+     "ref": "2Kgs.1.7",
+     "s": "וַיְדַבֵּ֣ר",
+     "tr": "vayedabber",
+     "g": "and he spoke",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "וַ",
+       "c",
+       "C"
+      ],
+      [
+       "יְדַבֵּ֣ר",
+       "1696",
+       "Vpw3ms"
+      ]
+     ]
+    },
+    {
+     "id": "013kt",
+     "ref": "Gen.17.3",
+     "s": "וַיְדַבֵּ֥ר",
+     "tr": "vayedabber",
+     "g": "and he spoke",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "וַ",
+       "c",
+       "C"
+      ],
+      [
+       "יְדַבֵּ֥ר",
+       "1696",
+       "Vpw3ms"
+      ]
+     ]
+    },
+    {
+     "id": "01sty",
+     "ref": "Gen.42.24",
+     "s": "וַיְדַבֵּ֣ר",
+     "tr": "vayedabber",
+     "g": "and he spoke",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "וַ",
+       "c",
+       "C"
+      ],
+      [
+       "יְדַבֵּ֣ר",
+       "1696",
+       "Vpw3ms"
+      ]
+     ]
+    }
+   ],
+   "gloss": "and he spoke",
+   "gloss_src": "curated vs BDB (TBESH)",
+   "reviewed": false,
+   "tahot_glosses": [
+    [
+     "and he spoke",
+     125
+    ],
+    [
+     "and he had spoken",
+     1
+    ],
+    [
+     "and it spoke",
+     1
+    ]
+   ]
+  },
+  {
+   "id": "N:3068",
+   "kind": "name",
+   "unit": 2,
+   "lemma": "3068",
+   "rank": 1,
+   "count": 2333,
+   "tok": {
+    "id": "01gcK",
+    "ref": "Gen.2.4",
+    "s": "יְהוָ֥ה",
+    "tr": "YHWH",
+    "g": "YHWH (the LORD)",
+    "gs": "SPEC Q3",
+    "gr": 1,
+    "p": [
+     [
+      "יְהוָ֥ה",
+      "3068",
+      "Np"
+     ]
+    ]
+   },
+   "example": {
+    "id": "014YR",
+    "ref": "Gen.28.21"
+   },
+   "gloss": "YHWH (the LORD): the name of Israel's God",
+   "gloss_src": "curated vs BDB (TBESH)",
+   "reviewed": false,
+   "tbesh_key": "H3068G",
+   "bdb": "Jehovah = \"the existing One\"\n1) the proper name of the one true God\n1a) unpronounced except with the vowel pointings of a.do.na (אֲדֹנָי \"Lord\" H0136)"
+  },
+  {
+   "id": "N:3478",
+   "kind": "name",
+   "unit": 2,
+   "lemma": "3478",
+   "rank": 2,
+   "count": 1407,
+   "tok": {
+    "id": "01Q1E",
+    "ref": "Gen.32.29",
+    "s": "יִשְׂרָאֵ֑ל",
+    "tr": "yisra'el",
+    "g": "Israel",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "יִשְׂרָאֵ֑ל",
+      "3478",
+      "Np"
+     ]
+    ]
+   },
+   "example": {
+    "id": "02Qsx",
+    "ref": "Exod.2.25"
+   },
+   "gloss": "Israel: Jacob's other name; the people descended from him; (later) the northern kingdom",
+   "gloss_src": "curated vs BDB (TBESH)",
+   "reviewed": false,
+   "tbesh_key": "H3478",
+   "bdb": "A man living at the time of the Patriarchs, first mentioned at Gen.25.26; \n son of: Isaac (H3327) and Rebekah (H7259); \n brother of: Esau (H6215); married to Rachel (H7354), Leah (H3812), Zilpah (H2153) and Bilhah (H1090A); \n father of: Reuben (H7205), Simeon (H8095), Levi (H3878), Judah (H3063), Dan (H1835H), Naphtali (H5321), Gad (H1410), Asher (H0836), Issachar (H3485), Zebulun (H2074), Dinah ("
+  },
+  {
+   "id": "N:1732",
+   "kind": "name",
+   "unit": 2,
+   "lemma": "1732",
+   "rank": 3,
+   "count": 670,
+   "tok": {
+    "id": "08AuA",
+    "ref": "Ruth.4.22",
+    "s": "דָּוִֽד",
+    "tr": "david",
+    "g": "David",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "דָּוִֽד",
+      "1732",
+      "Np"
+     ]
+    ]
+   },
+   "example": {
+    "id": "09mjf",
+    "ref": "1Sam.17.29"
+   },
+   "gloss": "David: Jesse's son, second king of Israel",
+   "gloss_src": "curated vs BDB (TBESH)",
+   "reviewed": false,
+   "tbesh_key": "H1732",
+   "bdb": "A king of the tribe of Judah living at the time of United Monarchy, first mentioned at Rut.4.17; \n son of: Jesse (H3448) and Nahash (H5176I); \n brother of: Eliab (H0446I), Abinadab (H0041I), Shimeah (H8093), Zeruiah (H6870), Abigail (H0026H)(?), Nethanel (H5417H), Raddai (H7288), Ozem (H0684) and Elihu (H0453J); married to Michal (H4324), Abigail (H0026), Ahinoam (H0293H), Maacah (H4601I), Haggith"
+  },
+  {
+   "id": "N:4872",
+   "kind": "name",
+   "unit": 2,
+   "lemma": "4872",
+   "rank": 4,
+   "count": 596,
+   "tok": {
+    "id": "02pAw",
+    "ref": "Exod.2.10",
+    "s": "מֹשֶׁ֔ה",
+    "tr": "mosheh",
+    "g": "Moses",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "מֹשֶׁ֔ה",
+      "4872",
+      "Np"
+     ]
+    ]
+   },
+   "example": {
+    "id": "022HU",
+    "ref": "Exod.16.19"
+   },
+   "gloss": "Moses: leader of Israel out of Egypt",
+   "gloss_src": "curated vs BDB (TBESH)",
+   "reviewed": false,
+   "tbesh_key": "H4872",
+   "bdb": "A man of the tribe of Levi living at the time of Egypt and Wilderness, first mentioned at Exo.2.10; \n son of: Amram (H6019) and Jochebed (H3115); \n brother of: Aaron (H0175) and Miriam (H4813); married to Zipporah (H6855); \n father of: Gershom (H1647) and Eliezer (H0461H); also called Manasseh at Jdg.18.30(?) \n § Moses = \"drawn\"\n the prophet and lawgiver, leader of the exodus"
+  },
+  {
+   "id": "N:7586",
+   "kind": "name",
+   "unit": 2,
+   "lemma": "7586",
+   "rank": 5,
+   "count": 363,
+   "tok": {
+    "id": "01pH1",
+    "ref": "Gen.36.37",
+    "s": "שָׁא֖וּל",
+    "tr": "sha'ul",
+    "g": "Shaul",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "שָׁא֖וּל",
+      "7586",
+      "Np"
+     ]
+    ]
+   },
+   "example": {
+    "id": "09ATZ",
+    "ref": "1Sam.18.2"
+   },
+   "gloss": "Saul: first king of Israel, a Benjaminite",
+   "gloss_src": "curated vs BDB (TBESH)",
+   "reviewed": false,
+   "tbesh_key": "H7586G",
+   "bdb": "A king of the tribe of Benjamin living at the time of United Monarchy, first mentioned at 1Sa.9.2; \n son of: Kish (H7027); married to Ahinoam (H0293) and Rizpah (H7532); \n father of: Jonathan (H3083H), Abinadab (H0041H), Malchi-shua (H4444), Merab (H4764), Michal (H4324), Ish-bosheth (H0378), Armoni (H0764), Mephibosheth (H4648H)\n § Saul or Shaul = \"desired\"\n1) a Benjamite, son of Kish, and the 1s"
+  },
+  {
+   "id": "N:4714",
+   "kind": "name",
+   "unit": 2,
+   "lemma": "4714",
+   "rank": 6,
+   "count": 330,
+   "tok": {
+    "id": "01jnZ",
+    "ref": "Gen.13.10",
+    "s": "מִצְרַ֔יִם",
+    "tr": "mitsráyim",
+    "g": "Egypt",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "מִצְרַ֔יִם",
+      "4714",
+      "Np"
+     ]
+    ]
+   },
+   "example": {
+    "id": "01c2i",
+    "ref": "Gen.46.7"
+   },
+   "gloss": "Egypt (place); also the Egyptians",
+   "gloss_src": "curated vs BDB (TBESH)",
+   "reviewed": false,
+   "tbesh_key": "H4714G",
+   "bdb": "§ Egypt = \"land of the Copts\"\n a country at the northeastern section of Africa, adjacent to Palestine, and through which the Nile flows\nEgyptians = \"double straits\""
+  },
+  {
+   "id": "N:3063",
+   "kind": "name",
+   "unit": 2,
+   "lemma": "3063",
+   "rank": 7,
+   "count": 275,
+   "tok": {
+    "id": "01uoQ",
+    "ref": "Gen.29.35",
+    "s": "יְהוּדָ֑ה",
+    "tr": "yehudah",
+    "g": "Judah",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "יְהוּדָ֑ה",
+      "3063",
+      "Np"
+     ]
+    ]
+   },
+   "example": {
+    "id": "016Qc",
+    "ref": "Gen.38.22"
+   },
+   "gloss": "Judah: Jacob's son; his tribe and territory; (later) the southern kingdom",
+   "gloss_src": "curated vs BDB (TBESH)",
+   "reviewed": false,
+   "tbesh_key": "H3063G",
+   "bdb": "A man of the tribe of Judah  living at the time of the Patriarchs, first mentioned at Gen.29.35; \n son of: Israel (H3478) and Leah (H3812); \n brother of: Reuben (H7205), Simeon (H8095), Levi (H3878), Issachar (H3485), Zebulun (H2074) and Dinah (H1783); \n half-brother of: Dan (H1835H), Naphtali (H5321), Gad (H1410), Asher (H0836), Joseph (H3130) and Benjamin (H1144); married to Bath-shua (H1323I) a"
+  },
+  {
+   "id": "N:6430",
+   "kind": "name",
+   "unit": 2,
+   "lemma": "6430",
+   "rank": 8,
+   "count": 233,
+   "tok": {
+    "id": "019Bj",
+    "ref": "Gen.10.14",
+    "s": "פְּלִשְׁתִּ֖ים",
+    "tr": "pelishtim",
+    "g": "the Philistines",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "פְּלִשְׁתִּ֖ים",
+      "6430",
+      "Ngmpa"
+     ]
+    ]
+   },
+   "example": {
+    "id": "12C37",
+    "ref": "2Kgs.8.2"
+   },
+   "gloss": "Philistine(s): people of the southern coastal plain, Israel's enemies",
+   "gloss_src": "curated vs BDB (TBESH)",
+   "reviewed": false,
+   "tbesh_key": "H6430G",
+   "bdb": "Philistine = \"immigrants\"\n an inhabitant of Philistia; descendants of Mizraim who immigrated from Caphtor (Crete?) to the western seacoast of Canaan\nAnother spelling of pe.le.shet (פְּלֶ֫שֶׁת \"Philistia\" H6429)"
+  },
+  {
+   "id": "N:6547",
+   "kind": "name",
+   "unit": 2,
+   "lemma": "6547",
+   "rank": 9,
+   "count": 227,
+   "tok": {
+    "id": "01t9s",
+    "ref": "Gen.12.15",
+    "s": "פַּרְעֹ֑ה",
+    "tr": "par`oh",
+    "g": "Pharaoh",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "פַּרְעֹ֑ה",
+      "6547",
+      "Np"
+     ]
+    ]
+   },
+   "example": {
+    "id": "01Us6",
+    "ref": "Gen.12.20"
+   },
+   "gloss": "Pharaoh: title of the king of Egypt",
+   "gloss_src": "curated vs BDB (TBESH)",
+   "reviewed": false,
+   "tbesh_key": "H6547J",
+   "bdb": "A man of the Egyptians living at the time of Egypt and Wilderness, first mentioned at Exo.3.10\nAlso named: Pharaō (Φαραώ \"Pharaoh\" G5328I)\n § Pharaoh = \"great house\"\n the common title of the king of Egypt"
+  },
+  {
+   "id": "N:175",
+   "kind": "name",
+   "unit": 2,
+   "lemma": "175",
+   "rank": 10,
+   "count": 226,
+   "tok": {
+    "id": "02b2J",
+    "ref": "Exod.4.14",
+    "s": "אַהֲרֹ֤ן",
+    "tr": "aharon",
+    "g": "is Aaron",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "אַהֲרֹ֤ן",
+      "175",
+      "Np"
+     ]
+    ]
+   },
+   "example": {
+    "id": "02X93",
+    "ref": "Exod.29.10"
+   },
+   "gloss": "Aaron: Moses' brother, the first high priest",
+   "gloss_src": "curated vs BDB (TBESH)",
+   "reviewed": false,
+   "tbesh_key": "H0175",
+   "bdb": "A man of the tribe of Levi living at the time of Egypt and Wilderness, first mentioned at Exo.4.14; \n son of: Amram (H6019) and Jochebed (H3115); \n brother of: Moses (H4872) and Miriam (H4813); married to Elisheba (H0472); \n father of: Nadab (H5070), Abihu (H0030), Eleazar (H0499) and Ithamar (H0385)\nAlso named: Aarōn (Ἀαρών \"Aaron\" G0002) \n § Aaron = \"light bringer\"\n brother of Moses, a Levite an"
+  },
+  {
+   "id": "R:Gen.22.1:0-3",
+   "kind": "micro",
+   "unit": 2,
+   "ref": "Gen.22.1",
+   "start": 0,
+   "end": 3,
+   "toks": [
+    {
+     "id": "01W4q",
+     "ref": "Gen.22.1",
+     "s": "וַיְהִ֗י",
+     "tr": "vayehi",
+     "g": "and it was",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "וַ",
+       "c",
+       "C"
+      ],
+      [
+       "יְהִ֗י",
+       "1961",
+       "Vqw3ms"
+      ]
+     ]
+    },
+    {
+     "id": "01N6D",
+     "ref": "Gen.22.1",
+     "s": "אַחַר֙",
+     "tr": "achar",
+     "g": "after",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "אַחַר֙",
+       "310 a",
+       "R"
+      ]
+     ]
+    },
+    {
+     "id": "01r3j",
+     "ref": "Gen.22.1",
+     "s": "הַדְּבָרִ֣ים",
+     "tr": "haddevarim",
+     "g": "the things",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "הַ",
+       "d",
+       "Td"
+      ],
+      [
+       "דְּבָרִ֣ים",
+       "1697",
+       "Ncmpa"
+      ]
+     ]
+    },
+    {
+     "id": "01RbR",
+     "ref": "Gen.22.1",
+     "s": "הָאֵ֔לֶּה",
+     "tr": "ha'élleh",
+     "g": "these",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "הָ",
+       "d",
+       "Td"
+      ],
+      [
+       "אֵ֔לֶּה",
+       "428",
+       "Pdxcp"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "R:Exod.39.32:9-14",
+   "kind": "micro",
+   "unit": 2,
+   "ref": "Exod.39.32",
+   "start": 9,
+   "end": 14,
+   "toks": [
+    {
+     "id": "02yXP",
+     "ref": "Exod.39.32",
+     "s": "כְּ֠כֹל",
+     "tr": "kekhol",
+     "g": "according to all",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "כְּ֠",
+       "k",
+       "R"
+      ],
+      [
+       "כֹל",
+       "3605",
+       "Ncmsa"
+      ]
+     ]
+    },
+    {
+     "id": "02Mth",
+     "ref": "Exod.39.32",
+     "s": "אֲשֶׁ֨ר",
+     "tr": "asher",
+     "g": "that",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "אֲשֶׁ֨ר",
+       "834 a",
+       "Tr"
+      ]
+     ]
+    },
+    {
+     "id": "02JVp",
+     "ref": "Exod.39.32",
+     "s": "צִוָּ֧ה",
+     "tr": "tsivvah",
+     "g": "he had commanded",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "צִוָּ֧ה",
+       "6680",
+       "Vpp3ms"
+      ]
+     ]
+    },
+    {
+     "id": "02us2",
+     "ref": "Exod.39.32",
+     "s": "יְהוָ֛ה",
+     "tr": "YHWH",
+     "g": "YHWH (the LORD)",
+     "gs": "SPEC Q3",
+     "gr": 1,
+     "p": [
+      [
+       "יְהוָ֛ה",
+       "3068",
+       "Np"
+      ]
+     ]
+    },
+    {
+     "id": "02Rcj",
+     "ref": "Exod.39.32",
+     "s": "אֶת",
+     "tr": "et-",
+     "g": "[obj]",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "אֶת",
+       "853",
+       "To"
+      ]
+     ]
+    },
+    {
+     "id": "02AVc",
+     "ref": "Exod.39.32",
+     "s": "מֹשֶׁ֖ה",
+     "tr": "mosheh",
+     "g": "Moses",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "מֹשֶׁ֖ה",
+       "4872",
+       "Np"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "R:Exod.5.1:7-11",
+   "kind": "micro",
+   "unit": 2,
+   "ref": "Exod.5.1",
+   "start": 7,
+   "end": 11,
+   "toks": [
+    {
+     "id": "02cMr",
+     "ref": "Exod.5.1",
+     "s": "כֹּֽה",
+     "tr": "koh-",
+     "g": "thus",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "כֹּֽה",
+       "3541",
+       "D"
+      ]
+     ]
+    },
+    {
+     "id": "024Up",
+     "ref": "Exod.5.1",
+     "s": "אָמַ֤ר",
+     "tr": "amar",
+     "g": "he says",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "אָמַ֤ר",
+       "559",
+       "Vqp3ms"
+      ]
+     ]
+    },
+    {
+     "id": "02pa1",
+     "ref": "Exod.5.1",
+     "s": "יְהוָה֙",
+     "tr": "YHWH",
+     "g": "YHWH (the LORD)",
+     "gs": "SPEC Q3",
+     "gr": 1,
+     "p": [
+      [
+       "יְהוָה֙",
+       "3068",
+       "Np"
+      ]
+     ]
+    },
+    {
+     "id": "02GDg",
+     "ref": "Exod.5.1",
+     "s": "אֱלֹהֵ֣י",
+     "tr": "elohe",
+     "g": "the God of",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "אֱלֹהֵ֣י",
+       "430",
+       "Ncmpc"
+      ]
+     ]
+    },
+    {
+     "id": "02ZxK",
+     "ref": "Exod.5.1",
+     "s": "יִשְׂרָאֵ֔ל",
+     "tr": "yisra'el",
+     "g": "Israel",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "יִשְׂרָאֵ֔ל",
+       "3478",
+       "Np"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "R:Gen.22.20:0-3",
+   "kind": "micro",
+   "unit": 2,
+   "ref": "Gen.22.20",
+   "start": 0,
+   "end": 3,
+   "toks": [
+    {
+     "id": "01TCm",
+     "ref": "Gen.22.20",
+     "s": "וַיְהִ֗י",
+     "tr": "vayehi",
+     "g": "and it was",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "וַ",
+       "c",
+       "C"
+      ],
+      [
+       "יְהִ֗י",
+       "1961",
+       "Vqw3ms"
+      ]
+     ]
+    },
+    {
+     "id": "013Fz",
+     "ref": "Gen.22.20",
+     "s": "אַחֲרֵי֙",
+     "tr": "achare",
+     "g": "after",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "אַחֲרֵי֙",
+       "310 a",
+       "R"
+      ]
+     ]
+    },
+    {
+     "id": "01vxS",
+     "ref": "Gen.22.20",
+     "s": "הַדְּבָרִ֣ים",
+     "tr": "haddevarim",
+     "g": "the things",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "הַ",
+       "d",
+       "Td"
+      ],
+      [
+       "דְּבָרִ֣ים",
+       "1697",
+       "Ncmpa"
+      ]
+     ]
+    },
+    {
+     "id": "01QBy",
+     "ref": "Gen.22.20",
+     "s": "הָאֵ֔לֶּה",
+     "tr": "ha'élleh",
+     "g": "these",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "הָ",
+       "d",
+       "Td"
+      ],
+      [
+       "אֵ֔לֶּה",
+       "428",
+       "Pdxcp"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "R:Gen.25.30:13-16",
+   "kind": "micro",
+   "unit": 2,
+   "ref": "Gen.25.30",
+   "start": 13,
+   "end": 16,
+   "toks": [
+    {
+     "id": "01Zc7",
+     "ref": "Gen.25.30",
+     "s": "עַל",
+     "tr": "`al-",
+     "g": "there-",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "עַל",
+       "5921 a",
+       "R"
+      ]
+     ]
+    },
+    {
+     "id": "01Ee2",
+     "ref": "Gen.25.30",
+     "s": "כֵּ֥ן",
+     "tr": "ken",
+     "g": "-fore",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "כֵּ֥ן",
+       "3651 c",
+       "Tm"
+      ]
+     ]
+    },
+    {
+     "id": "01ZHm",
+     "ref": "Gen.25.30",
+     "s": "קָרָֽא",
+     "tr": "qara-",
+     "g": "someone called",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "קָרָֽא",
+       "7121",
+       "Vqp3ms"
+      ]
+     ]
+    },
+    {
+     "id": "01ofL",
+     "ref": "Gen.25.30",
+     "s": "שְׁמ֖וֹ",
+     "tr": "shemo",
+     "g": "his name",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "שְׁמ֖",
+       "8034",
+       "Ncmsc"
+      ],
+      [
+       "וֹ",
+       "",
+       "Sp3ms"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "R:Exod.7.10:0-4",
+   "kind": "micro",
+   "unit": 2,
+   "ref": "Exod.7.10",
+   "start": 0,
+   "end": 4,
+   "toks": [
+    {
+     "id": "02X9f",
+     "ref": "Exod.7.10",
+     "s": "וַיָּבֹ֨א",
+     "tr": "vayyavo",
+     "g": "and he went",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "וַ",
+       "c",
+       "C"
+      ],
+      [
+       "יָּבֹ֨א",
+       "935",
+       "Vqw3ms"
+      ]
+     ]
+    },
+    {
+     "id": "02gBY",
+     "ref": "Exod.7.10",
+     "s": "מֹשֶׁ֤ה",
+     "tr": "mosheh",
+     "g": "Moses",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "מֹשֶׁ֤ה",
+       "4872",
+       "Np"
+      ]
+     ]
+    },
+    {
+     "id": "02JSS",
+     "ref": "Exod.7.10",
+     "s": "וְאַהֲרֹן֙",
+     "tr": "ve'aharon",
+     "g": "and Aaron",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "וְ",
+       "c",
+       "C"
+      ],
+      [
+       "אַהֲרֹן֙",
+       "175",
+       "Np"
+      ]
+     ]
+    },
+    {
+     "id": "02hzi",
+     "ref": "Exod.7.10",
+     "s": "אֶל",
+     "tr": "el-",
+     "g": "to",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "אֶל",
+       "413",
+       "R"
+      ]
+     ]
+    },
+    {
+     "id": "02xKZ",
+     "ref": "Exod.7.10",
+     "s": "פַּרְעֹ֔ה",
+     "tr": "par`oh",
+     "g": "Pharaoh",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "פַּרְעֹ֔ה",
+       "6547",
+       "Np"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "R:Exod.7.26:7-11",
+   "kind": "micro",
+   "unit": 2,
+   "ref": "Exod.7.26",
+   "start": 7,
+   "end": 11,
+   "toks": [
+    {
+     "id": "02YQ7",
+     "ref": "Exod.7.26",
+     "s": "וְאָמַרְתָּ֣",
+     "tr": "ve'amarta",
+     "g": "and you will say",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "וְ",
+       "c",
+       "C"
+      ],
+      [
+       "אָמַרְתָּ֣",
+       "559",
+       "Vqq2ms"
+      ]
+     ]
+    },
+    {
+     "id": "025UP",
+     "ref": "Exod.7.26",
+     "s": "אֵלָ֗יו",
+     "tr": "elav",
+     "g": "to him",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "אֵלָ֗י",
+       "413",
+       "R"
+      ],
+      [
+       "ו",
+       "",
+       "Sp3ms"
+      ]
+     ]
+    },
+    {
+     "id": "02cDe",
+     "ref": "Exod.7.26",
+     "s": "כֹּ֚ה",
+     "tr": "koh",
+     "g": "thus",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "כֹּ֚ה",
+       "3541",
+       "D"
+      ]
+     ]
+    },
+    {
+     "id": "02BtX",
+     "ref": "Exod.7.26",
+     "s": "אָמַ֣ר",
+     "tr": "amar",
+     "g": "he says",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "אָמַ֣ר",
+       "559",
+       "Vqp3ms"
+      ]
+     ]
+    },
+    {
+     "id": "028bP",
+     "ref": "Exod.7.26",
+     "s": "יְהוָ֔ה",
+     "tr": "YHWH",
+     "g": "YHWH (the LORD)",
+     "gs": "SPEC Q3",
+     "gr": 1,
+     "p": [
+      [
+       "יְהוָ֔ה",
+       "3068",
+       "Np"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "R:Gen.28.19:0-4",
+   "kind": "micro",
+   "unit": 2,
+   "ref": "Gen.28.19",
+   "start": 0,
+   "end": 4,
+   "toks": [
+    {
+     "id": "01iRd",
+     "ref": "Gen.28.19",
+     "s": "וַיִּקְרָ֛א",
+     "tr": "vayyiqra",
+     "g": "and he called",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "וַ",
+       "c",
+       "C"
+      ],
+      [
+       "יִּקְרָ֛א",
+       "7121",
+       "Vqw3ms"
+      ]
+     ]
+    },
+    {
+     "id": "01Hqm",
+     "ref": "Gen.28.19",
+     "s": "אֶת",
+     "tr": "et-",
+     "g": "[obj]",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "אֶת",
+       "853",
+       "To"
+      ]
+     ]
+    },
+    {
+     "id": "014yB",
+     "ref": "Gen.28.19",
+     "s": "שֵֽׁם",
+     "tr": "shem-",
+     "g": "the name of",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "שֵֽׁם",
+       "8034",
+       "Ncmsc"
+      ]
+     ]
+    },
+    {
+     "id": "01eBM",
+     "ref": "Gen.28.19",
+     "s": "הַמָּק֥וֹם",
+     "tr": "hammaqom",
+     "g": "the place",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "הַ",
+       "d",
+       "Td"
+      ],
+      [
+       "מָּק֥וֹם",
+       "4725",
+       "Ncmsa"
+      ]
+     ]
+    },
+    {
+     "id": "01sGZ",
+     "ref": "Gen.28.19",
+     "s": "הַה֖וּא",
+     "tr": "hahu",
+     "g": "that",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "הַ",
+       "d",
+       "Td"
+      ],
+      [
+       "ה֖וּא",
+       "1931",
+       "Pp3ms"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "R:Exod.16.9:0-3",
+   "kind": "micro",
+   "unit": 2,
+   "ref": "Exod.16.9",
+   "start": 0,
+   "end": 3,
+   "toks": [
+    {
+     "id": "02LDD",
+     "ref": "Exod.16.9",
+     "s": "וַיֹּ֤אמֶר",
+     "tr": "vayyómer",
+     "g": "and he said",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "וַ",
+       "c",
+       "C"
+      ],
+      [
+       "יֹּ֤אמֶר",
+       "559",
+       "Vqw3ms"
+      ]
+     ]
+    },
+    {
+     "id": "02dAG",
+     "ref": "Exod.16.9",
+     "s": "מֹשֶׁה֙",
+     "tr": "mosheh",
+     "g": "Moses",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "מֹשֶׁה֙",
+       "4872",
+       "Np"
+      ]
+     ]
+    },
+    {
+     "id": "02B9T",
+     "ref": "Exod.16.9",
+     "s": "אֶֽל",
+     "tr": "el-",
+     "g": "to",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "אֶֽל",
+       "413",
+       "R"
+      ]
+     ]
+    },
+    {
+     "id": "02m7U",
+     "ref": "Exod.16.9",
+     "s": "אַהֲרֹ֔ן",
+     "tr": "aharon",
+     "g": "Aaron",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "אַהֲרֹ֔ן",
+       "175",
+       "Np"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "R:Exod.22.7:9-12",
+   "kind": "micro",
+   "unit": 2,
+   "ref": "Exod.22.7",
+   "start": 9,
+   "end": 12,
+   "toks": [
+    {
+     "id": "02Epq",
+     "ref": "Exod.22.7",
+     "s": "אִם",
+     "tr": "im-",
+     "g": "if",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "אִם",
+       "518 a",
+       "C"
+      ]
+     ]
+    },
+    {
+     "id": "027Ry",
+     "ref": "Exod.22.7",
+     "s": "לֹ֥א",
+     "tr": "lo",
+     "g": "not",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "לֹ֥א",
+       "3808",
+       "Tn"
+      ]
+     ]
+    },
+    {
+     "id": "02wFC",
+     "ref": "Exod.22.7",
+     "s": "שָׁלַ֛ח",
+     "tr": "shalach",
+     "g": "he had stretched out",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "שָׁלַ֛ח",
+       "7971",
+       "Vqp3ms"
+      ]
+     ]
+    },
+    {
+     "id": "02HBS",
+     "ref": "Exod.22.7",
+     "s": "יָד֖וֹ",
+     "tr": "yado",
+     "g": "his hand",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "יָד֖",
+       "3027",
+       "Ncbsc"
+      ],
+      [
+       "וֹ",
+       "",
+       "Sp3ms"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "R:Exod.3.6:4-7",
+   "kind": "micro",
+   "unit": 2,
+   "ref": "Exod.3.6",
+   "start": 4,
+   "end": 7,
+   "toks": [
+    {
+     "id": "02pwZ",
+     "ref": "Exod.3.6",
+     "s": "אֱלֹהֵ֧י",
+     "tr": "elohe",
+     "g": "the God of",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "אֱלֹהֵ֧י",
+       "430",
+       "Ncmpc"
+      ]
+     ]
+    },
+    {
+     "id": "02KKJ",
+     "ref": "Exod.3.6",
+     "s": "אַבְרָהָ֛ם",
+     "tr": "avraham",
+     "g": "Abraham",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "אַבְרָהָ֛ם",
+       "85",
+       "Np"
+      ]
+     ]
+    },
+    {
+     "id": "02U9v",
+     "ref": "Exod.3.6",
+     "s": "אֱלֹהֵ֥י",
+     "tr": "elohe",
+     "g": "the God of",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "אֱלֹהֵ֥י",
+       "430",
+       "Ncmpc"
+      ]
+     ]
+    },
+    {
+     "id": "023V4",
+     "ref": "Exod.3.6",
+     "s": "יִצְחָ֖ק",
+     "tr": "yitschaq",
+     "g": "Isaac",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "יִצְחָ֖ק",
+       "3327",
+       "Np"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "R:Exod.35.10:6-9",
+   "kind": "micro",
+   "unit": 2,
+   "ref": "Exod.35.10",
+   "start": 6,
+   "end": 9,
+   "toks": [
+    {
+     "id": "02dL2",
+     "ref": "Exod.35.10",
+     "s": "אֵ֛ת",
+     "tr": "et",
+     "g": "[obj]",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "אֵ֛ת",
+       "853",
+       "To"
+      ]
+     ]
+    },
+    {
+     "id": "02Jnk",
+     "ref": "Exod.35.10",
+     "s": "כָּל",
+     "tr": "kol-",
+     "g": "all",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "כָּל",
+       "3605",
+       "Ncmsc"
+      ]
+     ]
+    },
+    {
+     "id": "02SGv",
+     "ref": "Exod.35.10",
+     "s": "אֲשֶׁ֥ר",
+     "tr": "asher",
+     "g": "that",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "אֲשֶׁ֥ר",
+       "834 a",
+       "Tr"
+      ]
+     ]
+    },
+    {
+     "id": "02qEw",
+     "ref": "Exod.35.10",
+     "s": "צִוָּ֖ה",
+     "tr": "tsivvah",
+     "g": "he has commanded",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "צִוָּ֖ה",
+       "6680",
+       "Vpp3ms"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "R:Exod.39.42:0-3",
+   "kind": "micro",
+   "unit": 2,
+   "ref": "Exod.39.42",
+   "start": 0,
+   "end": 3,
+   "toks": [
+    {
+     "id": "02dqB",
+     "ref": "Exod.39.42",
+     "s": "כְּכֹ֛ל",
+     "tr": "kekhol",
+     "g": "according to all",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "כְּ",
+       "k",
+       "R"
+      ],
+      [
+       "כֹ֛ל",
+       "3605",
+       "Ncmsa"
+      ]
+     ]
+    },
+    {
+     "id": "02Fs9",
+     "ref": "Exod.39.42",
+     "s": "אֲשֶׁר",
+     "tr": "asher-",
+     "g": "that",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "אֲשֶׁר",
+       "834 a",
+       "Tr"
+      ]
+     ]
+    },
+    {
+     "id": "02KKd",
+     "ref": "Exod.39.42",
+     "s": "צִוָּ֥ה",
+     "tr": "tsivvah",
+     "g": "he had commanded",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "צִוָּ֥ה",
+       "6680",
+       "Vpp3ms"
+      ]
+     ]
+    },
+    {
+     "id": "02Eg4",
+     "ref": "Exod.39.42",
+     "s": "יְהוָ֖ה",
+     "tr": "YHWH",
+     "g": "YHWH (the LORD)",
+     "gs": "SPEC Q3",
+     "gr": 1,
+     "p": [
+      [
+       "יְהוָ֖ה",
+       "3068",
+       "Np"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "R:Exod.4.27:0-3",
+   "kind": "micro",
+   "unit": 2,
+   "ref": "Exod.4.27",
+   "start": 0,
+   "end": 3,
+   "toks": [
+    {
+     "id": "02RDs",
+     "ref": "Exod.4.27",
+     "s": "וַיֹּ֤אמֶר",
+     "tr": "vayyómer",
+     "g": "and he said",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "וַ",
+       "c",
+       "C"
+      ],
+      [
+       "יֹּ֤אמֶר",
+       "559",
+       "Vqw3ms"
+      ]
+     ]
+    },
+    {
+     "id": "02Tvm",
+     "ref": "Exod.4.27",
+     "s": "יְהוָה֙",
+     "tr": "YHWH",
+     "g": "YHWH (the LORD)",
+     "gs": "SPEC Q3",
+     "gr": 1,
+     "p": [
+      [
+       "יְהוָה֙",
+       "3068",
+       "Np"
+      ]
+     ]
+    },
+    {
+     "id": "021vy",
+     "ref": "Exod.4.27",
+     "s": "אֶֽל",
+     "tr": "el-",
+     "g": "to",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "אֶֽל",
+       "413",
+       "R"
+      ]
+     ]
+    },
+    {
+     "id": "02JzC",
+     "ref": "Exod.4.27",
+     "s": "אַהֲרֹ֔ן",
+     "tr": "aharon",
+     "g": "Aaron",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "אַהֲרֹ֔ן",
+       "175",
+       "Np"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "R:Exod.5.22:0-3",
+   "kind": "micro",
+   "unit": 2,
+   "ref": "Exod.5.22",
+   "start": 0,
+   "end": 3,
+   "toks": [
+    {
+     "id": "024Th",
+     "ref": "Exod.5.22",
+     "s": "וַיָּ֧שָׁב",
+     "tr": "vayyáshov",
+     "g": "and he returned",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "וַ",
+       "c",
+       "C"
+      ],
+      [
+       "יָּ֧שָׁב",
+       "7725",
+       "Vqw3ms"
+      ]
+     ]
+    },
+    {
+     "id": "02x6W",
+     "ref": "Exod.5.22",
+     "s": "מֹשֶׁ֛ה",
+     "tr": "mosheh",
+     "g": "Moses",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "מֹשֶׁ֛ה",
+       "4872",
+       "Np"
+      ]
+     ]
+    },
+    {
+     "id": "02Dux",
+     "ref": "Exod.5.22",
+     "s": "אֶל",
+     "tr": "el-",
+     "g": "to",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "אֶל",
+       "413",
+       "R"
+      ]
+     ]
+    },
+    {
+     "id": "02txJ",
+     "ref": "Exod.5.22",
+     "s": "יְהוָ֖ה",
+     "tr": "YHWH",
+     "g": "YHWH (the LORD)",
+     "gs": "SPEC Q3",
+     "gr": 1,
+     "p": [
+      [
+       "יְהוָ֖ה",
+       "3068",
+       "Np"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "R:Exod.6.13:14-17",
+   "kind": "micro",
+   "unit": 2,
+   "ref": "Exod.6.13",
+   "start": 14,
+   "end": 17,
+   "toks": [
+    {
+     "id": "02K9n",
+     "ref": "Exod.6.13",
+     "s": "לְהוֹצִ֥יא",
+     "tr": "lehotsi",
+     "g": "to bring out",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "לְ",
+       "l",
+       "R"
+      ],
+      [
+       "הוֹצִ֥יא",
+       "3318",
+       "Vhc"
+      ]
+     ]
+    },
+    {
+     "id": "02rsj",
+     "ref": "Exod.6.13",
+     "s": "אֶת",
+     "tr": "et-",
+     "g": "[obj]",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "אֶת",
+       "853",
+       "To"
+      ]
+     ]
+    },
+    {
+     "id": "02QzN",
+     "ref": "Exod.6.13",
+     "s": "בְּנֵֽי",
+     "tr": "bene-",
+     "g": "the people of",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "בְּנֵֽי",
+       "1121 a",
+       "Ncmpc"
+      ]
+     ]
+    },
+    {
+     "id": "02zQg",
+     "ref": "Exod.6.13",
+     "s": "יִשְׂרָאֵ֖ל",
+     "tr": "yisra'el",
+     "g": "Israel",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "יִשְׂרָאֵ֖ל",
+       "3478",
+       "Np"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "R:Gen.12.20:8-11",
+   "kind": "micro",
+   "unit": 2,
+   "ref": "Gen.12.20",
+   "start": 8,
+   "end": 11,
+   "toks": [
+    {
+     "id": "01uRx",
+     "ref": "Gen.12.20",
+     "s": "וְאֶת",
+     "tr": "ve'et-",
+     "g": "and [obj]",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "וְ",
+       "c",
+       "C"
+      ],
+      [
+       "אֶת",
+       "853",
+       "To"
+      ]
+     ]
+    },
+    {
+     "id": "01u5G",
+     "ref": "Gen.12.20",
+     "s": "כָּל",
+     "tr": "kol-",
+     "g": "all",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "כָּל",
+       "3605",
+       "Ncmsc"
+      ]
+     ]
+    },
+    {
+     "id": "01V2c",
+     "ref": "Gen.12.20",
+     "s": "אֲשֶׁר",
+     "tr": "asher-",
+     "g": "that",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "אֲשֶׁר",
+       "834 a",
+       "Tr"
+      ]
+     ]
+    },
+    {
+     "id": "01GoD",
+     "ref": "Gen.12.20",
+     "s": "לֽוֹ",
+     "tr": "lo",
+     "g": "belonged to him",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "לֽ",
+       "l",
+       "R"
+      ],
+      [
+       "וֹ",
+       "",
+       "Sp3ms"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "R:Gen.17.9:0-3",
+   "kind": "micro",
+   "unit": 2,
+   "ref": "Gen.17.9",
+   "start": 0,
+   "end": 3,
+   "toks": [
+    {
+     "id": "01fuL",
+     "ref": "Gen.17.9",
+     "s": "וַיֹּ֤אמֶר",
+     "tr": "vayyómer",
+     "g": "and he said",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "וַ",
+       "c",
+       "C"
+      ],
+      [
+       "יֹּ֤אמֶר",
+       "559",
+       "Vqw3ms"
+      ]
+     ]
+    },
+    {
+     "id": "01HAP",
+     "ref": "Gen.17.9",
+     "s": "אֱלֹהִים֙",
+     "tr": "elohim",
+     "g": "God",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "אֱלֹהִים֙",
+       "430",
+       "Ncmpa"
+      ]
+     ]
+    },
+    {
+     "id": "01jLC",
+     "ref": "Gen.17.9",
+     "s": "אֶל",
+     "tr": "el-",
+     "g": "to",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "אֶל",
+       "413",
+       "R"
+      ]
+     ]
+    },
+    {
+     "id": "01adr",
+     "ref": "Gen.17.9",
+     "s": "אַבְרָהָ֔ם",
+     "tr": "avraham",
+     "g": "Abraham",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "אַבְרָהָ֔ם",
+       "85",
+       "Np"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "R:Gen.29.35:9-12",
+   "kind": "micro",
+   "unit": 2,
+   "ref": "Gen.29.35",
+   "start": 9,
+   "end": 12,
+   "toks": [
+    {
+     "id": "011Fx",
+     "ref": "Gen.29.35",
+     "s": "עַל",
+     "tr": "`al-",
+     "g": "there-",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "עַל",
+       "5921 a",
+       "R"
+      ]
+     ]
+    },
+    {
+     "id": "01j6R",
+     "ref": "Gen.29.35",
+     "s": "כֵּ֛ן",
+     "tr": "ken",
+     "g": "-fore",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "כֵּ֛ן",
+       "3651 c",
+       "Tm"
+      ]
+     ]
+    },
+    {
+     "id": "01bjF",
+     "ref": "Gen.29.35",
+     "s": "קָרְאָ֥ה",
+     "tr": "qare'ah",
+     "g": "she called",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "קָרְאָ֥ה",
+       "7121",
+       "Vqp3fs"
+      ]
+     ]
+    },
+    {
+     "id": "01QsQ",
+     "ref": "Gen.29.35",
+     "s": "שְׁמ֖וֹ",
+     "tr": "shemo",
+     "g": "his name",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "שְׁמ֖",
+       "8034",
+       "Ncmsc"
+      ],
+      [
+       "וֹ",
+       "",
+       "Sp3ms"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "R:Gen.32.3:7-10",
+   "kind": "micro",
+   "unit": 2,
+   "ref": "Gen.32.3",
+   "start": 7,
+   "end": 10,
+   "toks": [
+    {
+     "id": "01w37",
+     "ref": "Gen.32.3",
+     "s": "וַיִּקְרָ֛א",
+     "tr": "vayyiqra",
+     "g": "and he called",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "וַ",
+       "c",
+       "C"
+      ],
+      [
+       "יִּקְרָ֛א",
+       "7121",
+       "Vqw3ms"
+      ]
+     ]
+    },
+    {
+     "id": "01edk",
+     "ref": "Gen.32.3",
+     "s": "שֵֽׁם",
+     "tr": "shem-",
+     "g": "the name of",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "שֵֽׁם",
+       "8034",
+       "Ncmsc"
+      ]
+     ]
+    },
+    {
+     "id": "01LDv",
+     "ref": "Gen.32.3",
+     "s": "הַמָּק֥וֹם",
+     "tr": "hammaqom",
+     "g": "the place",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "הַ",
+       "d",
+       "Td"
+      ],
+      [
+       "מָּק֥וֹם",
+       "4725",
+       "Ncmsa"
+      ]
+     ]
+    },
+    {
+     "id": "013qJ",
+     "ref": "Gen.32.3",
+     "s": "הַה֖וּא",
+     "tr": "hahu",
+     "g": "that",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "הַ",
+       "d",
+       "Td"
+      ],
+      [
+       "ה֖וּא",
+       "1931",
+       "Pp3ms"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "R:Gen.39.2:0-3",
+   "kind": "micro",
+   "unit": 2,
+   "ref": "Gen.39.2",
+   "start": 0,
+   "end": 3,
+   "toks": [
+    {
+     "id": "01P8k",
+     "ref": "Gen.39.2",
+     "s": "וַיְהִ֤י",
+     "tr": "vayehi",
+     "g": "and he was",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "וַ",
+       "c",
+       "C"
+      ],
+      [
+       "יְהִ֤י",
+       "1961",
+       "Vqw3ms"
+      ]
+     ]
+    },
+    {
+     "id": "01txG",
+     "ref": "Gen.39.2",
+     "s": "יְהוָה֙",
+     "tr": "YHWH",
+     "g": "YHWH (the LORD)",
+     "gs": "SPEC Q3",
+     "gr": 1,
+     "p": [
+      [
+       "יְהוָה֙",
+       "3068",
+       "Np"
+      ]
+     ]
+    },
+    {
+     "id": "01tM3",
+     "ref": "Gen.39.2",
+     "s": "אֶת",
+     "tr": "et-",
+     "g": "with",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "אֶת",
+       "854",
+       "R"
+      ]
+     ]
+    },
+    {
+     "id": "015xS",
+     "ref": "Gen.39.2",
+     "s": "יוֹסֵ֔ף",
+     "tr": "yosef",
+     "g": "Joseph",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "יוֹסֵ֔ף",
+       "3130",
+       "Np"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "R:Gen.41.50:8-11",
+   "kind": "micro",
+   "unit": 2,
+   "ref": "Gen.41.50",
+   "start": 8,
+   "end": 11,
+   "toks": [
+    {
+     "id": "016ie",
+     "ref": "Gen.41.50",
+     "s": "אֲשֶׁ֤ר",
+     "tr": "asher",
+     "g": "whom",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "אֲשֶׁ֤ר",
+       "834 a",
+       "Tr"
+      ]
+     ]
+    },
+    {
+     "id": "01zf1",
+     "ref": "Gen.41.50",
+     "s": "יָֽלְדָה",
+     "tr": "yaledah-",
+     "g": "she bore",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "יָֽלְדָה",
+       "3205",
+       "Vqp3fs"
+      ]
+     ]
+    },
+    {
+     "id": "01ZhT",
+     "ref": "Gen.41.50",
+     "s": "לּוֹ֙",
+     "tr": "lo",
+     "g": "to him",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "לּ",
+       "l",
+       "R"
+      ],
+      [
+       "וֹ֙",
+       "",
+       "Sp3ms"
+      ]
+     ]
+    },
+    {
+     "id": "01CcZ",
+     "ref": "Gen.41.50",
+     "s": "אָֽסְנַ֔ת",
+     "tr": "asenat",
+     "g": "Asenath",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "אָֽסְנַ֔ת",
+       "621",
+       "Np"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "R:Gen.43.17:5-8",
+   "kind": "micro",
+   "unit": 2,
+   "ref": "Gen.43.17",
+   "start": 5,
+   "end": 8,
+   "toks": [
+    {
+     "id": "01j8x",
+     "ref": "Gen.43.17",
+     "s": "וַיָּבֵ֥א",
+     "tr": "vayyave",
+     "g": "and he brought",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "וַ",
+       "c",
+       "C"
+      ],
+      [
+       "יָּבֵ֥א",
+       "935",
+       "Vhw3ms"
+      ]
+     ]
+    },
+    {
+     "id": "01Fvq",
+     "ref": "Gen.43.17",
+     "s": "הָאִ֛ישׁ",
+     "tr": "ha'ish",
+     "g": "the man",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "הָ",
+       "d",
+       "Td"
+      ],
+      [
+       "אִ֛ישׁ",
+       "376",
+       "Ncmsa"
+      ]
+     ]
+    },
+    {
+     "id": "019kq",
+     "ref": "Gen.43.17",
+     "s": "אֶת",
+     "tr": "et-",
+     "g": "[obj]",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "אֶת",
+       "853",
+       "To"
+      ]
+     ]
+    },
+    {
+     "id": "015H8",
+     "ref": "Gen.43.17",
+     "s": "הָאֲנָשִׁ֖ים",
+     "tr": "ha'anashim",
+     "g": "the men",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "הָ",
+       "d",
+       "Td"
+      ],
+      [
+       "אֲנָשִׁ֖ים",
+       "376",
+       "Ncmpa"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "R:Gen.45.21:0-3",
+   "kind": "micro",
+   "unit": 2,
+   "ref": "Gen.45.21",
+   "start": 0,
+   "end": 3,
+   "toks": [
+    {
+     "id": "01TD9",
+     "ref": "Gen.45.21",
+     "s": "וַיַּֽעֲשׂוּ",
+     "tr": "vayya`asu-",
+     "g": "and they did",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "וַ",
+       "c",
+       "C"
+      ],
+      [
+       "יַּֽעֲשׂוּ",
+       "6213 a",
+       "Vqw3mp"
+      ]
+     ]
+    },
+    {
+     "id": "01f17",
+     "ref": "Gen.45.21",
+     "s": "כֵן֙",
+     "tr": "khen",
+     "g": "thus",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "כֵן֙",
+       "3651 c",
+       "D"
+      ]
+     ]
+    },
+    {
+     "id": "01CY8",
+     "ref": "Gen.45.21",
+     "s": "בְּנֵ֣י",
+     "tr": "bene",
+     "g": "the sons of",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "בְּנֵ֣י",
+       "1121 a",
+       "Ncmpc"
+      ]
+     ]
+    },
+    {
+     "id": "014oL",
+     "ref": "Gen.45.21",
+     "s": "יִשְׂרָאֵ֔ל",
+     "tr": "yisra'el",
+     "g": "Israel",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "יִשְׂרָאֵ֔ל",
+       "3478",
+       "Np"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "R:Ruth.2.19:17-23",
+   "kind": "micro",
+   "unit": 2,
+   "ref": "Ruth.2.19",
+   "start": 17,
+   "end": 23,
+   "toks": [
+    {
+     "id": "08kYA",
+     "ref": "Ruth.2.19",
+     "s": "וַתֹּ֗אמֶר",
+     "tr": "vattómer",
+     "g": "and she said",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "וַ",
+       "c",
+       "C"
+      ],
+      [
+       "תֹּ֗אמֶר",
+       "559",
+       "Vqw3fs"
+      ]
+     ]
+    },
+    {
+     "id": "08u6F",
+     "ref": "Ruth.2.19",
+     "s": "שֵׁ֤ם",
+     "tr": "shem",
+     "g": "the name of",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "שֵׁ֤ם",
+       "8034",
+       "Ncmsc"
+      ]
+     ]
+    },
+    {
+     "id": "08PYJ",
+     "ref": "Ruth.2.19",
+     "s": "הָאִישׁ֙",
+     "tr": "ha'ish",
+     "g": "the man",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "הָ",
+       "d",
+       "Td"
+      ],
+      [
+       "אִישׁ֙",
+       "376",
+       "Ncmsa"
+      ]
+     ]
+    },
+    {
+     "id": "081Za",
+     "ref": "Ruth.2.19",
+     "s": "אֲשֶׁ֨ר",
+     "tr": "asher",
+     "g": "whom",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "אֲשֶׁ֨ר",
+       "834 a",
+       "Tr"
+      ]
+     ]
+    },
+    {
+     "id": "08gam",
+     "ref": "Ruth.2.19",
+     "s": "עָשִׂ֧יתִי",
+     "tr": "`asíti",
+     "g": "I worked",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "עָשִׂ֧יתִי",
+       "6213 a",
+       "Vqp1cs"
+      ]
+     ]
+    },
+    {
+     "id": "08un5",
+     "ref": "Ruth.2.19",
+     "s": "עִמּ֛וֹ",
+     "tr": "`immo",
+     "g": "with him",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "עִמּ֛",
+       "5973 a",
+       "R"
+      ],
+      [
+       "וֹ",
+       "",
+       "Sp3ms"
+      ]
+     ]
+    },
+    {
+     "id": "08WSe",
+     "ref": "Ruth.2.19",
+     "s": "הַיּ֖וֹם",
+     "tr": "hayyom",
+     "g": "this day",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "הַ",
+       "d",
+       "Td"
+      ],
+      [
+       "יּ֖וֹם",
+       "3117",
+       "Ncmsa"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "R:Ruth.4.13:0-6",
+   "kind": "micro",
+   "unit": 2,
+   "ref": "Ruth.4.13",
+   "start": 0,
+   "end": 6,
+   "toks": [
+    {
+     "id": "08E57",
+     "ref": "Ruth.4.13",
+     "s": "וַיִּקַּ֨ח",
+     "tr": "vayyiqqach",
+     "g": "and he took",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "וַ",
+       "c",
+       "C"
+      ],
+      [
+       "יִּקַּ֨ח",
+       "3947",
+       "Vqw3ms"
+      ]
+     ]
+    },
+    {
+     "id": "08zfG",
+     "ref": "Ruth.4.13",
+     "s": "בֹּ֤עַז",
+     "tr": "bó`az",
+     "g": "Boaz",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "בֹּ֤עַז",
+       "1162",
+       "Np"
+      ]
+     ]
+    },
+    {
+     "id": "08y3Z",
+     "ref": "Ruth.4.13",
+     "s": "אֶת",
+     "tr": "et-",
+     "g": "[obj]",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "אֶת",
+       "853",
+       "To"
+      ]
+     ]
+    },
+    {
+     "id": "08vtM",
+     "ref": "Ruth.4.13",
+     "s": "רוּת֙",
+     "tr": "rut",
+     "g": "Ruth",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "רוּת֙",
+       "7327",
+       "Np"
+      ]
+     ]
+    },
+    {
+     "id": "08BNu",
+     "ref": "Ruth.4.13",
+     "s": "וַתְּהִי",
+     "tr": "vattehi-",
+     "g": "and she became",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "וַ",
+       "c",
+       "C"
+      ],
+      [
+       "תְּהִי",
+       "1961",
+       "Vqw3fs"
+      ]
+     ]
+    },
+    {
+     "id": "08QTj",
+     "ref": "Ruth.4.13",
+     "s": "ל֣וֹ",
+     "tr": "lo",
+     "g": "of him",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "ל֣",
+       "l",
+       "R"
+      ],
+      [
+       "וֹ",
+       "",
+       "Sp3ms"
+      ]
+     ]
+    },
+    {
+     "id": "08Tgd",
+     "ref": "Ruth.4.13",
+     "s": "לְאִשָּׁ֔ה",
+     "tr": "le'ishshah",
+     "g": "into a wife",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "לְ",
+       "l",
+       "R"
+      ],
+      [
+       "אִשָּׁ֔ה",
+       "802",
+       "Ncfsa"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "R:Jonah.1.2:0-5",
+   "kind": "micro",
+   "unit": 2,
+   "ref": "Jonah.1.2",
+   "start": 0,
+   "end": 5,
+   "toks": [
+    {
+     "id": "32Qzf",
+     "ref": "Jonah.1.2",
+     "s": "ק֠וּם",
+     "tr": "qum",
+     "g": "arise",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "ק֠וּם",
+       "6965 b",
+       "Vqv2ms"
+      ]
+     ]
+    },
+    {
+     "id": "32aPd",
+     "ref": "Jonah.1.2",
+     "s": "לֵ֧ךְ",
+     "tr": "lekh",
+     "g": "go",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "לֵ֧ךְ",
+       "3212",
+       "Vqv2ms"
+      ]
+     ]
+    },
+    {
+     "id": "32eYX",
+     "ref": "Jonah.1.2",
+     "s": "אֶל",
+     "tr": "el-",
+     "g": "to",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "אֶל",
+       "413",
+       "R"
+      ]
+     ]
+    },
+    {
+     "id": "32C5U",
+     "ref": "Jonah.1.2",
+     "s": "נִֽינְוֵ֛ה",
+     "tr": "nineveh",
+     "g": "Nineveh",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "נִֽינְוֵ֛ה",
+       "5210",
+       "Np"
+      ]
+     ]
+    },
+    {
+     "id": "32qNN",
+     "ref": "Jonah.1.2",
+     "s": "הָעִ֥יר",
+     "tr": "ha`ir",
+     "g": "the city",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "הָ",
+       "d",
+       "Td"
+      ],
+      [
+       "עִ֥יר",
+       "5892 b",
+       "Ncfsa"
+      ]
+     ]
+    },
+    {
+     "id": "32EVS",
+     "ref": "Jonah.1.2",
+     "s": "הַגְּדוֹלָ֖ה",
+     "tr": "haggedolah",
+     "g": "great",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "הַ",
+       "d",
+       "Td"
+      ],
+      [
+       "גְּדוֹלָ֖ה",
+       "1419 a",
+       "Aafsa"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "R:Ruth.1.7:0-5",
+   "kind": "micro",
+   "unit": 2,
+   "ref": "Ruth.1.7",
+   "start": 0,
+   "end": 5,
+   "toks": [
+    {
+     "id": "0887B",
+     "ref": "Ruth.1.7",
+     "s": "וַתֵּצֵ֗א",
+     "tr": "vattetse",
+     "g": "and she went out",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "וַ",
+       "c",
+       "C"
+      ],
+      [
+       "תֵּצֵ֗א",
+       "3318",
+       "Vqw3fs"
+      ]
+     ]
+    },
+    {
+     "id": "08nLp",
+     "ref": "Ruth.1.7",
+     "s": "מִן",
+     "tr": "min-",
+     "g": "from",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "מִן",
+       "4480 a",
+       "R"
+      ]
+     ]
+    },
+    {
+     "id": "08PzC",
+     "ref": "Ruth.1.7",
+     "s": "הַמָּקוֹם֙",
+     "tr": "hammaqom",
+     "g": "the place",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "הַ",
+       "d",
+       "Td"
+      ],
+      [
+       "מָּקוֹם֙",
+       "4725",
+       "Ncmsa"
+      ]
+     ]
+    },
+    {
+     "id": "08NPq",
+     "ref": "Ruth.1.7",
+     "s": "אֲשֶׁ֣ר",
+     "tr": "asher",
+     "g": "where",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "אֲשֶׁ֣ר",
+       "834 a",
+       "Tr"
+      ]
+     ]
+    },
+    {
+     "id": "08d5m",
+     "ref": "Ruth.1.7",
+     "s": "הָיְתָה",
+     "tr": "hayetah-",
+     "g": "she had been",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "הָיְתָה",
+       "1961",
+       "Vqp3fs"
+      ]
+     ]
+    },
+    {
+     "id": "08BYa",
+     "ref": "Ruth.1.7",
+     "s": "שָׁ֔מָּה",
+     "tr": "shámmah",
+     "g": "there towards",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "שָׁ֔מָּ",
+       "8033",
+       "D"
+      ],
+      [
+       "ה",
+       "",
+       "Sd"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "R:Jonah.3.3:0-4",
+   "kind": "micro",
+   "unit": 2,
+   "ref": "Jonah.3.3",
+   "start": 0,
+   "end": 4,
+   "toks": [
+    {
+     "id": "32awE",
+     "ref": "Jonah.3.3",
+     "s": "וַיָּ֣קָם",
+     "tr": "vayyáqom",
+     "g": "and he arose",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "וַ",
+       "c",
+       "C"
+      ],
+      [
+       "יָּ֣קָם",
+       "6965 b",
+       "Vqw3ms"
+      ]
+     ]
+    },
+    {
+     "id": "32yNT",
+     "ref": "Jonah.3.3",
+     "s": "יוֹנָ֗ה",
+     "tr": "yonah",
+     "g": "Jonah",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "יוֹנָ֗ה",
+       "3124",
+       "Np"
+      ]
+     ]
+    },
+    {
+     "id": "32Azu",
+     "ref": "Jonah.3.3",
+     "s": "וַיֵּ֛לֶךְ",
+     "tr": "vayyélekh",
+     "g": "and he went",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "וַ",
+       "c",
+       "C"
+      ],
+      [
+       "יֵּ֛לֶךְ",
+       "3212",
+       "Vqw3ms"
+      ]
+     ]
+    },
+    {
+     "id": "32884",
+     "ref": "Jonah.3.3",
+     "s": "אֶל",
+     "tr": "el-",
+     "g": "to",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "אֶל",
+       "413",
+       "R"
+      ]
+     ]
+    },
+    {
+     "id": "32XMu",
+     "ref": "Jonah.3.3",
+     "s": "נִֽינְוֶ֖ה",
+     "tr": "nineveh",
+     "g": "Nineveh",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "נִֽינְוֶ֖ה",
+       "5210",
+       "Np"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "R:Jonah.3.3:7-11",
+   "kind": "micro",
+   "unit": 2,
+   "ref": "Jonah.3.3",
+   "start": 7,
+   "end": 11,
+   "toks": [
+    {
+     "id": "32D3a",
+     "ref": "Jonah.3.3",
+     "s": "וְנִֽינְוֵ֗ה",
+     "tr": "venineveh",
+     "g": "and Nineveh",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "וְ",
+       "c",
+       "C"
+      ],
+      [
+       "נִֽינְוֵ֗ה",
+       "5210",
+       "Np"
+      ]
+     ]
+    },
+    {
+     "id": "32wEr",
+     "ref": "Jonah.3.3",
+     "s": "הָיְתָ֤ה",
+     "tr": "hayetah",
+     "g": "it was",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "הָיְתָ֤ה",
+       "1961",
+       "Vqp3fs"
+      ]
+     ]
+    },
+    {
+     "id": "32Rvc",
+     "ref": "Jonah.3.3",
+     "s": "עִיר",
+     "tr": "`ir-",
+     "g": "a city",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "עִיר",
+       "5892 b",
+       "Ncfsa"
+      ]
+     ]
+    },
+    {
+     "id": "32c6V",
+     "ref": "Jonah.3.3",
+     "s": "גְּדוֹלָה֙",
+     "tr": "gedolah",
+     "g": "great",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "גְּדוֹלָה֙",
+       "1419 a",
+       "Aafsa"
+      ]
+     ]
+    },
+    {
+     "id": "328eM",
+     "ref": "Jonah.3.3",
+     "s": "לֵֽאלֹהִ֔ים",
+     "tr": "lelohim",
+     "g": "to God",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "לֵֽ",
+       "l",
+       "R"
+      ],
+      [
+       "אלֹהִ֔ים",
+       "430",
+       "Ncmpa"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "R:Ruth.1.6:10-14",
+   "kind": "micro",
+   "unit": 2,
+   "ref": "Ruth.1.6",
+   "start": 10,
+   "end": 14,
+   "toks": [
+    {
+     "id": "08fQr",
+     "ref": "Ruth.1.6",
+     "s": "כִּֽי",
+     "tr": "ki-",
+     "g": "that",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "כִּֽי",
+       "3588 a",
+       "C"
+      ]
+     ]
+    },
+    {
+     "id": "08L7t",
+     "ref": "Ruth.1.6",
+     "s": "פָקַ֤ד",
+     "tr": "faqad",
+     "g": "he had visited",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "פָקַ֤ד",
+       "6485 a",
+       "Vqp3ms"
+      ]
+     ]
+    },
+    {
+     "id": "08A74",
+     "ref": "Ruth.1.6",
+     "s": "יְהוָה֙",
+     "tr": "YHWH",
+     "g": "YHWH (the LORD)",
+     "gs": "SPEC Q3",
+     "gr": 1,
+     "p": [
+      [
+       "יְהוָה֙",
+       "3068",
+       "Np"
+      ]
+     ]
+    },
+    {
+     "id": "08dNE",
+     "ref": "Ruth.1.6",
+     "s": "אֶת",
+     "tr": "et-",
+     "g": "[obj]",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "אֶת",
+       "853",
+       "To"
+      ]
+     ]
+    },
+    {
+     "id": "08xdF",
+     "ref": "Ruth.1.6",
+     "s": "עַמּ֔וֹ",
+     "tr": "`ammo",
+     "g": "his people",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "עַמּ֔",
+       "5971 a",
+       "Ncmsc"
+      ],
+      [
+       "וֹ",
+       "",
+       "Sp3ms"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "R:Jonah.1.6:9-12",
+   "kind": "micro",
+   "unit": 2,
+   "ref": "Jonah.1.6",
+   "start": 9,
+   "end": 12,
+   "toks": [
+    {
+     "id": "32xdF",
+     "ref": "Jonah.1.6",
+     "s": "ק֚וּם",
+     "tr": "qum",
+     "g": "arise",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "ק֚וּם",
+       "6965 b",
+       "Vqv2ms"
+      ]
+     ]
+    },
+    {
+     "id": "32AYg",
+     "ref": "Jonah.1.6",
+     "s": "קְרָ֣א",
+     "tr": "qera",
+     "g": "call",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "קְרָ֣א",
+       "7121",
+       "Vqv2ms"
+      ]
+     ]
+    },
+    {
+     "id": "32Ls9",
+     "ref": "Jonah.1.6",
+     "s": "אֶל",
+     "tr": "el-",
+     "g": "to",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "אֶל",
+       "413",
+       "R"
+      ]
+     ]
+    },
+    {
+     "id": "32Snp",
+     "ref": "Jonah.1.6",
+     "s": "אֱלֹהֶ֔יךָ",
+     "tr": "elohékha",
+     "g": "your god",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "אֱלֹהֶ֔י",
+       "430",
+       "Ncmpc"
+      ],
+      [
+       "ךָ",
+       "",
+       "Sp2ms"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "R:Jonah.1.9:10-13",
+   "kind": "micro",
+   "unit": 2,
+   "ref": "Jonah.1.9",
+   "start": 10,
+   "end": 13,
+   "toks": [
+    {
+     "id": "32Ptj",
+     "ref": "Jonah.1.9",
+     "s": "אֲשֶׁר",
+     "tr": "asher-",
+     "g": "who",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "אֲשֶׁר",
+       "834 a",
+       "Tr"
+      ]
+     ]
+    },
+    {
+     "id": "32AJj",
+     "ref": "Jonah.1.9",
+     "s": "עָשָׂ֥ה",
+     "tr": "`asah",
+     "g": "he made",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "עָשָׂ֥ה",
+       "6213 a",
+       "Vqp3ms"
+      ]
+     ]
+    },
+    {
+     "id": "329Hv",
+     "ref": "Jonah.1.9",
+     "s": "אֶת",
+     "tr": "et-",
+     "g": "[obj]",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "אֶת",
+       "853",
+       "To"
+      ]
+     ]
+    },
+    {
+     "id": "32j1i",
+     "ref": "Jonah.1.9",
+     "s": "הַיָּ֖ם",
+     "tr": "hayyam",
+     "g": "the sea",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "הַ",
+       "d",
+       "Td"
+      ],
+      [
+       "יָּ֖ם",
+       "3220",
+       "Ncmsa"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "R:Jonah.3.2:0-3",
+   "kind": "micro",
+   "unit": 2,
+   "ref": "Jonah.3.2",
+   "start": 0,
+   "end": 3,
+   "toks": [
+    {
+     "id": "32Ygn",
+     "ref": "Jonah.3.2",
+     "s": "ק֛וּם",
+     "tr": "qum",
+     "g": "arise",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "ק֛וּם",
+       "6965 b",
+       "Vqv2ms"
+      ]
+     ]
+    },
+    {
+     "id": "322gM",
+     "ref": "Jonah.3.2",
+     "s": "לֵ֥ךְ",
+     "tr": "lekh",
+     "g": "go",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "לֵ֥ךְ",
+       "3212",
+       "Vqv2ms"
+      ]
+     ]
+    },
+    {
+     "id": "32pAw",
+     "ref": "Jonah.3.2",
+     "s": "אֶל",
+     "tr": "el-",
+     "g": "to",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "אֶל",
+       "413",
+       "R"
+      ]
+     ]
+    },
+    {
+     "id": "32mVV",
+     "ref": "Jonah.3.2",
+     "s": "נִֽינְוֵ֖ה",
+     "tr": "nineveh",
+     "g": "Nineveh",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "נִֽינְוֵ֖ה",
+       "5210",
+       "Np"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "R:Jonah.4.3:2-5",
+   "kind": "micro",
+   "unit": 2,
+   "ref": "Jonah.4.3",
+   "start": 2,
+   "end": 5,
+   "toks": [
+    {
+     "id": "323Sx",
+     "ref": "Jonah.4.3",
+     "s": "קַח",
+     "tr": "qach-",
+     "g": "take",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "קַח",
+       "3947",
+       "Vqv2ms"
+      ]
+     ]
+    },
+    {
+     "id": "32qVv",
+     "ref": "Jonah.4.3",
+     "s": "נָ֥א",
+     "tr": "na",
+     "g": "please",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "נָ֥א",
+       "4994",
+       "Te"
+      ]
+     ]
+    },
+    {
+     "id": "32Kov",
+     "ref": "Jonah.4.3",
+     "s": "אֶת",
+     "tr": "et-",
+     "g": "[obj]",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "אֶת",
+       "853",
+       "To"
+      ]
+     ]
+    },
+    {
+     "id": "32HNy",
+     "ref": "Jonah.4.3",
+     "s": "נַפְשִׁ֖י",
+     "tr": "nafshi",
+     "g": "my life",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "נַפְשִׁ֖",
+       "5315",
+       "Ncbsc"
+      ],
+      [
+       "י",
+       "",
+       "Sp1cs"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "R:Ruth.1.11:0-3",
+   "kind": "micro",
+   "unit": 2,
+   "ref": "Ruth.1.11",
+   "start": 0,
+   "end": 3,
+   "toks": [
+    {
+     "id": "08fLi",
+     "ref": "Ruth.1.11",
+     "s": "וַתֹּ֤אמֶר",
+     "tr": "vattómer",
+     "g": "and she said",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "וַ",
+       "c",
+       "C"
+      ],
+      [
+       "תֹּ֤אמֶר",
+       "559",
+       "Vqw3fs"
+      ]
+     ]
+    },
+    {
+     "id": "08Ptj",
+     "ref": "Ruth.1.11",
+     "s": "נָעֳמִי֙",
+     "tr": "no`omi",
+     "g": "Naomi",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "נָעֳמִי֙",
+       "5281",
+       "Np"
+      ]
+     ]
+    },
+    {
+     "id": "08AJj",
+     "ref": "Ruth.1.11",
+     "s": "שֹׁ֣בְנָה",
+     "tr": "shóvenah",
+     "g": "go back",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "שֹׁ֣בְנָה",
+       "7725",
+       "Vqv2fp"
+      ]
+     ]
+    },
+    {
+     "id": "089Hv",
+     "ref": "Ruth.1.11",
+     "s": "בְנֹתַ֔י",
+     "tr": "venotay",
+     "g": "my O daughters",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "בְנֹתַ֔",
+       "1323",
+       "Ncfpc"
+      ],
+      [
+       "י",
+       "",
+       "Sp1cs"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "R:Ruth.1.21:6-9",
+   "kind": "micro",
+   "unit": 2,
+   "ref": "Ruth.1.21",
+   "start": 6,
+   "end": 9,
+   "toks": [
+    {
+     "id": "089gS",
+     "ref": "Ruth.1.21",
+     "s": "לָ֣מָּה",
+     "tr": "lámmah",
+     "g": "to why?",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "לָ֣",
+       "l",
+       "R"
+      ],
+      [
+       "מָּה",
+       "4100",
+       "Ti"
+      ]
+     ]
+    },
+    {
+     "id": "08LAe",
+     "ref": "Ruth.1.21",
+     "s": "תִקְרֶ֤אנָה",
+     "tr": "tiqrénah",
+     "g": "do you call",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "תִקְרֶ֤אנָה",
+       "7121",
+       "Vqi2fp"
+      ]
+     ]
+    },
+    {
+     "id": "08qK3",
+     "ref": "Ruth.1.21",
+     "s": "לִי֙",
+     "tr": "li",
+     "g": "to me",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "לִ",
+       "l",
+       "R"
+      ],
+      [
+       "י֙",
+       "",
+       "Sp1cs"
+      ]
+     ]
+    },
+    {
+     "id": "081Cv",
+     "ref": "Ruth.1.21",
+     "s": "נָעֳמִ֔י",
+     "tr": "no`omi",
+     "g": "Naomi",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "נָעֳמִ֔י",
+       "5281",
+       "Np"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "R:Ruth.1.22:9-12",
+   "kind": "micro",
+   "unit": 2,
+   "ref": "Ruth.1.22",
+   "start": 9,
+   "end": 12,
+   "toks": [
+    {
+     "id": "08oiy",
+     "ref": "Ruth.1.22",
+     "s": "וְהֵ֗מָּה",
+     "tr": "vehémmah",
+     "g": "and they",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "וְ",
+       "c",
+       "C"
+      ],
+      [
+       "הֵ֗מָּה",
+       "1992",
+       "Pp3mp"
+      ]
+     ]
+    },
+    {
+     "id": "08gPX",
+     "ref": "Ruth.1.22",
+     "s": "בָּ֚אוּ",
+     "tr": "bá'u",
+     "g": "they came",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "בָּ֚אוּ",
+       "935",
+       "Vqp3cp"
+      ]
+     ]
+    },
+    {
+     "id": "08gtq",
+     "ref": "Ruth.1.22",
+     "s": "בֵּ֣ית",
+     "tr": "bet",
+     "g": "Beth-",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "בֵּ֣ית",
+       "1035+",
+       "Np"
+      ]
+     ]
+    },
+    {
+     "id": "08HSQ",
+     "ref": "Ruth.1.22",
+     "s": "לֶ֔חֶם",
+     "tr": "léchem",
+     "g": "-lehem",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "לֶ֔חֶם",
+       "1035",
+       "Np"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "R:Ruth.1.4:0-3",
+   "kind": "micro",
+   "unit": 2,
+   "ref": "Ruth.1.4",
+   "start": 0,
+   "end": 3,
+   "toks": [
+    {
+     "id": "08NQN",
+     "ref": "Ruth.1.4",
+     "s": "וַיִּשְׂא֣וּ",
+     "tr": "vayyis'u",
+     "g": "and they took",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "וַ",
+       "c",
+       "C"
+      ],
+      [
+       "יִּשְׂא֣וּ",
+       "5375",
+       "Vqw3mp"
+      ]
+     ]
+    },
+    {
+     "id": "08uLf",
+     "ref": "Ruth.1.4",
+     "s": "לָהֶ֗ם",
+     "tr": "lahem",
+     "g": "for themselves",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "לָ",
+       "l",
+       "R"
+      ],
+      [
+       "הֶ֗ם",
+       "",
+       "Sp3mp"
+      ]
+     ]
+    },
+    {
+     "id": "08kA7",
+     "ref": "Ruth.1.4",
+     "s": "נָשִׁים֙",
+     "tr": "nashim",
+     "g": "wives",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "נָשִׁים֙",
+       "802",
+       "Ncfpa"
+      ]
+     ]
+    },
+    {
+     "id": "083TS",
+     "ref": "Ruth.1.4",
+     "s": "מֹֽאֲבִיּ֔וֹת",
+     "tr": "mo'aviyyot",
+     "g": "Moabite",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "מֹֽאֲבִיּ֔וֹת",
+       "4125",
+       "Ngfpa"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "R:Ruth.1.6:6-9",
+   "kind": "micro",
+   "unit": 2,
+   "ref": "Ruth.1.6",
+   "start": 6,
+   "end": 9,
+   "toks": [
+    {
+     "id": "08Wxq",
+     "ref": "Ruth.1.6",
+     "s": "כִּ֤י",
+     "tr": "ki",
+     "g": "if",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "כִּ֤י",
+       "3588 a",
+       "C"
+      ]
+     ]
+    },
+    {
+     "id": "089qY",
+     "ref": "Ruth.1.6",
+     "s": "שָֽׁמְעָה֙",
+     "tr": "shame`ah",
+     "g": "she had heard",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "שָֽׁמְעָה֙",
+       "8085",
+       "Vqp3fs"
+      ]
+     ]
+    },
+    {
+     "id": "08n5f",
+     "ref": "Ruth.1.6",
+     "s": "בִּשְׂדֵ֣ה",
+     "tr": "bisdeh",
+     "g": "in the region of",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "בִּ",
+       "b",
+       "R"
+      ],
+      [
+       "שְׂדֵ֣ה",
+       "7704 b",
+       "Ncmsc"
+      ]
+     ]
+    },
+    {
+     "id": "08YUq",
+     "ref": "Ruth.1.6",
+     "s": "מוֹאָ֔ב",
+     "tr": "mo'av",
+     "g": "Moab",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "מוֹאָ֔ב",
+       "4124",
+       "Np"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "R:Ruth.1.8:13-16",
+   "kind": "micro",
+   "unit": 2,
+   "ref": "Ruth.1.8",
+   "start": 13,
+   "end": 16,
+   "toks": [
+    {
+     "id": "08zTj",
+     "ref": "Ruth.1.8",
+     "s": "כַּאֲשֶׁ֧ר",
+     "tr": "ka'asher",
+     "g": "just as",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "כַּ",
+       "k",
+       "R"
+      ],
+      [
+       "אֲשֶׁ֧ר",
+       "834 d",
+       "Tr"
+      ]
+     ]
+    },
+    {
+     "id": "08fPi",
+     "ref": "Ruth.1.8",
+     "s": "עֲשִׂיתֶ֛ם",
+     "tr": "`asitem",
+     "g": "you have dealt",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "עֲשִׂיתֶ֛ם",
+       "6213 a",
+       "Vqp2mp"
+      ]
+     ]
+    },
+    {
+     "id": "08GYe",
+     "ref": "Ruth.1.8",
+     "s": "עִם",
+     "tr": "`im-",
+     "g": "with",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "עִם",
+       "5973 a",
+       "R"
+      ]
+     ]
+    },
+    {
+     "id": "08Bbz",
+     "ref": "Ruth.1.8",
+     "s": "הַמֵּתִ֖ים",
+     "tr": "hammetim",
+     "g": "the dead",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "הַ",
+       "d",
+       "Td"
+      ],
+      [
+       "מֵּתִ֖ים",
+       "4191",
+       "Vqrmpa"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "R:Ruth.2.9:6-9",
+   "kind": "micro",
+   "unit": 2,
+   "ref": "Ruth.2.9",
+   "start": 6,
+   "end": 9,
+   "toks": [
+    {
+     "id": "08Ttm",
+     "ref": "Ruth.2.9",
+     "s": "הֲל֥וֹא",
+     "tr": "halo",
+     "g": "¿ not",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "הֲ",
+       "i",
+       "Ti"
+      ],
+      [
+       "ל֥וֹא",
+       "3808",
+       "Tn"
+      ]
+     ]
+    },
+    {
+     "id": "086Vi",
+     "ref": "Ruth.2.9",
+     "s": "צִוִּ֛יתִי",
+     "tr": "tsivvíti",
+     "g": "have I commanded",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "צִוִּ֛יתִי",
+       "6680",
+       "Vpp1cs"
+      ]
+     ]
+    },
+    {
+     "id": "08V8W",
+     "ref": "Ruth.2.9",
+     "s": "אֶת",
+     "tr": "et-",
+     "g": "[obj]",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "אֶת",
+       "853",
+       "To"
+      ]
+     ]
+    },
+    {
+     "id": "08zg2",
+     "ref": "Ruth.2.9",
+     "s": "הַנְּעָרִ֖ים",
+     "tr": "hanne`arim",
+     "g": "the young men",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "הַ",
+       "d",
+       "Td"
+      ],
+      [
+       "נְּעָרִ֖ים",
+       "5288",
+       "Ncmpa"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "R:Ruth.4.15:0-3",
+   "kind": "micro",
+   "unit": 2,
+   "ref": "Ruth.4.15",
+   "start": 0,
+   "end": 3,
+   "toks": [
+    {
+     "id": "08pu1",
+     "ref": "Ruth.4.15",
+     "s": "וְהָ֤יָה",
+     "tr": "veháyah",
+     "g": "and he will become",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "וְ",
+       "c",
+       "C"
+      ],
+      [
+       "הָ֤יָה",
+       "1961",
+       "Vqq3ms"
+      ]
+     ]
+    },
+    {
+     "id": "089Gr",
+     "ref": "Ruth.4.15",
+     "s": "לָךְ֙",
+     "tr": "lakh",
+     "g": "for you",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "לָ",
+       "l",
+       "R"
+      ],
+      [
+       "ךְ֙",
+       "",
+       "Sp2fs"
+      ]
+     ]
+    },
+    {
+     "id": "08jGA",
+     "ref": "Ruth.4.15",
+     "s": "לְמֵשִׁ֣יב",
+     "tr": "lemeshiv",
+     "g": "into one who restores",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "לְ",
+       "l",
+       "R"
+      ],
+      [
+       "מֵשִׁ֣יב",
+       "7725",
+       "Vhrmsa"
+      ]
+     ]
+    },
+    {
+     "id": "08Q9B",
+     "ref": "Ruth.4.15",
+     "s": "נֶ֔פֶשׁ",
+     "tr": "néfesh",
+     "g": "life",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "נֶ֔פֶשׁ",
+       "5315",
+       "Ncbsa"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "R:Josh.3.7:0-3",
+   "kind": "micro",
+   "unit": 2,
+   "ref": "Josh.3.7",
+   "start": 0,
+   "end": 3,
+   "toks": [
+    {
+     "id": "06a9X",
+     "ref": "Josh.3.7",
+     "s": "וַיֹּ֤אמֶר",
+     "tr": "vayyómer",
+     "g": "and he said",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "וַ",
+       "c",
+       "C"
+      ],
+      [
+       "יֹּ֤אמֶר",
+       "559",
+       "Vqw3ms"
+      ]
+     ]
+    },
+    {
+     "id": "06RUp",
+     "ref": "Josh.3.7",
+     "s": "יְהוָה֙",
+     "tr": "YHWH",
+     "g": "YHWH (the LORD)",
+     "gs": "SPEC Q3",
+     "gr": 1,
+     "p": [
+      [
+       "יְהוָה֙",
+       "3068",
+       "Np"
+      ]
+     ]
+    },
+    {
+     "id": "067Kw",
+     "ref": "Josh.3.7",
+     "s": "אֶל",
+     "tr": "el-",
+     "g": "to",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "אֶל",
+       "413",
+       "R"
+      ]
+     ]
+    },
+    {
+     "id": "06E6n",
+     "ref": "Josh.3.7",
+     "s": "יְהוֹשֻׁ֔עַ",
+     "tr": "yehoshúa`",
+     "g": "Joshua",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "יְהוֹשֻׁ֔עַ",
+       "3091",
+       "Np"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "R:Josh.10.15:0-4",
+   "kind": "micro",
+   "unit": 2,
+   "ref": "Josh.10.15",
+   "start": 0,
+   "end": 4,
+   "toks": [
+    {
+     "id": "062gS",
+     "ref": "Josh.10.15",
+     "s": "וַיָּ֤שָׁב",
+     "tr": "vayyáshov",
+     "g": "and he returned",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "וַ",
+       "c",
+       "C"
+      ],
+      [
+       "יָּ֤שָׁב",
+       "7725",
+       "Vqw3ms"
+      ]
+     ]
+    },
+    {
+     "id": "06Jut",
+     "ref": "Josh.10.15",
+     "s": "יְהוֹשֻׁ֨עַ֙",
+     "tr": "yehoshúa`",
+     "g": "Joshua",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "יְהוֹשֻׁ֨עַ֙",
+       "3091",
+       "Np"
+      ]
+     ]
+    },
+    {
+     "id": "06p3n",
+     "ref": "Josh.10.15",
+     "s": "וְכָל",
+     "tr": "vekhol-",
+     "g": "and all",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "וְ",
+       "c",
+       "C"
+      ],
+      [
+       "כָל",
+       "3605",
+       "Ncmsc"
+      ]
+     ]
+    },
+    {
+     "id": "06d68",
+     "ref": "Josh.10.15",
+     "s": "יִשְׂרָאֵ֣ל",
+     "tr": "yisra'el",
+     "g": "Israel",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "יִשְׂרָאֵ֣ל",
+       "3478",
+       "Np"
+      ]
+     ]
+    },
+    {
+     "id": "06qeT",
+     "ref": "Josh.10.15",
+     "s": "עִמּ֔וֹ",
+     "tr": "`immo",
+     "g": "with him",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "עִמּ֔",
+       "5973 a",
+       "R"
+      ],
+      [
+       "וֹ",
+       "",
+       "Sp3ms"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "R:1Kgs.20.13:8-11",
+   "kind": "micro",
+   "unit": 2,
+   "ref": "1Kgs.20.13",
+   "start": 8,
+   "end": 11,
+   "toks": [
+    {
+     "id": "11Pjs",
+     "ref": "1Kgs.20.13",
+     "s": "וַיֹּ֗אמֶר",
+     "tr": "vayyómer",
+     "g": "and he said",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "וַ",
+       "c",
+       "C"
+      ],
+      [
+       "יֹּ֗אמֶר",
+       "559",
+       "Vqw3ms"
+      ]
+     ]
+    },
+    {
+     "id": "11riC",
+     "ref": "1Kgs.20.13",
+     "s": "כֹּ֚ה",
+     "tr": "koh",
+     "g": "thus",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "כֹּ֚ה",
+       "3541",
+       "D"
+      ]
+     ]
+    },
+    {
+     "id": "11355",
+     "ref": "1Kgs.20.13",
+     "s": "אָמַ֣ר",
+     "tr": "amar",
+     "g": "he says",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "אָמַ֣ר",
+       "559",
+       "Vqp3ms"
+      ]
+     ]
+    },
+    {
+     "id": "11Qq1",
+     "ref": "1Kgs.20.13",
+     "s": "יְהוָ֔ה",
+     "tr": "YHWH",
+     "g": "YHWH (the LORD)",
+     "gs": "SPEC Q3",
+     "gr": 1,
+     "p": [
+      [
+       "יְהוָ֔ה",
+       "3068",
+       "Np"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "R:2Sam.9.3:11-14",
+   "kind": "micro",
+   "unit": 2,
+   "ref": "2Sam.9.3",
+   "start": 11,
+   "end": 14,
+   "toks": [
+    {
+     "id": "10xzw",
+     "ref": "2Sam.9.3",
+     "s": "וַיֹּ֤אמֶר",
+     "tr": "vayyómer",
+     "g": "and he said",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "וַ",
+       "c",
+       "C"
+      ],
+      [
+       "יֹּ֤אמֶר",
+       "559",
+       "Vqw3ms"
+      ]
+     ]
+    },
+    {
+     "id": "10Mj5",
+     "ref": "2Sam.9.3",
+     "s": "צִיבָא֙",
+     "tr": "tsiva",
+     "g": "Ziba",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "צִיבָא֙",
+       "6717",
+       "Np"
+      ]
+     ]
+    },
+    {
+     "id": "10JHF",
+     "ref": "2Sam.9.3",
+     "s": "אֶל",
+     "tr": "el-",
+     "g": "to",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "אֶל",
+       "413",
+       "R"
+      ]
+     ]
+    },
+    {
+     "id": "106fJ",
+     "ref": "2Sam.9.3",
+     "s": "הַמֶּ֔לֶךְ",
+     "tr": "hammélekh",
+     "g": "the king",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "הַ",
+       "d",
+       "Td"
+      ],
+      [
+       "מֶּ֔לֶךְ",
+       "4428",
+       "Ncmsa"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "R:Num.23.11:0-3",
+   "kind": "micro",
+   "unit": 2,
+   "ref": "Num.23.11",
+   "start": 0,
+   "end": 3,
+   "toks": [
+    {
+     "id": "04s5V",
+     "ref": "Num.23.11",
+     "s": "וַיֹּ֤אמֶר",
+     "tr": "vayyómer",
+     "g": "and he said",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "וַ",
+       "c",
+       "C"
+      ],
+      [
+       "יֹּ֤אמֶר",
+       "559",
+       "Vqw3ms"
+      ]
+     ]
+    },
+    {
+     "id": "04EUr",
+     "ref": "Num.23.11",
+     "s": "בָּלָק֙",
+     "tr": "balaq",
+     "g": "Balak",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "בָּלָק֙",
+       "1111",
+       "Np"
+      ]
+     ]
+    },
+    {
+     "id": "044DD",
+     "ref": "Num.23.11",
+     "s": "אֶל",
+     "tr": "el-",
+     "g": "to",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "אֶל",
+       "413",
+       "R"
+      ]
+     ]
+    },
+    {
+     "id": "04fka",
+     "ref": "Num.23.11",
+     "s": "בִּלְעָ֔ם",
+     "tr": "bil`am",
+     "g": "Balaam",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "בִּלְעָ֔ם",
+       "1109 a",
+       "Np"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "R:Num.3.14:0-3",
+   "kind": "micro",
+   "unit": 2,
+   "ref": "Num.3.14",
+   "start": 0,
+   "end": 3,
+   "toks": [
+    {
+     "id": "04dPn",
+     "ref": "Num.3.14",
+     "s": "וַיְדַבֵּ֤ר",
+     "tr": "vayedabber",
+     "g": "and he spoke",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "וַ",
+       "c",
+       "C"
+      ],
+      [
+       "יְדַבֵּ֤ר",
+       "1696",
+       "Vpw3ms"
+      ]
+     ]
+    },
+    {
+     "id": "04Qve",
+     "ref": "Num.3.14",
+     "s": "יְהוָה֙",
+     "tr": "YHWH",
+     "g": "YHWH (the LORD)",
+     "gs": "SPEC Q3",
+     "gr": 1,
+     "p": [
+      [
+       "יְהוָה֙",
+       "3068",
+       "Np"
+      ]
+     ]
+    },
+    {
+     "id": "043dz",
+     "ref": "Num.3.14",
+     "s": "אֶל",
+     "tr": "el-",
+     "g": "to",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "אֶל",
+       "413",
+       "R"
+      ]
+     ]
+    },
+    {
+     "id": "04vcq",
+     "ref": "Num.3.14",
+     "s": "מֹשֶׁ֔ה",
+     "tr": "mosheh",
+     "g": "Moses",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "מֹשֶׁ֔ה",
+       "4872",
+       "Np"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "R:Num.4.37:8-11",
+   "kind": "micro",
+   "unit": 2,
+   "ref": "Num.4.37",
+   "start": 8,
+   "end": 11,
+   "toks": [
+    {
+     "id": "041Zv",
+     "ref": "Num.4.37",
+     "s": "אֲשֶׁ֨ר",
+     "tr": "asher",
+     "g": "whom",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "אֲשֶׁ֨ר",
+       "834 a",
+       "Tr"
+      ]
+     ]
+    },
+    {
+     "id": "04TB4",
+     "ref": "Num.4.37",
+     "s": "פָּקַ֤ד",
+     "tr": "paqad",
+     "g": "he enrolled",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "פָּקַ֤ד",
+       "6485 a",
+       "Vqp3ms"
+      ]
+     ]
+    },
+    {
+     "id": "04oG9",
+     "ref": "Num.4.37",
+     "s": "מֹשֶׁה֙",
+     "tr": "mosheh",
+     "g": "Moses",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "מֹשֶׁה֙",
+       "4872",
+       "Np"
+      ]
+     ]
+    },
+    {
+     "id": "04prm",
+     "ref": "Num.4.37",
+     "s": "וְאַהֲרֹ֔ן",
+     "tr": "ve'aharon",
+     "g": "and Aaron",
+     "gs": "TAHOT",
+     "gr": 0,
+     "p": [
+      [
+       "וְ",
+       "c",
+       "C"
+      ],
+      [
+       "אַהֲרֹ֔ן",
+       "175",
+       "Np"
+      ]
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -2028,6 +2028,11 @@
    "morph": "HC/Vqw3ms",
    "parse": "w Qal wayyiqtol 3ms",
    "family": "wayyiqtol",
+   "facets": {
+    "stem": "q",
+    "conj": "wayyiqtol",
+    "pgn": "3ms"
+   },
    "ambiguous": false,
    "tr": "vayyómer",
    "examples": [
@@ -2148,6 +2153,11 @@
    "morph": "HC/Vqw3ms",
    "parse": "w Qal wayyiqtol 3ms",
    "family": "wayyiqtol",
+   "facets": {
+    "stem": "q",
+    "conj": "wayyiqtol",
+    "pgn": "3ms"
+   },
    "ambiguous": false,
    "tr": "vayehi",
    "examples": [
@@ -2268,6 +2278,11 @@
    "morph": "HR/Vqc",
    "parse": "prep Qal inf. cstr.",
    "family": "infinitive",
+   "facets": {
+    "stem": "q",
+    "conj": "inf. cstr.",
+    "pgn": ""
+   },
    "ambiguous": false,
    "tr": "lemor",
    "examples": [
@@ -2380,6 +2395,11 @@
    "morph": "HC/Vqw3mp",
    "parse": "w Qal wayyiqtol 3mp",
    "family": "wayyiqtol",
+   "facets": {
+    "stem": "q",
+    "conj": "wayyiqtol",
+    "pgn": "3mp"
+   },
    "ambiguous": false,
    "tr": "vayyomeru",
    "examples": [
@@ -2496,6 +2516,11 @@
    "morph": "HVqp3ms",
    "parse": "Qal qatal 3ms",
    "family": "qatal/weqatal",
+   "facets": {
+    "stem": "q",
+    "conj": "qatal",
+    "pgn": "3ms"
+   },
    "ambiguous": true,
    "tr": "`asah",
    "examples": [
@@ -2596,6 +2621,11 @@
    "morph": "HC/Vqw3ms",
    "parse": "w Qal wayyiqtol 3ms",
    "family": "wayyiqtol",
+   "facets": {
+    "stem": "q",
+    "conj": "wayyiqtol",
+    "pgn": "3ms"
+   },
    "ambiguous": false,
    "tr": "vayyávo",
    "examples": [
@@ -2716,6 +2746,11 @@
    "morph": "HC/Vqw3ms",
    "parse": "w Qal wayyiqtol 3ms",
    "family": "wayyiqtol",
+   "facets": {
+    "stem": "q",
+    "conj": "wayyiqtol",
+    "pgn": "3ms"
+   },
    "ambiguous": false,
    "tr": "vayyélekh",
    "examples": [
@@ -2836,6 +2871,11 @@
    "morph": "HC/Vqw3fs",
    "parse": "w Qal wayyiqtol 3fs",
    "family": "wayyiqtol",
+   "facets": {
+    "stem": "q",
+    "conj": "wayyiqtol",
+    "pgn": "3fs"
+   },
    "ambiguous": true,
    "tr": "vattómer",
    "examples": [

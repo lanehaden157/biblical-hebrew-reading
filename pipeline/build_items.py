@@ -12,7 +12,11 @@ Every item carries a stable id; token snapshots ("tok") are copied from data/tex
 can show a card front without loading a chapter. Hebrew only ever comes from the corpus.
 
 Item ids: L:<lemma> (spaces -> _), F:<lemma>:<morph>:<surface hash>, M:<morpheme>,
-D:<token id> (decoding), R:<ref>:<start>-<end> (micro-reading).
+N:<lemma> (name), D:<token id> (decoding), R:<ref>:<start>-<end> (micro-reading).
+
+Snapshot highlights: "hl" = morpheme (part) index; "hlc" = [[start, end), ...] letter-cluster
+ranges over the whole word (a cluster is one letter plus the marks after it), used where the
+segment is not its own OSHB morpheme (noun endings, verb prefix letters) or spans two.
 """
 import collections
 import glob
@@ -42,8 +46,14 @@ DAGESH, SHVA, RAFE = chr(0x5BC), chr(0x5B0), chr(0x5BF)
 CORE = 750
 VOCAB_UNITS = [(1, 50), (51, 120), (121, 190), (191, 260), (261, 330), (331, 400), (401, 480),
                (481, 570), (571, 660), (661, 750)]          # Units 1-10 (SPEC section 3)
-FORMS_PER_UNIT = {1: 8, 2: 6}
-UNITS = [(0, "Calibration", "full"), (1, "The glue", "interlinear")]     # built so far (SPEC section 3)
+FORMS_PER_UNIT = {1: 8, 2: 6, 3: 55}       # Units 2-3: wayyiqtol only (Lane, Phase 3 part 2)
+NAMES_PER_UNIT = {2: 10}
+UNITS = [  # unit, title, reading help, parse facets asked (SPEC section 3); built so far
+    (0, "Calibration", "full", []),
+    (1, "The glue", "interlinear", []),
+    (2, "Nouns and their attachments", "unknown-only", []),
+    (3, "The story tense: wayyiqtol", "unknown-only", ["conj", "pgn"]),
+]
 EASY_BOOKS = ["Gen", "Exod", "Jonah", "Ruth", "Josh", "Judg", "1Sam", "2Sam", "1Kgs", "2Kgs", "Num"]
 
 
@@ -90,11 +100,13 @@ class Ctx:
             self.verses[t["ref"]].append(t)
         print(f"context loaded [{time.time() - t0:.1f}s]")
 
-    def snap(self, tid, part=None):
+    def snap(self, tid, part=None, hlc=None):
         s = self.snaps[tid]
         out = {k: s[k] for k in ("id", "ref", "s", "tr", "g", "gs", "gr", "p")}
         if part is not None:
             out["hl"] = part
+        if hlc is not None:
+            out["hlc"] = hlc
         return out
 
     def verse_ease(self, ref):
@@ -194,8 +206,39 @@ def form_id(f, skey):
                            hashlib.sha1(skey.encode("utf-8")).hexdigest()[:6])
 
 
-def build_forms(ctx, lo, hi, unit):
-    top = load(os.path.join(MEAS, "verb_forms_top400.json"))[lo:hi]
+def pick_forms(ctx):
+    """{unit: [M6 rows]}. Unit 1 = the 8 commonest forms of any kind; Units 2-3 = the next
+    wayyiqtol forms in rank order, one card per lemma+parse (pausal spellings like vayyomar
+    and vayyamot fold into the card already taken). Forms with every token quarantined are
+    skipped (vayyishtachu: OSHB and BHSA disagree on its stem; it is a lemma card instead)."""
+    top = load(os.path.join(MEAS, "verb_forms_top400.json"))
+    usable = {(surf_key(t), t["morph"], t["lemma"]) for t in ctx.prose if t["id"] not in ctx.quar}
+    top = [f for f in top if (surf_key(ctx.by_id[f["example_id"]]), f["morph"], ctx.by_id[f["example_id"]]["lemma"]) in usable]
+    out = {1: top[:FORMS_PER_UNIT[1]]}
+    taken = {(f["lemma"], f["morph"]) for f in out[1]}
+    rest = [f for f in top[FORMS_PER_UNIT[1]:] if f["family"] == "wayyiqtol"]
+    for unit in (2, 3):
+        out[unit] = []
+        while len(out[unit]) < FORMS_PER_UNIT[unit] and rest:
+            f = rest.pop(0)
+            if (f["lemma"], f["morph"]) not in taken:
+                taken.add((f["lemma"], f["morph"]))
+                out[unit].append(f)
+    return out
+
+
+CONJ = {"w": "wayyiqtol", "p": "qatal", "q": "weqatal", "i": "yiqtol", "v": "imperative",
+        "j": "jussive", "h": "cohortative", "r": "participle", "s": "participle", "a": "inf. abs.",
+        "c": "inf. cstr."}
+
+
+def facets(morph):
+    """Chip-parse facets from the verb morpheme's code (conj + person/gender/number)."""
+    v = next(m for m in morph[1:].split("/") if m[:1] == "V")
+    return {"stem": v[1], "conj": CONJ[v[2]], "pgn": v[3:6] if v[2] not in "rsac" else v[3:5]}
+
+
+def build_forms(ctx, top, unit):
     cur = curated("forms.json")
     by_key = collections.defaultdict(list)
     for t in ctx.prose:
@@ -218,6 +261,7 @@ def build_forms(ctx, lo, hi, unit):
         c = cur.get(fid)
         out.append({"id": fid, "kind": "form", "unit": unit, "rank": f["rank"], "count": f["count"],
                     "lemma": f["lemma"], "morph": f["morph"], "parse": f["parse"], "family": f["family"],
+                    "facets": facets(f["morph"]),
                     "ambiguous": f["ambiguous"], "tr": f["translit"],
                     "examples": [ctx.snap(t["id"]) for t in exs],
                     "gloss": c["gloss"] if c else g.most_common(1)[0][0],
@@ -316,6 +360,219 @@ def build_morphemes(ctx, unit):
                     "gloss": c.get("gloss", meaning), "gloss_src": c.get("source", "curated"),
                     "reviewed": bool(c.get("reviewed")), "count": len(ex[mid]),
                     "examples": [ctx.snap(t["id"], 0) for t in picked]})
+    return out
+
+
+# --- Units 2-3: highlighted segments (noun endings, pronoun suffixes, story-tense markers) -----
+
+YOD, VAV, TAV, HE, ALEF, NUN, MEM_F = (chr(c) for c in (0x5D9, 0x5D5, 0x5EA, 0x5D4, 0x5D0, 0x5E0, 0x5DD))
+HIRIQ, TSERE, PATACH, QAMATS, HOLAM = (chr(c) for c in (0x5B4, 0x5B5, 0x5B7, 0x5B8, 0x5B9))
+PGN_MEANING = {"3ms": "his; him", "3fs": "her", "3mp": "their; them", "3fp": "their; them (f.)",
+               "2ms": "your; you (m. sg.)", "2fs": "your; you (f. sg.)", "2mp": "your; you (pl.)",
+               "1cs": "my; me", "1cp": "our; us"}
+SING_LABEL = {"3ms": "-o, -hu", "3fs": "-ah (dot in the he)", "3mp": "-am, -hem", "3fp": "-an, -hen",
+              "2ms": "-kha", "2fs": "-ekh", "2mp": "-khem", "1cs": "-i", "1cp": "-nu, -enu"}
+PLUR_LABEL = {"3ms": "-av", "3fs": "-eha", "3mp": "-ehem", "3fp": "-ehen", "2ms": "-ekha",
+              "2mp": "-ekhem", "1cs": "-ay", "1cp": "-enu"}
+SEGMENTS = [  # id, label, meaning, unit, group
+    ("im", "-im", "plural (mostly masculine nouns)", 2, "ending"),
+    ("ot", "-ot", "plural (mostly feminine nouns)", 2, "ending"),
+    ("ah_f", "-ah", "feminine singular", 2, "ending"),
+    ("ayim", "-ayim", "dual: a pair, two of", 2, "ending"),
+    ("ey", "-e (yod after tsere, no ending after it)", "plural 'of' form: the X-s of", 2, "ending"),
+    ("at", "-at", "feminine 'of' form: the X of", 2, "ending"),
+] + [("s_" + p, SING_LABEL[p] + " (after a singular noun or l-, b-, 'et)", PGN_MEANING[p], 2, "suffix")
+     for p in SING_LABEL] + [
+    ("p_" + p, PLUR_LABEL[p] + " (yod before it: after a plural noun or 'el, `al)", PGN_MEANING[p], 2, "suffix")
+    for p in PLUR_LABEL] + [
+    ("dir", "-ah (unstressed, on a place)", "toward, to (direction)", 2, "suffix"),
+    ("w_seq", "va- + doubled first letter on a verb", "and (story tense: and then ... did)", 3, "marker"),
+    ("y3ms", "y- after va-", "he (it)", 3, "marker"),
+    ("t3fs", "t- after va-", "she (it); the same t- also means you (m. sg.)", 3, "marker"),
+    ("a1cs", "'- after va- (no doubling)", "I", 3, "marker"),
+    ("n1cp", "n- after va-", "we", 3, "marker"),
+    ("y_u", "y- ... -u", "they", 3, "marker"),
+    ("t_u", "t- ... -u", "you (pl.)", 3, "marker"),
+    ("short", "short ending: the -eh of the root drops", "still the story tense (vayya`as beside ya`aseh)", 3, "marker"),
+]
+
+
+PLURAL_ONLY = {"430", "6440", "4325", "8064", "2416 b"}   # elohim, panim, mayim, shamayim, chayyim
+COPULA = re.compile(r"\b(is|are|was|were)\b")     # TAHOT glosses that add a verb
+
+
+def clusters(s):
+    """Letter clusters: each Hebrew letter with the marks that follow it."""
+    out = []
+    for ch in s:
+        if 0x5D0 <= ord(ch) <= 0x5EA or not out:
+            out.append(ch)
+        else:
+            out[-1] += ch
+    return out
+
+
+def segment_classes(parts):
+    """[(segment id, part index, [[a, b], ...])] for one word given its OSHB parts
+    ({text, lemma, morph}). Pure function of the corpus token; verify_content.py re-runs it."""
+    cl = [clusters(STRIP.sub("", p["text"])) for p in parts]
+    start = [sum(len(c) for c in cl[:i]) for i in range(len(parts))]
+    n = start[-1] + len(cl[-1])
+    ms = [p["morph"] for p in parts]
+    out = []
+    last, lc = ms[-1], cl[-1]
+    # noun endings: the noun is the last morpheme (no suffix after it)
+    if last[:2] in ("Nc", "Aa") and len(last) >= 5 and len(lc) >= 3:
+        g, num, st = last[2], last[3], last[4]
+        z, y, x = lc[-1], lc[-2], lc[-3]
+        if num == "p" and st == "a" and g != "f" and z[0] == MEM_F and y == YOD and HIRIQ in x:
+            out.append(("im", len(parts) - 1, [[n - 2, n]]))
+        if num == "d" and st == "a" and z[0] == MEM_F and y[0] == YOD and HIRIQ in y and (PATACH in x or QAMATS in x):
+            out.append(("ayim", len(parts) - 1, [[n - 2, n]]))
+        if num == "p" and g == "f" and z[0] == TAV and y[0] == VAV and HOLAM in y:
+            out.append(("ot", len(parts) - 1, [[n - 2, n]]))
+        if g == "f" and num == "s" and st == "a" and z == HE and QAMATS in y:
+            out.append(("ah_f", len(parts) - 1, [[n - 1, n]]))
+        if num in "pd" and st == "c" and z == YOD and TSERE in y:
+            out.append(("ey", len(parts) - 1, [[n - 1, n]]))
+        if g == "f" and num == "s" and st == "c" and z == TAV and PATACH in y:
+            out.append(("at", len(parts) - 1, [[n - 1, n]]))
+    for i in range(1, len(parts)):
+        m, host = ms[i], ms[i - 1]
+        a, b = start[i], start[i] + len(cl[i])
+        if m == "Sd" and host[:1] in "ND":
+            out.append(("dir", i, [[a, b]]))
+        if not m.startswith("Sp") or m[2:5] not in PGN_MEANING:
+            continue
+        pgn = m[2:5]
+        noun = host[:2] in ("Nc", "Aa", "Ac")
+        num = host[3] if noun and len(host) > 3 else None
+        if not (noun or host[:1] == "R" or host[:2] == "To"):
+            continue
+        hl = cl[i - 1][-1] if cl[i - 1] else ""
+        if pgn == "1cs":
+            if "".join(cl[i]) != YOD:
+                continue
+            if HIRIQ in hl and num in (None, "s"):
+                out.append(("s_1cs", i, [[a, b]]))
+            elif (PATACH in hl or QAMATS in hl) and num in (None, "p", "d"):
+                out.append(("p_1cs", i, [[a, b]]))
+            continue
+        if hl[:1] == YOD:
+            if pgn in PLUR_LABEL and num in (None, "p", "d") and not (pgn == "3ms" and "".join(cl[i]) != VAV):
+                out.append(("p_" + pgn, i, [[a - 1, b]]))
+        elif num in (None, "s"):
+            out.append(("s_" + pgn, i, [[a, b]]))
+    # story-tense markers: vav + verb, nothing else in the word
+    if len(parts) == 2 and ms[0] == "C" and ms[1][:1] == "V" and ms[1][2:3] == "w":
+        v, vc = ms[1], cl[1]
+        pgn, first = v[3:6], vc[0]
+        if DAGESH in first and first[0] in (YOD, TAV, NUN) and PATACH in cl[0][0]:
+            out.append(("w_seq", 1, [[0, 2]]))
+        shureq = vc[-1] == VAV + DAGESH
+        if pgn == "3ms" and first[0] == YOD:
+            out.append(("y3ms", 1, [[1, 2]]))
+        if pgn == "3fs" and first[0] == TAV:
+            out.append(("t3fs", 1, [[1, 2]]))
+        if pgn == "1cs" and first[0] == ALEF:
+            out.append(("a1cs", 1, [[1, 2]]))
+        if pgn == "1cp" and first[0] == NUN:
+            out.append(("n1cp", 1, [[1, 2]]))
+        if pgn == "3mp" and first[0] == YOD and shureq:
+            out.append(("y_u", 1, [[1, 2], [n - 1, n]]))
+        if pgn == "2mp" and first[0] == TAV and shureq:
+            out.append(("t_u", 1, [[1, 2], [n - 1, n]]))
+        if pgn in ("3ms", "3fs") and vc[-1][0] != HE:
+            out.append(("short", 1, [[n - 1, n]]))     # candidate; needs a long -eh form (build_segments)
+    return out
+
+
+def long_forms(ctx):
+    """{(lemma, stem, pgn): token} plain yiqtol forms ending in -eh (ya`aseh), the long partner
+    of a short story-tense form (vayya`as)."""
+    out = {}
+    for t in ctx.prose:
+        if len(t["parts"]) != 1 or not ctx.clean(t):
+            continue
+        p = t["parts"][0]
+        m = p["morph"]
+        c = clusters(STRIP.sub("", p["text"]))
+        if m[:1] == "V" and m[2:3] == "i" and m[3:6] in ("3ms", "3fs") and c[-1] == HE and chr(0x5B6) in c[-2]:
+            out.setdefault((p["lemma"], m[1], m[3:6]), t)
+    return out
+
+
+def build_segments(ctx, unit):
+    cur = curated("morphemes.json")
+    longs = long_forms(ctx)
+    ex = collections.defaultdict(list)
+    for t in ctx.prose:
+        if not ctx.clean(t) or t["id"] not in ctx.tah:
+            continue
+        for mid, hl, hlc in segment_classes(t["parts"]):
+            if mid == "short":
+                v = t["parts"][1]
+                lf = longs.get((v["lemma"], v["morph"][1], v["morph"][3:6]))
+                if not lf:
+                    continue
+                t = dict(t, _long=lf)
+            ex[mid].append((t, hl, hlc))
+    out = []
+    for mid, label, meaning, u, group in SEGMENTS:
+        if u != unit:
+            continue
+
+        def score(e):
+            t, hl, _ = e
+            host = lexicon.main_part(t) or t["parts"][hl]
+            r = ctx.rank.get(host["lemma"], 9999)
+            name = host["morph"][:2] in ("Np", "Ng")
+            odd = host["lemma"] in PLURAL_ONLY or bool(COPULA.search(ctx.snaps[t["id"]]["g"]))
+            return (len(t["parts"]) > 2, odd, name, r > 190, r, EASY_BOOKS.index(t["book"]), t["id"])
+        picked, seen = [], set()
+        for e in sorted(ex[mid], key=score):
+            host = (lexicon.main_part(e[0]) or e[0]["parts"][e[1]])["lemma"]
+            if host not in seen:
+                picked.append(e)
+                seen.add(host)
+            if len(picked) == 6:
+                break
+        c = cur.get("M:" + mid, {})
+        item = {"id": "M:" + mid, "kind": "morpheme", "group": group, "unit": unit, "label": label,
+                "gloss": c.get("gloss", meaning), "gloss_src": c.get("source", "curated (grammar)"),
+                "reviewed": bool(c.get("reviewed")), "count": len(ex[mid]),
+                "examples": [ctx.snap(t["id"], hl, hlc) for t, hl, hlc in picked]}
+        if mid == "short":
+            item["contrast"] = [ctx.snap(t["_long"]["id"]) for t, _, _ in picked]
+        out.append(item)
+    return out
+
+
+# --- names -------------------------------------------------------------------------------------
+
+def build_names(ctx, lo, hi, unit):
+    names = load(os.path.join(MEAS, "names.json"))[lo:hi]
+    cur = curated("names.json")
+    occ = collections.defaultdict(list)
+    for t in ctx.prose:
+        p = lexicon.main_part(t)
+        if p and p["morph"][:2] in ("Np", "Ng"):
+            occ[p["lemma"]].append(t)
+    out = []
+    for i, n in enumerate(names):
+        toks = occ[n["lemma"]]
+        bare = [t for t in toks if len(t["parts"]) == 1 and ctx.clean(t)] or toks
+        common = collections.Counter(surf_key(t) for t in bare).most_common(1)[0][0]
+        front = min((t for t in bare if surf_key(t) == common), key=lambda t: (t["maqqef_next"], t["poem"]))
+        ex = ctx.good_example([t for t in toks if t["id"] != front["id"] and ctx.clean(t)])
+        tb = ctx.tb.get(ctx.lm.get(n["lemma"], {}).get("key", ""), {})
+        c = cur.get(n["lemma"])
+        out.append({"id": "N:" + n["lemma"].replace(" ", "_"), "kind": "name", "unit": unit, "lemma": n["lemma"],
+                    "rank": lo + i + 1, "count": n["count"], "tok": ctx.snap(front["id"]),
+                    "example": {"id": ex["id"], "ref": ex["ref"]},
+                    "gloss": c["gloss"] if c else tb.get("gloss", n.get("gloss_hint", "")),
+                    "gloss_src": c["source"] if c else "TBESH", "reviewed": bool(c and c.get("reviewed")),
+                    "tbesh_key": ctx.lm.get(n["lemma"], {}).get("key"), "bdb": tb.get("defn", "")[:400]})
     return out
 
 
@@ -430,16 +687,22 @@ def build_unit0(ctx):
 
 # --- micro-readings ----------------------------------------------------------------------------
 
-def build_micro(ctx, pool_name, unit, n=40):
+def build_micro(ctx, pool_name, unit, n=40, words=(3, 6), keep=None, seen=None):
+    """keep(toks) -> bool filters candidates; seen = phrase texts already used by earlier units.
+    Verse pools (M8c) have no start/end: the whole verse is the reading."""
     pool = load(os.path.join(MEAS, "micro_pools.json"))[pool_name]
-    seen, picked = set(), []
+    seen, picked = set() if seen is None else seen, []
     per_book = collections.Counter()
-    cands = [p for p in pool if 3 <= p["words"] <= 6]
+    cands = [dict(p, start=p.get("start", 0), end=p.get("end", p["words"] - 1))
+             for p in pool if words[0] <= p["words"] <= words[1]]
+    verse = "start" not in pool[0]
     cands.sort(key=lambda p: (EASY_BOOKS.index(p["ref"].split(".")[0]) > 3, -p.get("occurrences", 1),
-                              -p["words"], p["ref"]))
+                              -p.get("coverage", 1), p["words"] if verse else -p["words"], p["ref"]))
     for p in cands:
         toks = ctx.verses[p["ref"]][p["start"]:p["end"] + 1]
         if p["text"] in seen or any(t["id"] not in ctx.tah or t["id"] in ctx.quar for t in toks):
+            continue
+        if len(toks) != p["words"] or (keep and not keep(toks)):
             continue
         book = p["ref"].split(".")[0]
         if per_book[book] >= n // 4:
@@ -497,19 +760,33 @@ def main():
     read0, check0 = build_unit0(ctx)
     write(os.path.join(ITEMS, "unit0.json"), {"_note": "Generated. Unit 0 decoding: reading words + check pool.",
                                               "unit": 0, "items": read0 + check0})
-    u1 = build_morphemes(ctx, 1) + build_forms(ctx, 0, FORMS_PER_UNIT[1], 1) + build_micro(ctx, "M8a", 1)
-    write(os.path.join(ITEMS, "unit1.json"), {"_note": "Generated. Unit 1 morphemes, whole verb forms, micro-readings.",
-                                              "unit": 1, "items": u1})
+    forms = pick_forms(ctx)
+    seen = set()
+    u1 = build_morphemes(ctx, 1) + build_forms(ctx, forms[1], 1) + build_micro(ctx, "M8a", 1, seen=seen)
+
+    def unit2_reading(toks):          # something Unit 2 adds: a rank 51-120 lemma or a suffix/ending
+        return any(51 <= ctx.rank.get((lexicon.main_part(t) or {}).get("lemma"), 0) <= 120
+                   or segment_classes(t["parts"]) for t in toks)
+    u2 = (build_segments(ctx, 2) + build_forms(ctx, forms[2], 2) + build_names(ctx, 0, NAMES_PER_UNIT[2], 2)
+          + build_micro(ctx, "M8b", 2, n=50, words=(4, 8), keep=unit2_reading, seen=seen))
+    u3 = (build_segments(ctx, 3) + build_forms(ctx, forms[3], 3)
+          + build_micro(ctx, "M8c-wayyiqtol", 3, n=60, words=(4, 14), seen=seen))
+    notes = {1: "Unit 1 morphemes, whole verb forms, micro-readings.",
+             2: "Unit 2 endings and suffixes, whole verb forms, names, micro-readings.",
+             3: "Unit 3 story-tense markers, whole verb forms (wayyiqtol), verse readings."}
+    for u, its in ((1, u1), (2, u2), (3, u3)):
+        write(os.path.join(ITEMS, f"unit{u}.json"), {"_note": "Generated. " + notes[u], "unit": u, "items": its})
     lessons = load(os.path.join(ROOT, "data", "lessons.json"), {"lessons": []})["lessons"]
-    units = [{"unit": u, "title": title, "help": help_, "vocab": list(VOCAB_UNITS[u - 1]) if u else None,
+    units = [{"unit": u, "title": title, "help": help_, "parse": parse, "vocab": list(VOCAB_UNITS[u - 1]) if u else None,
               "items": f"items/unit{u}.json", "lessons": [l["id"] for l in lessons if l["unit"] == u]}
-             for u, title, help_ in UNITS]
+             for u, title, help_, parse in UNITS]
     write(os.path.join(ROOT, "data", "units.json"), {"_note": "Generated by pipeline/build_items.py. "
-          "vocab = rank range the queue is expected to reach (not a gate).", "units": units})
+          "vocab = rank range the queue is expected to reach (not a gate). help = reading help level; "
+          "parse = verb facets asked on chip parses.", "units": units})
     rev = review_entries(ctx, [x for x in lemmas if x["unit"] == 1] + u1)
     write(os.path.join(BUILD, "review_unit1.json"), rev)
-    kinds = collections.Counter(x["kind"] for x in lemmas + read0 + check0 + u1)
-    print(dict(kinds), f"review {len(rev)} [{time.time() - t0:.1f}s]")
+    kinds = collections.Counter((x["unit"], x["kind"]) for x in read0 + check0 + u1 + u2 + u3)
+    print(len(lemmas), "lemmas;", dict(sorted(kinds.items())), f"review {len(rev)} [{time.time() - t0:.1f}s]")
 
 
 if __name__ == "__main__":

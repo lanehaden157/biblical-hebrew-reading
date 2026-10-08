@@ -352,6 +352,7 @@ Original wording of R1–R3 and Q1–Q6 is replaced by the outcomes below. `BUIL
 - **Q6. Verb cards.** One card per lemma+stem when the stem has at least 20 tokens (M5) and a distinct meaning.
 - **Sync.** Dropped. localStorage plus export/import only.
 - **Phase 2 (2026-10-08, from MEASURES.md).** Core stays 750 lemmas. Unit 11 forms: rule-opaque ones only (see Unit 11). Gen 12:1–9 opens Unit 6. Poems 2 Sam 1:19–27 and 2 Kgs 19:21–28 removed; short couplets kept. Hishtachaveh (H7812): one lemma+stem card "bow down", stem facet not asked (OSHB and BHSA disagree).
+- **Phase 3 content (2026-10-08).** Unit 2's 6 whole forms are the next 6 wayyiqtol forms after Unit 1's 8 (not M6 ranks 9-14, which include qatal/yiqtol). Pronoun suffix cards split by PGN and spelling shape (after a singular noun vs after a plural noun or 'el/`al). Unit 3's 8 markers: va + doubling, y-, t-, '-, n-, y-...-u, t-...-u, short -eh-less forms.
 
 ### Where this plan is most likely to fail at 5–10 minutes a day
 1. **Review load crowds out reading.** Mitigation: time-boxed review, automatic throttling of new items, protected reading block.

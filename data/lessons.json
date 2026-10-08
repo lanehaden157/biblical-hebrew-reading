@@ -631,6 +631,582 @@
     }
    ],
    "words": 43
+  },
+  {
+   "id": "L2.1",
+   "unit": 2,
+   "title": "Plurals: -im and -ot",
+   "unlocks": [
+    "M:im",
+    "M:ot"
+   ],
+   "body": "Most masculine nouns make the plural with -im: {0} \"the men\",\n{1} \"horses\".\n\nMost feminine nouns take -ot: {2} \"and daughters\".\n\nThe pairing is a tendency, not a rule: {3} \"wives\" is feminine with -im. The\nending tells you \"plural\"; the gender belongs to the word.\n\nA few words are plural in form but singular in sense: elohim \"God\", panim \"face\",\n{4} \"the water\", {5} \"sky\".",
+   "refs": [
+    {
+     "ids": [
+      "01wzb"
+     ],
+     "hl": null
+    },
+    {
+     "ids": [
+      "11GQd"
+     ],
+     "hl": null
+    },
+    {
+     "ids": [
+      "012Mh"
+     ],
+     "hl": null
+    },
+    {
+     "ids": [
+      "01CE4"
+     ],
+     "hl": null
+    },
+    {
+     "ids": [
+      "01wM5"
+     ],
+     "hl": null
+    },
+    {
+     "ids": [
+      "01A74"
+     ],
+     "hl": null
+    }
+   ],
+   "words": 60
+  },
+  {
+   "id": "L2.2",
+   "unit": 2,
+   "title": "Feminine -ah and the pair ending -ayim",
+   "unlocks": [
+    "M:ah_f",
+    "M:ayim"
+   ],
+   "body": "A stressed final -ah usually marks a feminine singular noun or adjective: {0}\n\"year\", {1} \"for a wife\".\n\n-ayim marks a pair, or \"two of\": {2} \"two days\", {3}\n\"hands\". Body parts that come in pairs use it: hands, eyes, feet, ears.\n\nAn unstressed -ah is a different ending, \"toward\" (L2.8). The transliteration's stress mark\ntells them apart.",
+   "refs": [
+    {
+     "ids": [
+      "01124"
+     ],
+     "hl": null
+    },
+    {
+     "ids": [
+      "014Se"
+     ],
+     "hl": null
+    },
+    {
+     "ids": [
+      "02Tfb"
+     ],
+     "hl": null
+    },
+    {
+     "ids": [
+      "01Gxh"
+     ],
+     "hl": null
+    }
+   ],
+   "words": 54
+  },
+  {
+   "id": "L2.3",
+   "unit": 2,
+   "title": "\"Of\": noun chains",
+   "unlocks": [
+    "M:ey",
+    "M:at"
+   ],
+   "body": "Hebrew says \"the word of YHWH\" by setting two nouns side by side: {0}.\nThe first noun is in its \"of\" form (construct); a maqqef often joins the two.\n\nThe first noun never takes ha-. The whole chain is definite when the last word is a name or\nhas \"the\".\n\nCues on the first noun:\n- shorter vowels: davar \"word\" becomes devar.\n- -im becomes -e: {1} \"the sons of Israel\".\n- -ah becomes -at: {2} \"the queen of\".\n\n{3} \"the way of the wilderness\".",
+   "refs": [
+    {
+     "ids": [
+      "01YCX",
+      "01YWB"
+     ],
+     "hl": null
+    },
+    {
+     "ids": [
+      "011Hs",
+      "01B2f"
+     ],
+     "hl": null
+    },
+    {
+     "ids": [
+      "11scM"
+     ],
+     "hl": null
+    },
+    {
+     "ids": [
+      "02mjS",
+      "02dzV"
+     ],
+     "hl": null
+    }
+   ],
+   "words": 82
+  },
+  {
+   "id": "L2.4",
+   "unit": 2,
+   "title": "Adjectives come after the noun",
+   "unlocks": [
+    "L:1419_a"
+   ],
+   "body": "An adjective follows its noun and matches it in number, gender and \"the\":\n{0} \"the great light\", literally \"the light the great\".\n\n{1} \"the two great lights\": plural noun, plural\nadjective.\n\nWhen the noun has \"the\" and the adjective does not, or the adjective comes first, it is\nusually a statement with no verb: \"the X [is] great\". Compare {2} \"that [it\nwas] good\" (L1.8).",
+   "refs": [
+    {
+     "ids": [
+      "01ddd",
+      "01hxo"
+     ],
+     "hl": null
+    },
+    {
+     "ids": [
+      "01YHH",
+      "01sHf",
+      "01iee"
+     ],
+     "hl": null
+    },
+    {
+     "ids": [
+      "01qCU",
+      "01g2y"
+     ],
+     "hl": null
+    }
+   ],
+   "words": 62
+  },
+  {
+   "id": "L2.5",
+   "unit": 2,
+   "title": "Pronouns: I, you, he, they",
+   "unlocks": [
+    "L:859_a"
+   ],
+   "body": "Standalone pronouns: {0} \"and I\" (also anokhi), {1} \"you\",\nhu \"he\", {2} \"she\", {3} \"we\", attem \"you (pl.)\", hem \"they\".\n\nA pronoun often makes a sentence with no verb: {4} \"I [am] YHWH\".\n\nA story verb already shows who acts, so a pronoun beside a verb adds stress: \"I myself\".\n\nhu, hi and hem after a noun with \"the\" mean \"that, those\": {5} \"that\nman\".",
+   "refs": [
+    {
+     "ids": [
+      "01T4t"
+     ],
+     "hl": null
+    },
+    {
+     "ids": [
+      "01aHo"
+     ],
+     "hl": null
+    },
+    {
+     "ids": [
+      "01e37"
+     ],
+     "hl": null
+    },
+    {
+     "ids": [
+      "01cuH"
+     ],
+     "hl": null
+    },
+    {
+     "ids": [
+      "018qh",
+      "01zk3"
+     ],
+     "hl": null
+    },
+    {
+     "ids": [
+      "09CsU",
+      "09XR4"
+     ],
+     "hl": null
+    }
+   ],
+   "words": 59
+  },
+  {
+   "id": "L2.6",
+   "unit": 2,
+   "title": "This and these",
+   "unlocks": [
+    "L:428"
+   ],
+   "body": "zeh \"this\" (masculine), zot \"this\" (feminine), élleh \"these\".\n\nAfter a noun with \"the\" they take \"the\" too: {0} \"this day\",\n{1} \"this woman\".\n\nWith no \"the\", they start a sentence: {2} \"and these [are] the\nnames of\".",
+   "refs": [
+    {
+     "ids": [
+      "01pY9",
+      "01GAq"
+     ],
+     "hl": null
+    },
+    {
+     "ids": [
+      "11ZMa",
+      "11K9n"
+     ],
+     "hl": null
+    },
+    {
+     "ids": [
+      "01Z5L",
+      "01bWA"
+     ],
+     "hl": null
+    }
+   ],
+   "words": 34
+  },
+  {
+   "id": "L2.7",
+   "unit": 2,
+   "title": "Endings for my, your, his",
+   "unlocks": [
+    "M:s_3ms",
+    "M:s_3fs",
+    "M:s_3mp",
+    "M:s_3fp",
+    "M:s_2ms",
+    "M:s_2fs",
+    "M:s_2mp",
+    "M:s_1cs",
+    "M:s_1cp"
+   ],
+   "body": "\"His\", \"my\" and \"their\" are endings on the noun: {0} \"his house\",\n{1} \"his wife\".\n\nThe same endings on a preposition give \"to him\", \"with me\": {2} \"and he\nsaid to him\", {3} \"to me\", {4} \"to you\", {5} \"with\nhim\". On 'et they make the object: {6} \"them\".\n\nThe core set: -i my/me, -kha your, -o his/him, -ah her, -nu our/us, -khem your (pl.),\n-am or -hem their/them.\n\nA noun with an ending is already definite (\"his house\"), so it never takes ha-.",
+   "refs": [
+    {
+     "ids": [
+      "011Ae"
+     ],
+     "hl": null
+    },
+    {
+     "ids": [
+      "01iFV"
+     ],
+     "hl": null
+    },
+    {
+     "ids": [
+      "01k6s",
+      "01awY"
+     ],
+     "hl": null
+    },
+    {
+     "ids": [
+      "01drK"
+     ],
+     "hl": null
+    },
+    {
+     "ids": [
+      "01eec"
+     ],
+     "hl": null
+    },
+    {
+     "ids": [
+      "01eVQ"
+     ],
+     "hl": null
+    },
+    {
+     "ids": [
+      "011AP"
+     ],
+     "hl": null
+    }
+   ],
+   "words": 77
+  },
+  {
+   "id": "L2.8",
+   "unit": 2,
+   "title": "After a plural: -av, -ay, -ehem",
+   "unlocks": [
+    "M:p_3ms",
+    "M:p_3fs",
+    "M:p_3mp",
+    "M:p_3fp",
+    "M:p_2ms",
+    "M:p_2mp",
+    "M:p_1cs",
+    "M:p_1cp"
+   ],
+   "body": "On plural nouns the same endings come after a yod: {0} \"his sons\",\n{1} \"my sons\", {2} \"their children\".\n\nSo -o is \"his\" with one thing and -av \"his\" with several: {3} \"his son\",\nvanav \"his sons\". Pairs count as plural: {4} \"his hands\".\n\nSome prepositions take this set too: 'el \"to\", `al \"on\", 'achare \"after\", tachat \"under\":\n{5} \"to him\".",
+   "refs": [
+    {
+     "ids": [
+      "015W2"
+     ],
+     "hl": null
+    },
+    {
+     "ids": [
+      "01FwY"
+     ],
+     "hl": null
+    },
+    {
+     "ids": [
+      "06bEv"
+     ],
+     "hl": null
+    },
+    {
+     "ids": [
+      "01VmT"
+     ],
+     "hl": null
+    },
+    {
+     "ids": [
+      "01QAB"
+     ],
+     "hl": null
+    },
+    {
+     "ids": [
+      "01LKt"
+     ],
+     "hl": null
+    }
+   ],
+   "words": 55
+  },
+  {
+   "id": "L2.9",
+   "unit": 2,
+   "title": "Toward: unstressed -ah",
+   "unlocks": [
+    "M:dir"
+   ],
+   "body": "An unstressed -ah on a place word means \"toward\": {0} \"to Egypt\",\n{1} \"into the tent\".\n\nThe stress mark sits before it, which tells it apart from the feminine -ah (L2.2), which is\nstressed.",
+   "refs": [
+    {
+     "ids": [
+      "01ABu"
+     ],
+     "hl": null
+    },
+    {
+     "ids": [
+      "019T8"
+     ],
+     "hl": null
+    }
+   ],
+   "words": 32
+  },
+  {
+   "id": "L3.1",
+   "unit": 3,
+   "title": "The story tense",
+   "unlocks": [
+    "M:w_seq"
+   ],
+   "body": "Biblical stories move forward with one verb form: va- plus a doubled letter.\n{0} \"and he said\", {1} \"and he saw\", {2}\n\"and he called\".\n\nRead it as \"and then he did X\". English uses a plain past tense, and the \"and\" often goes\nuntranslated.\n\nA run of these verbs is the backbone of a story: each is the next event. When a clause breaks\nthe run (a noun first, or another verb form), it usually gives background or starts a scene.\n\nThe doubling is the clue: vayy-, vatt-, vann-. Ve- plus a verb without doubling is a different\nform (Unit 4).",
+   "refs": [
+    {
+     "ids": [
+      "01thY"
+     ],
+     "hl": null
+    },
+    {
+     "ids": [
+      "01USR"
+     ],
+     "hl": null
+    },
+    {
+     "ids": [
+      "01nAB"
+     ],
+     "hl": null
+    }
+   ],
+   "words": 99
+  },
+  {
+   "id": "L3.2",
+   "unit": 3,
+   "title": "Who: the prefix letter",
+   "unlocks": [
+    "M:y3ms",
+    "M:t3fs",
+    "M:a1cs",
+    "M:n1cp"
+   ],
+   "body": "After va- comes a letter that says who acted:\n- y- he: {0} \"and he said\"\n- t- she: {1} \"and she said\". The same t- can mean \"you\".\n- ' (alef) I: {2} \"and I said\". Alef cannot double, so va'- has no\n  doubling.\n- n- we: {3} \"and we said\"\n\nIn narrative, he and she do almost all the work. I and we appear when a character retells\nevents.",
+   "refs": [
+    {
+     "ids": [
+      "01thY"
+     ],
+     "hl": null
+    },
+    {
+     "ids": [
+      "01hvK"
+     ],
+     "hl": null
+    },
+    {
+     "ids": [
+      "019Ks"
+     ],
+     "hl": null
+    },
+    {
+     "ids": [
+      "013xs"
+     ],
+     "hl": null
+    }
+   ],
+   "words": 67
+  },
+  {
+   "id": "L3.3",
+   "unit": 3,
+   "title": "They: a final -u",
+   "unlocks": [
+    "M:y_u",
+    "M:t_u"
+   ],
+   "body": "A final -u makes the verb plural: {0} \"and they said\".\n\ny- with -u is \"they\"; t- with -u is \"you (pl.)\": {1} \"and you said\".\n\nSo check three things on a story verb: va- with doubling (story tense), the prefix letter\n(who), a final -u (more than one).\n\nThe subject noun usually follows the verb and matches it: {2}\n\"and the earth brought forth\". The t- agrees with the feminine noun \"earth\".",
+   "refs": [
+    {
+     "ids": [
+      "013rQ"
+     ],
+     "hl": null
+    },
+    {
+     "ids": [
+      "097pV"
+     ],
+     "hl": null
+    },
+    {
+     "ids": [
+      "01TXw",
+      "01Y4K"
+     ],
+     "hl": null
+    }
+   ],
+   "words": 70
+  },
+  {
+   "id": "L3.4",
+   "unit": 3,
+   "title": "Short forms",
+   "unlocks": [
+    "M:short"
+   ],
+   "body": "Many common verbs end in -eh in their ordinary form: {0} \"he will see\",\n{1} \"he will do\". The story tense drops the ending: {2} \"and\nhe saw\", {3} \"and he made\".\n\nOthers shorten a vowel: {4} \"he will turn\", but {5} \"and\nhe returned\".\n\nvayehi (L1.9) is the short story form of yihyeh \"he will be\".\n\nDoubling and prefix letter are unchanged, so the story tense is still easy to spot.",
+   "refs": [
+    {
+     "ids": [
+      "01mRW"
+     ],
+     "hl": null
+    },
+    {
+     "ids": [
+      "01jg4"
+     ],
+     "hl": null
+    },
+    {
+     "ids": [
+      "01USR"
+     ],
+     "hl": null
+    },
+    {
+     "ids": [
+      "01bmv"
+     ],
+     "hl": null
+    },
+    {
+     "ids": [
+      "32ACh"
+     ],
+     "hl": null
+    },
+    {
+     "ids": [
+      "01Cjf"
+     ],
+     "hl": null
+    }
+   ],
+   "words": 66
+  },
+  {
+   "id": "L3.5",
+   "unit": 3,
+   "title": "Finding the root",
+   "unlocks": [
+    "F:7200:HC/Vqw3ms:e8aa7a"
+   ],
+   "body": "Under each verb is a root, usually three consonants, which is what a dictionary lists.\n\nTo find it in a story verb, strip va-, the prefix letter and any final -u. What is left is the\nroot: {0} is sh-l-ch \"send\", {1} is sh-m-` \"hear\",\n{2} is m-l-kh \"reign\".\n\nIf only two consonants are left, one has dropped out: {3} is r-'-h \"see\", whose\nfinal h dropped. {4} is sh-v \"return\", whose middle letter is gone.\n\nUnit 7 explains which letters drop and why. Until then, the whole forms you are learning cover\nthe common cases.",
+   "refs": [
+    {
+     "ids": [
+      "01uTK"
+     ],
+     "hl": null
+    },
+    {
+     "ids": [
+      "011Cu"
+     ],
+     "hl": null
+    },
+    {
+     "ids": [
+      "01xVz"
+     ],
+     "hl": null
+    },
+    {
+     "ids": [
+      "01USR"
+     ],
+     "hl": null
+    },
+    {
+     "ids": [
+      "01Cjf"
+     ],
+     "hl": null
+    }
+   ],
+   "words": 91
   }
  ],
  "toks": {
@@ -1860,6 +2436,1329 @@
     ]
    ],
    "ref": "Jonah.1.1"
+  },
+  "01wzb": {
+   "id": "01wzb",
+   "s": "הָֽאֲנָשִׁ֔ים",
+   "tr": "ha'anashim",
+   "g": "the men",
+   "gs": "TAHOT",
+   "gr": 0,
+   "p": [
+    [
+     "הָֽ",
+     "d",
+     "Td"
+    ],
+    [
+     "אֲנָשִׁ֔ים",
+     "376",
+     "Ncmpa"
+    ]
+   ],
+   "ref": "Gen.18.16"
+  },
+  "11GQd": {
+   "id": "11GQd",
+   "s": "סוּסִ֖ים",
+   "tr": "susim",
+   "g": "horses",
+   "gs": "TAHOT",
+   "gr": 0,
+   "p": [
+    [
+     "סוּסִ֖ים",
+     "5483 b",
+     "Ncmpa"
+    ]
+   ],
+   "ref": "1Kgs.5.6"
+  },
+  "012Mh": {
+   "id": "012Mh",
+   "s": "וּבָנֽוֹת",
+   "tr": "uvanot",
+   "g": "and daughters",
+   "gs": "TAHOT",
+   "gr": 0,
+   "p": [
+    [
+     "וּ",
+     "c",
+     "C"
+    ],
+    [
+     "בָנֽוֹת",
+     "1323",
+     "Ncfpa"
+    ]
+   ],
+   "ref": "Gen.5.26"
+  },
+  "01CE4": {
+   "id": "01CE4",
+   "s": "נָשִׁ֑ים",
+   "tr": "nashim",
+   "g": "wives",
+   "gs": "TAHOT",
+   "gr": 0,
+   "p": [
+    [
+     "נָשִׁ֑ים",
+     "802",
+     "Ncfpa"
+    ]
+   ],
+   "ref": "Gen.4.19"
+  },
+  "01A74": {
+   "id": "01A74",
+   "s": "שָׁמָ֑יִם",
+   "tr": "shamáyim",
+   "g": "heaven",
+   "gs": "TAHOT",
+   "gr": 0,
+   "p": [
+    [
+     "שָׁמָ֑יִם",
+     "8064",
+     "Ncmpa"
+    ]
+   ],
+   "ref": "Gen.1.8"
+  },
+  "01124": {
+   "id": "01124",
+   "s": "שָׁנָ֑ה",
+   "tr": "shanah",
+   "g": "years",
+   "gs": "TAHOT",
+   "gr": 0,
+   "p": [
+    [
+     "שָׁנָ֑ה",
+     "8141",
+     "Ncfsa"
+    ]
+   ],
+   "ref": "Gen.5.10"
+  },
+  "014Se": {
+   "id": "014Se",
+   "s": "לְאִשָּׁ֑ה",
+   "tr": "le'ishshah",
+   "g": "to a wife",
+   "gs": "TAHOT",
+   "gr": 0,
+   "p": [
+    [
+     "לְ",
+     "l",
+     "R"
+    ],
+    [
+     "אִשָּׁ֑ה",
+     "802",
+     "Ncfsa"
+    ]
+   ],
+   "ref": "Gen.12.19"
+  },
+  "02Tfb": {
+   "id": "02Tfb",
+   "s": "יוֹמַ֖יִם",
+   "tr": "yomáyim",
+   "g": "two days",
+   "gs": "TAHOT",
+   "gr": 0,
+   "p": [
+    [
+     "יוֹמַ֖יִם",
+     "3117",
+     "Ncmda"
+    ]
+   ],
+   "ref": "Exod.21.21"
+  },
+  "01Gxh": {
+   "id": "01Gxh",
+   "s": "יָדַ֖יִם",
+   "tr": "yadáyim",
+   "g": "both hands",
+   "gs": "TAHOT",
+   "gr": 0,
+   "p": [
+    [
+     "יָדַ֖יִם",
+     "3027",
+     "Ncbda"
+    ]
+   ],
+   "ref": "Gen.34.21"
+  },
+  "01YCX": {
+   "id": "01YCX",
+   "s": "דְבַר",
+   "tr": "devar-",
+   "g": "the word of",
+   "gs": "TAHOT",
+   "gr": 0,
+   "p": [
+    [
+     "דְבַר",
+     "1697",
+     "Ncmsc"
+    ]
+   ],
+   "ref": "Gen.15.4"
+  },
+  "01YWB": {
+   "id": "01YWB",
+   "s": "יְהוָ֤ה",
+   "tr": "YHWH",
+   "g": "YHWH (the LORD)",
+   "gs": "SPEC Q3",
+   "gr": 1,
+   "p": [
+    [
+     "יְהוָ֤ה",
+     "3068",
+     "Np"
+    ]
+   ],
+   "ref": "Gen.15.4"
+  },
+  "011Hs": {
+   "id": "011Hs",
+   "s": "בְּנֵ֣י",
+   "tr": "bene",
+   "g": "the sons of",
+   "gs": "TAHOT",
+   "gr": 0,
+   "p": [
+    [
+     "בְּנֵ֣י",
+     "1121 a",
+     "Ncmpc"
+    ]
+   ],
+   "ref": "Gen.42.5"
+  },
+  "01B2f": {
+   "id": "01B2f",
+   "s": "יִשְׂרָאֵ֔ל",
+   "tr": "yisra'el",
+   "g": "Israel",
+   "gs": "TAHOT",
+   "gr": 0,
+   "p": [
+    [
+     "יִשְׂרָאֵ֔ל",
+     "3478",
+     "Np"
+    ]
+   ],
+   "ref": "Gen.42.5"
+  },
+  "11scM": {
+   "id": "11scM",
+   "s": "מַֽלְכַּת",
+   "tr": "malkat-",
+   "g": "the queen of",
+   "gs": "TAHOT",
+   "gr": 0,
+   "p": [
+    [
+     "מַֽלְכַּת",
+     "4436",
+     "Ncfsc"
+    ]
+   ],
+   "ref": "1Kgs.10.4"
+  },
+  "02mjS": {
+   "id": "02mjS",
+   "s": "דֶּ֥רֶךְ",
+   "tr": "dérekh",
+   "g": "the way of",
+   "gs": "TAHOT",
+   "gr": 0,
+   "p": [
+    [
+     "דֶּ֥רֶךְ",
+     "1870",
+     "Ncbsc"
+    ]
+   ],
+   "ref": "Exod.13.18"
+  },
+  "02dzV": {
+   "id": "02dzV",
+   "s": "הַמִּדְבָּ֖ר",
+   "tr": "hammidbar",
+   "g": "the wilderness",
+   "gs": "TAHOT",
+   "gr": 0,
+   "p": [
+    [
+     "הַ",
+     "d",
+     "Td"
+    ],
+    [
+     "מִּדְבָּ֖ר",
+     "4057 b",
+     "Ncmsa"
+    ]
+   ],
+   "ref": "Exod.13.18"
+  },
+  "01ddd": {
+   "id": "01ddd",
+   "s": "הַמָּא֤וֹר",
+   "tr": "hamma'or",
+   "g": "the luminary",
+   "gs": "TAHOT",
+   "gr": 0,
+   "p": [
+    [
+     "הַ",
+     "d",
+     "Td"
+    ],
+    [
+     "מָּא֤וֹר",
+     "3974",
+     "Ncmsa"
+    ]
+   ],
+   "ref": "Gen.1.16"
+  },
+  "01hxo": {
+   "id": "01hxo",
+   "s": "הַגָּדֹל֙",
+   "tr": "haggadol",
+   "g": "great",
+   "gs": "TAHOT",
+   "gr": 0,
+   "p": [
+    [
+     "הַ",
+     "d",
+     "Td"
+    ],
+    [
+     "גָּדֹל֙",
+     "1419 a",
+     "Aamsa"
+    ]
+   ],
+   "ref": "Gen.1.16"
+  },
+  "01YHH": {
+   "id": "01YHH",
+   "s": "שְׁנֵ֥י",
+   "tr": "shene",
+   "g": "the two",
+   "gs": "TAHOT",
+   "gr": 0,
+   "p": [
+    [
+     "שְׁנֵ֥י",
+     "8147",
+     "Acmdc"
+    ]
+   ],
+   "ref": "Gen.1.16"
+  },
+  "01sHf": {
+   "id": "01sHf",
+   "s": "הַמְּאֹרֹ֖ת",
+   "tr": "hamme'orot",
+   "g": "the luminaries",
+   "gs": "TAHOT",
+   "gr": 0,
+   "p": [
+    [
+     "הַ",
+     "d",
+     "Td"
+    ],
+    [
+     "מְּאֹרֹ֖ת",
+     "3974",
+     "Ncmpa"
+    ]
+   ],
+   "ref": "Gen.1.16"
+  },
+  "01iee": {
+   "id": "01iee",
+   "s": "הַגְּדֹלִ֑ים",
+   "tr": "haggedolim",
+   "g": "great",
+   "gs": "TAHOT",
+   "gr": 0,
+   "p": [
+    [
+     "הַ",
+     "d",
+     "Td"
+    ],
+    [
+     "גְּדֹלִ֑ים",
+     "1419 a",
+     "Aampa"
+    ]
+   ],
+   "ref": "Gen.1.16"
+  },
+  "01T4t": {
+   "id": "01T4t",
+   "s": "וַאֲנִ֗י",
+   "tr": "va'ani",
+   "g": "and I",
+   "gs": "TAHOT",
+   "gr": 0,
+   "p": [
+    [
+     "וַ",
+     "c",
+     "C"
+    ],
+    [
+     "אֲנִ֗י",
+     "589",
+     "Pp1cs"
+    ]
+   ],
+   "ref": "Gen.6.17"
+  },
+  "01aHo": {
+   "id": "01aHo",
+   "s": "אַתָּ֥ה",
+   "tr": "attah",
+   "g": "you",
+   "gs": "TAHOT",
+   "gr": 0,
+   "p": [
+    [
+     "אַתָּ֥ה",
+     "859 a",
+     "Pp2ms"
+    ]
+   ],
+   "ref": "Gen.7.1"
+  },
+  "01e37": {
+   "id": "01e37",
+   "s": "הִ֛וא",
+   "tr": "hi",
+   "g": "she",
+   "gs": "TAHOT",
+   "gr": 0,
+   "p": [
+    [
+     "הִ֛וא",
+     "1931",
+     "Pp3fs"
+    ]
+   ],
+   "ref": "Gen.3.12"
+  },
+  "01cuH": {
+   "id": "01cuH",
+   "s": "אֲנַ֔חְנוּ",
+   "tr": "anáchnu",
+   "g": "we",
+   "gs": "TAHOT",
+   "gr": 0,
+   "p": [
+    [
+     "אֲנַ֔חְנוּ",
+     "587",
+     "Pp1cp"
+    ]
+   ],
+   "ref": "Gen.42.11"
+  },
+  "018qh": {
+   "id": "018qh",
+   "s": "אֲנִ֣י",
+   "tr": "ani",
+   "g": "I",
+   "gs": "TAHOT",
+   "gr": 0,
+   "p": [
+    [
+     "אֲנִ֣י",
+     "589",
+     "Pp1cs"
+    ]
+   ],
+   "ref": "Gen.15.7"
+  },
+  "01zk3": {
+   "id": "01zk3",
+   "s": "יְהוָ֗ה",
+   "tr": "YHWH",
+   "g": "am YHWH (the LORD)",
+   "gs": "SPEC Q3",
+   "gr": 1,
+   "p": [
+    [
+     "יְהוָ֗ה",
+     "3068",
+     "Np"
+    ]
+   ],
+   "ref": "Gen.15.7"
+  },
+  "09CsU": {
+   "id": "09CsU",
+   "s": "הָאִ֨ישׁ",
+   "tr": "ha'ish",
+   "g": "the man",
+   "gs": "TAHOT",
+   "gr": 0,
+   "p": [
+    [
+     "הָ",
+     "d",
+     "Td"
+    ],
+    [
+     "אִ֨ישׁ",
+     "376",
+     "Ncmsa"
+    ]
+   ],
+   "ref": "1Sam.1.3"
+  },
+  "09XR4": {
+   "id": "09XR4",
+   "s": "הַה֤וּא",
+   "tr": "hahu",
+   "g": "that",
+   "gs": "TAHOT",
+   "gr": 0,
+   "p": [
+    [
+     "הַ",
+     "d",
+     "Td"
+    ],
+    [
+     "ה֤וּא",
+     "1931",
+     "Pp3ms"
+    ]
+   ],
+   "ref": "1Sam.1.3"
+  },
+  "01pY9": {
+   "id": "01pY9",
+   "s": "הַיּ֤וֹם",
+   "tr": "hayyom",
+   "g": "the day",
+   "gs": "TAHOT",
+   "gr": 0,
+   "p": [
+    [
+     "הַ",
+     "d",
+     "Td"
+    ],
+    [
+     "יּ֤וֹם",
+     "3117",
+     "Ncmsa"
+    ]
+   ],
+   "ref": "Gen.7.13"
+  },
+  "01GAq": {
+   "id": "01GAq",
+   "s": "הַזֶּה֙",
+   "tr": "hazzeh",
+   "g": "this",
+   "gs": "TAHOT",
+   "gr": 0,
+   "p": [
+    [
+     "הַ",
+     "d",
+     "Td"
+    ],
+    [
+     "זֶּה֙",
+     "2088",
+     "Pdxms"
+    ]
+   ],
+   "ref": "Gen.7.13"
+  },
+  "11ZMa": {
+   "id": "11ZMa",
+   "s": "הָאִשָּׁ֥ה",
+   "tr": "ha'ishshah",
+   "g": "the woman",
+   "gs": "TAHOT",
+   "gr": 0,
+   "p": [
+    [
+     "הָ",
+     "d",
+     "Td"
+    ],
+    [
+     "אִשָּׁ֥ה",
+     "802",
+     "Ncfsa"
+    ]
+   ],
+   "ref": "1Kgs.3.19"
+  },
+  "11K9n": {
+   "id": "11K9n",
+   "s": "הַזֹּ֖את",
+   "tr": "hazzot",
+   "g": "this",
+   "gs": "TAHOT",
+   "gr": 0,
+   "p": [
+    [
+     "הַ",
+     "d",
+     "Td"
+    ],
+    [
+     "זֹּ֖את",
+     "2063",
+     "Pdxfs"
+    ]
+   ],
+   "ref": "1Kgs.3.19"
+  },
+  "01Z5L": {
+   "id": "01Z5L",
+   "s": "וְאֵ֨לֶּה",
+   "tr": "ve'élleh",
+   "g": "and these",
+   "gs": "TAHOT",
+   "gr": 0,
+   "p": [
+    [
+     "וְ",
+     "c",
+     "C"
+    ],
+    [
+     "אֵ֨לֶּה",
+     "428",
+     "Pdxcp"
+    ]
+   ],
+   "ref": "Gen.46.8"
+  },
+  "01bWA": {
+   "id": "01bWA",
+   "s": "שְׁמ֧וֹת",
+   "tr": "shemot",
+   "g": "are the names of",
+   "gs": "TAHOT",
+   "gr": 0,
+   "p": [
+    [
+     "שְׁמ֧וֹת",
+     "8034",
+     "Ncmpc"
+    ]
+   ],
+   "ref": "Gen.46.8"
+  },
+  "011Ae": {
+   "id": "011Ae",
+   "s": "בֵּית֑וֹ",
+   "tr": "beto",
+   "g": "his house",
+   "gs": "TAHOT",
+   "gr": 0,
+   "p": [
+    [
+     "בֵּית֑",
+     "1004 b",
+     "Ncmsc"
+    ],
+    [
+     "וֹ",
+     "",
+     "Sp3ms"
+    ]
+   ],
+   "ref": "Gen.12.17"
+  },
+  "01iFV": {
+   "id": "01iFV",
+   "s": "אִשְׁתּ֖וֹ",
+   "tr": "ishto",
+   "g": "his wife",
+   "gs": "TAHOT",
+   "gr": 0,
+   "p": [
+    [
+     "אִשְׁתּ֖",
+     "802",
+     "Ncfsc"
+    ],
+    [
+     "וֹ",
+     "",
+     "Sp3ms"
+    ]
+   ],
+   "ref": "Gen.3.20"
+  },
+  "01k6s": {
+   "id": "01k6s",
+   "s": "וַיֹּ֥אמֶר",
+   "tr": "vayyómer",
+   "g": "and he said",
+   "gs": "TAHOT",
+   "gr": 0,
+   "p": [
+    [
+     "וַ",
+     "c",
+     "C"
+    ],
+    [
+     "יֹּ֥אמֶר",
+     "559",
+     "Vqw3ms"
+    ]
+   ],
+   "ref": "Gen.3.9"
+  },
+  "01awY": {
+   "id": "01awY",
+   "s": "ל֖וֹ",
+   "tr": "lo",
+   "g": "to him",
+   "gs": "TAHOT",
+   "gr": 0,
+   "p": [
+    [
+     "ל֖",
+     "l",
+     "R"
+    ],
+    [
+     "וֹ",
+     "",
+     "Sp3ms"
+    ]
+   ],
+   "ref": "Gen.3.9"
+  },
+  "01drK": {
+   "id": "01drK",
+   "s": "לִּ֥י",
+   "tr": "li",
+   "g": "to me",
+   "gs": "TAHOT",
+   "gr": 0,
+   "p": [
+    [
+     "לִּ֥",
+     "l",
+     "R"
+    ],
+    [
+     "י",
+     "",
+     "Sp1cs"
+    ]
+   ],
+   "ref": "Gen.3.12"
+  },
+  "01eec": {
+   "id": "01eec",
+   "s": "לְךָ֔",
+   "tr": "lekha",
+   "g": "to you",
+   "gs": "TAHOT",
+   "gr": 0,
+   "p": [
+    [
+     "לְ",
+     "l",
+     "R"
+    ],
+    [
+     "ךָ֔",
+     "",
+     "Sp2ms"
+    ]
+   ],
+   "ref": "Gen.3.11"
+  },
+  "01eVQ": {
+   "id": "01eVQ",
+   "s": "עִמּ֖וֹ",
+   "tr": "`immo",
+   "g": "with him",
+   "gs": "TAHOT",
+   "gr": 0,
+   "p": [
+    [
+     "עִמּ֖",
+     "5973 a",
+     "R"
+    ],
+    [
+     "וֹ",
+     "",
+     "Sp3ms"
+    ]
+   ],
+   "ref": "Gen.13.1"
+  },
+  "011AP": {
+   "id": "011AP",
+   "s": "אֹתָ֗ם",
+   "tr": "otam",
+   "g": "[obj] them",
+   "gs": "TAHOT",
+   "gr": 0,
+   "p": [
+    [
+     "אֹתָ֗",
+     "853",
+     "To"
+    ],
+    [
+     "ם",
+     "",
+     "Sp3mp"
+    ]
+   ],
+   "ref": "Gen.5.2"
+  },
+  "015W2": {
+   "id": "015W2",
+   "s": "בָנָיו֙",
+   "tr": "vanav",
+   "g": "his sons",
+   "gs": "TAHOT",
+   "gr": 0,
+   "p": [
+    [
+     "בָנָי",
+     "1121 a",
+     "Ncmpc"
+    ],
+    [
+     "ו֙",
+     "",
+     "Sp3ms"
+    ]
+   ],
+   "ref": "Gen.50.13"
+  },
+  "01FwY": {
+   "id": "01FwY",
+   "s": "בָנַי֙",
+   "tr": "vanay",
+   "g": "my sons",
+   "gs": "TAHOT",
+   "gr": 0,
+   "p": [
+    [
+     "בָנַ",
+     "1121 a",
+     "Ncmpc"
+    ],
+    [
+     "י֙",
+     "",
+     "Sp1cs"
+    ]
+   ],
+   "ref": "Gen.42.37"
+  },
+  "06bEv": {
+   "id": "06bEv",
+   "s": "בְּנֵיהֶם֙",
+   "tr": "benehem",
+   "g": "their children",
+   "gs": "TAHOT",
+   "gr": 0,
+   "p": [
+    [
+     "בְּנֵי",
+     "1121 a",
+     "Ncmpc"
+    ],
+    [
+     "הֶם֙",
+     "",
+     "Sp3mp"
+    ]
+   ],
+   "ref": "Josh.5.7"
+  },
+  "01VmT": {
+   "id": "01VmT",
+   "s": "בְּנ֥וֹ",
+   "tr": "beno",
+   "g": "his son",
+   "gs": "TAHOT",
+   "gr": 0,
+   "p": [
+    [
+     "בְּנ֥",
+     "1121 a",
+     "Ncmsc"
+    ],
+    [
+     "וֹ",
+     "",
+     "Sp3ms"
+    ]
+   ],
+   "ref": "Gen.9.24"
+  },
+  "01QAB": {
+   "id": "01QAB",
+   "s": "יָדָ֑יו",
+   "tr": "yadav",
+   "g": "his hands",
+   "gs": "TAHOT",
+   "gr": 0,
+   "p": [
+    [
+     "יָדָ֑י",
+     "3027",
+     "Ncbdc"
+    ],
+    [
+     "ו",
+     "",
+     "Sp3ms"
+    ]
+   ],
+   "ref": "Gen.27.16"
+  },
+  "01LKt": {
+   "id": "01LKt",
+   "s": "אֵלָיו֙",
+   "tr": "elav",
+   "g": "to him",
+   "gs": "TAHOT",
+   "gr": 0,
+   "p": [
+    [
+     "אֵלָי",
+     "413",
+     "R"
+    ],
+    [
+     "ו֙",
+     "",
+     "Sp3ms"
+    ]
+   ],
+   "ref": "Gen.8.9"
+  },
+  "01ABu": {
+   "id": "01ABu",
+   "s": "מִצְרַ֨יְמָה֙",
+   "tr": "mitsráymah",
+   "g": "Egypt towards",
+   "gs": "TAHOT",
+   "gr": 0,
+   "p": [
+    [
+     "מִצְרַ֨יְמָ",
+     "4714",
+     "Np"
+    ],
+    [
+     "ה֙",
+     "",
+     "Sd"
+    ]
+   ],
+   "ref": "Gen.12.10"
+  },
+  "019T8": {
+   "id": "019T8",
+   "s": "הָאֹ֖הֱלָה",
+   "tr": "ha'óhelah",
+   "g": "the tent towards",
+   "gs": "TAHOT",
+   "gr": 0,
+   "p": [
+    [
+     "הָ",
+     "d",
+     "Td"
+    ],
+    [
+     "אֹ֖הֱלָ",
+     "168",
+     "Ncmsa"
+    ],
+    [
+     "ה",
+     "",
+     "Sd"
+    ]
+   ],
+   "ref": "Gen.18.6"
+  },
+  "01USR": {
+   "id": "01USR",
+   "s": "וַיַּ֧רְא",
+   "tr": "vayyar",
+   "g": "and he saw",
+   "gs": "TAHOT",
+   "gr": 0,
+   "p": [
+    [
+     "וַ",
+     "c",
+     "C"
+    ],
+    [
+     "יַּ֧רְא",
+     "7200",
+     "Vqw3ms"
+    ]
+   ],
+   "ref": "Gen.1.4"
+  },
+  "01nAB": {
+   "id": "01nAB",
+   "s": "וַיִּקְרָ֨א",
+   "tr": "vayyiqra",
+   "g": "and he called",
+   "gs": "TAHOT",
+   "gr": 0,
+   "p": [
+    [
+     "וַ",
+     "c",
+     "C"
+    ],
+    [
+     "יִּקְרָ֨א",
+     "7121",
+     "Vqw3ms"
+    ]
+   ],
+   "ref": "Gen.1.5"
+  },
+  "01hvK": {
+   "id": "01hvK",
+   "s": "וַתֹּ֥אמֶר",
+   "tr": "vattómer",
+   "g": "and she said",
+   "gs": "TAHOT",
+   "gr": 0,
+   "p": [
+    [
+     "וַ",
+     "c",
+     "C"
+    ],
+    [
+     "תֹּ֥אמֶר",
+     "559",
+     "Vqw3fs"
+    ]
+   ],
+   "ref": "Gen.3.2"
+  },
+  "019Ks": {
+   "id": "019Ks",
+   "s": "וָאֹמַ֖ר",
+   "tr": "va'omar",
+   "g": "and I said",
+   "gs": "TAHOT",
+   "gr": 0,
+   "p": [
+    [
+     "וָ",
+     "c",
+     "C"
+    ],
+    [
+     "אֹמַ֖ר",
+     "559",
+     "Vqw1cs"
+    ]
+   ],
+   "ref": "Gen.24.39"
+  },
+  "013xs": {
+   "id": "013xs",
+   "s": "וַנֹּ֥אמֶר",
+   "tr": "vannómer",
+   "g": "and we said",
+   "gs": "TAHOT",
+   "gr": 0,
+   "p": [
+    [
+     "וַ",
+     "c",
+     "C"
+    ],
+    [
+     "נֹּ֥אמֶר",
+     "559",
+     "Vqw1cp"
+    ]
+   ],
+   "ref": "Gen.42.31"
+  },
+  "013rQ": {
+   "id": "013rQ",
+   "s": "וַיֹּאמְר֞וּ",
+   "tr": "vayyomeru",
+   "g": "and they said",
+   "gs": "TAHOT",
+   "gr": 0,
+   "p": [
+    [
+     "וַ",
+     "c",
+     "C"
+    ],
+    [
+     "יֹּאמְר֞וּ",
+     "559",
+     "Vqw3mp"
+    ]
+   ],
+   "ref": "Gen.11.3"
+  },
+  "097pV": {
+   "id": "097pV",
+   "s": "וַתֹּ֣אמְרוּ",
+   "tr": "vattómeru",
+   "g": "and you said",
+   "gs": "TAHOT",
+   "gr": 0,
+   "p": [
+    [
+     "וַ",
+     "c",
+     "C"
+    ],
+    [
+     "תֹּ֣אמְרוּ",
+     "559",
+     "Vqw2mp"
+    ]
+   ],
+   "ref": "1Sam.12.12"
+  },
+  "01TXw": {
+   "id": "01TXw",
+   "s": "וַתּוֹצֵ֨א",
+   "tr": "vattotse",
+   "g": "and it brought forth",
+   "gs": "TAHOT",
+   "gr": 0,
+   "p": [
+    [
+     "וַ",
+     "c",
+     "C"
+    ],
+    [
+     "תּוֹצֵ֨א",
+     "3318",
+     "Vhw3fs"
+    ]
+   ],
+   "ref": "Gen.1.12"
+  },
+  "01Y4K": {
+   "id": "01Y4K",
+   "s": "הָאָ֜רֶץ",
+   "tr": "ha'árets",
+   "g": "the earth",
+   "gs": "TAHOT",
+   "gr": 0,
+   "p": [
+    [
+     "הָ",
+     "d",
+     "Td"
+    ],
+    [
+     "אָ֜רֶץ",
+     "776",
+     "Ncbsa"
+    ]
+   ],
+   "ref": "Gen.1.12"
+  },
+  "01mRW": {
+   "id": "01mRW",
+   "s": "יִרְאֶ֑ה",
+   "tr": "yir'eh",
+   "g": "he will see",
+   "gs": "TAHOT",
+   "gr": 0,
+   "p": [
+    [
+     "יִרְאֶ֑ה",
+     "7200",
+     "Vqi3ms"
+    ]
+   ],
+   "ref": "Gen.22.14"
+  },
+  "01jg4": {
+   "id": "01jg4",
+   "s": "יַעֲשֶׂ֖ה",
+   "tr": "ya`aseh",
+   "g": "will he do",
+   "gs": "TAHOT",
+   "gr": 0,
+   "p": [
+    [
+     "יַעֲשֶׂ֖ה",
+     "6213 a",
+     "Vqi3ms"
+    ]
+   ],
+   "ref": "Gen.18.25"
+  },
+  "01bmv": {
+   "id": "01bmv",
+   "s": "וַיַּ֣עַשׂ",
+   "tr": "vayyá`as",
+   "g": "and he made",
+   "gs": "TAHOT",
+   "gr": 0,
+   "p": [
+    [
+     "וַ",
+     "c",
+     "C"
+    ],
+    [
+     "יַּ֣עַשׂ",
+     "6213 a",
+     "Vqw3ms"
+    ]
+   ],
+   "ref": "Gen.1.7"
+  },
+  "32ACh": {
+   "id": "32ACh",
+   "s": "יָשׁ֔וּב",
+   "tr": "yashuv",
+   "g": "he will turn",
+   "gs": "TAHOT",
+   "gr": 0,
+   "p": [
+    [
+     "יָשׁ֔וּב",
+     "7725",
+     "Vqi3ms"
+    ]
+   ],
+   "ref": "Jonah.3.9"
+  },
+  "01Cjf": {
+   "id": "01Cjf",
+   "s": "וַיָּ֤שָׁב",
+   "tr": "vayyáshov",
+   "g": "and he returned",
+   "gs": "TAHOT",
+   "gr": 0,
+   "p": [
+    [
+     "וַ",
+     "c",
+     "C"
+    ],
+    [
+     "יָּ֤שָׁב",
+     "7725",
+     "Vqw3ms"
+    ]
+   ],
+   "ref": "Gen.22.19"
+  },
+  "01uTK": {
+   "id": "01uTK",
+   "s": "וַיִּשְׁלַ֗ח",
+   "tr": "vayyishlach",
+   "g": "and he sent",
+   "gs": "TAHOT",
+   "gr": 0,
+   "p": [
+    [
+     "וַ",
+     "c",
+     "C"
+    ],
+    [
+     "יִּשְׁלַ֗ח",
+     "7971",
+     "Vqw3ms"
+    ]
+   ],
+   "ref": "Gen.20.2"
+  },
+  "011Cu": {
+   "id": "011Cu",
+   "s": "וַיִּשְׁמַ֣ע",
+   "tr": "vayyishma`",
+   "g": "and he heard",
+   "gs": "TAHOT",
+   "gr": 0,
+   "p": [
+    [
+     "וַ",
+     "c",
+     "C"
+    ],
+    [
+     "יִּשְׁמַ֣ע",
+     "8085",
+     "Vqw3ms"
+    ]
+   ],
+   "ref": "Gen.14.14"
+  },
+  "01xVz": {
+   "id": "01xVz",
+   "s": "וַיִּמְלֹ֣ךְ",
+   "tr": "vayyimlokh",
+   "g": "and he reigned",
+   "gs": "TAHOT",
+   "gr": 0,
+   "p": [
+    [
+     "וַ",
+     "c",
+     "C"
+    ],
+    [
+     "יִּמְלֹ֣ךְ",
+     "4427 a",
+     "Vqw3ms"
+    ]
+   ],
+   "ref": "Gen.36.32"
   }
  }
 }

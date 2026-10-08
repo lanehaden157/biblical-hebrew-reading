@@ -2398,14 +2398,14 @@
     "ref": "Gen.30.21"
    },
    "gloss": "name",
-   "gloss_src": "TBESH",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H8034",
      "tbesh": "name",
      "share": 1.0,
-     "gloss": "name"
+     "gloss": "name; reputation, fame"
     }
    ],
    "tbesh_key": "H8034",
@@ -2441,20 +2441,20 @@
     "ref": "Num.27.9"
    },
    "gloss": "if",
-   "gloss_src": "TBESH",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H0518A",
      "tbesh": "if",
      "share": 0.823,
-     "gloss": "if"
+     "gloss": "if; whether; (im ... im) whether ... or"
     },
     {
      "key": "H0518H",
      "tbesh": "if: surely no",
      "share": 0.103,
-     "gloss": "if: surely no"
+     "gloss": "(in oaths) surely not; (im lo) surely"
     }
    ],
    "tbesh_key": "H0518A",
@@ -2489,27 +2489,27 @@
     "id": "10jQ8",
     "ref": "2Sam.1.7"
    },
-   "gloss": "to call: call to",
-   "gloss_src": "TBESH",
+   "gloss": "call",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H7121G",
      "tbesh": "to call: call to",
      "share": 0.489,
-     "gloss": "to call: call to"
+     "gloss": "call to, summon; invite"
     },
     {
      "key": "H7121H",
      "tbesh": "to call: call by",
      "share": 0.374,
-     "gloss": "to call: call by"
+     "gloss": "call, name (call X by name)"
     },
     {
      "key": "H7121I",
      "tbesh": "to call: call out",
      "share": 0.112,
-     "gloss": "to call: call out"
+     "gloss": "call out, cry out, proclaim"
     }
    ],
    "tbesh_key": "H7121G",
@@ -2544,15 +2544,15 @@
     "id": "01gNA",
     "ref": "Gen.50.18"
    },
-   "gloss": "also",
-   "gloss_src": "TBESH",
+   "gloss": "also, even",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H1571",
      "tbesh": "also",
      "share": 1.0,
-     "gloss": "also"
+     "gloss": "also, even, too; (gam ... gam) both ... and"
     }
    ],
    "tbesh_key": "H1571",
@@ -2588,14 +2588,14 @@
     "ref": "Gen.23.15"
    },
    "gloss": "what?",
-   "gloss_src": "TBESH",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H4100",
      "tbesh": "what?",
      "share": 1.0,
-     "gloss": "what?"
+     "gloss": "what?, how?; (lammah) why?"
     }
    ],
    "tbesh_key": "H4100",
@@ -2631,7 +2631,7 @@
     "ref": "Exod.21.1"
    },
    "gloss": "these",
-   "gloss_src": "TBESH",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
@@ -2673,15 +2673,15 @@
     "id": "019pX",
     "ref": "Gen.44.21"
    },
-   "gloss": "eye: seeing",
-   "gloss_src": "TBESH",
+   "gloss": "eye",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H5869H",
      "tbesh": "eye: seeing",
      "share": 0.362,
-     "gloss": "eye: seeing"
+     "gloss": "(be`ene) in the sight of, in the opinion of"
     },
     {
      "key": "H5869A",
@@ -2693,7 +2693,7 @@
      "key": "H5869I",
      "tbesh": "eye: appearance",
      "share": 0.289,
-     "gloss": "eye: appearance"
+     "gloss": "appearance, look; surface"
     }
    ],
    "tbesh_key": "H5869H",
@@ -2728,27 +2728,27 @@
     "id": "04Jz7",
     "ref": "Num.27.10"
    },
-   "gloss": "brother: male-sibling",
-   "gloss_src": "TBESH",
+   "gloss": "brother",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H0251G",
      "tbesh": "brother: male-sibling",
      "share": 0.782,
-     "gloss": "brother: male-sibling"
+     "gloss": "brother"
     },
     {
      "key": "H0251I",
      "tbesh": "brother: compatriot",
      "share": 0.117,
-     "gloss": "brother: compatriot"
+     "gloss": "fellow countryman, kinsman"
     },
     {
      "key": "H0251H",
      "tbesh": "brother: male-relative",
      "share": 0.101,
-     "gloss": "brother: male-relative"
+     "gloss": "relative"
     }
    ],
    "tbesh_key": "H0251G",
@@ -2783,15 +2783,15 @@
     "id": "02gN6",
     "ref": "Exod.21.15"
    },
-   "gloss": "to smite",
-   "gloss_src": "TBESH",
+   "gloss": "strike, kill",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H5221",
      "tbesh": "to smite",
      "share": 1.0,
-     "gloss": "to smite"
+     "gloss": "strike, hit; kill, defeat (Hiphil)"
     }
    ],
    "tbesh_key": "H5221",
@@ -2826,27 +2826,27 @@
     "id": "02Zhj",
     "ref": "Exod.40.2"
    },
-   "gloss": "to arise: rise",
-   "gloss_src": "TBESH",
+   "gloss": "rise, get up",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H6965B",
      "tbesh": "to arise: rise",
      "share": 0.694,
-     "gloss": "to arise: rise"
+     "gloss": "rise, get up, stand up"
     },
     {
      "key": "H6965I",
      "tbesh": "to arise: establish",
      "share": 0.213,
-     "gloss": "to arise: establish"
+     "gloss": "establish, set up, confirm (Hiphil)"
     },
     {
      "key": "H6965H",
      "tbesh": "to arise: raise",
      "share": 0.061,
-     "gloss": "to arise: raise"
+     "gloss": "raise up (Hiphil)"
     }
    ],
    "tbesh_key": "H6965B",
@@ -2881,15 +2881,15 @@
     "id": "014sL",
     "ref": "Gen.30.29"
    },
-   "gloss": "to know",
-   "gloss_src": "TBESH",
+   "gloss": "know",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H3045",
      "tbesh": "to know",
      "share": 1.0,
-     "gloss": "to know"
+     "gloss": "know, learn, perceive; (Hiphil) make known"
     }
    ],
    "tbesh_key": "H3045",
@@ -2925,7 +2925,7 @@
     "ref": "Num.31.45"
    },
    "gloss": "hundred",
-   "gloss_src": "TBESH",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
@@ -2967,15 +2967,15 @@
     "id": "10PJ7",
     "ref": "2Sam.13.11"
    },
-   "gloss": "to eat",
-   "gloss_src": "TBESH",
+   "gloss": "eat",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H0398",
      "tbesh": "to eat",
      "share": 1.0,
-     "gloss": "to eat"
+     "gloss": "eat; devour, consume"
     }
    ],
    "tbesh_key": "H0398",
@@ -3010,15 +3010,15 @@
     "id": "027YX",
     "ref": "Exod.4.16"
    },
-   "gloss": "you(m.s.)",
-   "gloss_src": "TBESH",
+   "gloss": "you (m. sg.)",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H0859A",
      "tbesh": "you(m.s.)",
      "share": 1.0,
-     "gloss": "you(m.s.)"
+     "gloss": "you (masculine singular)"
     }
    ],
    "tbesh_key": "H0859A",
@@ -3053,15 +3053,15 @@
     "id": "10hib",
     "ref": "2Sam.16.19"
    },
-   "gloss": "as which",
-   "gloss_src": "TBESH",
+   "gloss": "as, just as; when",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H0834D",
      "tbesh": "as which",
      "share": 1.0,
-     "gloss": "as which"
+     "gloss": "(ka'asher) as, just as; when"
     }
    ],
    "tbesh_key": "H0834D",
@@ -3097,20 +3097,20 @@
     "ref": "Judg.3.6"
    },
    "gloss": "daughter",
-   "gloss_src": "TBESH",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H1323G",
      "tbesh": "daughter",
      "share": 0.926,
-     "gloss": "daughter"
+     "gloss": "daughter; girl, young woman"
     },
     {
      "key": "H1323H",
      "tbesh": "daughter: village",
      "share": 0.074,
-     "gloss": "daughter: village"
+     "gloss": "(of a city) dependent village"
     }
    ],
    "tbesh_key": "H1323G",
@@ -3146,14 +3146,14 @@
     "ref": "Josh.22.26"
    },
    "gloss": "please",
-   "gloss_src": "TBESH",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H4994",
      "tbesh": "please",
      "share": 1.0,
-     "gloss": "please"
+     "gloss": "please, I pray (softens a request)"
     }
    ],
    "tbesh_key": "H4994",
@@ -3188,21 +3188,21 @@
     "id": "01G8i",
     "ref": "Gen.32.24"
    },
-   "gloss": "to pass",
-   "gloss_src": "TBESH",
+   "gloss": "pass, cross",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H5674A",
      "tbesh": "to pass",
      "share": 0.908,
-     "gloss": "to pass"
+     "gloss": "pass over, cross; pass by, pass through"
     },
     {
      "key": "H5674C",
      "tbesh": "to pass: bring",
      "share": 0.057,
-     "gloss": "to pass: bring"
+     "gloss": "bring over, make pass (Hiphil)"
     }
    ],
    "tbesh_key": "H5674A",
@@ -3237,15 +3237,15 @@
     "id": "06TcE",
     "ref": "Josh.21.42"
    },
-   "gloss": "so",
-   "gloss_src": "TBESH",
+   "gloss": "so, thus",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H3651C",
      "tbesh": "so",
      "share": 1.0,
-     "gloss": "so"
+     "gloss": "so, thus; (al ken, lakhen) therefore"
     }
    ],
    "tbesh_key": "H3651C",
@@ -3280,15 +3280,15 @@
     "id": "01GZj",
     "ref": "Gen.44.22"
    },
-   "gloss": "lord",
-   "gloss_src": "TBESH",
+   "gloss": "lord, master",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H0113",
      "tbesh": "lord",
      "share": 1.0,
-     "gloss": "lord"
+     "gloss": "lord, master (adoni: my lord, sir)"
     }
    ],
    "tbesh_key": "H0113",
@@ -3323,27 +3323,27 @@
     "id": "01AmM",
     "ref": "Gen.21.18"
    },
-   "gloss": "to set: put",
-   "gloss_src": "TBESH",
+   "gloss": "put, set; make",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H7760H",
      "tbesh": "to set: put",
      "share": 0.567,
-     "gloss": "to set: put"
+     "gloss": "put, place, set"
     },
     {
      "key": "H7760A",
      "tbesh": "to set: make",
      "share": 0.311,
-     "gloss": "to set: make"
+     "gloss": "make (into), turn into"
     },
     {
      "key": "H7760L",
      "tbesh": "to set: appoint",
      "share": 0.051,
-     "gloss": "to set: appoint"
+     "gloss": "appoint"
     }
    ],
    "tbesh_key": "H7760H",
@@ -3379,7 +3379,7 @@
     "ref": "Num.5.10"
    },
    "gloss": "priest",
-   "gloss_src": "TBESH",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
@@ -3421,39 +3421,39 @@
     "id": "09qRc",
     "ref": "1Sam.14.7"
    },
-   "gloss": "to lift: bear",
-   "gloss_src": "TBESH",
+   "gloss": "lift; carry",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H5375H",
      "tbesh": "to lift: bear",
      "share": 0.415,
-     "gloss": "to lift: bear"
+     "gloss": "carry, bear; take"
     },
     {
      "key": "H5375G",
      "tbesh": "to lift: raise",
      "share": 0.134,
-     "gloss": "to lift: raise"
+     "gloss": "lift, raise"
     },
     {
      "key": "H5375M",
      "tbesh": "to lift: look",
      "share": 0.081,
-     "gloss": "to lift: look"
+     "gloss": "(lift the eyes) look up"
     },
     {
      "key": "H5375W",
      "tbesh": "to lift: bearing(armour)",
      "share": 0.073,
-     "gloss": "to lift: bearing(armour)"
+     "gloss": "(nose' kelim) armour-bearer"
     },
     {
      "key": "H5375N",
      "tbesh": "to lift: loud",
      "share": 0.069,
-     "gloss": "to lift: loud"
+     "gloss": "(lift the voice) cry aloud"
     }
    ],
    "tbesh_key": "H5375H",
@@ -3488,15 +3488,15 @@
     "id": "10UJ3",
     "ref": "2Sam.14.8"
    },
-   "gloss": "to command",
-   "gloss_src": "TBESH",
+   "gloss": "command",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H6680",
      "tbesh": "to command",
      "share": 1.0,
-     "gloss": "to command"
+     "gloss": "command, order, charge"
     }
    ],
    "tbesh_key": "H6680",
@@ -3531,15 +3531,15 @@
     "id": "02QG5",
     "ref": "Exod.1.21"
    },
-   "gloss": "to beget",
-   "gloss_src": "TBESH",
+   "gloss": "give birth; father",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H3205",
      "tbesh": "to beget",
      "share": 1.0,
-     "gloss": "to beget"
+     "gloss": "(of a woman) give birth, bear; (of a man, Hiphil) father, beget"
     }
    ],
    "tbesh_key": "H3205",
@@ -3574,15 +3574,15 @@
     "id": "04xfx",
     "ref": "Num.4.44"
    },
-   "gloss": "family",
-   "gloss_src": "TBESH",
+   "gloss": "clan, family",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H4940",
      "tbesh": "family",
      "share": 1.0,
-     "gloss": "family"
+     "gloss": "clan, family (division of a tribe); kind"
     }
    ],
    "tbesh_key": "H4940",
@@ -3618,14 +3618,14 @@
     "ref": "1Sam.21.4"
    },
    "gloss": "now",
-   "gloss_src": "TBESH",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H6258",
      "tbesh": "now",
      "share": 1.0,
-     "gloss": "now"
+     "gloss": "now; (ve`attah) and now, so now"
     }
    ],
    "tbesh_key": "H6258",
@@ -3661,14 +3661,14 @@
     "ref": "Num.31.46"
    },
    "gloss": "thousand",
-   "gloss_src": "TBESH",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H0505G",
      "tbesh": "thousand",
      "share": 0.971,
-     "gloss": "thousand"
+     "gloss": "thousand; (military) unit, clan"
     }
    ],
    "tbesh_key": "H0505G",
@@ -3704,14 +3704,14 @@
     "ref": "Exod.29.39"
    },
    "gloss": "between",
-   "gloss_src": "TBESH",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H0996G",
      "tbesh": "between",
      "share": 0.996,
-     "gloss": "between"
+     "gloss": "between; (ben ... uven) between ... and"
     }
    ],
    "tbesh_key": "H0996G",
@@ -3747,14 +3747,14 @@
     "ref": "1Kgs.12.5"
    },
    "gloss": "three",
-   "gloss_src": "TBESH",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H7969",
      "tbesh": "three",
      "share": 1.0,
-     "gloss": "three"
+     "gloss": "three; (pl.) thirty"
     }
    ],
    "tbesh_key": "H7969",
@@ -3789,15 +3789,15 @@
     "id": "02BCV",
     "ref": "Exod.12.26"
    },
-   "gloss": "this",
-   "gloss_src": "TBESH",
+   "gloss": "this (f.)",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H2063",
      "tbesh": "this",
      "share": 1.0,
-     "gloss": "this"
+     "gloss": "this (feminine); this thing"
     }
    ],
    "tbesh_key": "H2063",
@@ -3833,14 +3833,14 @@
     "ref": "1Kgs.13.19"
    },
    "gloss": "water",
-   "gloss_src": "TBESH",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H4325G",
      "tbesh": "water",
      "share": 1.0,
-     "gloss": "water"
+     "gloss": "water, waters"
     }
    ],
    "tbesh_key": "H4325G",
@@ -3875,21 +3875,21 @@
     "id": "02YeX",
     "ref": "Exod.36.26"
    },
-   "gloss": "underneath: instead",
-   "gloss_src": "TBESH",
+   "gloss": "under; instead of",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H8478H",
      "tbesh": "underneath: instead",
      "share": 0.452,
-     "gloss": "underneath: instead"
+     "gloss": "instead of, in place of"
     },
     {
      "key": "H8478G",
      "tbesh": "underneath: under",
      "share": 0.408,
-     "gloss": "underneath: under"
+     "gloss": "under, beneath"
     }
    ],
    "tbesh_key": "H8478H",
@@ -3924,21 +3924,21 @@
     "id": "02HjF",
     "ref": "Exod.26.30"
    },
-   "gloss": "mountain: mount",
-   "gloss_src": "TBESH",
+   "gloss": "mountain",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H2022G",
      "tbesh": "mountain: mount",
      "share": 0.683,
-     "gloss": "mountain: mount"
+     "gloss": "mountain, mount"
     },
     {
      "key": "H2022H",
      "tbesh": "mountain: hill country",
      "share": 0.317,
-     "gloss": "mountain: hill country"
+     "gloss": "hill country"
     }
    ],
    "tbesh_key": "H2022G",
@@ -3973,33 +3973,33 @@
     "id": "01174",
     "ref": "Gen.9.4"
    },
-   "gloss": "soul: life",
-   "gloss_src": "TBESH",
+   "gloss": "life; person, self",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H5315H",
      "tbesh": "soul: life",
      "share": 0.366,
-     "gloss": "soul: life"
+     "gloss": "life"
     },
     {
      "key": "H5315J",
      "tbesh": "soul: person",
      "share": 0.241,
-     "gloss": "soul: person"
+     "gloss": "person, living being"
     },
     {
      "key": "H5315I",
      "tbesh": "soul: myself",
      "share": 0.161,
-     "gloss": "soul: myself"
+     "gloss": "self (nafshi: myself)"
     },
     {
      "key": "H5315G",
      "tbesh": "soul",
      "share": 0.143,
-     "gloss": "soul"
+     "gloss": "soul; desire, appetite"
     }
    ],
    "tbesh_key": "H5315H",
@@ -4034,15 +4034,15 @@
     "id": "01qQS",
     "ref": "Gen.44.21"
    },
-   "gloss": "to go down",
-   "gloss_src": "TBESH",
+   "gloss": "go down",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H3381",
      "tbesh": "to go down",
      "share": 0.996,
-     "gloss": "to go down"
+     "gloss": "go down, come down; (Hiphil) bring down"
     }
    ],
    "tbesh_key": "H3381",
@@ -4077,39 +4077,39 @@
     "id": "11E6n",
     "ref": "1Kgs.2.2"
    },
-   "gloss": "to go: went",
-   "gloss_src": "TBESH",
+   "gloss": "go, walk",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H1980G",
      "tbesh": "to go: went",
      "share": 0.579,
-     "gloss": "to go: went"
+     "gloss": "go, come, depart"
     },
     {
      "key": "H1980I",
      "tbesh": "to go: walk",
      "share": 0.222,
-     "gloss": "to go: walk"
+     "gloss": "walk"
     },
     {
      "key": "H1980L",
      "tbesh": "to go: continue",
      "share": 0.081,
-     "gloss": "to go: continue"
+     "gloss": "(halokh) keep on, go on (doing)"
     },
     {
      "key": "H1980H",
      "tbesh": "to go: come",
      "share": 0.054,
-     "gloss": "to go: come"
+     "gloss": "come"
     },
     {
      "key": "H1980N",
      "tbesh": "to go: follow",
      "share": 0.054,
-     "gloss": "to go: follow"
+     "gloss": "(halakh achare) follow"
     }
    ],
    "tbesh_key": "H1980G",
@@ -4144,8 +4144,8 @@
     "id": "12GXr",
     "ref": "2Kgs.4.19"
    },
-   "gloss": "head",
-   "gloss_src": "TBESH",
+   "gloss": "head; top; chief",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
@@ -4158,19 +4158,19 @@
      "key": "H7218I",
      "tbesh": "head: top",
      "share": 0.217,
-     "gloss": "head: top"
+     "gloss": "top, summit"
     },
     {
      "key": "H7218H",
      "tbesh": "head: leader",
      "share": 0.19,
-     "gloss": "head: leader"
+     "gloss": "chief, leader"
     },
     {
      "key": "H7218K",
      "tbesh": "head: group",
      "share": 0.054,
-     "gloss": "head: group"
+     "gloss": "company, division (of troops)"
     }
    ],
    "tbesh_key": "H7218A",
@@ -4206,7 +4206,7 @@
     "ref": "Exod.20.23"
    },
    "gloss": "gold",
-   "gloss_src": "TBESH",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
@@ -4249,7 +4249,7 @@
     "ref": "Gen.27.8"
    },
    "gloss": "I",
-   "gloss_src": "TBESH",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
@@ -4291,15 +4291,15 @@
     "id": "11sHh",
     "ref": "1Kgs.8.40"
    },
-   "gloss": "they(masc.)",
-   "gloss_src": "TBESH",
+   "gloss": "they (m.)",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H1992",
      "tbesh": "they(masc.)",
      "share": 0.981,
-     "gloss": "they(masc.)"
+     "gloss": "they; (with article) those"
     }
    ],
    "tbesh_key": "H1992",
@@ -4335,14 +4335,14 @@
     "ref": "Exod.40.6"
    },
    "gloss": "tent",
-   "gloss_src": "TBESH",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H0168G",
      "tbesh": "tent",
      "share": 0.952,
-     "gloss": "tent"
+     "gloss": "tent; dwelling"
     }
    ],
    "tbesh_key": "H0168G",
@@ -4377,15 +4377,15 @@
     "id": "014C9",
     "ref": "Gen.44.24"
    },
-   "gloss": "to tell",
-   "gloss_src": "TBESH",
+   "gloss": "tell, report",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H5046",
      "tbesh": "to tell",
      "share": 1.0,
-     "gloss": "to tell"
+     "gloss": "tell, report, announce, make known"
     }
    ],
    "tbesh_key": "H5046",
@@ -4420,21 +4420,21 @@
     "id": "045vU",
     "ref": "Num.34.6"
    },
-   "gloss": "great: large",
-   "gloss_src": "TBESH",
+   "gloss": "great, big",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H1419A",
      "tbesh": "great: large",
      "share": 0.9,
-     "gloss": "great: large"
+     "gloss": "great, big, large; loud"
     },
     {
      "key": "H1419K",
      "tbesh": "great: old",
      "share": 0.057,
-     "gloss": "great: old"
+     "gloss": "elder, oldest"
     }
    ],
    "tbesh_key": "H1419A",
@@ -4470,7 +4470,7 @@
     "ref": "Num.2.8"
    },
    "gloss": "seven",
-   "gloss_src": "TBESH",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
@@ -4512,15 +4512,15 @@
     "id": "07Rdh",
     "ref": "Judg.9.14"
    },
-   "gloss": "to reign",
-   "gloss_src": "TBESH",
+   "gloss": "be king, reign",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H4427A",
      "tbesh": "to reign",
      "share": 1.0,
-     "gloss": "to reign"
+     "gloss": "be king, reign; (Hiphil) make king"
     }
    ],
    "tbesh_key": "H4427A",
@@ -4555,33 +4555,33 @@
     "id": "01sK9",
     "ref": "Gen.6.12"
    },
-   "gloss": "way: journey",
-   "gloss_src": "TBESH",
+   "gloss": "way, road",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H1870L",
      "tbesh": "way: journey",
      "share": 0.406,
-     "gloss": "way: journey"
+     "gloss": "way, journey"
     },
     {
      "key": "H1870K",
      "tbesh": "way: road",
      "share": 0.277,
-     "gloss": "way: road"
+     "gloss": "road, path"
     },
     {
      "key": "H1870G",
      "tbesh": "way: conduct",
      "share": 0.208,
-     "gloss": "way: conduct"
+     "gloss": "way of life, conduct"
     },
     {
      "key": "H1870J",
      "tbesh": "way: direction",
      "share": 0.099,
-     "gloss": "way: direction"
+     "gloss": "direction, toward"
     }
    ],
    "tbesh_key": "H1870L",
@@ -4616,8 +4616,8 @@
     "id": "04kA7",
     "ref": "Num.1.4"
    },
-   "gloss": "tribe",
-   "gloss_src": "TBESH",
+   "gloss": "tribe; staff",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
@@ -4630,7 +4630,7 @@
      "key": "H4294G",
      "tbesh": "tribe: rod",
      "share": 0.218,
-     "gloss": "tribe: rod"
+     "gloss": "staff, rod"
     }
    ],
    "tbesh_key": "H4294H",
@@ -4665,15 +4665,15 @@
     "id": "01aju",
     "ref": "Gen.23.15"
    },
-   "gloss": "silver: money",
-   "gloss_src": "TBESH",
+   "gloss": "silver, money",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H3701G",
      "tbesh": "silver: money",
      "share": 0.98,
-     "gloss": "silver: money"
+     "gloss": "silver; money"
     }
    ],
    "tbesh_key": "H3701G",
@@ -4708,15 +4708,15 @@
     "id": "01iZv",
     "ref": "Gen.44.9"
    },
-   "gloss": "to find",
-   "gloss_src": "TBESH",
+   "gloss": "find",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H4672",
      "tbesh": "to find",
      "share": 1.0,
-     "gloss": "to find"
+     "gloss": "find; meet; (Niphal) be found, be present"
     }
    ],
    "tbesh_key": "H4672",
@@ -4751,15 +4751,15 @@
     "id": "07Uwg",
     "ref": "Judg.19.28"
    },
-   "gloss": "nothing",
-   "gloss_src": "TBESH",
+   "gloss": "there is not",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H0369",
      "tbesh": "nothing",
      "share": 1.0,
-     "gloss": "nothing"
+     "gloss": "there is not, there is no; without"
     }
    ],
    "tbesh_key": "H0369",
@@ -4795,14 +4795,14 @@
     "ref": "Num.2.19"
    },
    "gloss": "five",
-   "gloss_src": "TBESH",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H2568",
      "tbesh": "five",
      "share": 1.0,
-     "gloss": "five"
+     "gloss": "five; (pl.) fifty"
     }
    ],
    "tbesh_key": "H2568",
@@ -4838,7 +4838,7 @@
     "ref": "Exod.40.10"
    },
    "gloss": "altar",
-   "gloss_src": "TBESH",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
@@ -4880,15 +4880,15 @@
     "id": "02EZs",
     "ref": "Exod.33.15"
    },
-   "gloss": "not",
-   "gloss_src": "TBESH",
+   "gloss": "do not, not",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H0408",
      "tbesh": "not",
      "share": 0.985,
-     "gloss": "not"
+     "gloss": "do not, let not (negative of wish or command)"
     }
    ],
    "tbesh_key": "H0408",
@@ -4923,15 +4923,15 @@
     "id": "016q5",
     "ref": "Gen.44.33"
    },
-   "gloss": "youth",
-   "gloss_src": "TBESH",
+   "gloss": "young man; servant",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H5288",
      "tbesh": "youth",
      "share": 1.0,
-     "gloss": "youth"
+     "gloss": "boy, young man; servant, attendant"
     }
    ],
    "tbesh_key": "H5288",
@@ -4966,33 +4966,33 @@
     "id": "04Ssi",
     "ref": "Num.2.21"
    },
-   "gloss": "to reckon: list",
-   "gloss_src": "TBESH",
+   "gloss": "count; attend to",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H6485A",
      "tbesh": "to reckon: list",
      "share": 0.669,
-     "gloss": "to reckon: list"
+     "gloss": "count, number, muster"
     },
     {
      "key": "H6485I",
      "tbesh": "to reckon: visit",
      "share": 0.122,
-     "gloss": "to reckon: visit"
+     "gloss": "attend to, visit (for good or punishment)"
     },
     {
      "key": "H6485J",
      "tbesh": "to reckon: overseer",
      "share": 0.116,
-     "gloss": "to reckon: overseer"
+     "gloss": "appoint (as overseer)"
     },
     {
      "key": "H6485K",
      "tbesh": "to reckon: missing",
      "share": 0.088,
-     "gloss": "to reckon: missing"
+     "gloss": "(Niphal) be missing"
     }
    ],
    "tbesh_key": "H6485A",
@@ -5028,14 +5028,14 @@
     "ref": "1Kgs.2.2"
    },
    "gloss": "I",
-   "gloss_src": "TBESH",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H0595",
      "tbesh": "I",
      "share": 1.0,
-     "gloss": "I"
+     "gloss": "I (longer form)"
     }
    ],
    "tbesh_key": "H0595",
@@ -5070,15 +5070,15 @@
     "id": "121AP",
     "ref": "2Kgs.4.15"
    },
-   "gloss": "to stand: stand",
-   "gloss_src": "TBESH",
+   "gloss": "stand",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H5975G",
      "tbesh": "to stand: stand",
      "share": 0.944,
-     "gloss": "to stand: stand"
+     "gloss": "stand, stand still, stop; (Hiphil) set up, station"
     }
    ],
    "tbesh_key": "H5975G",
@@ -5113,43 +5113,44 @@
     "id": "02rhu",
     "ref": "Exod.4.16"
    },
-   "gloss": "lip",
-   "gloss_src": "TBESH",
+   "gloss": "mouth",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H6310G",
      "tbesh": "lip",
      "share": 0.383,
-     "gloss": "lip"
+     "gloss": "mouth"
     },
     {
      "key": "H6310I",
      "tbesh": "lip: word",
      "share": 0.274,
-     "gloss": "lip: word"
+     "gloss": "word, command (by the mouth of)"
     },
     {
      "key": "H6310H",
      "tbesh": "lip: edge",
      "share": 0.183,
-     "gloss": "lip: edge"
+     "gloss": "edge (of the sword); opening"
     },
     {
      "key": "H6310K",
      "tbesh": "lip: according",
      "share": 0.103,
-     "gloss": "lip: according"
+     "gloss": "(lefi, kefi) according to"
     },
     {
      "key": "H6310J",
      "tbesh": "lip: opening",
      "share": 0.051,
-     "gloss": "lip: opening"
+     "gloss": "opening, mouth (of a well, cave)"
     }
    ],
    "tbesh_key": "H6310G",
-   "bdb": ": lip/mouth\npeh\n1) mouth\n1a) mouth (of man)\n1b) mouth (as organ of speech)\n1c) mouth (of animals)\n1d) mouth, opening, orifice (of a well, river, etc)\n1e) extremity, end pim\n2) a weight equal to one third of a shekel, occurs only in 1Sa 13:21"
+   "bdb": ": lip/mouth\npeh\n1) mouth\n1a) mouth (of man)\n1b) mouth (as organ of speech)\n1c) mouth (of animals)\n1d) mouth, opening, orifice (of a well, river, etc)\n1e) extremity, end pim\n2) a weight equal to one third of a shekel, occurs only in 1Sa 13:21",
+   "note": "TBESH's headword 'lip' is misleading; BDB's lead sense is mouth."
   },
   {
    "id": "L:5750",
@@ -5180,15 +5181,15 @@
     "id": "04ZT8",
     "ref": "Num.8.25"
    },
-   "gloss": "still",
-   "gloss_src": "TBESH",
+   "gloss": "still, yet, again",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H5750",
      "tbesh": "still",
      "share": 1.0,
-     "gloss": "still"
+     "gloss": "still, yet; again; more"
     }
    ],
    "tbesh_key": "H5750",
@@ -5223,15 +5224,15 @@
     "id": "11ubY",
     "ref": "1Kgs.7.44"
    },
-   "gloss": "ten",
-   "gloss_src": "TBESH",
+   "gloss": "-teen (in 11-19)",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H6240",
      "tbesh": "ten",
      "share": 1.0,
-     "gloss": "ten"
+     "gloss": "-teen, ten (only in 11-19)"
     }
    ],
    "tbesh_key": "H6240",
@@ -5267,14 +5268,14 @@
     "ref": "Gen.35.13"
    },
    "gloss": "place",
-   "gloss_src": "TBESH",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H4725",
      "tbesh": "place",
      "share": 1.0,
-     "gloss": "place"
+     "gloss": "place, spot"
     }
    ],
    "tbesh_key": "H4725",
@@ -5309,15 +5310,15 @@
     "id": "07p9V",
     "ref": "Judg.20.42"
    },
-   "gloss": "midst",
-   "gloss_src": "TBESH",
+   "gloss": "middle",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H8432",
      "tbesh": "midst",
      "share": 1.0,
-     "gloss": "midst"
+     "gloss": "middle, midst; (betokh) among, inside"
     }
    ],
    "tbesh_key": "H8432",
@@ -5353,14 +5354,14 @@
     "ref": "Josh.6.14"
    },
    "gloss": "camp",
-   "gloss_src": "TBESH",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H4264",
      "tbesh": "camp",
      "share": 0.994,
-     "gloss": "camp"
+     "gloss": "camp; army, company"
     }
    ],
    "tbesh_key": "H4264",
@@ -5395,15 +5396,15 @@
     "id": "01YsB",
     "ref": "Gen.17.2"
    },
-   "gloss": "much",
-   "gloss_src": "TBESH",
+   "gloss": "very",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H3966",
      "tbesh": "much",
      "share": 1.0,
-     "gloss": "much"
+     "gloss": "very, greatly, exceedingly"
     }
    ],
    "tbesh_key": "H3966",
@@ -5438,15 +5439,15 @@
     "id": "01Mwx",
     "ref": "Gen.34.28"
    },
-   "gloss": "land: country",
-   "gloss_src": "TBESH",
+   "gloss": "field, open country",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H7704G",
      "tbesh": "land: country",
      "share": 0.943,
-     "gloss": "land: country"
+     "gloss": "field, open country; territory"
     }
    ],
    "tbesh_key": "H7704G",
@@ -5481,15 +5482,15 @@
     "id": "09Suh",
     "ref": "1Sam.17.27"
    },
-   "gloss": "thus",
-   "gloss_src": "TBESH",
+   "gloss": "thus, so",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H3541",
      "tbesh": "thus",
      "share": 1.0,
-     "gloss": "thus"
+     "gloss": "thus, so (koh amar: thus says); here"
     }
    ],
    "tbesh_key": "H3541",
@@ -5524,27 +5525,27 @@
     "id": "07CiQ",
     "ref": "Judg.10.13"
    },
-   "gloss": "to serve: minister",
-   "gloss_src": "TBESH",
+   "gloss": "serve; work",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H5647H",
      "tbesh": "to serve: minister",
      "share": 0.603,
-     "gloss": "to serve: minister"
+     "gloss": "serve, worship (a god)"
     },
     {
      "key": "H5647G",
      "tbesh": "to serve",
      "share": 0.333,
-     "gloss": "to serve"
+     "gloss": "serve (a master), be subject to"
     },
     {
      "key": "H5647I",
      "tbesh": "to serve: labour",
      "share": 0.064,
-     "gloss": "to serve: labour"
+     "gloss": "work, till (the ground)"
     }
    ],
    "tbesh_key": "H5647H",
@@ -5579,8 +5580,8 @@
     "id": "04ywD",
     "ref": "Num.14.1"
    },
-   "gloss": "voice",
-   "gloss_src": "TBESH",
+   "gloss": "voice; sound",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
@@ -5593,13 +5594,13 @@
      "key": "H6963H",
      "tbesh": "voice: sound",
      "share": 0.24,
-     "gloss": "voice: sound"
+     "gloss": "sound, noise"
     },
     {
      "key": "H6963I",
      "tbesh": "voice: thunder",
      "share": 0.065,
-     "gloss": "voice: thunder"
+     "gloss": "thunder"
     }
    ],
    "tbesh_key": "H6963A",
@@ -5634,8 +5635,8 @@
     "id": "11r2p",
     "ref": "1Kgs.7.44"
    },
-   "gloss": "sea",
-   "gloss_src": "TBESH",
+   "gloss": "sea; west",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
@@ -5648,7 +5649,7 @@
      "key": "H3220H",
      "tbesh": "sea: west",
      "share": 0.243,
-     "gloss": "sea: west"
+     "gloss": "west (toward the sea)"
     }
    ],
    "tbesh_key": "H3220G",
@@ -5683,15 +5684,15 @@
     "id": "026b9",
     "ref": "Exod.40.10"
    },
-   "gloss": "article/utensil",
-   "gloss_src": "TBESH",
+   "gloss": "object; vessel; weapon",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H3627",
      "tbesh": "article/utensil",
      "share": 1.0,
-     "gloss": "article/utensil"
+     "gloss": "object, article; vessel, utensil; weapon"
     }
    ],
    "tbesh_key": "H3627",
@@ -5726,21 +5727,21 @@
     "id": "01MRq",
     "ref": "Gen.15.15"
    },
-   "gloss": "pleasant",
-   "gloss_src": "TBESH",
+   "gloss": "good",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H2896A",
      "tbesh": "pleasant",
      "share": 0.874,
-     "gloss": "pleasant"
+     "gloss": "good; pleasant; beautiful"
     },
     {
      "key": "H2895",
      "tbesh": "be pleasing",
      "share": 0.113,
-     "gloss": "be pleasing"
+     "gloss": "be good, be pleasing"
     }
    ],
    "tbesh_key": "H2896A",
@@ -5775,21 +5776,21 @@
     "id": "04hiu",
     "ref": "Num.34.6"
    },
-   "gloss": "border: boundary",
-   "gloss_src": "TBESH",
+   "gloss": "border; territory",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H1366G",
      "tbesh": "border: boundary",
      "share": 0.64,
-     "gloss": "border: boundary"
+     "gloss": "border, boundary"
     },
     {
      "key": "H1366H",
      "tbesh": "border: area",
      "share": 0.36,
-     "gloss": "border: area"
+     "gloss": "territory, region"
     }
    ],
    "tbesh_key": "H1366G",
@@ -5824,27 +5825,27 @@
     "id": "12C6S",
     "ref": "2Kgs.4.37"
    },
-   "gloss": "to fall: fall",
-   "gloss_src": "TBESH",
+   "gloss": "fall",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H5307G",
      "tbesh": "to fall: fall",
      "share": 0.633,
-     "gloss": "to fall: fall"
+     "gloss": "fall; fall down (prostrate)"
     },
     {
      "key": "H5307J",
      "tbesh": "to fall: kill",
      "share": 0.22,
-     "gloss": "to fall: kill"
+     "gloss": "fall (in battle), die"
     },
     {
      "key": "H5307I",
      "tbesh": "to fall: allot",
      "share": 0.053,
-     "gloss": "to fall: allot"
+     "gloss": "(Hiphil) cast (lots), allot"
     }
    ],
    "tbesh_key": "H5307G",
@@ -5879,15 +5880,15 @@
     "id": "01kX9",
     "ref": "Gen.17.16"
    },
-   "gloss": "to bless",
-   "gloss_src": "TBESH",
+   "gloss": "bless",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H1288",
      "tbesh": "to bless",
      "share": 1.0,
-     "gloss": "to bless"
+     "gloss": "bless; (Qal) kneel"
     }
    ],
    "tbesh_key": "H1288",
@@ -5922,15 +5923,15 @@
     "id": "10peM",
     "ref": "2Sam.11.19"
    },
-   "gloss": "battle",
-   "gloss_src": "TBESH",
+   "gloss": "battle, war",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H4421",
      "tbesh": "battle",
      "share": 1.0,
-     "gloss": "battle"
+     "gloss": "battle, war"
     }
    ],
    "tbesh_key": "H4421",
@@ -5965,15 +5966,15 @@
     "id": "10HL8",
     "ref": "2Sam.23.19"
    },
-   "gloss": "ruler",
-   "gloss_src": "TBESH",
+   "gloss": "official, commander",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H8269",
      "tbesh": "ruler",
      "share": 1.0,
-     "gloss": "ruler"
+     "gloss": "official, leader, commander, prince"
     }
    ],
    "tbesh_key": "H8269",
@@ -6008,21 +6009,21 @@
     "id": "04um2",
     "ref": "Num.5.10"
    },
-   "gloss": "holiness",
-   "gloss_src": "TBESH",
+   "gloss": "holiness; holy",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H6944G",
      "tbesh": "holiness",
      "share": 0.839,
-     "gloss": "holiness"
+     "gloss": "holiness; holy thing (often = holy)"
     },
     {
      "key": "H6944J",
      "tbesh": "Holy Place",
      "share": 0.119,
-     "gloss": "Holy Place"
+     "gloss": "the Holy Place"
     }
    ],
    "tbesh_key": "H6944G",
@@ -6058,14 +6059,14 @@
     "ref": "Num.2.4"
    },
    "gloss": "four",
-   "gloss_src": "TBESH",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H0702",
      "tbesh": "four",
      "share": 1.0,
-     "gloss": "four"
+     "gloss": "four; (pl.) forty"
     }
    ],
    "tbesh_key": "H0702",
@@ -6100,15 +6101,15 @@
     "id": "06nbJ",
     "ref": "Josh.22.26"
    },
-   "gloss": "to build",
-   "gloss_src": "TBESH",
+   "gloss": "build",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H1129",
      "tbesh": "to build",
      "share": 1.0,
-     "gloss": "to build"
+     "gloss": "build, rebuild"
     }
    ],
    "tbesh_key": "H1129",
@@ -6143,15 +6144,15 @@
     "id": "02SCo",
     "ref": "Exod.25.15"
    },
-   "gloss": "ark",
-   "gloss_src": "TBESH",
+   "gloss": "ark, chest",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H0727",
      "tbesh": "ark",
      "share": 1.0,
-     "gloss": "ark"
+     "gloss": "ark (of the covenant); chest; coffin"
     }
    ],
    "tbesh_key": "H0727",
@@ -6186,33 +6187,33 @@
     "id": "012m6",
     "ref": "Gen.24.6"
    },
-   "gloss": "to keep: guard",
-   "gloss_src": "TBESH",
+   "gloss": "keep, guard",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H8104H",
      "tbesh": "to keep: guard",
      "share": 0.396,
-     "gloss": "to keep: guard"
+     "gloss": "guard, watch over, keep"
     },
     {
      "key": "H8104G",
      "tbesh": "to keep: obey",
      "share": 0.388,
-     "gloss": "to keep: obey"
+     "gloss": "keep, observe (commands)"
     },
     {
      "key": "H8104J",
      "tbesh": "to keep: careful",
      "share": 0.165,
-     "gloss": "to keep: careful"
+     "gloss": "(Niphal) be careful, beware"
     },
     {
      "key": "H8104I",
      "tbesh": "to keep: look at",
      "share": 0.05,
-     "gloss": "to keep: look at"
+     "gloss": "watch, look at"
     }
    ],
    "tbesh_key": "H8104H",
@@ -6247,8 +6248,8 @@
     "id": "125Pr",
     "ref": "2Kgs.1.5"
    },
-   "gloss": "messenger",
-   "gloss_src": "TBESH",
+   "gloss": "messenger; angel",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
@@ -6261,7 +6262,7 @@
      "key": "H4397H",
      "tbesh": "messenger: angel",
      "share": 0.493,
-     "gloss": "messenger: angel"
+     "gloss": "angel (messenger of YHWH)"
     }
    ],
    "tbesh_key": "H4397G",
@@ -6297,7 +6298,7 @@
     "ref": "Gen.8.14"
    },
    "gloss": "twenty",
-   "gloss_src": "TBESH",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
@@ -6340,14 +6341,14 @@
     "ref": "Exod.8.23"
    },
    "gloss": "wilderness",
-   "gloss_src": "TBESH",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H4057B",
      "tbesh": "wilderness",
      "share": 1.0,
-     "gloss": "wilderness"
+     "gloss": "wilderness, desert; pasture land"
     }
    ],
    "tbesh_key": "H4057B",
@@ -6382,15 +6383,15 @@
     "id": "09Fnj",
     "ref": "1Sam.10.4"
    },
-   "gloss": "food: bread",
-   "gloss_src": "TBESH",
+   "gloss": "bread; food",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H3899H",
      "tbesh": "food: bread",
      "share": 0.722,
-     "gloss": "food: bread"
+     "gloss": "bread"
     },
     {
      "key": "H3899G",
@@ -6431,15 +6432,15 @@
     "id": "01e65",
     "ref": "Gen.3.12"
    },
-   "gloss": "tree: wood",
-   "gloss_src": "TBESH",
+   "gloss": "tree; wood",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H6086G",
      "tbesh": "tree: wood",
      "share": 0.538,
-     "gloss": "tree: wood"
+     "gloss": "wood, timber"
     },
     {
      "key": "H6086H",
@@ -6451,7 +6452,7 @@
      "key": "H6086I",
      "tbesh": "tree: stick",
      "share": 0.061,
-     "gloss": "tree: stick"
+     "gloss": "stick; gallows"
     }
    ],
    "tbesh_key": "H6086G",
@@ -6486,15 +6487,15 @@
     "id": "022oS",
     "ref": "Exod.9.21"
    },
-   "gloss": "heart",
-   "gloss_src": "TBESH",
+   "gloss": "heart, mind",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H3820A",
      "tbesh": "heart",
      "share": 1.0,
-     "gloss": "heart"
+     "gloss": "heart, mind; will, inner self"
     }
    ],
    "tbesh_key": "H3820A",
@@ -6529,27 +6530,27 @@
     "id": "04SkM",
     "ref": "Num.2.6"
    },
-   "gloss": "army",
-   "gloss_src": "TBESH",
+   "gloss": "army; host",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H6635A",
      "tbesh": "army",
      "share": 0.719,
-     "gloss": "army"
+     "gloss": "army, host"
     },
     {
      "key": "H6635H",
      "tbesh": "army: war",
      "share": 0.211,
-     "gloss": "army: war"
+     "gloss": "war, campaign"
     },
     {
      "key": "H6635I",
      "tbesh": "army: duty",
      "share": 0.07,
-     "gloss": "army: duty"
+     "gloss": "service, duty"
     }
    ],
    "tbesh_key": "H6635A",
@@ -6584,15 +6585,15 @@
     "id": "01SPW",
     "ref": "Gen.26.17"
    },
-   "gloss": "to camp",
-   "gloss_src": "TBESH",
+   "gloss": "camp",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H2583",
      "tbesh": "to camp",
      "share": 1.0,
-     "gloss": "to camp"
+     "gloss": "camp, encamp; besiege"
     }
    ],
    "tbesh_key": "H2583",
@@ -6627,27 +6628,27 @@
     "id": "07Sfn",
     "ref": "Judg.20.8"
    },
-   "gloss": "to turn aside: remove",
-   "gloss_src": "TBESH",
+   "gloss": "turn aside; remove",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H5493G",
      "tbesh": "to turn aside: remove",
      "share": 0.472,
-     "gloss": "to turn aside: remove"
+     "gloss": "remove, take away (Hiphil)"
     },
     {
      "key": "H5493I",
      "tbesh": "to turn aside: turn aside",
      "share": 0.323,
-     "gloss": "to turn aside: turn aside"
+     "gloss": "turn aside"
     },
     {
      "key": "H5493H",
      "tbesh": "to turn aside: depart",
      "share": 0.205,
-     "gloss": "to turn aside: depart"
+     "gloss": "depart, leave"
     }
    ],
    "tbesh_key": "H5493G",
@@ -6682,15 +6683,15 @@
     "id": "02mFC",
     "ref": "Exod.40.37"
    },
-   "gloss": "to set out",
-   "gloss_src": "TBESH",
+   "gloss": "set out, journey",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H5265",
      "tbesh": "to set out",
      "share": 1.0,
-     "gloss": "to set out"
+     "gloss": "set out, break camp, journey on"
     }
    ],
    "tbesh_key": "H5265",
@@ -6725,15 +6726,15 @@
     "id": "02h3h",
     "ref": "Exod.12.32"
    },
-   "gloss": "flock",
-   "gloss_src": "TBESH",
+   "gloss": "flock, sheep",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H6629G",
      "tbesh": "flock",
      "share": 1.0,
-     "gloss": "flock"
+     "gloss": "flock, sheep and goats"
     }
    ],
    "tbesh_key": "H6629G",
@@ -6769,7 +6770,7 @@
     "ref": "Exod.28.10"
    },
    "gloss": "stone",
-   "gloss_src": "TBESH",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
@@ -6812,14 +6813,14 @@
     "ref": "Num.7.15"
    },
    "gloss": "burnt offering",
-   "gloss_src": "TBESH",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H5930A",
      "tbesh": "burnt offering",
      "share": 1.0,
-     "gloss": "burnt offering"
+     "gloss": "burnt offering (wholly burnt)"
     }
    ],
    "tbesh_key": "H5930A",
@@ -6855,14 +6856,14 @@
     "ref": "1Kgs.3.24"
    },
    "gloss": "sword",
-   "gloss_src": "TBESH",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H2719",
      "tbesh": "sword",
      "share": 1.0,
-     "gloss": "sword"
+     "gloss": "sword; knife"
     }
    ],
    "tbesh_key": "H2719",
@@ -6897,15 +6898,15 @@
     "id": "01uNV",
     "ref": "Gen.44.27"
    },
-   "gloss": "you(m.p.)",
-   "gloss_src": "TBESH",
+   "gloss": "you (m. pl.)",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H0859D",
      "tbesh": "you(m.p.)",
      "share": 1.0,
-     "gloss": "you(m.p.)"
+     "gloss": "you (masculine plural)"
     }
    ],
    "tbesh_key": "H0859D",
@@ -6940,27 +6941,27 @@
     "id": "02GMm",
     "ref": "Exod.35.13"
    },
-   "gloss": "alone",
-   "gloss_src": "TBESH",
+   "gloss": "alone; pole",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H0905H",
      "tbesh": "alone",
      "share": 0.512,
-     "gloss": "alone"
+     "gloss": "(levad) alone, by oneself, only"
     },
     {
      "key": "H0905G",
      "tbesh": "alone: pole",
      "share": 0.281,
-     "gloss": "alone: pole"
+     "gloss": "pole (for carrying)"
     },
     {
      "key": "H0905J",
      "tbesh": "alone: besides",
      "share": 0.19,
-     "gloss": "alone: besides"
+     "gloss": "(millevad) besides, apart from"
     }
    ],
    "tbesh_key": "H0905H",
@@ -6996,7 +6997,7 @@
     "ref": "Num.28.4"
    },
    "gloss": "morning",
-   "gloss_src": "TBESH",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
@@ -7038,21 +7039,21 @@
     "id": "04EHX",
     "ref": "Num.4.35"
    },
-   "gloss": "meeting",
-   "gloss_src": "TBESH",
+   "gloss": "meeting; set time",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H4150I",
      "tbesh": "meeting",
      "share": 0.785,
-     "gloss": "meeting"
+     "gloss": "meeting (ohel mo`ed: tent of meeting)"
     },
     {
      "key": "H4150G",
      "tbesh": "meeting: time appointed",
      "share": 0.182,
-     "gloss": "meeting: time appointed"
+     "gloss": "appointed time, set feast"
     }
    ],
    "tbesh_key": "H4150I",
@@ -7088,14 +7089,14 @@
     "ref": "Num.27.9"
    },
    "gloss": "inheritance",
-   "gloss_src": "TBESH",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H5159",
      "tbesh": "inheritance",
      "share": 1.0,
-     "gloss": "inheritance"
+     "gloss": "inheritance, possession, share"
     }
    ],
    "tbesh_key": "H5159",
@@ -7131,14 +7132,14 @@
     "ref": "Gen.7.20"
    },
    "gloss": "cubit",
-   "gloss_src": "TBESH",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H0520A",
      "tbesh": "cubit",
      "share": 1.0,
-     "gloss": "cubit"
+     "gloss": "cubit (forearm length, about 45 cm)"
     }
    ],
    "tbesh_key": "H0520A",
@@ -7174,14 +7175,14 @@
     "ref": "Num.14.1"
    },
    "gloss": "congregation",
-   "gloss_src": "TBESH",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H5712",
      "tbesh": "congregation",
      "share": 1.0,
-     "gloss": "congregation"
+     "gloss": "congregation, community, assembly"
     }
    ],
    "tbesh_key": "H5712",
@@ -7216,15 +7217,15 @@
     "id": "09HKm",
     "ref": "1Sam.25.6"
    },
-   "gloss": "alive",
-   "gloss_src": "TBESH",
+   "gloss": "alive, living",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H2416A",
      "tbesh": "alive",
      "share": 0.992,
-     "gloss": "alive"
+     "gloss": "alive, living; (chay YHWH) as YHWH lives"
     }
    ],
    "tbesh_key": "H2416A",
@@ -7259,15 +7260,15 @@
     "id": "11DiF",
     "ref": "1Kgs.3.27"
    },
-   "gloss": "to answer",
-   "gloss_src": "TBESH",
+   "gloss": "answer",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H6030B",
      "tbesh": "to answer",
      "share": 1.0,
-     "gloss": "to answer"
+     "gloss": "answer, reply; testify"
     }
    ],
    "tbesh_key": "H6030B",
@@ -7303,14 +7304,14 @@
     "ref": "Gen.27.18"
    },
    "gloss": "who?",
-   "gloss_src": "TBESH",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H4310",
      "tbesh": "who?",
      "share": 1.0,
-     "gloss": "who?"
+     "gloss": "who?, whom?; (mi yitten) if only"
     }
    ],
    "tbesh_key": "H4310",
@@ -7345,15 +7346,15 @@
     "id": "01U8L",
     "ref": "Gen.12.12"
    },
-   "gloss": "to live",
-   "gloss_src": "TBESH",
+   "gloss": "live",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H2421",
      "tbesh": "to live",
      "share": 1.0,
-     "gloss": "to live"
+     "gloss": "live, stay alive; (Piel, Hiphil) keep alive, spare"
     }
    ],
    "tbesh_key": "H2421",
@@ -7389,7 +7390,7 @@
     "ref": "Num.2.23"
    },
    "gloss": "thirty",
-   "gloss_src": "TBESH",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
@@ -7432,7 +7433,7 @@
     "ref": "Gen.44.19"
    },
    "gloss": "or",
-   "gloss_src": "TBESH",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
@@ -7474,27 +7475,27 @@
     "id": "02efz",
     "ref": "Exod.1.21"
    },
-   "gloss": "to fear",
-   "gloss_src": "TBESH",
+   "gloss": "fear, be afraid",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H3372G",
      "tbesh": "to fear",
      "share": 0.737,
-     "gloss": "to fear"
+     "gloss": "fear, be afraid"
     },
     {
      "key": "H3372H",
      "tbesh": "to fear: revere",
      "share": 0.184,
-     "gloss": "to fear: revere"
+     "gloss": "revere, fear (God)"
     },
     {
      "key": "H3373",
      "tbesh": "afraid",
      "share": 0.079,
-     "gloss": "afraid"
+     "gloss": "afraid, fearing (adjective)"
     }
    ],
    "tbesh_key": "H3372G",
@@ -7529,21 +7530,21 @@
     "id": "07eEh",
     "ref": "Judg.3.18"
    },
-   "gloss": "to present: bring",
-   "gloss_src": "TBESH",
+   "gloss": "come near; bring near",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H7126H",
      "tbesh": "to present: bring",
      "share": 0.553,
-     "gloss": "to present: bring"
+     "gloss": "bring near, present, offer (Hiphil)"
     },
     {
      "key": "H7126G",
      "tbesh": "to present: come",
      "share": 0.412,
-     "gloss": "to present: come"
+     "gloss": "come near, approach"
     }
    ],
    "tbesh_key": "H7126H",
@@ -7579,14 +7580,14 @@
     "ref": "Num.2.11"
    },
    "gloss": "six",
-   "gloss_src": "TBESH",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H8337",
      "tbesh": "six",
      "share": 1.0,
-     "gloss": "six"
+     "gloss": "six; (pl.) sixty"
     }
    ],
    "tbesh_key": "H8337",
@@ -7621,21 +7622,21 @@
     "id": "04XGe",
     "ref": "Num.31.46"
    },
-   "gloss": "man",
-   "gloss_src": "TBESH",
+   "gloss": "human, mankind",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H0120G",
      "tbesh": "man",
      "share": 0.796,
-     "gloss": "man"
+     "gloss": "human being, man; mankind, people"
     },
     {
      "key": "H0120H",
      "tbesh": "the man (Adam)",
      "share": 0.186,
-     "gloss": "the man (Adam)"
+     "gloss": "(ha'adam) the man; Adam"
     }
    ],
    "tbesh_key": "H0120G",
@@ -7671,7 +7672,7 @@
     "ref": "Exod.40.17"
    },
    "gloss": "month",
-   "gloss_src": "TBESH",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
@@ -7684,7 +7685,7 @@
      "key": "H2320H",
      "tbesh": "month: new moon",
      "share": 0.071,
-     "gloss": "month: new moon"
+     "gloss": "new moon"
     }
    ],
    "tbesh_key": "H2320G",
@@ -7719,15 +7720,15 @@
     "id": "04VnF",
     "ref": "Num.7.21"
    },
-   "gloss": "cattle",
-   "gloss_src": "TBESH",
+   "gloss": "cattle, herd",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H1241",
      "tbesh": "cattle",
      "share": 1.0,
-     "gloss": "cattle"
+     "gloss": "cattle, herd, oxen"
     }
    ],
    "tbesh_key": "H1241",
@@ -7763,14 +7764,14 @@
     "ref": "1Kgs.3.19"
    },
    "gloss": "night",
-   "gloss_src": "TBESH",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H3915",
      "tbesh": "night",
      "share": 1.0,
-     "gloss": "night"
+     "gloss": "night; (laylah) at night"
     }
    ],
    "tbesh_key": "H3915",
@@ -7806,14 +7807,14 @@
     "ref": "Num.25.12"
    },
    "gloss": "covenant",
-   "gloss_src": "TBESH",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H1285",
      "tbesh": "covenant",
      "share": 1.0,
-     "gloss": "covenant"
+     "gloss": "covenant, treaty, agreement"
     }
    ],
    "tbesh_key": "H1285",
@@ -7848,27 +7849,27 @@
     "id": "0776o",
     "ref": "Judg.3.18"
    },
-   "gloss": "offering",
-   "gloss_src": "TBESH",
+   "gloss": "offering; gift",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H4503G",
      "tbesh": "offering",
      "share": 0.782,
-     "gloss": "offering"
+     "gloss": "offering (often grain offering)"
     },
     {
      "key": "H4503H",
      "tbesh": "offering: gift",
      "share": 0.136,
-     "gloss": "offering: gift"
+     "gloss": "gift, present"
     },
     {
      "key": "H4503I",
      "tbesh": "offering: tribute",
      "share": 0.082,
-     "gloss": "offering: tribute"
+     "gloss": "tribute"
     }
    ],
    "tbesh_key": "H4503G",
@@ -7904,7 +7905,7 @@
     "ref": "Ruth.4.2"
    },
    "gloss": "ten",
-   "gloss_src": "TBESH",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
@@ -7946,33 +7947,33 @@
     "id": "026UE",
     "ref": "Exod.22.18"
    },
-   "gloss": "to lie down: lay down",
-   "gloss_src": "TBESH",
+   "gloss": "lie down",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H7901G",
      "tbesh": "to lie down: lay down",
      "share": 0.514,
-     "gloss": "to lie down: lay down"
+     "gloss": "lie down"
     },
     {
      "key": "H7901J",
      "tbesh": "to lie down: be dead",
      "share": 0.229,
-     "gloss": "to lie down: be dead"
+     "gloss": "lie with one's fathers, die"
     },
     {
      "key": "H7901I",
      "tbesh": "to lie down: have sex",
      "share": 0.202,
-     "gloss": "to lie down: have sex"
+     "gloss": "lie with (sexually)"
     },
     {
      "key": "H7901H",
      "tbesh": "to lie down: sleep",
      "share": 0.055,
-     "gloss": "to lie down: sleep"
+     "gloss": "sleep"
     }
    ],
    "tbesh_key": "H7901G",
@@ -8007,27 +8008,27 @@
     "id": "02mWA",
     "ref": "Exod.23.32"
    },
-   "gloss": "to cut: eliminate",
-   "gloss_src": "TBESH",
+   "gloss": "cut; cut off",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H3772I",
      "tbesh": "to cut: eliminate",
      "share": 0.377,
-     "gloss": "to cut: eliminate"
+     "gloss": "cut off, destroy; (Niphal) be cut off"
     },
     {
      "key": "H3772H",
      "tbesh": "to cut: make(covenant)",
      "share": 0.358,
-     "gloss": "to cut: make(covenant)"
+     "gloss": "make (a covenant; lit. cut)"
     },
     {
      "key": "H3772G",
      "tbesh": "to cut: cut",
      "share": 0.217,
-     "gloss": "to cut: cut"
+     "gloss": "cut, cut down"
     }
    ],
    "tbesh_key": "H3772I",
@@ -8063,7 +8064,7 @@
     "ref": "Num.2.30"
    },
    "gloss": "fifty",
-   "gloss_src": "TBESH",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
@@ -8105,15 +8106,15 @@
     "id": "09Ls7",
     "ref": "1Sam.8.20"
    },
-   "gloss": "to fight",
-   "gloss_src": "TBESH",
+   "gloss": "fight",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H3898A",
      "tbesh": "to fight",
      "share": 1.0,
-     "gloss": "to fight"
+     "gloss": "fight, wage war (Niphal)"
     }
    ],
    "tbesh_key": "H3898A",
@@ -8149,14 +8150,14 @@
     "ref": "Gen.9.4"
    },
    "gloss": "blood",
-   "gloss_src": "TBESH",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H1818",
      "tbesh": "blood",
      "share": 1.0,
-     "gloss": "blood"
+     "gloss": "blood; bloodshed"
     }
    ],
    "tbesh_key": "H1818",
@@ -8192,7 +8193,7 @@
     "ref": "Exod.21.15"
    },
    "gloss": "mother",
-   "gloss_src": "TBESH",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
@@ -8235,7 +8236,7 @@
     "ref": "1Kgs.1.22"
    },
    "gloss": "prophet",
-   "gloss_src": "TBESH",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
@@ -8277,15 +8278,15 @@
     "id": "01wce",
     "ref": "Gen.43.27"
    },
-   "gloss": "to ask",
-   "gloss_src": "TBESH",
+   "gloss": "ask",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H7592",
      "tbesh": "to ask",
      "share": 1.0,
-     "gloss": "to ask"
+     "gloss": "ask, ask for, request; inquire (of)"
     }
    ],
    "tbesh_key": "H7592",
@@ -8320,15 +8321,15 @@
     "id": "01GUh",
     "ref": "Gen.2.1"
    },
-   "gloss": "heaven",
-   "gloss_src": "TBESH",
+   "gloss": "sky, heavens",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H8064",
      "tbesh": "heaven",
      "share": 1.0,
-     "gloss": "heaven"
+     "gloss": "sky, heavens, heaven"
     }
    ],
    "tbesh_key": "H8064",
@@ -8363,15 +8364,15 @@
     "id": "02WYb",
     "ref": "Exod.40.6"
    },
-   "gloss": "tabernacle",
-   "gloss_src": "TBESH",
+   "gloss": "tabernacle; dwelling",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H4908",
      "tbesh": "tabernacle",
      "share": 1.0,
-     "gloss": "tabernacle"
+     "gloss": "tabernacle; dwelling place"
     }
    ],
    "tbesh_key": "H4908",
@@ -8406,15 +8407,15 @@
     "id": "02mtE",
     "ref": "Exod.29.36"
    },
-   "gloss": "to sin",
-   "gloss_src": "TBESH",
+   "gloss": "sin",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H2398",
      "tbesh": "to sin",
      "share": 1.0,
-     "gloss": "to sin"
+     "gloss": "sin, do wrong; (Piel) purify"
     }
    ],
    "tbesh_key": "H2398",
@@ -8450,20 +8451,20 @@
     "ref": "Josh.21.42"
    },
    "gloss": "around",
-   "gloss_src": "TBESH",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H5439G",
      "tbesh": "around",
      "share": 0.871,
-     "gloss": "around"
+     "gloss": "around, all around; surroundings"
     },
     {
      "key": "H5439H",
      "tbesh": "around: side",
      "share": 0.099,
-     "gloss": "around: side"
+     "gloss": "side, circuit"
     }
    ],
    "tbesh_key": "H5439G",
@@ -8499,7 +8500,7 @@
     "ref": "Exod.12.10"
    },
    "gloss": "fire",
-   "gloss_src": "TBESH",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
@@ -8541,15 +8542,15 @@
     "id": "018fD",
     "ref": "Gen.39.13"
    },
-   "gloss": "garment",
-   "gloss_src": "TBESH",
+   "gloss": "garment, clothes",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H0899B",
      "tbesh": "garment",
      "share": 1.0,
-     "gloss": "garment"
+     "gloss": "garment, clothing"
     }
    ],
    "tbesh_key": "H0899B",
@@ -8584,8 +8585,8 @@
     "id": "10qYG",
     "ref": "2Sam.17.3"
    },
-   "gloss": "peace",
-   "gloss_src": "TBESH",
+   "gloss": "peace; well-being",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
@@ -8598,13 +8599,13 @@
      "key": "H7965I",
      "tbesh": "peace: well-being",
      "share": 0.299,
-     "gloss": "peace: well-being"
+     "gloss": "well-being, welfare, health"
     },
     {
      "key": "H7965K",
      "tbesh": "peace: greeting",
      "share": 0.113,
-     "gloss": "peace: greeting"
+     "gloss": "greeting (ask about someone's shalom)"
     }
    ],
    "tbesh_key": "H7965G",
@@ -8640,7 +8641,7 @@
     "ref": "Num.7.27"
    },
    "gloss": "ram",
-   "gloss_src": "TBESH",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
@@ -8682,8 +8683,8 @@
     "id": "02AXz",
     "ref": "Exod.32.32"
    },
-   "gloss": "sin",
-   "gloss_src": "TBESH",
+   "gloss": "sin; sin offering",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
@@ -8696,7 +8697,7 @@
      "key": "H2403H",
      "tbesh": "sin: sin offering",
      "share": 0.421,
-     "gloss": "sin: sin offering"
+     "gloss": "sin offering, purification offering"
     }
    ],
    "tbesh_key": "H2403B",
@@ -8731,15 +8732,15 @@
     "id": "01cyY",
     "ref": "Gen.9.9"
    },
-   "gloss": "seed: children",
-   "gloss_src": "TBESH",
+   "gloss": "seed; offspring",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H2233H",
      "tbesh": "seed: children",
      "share": 0.826,
-     "gloss": "seed: children"
+     "gloss": "offspring, descendants"
     },
     {
      "key": "H2233G",
@@ -8780,21 +8781,21 @@
     "id": "07wHF",
     "ref": "Judg.10.13"
    },
-   "gloss": "to add: again",
-   "gloss_src": "TBESH",
+   "gloss": "add; do again",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H3254G",
      "tbesh": "to add: again",
      "share": 0.652,
-     "gloss": "to add: again"
+     "gloss": "(with a verb) again, do more"
     },
     {
      "key": "H3254H",
      "tbesh": "to add",
      "share": 0.348,
-     "gloss": "to add"
+     "gloss": "add, increase"
     }
    ],
    "tbesh_key": "H3254G",
@@ -8829,21 +8830,21 @@
     "id": "044Td",
     "ref": "Num.33.53"
    },
-   "gloss": "to possess: take",
-   "gloss_src": "TBESH",
+   "gloss": "take possession; drive out",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H3423H",
      "tbesh": "to possess: take",
      "share": 0.88,
-     "gloss": "to possess: take"
+     "gloss": "take possession of; (Hiphil) drive out, dispossess"
     },
     {
      "key": "H3423G",
      "tbesh": "to possess: possess",
      "share": 0.109,
-     "gloss": "to possess: possess"
+     "gloss": "possess, inherit"
     }
    ],
    "tbesh_key": "H3423H",
@@ -8878,15 +8879,15 @@
     "id": "01b3y",
     "ref": "Gen.39.13"
    },
-   "gloss": "to flee",
-   "gloss_src": "TBESH",
+   "gloss": "flee",
+   "gloss_src": "curated vs BDB (TBESH)",
    "reviewed": false,
    "senses": [
     {
      "key": "H5127",
      "tbesh": "to flee",
      "share": 1.0,
-     "gloss": "to flee"
+     "gloss": "flee, escape"
     }
    ],
    "tbesh_key": "H5127",

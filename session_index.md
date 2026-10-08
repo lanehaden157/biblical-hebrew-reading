@@ -15,3 +15,4 @@
 - 2026-10-08 (3): Phase 2 measurement built (M1-M11, M13 + OSHB/BHSA alignment), gate passes. Lane decided all 5 (750 core, rule-opaque Unit 11 forms, Gen 12 first, 2 long poems out, hishtachaveh one card); committed.
 - 2026-10-08 (4): Phase 3 part 1: text layer (TAHOT glosses, WEB via TVTMS), lemma queue 1-750, Unit 0-1 items + 18 lessons, two gates. 72 Unit 1 glosses out for Lane's review on a phone page.
 - 2026-10-08 (5): Dropped per-unit gloss review; Lane flags gloss problems while studying (SPEC Q4 updated).
+- 2026-10-08 (6): Phase 3 part 2: Units 2-3 content (24 suffix/ending cards, 8 story-tense markers, 61 forms, 10 names, 110 readings, 14 lessons, 140 lemma glosses). verify_content passes. Phase 3 done.
