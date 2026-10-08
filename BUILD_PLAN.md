@@ -44,7 +44,7 @@ Each phase ends with a `verify_*.py` gate and, where marked, a **Lane check** be
 - Output: `MEASURES.md` report. Sets real unit budgets, rank cut-offs, micro-reading pools, Exodus top-up size.
 - **Lane check:** confirm 750 cut-off and unit sizes given the actual numbers.
 
-### Phase 3 — Content, Units 0–3
+### Phase 3 — Content, Units 0–3 — Units 0–1 built 2026-10-08 (review page out to Lane); Units 2–3 next
 - Ranked lemma deck; gloss seeding + per-occurrence curation (source + `reviewed` flag); morpheme items; whole-form verb items (M6); names; micro-reading pools M8a–c; Unit 0–3 lessons (Hebrew referenced by token id only).
 - Each generator ships its verifier.
 - **Lane check:** gloss review batch for Units 0–3.
@@ -65,6 +65,15 @@ Each phase ends with a `verify_*.py` gate and, where marked, a **Lane check** be
 
 ### Phase 7 — Units 11–12
 - Exodus 3/14 top-up (M10); milestone mode (hidden help, logged lookups); pace forecast from M12 data.
+
+## Handoff notes for Phase 3 part 2 (from part 1, 2026-10-08)
+
+- Order: `build_text.py` -> `build_lessons.py` -> `build_items.py`; gates `verify_text.py`, `verify_content.py`.
+- Glosses: token gloss line = TAHOT (contextual); per-occurrence fixes go in `glosses/tokens.json`. Lemma cards: `glosses/lemmas.json` with one gloss per TBESH sense key (TAHOT tags every token's sense). OSHB lemma -> TBESH key is a majority vote over aligned tokens (`lexicon.lemma_map`), not letter mapping.
+- Units: add to `UNITS`, `FORMS_PER_UNIT`, `MORPHEMES` in build_items.py; names track not built yet (TBESH type N:N-M-P person, N:N--L place).
+- Review loop: `review_page.py N` -> publish build/review_page.html to the same artifact URL (republish keeps the db); read with ArtifactData list `decisions` (out_dir build/review_decisions) -> `apply_review.py` -> rebuild items.
+- `translit()` now also returns `features` (decoding tags); text unchanged.
+- Lesson refs `{Gen.1.3#1}` are word positions among read tokens; a typed translit after a ref must match the corpus (the compiler checks, then drops it).
 
 ## Handoff notes for Phase 3 (from Phase 2)
 

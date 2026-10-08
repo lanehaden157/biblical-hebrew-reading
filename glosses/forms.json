@@ -1,0 +1,11 @@
+{
+ "_note": "Curated contextual glosses for whole verb form items. Key = item id from data/items/unit*.json. reviewed is set only via pipeline/apply_review.py.",
+ "F:559:HC/Vqw3ms:1d314b": {"gloss": "and he said", "source": "curated vs BDB (TBESH)", "reviewed": false},
+ "F:1961:HC/Vqw3ms:aac579": {"gloss": "and it happened; and there was; and he was", "source": "curated vs BDB (TBESH)", "reviewed": false},
+ "F:559:HR/Vqc:3a4f92": {"gloss": "saying (introduces a quotation; lit. to say)", "source": "curated vs BDB (TBESH)", "reviewed": false},
+ "F:559:HC/Vqw3mp:f5adaf": {"gloss": "and they said", "source": "curated vs BDB (TBESH)", "reviewed": false},
+ "F:6213_a:HVqp3ms:a96620": {"gloss": "he did, he made", "source": "curated vs BDB (TBESH)", "reviewed": false},
+ "F:935:HC/Vqw3ms:a861a4": {"gloss": "and he came, and he went in", "source": "curated vs BDB (TBESH)", "reviewed": false},
+ "F:3212:HC/Vqw3ms:b05677": {"gloss": "and he went", "source": "curated vs BDB (TBESH)", "reviewed": false},
+ "F:559:HC/Vqw3fs:e507cf": {"gloss": "and she said", "source": "curated vs BDB (TBESH)", "reviewed": false}
+}

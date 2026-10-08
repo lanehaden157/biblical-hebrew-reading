@@ -1,0 +1,17 @@
+{
+ "_note": "Curated meanings for morpheme items. Key = item id. Meanings follow standard grammars (prefix inventory measured in Phase 3). reviewed is set only via pipeline/apply_review.py.",
+ "M:ve": {"gloss": "and", "source": "curated (grammar)", "reviewed": false},
+ "M:u": {"gloss": "and", "source": "curated (grammar)", "reviewed": false},
+ "M:va": {"gloss": "and", "source": "curated (grammar)", "reviewed": false},
+ "M:vayy": {"gloss": "and (story-telling verb form; Unit 3 explains)", "source": "curated (grammar)", "reviewed": false},
+ "M:ha": {"gloss": "the", "source": "curated (grammar)", "reviewed": false},
+ "M:ha_g": {"gloss": "the", "source": "curated (grammar)", "reviewed": false},
+ "M:be": {"gloss": "in, with, by", "source": "curated (grammar)", "reviewed": false},
+ "M:le": {"gloss": "to, for", "source": "curated (grammar)", "reviewed": false},
+ "M:ke": {"gloss": "like, as", "source": "curated (grammar)", "reviewed": false},
+ "M:mi": {"gloss": "from", "source": "curated (grammar)", "reviewed": false},
+ "M:me": {"gloss": "from", "source": "curated (grammar)", "reviewed": false},
+ "M:ba": {"gloss": "in the", "source": "curated (grammar)", "reviewed": false},
+ "M:la": {"gloss": "to the, for the", "source": "curated (grammar)", "reviewed": false},
+ "M:ka": {"gloss": "like the", "source": "curated (grammar)", "reviewed": false}
+}

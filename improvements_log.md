@@ -49,3 +49,8 @@
 ## 2026-10-08 — Phase 2 measurement
 - Added pipeline/align_bhsa.py, measure.py, verify_measures.py; MEASURES.md (findings + generated M1-M11, M13, poem candidates); data/measures/*.json; data/parse_quarantine.json (690 tokens).
 - 2026-10-08: Lane decisions recorded in SPEC section 7; corpus_config adds poems 2 Sam 1:19-27, 2 Kgs 19:21-28.
+
+## 2026-10-08 — Phase 3 part 1 (Units 0-1 content)
+- Added pipeline/web.py, tahot.py, lexicon.py, build_text.py, verify_text.py (data/text per chapter).
+- Added build_items.py, build_lessons.py, verify_content.py, review_page.py + template, apply_review.py; lessons/unit0-1.md; glosses/*.json.
+- translit.py returns read-only `features`. Review page artifact PtU2bU41Fshzt4dWBi9KBh.

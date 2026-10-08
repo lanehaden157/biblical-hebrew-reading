@@ -1,0 +1,214 @@
+<title>Gloss Review</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=IBM+Plex+Mono:wght@400;500&family=Noto+Serif+Hebrew:wght@400;600&display=swap">
+<style>
+/* Layout: one column of review cards, a sticky bar with progress and filters; thumb-sized buttons. */
+:root {
+  --bg: #eef1ef; --card: #ffffff; --ink: #1c2420; --muted: #5d6a64; --line: #d5ddd8;
+  --accent: #2b4a8b; --ok: #2f7a4d; --ok-bg: #e3f1e8; --fix: #a5561a; --fix-bg: #f8eadf; --mark: #fde9a8;
+  --f-he: "Noto Serif Hebrew", "SBL Hebrew", "Times New Roman", serif;
+  --f-body: "Atkinson Hyperlegible", system-ui, sans-serif;
+  --f-mono: "IBM Plex Mono", ui-monospace, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #141917; --card: #1d2421; --ink: #e6ece8; --muted: #9aa8a1; --line: #33403a;
+  --accent: #8fa9e6; --ok: #6fc794; --ok-bg: #1f3529; --fix: #e8a06a; --fix-bg: #3a2a1d; --mark: #5a4b17; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #141917; --card: #1d2421; --ink: #e6ece8; --muted: #9aa8a1; --line: #33403a;
+  --accent: #8fa9e6; --ok: #6fc794; --ok-bg: #1f3529; --fix: #e8a06a; --fix-bg: #3a2a1d; --mark: #5a4b17; color-scheme: dark }
+body { background: var(--bg); color: var(--ink); font: 16px/1.45 var(--f-body); }
+.wrap { max-width: 640px; margin: 0 auto; padding-inline: 16px; padding-block: 0 48px; }
+header { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 2; background: var(--bg);
+  padding-block: 12px 10px; border-bottom: 1px solid var(--line); display: grid; gap: 8px; }
+h1 { font-size: 18px; margin: 0; text-wrap: balance; }
+.sub { color: var(--muted); font-size: 13px; }
+.bar { height: 6px; background: var(--line); border-radius: 3px; overflow: hidden; }
+.bar > i { display: block; height: 100%; background: var(--ok); width: 0; transition: width .2s; }
+.tabs { display: flex; gap: 6px; flex-wrap: wrap; }
+.tabs button { font: 600 13px var(--f-body); padding: 6px 12px; border-radius: 999px; border: 1px solid var(--line);
+  background: var(--card); color: var(--ink); cursor: pointer; }
+.tabs button[aria-pressed="true"] { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+.notice { margin-top: 12px; padding: 10px 12px; border-radius: 8px; background: var(--fix-bg); color: var(--ink); font-size: 14px; }
+main { display: grid; gap: 14px; margin-top: 14px; }
+.card { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 14px; display: grid; gap: 10px; min-width: 0; }
+.card.ok { border-color: var(--ok); }
+.card.fix { border-color: var(--fix); }
+.meta { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; font: 500 12px var(--f-mono); color: var(--muted); }
+.chip { padding: 2px 8px; border-radius: 999px; border: 1px solid var(--line); text-transform: uppercase; letter-spacing: .04em; }
+.state { margin-left: auto; font-weight: 600; }
+.state.ok { color: var(--ok); } .state.fix { color: var(--fix); }
+.head { display: flex; align-items: baseline; gap: 14px; flex-wrap: wrap; }
+.he { font-family: var(--f-he); direction: rtl; unicode-bidi: isolate; }
+.head .he { font-size: 34px; line-height: 1.2; }
+.tr { font: 500 15px var(--f-mono); color: var(--muted); }
+.gloss { font-size: 21px; font-weight: 700; }
+.gloss small { display: block; font: 400 12px var(--f-mono); color: var(--muted); }
+ul.senses { margin: 0; padding-left: 18px; font-size: 14px; }
+.verse { border-top: 1px dashed var(--line); padding-top: 10px; display: grid; gap: 6px; }
+.verse .he { font-size: 21px; line-height: 1.7; }
+.verse mark { background: var(--mark); color: inherit; border-radius: 3px; padding: 0 2px; }
+.verse .en { font-size: 14px; color: var(--muted); }
+.ref { font: 500 12px var(--f-mono); color: var(--accent); }
+details { font-size: 13px; color: var(--muted); }
+details summary { cursor: pointer; }
+details pre { white-space: pre-wrap; font: 12px/1.5 var(--f-mono); margin: 6px 0 0; }
+table.ex { border-collapse: collapse; font-size: 14px; width: 100%; }
+table.ex td { padding: 4px 6px; border-top: 1px solid var(--line); vertical-align: baseline; }
+table.ex td.he { font-size: 20px; text-align: right; }
+.actions { display: flex; gap: 8px; flex-wrap: wrap; }
+.actions button { font: 700 15px var(--f-body); min-height: 44px; padding: 0 18px; border-radius: 8px; cursor: pointer; border: 1px solid var(--line); background: var(--card); color: var(--ink); }
+.actions .b-ok { border-color: var(--ok); color: var(--ok); }
+.actions .b-ok.on { background: var(--ok); color: var(--card); }
+.actions .b-fix { border-color: var(--fix); color: var(--fix); }
+.actions .b-fix.on { background: var(--fix); color: var(--card); }
+.actions .b-undo { margin-left: auto; color: var(--muted); }
+.fixform { display: grid; gap: 8px; background: var(--fix-bg); padding: 10px; border-radius: 8px; }
+.fixform label { font-size: 13px; font-weight: 700; }
+.fixform input, .fixform textarea { font: 16px var(--f-body); padding: 8px; border-radius: 6px; border: 1px solid var(--line); background: var(--card); color: var(--ink); width: 100%; box-sizing: border-box; }
+.saved-fix { font-size: 14px; background: var(--fix-bg); padding: 8px 10px; border-radius: 6px; }
+button:focus-visible, input:focus-visible, textarea:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.empty { color: var(--muted); text-align: center; padding: 30px 0; }
+</style>
+
+<div class="wrap">
+  <header>
+    <div>
+      <h1 id="title">Gloss review</h1>
+      <div class="sub" id="sub">Tap OK if the gloss fits; Fix to give the right one.</div>
+    </div>
+    <div class="bar"><i id="bar"></i></div>
+    <div class="tabs" role="group" aria-label="Show">
+      <button id="t-todo" data-f="todo" aria-pressed="true">To review</button>
+      <button id="t-fix" data-f="fix" aria-pressed="false">Marked fix</button>
+      <button id="t-all" data-f="all" aria-pressed="false">All</button>
+    </div>
+  </header>
+  <div class="notice" id="notice" hidden></div>
+  <main id="list"><div class="empty">Loading the review batch…</div></main>
+</div>
+
+<script>
+const BATCH = /*BATCH*/null;
+const ACCENTS = /[֑-ֽֿ֯׀׃ׅׄ]/g;
+const plain = s => (s || "").replace(ACCENTS, "");
+const docId = id => id.replace(/\//g, "~");
+let decisions = {}, filter = "todo", db = null, open = null, writable = true;
+
+const el = (tag, attrs = {}, ...kids) => {
+  const e = document.createElement(tag);
+  for (const [k, v] of Object.entries(attrs)) {
+    if (k === "class") e.className = v; else if (k === "text") e.textContent = v; else e.setAttribute(k, v);
+  }
+  for (const k of kids) if (k != null) e.append(k);
+  return e;
+};
+
+function verseBlock(v, ref) {
+  const he = el("div", {class: "he", lang: "he"});
+  v.words.forEach(([s, tr, g, hit], i) => {
+    const w = hit ? el("mark", {title: tr + " — " + g, text: plain(s)}) : el("span", {title: tr + " — " + g, text: plain(s)});
+    he.append(w, " ");
+  });
+  return el("div", {class: "verse"}, el("span", {class: "ref", text: ref.replace(/\./g, " ").replace(/ (\d+) (\d+)$/, " $1:$2") + " (WEB)"}), he,
+            el("div", {class: "en", text: v.en}));
+}
+
+function body(e) {
+  const kids = [];
+  if (e.kind === "lemma" || e.kind === "form") {
+    kids.push(el("div", {class: "head"}, el("span", {class: "he", lang: "he", text: plain(e.he)}), el("span", {class: "tr", text: e.tr})));
+    kids.push(el("div", {class: "gloss"}, el("small", {text: e.kind === "form" ? e.parse : "proposed gloss"}), e.gloss));
+    if (e.senses && e.senses.length) kids.push(el("ul", {class: "senses"}, ...e.senses.map(s => el("li", {text: s}))));
+    if (e.tahot) kids.push(el("div", {class: "sub", text: "TAHOT glosses for this form: " + e.tahot.join(", ")}));
+    if (e.verse) kids.push(verseBlock(e.verse, e.ref));
+    if (e.bdb) kids.push(el("details", {}, el("summary", {text: "BDB (abridged, TBESH)"}), el("pre", {text: e.bdb})));
+  } else {
+    kids.push(el("div", {class: "gloss"}, el("small", {text: e.label}), e.gloss));
+    const t = el("table", {class: "ex"});
+    for (const [s, tr, g, pre] of e.examples) {
+      const he = el("td", {class: "he", lang: "he"}, el("mark", {text: plain(pre)}), plain(s.slice(pre.length)));
+      t.append(el("tr", {}, he, el("td", {class: "tr", text: tr}), el("td", {text: g})));
+    }
+    kids.push(t);
+  }
+  return kids;
+}
+
+async function save(e, verdict, fix = "", note = "") {
+  if (!db) return;
+  const d = {item: e.id, kind: e.kind, unit: BATCH.unit, proposed: e.gloss, verdict, fix, note, at: new Date().toISOString()};
+  decisions[docId(e.id)] = d; open = null; render();
+  try { await db.collection("decisions").doc(docId(e.id)).set(d); }
+  catch (err) { showNotice(err.code === "invalid_argument" ? "This view can read but not save. Open the page from your own claude.ai account." : "Could not save (" + err.code + "). Try again in a moment."); }
+}
+async function undo(e) {
+  if (!db) return;
+  delete decisions[docId(e.id)]; render();
+  try { await db.collection("decisions").doc(docId(e.id)).delete(); } catch (err) { showNotice("Could not undo (" + err.code + ")."); }
+}
+
+function card(e) {
+  const d = decisions[docId(e.id)];
+  const c = el("article", {class: "card" + (d ? " " + d.verdict : ""), id: "c-" + docId(e.id)});
+  const label = e.kind === "lemma" ? "word #" + e.rank : e.kind === "form" ? "verb form #" + e.rank : "prefix";
+  c.append(el("div", {class: "meta"}, el("span", {class: "chip", text: label}), e.pos ? el("span", {text: e.pos}) : null,
+              el("span", {text: e.src}), d ? el("span", {class: "state " + d.verdict, text: d.verdict === "ok" ? "OK" : "Fix"}) : null));
+  c.append(...body(e));
+  if (d && d.verdict === "fix") c.append(el("div", {class: "saved-fix", text: "Your gloss: " + d.fix + (d.note ? " — " + d.note : "")}));
+  if (open === e.id) {
+    const f = el("form", {class: "fixform"});
+    const gi = el("input", {id: "fx-" + docId(e.id), value: (d && d.fix) || e.gloss});
+    const ni = el("textarea", {id: "nt-" + docId(e.id), rows: "2"}); ni.value = (d && d.note) || "";
+    f.append(el("label", {for: gi.id, text: "Correct gloss"}), gi, el("label", {for: ni.id, text: "Note (optional)"}), ni,
+             el("div", {class: "actions"}, el("button", {type: "submit", class: "b-fix on", text: "Save fix"}),
+                el("button", {type: "button", class: "b-undo", text: "Cancel"})));
+    f.addEventListener("submit", ev => { ev.preventDefault(); save(e, "fix", gi.value.trim(), ni.value.trim()); });
+    f.querySelector(".b-undo").addEventListener("click", () => { open = null; render(); });
+    c.append(f);
+  } else if (writable && db) {
+    const a = el("div", {class: "actions"},
+      el("button", {class: "b-ok" + (d && d.verdict === "ok" ? " on" : ""), text: "OK"}),
+      el("button", {class: "b-fix" + (d && d.verdict === "fix" ? " on" : ""), text: "Fix"}),
+      d ? el("button", {class: "b-undo", text: "Undo"}) : null);
+    a.children[0].addEventListener("click", () => save(e, "ok"));
+    a.children[1].addEventListener("click", () => { open = e.id; render(); });
+    if (d) a.children[2].addEventListener("click", () => undo(e));
+    c.append(a);
+  }
+  return c;
+}
+
+function render() {
+  const items = BATCH.items;
+  const done = items.filter(e => decisions[docId(e.id)]).length;
+  const fixes = items.filter(e => (decisions[docId(e.id)] || {}).verdict === "fix").length;
+  document.getElementById("bar").style.width = (100 * done / items.length) + "%";
+  document.getElementById("sub").textContent = `${done} of ${items.length} decided · ${fixes} marked fix`;
+  const show = items.filter(e => filter === "all" || (filter === "todo" ? !decisions[docId(e.id)] || open === e.id : (decisions[docId(e.id)] || {}).verdict === "fix"));
+  const list = document.getElementById("list");
+  list.replaceChildren(...(show.length ? show.map(card) : [el("div", {class: "empty", text: filter === "todo" ? "All decided. Tell Claude the batch is done." : "Nothing here."})]));
+}
+
+function showNotice(t) { const n = document.getElementById("notice"); n.textContent = t; n.hidden = false; }
+
+document.querySelectorAll(".tabs button").forEach(b => b.addEventListener("click", () => {
+  filter = b.dataset.f;
+  document.querySelectorAll(".tabs button").forEach(x => x.setAttribute("aria-pressed", String(x === b)));
+  render();
+}));
+
+document.getElementById("title").textContent = BATCH.title;
+render();
+
+(async () => {
+  db = window.claude ? await window.claude.use("db") : null;
+  if (!db) { writable = false; showNotice("Saving is off in this view. Open the page in claude.ai while signed in to record decisions."); render(); return; }
+  db.collection("decisions").where("unit", "==", BATCH.unit).onSnapshot(snap => {
+    const next = {};
+    snap.docs.forEach(s => { next[s.id] = s.data(); });
+    decisions = next;
+    if (open === null) render();          // never wipe a fix being typed
+  }, err => showNotice("Lost the connection to saved decisions (" + err.code + "). Reload the page."));
+  render();
+})();
+</script>

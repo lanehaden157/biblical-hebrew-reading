@@ -43,6 +43,7 @@ sources/    pinned downloads (gitignored) + sources.lock
 pipeline/   Python: fetch -> corpus loader -> token table -> generators, each with verify_*.py
 data/       generated JSON, never hand-edited
 glosses/    curated glosses (hand-reviewed, with source + reviewed flag)
+lessons/    lesson source: English + corpus refs ({Gen.1.3#1}); compiled to data/lessons.json
 app/        vanilla ES modules, no build step, no framework, no analytics
 index.html
 ```

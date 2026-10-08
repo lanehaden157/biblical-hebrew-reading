@@ -417,7 +417,32 @@ def translit(surface, verse_final=False, morph="", stress_hint=None, lemma="", m
         if k == stress and v and (k != len(syls) - 1 or s["furtive"]):
             v = ACUTE[v]                        # furtive -ach shows two vowels: ruach -> rúach
         texts.append(s["onset"] + v + s["coda"] + s["tail"])
-    return {"text": "".join(texts), "syllables": texts, "stress": stress, "stress_src": src}
+    return {"text": "".join(texts), "syllables": texts, "stress": stress, "stress_src": src,
+            "features": _features(L, syls)}
+
+
+def _features(L, syls):
+    """Decoding features the word shows (Unit 0 lessons). Read-only; does not affect text."""
+    f = set()
+    for x in L:
+        if x.vowels == [SHVA] and not x.silent:
+            f.add("shva_vocal" if x.reduced else "shva_silent")
+        if x.double:
+            f.add("dagesh_forte")
+        elif x.dagesh and x.base in BGDKPT:
+            f.add("dagesh_lene")
+        if x.base in SPIRANT and x.cons == SPIRANT[x.base]:
+            f.add("spirant")
+        if x.furtive:
+            f.add("furtive")
+        if x.silent and x.base in (VAV, YOD, HE, ALEF) or SHUREQ in x.vowels:
+            f.add("vowel_letter")
+        if any(v in HATEF for v in x.vowels):
+            f.add("hatef")
+    for s in syls:
+        if s["vcp"] == QAMATS:
+            f.add("qamats_qatan" if s["vowel"] == "o" else "qamats_a")
+    return sorted(f)
 
 
 def stress_key(surface):
@@ -448,7 +473,8 @@ def _divine(surface, lemma, verse_final):
     parts = surface.split("/") if "/" in surface else None
     lemmas = lemma.split("/")
     if parts is None or len(parts) != len(lemmas):
-        return {"text": "YHWH", "syllables": ["YHWH"], "stress": None, "stress_src": "divine"}
+        return {"text": "YHWH", "syllables": ["YHWH"], "stress": None, "stress_src": "divine",
+                "features": ["divine"]}
     pre = ""
     for p, lm in zip(parts, lemmas):
         if lm.split()[0] in ("3068", "3069"):
@@ -456,7 +482,7 @@ def _divine(surface, lemma, verse_final):
         pre += p
     head = translit(pre)["text"] if pre else ""
     return {"text": head + "YHWH", "syllables": ([head] if head else []) + ["YHWH"],
-            "stress": None, "stress_src": "divine"}
+            "stress": None, "stress_src": "divine", "features": ["divine"]}
 
 
 def translit_token(tok, stress_table=None):

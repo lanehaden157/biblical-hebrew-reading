@@ -1,0 +1,3205 @@
+{
+ "_note": "Generated. Unit 0 decoding: reading words + check pool.",
+ "unit": 0,
+ "items": [
+  {
+   "id": "D:32Nvk",
+   "kind": "decode-read",
+   "unit": 0,
+   "feature": "shva_vocal",
+   "tok": {
+    "id": "32Nvk",
+    "ref": "Jonah.1.1",
+    "s": "דְּבַר",
+    "tr": "devar-",
+    "g": "the word of",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "דְּבַר",
+      "1697",
+      "Ncmsc"
+     ]
+    ]
+   },
+   "features": [
+    "dagesh_lene",
+    "maqqef",
+    "shva_vocal",
+    "spirant"
+   ]
+  },
+  {
+   "id": "D:017ZG",
+   "kind": "decode-read",
+   "unit": 0,
+   "feature": "shva_vocal",
+   "tok": {
+    "id": "017ZG",
+    "ref": "Gen.1.11",
+    "s": "לְמִינ֔וֹ",
+    "tr": "lemino",
+    "g": "to its kind",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "לְ",
+      "l",
+      "R"
+     ],
+     [
+      "מִינ֔",
+      "4327",
+      "Ncmsc"
+     ],
+     [
+      "וֹ",
+      "",
+      "Sp3ms"
+     ]
+    ]
+   },
+   "features": [
+    "shva_vocal",
+    "vowel_letter"
+   ]
+  },
+  {
+   "id": "D:01xCL",
+   "kind": "decode-read",
+   "unit": 0,
+   "feature": "shva_vocal",
+   "tok": {
+    "id": "01xCL",
+    "ref": "Gen.1.20",
+    "s": "רְקִ֥יעַ",
+    "tr": "reqía`",
+    "g": "the firmament of",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "רְקִ֥יעַ",
+      "7549",
+      "Ncmsc"
+     ]
+    ]
+   },
+   "features": [
+    "furtive",
+    "shva_vocal",
+    "vowel_letter"
+   ]
+  },
+  {
+   "id": "D:01F88",
+   "kind": "decode-read",
+   "unit": 0,
+   "feature": "shva_silent",
+   "tok": {
+    "id": "01F88",
+    "ref": "Gen.1.28",
+    "s": "בִּדְגַ֤ת",
+    "tr": "bidgat",
+    "g": "over the fish of",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "בִּ",
+      "b",
+      "R"
+     ],
+     [
+      "דְגַ֤ת",
+      "1710",
+      "Ncfsc"
+     ]
+    ]
+   },
+   "features": [
+    "dagesh_lene",
+    "shva_silent"
+   ]
+  },
+  {
+   "id": "D:32FMU",
+   "kind": "decode-read",
+   "unit": 0,
+   "feature": "shva_silent",
+   "tok": {
+    "id": "32FMU",
+    "ref": "Jonah.1.11",
+    "s": "הוֹלֵ֥ךְ",
+    "tr": "holekh",
+    "g": "was going",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "הוֹלֵ֥ךְ",
+      "1980",
+      "Vqrmsa"
+     ]
+    ]
+   },
+   "features": [
+    "final",
+    "shva_silent",
+    "spirant",
+    "vowel_letter"
+   ]
+  },
+  {
+   "id": "D:015gQ",
+   "kind": "decode-read",
+   "unit": 0,
+   "feature": "shva_silent",
+   "tok": {
+    "id": "015gQ",
+    "ref": "Gen.1.6",
+    "s": "מַבְדִּ֔יל",
+    "tr": "mavdil",
+    "g": "separating",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "מַבְדִּ֔יל",
+      "914",
+      "Vhrmsa"
+     ]
+    ]
+   },
+   "features": [
+    "dagesh_lene",
+    "shva_silent",
+    "spirant",
+    "vowel_letter"
+   ]
+  },
+  {
+   "id": "D:323TS",
+   "kind": "decode-read",
+   "unit": 0,
+   "feature": "dagesh_forte",
+   "tok": {
+    "id": "323TS",
+    "ref": "Jonah.1.4",
+    "s": "בַּיָּ֑ם",
+    "tr": "bayyam",
+    "g": "on the sea",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "בַּ",
+      "b",
+      "Rd"
+     ],
+     [
+      "יָּ֑ם",
+      "3220",
+      "Ncmsa"
+     ]
+    ]
+   },
+   "features": [
+    "dagesh_forte",
+    "dagesh_lene",
+    "final",
+    "qamats_a"
+   ]
+  },
+  {
+   "id": "D:01gYe",
+   "kind": "decode-read",
+   "unit": 0,
+   "feature": "dagesh_forte",
+   "tok": {
+    "id": "01gYe",
+    "ref": "Gen.1.18",
+    "s": "בַּיּ֣וֹם",
+    "tr": "bayyom",
+    "g": "over the day",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "בַּ",
+      "b",
+      "Rd"
+     ],
+     [
+      "יּ֣וֹם",
+      "3117",
+      "Ncmsa"
+     ]
+    ]
+   },
+   "features": [
+    "dagesh_forte",
+    "dagesh_lene",
+    "final",
+    "vowel_letter"
+   ]
+  },
+  {
+   "id": "D:012tS",
+   "kind": "decode-read",
+   "unit": 0,
+   "feature": "dagesh_forte",
+   "tok": {
+    "id": "012tS",
+    "ref": "Gen.1.26",
+    "s": "הַיָּ֜ם",
+    "tr": "hayyam",
+    "g": "the sea",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "הַ",
+      "d",
+      "Td"
+     ],
+     [
+      "יָּ֜ם",
+      "3220",
+      "Ncmsa"
+     ]
+    ]
+   },
+   "features": [
+    "dagesh_forte",
+    "final",
+    "qamats_a"
+   ]
+  },
+  {
+   "id": "D:32dNE",
+   "kind": "decode-read",
+   "unit": 0,
+   "feature": "dagesh_lene",
+   "tok": {
+    "id": "32dNE",
+    "ref": "Jonah.1.6",
+    "s": "נִרְדָּ֑ם",
+    "tr": "nirdam",
+    "g": "sleeping",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "נִרְדָּ֑ם",
+      "7290",
+      "VNrmsa"
+     ]
+    ]
+   },
+   "features": [
+    "dagesh_lene",
+    "final",
+    "qamats_a",
+    "shva_silent"
+   ]
+  },
+  {
+   "id": "D:01Qsh",
+   "kind": "decode-read",
+   "unit": 0,
+   "feature": "dagesh_lene",
+   "tok": {
+    "id": "01Qsh",
+    "ref": "Gen.1.11",
+    "s": "תַּֽדְשֵׁ֤א",
+    "tr": "tadshe",
+    "g": "let it sprout",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "תַּֽדְשֵׁ֤א",
+      "1876",
+      "Vhj3fs"
+     ]
+    ]
+   },
+   "features": [
+    "dagesh_lene",
+    "shva_silent",
+    "vowel_letter"
+   ]
+  },
+  {
+   "id": "D:32W2c",
+   "kind": "decode-read",
+   "unit": 0,
+   "feature": "dagesh_lene",
+   "tok": {
+    "id": "32W2c",
+    "ref": "Jonah.1.14",
+    "s": "תִּתֵּ֥ן",
+    "tr": "titten",
+    "g": "you put",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "תִּתֵּ֥ן",
+      "5414",
+      "Vqj2ms"
+     ]
+    ]
+   },
+   "features": [
+    "dagesh_forte",
+    "dagesh_lene",
+    "final"
+   ]
+  },
+  {
+   "id": "D:01pAw",
+   "kind": "decode-read",
+   "unit": 0,
+   "feature": "spirant",
+   "tok": {
+    "id": "01pAw",
+    "ref": "Gen.1.29",
+    "s": "לָכֶ֜ם",
+    "tr": "lakhem",
+    "g": "to you",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "לָ",
+      "l",
+      "R"
+     ],
+     [
+      "כֶ֜ם",
+      "",
+      "Sp2mp"
+     ]
+    ]
+   },
+   "features": [
+    "final",
+    "qamats_a",
+    "spirant"
+   ]
+  },
+  {
+   "id": "D:01dSp",
+   "kind": "decode-read",
+   "unit": 0,
+   "feature": "spirant",
+   "tok": {
+    "id": "01dSp",
+    "ref": "Gen.1.20",
+    "s": "נֶ֣פֶשׁ",
+    "tr": "néfesh",
+    "g": "creatures",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "נֶ֣פֶשׁ",
+      "5315",
+      "Ncbsa"
+     ]
+    ]
+   },
+   "features": [
+    "spirant"
+   ]
+  },
+  {
+   "id": "D:01sYp",
+   "kind": "decode-read",
+   "unit": 0,
+   "feature": "spirant",
+   "tok": {
+    "id": "01sYp",
+    "ref": "Gen.1.19",
+    "s": "רְבִיעִֽי",
+    "tr": "revi`i",
+    "g": "fourth",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "רְבִיעִֽי",
+      "7243",
+      "Aomsa"
+     ]
+    ]
+   },
+   "features": [
+    "shva_vocal",
+    "spirant",
+    "vowel_letter"
+   ]
+  },
+  {
+   "id": "D:01jEX",
+   "kind": "decode-read",
+   "unit": 0,
+   "feature": "qamats_qatan",
+   "tok": {
+    "id": "01jEX",
+    "ref": "Gen.1.29",
+    "s": "כָל",
+    "tr": "khol-",
+    "g": "all",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "כָל",
+      "3605",
+      "Ncmsc"
+     ]
+    ]
+   },
+   "features": [
+    "maqqef",
+    "qamats_qatan",
+    "spirant"
+   ]
+  },
+  {
+   "id": "D:325SS",
+   "kind": "decode-read",
+   "unit": 0,
+   "feature": "qamats_qatan",
+   "tok": {
+    "id": "325SS",
+    "ref": "Jonah.1.3",
+    "s": "אָנִיָּ֣ה",
+    "tr": "oniyyah",
+    "g": "a ship",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "אָנִיָּ֣ה",
+      "591",
+      "Ncfsa"
+     ]
+    ]
+   },
+   "features": [
+    "dagesh_forte",
+    "qamats_a",
+    "qamats_qatan"
+   ]
+  },
+  {
+   "id": "D:01xAF",
+   "kind": "decode-read",
+   "unit": 0,
+   "feature": "qamats_qatan",
+   "tok": {
+    "id": "01xAF",
+    "ref": "Gen.1.21",
+    "s": "כָּל",
+    "tr": "kol-",
+    "g": "every",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "כָּל",
+      "3605",
+      "Ncmsc"
+     ]
+    ]
+   },
+   "features": [
+    "dagesh_lene",
+    "maqqef",
+    "qamats_qatan"
+   ]
+  },
+  {
+   "id": "D:3237c",
+   "kind": "decode-read",
+   "unit": 0,
+   "feature": "qamats_a",
+   "tok": {
+    "id": "3237c",
+    "ref": "Jonah.1.2",
+    "s": "עָלֶ֑יהָ",
+    "tr": "`aléha",
+    "g": "on it",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "עָלֶ֑י",
+      "5921 a",
+      "R"
+     ],
+     [
+      "הָ",
+      "",
+      "Sp3fs"
+     ]
+    ]
+   },
+   "features": [
+    "qamats_a",
+    "vowel_letter"
+   ]
+  },
+  {
+   "id": "D:32mL3",
+   "kind": "decode-read",
+   "unit": 0,
+   "feature": "qamats_a",
+   "tok": {
+    "id": "32mL3",
+    "ref": "Jonah.1.14",
+    "s": "עָלֵ֖ינוּ",
+    "tr": "`alénu",
+    "g": "on us",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "עָלֵ֖י",
+      "5921 a",
+      "R"
+     ],
+     [
+      "נוּ",
+      "",
+      "Sp1cp"
+     ]
+    ]
+   },
+   "features": [
+    "qamats_a",
+    "vowel_letter"
+   ]
+  },
+  {
+   "id": "D:325gQ",
+   "kind": "decode-read",
+   "unit": 0,
+   "feature": "qamats_a",
+   "tok": {
+    "id": "325gQ",
+    "ref": "Jonah.1.5",
+    "s": "אֱלֹהָיו֒",
+    "tr": "elohav",
+    "g": "his gods",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "אֱלֹהָי",
+      "430",
+      "Ncmpc"
+     ],
+     [
+      "ו֒",
+      "",
+      "Sp3ms"
+     ]
+    ]
+   },
+   "features": [
+    "hatef",
+    "qamats_a",
+    "vowel_letter"
+   ]
+  },
+  {
+   "id": "D:01fsu",
+   "kind": "decode-read",
+   "unit": 0,
+   "feature": "furtive",
+   "tok": {
+    "id": "01fsu",
+    "ref": "Gen.1.6",
+    "s": "רָקִ֖יעַ",
+    "tr": "raqía`",
+    "g": "a firmament",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "רָקִ֖יעַ",
+      "7549",
+      "Ncmsa"
+     ]
+    ]
+   },
+   "features": [
+    "furtive",
+    "qamats_a",
+    "vowel_letter"
+   ]
+  },
+  {
+   "id": "D:323TL",
+   "kind": "decode-read",
+   "unit": 0,
+   "feature": "furtive",
+   "tok": {
+    "id": "323TL",
+    "ref": "Jonah.1.4",
+    "s": "רֽוּחַ",
+    "tr": "ruach-",
+    "g": "a wind",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "רֽוּחַ",
+      "7307",
+      "Ncbsa"
+     ]
+    ]
+   },
+   "features": [
+    "furtive",
+    "maqqef",
+    "vowel_letter"
+   ]
+  },
+  {
+   "id": "D:01ki2",
+   "kind": "decode-read",
+   "unit": 0,
+   "feature": "furtive",
+   "tok": {
+    "id": "01ki2",
+    "ref": "Gen.1.29",
+    "s": "זֹרֵ֣עַ",
+    "tr": "zoréa`",
+    "g": "which bears seed",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "זֹרֵ֣עַ",
+      "2232",
+      "Vqrmsa"
+     ]
+    ]
+   },
+   "features": [
+    "furtive"
+   ]
+  },
+  {
+   "id": "D:323y8",
+   "kind": "decode-read",
+   "unit": 0,
+   "feature": "vowel_letter",
+   "tok": {
+    "id": "323y8",
+    "ref": "Jonah.1.9",
+    "s": "אֲלֵיהֶ֖ם",
+    "tr": "alehem",
+    "g": "to them",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "אֲלֵי",
+      "413",
+      "R"
+     ],
+     [
+      "הֶ֖ם",
+      "",
+      "Sp3mp"
+     ]
+    ]
+   },
+   "features": [
+    "final",
+    "hatef",
+    "vowel_letter"
+   ]
+  },
+  {
+   "id": "D:01TyA",
+   "kind": "decode-read",
+   "unit": 0,
+   "feature": "vowel_letter",
+   "tok": {
+    "id": "01TyA",
+    "ref": "Gen.1.1",
+    "s": "אֱלֹהִ֑ים",
+    "tr": "elohim",
+    "g": "God",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "אֱלֹהִ֑ים",
+      "430",
+      "Ncmpa"
+     ]
+    ]
+   },
+   "features": [
+    "final",
+    "hatef",
+    "vowel_letter"
+   ]
+  },
+  {
+   "id": "D:32QG5",
+   "kind": "decode-read",
+   "unit": 0,
+   "feature": "vowel_letter",
+   "tok": {
+    "id": "32QG5",
+    "ref": "Jonah.1.14",
+    "s": "הָאִ֣ישׁ",
+    "tr": "ha'ish",
+    "g": "the man",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "הָ",
+      "d",
+      "Td"
+     ],
+     [
+      "אִ֣ישׁ",
+      "376",
+      "Ncmsa"
+     ]
+    ]
+   },
+   "features": [
+    "qamats_a",
+    "vowel_letter"
+   ]
+  },
+  {
+   "id": "D:01Azu",
+   "kind": "decode-read",
+   "unit": 0,
+   "feature": "hatef",
+   "tok": {
+    "id": "01Azu",
+    "ref": "Gen.1.29",
+    "s": "אֲשֶׁר",
+    "tr": "asher-",
+    "g": "which",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "אֲשֶׁר",
+      "834 a",
+      "Tr"
+     ]
+    ]
+   },
+   "features": [
+    "hatef",
+    "maqqef"
+   ]
+  },
+  {
+   "id": "D:32n9v",
+   "kind": "decode-read",
+   "unit": 0,
+   "feature": "hatef",
+   "tok": {
+    "id": "32n9v",
+    "ref": "Jonah.1.13",
+    "s": "עֲלֵיהֶֽם",
+    "tr": "`alehem",
+    "g": "on them",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "עֲלֵי",
+      "5921 a",
+      "R"
+     ],
+     [
+      "הֶֽם",
+      "",
+      "Sp3mp"
+     ]
+    ]
+   },
+   "features": [
+    "final",
+    "hatef",
+    "vowel_letter"
+   ]
+  },
+  {
+   "id": "D:32nPh",
+   "kind": "decode-read",
+   "unit": 0,
+   "feature": "hatef",
+   "tok": {
+    "id": "32nPh",
+    "ref": "Jonah.1.1",
+    "s": "אֲמִתַּ֖י",
+    "tr": "amittay",
+    "g": "Amittai",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "אֲמִתַּ֖י",
+      "573",
+      "Np"
+     ]
+    ]
+   },
+   "features": [
+    "dagesh_forte",
+    "hatef"
+   ]
+  },
+  {
+   "id": "D:01Ptj",
+   "kind": "decode-read",
+   "unit": 0,
+   "feature": "maqqef",
+   "tok": {
+    "id": "01Ptj",
+    "ref": "Gen.1.12",
+    "s": "עֹֽשֶׂה",
+    "tr": "`oseh-",
+    "g": "producing",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "עֹֽשֶׂה",
+      "6213 a",
+      "Vqrmsa"
+     ]
+    ]
+   },
+   "features": [
+    "maqqef"
+   ]
+  },
+  {
+   "id": "D:32uLf",
+   "kind": "decode-read",
+   "unit": 0,
+   "feature": "maqqef",
+   "tok": {
+    "id": "32uLf",
+    "ref": "Jonah.1.4",
+    "s": "סַֽעַר",
+    "tr": "sa`ar-",
+    "g": "a storm",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "סַֽעַר",
+      "5591 a",
+      "Ncmsa"
+     ]
+    ]
+   },
+   "features": [
+    "maqqef"
+   ]
+  },
+  {
+   "id": "D:321rL",
+   "kind": "decode-read",
+   "unit": 0,
+   "feature": "maqqef",
+   "tok": {
+    "id": "321rL",
+    "ref": "Jonah.1.14",
+    "s": "וְאַל",
+    "tr": "ve'al-",
+    "g": "and may not",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "וְ",
+      "c",
+      "C"
+     ],
+     [
+      "אַל",
+      "408",
+      "Tn"
+     ]
+    ]
+   },
+   "features": [
+    "maqqef",
+    "shva_vocal"
+   ]
+  },
+  {
+   "id": "D:01yNT",
+   "kind": "decode-read",
+   "unit": 0,
+   "feature": "final",
+   "tok": {
+    "id": "01yNT",
+    "ref": "Gen.1.29",
+    "s": "הָעֵ֛ץ",
+    "tr": "ha`ets",
+    "g": "tree",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "הָ",
+      "d",
+      "Td"
+     ],
+     [
+      "עֵ֛ץ",
+      "6086",
+      "Ncmsa"
+     ]
+    ]
+   },
+   "features": [
+    "final",
+    "qamats_a"
+   ]
+  },
+  {
+   "id": "D:01LFW",
+   "kind": "decode-read",
+   "unit": 0,
+   "feature": "final",
+   "tok": {
+    "id": "01LFW",
+    "ref": "Gen.1.14",
+    "s": "הַיּ֖וֹם",
+    "tr": "hayyom",
+    "g": "the day",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "הַ",
+      "d",
+      "Td"
+     ],
+     [
+      "יּ֖וֹם",
+      "3117",
+      "Ncmsa"
+     ]
+    ]
+   },
+   "features": [
+    "dagesh_forte",
+    "final",
+    "vowel_letter"
+   ]
+  },
+  {
+   "id": "D:01EVu",
+   "kind": "decode-read",
+   "unit": 0,
+   "feature": "final",
+   "tok": {
+    "id": "01EVu",
+    "ref": "Gen.1.26",
+    "s": "וּבְע֣וֹף",
+    "tr": "uve`of",
+    "g": "and over the birds of",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "וּ",
+      "c",
+      "C"
+     ],
+     [
+      "בְ",
+      "b",
+      "R"
+     ],
+     [
+      "ע֣וֹף",
+      "5775",
+      "Ncmsc"
+     ]
+    ]
+   },
+   "features": [
+    "final",
+    "shva_vocal",
+    "spirant",
+    "vowel_letter"
+   ]
+  },
+  {
+   "id": "D:32Wkf",
+   "kind": "decode-read",
+   "unit": 0,
+   "feature": "divine",
+   "tok": {
+    "id": "32Wkf",
+    "ref": "Jonah.1.4",
+    "s": "וַֽיהוָ֗ה",
+    "tr": "vaYHWH",
+    "g": "and YHWH (the LORD)",
+    "gs": "SPEC Q3",
+    "gr": 1,
+    "p": [
+     [
+      "וַֽ",
+      "c",
+      "C"
+     ],
+     [
+      "יהוָ֗ה",
+      "3068",
+      "Np"
+     ]
+    ]
+   },
+   "features": [
+    "divine"
+   ]
+  },
+  {
+   "id": "D:01CBH",
+   "kind": "decode",
+   "unit": 0,
+   "tok": {
+    "id": "01CBH",
+    "ref": "Gen.2.3",
+    "s": "שָׁבַת֙",
+    "tr": "shavat",
+    "g": "he rested",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "שָׁבַת֙",
+      "7673 a",
+      "Vqp3ms"
+     ]
+    ]
+   },
+   "features": [
+    "qamats_a",
+    "spirant"
+   ],
+   "options": [
+    "shabat",
+    "shavot",
+    "shakhat"
+   ]
+  },
+  {
+   "id": "D:01C5b",
+   "kind": "decode",
+   "unit": 0,
+   "tok": {
+    "id": "01C5b",
+    "ref": "Gen.4.13",
+    "s": "מִנְּשֹֽׂא",
+    "tr": "minneso",
+    "g": "for bearing",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "מִ",
+      "m",
+      "R"
+     ],
+     [
+      "נְּשֹֽׂא",
+      "5375",
+      "Vqc"
+     ]
+    ]
+   },
+   "features": [
+    "dagesh_forte",
+    "shva_vocal",
+    "vowel_letter"
+   ],
+   "options": [
+    "minnso",
+    "minnesso",
+    "mingeso"
+   ]
+  },
+  {
+   "id": "D:32idA",
+   "kind": "decode",
+   "unit": 0,
+   "tok": {
+    "id": "32idA",
+    "ref": "Jonah.3.8",
+    "s": "וְיָשֻׁ֗בוּ",
+    "tr": "veyashúvu",
+    "g": "and let them turn back",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "וְ",
+      "c",
+      "C"
+     ],
+     [
+      "יָשֻׁ֗בוּ",
+      "7725",
+      "Vqi3mp"
+     ]
+    ]
+   },
+   "features": [
+    "qamats_a",
+    "shva_vocal",
+    "spirant",
+    "vowel_letter"
+   ],
+   "options": [
+    "vyashúvu",
+    "beyashúvu",
+    "veyoshúvu"
+   ]
+  },
+  {
+   "id": "D:01Ttm",
+   "kind": "decode",
+   "unit": 0,
+   "tok": {
+    "id": "01Ttm",
+    "ref": "Gen.2.2",
+    "s": "מִכָּל",
+    "tr": "mikkol-",
+    "g": "from all",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "מִ",
+      "m",
+      "R"
+     ],
+     [
+      "כָּל",
+      "3605",
+      "Ncmsc"
+     ]
+    ]
+   },
+   "features": [
+    "dagesh_forte",
+    "maqqef",
+    "qamats_qatan"
+   ],
+   "options": [
+    "mikol",
+    "mikkal",
+    "sikkol"
+   ]
+  },
+  {
+   "id": "D:01FQu",
+   "kind": "decode",
+   "unit": 0,
+   "tok": {
+    "id": "01FQu",
+    "ref": "Gen.4.12",
+    "s": "תַֽעֲבֹד֙",
+    "tr": "ta`avod",
+    "g": "you will till",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "תַֽעֲבֹד֙",
+      "5647",
+      "Vqi2ms"
+     ]
+    ]
+   },
+   "features": [
+    "hatef",
+    "spirant"
+   ],
+   "options": [
+    "ta`abod",
+    "ta`avor",
+    "ta`avvod"
+   ]
+  },
+  {
+   "id": "D:32hDf",
+   "kind": "decode",
+   "unit": 0,
+   "tok": {
+    "id": "32hDf",
+    "ref": "Jonah.4.9",
+    "s": "הֵיטֵ֥ב",
+    "tr": "hetev",
+    "g": "rightly do well",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "הֵיטֵ֥ב",
+      "3190",
+      "Vha"
+     ]
+    ]
+   },
+   "features": [
+    "spirant",
+    "vowel_letter"
+   ],
+   "options": [
+    "heteb",
+    "chetev",
+    "hettev"
+   ]
+  },
+  {
+   "id": "D:32x72",
+   "kind": "decode",
+   "unit": 0,
+   "tok": {
+    "id": "32x72",
+    "ref": "Jonah.4.2",
+    "s": "חַנּ֣וּן",
+    "tr": "channun",
+    "g": "gracious",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "חַנּ֣וּן",
+      "2587",
+      "Aamsa"
+     ]
+    ]
+   },
+   "features": [
+    "dagesh_forte",
+    "final",
+    "vowel_letter"
+   ],
+   "options": [
+    "chanun",
+    "channug",
+    "chonnun"
+   ]
+  },
+  {
+   "id": "D:32e3z",
+   "kind": "decode",
+   "unit": 0,
+   "tok": {
+    "id": "32e3z",
+    "ref": "Jonah.3.5",
+    "s": "וַיִּלְבְּשׁ֣וּ",
+    "tr": "vayyilbeshu",
+    "g": "and they wore",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "וַ",
+      "c",
+      "C"
+     ],
+     [
+      "יִּלְבְּשׁ֣וּ",
+      "3847",
+      "Vqw3mp"
+     ]
+    ]
+   },
+   "features": [
+    "dagesh_forte",
+    "dagesh_lene",
+    "shva_silent",
+    "shva_vocal",
+    "vowel_letter"
+   ],
+   "options": [
+    "vayyilbshu",
+    "vayilbeshu",
+    "bayyilbeshu"
+   ]
+  },
+  {
+   "id": "D:32AF1",
+   "kind": "decode",
+   "unit": 0,
+   "tok": {
+    "id": "32AF1",
+    "ref": "Jonah.4.4",
+    "s": "הַהֵיטֵ֖ב",
+    "tr": "hahetev",
+    "g": "¿ rightly do well",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "הַ",
+      "d",
+      "Ti"
+     ],
+     [
+      "הֵיטֵ֖ב",
+      "3190",
+      "Vha"
+     ]
+    ]
+   },
+   "features": [
+    "spirant",
+    "vowel_letter"
+   ],
+   "options": [
+    "haheteb",
+    "hahechev",
+    "hahettev"
+   ]
+  },
+  {
+   "id": "D:32DgA",
+   "kind": "decode",
+   "unit": 0,
+   "tok": {
+    "id": "32DgA",
+    "ref": "Jonah.4.11",
+    "s": "יְמִינ֣וֹ",
+    "tr": "yemino",
+    "g": "his right hand",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "יְמִינ֣",
+      "3225",
+      "Ncfsc"
+     ],
+     [
+      "וֹ",
+      "",
+      "Sp3ms"
+     ]
+    ]
+   },
+   "features": [
+    "shva_vocal",
+    "vowel_letter"
+   ],
+   "options": [
+    "ymino",
+    "yemigo",
+    "yemmino"
+   ]
+  },
+  {
+   "id": "D:32brh",
+   "kind": "decode",
+   "unit": 0,
+   "tok": {
+    "id": "32brh",
+    "ref": "Jonah.3.10",
+    "s": "שָׁ֖בוּ",
+    "tr": "shávu",
+    "g": "they turned back",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "שָׁ֖בוּ",
+      "7725",
+      "Vqp3cp"
+     ]
+    ]
+   },
+   "features": [
+    "qamats_a",
+    "spirant",
+    "vowel_letter"
+   ],
+   "options": [
+    "shábu",
+    "shóvu",
+    "shákhu"
+   ]
+  },
+  {
+   "id": "D:01UeD",
+   "kind": "decode",
+   "unit": 0,
+   "tok": {
+    "id": "01UeD",
+    "ref": "Gen.4.17",
+    "s": "בְּנ֥וֹ",
+    "tr": "beno",
+    "g": "his son",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "בְּנ֥",
+      "1121 a",
+      "Ncmsc"
+     ],
+     [
+      "וֹ",
+      "",
+      "Sp3ms"
+     ]
+    ]
+   },
+   "features": [
+    "dagesh_lene",
+    "shva_vocal",
+    "vowel_letter"
+   ],
+   "options": [
+    "bno",
+    "veno",
+    "bego"
+   ]
+  },
+  {
+   "id": "D:01pa7",
+   "kind": "decode",
+   "unit": 0,
+   "tok": {
+    "id": "01pa7",
+    "ref": "Gen.4.16",
+    "s": "בְּאֶֽרֶץ",
+    "tr": "be'erets-",
+    "g": "in the land of",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "בְּ",
+      "b",
+      "R"
+     ],
+     [
+      "אֶֽרֶץ",
+      "776",
+      "Ncbsc"
+     ]
+    ]
+   },
+   "features": [
+    "dagesh_lene",
+    "final",
+    "maqqef",
+    "shva_vocal"
+   ],
+   "options": [
+    "be'rets",
+    "ve'erets",
+    "be'edets"
+   ]
+  },
+  {
+   "id": "D:01rUR",
+   "kind": "decode",
+   "unit": 0,
+   "tok": {
+    "id": "01rUR",
+    "ref": "Gen.2.25",
+    "s": "עֲרוּמִּ֔ים",
+    "tr": "`arummim",
+    "g": "naked",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "עֲרוּמִּ֔ים",
+      "6174",
+      "Aampa"
+     ]
+    ]
+   },
+   "features": [
+    "dagesh_forte",
+    "final",
+    "hatef",
+    "vowel_letter"
+   ],
+   "options": [
+    "`arumim",
+    "tsarummim",
+    "`orummim"
+   ]
+  },
+  {
+   "id": "D:01MVU",
+   "kind": "decode",
+   "unit": 0,
+   "tok": {
+    "id": "01MVU",
+    "ref": "Gen.4.19",
+    "s": "שְׁתֵּ֣י",
+    "tr": "shete",
+    "g": "two",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "שְׁתֵּ֣י",
+      "8147",
+      "Acfdc"
+     ]
+    ]
+   },
+   "features": [
+    "dagesh_lene",
+    "shva_vocal",
+    "vowel_letter"
+   ],
+   "options": [
+    "shte",
+    "sheche",
+    "shette"
+   ]
+  },
+  {
+   "id": "D:01cy3",
+   "kind": "decode",
+   "unit": 0,
+   "tok": {
+    "id": "01cy3",
+    "ref": "Gen.3.22",
+    "s": "לְעֹלָֽם",
+    "tr": "le`olam",
+    "g": "for ever",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "לְ",
+      "l",
+      "R"
+     ],
+     [
+      "עֹלָֽם",
+      "5769",
+      "Ncmsa"
+     ]
+    ]
+   },
+   "features": [
+    "final",
+    "qamats_a",
+    "shva_vocal"
+   ],
+   "options": [
+    "l`olam",
+    "le`alam",
+    "le`olas"
+   ]
+  },
+  {
+   "id": "D:32Ta6",
+   "kind": "decode",
+   "unit": 0,
+   "tok": {
+    "id": "32Ta6",
+    "ref": "Jonah.4.3",
+    "s": "מִמֶּ֑נִּי",
+    "tr": "mimménni",
+    "g": "from me",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "מִמֶּ֑",
+      "4480 a",
+      "R"
+     ],
+     [
+      "נִּי",
+      "",
+      "Sp1cs"
+     ]
+    ]
+   },
+   "features": [
+    "dagesh_forte",
+    "vowel_letter"
+   ],
+   "options": [
+    "miménni",
+    "mimméngi",
+    "mimméni"
+   ]
+  },
+  {
+   "id": "D:01cc4",
+   "kind": "decode",
+   "unit": 0,
+   "tok": {
+    "id": "01cc4",
+    "ref": "Gen.4.19",
+    "s": "וַיִּֽקַּֽח",
+    "tr": "vayyiqqach-",
+    "g": "and he took",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "וַ",
+      "c",
+      "C"
+     ],
+     [
+      "יִּֽקַּֽח",
+      "3947",
+      "Vqw3ms"
+     ]
+    ]
+   },
+   "features": [
+    "dagesh_forte",
+    "maqqef"
+   ],
+   "options": [
+    "vayyiqach",
+    "vayyiqqat",
+    "bayyiqqach"
+   ]
+  },
+  {
+   "id": "D:01Mef",
+   "kind": "decode",
+   "unit": 0,
+   "tok": {
+    "id": "01Mef",
+    "ref": "Gen.4.17",
+    "s": "כְּשֵׁ֖ם",
+    "tr": "keshem",
+    "g": "according to the name of",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "כְּ",
+      "k",
+      "R"
+     ],
+     [
+      "שֵׁ֖ם",
+      "8034",
+      "Ncmsc"
+     ]
+    ]
+   },
+   "features": [
+    "dagesh_lene",
+    "final",
+    "shva_vocal"
+   ],
+   "options": [
+    "keshm",
+    "kheshem",
+    "keshes"
+   ]
+  },
+  {
+   "id": "D:01re5",
+   "kind": "decode",
+   "unit": 0,
+   "tok": {
+    "id": "01re5",
+    "ref": "Gen.3.14",
+    "s": "חַיֶּֽיךָ",
+    "tr": "chayyékha",
+    "g": "your life",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "חַיֶּֽי",
+      "2416 e",
+      "Ncmpc"
+     ],
+     [
+      "ךָ",
+      "",
+      "Sp2ms"
+     ]
+    ]
+   },
+   "features": [
+    "dagesh_forte",
+    "final",
+    "qamats_a",
+    "spirant",
+    "vowel_letter"
+   ],
+   "options": [
+    "chayyékhkha",
+    "chayyéka",
+    "choyyékha"
+   ]
+  },
+  {
+   "id": "D:01ifL",
+   "kind": "decode",
+   "unit": 0,
+   "tok": {
+    "id": "01ifL",
+    "ref": "Gen.2.14",
+    "s": "פְרָֽת",
+    "tr": "ferat",
+    "g": "is the Euphrates",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "פְרָֽת",
+      "6578",
+      "Np"
+     ]
+    ]
+   },
+   "features": [
+    "qamats_a",
+    "shva_vocal",
+    "spirant"
+   ],
+   "options": [
+    "frat",
+    "perat",
+    "ferot"
+   ]
+  },
+  {
+   "id": "D:012iJ",
+   "kind": "decode",
+   "unit": 0,
+   "tok": {
+    "id": "012iJ",
+    "ref": "Gen.4.21",
+    "s": "וְעוּגָֽב",
+    "tr": "ve`ugav",
+    "g": "and flute",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "וְ",
+      "c",
+      "C"
+     ],
+     [
+      "עוּגָֽב",
+      "5748",
+      "Ncmsa"
+     ]
+    ]
+   },
+   "features": [
+    "qamats_a",
+    "shva_vocal",
+    "spirant",
+    "vowel_letter"
+   ],
+   "options": [
+    "v`ugav",
+    "be`ugav",
+    "ve`ugov"
+   ]
+  },
+  {
+   "id": "D:32doW",
+   "kind": "decode",
+   "unit": 0,
+   "tok": {
+    "id": "32doW",
+    "ref": "Jonah.2.1",
+    "s": "הַדָּ֔ג",
+    "tr": "haddag",
+    "g": "the fish",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "הַ",
+      "d",
+      "Td"
+     ],
+     [
+      "דָּ֔ג",
+      "1709",
+      "Ncmsa"
+     ]
+    ]
+   },
+   "features": [
+    "dagesh_forte",
+    "qamats_a"
+   ],
+   "options": [
+    "hadag",
+    "haddog",
+    "hadrag"
+   ]
+  },
+  {
+   "id": "D:01nM3",
+   "kind": "decode",
+   "unit": 0,
+   "tok": {
+    "id": "01nM3",
+    "ref": "Gen.4.14",
+    "s": "וּמִפָּנֶ֖יךָ",
+    "tr": "umippanékha",
+    "g": "and from before you",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "וּ",
+      "c",
+      "C"
+     ],
+     [
+      "מִ",
+      "m",
+      "R"
+     ],
+     [
+      "פָּנֶ֖י",
+      "6440",
+      "Ncbpc"
+     ],
+     [
+      "ךָ",
+      "",
+      "Sp2ms"
+     ]
+    ]
+   },
+   "features": [
+    "dagesh_forte",
+    "final",
+    "qamats_a",
+    "spirant",
+    "vowel_letter"
+   ],
+   "options": [
+    "ummippanékha",
+    "umifpanékha",
+    "umippanékho"
+   ]
+  },
+  {
+   "id": "D:01GYp",
+   "kind": "decode",
+   "unit": 0,
+   "tok": {
+    "id": "01GYp",
+    "ref": "Gen.3.11",
+    "s": "הֲמִן",
+    "tr": "hamin-",
+    "g": "¿ from",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "הֲ",
+      "i",
+      "Ti"
+     ],
+     [
+      "מִן",
+      "4480 a",
+      "R"
+     ]
+    ]
+   },
+   "features": [
+    "final",
+    "hatef",
+    "maqqef"
+   ],
+   "options": [
+    "hamig",
+    "hammin",
+    "homin"
+   ]
+  },
+  {
+   "id": "D:017tY",
+   "kind": "decode",
+   "unit": 0,
+   "tok": {
+    "id": "017tY",
+    "ref": "Gen.4.7",
+    "s": "רֹבֵ֑ץ",
+    "tr": "rovets",
+    "g": "is crouching",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "רֹבֵ֑ץ",
+      "7257",
+      "Vqrmsa"
+     ]
+    ]
+   },
+   "features": [
+    "final",
+    "spirant"
+   ],
+   "options": [
+    "robets",
+    "rokhets",
+    "rovvets"
+   ]
+  },
+  {
+   "id": "D:32wMq",
+   "kind": "decode",
+   "unit": 0,
+   "tok": {
+    "id": "32wMq",
+    "ref": "Jonah.4.11",
+    "s": "מִֽשְׁתֵּים",
+    "tr": "mishtem-",
+    "g": "more than two plus",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "מִֽ",
+      "m",
+      "R"
+     ],
+     [
+      "שְׁתֵּים",
+      "8147",
+      "Acfda"
+     ]
+    ]
+   },
+   "features": [
+    "dagesh_lene",
+    "final",
+    "maqqef",
+    "shva_silent",
+    "vowel_letter"
+   ],
+   "options": [
+    "mishetem",
+    "mishtes",
+    "mishtm"
+   ]
+  },
+  {
+   "id": "D:01B8V",
+   "kind": "decode",
+   "unit": 0,
+   "tok": {
+    "id": "01B8V",
+    "ref": "Gen.3.13",
+    "s": "לָאִשָּׁ֖ה",
+    "tr": "la'ishshah",
+    "g": "to the woman",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "לָ",
+      "l",
+      "Rd"
+     ],
+     [
+      "אִשָּׁ֖ה",
+      "802",
+      "Ncfsa"
+     ]
+    ]
+   },
+   "features": [
+    "dagesh_forte",
+    "qamats_a"
+   ],
+   "options": [
+    "la'ishah",
+    "lo'ishshah",
+    "la'ishshach"
+   ]
+  },
+  {
+   "id": "D:01UNQ",
+   "kind": "decode",
+   "unit": 0,
+   "tok": {
+    "id": "01UNQ",
+    "ref": "Gen.4.3",
+    "s": "יָמִ֑ים",
+    "tr": "yamim",
+    "g": "days",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "יָמִ֑ים",
+      "3117",
+      "Ncmpa"
+     ]
+    ]
+   },
+   "features": [
+    "final",
+    "qamats_a",
+    "vowel_letter"
+   ],
+   "options": [
+    "yomim",
+    "yamis",
+    "yammim"
+   ]
+  },
+  {
+   "id": "D:01HBY",
+   "kind": "decode",
+   "unit": 0,
+   "tok": {
+    "id": "01HBY",
+    "ref": "Gen.4.2",
+    "s": "אֲדָמָֽה",
+    "tr": "adamah",
+    "g": "the ground",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "אֲדָמָֽה",
+      "127",
+      "Ncfsa"
+     ]
+    ]
+   },
+   "features": [
+    "hatef",
+    "qamats_a"
+   ],
+   "options": [
+    "odamah",
+    "aramah",
+    "adammah"
+   ]
+  },
+  {
+   "id": "D:32u6F",
+   "kind": "decode",
+   "unit": 0,
+   "tok": {
+    "id": "32u6F",
+    "ref": "Jonah.4.8",
+    "s": "לָמ֔וּת",
+    "tr": "lamut",
+    "g": "to die",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "לָ",
+      "l",
+      "R"
+     ],
+     [
+      "מ֔וּת",
+      "4191",
+      "Vqc"
+     ]
+    ]
+   },
+   "features": [
+    "qamats_a",
+    "vowel_letter"
+   ],
+   "options": [
+    "lomut",
+    "lasut",
+    "lammut"
+   ]
+  },
+  {
+   "id": "D:01Amf",
+   "kind": "decode",
+   "unit": 0,
+   "tok": {
+    "id": "01Amf",
+    "ref": "Gen.2.23",
+    "s": "לְזֹאת֙",
+    "tr": "lezot",
+    "g": "to this one",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "לְ",
+      "l",
+      "R"
+     ],
+     [
+      "זֹאת֙",
+      "2063",
+      "Pdxfs"
+     ]
+    ]
+   },
+   "features": [
+    "shva_vocal",
+    "vowel_letter"
+   ],
+   "options": [
+    "lzot",
+    "lezoch",
+    "lezzot"
+   ]
+  },
+  {
+   "id": "D:01tAW",
+   "kind": "decode",
+   "unit": 0,
+   "tok": {
+    "id": "01tAW",
+    "ref": "Gen.3.11",
+    "s": "צִוִּיתִ֛יךָ",
+    "tr": "tsivvitíkha",
+    "g": "I commanded you",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "צִוִּיתִ֛י",
+      "6680",
+      "Vpp1cs"
+     ],
+     [
+      "ךָ",
+      "",
+      "Sp2ms"
+     ]
+    ]
+   },
+   "features": [
+    "dagesh_forte",
+    "final",
+    "qamats_a",
+    "spirant",
+    "vowel_letter"
+   ],
+   "options": [
+    "tsivvittíkha",
+    "tsibvitíkha",
+    "tsivvitíkho"
+   ]
+  },
+  {
+   "id": "D:01BQa",
+   "kind": "decode",
+   "unit": 0,
+   "tok": {
+    "id": "01BQa",
+    "ref": "Gen.4.7",
+    "s": "תְּשׁ֣וּקָת֔וֹ",
+    "tr": "teshuqato",
+    "g": "its desire",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "תְּשׁ֣וּקָת֔",
+      "8669",
+      "Ncfsc"
+     ],
+     [
+      "וֹ",
+      "",
+      "Sp3ms"
+     ]
+    ]
+   },
+   "features": [
+    "dagesh_lene",
+    "qamats_a",
+    "shva_vocal",
+    "vowel_letter"
+   ],
+   "options": [
+    "tshuqato",
+    "teshuqoto",
+    "teshuqacho"
+   ]
+  },
+  {
+   "id": "D:32oA2",
+   "kind": "decode",
+   "unit": 0,
+   "tok": {
+    "id": "32oA2",
+    "ref": "Jonah.4.11",
+    "s": "רַבָּֽה",
+    "tr": "rabbah",
+    "g": "much",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "רַבָּֽה",
+      "7227 a",
+      "Aafsa"
+     ]
+    ]
+   },
+   "features": [
+    "dagesh_forte",
+    "qamats_a"
+   ],
+   "options": [
+    "rabah",
+    "rabboh",
+    "rakbah"
+   ]
+  },
+  {
+   "id": "D:32gcK",
+   "kind": "decode",
+   "unit": 0,
+   "tok": {
+    "id": "32gcK",
+    "ref": "Jonah.3.8",
+    "s": "בְּכַפֵּיהֶֽם",
+    "tr": "bekhappehem",
+    "g": "is in their palms",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "בְּ",
+      "b",
+      "R"
+     ],
+     [
+      "כַפֵּי",
+      "3709",
+      "Ncfdc"
+     ],
+     [
+      "הֶֽם",
+      "",
+      "Sp3mp"
+     ]
+    ]
+   },
+   "features": [
+    "dagesh_forte",
+    "dagesh_lene",
+    "final",
+    "shva_vocal",
+    "spirant",
+    "vowel_letter"
+   ],
+   "options": [
+    "bekhapphem",
+    "bekhkhappehem",
+    "bekappehem"
+   ]
+  },
+  {
+   "id": "D:014Yz",
+   "kind": "decode",
+   "unit": 0,
+   "tok": {
+    "id": "014Yz",
+    "ref": "Gen.3.17",
+    "s": "אִשְׁתֶּךָ֒",
+    "tr": "ishtékha",
+    "g": "your wife",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "אִשְׁתֶּ",
+      "802",
+      "Ncfsc"
+     ],
+     [
+      "ךָ֒",
+      "",
+      "Sp2ms"
+     ]
+    ]
+   },
+   "features": [
+    "dagesh_lene",
+    "final",
+    "qamats_a",
+    "shva_silent",
+    "spirant"
+   ],
+   "options": [
+    "ishetékha",
+    "ishtéka",
+    "ishtékho"
+   ]
+  },
+  {
+   "id": "D:32kDm",
+   "kind": "decode",
+   "unit": 0,
+   "tok": {
+    "id": "32kDm",
+    "ref": "Jonah.2.1",
+    "s": "בִּמְעֵ֣י",
+    "tr": "bim`e",
+    "g": "in the inward parts of",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "בִּ",
+      "b",
+      "R"
+     ],
+     [
+      "מְעֵ֣י",
+      "4578",
+      "Ncmpc"
+     ]
+    ]
+   },
+   "features": [
+    "dagesh_lene",
+    "shva_silent",
+    "vowel_letter"
+   ],
+   "options": [
+    "bime`e",
+    "vim`e",
+    "bis`e"
+   ]
+  },
+  {
+   "id": "D:32ht4",
+   "kind": "decode",
+   "unit": 0,
+   "tok": {
+    "id": "32ht4",
+    "ref": "Jonah.4.7",
+    "s": "וַתַּ֥ךְ",
+    "tr": "vattakh",
+    "g": "and it attacked",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "וַ",
+      "c",
+      "C"
+     ],
+     [
+      "תַּ֥ךְ",
+      "5221",
+      "Vhw3fs"
+     ]
+    ]
+   },
+   "features": [
+    "dagesh_forte",
+    "final",
+    "shva_silent",
+    "spirant"
+   ],
+   "options": [
+    "vatakh",
+    "battakh",
+    "vachtakh"
+   ]
+  },
+  {
+   "id": "D:01ME1",
+   "kind": "decode",
+   "unit": 0,
+   "tok": {
+    "id": "01ME1",
+    "ref": "Gen.2.14",
+    "s": "הַֽהֹלֵ֖ךְ",
+    "tr": "haholekh",
+    "g": "is the one which goes",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "הַֽ",
+      "d",
+      "Td"
+     ],
+     [
+      "הֹלֵ֖ךְ",
+      "1980",
+      "Vqrmsa"
+     ]
+    ]
+   },
+   "features": [
+    "final",
+    "shva_silent",
+    "spirant"
+   ],
+   "options": [
+    "haholkh",
+    "haholek",
+    "haholev"
+   ]
+  },
+  {
+   "id": "D:32mrn",
+   "kind": "decode",
+   "unit": 0,
+   "tok": {
+    "id": "32mrn",
+    "ref": "Jonah.3.3",
+    "s": "כִּדְבַ֣ר",
+    "tr": "kidvar",
+    "g": "according to the word of",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "כִּ",
+      "k",
+      "R"
+     ],
+     [
+      "דְבַ֣ר",
+      "1697",
+      "Ncmsc"
+     ]
+    ]
+   },
+   "features": [
+    "dagesh_lene",
+    "shva_silent",
+    "spirant"
+   ],
+   "options": [
+    "kidevar",
+    "kidbar",
+    "kidkhar"
+   ]
+  },
+  {
+   "id": "D:32CMD",
+   "kind": "decode",
+   "unit": 0,
+   "tok": {
+    "id": "32CMD",
+    "ref": "Jonah.3.7",
+    "s": "הַמֶּ֛לֶךְ",
+    "tr": "hammélekh",
+    "g": "the king",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "הַ",
+      "d",
+      "Td"
+     ],
+     [
+      "מֶּ֛לֶךְ",
+      "4428",
+      "Ncmsa"
+     ]
+    ]
+   },
+   "features": [
+    "dagesh_forte",
+    "final",
+    "shva_silent",
+    "spirant"
+   ],
+   "options": [
+    "hammélkh",
+    "hamméllekh",
+    "hammélek"
+   ]
+  },
+  {
+   "id": "D:01ZMk",
+   "kind": "decode",
+   "unit": 0,
+   "tok": {
+    "id": "01ZMk",
+    "ref": "Gen.2.8",
+    "s": "מִקֶּ֑דֶם",
+    "tr": "miqqédem",
+    "g": "from the east",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "מִ",
+      "m",
+      "R"
+     ],
+     [
+      "קֶּ֑דֶם",
+      "6924 a",
+      "Ncmsa"
+     ]
+    ]
+   },
+   "features": [
+    "dagesh_forte",
+    "final"
+   ],
+   "options": [
+    "miqqéddem",
+    "miqqédes",
+    "miqqédm"
+   ]
+  },
+  {
+   "id": "D:01YLn",
+   "kind": "decode",
+   "unit": 0,
+   "tok": {
+    "id": "01YLn",
+    "ref": "Gen.2.17",
+    "s": "תָּמֽוּת",
+    "tr": "tamut",
+    "g": "you will die",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "תָּמֽוּת",
+      "4191",
+      "Vqi2ms"
+     ]
+    ]
+   },
+   "features": [
+    "dagesh_lene",
+    "qamats_a",
+    "vowel_letter"
+   ],
+   "options": [
+    "tomut",
+    "tasut",
+    "tammut"
+   ]
+  },
+  {
+   "id": "D:01Lgy",
+   "kind": "decode",
+   "unit": 0,
+   "tok": {
+    "id": "01Lgy",
+    "ref": "Gen.4.26",
+    "s": "אֱנ֑וֹשׁ",
+    "tr": "enosh",
+    "g": "Enosh",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "אֱנ֑וֹשׁ",
+      "583",
+      "Np"
+     ]
+    ]
+   },
+   "features": [
+    "hatef",
+    "vowel_letter"
+   ],
+   "options": [
+    "egosh",
+    "ennosh",
+    "enash"
+   ]
+  },
+  {
+   "id": "D:32NLD",
+   "kind": "decode",
+   "unit": 0,
+   "tok": {
+    "id": "32NLD",
+    "ref": "Jonah.3.6",
+    "s": "וַיַּעֲבֵ֥ר",
+    "tr": "vayya`aver",
+    "g": "and he took off",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "וַ",
+      "c",
+      "C"
+     ],
+     [
+      "יַּעֲבֵ֥ר",
+      "5674 a",
+      "Vhw3ms"
+     ]
+    ]
+   },
+   "features": [
+    "dagesh_forte",
+    "hatef",
+    "spirant"
+   ],
+   "options": [
+    "vaya`aver",
+    "vayya`aber",
+    "khayya`aver"
+   ]
+  },
+  {
+   "id": "D:32eeF",
+   "kind": "decode",
+   "unit": 0,
+   "tok": {
+    "id": "32eeF",
+    "ref": "Jonah.3.8",
+    "s": "בְּחָזְקָ֑ה",
+    "tr": "bechozqah",
+    "g": "with strength",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "בְּ",
+      "b",
+      "R"
+     ],
+     [
+      "חָזְקָ֑ה",
+      "2394",
+      "Ncfsa"
+     ]
+    ]
+   },
+   "features": [
+    "dagesh_lene",
+    "qamats_a",
+    "qamats_qatan",
+    "shva_silent",
+    "shva_vocal"
+   ],
+   "options": [
+    "bchozqah",
+    "vechozqah",
+    "bechozqoh"
+   ]
+  },
+  {
+   "id": "D:01rnW",
+   "kind": "decode",
+   "unit": 0,
+   "tok": {
+    "id": "01rnW",
+    "ref": "Gen.3.24",
+    "s": "וַיְגָ֖רֶשׁ",
+    "tr": "vayegáresh",
+    "g": "and he drove out",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "וַ",
+      "c",
+      "C"
+     ],
+     [
+      "יְגָ֖רֶשׁ",
+      "1644",
+      "Vpw3ms"
+     ]
+    ]
+   },
+   "features": [
+    "qamats_a",
+    "shva_vocal"
+   ],
+   "options": [
+    "vayegársh",
+    "voyegáresh",
+    "khayegáresh"
+   ]
+  },
+  {
+   "id": "D:32JUf",
+   "kind": "decode",
+   "unit": 0,
+   "tok": {
+    "id": "32JUf",
+    "ref": "Jonah.3.5",
+    "s": "וְעַד",
+    "tr": "ve`ad-",
+    "g": "and unto",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "וְ",
+      "c",
+      "R"
+     ],
+     [
+      "עַד",
+      "5704",
+      "R"
+     ]
+    ]
+   },
+   "features": [
+    "maqqef",
+    "shva_vocal"
+   ],
+   "options": [
+    "v`ad",
+    "ve`ar",
+    "be`ad"
+   ]
+  },
+  {
+   "id": "D:01kmE",
+   "kind": "decode",
+   "unit": 0,
+   "tok": {
+    "id": "01kmE",
+    "ref": "Gen.4.19",
+    "s": "הַשֵּׁנִ֖ית",
+    "tr": "hashshenit",
+    "g": "the second",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "הַ",
+      "d",
+      "Td"
+     ],
+     [
+      "שֵּׁנִ֖ית",
+      "8145",
+      "Aofsa"
+     ]
+    ]
+   },
+   "features": [
+    "dagesh_forte",
+    "vowel_letter"
+   ],
+   "options": [
+    "hashshennit",
+    "chashshenit",
+    "hashshnit"
+   ]
+  },
+  {
+   "id": "D:325eq",
+   "kind": "decode",
+   "unit": 0,
+   "tok": {
+    "id": "325eq",
+    "ref": "Jonah.3.7",
+    "s": "וּגְדֹלָ֖יו",
+    "tr": "ugedolav",
+    "g": "and his great people",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "וּ",
+      "c",
+      "C"
+     ],
+     [
+      "גְדֹלָ֖י",
+      "1419 a",
+      "Aampc"
+     ],
+     [
+      "ו",
+      "",
+      "Sp3ms"
+     ]
+    ]
+   },
+   "features": [
+    "qamats_a",
+    "shva_vocal",
+    "vowel_letter"
+   ],
+   "options": [
+    "ugdolav",
+    "ugedolov",
+    "unedolav"
+   ]
+  },
+  {
+   "id": "D:32tKf",
+   "kind": "decode",
+   "unit": 0,
+   "tok": {
+    "id": "32tKf",
+    "ref": "Jonah.3.2",
+    "s": "אֵלֶֽיךָ",
+    "tr": "elékha",
+    "g": "to you",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "אֵלֶֽי",
+      "413",
+      "R"
+     ],
+     [
+      "ךָ",
+      "",
+      "Sp2ms"
+     ]
+    ]
+   },
+   "features": [
+    "final",
+    "qamats_a",
+    "spirant",
+    "vowel_letter"
+   ],
+   "options": [
+    "eléka",
+    "elékho",
+    "eléva"
+   ]
+  },
+  {
+   "id": "D:01wzx",
+   "kind": "decode",
+   "unit": 0,
+   "tok": {
+    "id": "01wzx",
+    "ref": "Gen.3.10",
+    "s": "שָׁמַ֖עְתִּי",
+    "tr": "shamá`ti",
+    "g": "I heard",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "שָׁמַ֖עְתִּי",
+      "8085",
+      "Vqp1cs"
+     ]
+    ]
+   },
+   "features": [
+    "dagesh_lene",
+    "qamats_a",
+    "shva_silent",
+    "vowel_letter"
+   ],
+   "options": [
+    "shamá`eti",
+    "shomá`ti",
+    "shamátsti"
+   ]
+  },
+  {
+   "id": "D:01TDs",
+   "kind": "decode",
+   "unit": 0,
+   "tok": {
+    "id": "01TDs",
+    "ref": "Gen.2.20",
+    "s": "לְכָל",
+    "tr": "lekhol-",
+    "g": "to all",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "לְ",
+      "l",
+      "R"
+     ],
+     [
+      "כָל",
+      "3605",
+      "Ncmsc"
+     ]
+    ]
+   },
+   "features": [
+    "maqqef",
+    "qamats_qatan",
+    "shva_vocal",
+    "spirant"
+   ],
+   "options": [
+    "lkhol",
+    "lekol",
+    "lekhal"
+   ]
+  },
+  {
+   "id": "D:01LY2",
+   "kind": "decode",
+   "unit": 0,
+   "tok": {
+    "id": "01LY2",
+    "ref": "Gen.2.23",
+    "s": "מֵֽעֲצָמַ֔י",
+    "tr": "me`atsamay",
+    "g": "from my bones",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "מֵֽ",
+      "m",
+      "R"
+     ],
+     [
+      "עֲצָמַ֔",
+      "6106",
+      "Ncfpc"
+     ],
+     [
+      "י",
+      "",
+      "Sp1cs"
+     ]
+    ]
+   },
+   "features": [
+    "hatef",
+    "qamats_a"
+   ],
+   "options": [
+    "me`atsamoy",
+    "me`a`amay",
+    "me`atstsamay"
+   ]
+  },
+  {
+   "id": "D:01Q8c",
+   "kind": "decode",
+   "unit": 0,
+   "tok": {
+    "id": "01Q8c",
+    "ref": "Gen.3.16",
+    "s": "וְהֵֽרֹנֵ֔ךְ",
+    "tr": "veheronekh",
+    "g": "and your pregnancy",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "וְ",
+      "c",
+      "C"
+     ],
+     [
+      "הֵֽרֹנֵ֔",
+      "2032",
+      "Ncmsc"
+     ],
+     [
+      "ךְ",
+      "",
+      "Sp2fs"
+     ]
+    ]
+   },
+   "features": [
+    "final",
+    "shva_silent",
+    "shva_vocal",
+    "spirant"
+   ],
+   "options": [
+    "veheronkh",
+    "veheronek",
+    "vecheronekh"
+   ]
+  },
+  {
+   "id": "D:01Dwm",
+   "kind": "decode",
+   "unit": 0,
+   "tok": {
+    "id": "01Dwm",
+    "ref": "Gen.2.21",
+    "s": "מִצַּלְעֹתָ֔יו",
+    "tr": "mitstsal`otav",
+    "g": "of his ribs",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "מִ",
+      "m",
+      "R"
+     ],
+     [
+      "צַּלְעֹתָ֔י",
+      "6763",
+      "Ncbpc"
+     ],
+     [
+      "ו",
+      "",
+      "Sp3ms"
+     ]
+    ]
+   },
+   "features": [
+    "dagesh_forte",
+    "qamats_a",
+    "shva_silent",
+    "vowel_letter"
+   ],
+   "options": [
+    "mitstsale`otav",
+    "mitstsal`ottav",
+    "mitstsol`otav"
+   ]
+  },
+  {
+   "id": "D:016n2",
+   "kind": "decode",
+   "unit": 0,
+   "tok": {
+    "id": "016n2",
+    "ref": "Gen.2.9",
+    "s": "וַיַּצְמַ֞ח",
+    "tr": "vayyatsmach",
+    "g": "and he made sprout",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "וַ",
+      "c",
+      "C"
+     ],
+     [
+      "יַּצְמַ֞ח",
+      "6779",
+      "Vhw3ms"
+     ]
+    ]
+   },
+   "features": [
+    "dagesh_forte",
+    "shva_silent"
+   ],
+   "options": [
+    "vayyatsemach",
+    "vayatsmach",
+    "vayya`mach"
+   ]
+  },
+  {
+   "id": "D:01Qq3",
+   "kind": "decode",
+   "unit": 0,
+   "tok": {
+    "id": "01Qq3",
+    "ref": "Gen.3.17",
+    "s": "אֲרוּרָ֤ה",
+    "tr": "arurah",
+    "g": "is cursed",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "אֲרוּרָ֤ה",
+      "779",
+      "Vqsfsa"
+     ]
+    ]
+   },
+   "features": [
+    "hatef",
+    "qamats_a",
+    "vowel_letter"
+   ],
+   "options": [
+    "orurah",
+    "arudah",
+    "aruroh"
+   ]
+  },
+  {
+   "id": "D:013Yo",
+   "kind": "decode",
+   "unit": 0,
+   "tok": {
+    "id": "013Yo",
+    "ref": "Gen.2.14",
+    "s": "אַשּׁ֑וּר",
+    "tr": "ashshur",
+    "g": "Assyria",
+    "gs": "TAHOT",
+    "gr": 0,
+    "p": [
+     [
+      "אַשּׁ֑וּר",
+      "804",
+      "Np"
+     ]
+    ]
+   },
+   "features": [
+    "dagesh_forte",
+    "vowel_letter"
+   ],
+   "options": [
+    "ashur",
+    "ashshud",
+    "oshshur"
+   ]
+  }
+ ]
+}
