@@ -39,3 +39,9 @@
 ## 2026-10-07 — v1 rebuild Phase 0
 - Tagged v0-legacy; removed old app/data/pipeline/glosses; added SPEC.md, BUILD_PLAN.md; rewrote CLAUDE.md and STATUS.md.
 - Added pipeline/fetch_sources.py, sources.lock.json, corpus.py, corpus_config.json, tf.py, verify_corpus.py.
+
+## 2026-10-08 — Phase 1 transliterator
+- Added pipeline/translit.py, verify_translit.py, translit_golden.json (47), translit_expected.json, translit_sample.py.
+- SPEC Q1 / CLAUDE.md translit row extended with Lane's 2026-10-08 scheme answers.
+- 2026-10-08: Spot-check fixes: acute on furtive-patach stress; QATAN_OPEN lemma list; prefix qamats never qatan and makes following shva vocal; hatef-qamats rule limited to one morpheme; dagesh after shva on non-bgdkpt not doubled. Golden 53.
+- 2026-10-08: Spot-check 2: shva after vav-consecutive always vocal (vayehi); golden 55.

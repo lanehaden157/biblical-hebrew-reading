@@ -1,0 +1,177 @@
+{
+ "_note": "Explained disagreements with STEPBible TAHOT (verify_translit.py). max = token count at baseline 2026-10-08; growth or a new bucket >= category_floor fails the gate. 'ours' = which side is right.",
+ "category_floor": 5,
+ "tail_max": 230,
+ "categories": {
+  "STRESS table": {
+   "max": 630,
+   "ours": true,
+   "why": "TAHOT capitalises the syllable carrying a prepositive/postpositive accent (telisha gedola, yetiv, pashta), not the stressed one. Ours from the corpus stress table."
+  },
+  "o>a | _>e": {
+   "max": 537,
+   "ours": true,
+   "why": "Qamats qatan + silent shva in Qal inf. cstr./impv. with suffix and qotl nouns (le`ovdah, chokhmah); TAHOT reads qamats gadol + vocal shva."
+  },
+  "v>_": {
+   "max": 453,
+   "ours": true,
+   "why": "TAHOT drops spirant bet after holam (larov, ya`aqov -> la.Ro, ya.'a.Ko)."
+  },
+  "ye>i": {
+   "max": 1187,
+   "ours": true,
+   "why": "Tiberian vocal shvas TAHOT reads silent: dropped dagesh forte after vav-consecutive (vayehi, vayedabber, vayevarekh; Lane 2026-10-08) or after ha- before a soft bgdkpt, and shva after a stressed long vowel in pause (layelah)."
+  },
+  "e>_": {
+   "max": 289,
+   "ours": true,
+   "why": "Vocal shva after a long vowel (toledot, yaledah, halekhu); TAHOT omits it. Also vav-consecutive before a guttural (vaye`annéha)."
+  },
+  "ay>_": {
+   "max": 131,
+   "ours": true,
+   "why": "Jerusalem qere perpetuum yerushalayim (patach+hiriq on lamed); TAHOT reads the ketiv -lim."
+  },
+  "_>v": {
+   "max": 98,
+   "ours": true,
+   "why": "TAHOT writes the holam-male vav of the -o suffix as v (zar`o -> zar.'o/v), and Pentateuchal hi as hiv."
+  },
+  "a>o": {
+   "max": 87,
+   "ours": true,
+   "why": "TAHOT writes stressed final qamats as o in -akh, -av and after prepositive accents (otakh, ha`am, besusav). Also prefix qamats before hatef qamats (barohatim, ha`omarim): TAHOT writes o."
+  },
+  "STRESS accent": {
+   "max": 56,
+   "ours": true,
+   "why": "Word with a conjunctive + disjunctive accent: the last accent is the stress; TAHOT capitalises the first (va'avarekhkha, enenu)."
+  },
+  "_>e": {
+   "max": 56,
+   "ours": true,
+   "why": "Silent shva TAHOT voices: ushte (tav has dagesh), luqqachta, nachnu, word-final double shva (vayyevk)."
+  },
+  "o>a": {
+   "max": 58,
+   "ours": true,
+   "why": "Qamats qatan TAHOT reads as a: kol before maqqef, Qal inf. with suffix (akholkha), stress-retracted wayyiqtol (vayyaqom, vayyamot), golyat, yakholta. Lexical qatan in open syllable (qodashim, QATAN_OPEN)."
+  },
+  "_>o": {
+   "max": 36,
+   "ours": true,
+   "why": "TAHOT doubles holam before shin (enosh -> 'e.No.osh): encoding artifact."
+  },
+  "STRESS default": {
+   "max": 33,
+   "ours": true,
+   "why": "Prepositive accent only, no table entry; ours final stress. TAHOT capitalises the prepositive accent's syllable. A few directional -ah forms (petorah) are genuinely unclear."
+  },
+  "f>p": {
+   "max": 27,
+   "ours": true,
+   "why": "TAHOT writes undotted pe before final -eh as p (tissafeh, yefeh)."
+  },
+  "a>osh": {
+   "max": 24,
+   "ours": true,
+   "why": "Issachar: second (undotted) shin is silent; TAHOT garbles it."
+  },
+  "y>i": {
+   "max": 14,
+   "ours": true,
+   "why": "Scheme: final -uy / -oy written y by us, i by TAHOT."
+  },
+  "el>_": {
+   "max": 11,
+   "ours": true,
+   "why": "Shva under the first of two identical letters is vocal (halelu); TAHOT drops a syllable."
+  },
+  "i>o": {
+   "max": 11,
+   "ours": null,
+   "why": "Ketiv/qere: TAHOT follows the other reading (tallinu / tallonu)."
+  },
+  "av>o": {
+   "max": 11,
+   "ours": true,
+   "why": "TAHOT drops final bet after qamats in zahav (za.ho): artifact."
+  },
+  "_>ame | mo>_": {
+   "max": 10,
+   "ours": true,
+   "why": "Qal inf. cstr. with suffix: qamats qatan (keshom`o); TAHOT reads sha.me."
+  },
+  "le>_": {
+   "max": 10,
+   "ours": true,
+   "why": "Vocal shva under the first of two identical letters (qilelatekha); TAHOT omits."
+  },
+  "u>i": {
+   "max": 10,
+   "ours": null,
+   "why": "Ketiv/qere or vowel variant (qeru'e / qeri'e)."
+  },
+  "_>i": {
+   "max": 10,
+   "ours": null,
+   "why": "Source oddity: WLC points he with shva in vehenneh (Judg 3:25 and similar); TAHOT normalises to hiriq."
+  },
+  "STRESS segolate": {
+   "max": 9,
+   "ours": true,
+   "why": "Segolate fallback (vayyitser): TAHOT capitalises the final syllable."
+  },
+  "_>y": {
+   "max": 9,
+   "ours": true,
+   "why": "Scheme: TAHOT writes a glide before furtive patach after hiriq (yegia` -> ye.Gi.ya')."
+  },
+  "a>_": {
+   "max": 9,
+   "ours": true,
+   "why": "TAHOT drops a hatef patach (tishtachaveh)."
+  },
+  "en>_": {
+   "max": 7,
+   "ours": true,
+   "why": "TAHOT drops a syllable in hineni (hi./Ni)."
+  },
+  "a>e": {
+   "max": 7,
+   "ours": null,
+   "why": "Ketiv/qere: TAHOT follows the other reading (vayyusam)."
+  },
+  "o>i": {
+   "max": 7,
+   "ours": null,
+   "why": "Ketiv/qere: vayyillonu / vayyilinu."
+  },
+  "y>_": {
+   "max": 7,
+   "ours": true,
+   "why": "TAHOT drops the final yod of oy."
+  },
+  "u>ah": {
+   "max": 7,
+   "ours": null,
+   "why": "Ketiv/qere: vehayu / vehayah."
+  },
+  "_>u": {
+   "max": 6,
+   "ours": null,
+   "why": "Ketiv/qere: TAHOT row is the other reading (vayyomer / vayyomeru)."
+  },
+  "i>u": {
+   "max": 5,
+   "ours": null,
+   "why": "Ketiv/qere: asire / asure."
+  },
+  "ay>_ | _>i": {
+   "max": 5,
+   "ours": null,
+   "why": "Ketiv/qere: benayot / nevayot."
+  }
+ }
+}

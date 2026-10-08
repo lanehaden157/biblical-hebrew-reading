@@ -13,7 +13,7 @@ no deadline. Lane already decodes pointed text; Unit 0 is a 1-week calibration.
 | Topic | Decision |
 |---|---|
 | Corpus | Gen, Exod, Num, Josh, Judg, Ruth, 1–2 Sam, 1–2 Kgs, Jonah. Prose only; embedded poems and Aramaic removed |
-| Translit | b/v k/kh p/f by dagesh; dagesh forte doubled; vocal shva `e`; qamats qatan `o`; shown on tap after Unit 0, setting for always-on |
+| Translit | b/v k/kh p/f by dagesh; dagesh forte doubled; vocal shva `e`; qamats qatan `o`; v, ch, ts, `` ` ``; alef `'` medial only; final he `h`; acute on non-final stress. `pipeline/translit.py`. Shown on tap after Unit 0, setting for always-on |
 | Divine name | Pointed as printed; translit `YHWH`; gloss "YHWH (the LORD)" |
 | Glosses | Seeded from STEPBible TBESH, curated per occurrence vs BDB; source + `reviewed` flag; ~50 per unit for Lane to review |
 | Reveal | Gloss line + WEB translation (needs verified verse map) |

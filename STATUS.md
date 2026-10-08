@@ -9,3 +9,11 @@ Phase log for the v1 rebuild (see `BUILD_PLAN.md`). Pre-rebuild history: tag `v0
 - `pipeline/corpus.py` -> `build/tokens.jsonl` (125,378 read tokens, 377 qere, 2 unread ketiv, 2 Aramaic, 1,788 poem tokens). Config in `corpus_config.json`.
 - Gate `verify_corpus.py` (8 s): consonants identical to BHSA in all 11 books. 10 verses lack a sof-pasuq in the WLC text (informational).
 - Next: Phase 1 transliterator.
+
+## Phase 1 — Transliterator (built 2026-10-08; Lane check pending)
+- `pipeline/translit.py`: syllable-based. Stress from accents (positional accents, WLC qadma/zarqa+pashta/zinor pairs, silluq, maqqef = unstressed), corpus stress table for positional-only words, segolate fallback. Morph/lemma used for qamats+shva (Qal inf/impv qatan vs other verbs) and kol.
+- Gate `verify_translit.py` (23 s): golden 55/55; vs TAHOT 97.24% letter-equal on 124,212 aligned tokens; stress agrees 85,762/86,484. 3,852 disagreements in 34 explained buckets (`translit_expected.json`; TAHOT artifacts, Tiberian vs TAHOT choices, ketiv/qere), 225 in a small tail.
+- M14: the source has no U+05C7; qamats qatan is inferred. Lexical open-syllable qatan list `QATAN_OPEN` (qodesh, oniyyah, shoresh).
+- Spot-check 1 (Lane, 49/50): furtive stress now marked (rúach, hammizbéach; 1,615 tokens). Targeted qatan check fixed prefix qamats (ha'oniyyah, barohatim) and qodashim.
+- Spot-check 2 (Lane, 50/50 clean): chose vayehi (vocal shva after vav-consecutive, ~890 tokens) and kept final he `h` for silent and mappiq alike.
+- Spot-check list: `python -X utf8 pipeline/translit_sample.py` -> `build/translit_spotcheck.md`.

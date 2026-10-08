@@ -34,7 +34,7 @@ Each phase ends with a `verify_*.py` gate and, where marked, a **Lane check** be
 - One corpus loader → token table (id, ref, surface, morpheme split, lemma, morph, ketiv/qere, maqqef link, accents, poem/Aramaic flags). Everything downstream reads this, nothing re-parses XML.
 - Gate: `verify_corpus.py` (token counts per book, qere handling, flags).
 
-### Phase 1 — Transliterator
+### Phase 1 — Transliterator — built 2026-10-08, awaiting Lane check
 - Syllable-based: accent/meteg-driven stress, dagesh forte vs lene, vocal shva, qamats qatan, furtive patach, maqqef context, YHWH override, qere-perpetuum list.
 - Gate: corpus-wide comparison against TAHOT's independent transliteration (via a scheme-mapping table); every disagreement category explained or fixed. Unit tests on a golden set.
 - **Lane check:** 50 random words spot-checked by ear.

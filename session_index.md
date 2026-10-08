@@ -10,3 +10,5 @@
 - 2026-09-12 (run from the Joshua project session): pinned sources. Added AugIndex/LexicalIndex to the corpus, fetch_corpus.py now pulls all 4 lexicon files, and npm pins morphhb 2.0.2 with verified integrity. Summary is in Projects\Joshua\session_summary_2026-09-12.md.
 - 2026-10-07: Decided on full v1 rebuild. Q&A resolved spec open questions (Q1–Q6, R1–R3, corpus, sync dropped). Wrote BUILD_PLAN.md (Phases 0–7). No code changes.
 - 2026-10-07 (2): Phase 0 done. Reset to v0-legacy tag, new CLAUDE.md/SPEC.md, pinned fetch layer, corpus loader (125,378 tokens), verify_corpus.py passes (matches BHSA consonants).
+- 2026-10-08: Phase 1 transliterator built; gate passes (98% letter-equal vs TAHOT, all big disagreement buckets explained). Scheme details settled with Lane. Awaiting 50-word spot-check.
+- 2026-10-08 (2): Phase 1 signed off after 2 spot-checks (furtive stress, lexical qatan, vayehi); committed locally. Phase 2 next in new chat.
