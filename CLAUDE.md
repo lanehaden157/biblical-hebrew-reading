@@ -1,150 +1,63 @@
-# Biblical Hebrew reading curriculum
+# Biblical Hebrew reading curriculum (v1 rebuild)
 
-Self-built interactive curriculum. Phone-first PWA on GitHub Pages.
+Phone-first PWA on GitHub Pages. Spec: `SPEC.md`. Plan: `BUILD_PLAN.md`. Phase log: `STATUS.md`.
+Old implementation: tag `v0-legacy`. Where `SPEC.md` and any other doc disagree, the spec wins.
 
 ## Goal
 
-Lane reads Exodus 3 and 14 unaided. **Recognition-level reading comprehension** —
-not academic mastery, not production, not translation for a grade. Hobby pace.
-Lane is starting from zero; no prior Hebrew assumed.
+Lane reads Exodus 3 and 14 unaided. Recognition-level reading, narrative prose, hobby pace,
+no deadline. Lane already decodes pointed text; Unit 0 is a 1-week calibration.
 
-Horizon: roughly 11–13 months at a loose daily habit. There is no deadline and no exam.
+## Decisions
 
-1. **Always be extremely careful when you hand-type pointed Hebrew.** Every Hebrew string and every parse answer key is ideally generated from the OSHB corpus and verified against it programmatically.
-   Source: `npm pack morphhb` (CC BY 4.0, ~20 MB, ~30s). WLC text is public domain.
-   This extends to app source: **no Hebrew letters in any `/app/` file.** Every glyph the
-   user sees is fetched from `/data` at runtime. Mechanically checkable — grep `/app/` for
-   U+05D0–U+05EA and expect zero hits. Source from OSHB whenever possible.
+| Topic | Decision |
+|---|---|
+| Corpus | Gen, Exod, Num, Josh, Judg, Ruth, 1–2 Sam, 1–2 Kgs, Jonah. Prose only; embedded poems and Aramaic removed |
+| Translit | b/v k/kh p/f by dagesh; dagesh forte doubled; vocal shva `e`; qamats qatan `o`; shown on tap after Unit 0, setting for always-on |
+| Divine name | Pointed as printed; translit `YHWH`; gloss "YHWH (the LORD)" |
+| Glosses | Seeded from STEPBible TBESH, curated per occurrence vs BDB; source + `reviewed` flag; ~50 per unit for Lane to review |
+| Reveal | Gloss line + WEB translation (needs verified verse map) |
+| Verb cards | Per lemma+stem when ≥20 tokens and distinct meaning |
+| Parse check | OSHB vs ETCBC BHSA; disagreements quarantined |
+| Session | Guided Today flow, ~8 min, silent roll-over, no counters or streaks |
+| SRS | ts-fsrs, pinned CDN version. Do not reimplement |
+| Persistence | localStorage + JSON export/import. Versioned schema. No sync, no audio |
 
-## Strong suggestions
+## Trust rules (strongly suggested; they are the reason for the rebuild)
 
-Everything below is a default worth following, not a wall. Deviate when there's a good
-reason, and say what the reason was.
+1. Hebrew text, lemma and parse come only from the corpus. No hand-typed Hebrew, including lessons (reference token ids). No Hebrew letters in `/app/` (grep U+05D0–U+05EA).
+2. Parses cross-checked against BHSA; disagreements quarantined and listed.
+3. Every gloss stores source + reviewed flag; unreviewed ones are visibly marked.
+4. Transliteration comes from one tested function over the corpus text.
+5. Ambiguous surface forms are shown in their verse and graded against that token's tag.
+6. Every item has a report-a-problem tap that quarantines it.
 
-2. **Avoid applying NFC or NFD normalization to Hebrew text.**
-3. **Every generation step should ship a verification script.**
-4. **Every Hebrew form shown to the user should get transliteration + gloss in some capacity.**
-5. **Prefer no fixed session length, no streaks, no guilt mechanics.**
-6. **Persisted state should be versioned; try not to silently destroy review history.**
-
-## Transliteration scheme
-
-Plain ASCII, chosen to survive copy-paste and phone keyboards:
-
-```
-' b g d h w z kh t y k l m n s ` p ts q r sh s t
-```
-
-`'` = alef, `` ` `` = ayin. Two distinct consonants, both silent-looking in English.
-
-Implementation: `pipeline/transliterate.py`. Its docstring is the authority on the edge
-cases the scheme above doesn't state. Read the docstring before re-deriving a rule from scratch.
-
-## Curriculum decisions
-
-- **Vocabulary target: ~600 lemmas** (= 80% token coverage).
-- **Cards are Hebrew → English only.**
-- **Teach REVERSE-parsing** (form → root + stem + conjugation + PGN).
-- **Sequencing: hybrid** — grammar-led, real text early.
-- **Binyan order by measured frequency** (Qal most common, down to Hitpael); Pual (0.6%),
-  Hophal (0.6%), and rarer stems: recognition only, never drilled.
-- **Conjugation priority:** qatal, wayyiqtol, yiqtol, participle (= 71.7% of verb forms),
-  then infinitive construct (= 80.8% cumulative).
-- **Reading order:** Jonah → Ruth → Genesis narrative chapters → Exodus 3, 14.
-- **Poetry excluded from v1.** Psalms 73.6%, Isaiah 72.1%, Song 55.0% top-600 coverage.
-- **Font: system default.** Verified correct niqqud placement on iPhone (Claude app webview,
-  WebKit). No webfont bundle needed. Re-verify once in Safari after first deploy.
-- **SRS: ts-fsrs** (MIT, via jsDelivr CDN, pinned version — never `@latest`).
-  Do not reimplement a scheduler. Note the CDN is the one thing preventing true offline
-  use; when offline matters, vendor the file into the repo rather than dropping ts-fsrs.
-- **Persistence: localStorage + a JSON export button, plus optional cross-device sync.**
-  Per-device by default. `app/sync.js` adds an opt-in path: paste a GitHub token into
-  Settings, and progress round-trips through a private Gist.
-- **Undo, scoped narrower than Reset.** `resetAll()` wipes every card ever reviewed
-  (backed up first, per hard rule 6). `undoSession()` undoes just the current session.
-
-## Tiers
-
-| | | |
-|---|---|---|
-| 0 | Script + pointing | ~3 wk — **done**, disposable prototype |
-| 1 | Noun phrase system | ~7 wk |
-| 2 | Qal + narrative chain | ~12 wk |
-| 3 | Weak verbs, one class at a time | ~14 wk |
-| 4 | Derived stems | ~9 wk |
-| 5 | Sustained reading | ongoing |
+Also: avoid NFC/NFD normalisation of Hebrew; every generator ships a `verify_*.py`; pin every
+source by version and sha256 and record its licence; prefer no streaks or guilt mechanics.
 
 ## Repo layout
 
 ```
-/data/          generated JSON. Never edited by hand. Regenerated by /pipeline.
-/pipeline/      Python. OSHB XML + lexicon -> data/*.json. Ships verify_*.py alongside.
-/app/           static JS/CSS/HTML. Reads /data. No build step. See conventions below.
-/glosses/       curated English glosses, keyed by Strong's number. Hand-authored, reviewed.
-index.html      entry point
-CLAUDE.md       this file
+SPEC.md  BUILD_PLAN.md  STATUS.md  CLAUDE.md
+sources/    pinned downloads (gitignored) + sources.lock
+pipeline/   Python: fetch -> corpus loader -> token table -> generators, each with verify_*.py
+data/       generated JSON, never hand-edited
+glosses/    curated glosses (hand-reviewed, with source + reviewed flag)
+app/        vanilla ES modules, no build step, no framework, no analytics
+index.html
 ```
 
-Content (JSON) stays separate from engine (JS) so drill banks can be regenerated and
-expanded without touching app code.
+## App conventions
 
-### App conventions
-
-Vanilla ES modules. No framework, no bundler, no build step — what's in the repo is what
-runs. One module per concern (`store.js`, `srs.js`, `feedback.js`, `theme.js`, `sync.js`)
-plus one per view. No analytics, no telemetry. The only external requests are the pinned
-ts-fsrs CDN URL, and — only once Lane pastes a token into Settings — `sync.js` talking
-directly to `api.github.com`.
-
-## Deployment
-
-Live at `https://lanehaden157.github.io/biblical-hebrew-reading/`, GitHub Pages serving
-from the repo root on `main`. Pages serves from a **subpath**, not a domain root, so every
-fetch, `src`, and `href` in `/app/` must be relative (`../data/…`), never root-absolute
-(`/data/…`). Root-absolute paths work perfectly on localhost and 404 in production — this
-is the single most likely deploy-time failure, and it looks like a data problem, not a
-path problem.
-
-## Data sources
-
-- **Corpus:** `openscriptures/morphhb` — WLC with 100% morphology coverage.
-  Word tags carry `lemma` (Strong's, `/`-separated by morpheme), `morph` (e.g. `HC/Vqw3ms`),
-  and a stable `id`. Morph codes: `Vqw3ms` = verb, Qal, wayyiqtol, 3ms. `Ncmsc` = noun,
-  common, masc, sing, construct. Note morph position codes are compact —
-  `Ncmsa` is 5 characters. An off-by-one in a regex here silently selects wrong forms.
-- **Lexicon:** `openscriptures/HebrewLexicon` — Strong's + BDB, keyed by the same numbers.
-  Strong's `meaning` is a usable draft but archaic and sometimes misleading
-  (*nefesh* as "a breathing creature", *chesed* as "mercy"). Always curate before shipping.
-
-Any change to `pipeline/transliterate.py` requires rebuilding every data file that bakes in a transliteration.
-
-## Current status
-
-Phase history lives in `STATUS.md`, not here.
+Pages serves from a subpath: every fetch/src/href in `/app/` is relative (`../data/…`), never
+root-absolute. One module per concern. Only external request: the pinned ts-fsrs CDN URL.
 
 ## Working style
 
-How this project actually runs, distilled from the phase history in `STATUS.md` and from
-direct corrections Lane has given.
-
-**Building**
-
-- **Two-step build then deploy when correctness or a real design choice is at stake.** 
-- **Whenever you have a question about direction or implementation that you're not sure about, instead of wasting lots of time thinking and going back and forth, ask Lane directly for his input, then move forward. You should not hesitate to ask several times during the same build session if warranted**
-
-**Verifying**
-
-- **Skip self-directed browser verification after an edit; ask Lane to confirm instead.**
-- **Some real bugs only surface when Lane uses the shipped app on his phone.**
-
-**Curating**
-
-- **Glosses get checked against source per occurrence, not shipped from the dictionary's
-  lead sense.** When a word's "obvious" gloss doesn't fit a specific verse, check
-  BDB/the surrounding Hebrew for the sense actually in play.
-
-**Reporting**
-
-- State magnitudes with units. Say plainly when something is fine.
-- When Lane pushes back, recheck the arithmetic or the source. Do not reflexively concede
-  or reflexively defend.
+- Ask Lane when direction or design is unclear; asking several times in a session is fine.
+- Skip self-directed browser verification after edits; ask Lane to confirm on his phone.
+- Check glosses per occurrence against BDB, not the dictionary's lead sense.
+- Keep docs terse. State magnitudes with units; say plainly when something is fine.
+- If Lane pushes back, recheck the arithmetic or source before conceding or defending.
+- Dev server: port 8123, `preview_start` config "hebrew".
+- Session files (`session_index.md`, `improvements_log.md`, `session_summary_*.md`) per the global instructions.
