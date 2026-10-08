@@ -73,6 +73,7 @@ Each phase ends with a `verify_*.py` gate and, where marked, a **Lane check** be
 - Ambiguous surfaces (trust rule 5): `ambiguous_surfaces.json`, keyed by surface without accents/meteg.
 - Weak class per verb lemma comes from the aligned BHSA lexeme (`weak_class()` in measure.py).
 - TBESH glosses in the measures are hints only (OSHB augment letters are mapped naively to TBESH's).
+- Lane decisions affecting content (SPEC section 7): hishtachaveh (H7812) = one lemma+stem card, no stem facet; Unit 11 forms = rule-opaque only, so the Unit 3-10 marker/rule list must exist before the Unit 11 form set is picked.
 - Python sources: write Hebrew codepoints as `chr(0x5D0)`; the Write tool turns backslash-u escapes into literal Hebrew.
 
 ## Handoff notes for Phase 2 (from Phase 1)
