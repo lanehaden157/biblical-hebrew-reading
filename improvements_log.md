@@ -65,3 +65,4 @@
 - Removed legacy package.json, package-lock.json, morphology-reference.md, transliteration-reference.md.
 - Lesson layout: Hebrew inline with English text, translit on tap in parentheses; Exit button on every session screen.
 - Settings: hide cantillation accents toggle (strips U+0591-05AF at render).
+- lessons/unit0.md: L0.10 accents, L0.11 silluq/meteg (no rafe lesson: the corpus has none). Rebuilt lessons.json, units.json.

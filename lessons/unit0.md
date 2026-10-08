@@ -95,3 +95,31 @@ The app shows the text exactly as printed, transliterates it YHWH, and glosses i
 "YHWH (the LORD)". Say it however you prefer: adonai, the LORD, or YHWH.
 
 {Jonah.1.1#3} YHWH, {Jonah.1.4#1} vaYHWH, {Jonah.1.16#9} laYHWH.
+
+## L0.10 Accent marks: stress and phrasing
+
+Besides vowels, many words carry a small mark above or below a letter. These are accents
+(cantillation). They do two jobs.
+
+First, they mark the stressed syllable. In {Gen.1.1#5} ("the heavens") the mark sits on the
+syllable that gets the stress; the transliteration shows the same place with an acute accent.
+
+Second, they work as punctuation. Some mean "pause here", some mean "run on to the next word".
+The word {Gen.1.1#3} ("God") carries the mid-verse pause mark.
+
+You do not need their names. Treat them as stress marks and phrase breaks, and read the vowels.
+The Settings page can hide accents if they distract you.
+
+## L0.11 The vertical line: silluq and meteg
+
+A short vertical line under a letter is one shape with two names.
+
+On the last word of a verse it is the silluq, the "full stop" accent, and it sits under the
+stressed syllable: {Gen.1.1#7} ("the earth"), {Gen.1.5#13} ("one").
+
+Elsewhere in the verse the same line is a meteg, a secondary stress mark. It sits just left of
+a vowel: {Gen.1.3#5} ("and there was"). It does not change the sounds. It often hints that a shva
+next to it is vocal, as in this word, the same one as in lesson L0.1.
+
+Rule of thumb: a vertical line at the end of a verse means stress and full stop; a vertical
+line mid-verse can be ignored when decoding.
