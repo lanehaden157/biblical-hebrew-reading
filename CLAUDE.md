@@ -15,7 +15,7 @@ no deadline. Lane already decodes pointed text; Unit 0 is a 1-week calibration.
 | Corpus | Gen, Exod, Num, Josh, Judg, Ruth, 1–2 Sam, 1–2 Kgs, Jonah. Prose only; embedded poems and Aramaic removed |
 | Translit | b/v k/kh p/f by dagesh; dagesh forte doubled; vocal shva `e`; qamats qatan `o`; v, ch, ts, `` ` ``; alef `'` medial only; final he `h`; acute on non-final stress. `pipeline/translit.py`. Shown on tap after Unit 0, setting for always-on |
 | Divine name | Pointed as printed; translit `YHWH`; gloss "YHWH (the LORD)" |
-| Glosses | Seeded from STEPBible TBESH, curated per occurrence vs BDB; source + `reviewed` flag; ~50 per unit for Lane to review |
+| Glosses | Seeded from STEPBible TBESH, curated per occurrence vs BDB; source + `reviewed` flag; no upfront review: Lane flags problems while studying (2026-10-08) |
 | Reveal | Gloss line + WEB translation (needs verified verse map) |
 | Verb cards | Per lemma+stem when ≥20 tokens and distinct meaning |
 | Parse check | OSHB vs ETCBC BHSA; disagreements quarantined |
@@ -27,7 +27,7 @@ no deadline. Lane already decodes pointed text; Unit 0 is a 1-week calibration.
 
 1. Hebrew text, lemma and parse come only from the corpus. No hand-typed Hebrew, including lessons (reference token ids). No Hebrew letters in `/app/` (grep U+05D0–U+05EA).
 2. Parses cross-checked against BHSA; disagreements quarantined and listed.
-3. Every gloss stores source + reviewed flag; unreviewed ones are visibly marked.
+3. Every gloss stores source + reviewed flag (reviewed = Lane fixed or confirmed it via a report).
 4. Transliteration comes from one tested function over the corpus text.
 5. Ambiguous surface forms are shown in their verse and graded against that token's tag.
 6. Every item has a report-a-problem tap that quarantines it.

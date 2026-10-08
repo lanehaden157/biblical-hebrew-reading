@@ -18,7 +18,7 @@ Where it conflicts with the current CLAUDE.md, the spec wins; CLAUDE.md gets rew
 | Audio (R2) | Not in v1 |
 | Session | Spec's guided Today flow (~8 min, silent roll-over, no counters) |
 | Frequency corpus (Q2) | Gen, Exod, Num, Josh, Judg, Ruth, 1–2 Sam, 1–2 Kgs, Jonah. Prose only, embedded poems removed. No late books, no Lev/Deut |
-| Glosses (Q4/Q5) | Seeded from STEPBible TBESH, curated per occurrence vs BDB, source + `reviewed` flag; Lane reviews ~50/unit. Reveal shows gloss line + WEB translation |
+| Glosses (Q4/Q5) | Seeded from STEPBible TBESH, curated per occurrence vs BDB, source + `reviewed` flag; no upfront review; Lane reports problems while studying (2026-10-08). Reveal shows gloss line + WEB translation |
 | Verb cards (Q6) | Card per lemma+stem when stem has ≥20 tokens and a distinct meaning |
 | Parse cross-check | OSHB vs ETCBC BHSA; disagreements quarantined |
 | Sync | Dropped. localStorage + export/import only |
@@ -47,7 +47,7 @@ Each phase ends with a `verify_*.py` gate and, where marked, a **Lane check** be
 ### Phase 3 — Content, Units 0–3 — Units 0–1 built 2026-10-08 (review page out to Lane); Units 2–3 next
 - Ranked lemma deck; gloss seeding + per-occurrence curation (source + `reviewed` flag); morpheme items; whole-form verb items (M6); names; micro-reading pools M8a–c; Unit 0–3 lessons (Hebrew referenced by token id only).
 - Each generator ships its verifier.
-- **Lane check:** gloss review batch for Units 0–3.
+- ~~Lane check: gloss review batch~~ dropped 2026-10-08; report-a-problem in Phase 4 feeds `apply_review.py`.
 
 ### Phase 4 — App core (first usable slice)
 - Vanilla ES modules, no build step, relative paths only. Versioned store schema; ts-fsrs pinned via CDN.

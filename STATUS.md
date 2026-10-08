@@ -30,5 +30,5 @@ Phase log for the v1 rebuild (see `BUILD_PLAN.md`). Pre-rebuild history: tag `v0
 - WEB's Strong's tags sit one verse off in renumbered chapters (Gen 32, Exod 8, ...), so the map is checked against TAHOT English instead: 16 weak verses (cap 25).
 - Items `build_items.py`: lemma queue 1-750 (573 dictionary-form fronts, 157 bare, 20 in-word), Unit 0 (37 reading words, 60 decode checks with rule-based distractors), Unit 1 (14 prefix items, 8 verb forms, 40 micro-readings). Lessons `build_lessons.py`: 18 (Units 0-1). Gate `verify_content.py` (~1 s).
 - Curated glosses: lemmas 1-50 (per TBESH sense), 8 forms, 14 morphemes, all unreviewed.
-- Review page: https://claude.ai/artifact/PtU2bU41Fshzt4dWBi9KBh (72 items). Decisions -> `apply_review.py`.
-- Next: apply Lane's review; Units 2-3 content (lemmas 51-190, 30 morphemes, 61 forms, names, M8b/M8c pools, lessons).
+- Upfront gloss review dropped (Lane, 2026-10-08): problems get reported while studying. Review page artifact PtU2bU41Fshzt4dWBi9KBh unused; `apply_review.py` kept for folding in reports.
+- Next: Units 2-3 content (lemmas 51-190, 30 morphemes, 61 forms, names, M8b/M8c pools, lessons).
