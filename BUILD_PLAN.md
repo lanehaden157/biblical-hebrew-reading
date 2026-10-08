@@ -27,7 +27,7 @@ Where it conflicts with the current CLAUDE.md, the spec wins; CLAUDE.md gets rew
 
 Each phase ends with a `verify_*.py` gate and, where marked, a **Lane check** before the next starts.
 
-### Phase 0 — Reset and foundations
+### Phase 0 — Reset and foundations — DONE 2026-10-07 (commits cfd509b, c6143ac; not pushed)
 - Tag `v0-legacy`; remove old `app/ data/ pipeline/ glosses/` from `main`.
 - Commit spec as `SPEC.md` with Q1–Q6, R1–R3 resolved inline. Write a new `CLAUDE.md` from scratch (not an edit of the old one): goal, decisions table above, trust rules, repo layout, working style. Keep it short; guidelines framed as strong suggestions. **Lane check** on the draft. Restart `STATUS.md`.
 - New fetch layer: pinned version + sha256 for every source — OSHB morphhb, HebrewLexicon (BDB), STEPBible-Data (TBESH, TAHOT), BHSA (Text-Fabric, trimmed to needed features), WEB (public domain, USFM). Records each source's licence file.
@@ -65,6 +65,25 @@ Each phase ends with a `verify_*.py` gate and, where marked, a **Lane check** be
 
 ### Phase 7 — Units 11–12
 - Exodus 3/14 top-up (M10); milestone mode (hidden help, logged lookups); pace forecast from M12 data.
+
+## Handoff notes for the next phase (from Phase 0)
+
+- Token table: `python -X utf8 pipeline/corpus.py` -> `build/tokens.jsonl` (gitignored; regenerate on a fresh clone after `python pipeline/fetch_sources.py`). Field list is in the `pipeline/corpus.py` docstring. Read tokens only via `corpus.load_tokens()`.
+- Qere: the written ketiv is in the token's `ketiv` field; the token itself is the qere reading. `read=False` tokens (Ruth 3:12, 2 Kgs 5:18) are written but not read; skip them.
+- Parts: `parts[i]` = {text, lemma, morph}; text and morph always align 1:1; suffix morphemes (morph `Sp…`) usually have no lemma.
+- OSHB ids use Hebrew versification (Jonah 2:1 = English 1:17). WEB needs a verse map (TVTMS is fetched).
+- BHSA reader: `pipeline/tf.py`. STEPBible TAHOT/TBESH are in `sources/stepbible/` (Gen-Deu, Jos-Est, Isa-Mal; Jonah is in Isa-Mal).
+- Gate for any phase: run its `verify_*.py` and keep it under ~1 minute.
+- Still-present legacy files (`index.html`, `manifest.webmanifest`, `package.json`, `*-reference.md`): delete when Phase 4 replaces the app. Do not push until then.
+
+## Working lessons (apply from Phase 1)
+
+- Profile before guessing. Time each step when something is slow; the real cause was a quadratic `difflib` on 80k-letter strings, found only after several guesses.
+- Never use `difflib.SequenceMatcher` on whole books. Compare for equality first, then report the first mismatch.
+- Programmatic file edits can silently no-op (`str.replace` with no match). Assert the match or use the Edit tool, and re-run the check.
+- Run verifiers in the foreground with a short timeout; if over ~30 s, stop and profile instead of waiting.
+- Give Lane a one-line status whenever a step runs more than a minute.
+- Inspect a data source's format once up front (headers, blank lines, versification) before writing a parser.
 
 ## Known risks
 - TAHOT uses its own transliteration scheme; the mapping table may leave a residue of unexplained differences. Fallback: a larger golden set.
