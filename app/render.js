@@ -27,6 +27,11 @@ export function clusters(s) {
   return out;
 }
 
+// cantillation accents are U+0591..U+05AF; vowels, dagesh and meteg are kept
+export function stripAccents(s) {
+  return [...s].filter(ch => { const cp = ch.codePointAt(0); return cp < 0x591 || cp > 0x5AF; }).join('');
+}
+
 function partRange(tok, i) {
   let a = 0;
   for (let j = 0; j < i; j++) a += clusters(tok.p[j][0]).length;
@@ -36,7 +41,7 @@ function partRange(tok, i) {
 // o: {hl (part index), hlc (cluster ranges), tr: 'tap'|'show'|'none', gloss: bool, mark: bool, onTap}
 export function word(tok, o = {}) {
   const ranges = o.hlc || (o.hl != null ? [partRange(tok, o.hl)] : []);
-  const cl = clusters(tok.s);
+  const cl = clusters(tok.s).map(c => (state().settings.hideAccents ? stripAccents(c) : c));
   const he = h('span', { class: 'he', lang: 'he', dir: 'rtl' });
   let run = null, runHl = null;
   cl.forEach((c, i) => {

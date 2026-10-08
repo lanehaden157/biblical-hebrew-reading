@@ -55,6 +55,7 @@ function settingsScreen() {
   };
   root.replaceChildren(h('h2', {}, 'Settings'),
     toggle('Always show transliteration', 'translit'),
+    toggle('Hide cantillation accents (keeps vowels)', 'hideAccents'),
     toggle('5-minute day (review and one reading, no new items)', 'fiveMin'));
 }
 
