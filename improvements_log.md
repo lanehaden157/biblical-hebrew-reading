@@ -45,3 +45,7 @@
 - SPEC Q1 / CLAUDE.md translit row extended with Lane's 2026-10-08 scheme answers.
 - 2026-10-08: Spot-check fixes: acute on furtive-patach stress; QATAN_OPEN lemma list; prefix qamats never qatan and makes following shva vocal; hatef-qamats rule limited to one morpheme; dagesh after shva on non-bgdkpt not doubled. Golden 53.
 - 2026-10-08: Spot-check 2: shva after vav-consecutive always vocal (vayehi); golden 55.
+
+## 2026-10-08 — Phase 2 measurement
+- Added pipeline/align_bhsa.py, measure.py, verify_measures.py; MEASURES.md (findings + generated M1-M11, M13, poem candidates); data/measures/*.json; data/parse_quarantine.json (690 tokens).
+- 2026-10-08: Lane decisions recorded in SPEC section 7; corpus_config adds poems 2 Sam 1:19-27, 2 Kgs 19:21-28.

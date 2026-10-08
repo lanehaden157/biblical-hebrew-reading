@@ -198,7 +198,7 @@ Item budget: 750 ranked lemmas, 60 morpheme items, 45 marker/rule items, 300 who
 - **Prerequisites:** Unit 5.
 - **Lessons:** participle as "-ing / one who" (endings as on nouns; o-e vowel pattern in Qal); hinneh + participle; infinitive construct with l- ("to do": la`asot, Gen 2:3) and with b-/k- + suffix ("when he..."); wayhi + time phrase; infinitive absolute as recognition-only emphasis.
 - **Vocabulary:** ranks 331–400. **Markers:** 5. **Whole verb forms:** 35. **Names:** next 10 (include Jonah's cast).
-- **Reading:** Jonah 1; 2:1–2, 11; 3; 4 (Hebrew versification; the psalm is skipped). MEASURE M11: coverage of each chapter at entry. Help level "Reader": glosses always visible for lemmas beyond rank 750 or not yet introduced; tap for anything else; parses on tap; audio optional. Each chapter is read twice, at least 3 days apart.
+- **Reading:** Gen 12:1–9 first (decided 2026-10-08: 90.7% coverage at rank 400 vs Jonah 1 at 80.5%), then Jonah 1; 2:1–2, 11; 3; 4 (Hebrew versification; the psalm is skipped). MEASURE M11: coverage of each chapter at entry. Help level "Reader": glosses always visible for lemmas beyond rank 750 or not yet introduced; tap for anything else; parses on tap; audio optional. Each chapter is read twice, at least 3 days apart.
 - **Parsing asked:** conjugation + PGN + root (choose from 4).
 - **Mastery:** on second reading of Jonah 3, help rate ≤ 15 per 100 words and spot check ≥ 4/5.
 
@@ -247,7 +247,7 @@ Item budget: 750 ranked lemmas, 60 morpheme items, 45 marker/rule items, 300 who
 ### Unit 11. Exodus approach (28 days, up to 110 items)
 - **Goal:** know every word and verb form in Exod 3 and Exod 14 before reading them cold.
 - **Prerequisites:** Unit 10; frequency queue at rank ≥ 750 or paused by choice.
-- **Content:** MEASURE M10a: every lemma in Exod 3 and 14 not yet introduced (budget 80), taught in order of corpus frequency. MEASURE M10b: every inflected verb form in the two chapters whose parse the learner's history does not yet cover (budget 30). Names: any remaining.
+- **Content:** MEASURE M10a: every lemma in Exod 3 and 14 not yet introduced (budget 80), taught in order of corpus frequency. MEASURE M10b: every inflected verb form in the two chapters whose parse the learner's history does not yet cover (budget 30). Decided 2026-10-08: M10b found 128 forms outside the top 300; teach as whole forms only those the Unit 3–10 rules do not explain, drilled in their verse. Names: any remaining.
 - **Note:** this is the one place vocabulary is passage-targeted. It is a top-up after the frequency core, not an ordering principle. If M10a exceeds 120, extend the unit; do not shrink the core.
 - **Reading:** none of Exod 3 or 14 yet. Re-read Exod 1–2 and one Genesis passage with help off.
 - **Mastery:** ≥ 95% of the lemmas and forms occurring in Exod 3 and 14 are "known"; retention ≥ 88%.
@@ -351,6 +351,7 @@ Original wording of R1–R3 and Q1–Q6 is replaced by the outcomes below. `BUIL
 - **Q5. Reveal translation.** Gloss line plus WEB translation (needs a verified Hebrew-to-English verse map).
 - **Q6. Verb cards.** One card per lemma+stem when the stem has at least 20 tokens (M5) and a distinct meaning.
 - **Sync.** Dropped. localStorage plus export/import only.
+- **Phase 2 (2026-10-08, from MEASURES.md).** Core stays 750 lemmas. Unit 11 forms: rule-opaque ones only (see Unit 11). Gen 12:1–9 opens Unit 6. Poems 2 Sam 1:19–27 and 2 Kgs 19:21–28 removed; short couplets kept. Hishtachaveh (H7812): one lemma+stem card "bow down", stem facet not asked (OSHB and BHSA disagree).
 
 ### Where this plan is most likely to fail at 5–10 minutes a day
 1. **Review load crowds out reading.** Mitigation: time-boxed review, automatic throttling of new items, protected reading block.

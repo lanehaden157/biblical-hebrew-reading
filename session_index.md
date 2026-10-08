@@ -12,3 +12,4 @@
 - 2026-10-07 (2): Phase 0 done. Reset to v0-legacy tag, new CLAUDE.md/SPEC.md, pinned fetch layer, corpus loader (125,378 tokens), verify_corpus.py passes (matches BHSA consonants).
 - 2026-10-08: Phase 1 transliterator built; gate passes (98% letter-equal vs TAHOT, all big disagreement buckets explained). Scheme details settled with Lane. Awaiting 50-word spot-check.
 - 2026-10-08 (2): Phase 1 signed off after 2 spot-checks (furtive stress, lexical qatan, vayehi); committed locally. Phase 2 next in new chat.
+- 2026-10-08 (3): Phase 2 measurement built (M1-M11, M13 + OSHB/BHSA alignment), gate passes. Lane decided all 5 (750 core, rule-opaque Unit 11 forms, Gen 12 first, 2 long poems out, hishtachaveh one card); committed.

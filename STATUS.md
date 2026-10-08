@@ -17,3 +17,10 @@ Phase log for the v1 rebuild (see `BUILD_PLAN.md`). Pre-rebuild history: tag `v0
 - Spot-check 1 (Lane, 49/50): furtive stress now marked (rúach, hammizbéach; 1,615 tokens). Targeted qatan check fixed prefix qamats (ha'oniyyah, barohatim) and qodashim.
 - Spot-check 2 (Lane, 50/50 clean): chose vayehi (vocal shva after vav-consecutive, ~890 tokens) and kept final he `h` for silent and mappiq alike.
 - Spot-check list: `python -X utf8 pipeline/translit_sample.py` -> `build/translit_spotcheck.md`.
+
+## Phase 2 — Measurement (done 2026-10-08)
+- `pipeline/align_bhsa.py`: OSHB morpheme -> BHSA word by consonant position (streams identical; qere not aligned).
+- `pipeline/measure.py` (~40 s) -> `MEASURES.md`, `data/measures/*.json`, `data/parse_quarantine.json`. Gate `verify_measures.py` (~7 s) recounts headline numbers independently and checks every pool item.
+- Headlines: 750 lemmas = 92.5% lemma coverage; Exod 3/14 92.4%/94.4%; Qal strong 6.3% of verbs; top 300 forms = 43.9% of verb tokens; Exodus top-up 36 lemmas (budget 80) but 128 forms (budget 30); M13 quarantine 690 tokens.
+- Lane decisions: core 750; Unit 11 teaches only rule-opaque forms; Gen 12:1-9 opens Unit 6; 2 Sam 1:19-27 and 2 Kgs 19:21-28 now poems (corpus 123,358 tokens); hishtachaveh one card, no stem facet. Recorded in SPEC section 7.
+- Next: Phase 3 content, Units 0-3.

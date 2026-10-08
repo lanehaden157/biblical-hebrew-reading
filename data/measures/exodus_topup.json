@@ -1,0 +1,1525 @@
+{
+ "M10a": [
+  {
+   "lemma": "5090 a",
+   "rank": 775,
+   "corpus_count": 12,
+   "in_chapters": 2,
+   "gloss_hint": "to lead"
+  },
+  {
+   "lemma": "5641",
+   "rank": 779,
+   "corpus_count": 12,
+   "in_chapters": 1,
+   "gloss_hint": "to hide"
+  },
+  {
+   "lemma": "2100",
+   "rank": 801,
+   "corpus_count": 11,
+   "in_chapters": 2,
+   "gloss_hint": "to flow: flowing"
+  },
+  {
+   "lemma": "3004",
+   "rank": 806,
+   "corpus_count": 11,
+   "in_chapters": 3,
+   "gloss_hint": "dry land"
+  },
+  {
+   "lemma": "8259",
+   "rank": 846,
+   "corpus_count": 11,
+   "in_chapters": 1,
+   "gloss_hint": "to look"
+  },
+  {
+   "lemma": "6381",
+   "rank": 888,
+   "corpus_count": 10,
+   "in_chapters": 1,
+   "gloss_hint": "to wonder"
+  },
+  {
+   "lemma": "6818",
+   "rank": 894,
+   "corpus_count": 10,
+   "in_chapters": 2,
+   "gloss_hint": "cry"
+  },
+  {
+   "lemma": "7991 c",
+   "rank": 898,
+   "corpus_count": 10,
+   "in_chapters": 1,
+   "gloss_hint": "officer"
+  },
+  {
+   "lemma": "1988",
+   "rank": 912,
+   "corpus_count": 9,
+   "in_chapters": 1,
+   "gloss_hint": "here"
+  },
+  {
+   "lemma": "2822",
+   "rank": 916,
+   "corpus_count": 9,
+   "in_chapters": 1,
+   "gloss_hint": "darkness"
+  },
+  {
+   "lemma": "5275",
+   "rank": 934,
+   "corpus_count": 9,
+   "in_chapters": 1,
+   "gloss_hint": "sandal"
+  },
+  {
+   "lemma": "6040",
+   "rank": 938,
+   "corpus_count": 9,
+   "in_chapters": 2,
+   "gloss_hint": "affliction"
+  },
+  {
+   "lemma": "5065",
+   "rank": 1009,
+   "corpus_count": 8,
+   "in_chapters": 1,
+   "gloss_hint": "to oppress"
+  },
+  {
+   "lemma": "212",
+   "rank": 1041,
+   "corpus_count": 7,
+   "in_chapters": 1,
+   "gloss_hint": "wheel"
+  },
+  {
+   "lemma": "1097",
+   "rank": 1046,
+   "corpus_count": 7,
+   "in_chapters": 1,
+   "gloss_hint": "without"
+  },
+  {
+   "lemma": "6921",
+   "rank": 1104,
+   "corpus_count": 7,
+   "in_chapters": 1,
+   "gloss_hint": "east"
+  },
+  {
+   "lemma": "7387",
+   "rank": 1111,
+   "corpus_count": 7,
+   "in_chapters": 1,
+   "gloss_hint": "emptily"
+  },
+  {
+   "lemma": "2724",
+   "rank": 1152,
+   "corpus_count": 6,
+   "in_chapters": 1,
+   "gloss_hint": "dry ground"
+  },
+  {
+   "lemma": "2000",
+   "rank": 1252,
+   "corpus_count": 5,
+   "in_chapters": 1,
+   "gloss_hint": "to confuse"
+  },
+  {
+   "lemma": "5572",
+   "rank": 1303,
+   "corpus_count": 5,
+   "in_chapters": 5,
+   "gloss_hint": "bush"
+  },
+  {
+   "lemma": "5794",
+   "rank": 1309,
+   "corpus_count": 5,
+   "in_chapters": 1,
+   "gloss_hint": "strong"
+  },
+  {
+   "lemma": "3906",
+   "rank": 1429,
+   "corpus_count": 4,
+   "in_chapters": 1,
+   "gloss_hint": "oppression"
+  },
+  {
+   "lemma": "7934",
+   "rank": 1498,
+   "corpus_count": 4,
+   "in_chapters": 1,
+   "gloss_hint": "neighboring"
+  },
+  {
+   "lemma": "821",
+   "rank": 1537,
+   "corpus_count": 3,
+   "in_chapters": 1,
+   "gloss_hint": "watch"
+  },
+  {
+   "lemma": "5394",
+   "rank": 1646,
+   "corpus_count": 3,
+   "in_chapters": 1,
+   "gloss_hint": "to slip"
+  },
+  {
+   "lemma": "7342",
+   "rank": 1715,
+   "corpus_count": 3,
+   "in_chapters": 1,
+   "gloss_hint": "Broad"
+  },
+  {
+   "lemma": "2143",
+   "rank": 1832,
+   "corpus_count": 2,
+   "in_chapters": 1,
+   "gloss_hint": "memorial"
+  },
+  {
+   "lemma": "3444",
+   "rank": 1891,
+   "corpus_count": 2,
+   "in_chapters": 1,
+   "gloss_hint": "salvation"
+  },
+  {
+   "lemma": "5287",
+   "rank": 1983,
+   "corpus_count": 2,
+   "in_chapters": 1,
+   "gloss_hint": "to shake"
+  },
+  {
+   "lemma": "386",
+   "rank": 2187,
+   "corpus_count": 1,
+   "in_chapters": 1,
+   "gloss_hint": "strong"
+  },
+  {
+   "lemma": "943",
+   "rank": 2230,
+   "corpus_count": 1,
+   "in_chapters": 1,
+   "gloss_hint": "to perplex"
+  },
+  {
+   "lemma": "3517",
+   "rank": 2454,
+   "corpus_count": 1,
+   "in_chapters": 1,
+   "gloss_hint": "heaviness"
+  },
+  {
+   "lemma": "3827",
+   "rank": 2480,
+   "corpus_count": 1,
+   "in_chapters": 1,
+   "gloss_hint": "flame"
+  },
+  {
+   "lemma": "4341",
+   "rank": 2532,
+   "corpus_count": 1,
+   "in_chapters": 1,
+   "gloss_hint": "pain"
+  },
+  {
+   "lemma": "5226",
+   "rank": 2630,
+   "corpus_count": 1,
+   "in_chapters": 1,
+   "gloss_hint": "before"
+  }
+ ],
+ "M10b": [
+  {
+   "translit": "hiqriv",
+   "ref": "Exod.14.10",
+   "lemma": "7126",
+   "morph": "HVhp3ms",
+   "parse": "Hiphil qatal 3ms",
+   "in_chapters": 1,
+   "corpus_rank": 952
+  },
+  {
+   "translit": "noséa`",
+   "ref": "Exod.14.10",
+   "lemma": "5265",
+   "morph": "HVqrmsa",
+   "parse": "Qal participle ms",
+   "in_chapters": 1,
+   "corpus_rank": 2234
+  },
+  {
+   "translit": "vayyire'u",
+   "ref": "Exod.14.10",
+   "lemma": "c/3372",
+   "morph": "HC/Vqw3mp",
+   "parse": "w Qal wayyiqtol 3mp",
+   "in_chapters": 2,
+   "corpus_rank": 325
+  },
+  {
+   "translit": "vayyits`aqu",
+   "ref": "Exod.14.10",
+   "lemma": "c/6817",
+   "morph": "HC/Vqw3mp",
+   "parse": "w Qal wayyiqtol 3mp",
+   "in_chapters": 1,
+   "corpus_rank": 1071
+  },
+  {
+   "translit": "leqachtánu",
+   "ref": "Exod.14.11",
+   "lemma": "3947",
+   "morph": "HVqp2ms/Sp1cp",
+   "parse": "Qal qatal 2ms +sfx 1cp",
+   "in_chapters": 1,
+   "corpus_rank": 4524
+  },
+  {
+   "translit": "lehotsi'ánu",
+   "ref": "Exod.14.11",
+   "lemma": "l/3318",
+   "morph": "HR/Vhc/Sp1cp",
+   "parse": "prep Hiphil inf. cstr. +sfx 1cp",
+   "in_chapters": 1,
+   "corpus_rank": 4525
+  },
+  {
+   "translit": "dibbárnu",
+   "ref": "Exod.14.12",
+   "lemma": "1696",
+   "morph": "HVpp1cp",
+   "parse": "Piel qatal 1cp",
+   "in_chapters": 1,
+   "corpus_rank": 1479
+  },
+  {
+   "translit": "chadal",
+   "ref": "Exod.14.12",
+   "lemma": "2308",
+   "morph": "HVqv2ms",
+   "parse": "Qal imperative 2ms",
+   "in_chapters": 1,
+   "corpus_rank": 4526
+  },
+  {
+   "translit": "vena`avdah",
+   "ref": "Exod.14.12",
+   "lemma": "c/5647",
+   "morph": "HC/Vqh1cp",
+   "parse": "w Qal cohortative 1cp",
+   "in_chapters": 1,
+   "corpus_rank": 4527
+  },
+  {
+   "translit": "`avod",
+   "ref": "Exod.14.12",
+   "lemma": "5647",
+   "morph": "HVqc",
+   "parse": "Qal inf. cstr.",
+   "in_chapters": 1,
+   "corpus_rank": 4528
+  },
+  {
+   "translit": "mimmuténu",
+   "ref": "Exod.14.12",
+   "lemma": "m/4191",
+   "morph": "HR/Vqc/Sp1cp",
+   "parse": "prep Qal inf. cstr. +sfx 1cp",
+   "in_chapters": 1,
+   "corpus_rank": 4529
+  },
+  {
+   "translit": "tirá'u",
+   "ref": "Exod.14.13",
+   "lemma": "3372",
+   "morph": "HVqj2mp",
+   "parse": "Qal jussive 2mp",
+   "in_chapters": 1,
+   "corpus_rank": 586
+  },
+  {
+   "translit": "hityatsvu",
+   "ref": "Exod.14.13",
+   "lemma": "3320",
+   "morph": "HVtv2mp",
+   "parse": "Hithpael imperative 2mp",
+   "in_chapters": 1,
+   "corpus_rank": 4530
+  },
+  {
+   "translit": "ure'u",
+   "ref": "Exod.14.13",
+   "lemma": "c/7200",
+   "morph": "HC/Vqv2mp",
+   "parse": "w Qal imperative 2mp",
+   "in_chapters": 1,
+   "corpus_rank": 303
+  },
+  {
+   "translit": "re'item",
+   "ref": "Exod.14.13",
+   "lemma": "7200",
+   "morph": "HVqp2mp",
+   "parse": "Qal qatal 2mp",
+   "in_chapters": 1,
+   "corpus_rank": 678
+  },
+  {
+   "translit": "tosífu",
+   "ref": "Exod.14.13",
+   "lemma": "3254",
+   "morph": "HVhi2mp",
+   "parse": "Hiphil yiqtol 2mp",
+   "in_chapters": 1,
+   "corpus_rank": 4531
+  },
+  {
+   "translit": "lir'otam",
+   "ref": "Exod.14.13",
+   "lemma": "l/7200",
+   "morph": "HR/Vqc/Sp3mp",
+   "parse": "prep Qal inf. cstr. +sfx 3mp",
+   "in_chapters": 1,
+   "corpus_rank": 4532
+  },
+  {
+   "translit": "yillachem",
+   "ref": "Exod.14.14",
+   "lemma": "3898 a",
+   "morph": "HVNi3ms",
+   "parse": "Niphal yiqtol 3ms",
+   "in_chapters": 1,
+   "corpus_rank": 4533
+  },
+  {
+   "translit": "tacharishun",
+   "ref": "Exod.14.14",
+   "lemma": "2790 b",
+   "morph": "HVhi2mp/Sn",
+   "parse": "Hiphil yiqtol 2mp +par. nun",
+   "in_chapters": 1,
+   "corpus_rank": 4534
+  },
+  {
+   "translit": "tits`aq",
+   "ref": "Exod.14.15",
+   "lemma": "6817",
+   "morph": "HVqi2ms",
+   "parse": "Qal yiqtol 2ms",
+   "in_chapters": 1,
+   "corpus_rank": 4535
+  },
+  {
+   "translit": "veyissá`u",
+   "ref": "Exod.14.15",
+   "lemma": "c/5265",
+   "morph": "HC/Vqj3mp",
+   "parse": "w Qal jussive 3mp",
+   "in_chapters": 1,
+   "corpus_rank": 4536
+  },
+  {
+   "translit": "harem",
+   "ref": "Exod.14.16",
+   "lemma": "7311 a",
+   "morph": "HVhv2ms",
+   "parse": "Hiphil imperative 2ms",
+   "in_chapters": 1,
+   "corpus_rank": 4537
+  },
+  {
+   "translit": "uneteh",
+   "ref": "Exod.14.16",
+   "lemma": "c/5186",
+   "morph": "HC/Vqv2ms",
+   "parse": "w Qal imperative 2ms",
+   "in_chapters": 1,
+   "corpus_rank": 2194
+  },
+  {
+   "translit": "uveqa`éhu",
+   "ref": "Exod.14.16",
+   "lemma": "c/1234",
+   "morph": "HC/Vqv2ms/Sp3ms",
+   "parse": "w Qal imperative 2ms +sfx 3ms",
+   "in_chapters": 1,
+   "corpus_rank": 4538
+  },
+  {
+   "translit": "veyavó'u",
+   "ref": "Exod.14.16",
+   "lemma": "c/935",
+   "morph": "HC/Vqi3mp",
+   "parse": "w Qal yiqtol 3mp",
+   "in_chapters": 2,
+   "corpus_rank": 1480
+  },
+  {
+   "translit": "mechazzeq",
+   "ref": "Exod.14.17",
+   "lemma": "2388",
+   "morph": "HVprmsa",
+   "parse": "Piel participle ms",
+   "in_chapters": 1,
+   "corpus_rank": 4539
+  },
+  {
+   "translit": "behikkavedi",
+   "ref": "Exod.14.18",
+   "lemma": "b/3513",
+   "morph": "HR/VNc/Sp1cs",
+   "parse": "prep Niphal inf. cstr. +sfx 1cs",
+   "in_chapters": 1,
+   "corpus_rank": 4540
+  },
+  {
+   "translit": "vayyissa`",
+   "ref": "Exod.14.19",
+   "lemma": "c/5265",
+   "morph": "HC/Vqw3ms",
+   "parse": "w Qal wayyiqtol 3ms",
+   "in_chapters": 2,
+   "corpus_rank": 371
+  },
+  {
+   "translit": "haholekh",
+   "ref": "Exod.14.19",
+   "lemma": "d/1980",
+   "morph": "HTd/Vqrmsa",
+   "parse": "Qal participle ms",
+   "in_chapters": 1,
+   "corpus_rank": 755
+  },
+  {
+   "translit": "veyashúvu",
+   "ref": "Exod.14.2",
+   "lemma": "c/7725",
+   "morph": "HC/Vqj3mp",
+   "parse": "w Qal jussive 3mp",
+   "in_chapters": 2,
+   "corpus_rank": 2230
+  },
+  {
+   "translit": "veyachanu",
+   "ref": "Exod.14.2",
+   "lemma": "c/2583",
+   "morph": "HC/Vqj3mp",
+   "parse": "w Qal jussive 3mp",
+   "in_chapters": 1,
+   "corpus_rank": 4515
+  },
+  {
+   "translit": "tachanu",
+   "ref": "Exod.14.2",
+   "lemma": "2583",
+   "morph": "HVqi2mp",
+   "parse": "Qal yiqtol 2mp",
+   "in_chapters": 1,
+   "corpus_rank": 4516
+  },
+  {
+   "translit": "vayyá'er",
+   "ref": "Exod.14.20",
+   "lemma": "c/215",
+   "morph": "HC/Vhw3ms",
+   "parse": "w Hiphil wayyiqtol 3ms",
+   "in_chapters": 1,
+   "corpus_rank": 4541
+  },
+  {
+   "translit": "qarav",
+   "ref": "Exod.14.20",
+   "lemma": "7126",
+   "morph": "HVqp3ms",
+   "parse": "Qal qatal 3ms",
+   "in_chapters": 1,
+   "corpus_rank": 1294
+  },
+  {
+   "translit": "vayyólekh",
+   "ref": "Exod.14.21",
+   "lemma": "c/3212",
+   "morph": "HC/Vhw3ms",
+   "parse": "w Hiphil wayyiqtol 3ms",
+   "in_chapters": 1,
+   "corpus_rank": 4542
+  },
+  {
+   "translit": "vayyibbaqe`u",
+   "ref": "Exod.14.21",
+   "lemma": "c/1234",
+   "morph": "HC/VNw3mp",
+   "parse": "w Niphal wayyiqtol 3mp",
+   "in_chapters": 1,
+   "corpus_rank": 4543
+  },
+  {
+   "translit": "vayyashqef",
+   "ref": "Exod.14.24",
+   "lemma": "c/8259",
+   "morph": "HC/Vhw3ms",
+   "parse": "w Hiphil wayyiqtol 3ms",
+   "in_chapters": 1,
+   "corpus_rank": 970
+  },
+  {
+   "translit": "vayyáhom",
+   "ref": "Exod.14.24",
+   "lemma": "c/2000",
+   "morph": "HC/Vqw3ms",
+   "parse": "w Qal wayyiqtol 3ms",
+   "in_chapters": 1,
+   "corpus_rank": 2235
+  },
+  {
+   "translit": "vayyásar",
+   "ref": "Exod.14.25",
+   "lemma": "c/5493",
+   "morph": "HC/Vhw3ms",
+   "parse": "w Hiphil wayyiqtol 3ms",
+   "in_chapters": 1,
+   "corpus_rank": 477
+  },
+  {
+   "translit": "vayenahagéhu",
+   "ref": "Exod.14.25",
+   "lemma": "c/5090 a",
+   "morph": "HC/Vpw3ms/Sp3ms",
+   "parse": "w Piel wayyiqtol 3ms +sfx 3ms",
+   "in_chapters": 1,
+   "corpus_rank": 4544
+  },
+  {
+   "translit": "anúsah",
+   "ref": "Exod.14.25",
+   "lemma": "5127",
+   "morph": "HVqh1cs",
+   "parse": "Qal cohortative 1cs",
+   "in_chapters": 1,
+   "corpus_rank": 4545
+  },
+  {
+   "translit": "nilcham",
+   "ref": "Exod.14.25",
+   "lemma": "3898 a",
+   "morph": "HVNrmsa",
+   "parse": "Niphal participle ms",
+   "in_chapters": 1,
+   "corpus_rank": 856
+  },
+  {
+   "translit": "neteh",
+   "ref": "Exod.14.26",
+   "lemma": "5186",
+   "morph": "HVqv2ms",
+   "parse": "Qal imperative 2ms",
+   "in_chapters": 1,
+   "corpus_rank": 446
+  },
+  {
+   "translit": "lifnot",
+   "ref": "Exod.14.27",
+   "lemma": "l/6437",
+   "morph": "HR/Vqc",
+   "parse": "prep Qal inf. cstr.",
+   "in_chapters": 1,
+   "corpus_rank": 1319
+  },
+  {
+   "translit": "nasim",
+   "ref": "Exod.14.27",
+   "lemma": "5127",
+   "morph": "HVqrmpa",
+   "parse": "Qal participle mp",
+   "in_chapters": 1,
+   "corpus_rank": 2236
+  },
+  {
+   "translit": "vayena`er",
+   "ref": "Exod.14.27",
+   "lemma": "c/5287",
+   "morph": "HC/Vpw3ms",
+   "parse": "w Piel wayyiqtol 3ms",
+   "in_chapters": 1,
+   "corpus_rank": 4546
+  },
+  {
+   "translit": "vayekhassu",
+   "ref": "Exod.14.28",
+   "lemma": "c/3680",
+   "morph": "HC/Vpw3mp",
+   "parse": "w Piel wayyiqtol 3mp",
+   "in_chapters": 1,
+   "corpus_rank": 1858
+  },
+  {
+   "translit": "habba'im",
+   "ref": "Exod.14.28",
+   "lemma": "d/935",
+   "morph": "HTd/Vqrmpa",
+   "parse": "Qal participle mp",
+   "in_chapters": 1,
+   "corpus_rank": 395
+  },
+  {
+   "translit": "nevukhim",
+   "ref": "Exod.14.3",
+   "lemma": "943",
+   "morph": "HVNrmpa",
+   "parse": "Niphal participle mp",
+   "in_chapters": 1,
+   "corpus_rank": 4517
+  },
+  {
+   "translit": "sagar",
+   "ref": "Exod.14.3",
+   "lemma": "5462",
+   "morph": "HVqp3ms",
+   "parse": "Qal qatal 3ms",
+   "in_chapters": 1,
+   "corpus_rank": 781
+  },
+  {
+   "translit": "vayyósha`",
+   "ref": "Exod.14.30",
+   "lemma": "c/3467",
+   "morph": "HC/Vhw3ms",
+   "parse": "w Hiphil wayyiqtol 3ms",
+   "in_chapters": 1,
+   "corpus_rank": 1481
+  },
+  {
+   "translit": "vayya'amínu",
+   "ref": "Exod.14.31",
+   "lemma": "c/539",
+   "morph": "HC/Vhw3mp",
+   "parse": "w Hiphil wayyiqtol 3mp",
+   "in_chapters": 1,
+   "corpus_rank": 2237
+  },
+  {
+   "translit": "vechizzaqti",
+   "ref": "Exod.14.4",
+   "lemma": "c/2388",
+   "morph": "HC/Vpq1cs",
+   "parse": "w Piel weqatal 1cs",
+   "in_chapters": 1,
+   "corpus_rank": 4518
+  },
+  {
+   "translit": "veradaf",
+   "ref": "Exod.14.4",
+   "lemma": "c/7291",
+   "morph": "HC/Vqq3ms",
+   "parse": "w Qal weqatal 3ms",
+   "in_chapters": 1,
+   "corpus_rank": 4519
+  },
+  {
+   "translit": "ve'ikkavedah",
+   "ref": "Exod.14.4",
+   "lemma": "c/3513",
+   "morph": "HC/VNh1cs",
+   "parse": "w Niphal cohortative 1cs",
+   "in_chapters": 2,
+   "corpus_rank": 2231
+  },
+  {
+   "translit": "veyade`u",
+   "ref": "Exod.14.4",
+   "lemma": "c/3045",
+   "morph": "HC/Vqq3cp",
+   "parse": "w Qal weqatal 3cp",
+   "in_chapters": 2,
+   "corpus_rank": 843
+  },
+  {
+   "translit": "varach",
+   "ref": "Exod.14.5",
+   "lemma": "1272",
+   "morph": "HVqp3ms",
+   "parse": "Qal qatal 3ms",
+   "in_chapters": 1,
+   "corpus_rank": 1344
+  },
+  {
+   "translit": "vayyehafekh",
+   "ref": "Exod.14.5",
+   "lemma": "c/2015",
+   "morph": "HC/VNw3ms",
+   "parse": "w Niphal wayyiqtol 3ms",
+   "in_chapters": 1,
+   "corpus_rank": 4520
+  },
+  {
+   "translit": "vayyomru",
+   "ref": "Exod.14.5",
+   "lemma": "c/559",
+   "morph": "HC/Vqw3mp",
+   "parse": "w Qal wayyiqtol 3mp",
+   "in_chapters": 1,
+   "corpus_rank": 2232
+  },
+  {
+   "translit": "`asínu",
+   "ref": "Exod.14.5",
+   "lemma": "6213 a",
+   "morph": "HVqp1cp",
+   "parse": "Qal qatal 1cp",
+   "in_chapters": 1,
+   "corpus_rank": 1324
+  },
+  {
+   "translit": "shilláchnu",
+   "ref": "Exod.14.5",
+   "lemma": "7971",
+   "morph": "HVpp1cp",
+   "parse": "Piel qatal 1cp",
+   "in_chapters": 1,
+   "corpus_rank": 4521
+  },
+  {
+   "translit": "me`ovdénu",
+   "ref": "Exod.14.5",
+   "lemma": "m/5647",
+   "morph": "HR/Vqc/Sp1cp",
+   "parse": "prep Qal inf. cstr. +sfx 1cp",
+   "in_chapters": 1,
+   "corpus_rank": 4522
+  },
+  {
+   "translit": "vayye'sor",
+   "ref": "Exod.14.6",
+   "lemma": "c/631",
+   "morph": "HC/Vqw3ms",
+   "parse": "w Qal wayyiqtol 3ms",
+   "in_chapters": 1,
+   "corpus_rank": 1420
+  },
+  {
+   "translit": "bachur",
+   "ref": "Exod.14.7",
+   "lemma": "977",
+   "morph": "HVqsmsa",
+   "parse": "Qal pass. participle ms",
+   "in_chapters": 1,
+   "corpus_rank": 601
+  },
+  {
+   "translit": "vayechazzeq",
+   "ref": "Exod.14.8",
+   "lemma": "c/2388",
+   "morph": "HC/Vpw3ms",
+   "parse": "w Piel wayyiqtol 3ms",
+   "in_chapters": 1,
+   "corpus_rank": 598
+  },
+  {
+   "translit": "vayyirdof",
+   "ref": "Exod.14.8",
+   "lemma": "c/7291",
+   "morph": "HC/Vqw3ms",
+   "parse": "w Qal wayyiqtol 3ms",
+   "in_chapters": 1,
+   "corpus_rank": 423
+  },
+  {
+   "translit": "yotse'im",
+   "ref": "Exod.14.8",
+   "lemma": "3318",
+   "morph": "HVqrmpa",
+   "parse": "Qal participle mp",
+   "in_chapters": 1,
+   "corpus_rank": 692
+  },
+  {
+   "translit": "ramah",
+   "ref": "Exod.14.8",
+   "lemma": "7311 a",
+   "morph": "HVqrfsa",
+   "parse": "Qal participle fs",
+   "in_chapters": 1,
+   "corpus_rank": 2233
+  },
+  {
+   "translit": "vayyirdefu",
+   "ref": "Exod.14.9",
+   "lemma": "c/7291",
+   "morph": "HC/Vqw3mp",
+   "parse": "w Qal wayyiqtol 3mp",
+   "in_chapters": 2,
+   "corpus_rank": 302
+  },
+  {
+   "translit": "vayyassígu",
+   "ref": "Exod.14.9",
+   "lemma": "c/5381",
+   "morph": "HC/Vhw3mp",
+   "parse": "w Hiphil wayyiqtol 3mp",
+   "in_chapters": 1,
+   "corpus_rank": 4523
+  },
+  {
+   "translit": "chonim",
+   "ref": "Exod.14.9",
+   "lemma": "2583",
+   "morph": "HVqrmpa",
+   "parse": "Qal participle mp",
+   "in_chapters": 1,
+   "corpus_rank": 855
+  },
+  {
+   "translit": "ro`eh",
+   "ref": "Exod.3.1",
+   "lemma": "7462 b",
+   "morph": "HVqrmsa",
+   "parse": "Qal participle ms",
+   "in_chapters": 1,
+   "corpus_rank": 581
+  },
+  {
+   "translit": "choteno",
+   "ref": "Exod.3.1",
+   "lemma": "2859 a",
+   "morph": "HVqrmsc/Sp3ms",
+   "parse": "Qal participle ms +sfx 3ms",
+   "in_chapters": 1,
+   "corpus_rank": 518
+  },
+  {
+   "translit": "vayyinhag",
+   "ref": "Exod.3.1",
+   "lemma": "c/5090 a",
+   "morph": "HC/Vqw3ms",
+   "parse": "w Qal wayyiqtol 3ms",
+   "in_chapters": 1,
+   "corpus_rank": 1342
+  },
+  {
+   "translit": "ve'eshlachakha",
+   "ref": "Exod.3.10",
+   "lemma": "c/7971",
+   "morph": "HC/Vqi1cs/Sp2ms",
+   "parse": "w Qal yiqtol 1cs +sfx 2ms",
+   "in_chapters": 1,
+   "corpus_rank": 2051
+  },
+  {
+   "translit": "vehotse",
+   "ref": "Exod.3.10",
+   "lemma": "c/3318",
+   "morph": "HC/Vhv2ms",
+   "parse": "w Hiphil imperative 2ms",
+   "in_chapters": 1,
+   "corpus_rank": 4288
+  },
+  {
+   "translit": "elekh",
+   "ref": "Exod.3.11",
+   "lemma": "3212",
+   "morph": "HVqi1cs",
+   "parse": "Qal yiqtol 1cs",
+   "in_chapters": 1,
+   "corpus_rank": 386
+  },
+  {
+   "translit": "otsi",
+   "ref": "Exod.3.11",
+   "lemma": "3318",
+   "morph": "HVhi1cs",
+   "parse": "Hiphil yiqtol 1cs",
+   "in_chapters": 1,
+   "corpus_rank": 4289
+  },
+  {
+   "translit": "shelachtíkha",
+   "ref": "Exod.3.12",
+   "lemma": "7971",
+   "morph": "HVqp1cs/Sp2ms",
+   "parse": "Qal qatal 1cs +sfx 2ms",
+   "in_chapters": 1,
+   "corpus_rank": 2161
+  },
+  {
+   "translit": "behotsi'akha",
+   "ref": "Exod.3.12",
+   "lemma": "b/3318",
+   "morph": "HR/Vhc/Sp2ms",
+   "parse": "prep Hiphil inf. cstr. +sfx 2ms",
+   "in_chapters": 1,
+   "corpus_rank": 2162
+  },
+  {
+   "translit": "ta`avdun",
+   "ref": "Exod.3.12",
+   "lemma": "5647",
+   "morph": "HVqi2mp/Sn",
+   "parse": "Qal yiqtol 2mp +par. nun",
+   "in_chapters": 1,
+   "corpus_rank": 4290
+  },
+  {
+   "translit": "va",
+   "ref": "Exod.3.13",
+   "lemma": "935",
+   "morph": "HVqrmsa",
+   "parse": "Qal participle ms",
+   "in_chapters": 1,
+   "corpus_rank": 585
+  },
+  {
+   "translit": "ve'amarti",
+   "ref": "Exod.3.13",
+   "lemma": "c/559",
+   "morph": "HC/Vqq1cs",
+   "parse": "w Qal weqatal 1cs",
+   "in_chapters": 1,
+   "corpus_rank": 2163
+  },
+  {
+   "translit": "ve'ameru",
+   "ref": "Exod.3.13",
+   "lemma": "c/559",
+   "morph": "HC/Vqq3cp",
+   "parse": "w Qal weqatal 3cp",
+   "in_chapters": 1,
+   "corpus_rank": 1066
+  },
+  {
+   "translit": "omar",
+   "ref": "Exod.3.13",
+   "lemma": "559",
+   "morph": "HVqi1cs",
+   "parse": "Qal yiqtol 1cs",
+   "in_chapters": 1,
+   "corpus_rank": 329
+  },
+  {
+   "translit": "tomar",
+   "ref": "Exod.3.14",
+   "lemma": "559",
+   "morph": "HVqi2ms",
+   "parse": "Qal yiqtol 2ms",
+   "in_chapters": 2,
+   "corpus_rank": 375
+  },
+  {
+   "translit": "ve'asafta",
+   "ref": "Exod.3.16",
+   "lemma": "c/622",
+   "morph": "HC/Vqq2ms",
+   "parse": "w Qal weqatal 2ms",
+   "in_chapters": 1,
+   "corpus_rank": 2164
+  },
+  {
+   "translit": "nir'ah",
+   "ref": "Exod.3.16",
+   "lemma": "7200",
+   "morph": "HVNp3ms",
+   "parse": "Niphal qatal 3ms",
+   "in_chapters": 1,
+   "corpus_rank": 348
+  },
+  {
+   "translit": "paqod",
+   "ref": "Exod.3.16",
+   "lemma": "6485 a",
+   "morph": "HVqa",
+   "parse": "Qal inf. abs.",
+   "in_chapters": 1,
+   "corpus_rank": 836
+  },
+  {
+   "translit": "paqádti",
+   "ref": "Exod.3.16",
+   "lemma": "6485 a",
+   "morph": "HVqp1cs",
+   "parse": "Qal qatal 1cs",
+   "in_chapters": 1,
+   "corpus_rank": 2165
+  },
+  {
+   "translit": "he`asuy",
+   "ref": "Exod.3.16",
+   "lemma": "d/6213 a",
+   "morph": "HTd/Vqsmsa",
+   "parse": "Qal pass. participle ms",
+   "in_chapters": 1,
+   "corpus_rank": 2166
+  },
+  {
+   "translit": "a`aleh",
+   "ref": "Exod.3.17",
+   "lemma": "5927",
+   "morph": "HVhi1cs",
+   "parse": "Hiphil yiqtol 1cs",
+   "in_chapters": 1,
+   "corpus_rank": 1067
+  },
+  {
+   "translit": "veshame`u",
+   "ref": "Exod.3.18",
+   "lemma": "c/8085",
+   "morph": "HC/Vqq3cp",
+   "parse": "w Qal weqatal 3cp",
+   "in_chapters": 1,
+   "corpus_rank": 2167
+  },
+  {
+   "translit": "uvata",
+   "ref": "Exod.3.18",
+   "lemma": "c/935",
+   "morph": "HC/Vqq2ms",
+   "parse": "w Qal weqatal 2ms",
+   "in_chapters": 1,
+   "corpus_rank": 635
+  },
+  {
+   "translit": "va'amartem",
+   "ref": "Exod.3.18",
+   "lemma": "c/559",
+   "morph": "HC/Vqq2mp",
+   "parse": "w Qal weqatal 2mp",
+   "in_chapters": 1,
+   "corpus_rank": 337
+  },
+  {
+   "translit": "niqrah",
+   "ref": "Exod.3.18",
+   "lemma": "7136 a",
+   "morph": "HVNp3ms",
+   "parse": "Niphal qatal 3ms",
+   "in_chapters": 1,
+   "corpus_rank": 4291
+  },
+  {
+   "translit": "nelakhah",
+   "ref": "Exod.3.18",
+   "lemma": "3212",
+   "morph": "HVqh1cp",
+   "parse": "Qal cohortative 1cp",
+   "in_chapters": 1,
+   "corpus_rank": 1442
+  },
+  {
+   "translit": "venizbechah",
+   "ref": "Exod.3.18",
+   "lemma": "c/2076",
+   "morph": "HC/Vqh1cp",
+   "parse": "w Qal cohortative 1cp",
+   "in_chapters": 1,
+   "corpus_rank": 2168
+  },
+  {
+   "translit": "lahalokh",
+   "ref": "Exod.3.19",
+   "lemma": "l/1980",
+   "morph": "HR/Vqc",
+   "parse": "prep Qal inf. cstr.",
+   "in_chapters": 1,
+   "corpus_rank": 2169
+  },
+  {
+   "translit": "bo`er",
+   "ref": "Exod.3.2",
+   "lemma": "1197 a",
+   "morph": "HVqrmsa",
+   "parse": "Qal participle ms",
+   "in_chapters": 1,
+   "corpus_rank": 4275
+  },
+  {
+   "translit": "ukkal",
+   "ref": "Exod.3.2",
+   "lemma": "398",
+   "morph": "HVQsmsa",
+   "parse": "Qal passive pass. participle ms",
+   "in_chapters": 1,
+   "corpus_rank": 4276
+  },
+  {
+   "translit": "veshalachti",
+   "ref": "Exod.3.20",
+   "lemma": "c/7971",
+   "morph": "HC/Vqq1cs",
+   "parse": "w Qal weqatal 1cs",
+   "in_chapters": 1,
+   "corpus_rank": 1000
+  },
+  {
+   "translit": "vehikketi",
+   "ref": "Exod.3.20",
+   "lemma": "c/5221",
+   "morph": "HC/Vhq1cs",
+   "parse": "w Hiphil weqatal 1cs",
+   "in_chapters": 1,
+   "corpus_rank": 1068
+  },
+  {
+   "translit": "nifle'otay",
+   "ref": "Exod.3.20",
+   "lemma": "6381",
+   "morph": "HVNrfpc/Sp1cs",
+   "parse": "Niphal participle fp +sfx 1cs",
+   "in_chapters": 1,
+   "corpus_rank": 4292
+  },
+  {
+   "translit": "yeshallach",
+   "ref": "Exod.3.20",
+   "lemma": "7971",
+   "morph": "HVpi3ms",
+   "parse": "Piel yiqtol 3ms",
+   "in_chapters": 1,
+   "corpus_rank": 1443
+  },
+  {
+   "translit": "telekhun",
+   "ref": "Exod.3.21",
+   "lemma": "3212",
+   "morph": "HVqi2mp/Sn",
+   "parse": "Qal yiqtol 2mp +par. nun",
+   "in_chapters": 1,
+   "corpus_rank": 4293
+  },
+  {
+   "translit": "telekhu",
+   "ref": "Exod.3.21",
+   "lemma": "3212",
+   "morph": "HVqi2mp",
+   "parse": "Qal yiqtol 2mp",
+   "in_chapters": 1,
+   "corpus_rank": 4294
+  },
+  {
+   "translit": "vesha'alah",
+   "ref": "Exod.3.22",
+   "lemma": "c/7592",
+   "morph": "HC/Vqq3fs",
+   "parse": "w Qal weqatal 3fs",
+   "in_chapters": 1,
+   "corpus_rank": 4295
+  },
+  {
+   "translit": "umiggarat",
+   "ref": "Exod.3.22",
+   "lemma": "c/m/1481 a",
+   "morph": "HC/R/Vqrfsc",
+   "parse": "w+prep Qal participle fs",
+   "in_chapters": 1,
+   "corpus_rank": 4296
+  },
+  {
+   "translit": "vesamtem",
+   "ref": "Exod.3.22",
+   "lemma": "c/7760 a",
+   "morph": "HC/Vqq2mp",
+   "parse": "w Qal weqatal 2mp",
+   "in_chapters": 1,
+   "corpus_rank": 1444
+  },
+  {
+   "translit": "venitstsaltem",
+   "ref": "Exod.3.22",
+   "lemma": "c/5337",
+   "morph": "HC/Vpq2mp",
+   "parse": "w Piel weqatal 2mp",
+   "in_chapters": 1,
+   "corpus_rank": 4297
+  },
+  {
+   "translit": "asurah",
+   "ref": "Exod.3.3",
+   "lemma": "5493",
+   "morph": "HVqh1cs",
+   "parse": "Qal cohortative 1cs",
+   "in_chapters": 1,
+   "corpus_rank": 4277
+  },
+  {
+   "translit": "ve'er'eh",
+   "ref": "Exod.3.3",
+   "lemma": "c/7200",
+   "morph": "HC/Vqh1cs",
+   "parse": "w Qal cohortative 1cs",
+   "in_chapters": 1,
+   "corpus_rank": 1281
+  },
+  {
+   "translit": "yiv`ar",
+   "ref": "Exod.3.3",
+   "lemma": "1197 a",
+   "morph": "HVqi3ms",
+   "parse": "Qal yiqtol 3ms",
+   "in_chapters": 1,
+   "corpus_rank": 4278
+  },
+  {
+   "translit": "tiqrav",
+   "ref": "Exod.3.5",
+   "lemma": "7126",
+   "morph": "HVqj2ms",
+   "parse": "Qal jussive 2ms",
+   "in_chapters": 1,
+   "corpus_rank": 4279
+  },
+  {
+   "translit": "shal",
+   "ref": "Exod.3.5",
+   "lemma": "5394",
+   "morph": "HVqv2ms",
+   "parse": "Qal imperative 2ms",
+   "in_chapters": 1,
+   "corpus_rank": 2159
+  },
+  {
+   "translit": "`omed",
+   "ref": "Exod.3.5",
+   "lemma": "5975",
+   "morph": "HVqrmsa",
+   "parse": "Qal participle ms",
+   "in_chapters": 1,
+   "corpus_rank": 4280
+  },
+  {
+   "translit": "vayyaster",
+   "ref": "Exod.3.6",
+   "lemma": "c/5641",
+   "morph": "HC/Vhw3ms",
+   "parse": "w Hiphil wayyiqtol 3ms",
+   "in_chapters": 1,
+   "corpus_rank": 4281
+  },
+  {
+   "translit": "yare",
+   "ref": "Exod.3.6",
+   "lemma": "3372",
+   "morph": "HVqp3ms",
+   "parse": "Qal qatal 3ms",
+   "in_chapters": 1,
+   "corpus_rank": 380
+  },
+  {
+   "translit": "mehabbit",
+   "ref": "Exod.3.6",
+   "lemma": "m/5027",
+   "morph": "HR/Vhc",
+   "parse": "prep Hiphil inf. cstr.",
+   "in_chapters": 1,
+   "corpus_rank": 4282
+  },
+  {
+   "translit": "ra'oh",
+   "ref": "Exod.3.7",
+   "lemma": "7200",
+   "morph": "HVqa",
+   "parse": "Qal inf. abs.",
+   "in_chapters": 1,
+   "corpus_rank": 2160
+  },
+  {
+   "translit": "nogesav",
+   "ref": "Exod.3.7",
+   "lemma": "5065",
+   "morph": "HVqrmpc/Sp3ms",
+   "parse": "Qal participle mp +sfx 3ms",
+   "in_chapters": 1,
+   "corpus_rank": 4283
+  },
+  {
+   "translit": "va'ered",
+   "ref": "Exod.3.8",
+   "lemma": "c/3381",
+   "morph": "HC/Vqw1cs",
+   "parse": "w Qal wayyiqtol 1cs",
+   "in_chapters": 1,
+   "corpus_rank": 4284
+  },
+  {
+   "translit": "lehatstsilo",
+   "ref": "Exod.3.8",
+   "lemma": "l/5337",
+   "morph": "HR/Vhc/Sp3ms",
+   "parse": "prep Hiphil inf. cstr. +sfx 3ms",
+   "in_chapters": 1,
+   "corpus_rank": 4285
+  },
+  {
+   "translit": "uleha`aloto",
+   "ref": "Exod.3.8",
+   "lemma": "c/l/5927",
+   "morph": "HC/R/Vhc/Sp3ms",
+   "parse": "w+prep Hiphil inf. cstr. +sfx 3ms",
+   "in_chapters": 1,
+   "corpus_rank": 4286
+  },
+  {
+   "translit": "zavat",
+   "ref": "Exod.3.8",
+   "lemma": "2100",
+   "morph": "HVqrfsc",
+   "parse": "Qal participle fs",
+   "in_chapters": 2,
+   "corpus_rank": 444
+  },
+  {
+   "translit": "bá'ah",
+   "ref": "Exod.3.9",
+   "lemma": "935",
+   "morph": "HVqp3fs",
+   "parse": "Qal qatal 3fs",
+   "in_chapters": 1,
+   "corpus_rank": 424
+  },
+  {
+   "translit": "lochatsim",
+   "ref": "Exod.3.9",
+   "lemma": "3905",
+   "morph": "HVqrmpa",
+   "parse": "Qal participle mp",
+   "in_chapters": 1,
+   "corpus_rank": 4287
+  }
+ ],
+ "names": [
+  {
+   "lemma": "3478",
+   "count": 25,
+   "gloss_hint": "Israel"
+  },
+  {
+   "lemma": "3068",
+   "count": 24,
+   "gloss_hint": "LORD"
+  },
+  {
+   "lemma": "4714",
+   "count": 23,
+   "gloss_hint": "Egypt"
+  },
+  {
+   "lemma": "4872",
+   "count": 17,
+   "gloss_hint": "Moses"
+  },
+  {
+   "lemma": "4713",
+   "count": 16,
+   "gloss_hint": "Egyptian"
+  },
+  {
+   "lemma": "6547",
+   "count": 13,
+   "gloss_hint": "Pharaoh"
+  },
+  {
+   "lemma": "85",
+   "count": 3,
+   "gloss_hint": "Abraham"
+  },
+  {
+   "lemma": "3327",
+   "count": 3,
+   "gloss_hint": "Isaac"
+  },
+  {
+   "lemma": "3290",
+   "count": 3,
+   "gloss_hint": "Jacob"
+  },
+  {
+   "lemma": "3669 a",
+   "count": 2,
+   "gloss_hint": "Canaanite"
+  },
+  {
+   "lemma": "2850",
+   "count": 2,
+   "gloss_hint": "Hittite"
+  },
+  {
+   "lemma": "567",
+   "count": 2,
+   "gloss_hint": "Amorite"
+  },
+  {
+   "lemma": "6522",
+   "count": 2,
+   "gloss_hint": "Perizzite"
+  },
+  {
+   "lemma": "2340",
+   "count": 2,
+   "gloss_hint": "Hivite"
+  },
+  {
+   "lemma": "2983",
+   "count": 2,
+   "gloss_hint": "Jebusite"
+  },
+  {
+   "lemma": "6367+",
+   "count": 2,
+   "gloss_hint": "Pi-hahiroth"
+  },
+  {
+   "lemma": "6367",
+   "count": 2,
+   "gloss_hint": "Pi-hahiroth"
+  },
+  {
+   "lemma": "1189+",
+   "count": 2,
+   "gloss_hint": "Baal-zephon"
+  },
+  {
+   "lemma": "1189",
+   "count": 2,
+   "gloss_hint": "Baal-zephon"
+  },
+  {
+   "lemma": "3503",
+   "count": 1,
+   "gloss_hint": "Jethro"
+  },
+  {
+   "lemma": "4080",
+   "count": 1,
+   "gloss_hint": "Midian"
+  },
+  {
+   "lemma": "2722",
+   "count": 1,
+   "gloss_hint": "Horeb"
+  },
+  {
+   "lemma": "5680",
+   "count": 1,
+   "gloss_hint": "Hebrew"
+  },
+  {
+   "lemma": "4024 b",
+   "count": 1,
+   "gloss_hint": "Migdol"
+  }
+ ]
+}

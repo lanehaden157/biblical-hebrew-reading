@@ -39,7 +39,7 @@ Each phase ends with a `verify_*.py` gate and, where marked, a **Lane check** be
 - Gate: corpus-wide comparison against TAHOT's independent transliteration (via a scheme-mapping table); every disagreement category explained or fixed. Unit tests on a golden set.
 - **Lane check:** 50 random words spot-checked by ear.
 
-### Phase 2 — Measurement (spec Appendix A)
+### Phase 2 — Measurement (spec Appendix A) — DONE 2026-10-08 (Lane decisions in MEASURES.md; not pushed)
 - M1–M11, M13 (OSHB/BHSA disagreements), M14, on the narrative corpus.
 - Output: `MEASURES.md` report. Sets real unit budgets, rank cut-offs, micro-reading pools, Exodus top-up size.
 - **Lane check:** confirm 750 cut-off and unit sizes given the actual numbers.
@@ -65,6 +65,15 @@ Each phase ends with a `verify_*.py` gate and, where marked, a **Lane check** be
 
 ### Phase 7 — Units 11–12
 - Exodus 3/14 top-up (M10); milestone mode (hidden help, logged lookups); pace forecast from M12 data.
+
+## Handoff notes for Phase 3 (from Phase 2)
+
+- Ranks, names, verb forms, pools, top-up lists: `data/measures/*.json` (regenerate with `measure.py`; never hand-edit). Lemma key = OSHB lemma part ("1254 a"); names = morph Np/Ng.
+- `data/parse_quarantine.json`: skip these ids for parse items and pool picks; `unchecked_qere` ids have no BHSA check.
+- Ambiguous surfaces (trust rule 5): `ambiguous_surfaces.json`, keyed by surface without accents/meteg.
+- Weak class per verb lemma comes from the aligned BHSA lexeme (`weak_class()` in measure.py).
+- TBESH glosses in the measures are hints only (OSHB augment letters are mapped naively to TBESH's).
+- Python sources: write Hebrew codepoints as `chr(0x5D0)`; the Write tool turns backslash-u escapes into literal Hebrew.
 
 ## Handoff notes for Phase 2 (from Phase 1)
 
