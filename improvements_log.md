@@ -35,3 +35,7 @@
 - 2026-08-30: vocab_examples.json batch 26 (FINAL): last 21 lemmas (beten through qever) -- all 544 target lemmas now have a real, corpus-verified Bible example, zero skipped. Project complete: every drillable vocab card has at least one example, function words additionally tiered 3-10.
 - 2026-09-12: Added AugIndex.xml (223,277 bytes) and LexicalIndex.xml (1,831,069 bytes) from HebrewLexicon @ 21c9add to pipeline/corpus/lexicon. The existing BDB/Strong's files are byte-identical to that commit. fetch_corpus.py now extracts and checks all 4 lexicon files (LEXICON_FILES); tested offline against a git-archive tarball of the pinned commit. Added node_modules/ to .gitignore ahead of the npm pin for morphhb 2.0.2.
 - 2026-09-12: Installed Node 24.19.0 LTS (winget) and pinned morphhb with `npm install morphhb@2.0.2 --save-exact`. New package.json + package-lock.json are untracked and not yet committed. The lock integrity matches the registry sha512, the tarball sha1 is 2ea8c8ad...c145a, and LICENSE.md is CC BY 4.0. All 39 node_modules/morphhb/wlc books are sha256-identical to pipeline/corpus/wlc. fetch_corpus.py still downloads the same tarball itself; the pipeline doesn't read node_modules.
+
+## 2026-10-07 — v1 rebuild Phase 0
+- Tagged v0-legacy; removed old app/data/pipeline/glosses; added SPEC.md, BUILD_PLAN.md; rewrote CLAUDE.md and STATUS.md.
+- Added pipeline/fetch_sources.py, sources.lock.json, corpus.py, corpus_config.json, tf.py, verify_corpus.py.

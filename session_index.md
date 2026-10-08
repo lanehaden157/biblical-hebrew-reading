@@ -8,3 +8,5 @@
 - 2026-08-29: Clarified wayyiqtol/weqatal parse cards; started vocab_examples.json (real Bible example per non-function-word card) -- batch 1 of many, 20 verbs done, 524 lemmas pending across future batches.
 - 2026-09-12: Q&A for a forked Joshua literary-study project (lemma vs substring, translit, glosses). Measured OSHB Joshua via scratch scripts; no code changes. Found shipped bugs: ketiv parse cards, 3 YHWH translits, kol->kal, suffix-less reader glosses.
 - 2026-09-12 (run from the Joshua project session): pinned sources. Added AugIndex/LexicalIndex to the corpus, fetch_corpus.py now pulls all 4 lexicon files, and npm pins morphhb 2.0.2 with verified integrity. Summary is in Projects\Joshua\session_summary_2026-09-12.md.
+- 2026-10-07: Decided on full v1 rebuild. Q&A resolved spec open questions (Q1–Q6, R1–R3, corpus, sync dropped). Wrote BUILD_PLAN.md (Phases 0–7). No code changes.
+- 2026-10-07 (2): Phase 0 done. Reset to v0-legacy tag, new CLAUDE.md/SPEC.md, pinned fetch layer, corpus loader (125,378 tokens), verify_corpus.py passes (matches BHSA consonants).

@@ -1,0 +1,17 @@
+{
+ "_note": "Editable. Books are OSHB file stems. Poem spans use Hebrew (OSHB) versification and are inclusive: [book, ch1, v1, ch2, v2]. Spans are the spec's list (SPEC 0.1); further candidates are reviewed in Phase 2 (M-measures).",
+ "books": ["Gen", "Exod", "Num", "Josh", "Judg", "Ruth", "1Sam", "2Sam", "1Kgs", "2Kgs", "Jonah"],
+ "poems": [
+  ["Gen", 49, 2, 49, 27],
+  ["Exod", 15, 1, 15, 18],
+  ["Num", 23, 7, 23, 10],
+  ["Num", 23, 18, 23, 24],
+  ["Num", 24, 3, 24, 9],
+  ["Num", 24, 15, 24, 24],
+  ["Judg", 5, 1, 5, 31],
+  ["1Sam", 2, 1, 2, 10],
+  ["2Sam", 22, 1, 22, 51],
+  ["2Sam", 23, 1, 23, 7],
+  ["Jonah", 2, 3, 2, 10]
+ ]
+}
