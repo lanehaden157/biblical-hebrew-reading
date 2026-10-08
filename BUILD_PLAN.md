@@ -34,7 +34,7 @@ Each phase ends with a `verify_*.py` gate and, where marked, a **Lane check** be
 - One corpus loader → token table (id, ref, surface, morpheme split, lemma, morph, ketiv/qere, maqqef link, accents, poem/Aramaic flags). Everything downstream reads this, nothing re-parses XML.
 - Gate: `verify_corpus.py` (token counts per book, qere handling, flags).
 
-### Phase 1 — Transliterator — built 2026-10-08, awaiting Lane check
+### Phase 1 — Transliterator — DONE 2026-10-08 (commit 99d071f; two 50-word Lane checks passed; not pushed)
 - Syllable-based: accent/meteg-driven stress, dagesh forte vs lene, vocal shva, qamats qatan, furtive patach, maqqef context, YHWH override, qere-perpetuum list.
 - Gate: corpus-wide comparison against TAHOT's independent transliteration (via a scheme-mapping table); every disagreement category explained or fixed. Unit tests on a golden set.
 - **Lane check:** 50 random words spot-checked by ear.
@@ -66,7 +66,16 @@ Each phase ends with a `verify_*.py` gate and, where marked, a **Lane check** be
 ### Phase 7 — Units 11–12
 - Exodus 3/14 top-up (M10); milestone mode (hidden help, logged lookups); pace forecast from M12 data.
 
-## Handoff notes for the next phase (from Phase 0)
+## Handoff notes for Phase 2 (from Phase 1)
+
+- Transliterate only via `translit.translit_token(tok, table)`, with `table = translit.build_stress_table(tokens)` built once per run over all tokens (~5 s). Without the table, words with only a positional accent fall back to final/segolate stress.
+- Output: `text` (display), `syllables`, `stress` (index or None), `stress_src`. Maqqef-joined words are unstressed; append `-` at display time from `maqqef_next`.
+- Gate: `python -X utf8 pipeline/verify_translit.py` (~25 s). A rule change that moves a bucket fails it: sample the moved tokens, then re-baseline `translit_expected.json` with a reason. Add a golden entry per new rule.
+- Lexical exceptions: kol (3605) always qatan; `QATAN_OPEN` (qodesh, oniyyah, shoresh). M14 answered: no U+05C7 in source.
+- Spot-check generator: `pipeline/translit_sample.py N SEED`.
+- The Write/Edit tools turn backslash-u escapes into literal Hebrew; patch via scripts that build the backslash with `chr(92)`, then grep for non-ASCII.
+
+## Handoff notes from Phase 0
 
 - Token table: `python -X utf8 pipeline/corpus.py` -> `build/tokens.jsonl` (gitignored; regenerate on a fresh clone after `python pipeline/fetch_sources.py`). Field list is in the `pipeline/corpus.py` docstring. Read tokens only via `corpus.load_tokens()`.
 - Qere: the written ketiv is in the token's `ketiv` field; the token itself is the qere reading. `read=False` tokens (Ruth 3:12, 2 Kgs 5:18) are written but not read; skip them.
@@ -77,6 +86,9 @@ Each phase ends with a `verify_*.py` gate and, where marked, a **Lane check** be
 - Still-present legacy files (`index.html`, `manifest.webmanifest`, `package.json`, `*-reference.md`): delete when Phase 4 replaces the app. Do not push until then.
 
 ## Working lessons (apply from Phase 1)
+
+- (Phase 1) Reference data like TAHOT is noisy: use it to find disagreement categories, sample each bucket, and judge against the grammar.
+- (Phase 1) Sample every bucket that grows after a rule change; fixes often surface neighbouring bugs.
 
 - Profile before guessing. Time each step when something is slow; the real cause was a quadratic `difflib` on 80k-letter strings, found only after several guesses.
 - Never use `difflib.SequenceMatcher` on whole books. Compare for equality first, then report the first mismatch.

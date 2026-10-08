@@ -4,4 +4,6 @@
 
 **Takeaways:** TAHOT is noisy. Its stress capitals follow positional accents, it drops vocal shva after long vowels, and it has v/o artifacts. Use it to find categories, not as ground truth. WLC writes doubled pashta as qadma + pashta (and zarqa + zinor). A spirant after shva doesn't prove the shva is vocal (malkhe, ivdu). The Write/Edit tools turn `\u` escapes into literal characters, so run `escape.py`-style conversion or patch scripts.
 
-**Open:** Lane's 50-word spot-check (`build/translit_spotcheck.md`). Phase 1 work is not committed yet. Known soft spots: directional -ah stress with prepositive accents only, and rare WLC pointing oddities (vehenneh).
+**Lane checks:** two 50-word samples. Fixes: furtive stress mark (rúach), lexical qatan (qodashim, oniyyah), prefix qamats rules, vayehi (vocal shva after vav-consecutive). Final he stays `h`. Committed locally (99d071f + follow-up), not pushed.
+
+**Open:** Phase 2 (measurement) in a new chat. Known soft spots: directional -ah stress with prepositive accents only, and rare WLC pointing oddities (vehenneh).
