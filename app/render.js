@@ -56,7 +56,7 @@ export function word(tok, o = {}) {
   const mode = o.tr || (state().settings.translit || state().unit === 0 ? 'show' : 'tap');
   const tr = mode === 'none' ? null : h('span', { class: 'tr' + (mode === 'show' ? '' : ' hid') }, tok.tr);
   const gl = o.gloss ? h('span', { class: 'gl' + (tok.gr ? '' : ' unrev') }, tok.g) : null;
-  const w = h('span', { class: 'w' + (o.target ? ' target' : '') }, he, tr, gl);
+  const w = h('span', { class: 'w' + (o.target ? ' target' : ''), 'data-id': tok.id }, he, tr, gl);
   w.addEventListener('click', () => {
     if (tr && mode === 'tap') tr.classList.toggle('hid');
     if (o.onTap) o.onTap(tok, w);

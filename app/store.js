@@ -15,6 +15,8 @@ function fresh() {
     settings: { translit: false, fiveMin: false },
     taps: [],       // {t, id, ref}
     decode: {},     // unit 0 item id -> true (seen)
+    reports: [],    // {t, id, kind, reason, note, toks}
+    quarantine: [], // item ids hidden after a report
   };
 }
 
@@ -34,3 +36,9 @@ export function save() {
 }
 
 export const state = () => S;
+
+// Replace everything (import). Caller validates.
+export function replace(obj) {
+  S = Object.assign(fresh(), obj);
+  save();
+}

@@ -1,8 +1,10 @@
 import { loadAll, D } from './data.js';
-import { load, save, state } from './store.js';
+import { load, save, state, replace } from './store.js';
 import { h } from './render.js';
 import { runSession, sessionInfo } from './session.js';
 import { lessonView } from './lessons.js';
+import { progressView } from './progress.js';
+import { restore } from './report.js';
 
 const root = document.getElementById('app');
 const nav = document.getElementById('nav');
@@ -45,9 +47,33 @@ function lessonsScreen() {
   root.replaceChildren(h('h2', {}, 'Lessons'), list);
 }
 
+async function progressScreen() {
+  tab('progress');
+  root.replaceChildren(h('p', { class: 'note' }, 'Loading...'));
+  try { root.replaceChildren(await progressView()); } catch (e) { root.replaceChildren(h('p', {}, 'Could not load progress: ' + e.message)); }
+}
+
+function download(name, obj) {
+  const a = h('a', { href: URL.createObjectURL(new Blob([JSON.stringify(obj, null, 1)], { type: 'application/json' })), download: name });
+  document.body.append(a); a.click(); a.remove();
+}
+const stamp = () => new Date().toISOString().slice(0, 10);
+
 function settingsScreen() {
   tab('settings');
   const s = state();
+  const file = h('input', { type: 'file', accept: 'application/json,.json', hidden: true, onchange: async e => {
+    const f = e.target.files[0];
+    if (!f) return;
+    try {
+      const d = JSON.parse(await f.text());
+      if (d.v !== 1 || typeof d.cards !== 'object' || !Array.isArray(d.log)) throw new Error('not a progress file from this app');
+      if (!confirm(`Replace the progress on this device with the file (${Object.keys(d.cards).length} cards)?`)) return;
+      delete d.exportedAt;
+      replace(d);
+      settingsScreen();
+    } catch (err) { alert('Import failed: ' + err.message); }
+  } });
   const toggle = (label, key) => {
     const cb = h('input', { type: 'checkbox', onchange: () => { s.settings[key] = cb.checked; save(); } });
     cb.checked = !!s.settings[key];
@@ -56,13 +82,23 @@ function settingsScreen() {
   root.replaceChildren(h('h2', {}, 'Settings'),
     toggle('Always show transliteration', 'translit'),
     toggle('Hide cantillation accents (keeps vowels)', 'hideAccents'),
-    toggle('5-minute day (review and one reading, no new items)', 'fiveMin'));
+    toggle('5-minute day (review and one reading, no new items)', 'fiveMin'),
+    h('h3', {}, 'Your data'),
+    h('p', { class: 'note' }, 'Everything is stored on this device only. Export a backup now and then, and before clearing browser data.'),
+    h('div', { class: 'bar' },
+      h('button', { onclick: () => download(`hebrew-progress-${stamp()}.json`, { ...s, exportedAt: new Date().toISOString() }) }, 'Export progress'),
+      h('button', { onclick: () => file.click() }, 'Import progress')),
+    file,
+    h('h3', {}, `Reported items (${s.reports.length})`),
+    s.reports.length ? h('div', { class: 'bar' }, h('button', { onclick: () => download(`hebrew-reports-${stamp()}.json`, s.reports) }, 'Export reports')) : h('p', { class: 'note' }, 'None. Use Report on any card to hide an item and flag it.'),
+    s.quarantine.map(id => h('div', { class: 'qrow' }, h('span', {}, id + ' ' + (s.reports.filter(r => r.id === id).at(-1)?.reason || '')),
+      h('button', { class: 'link', onclick: () => { restore(id); settingsScreen(); } }, 'Restore'))));
 }
 
 window.addEventListener('exit-session', () => todayScreen());
 nav.addEventListener('click', e => {
   const t = e.target.dataset && e.target.dataset.t;
-  if (t === 'today') todayScreen(); else if (t === 'lessons') lessonsScreen(); else if (t === 'settings') settingsScreen();
+  if (t === 'today') todayScreen(); else if (t === 'progress') progressScreen(); else if (t === 'lessons') lessonsScreen(); else if (t === 'settings') settingsScreen();
 });
 
 (async () => {

@@ -5,6 +5,7 @@ import { state, save } from './store.js';
 import { isDue, review, GRADE } from './srs.js';
 import { present } from './cards.js';
 import { lessonView } from './lessons.js';
+import { reportDialog } from './report.js';
 
 const DAY = 864e5;
 const REVIEW_BOX_MS = 240e3;
@@ -18,7 +19,7 @@ const unitDef = n => D.units.find(u => u.unit === n);
 // ---------- selection ----------
 
 function retention() {
-  const rec = S().log.filter(e => SCHEDULED.has(e.k)).slice(-100);
+  const rec = S().log.filter(e => SCHEDULED.has(e.k) || e.k === 'parse').slice(-100);
   return rec.length >= 20 ? rec.filter(e => e.ok).length / rec.length : 1;
 }
 
@@ -39,6 +40,7 @@ function adaptN() {
 }
 
 function introduced(id) { return !!S().intro[id]; }
+const hidden = id => S().quarantine.includes(id);
 
 function advanceUnit() {
   const s = S();
@@ -54,9 +56,9 @@ function advanceUnit() {
 
 function pickNew(n) {
   const s = S();
-  const lem = D.lemmas.filter(i => !introduced(i.id));
+  const lem = D.lemmas.filter(i => !introduced(i.id) && !hidden(i.id));
   const gram = [];
-  for (let u = 1; u <= s.unit; u++) for (const i of D.byUnit[u] || []) if (GRAMMAR.has(i.kind) && !introduced(i.id)) gram.push(i);
+  for (let u = 1; u <= s.unit; u++) for (const i of D.byUnit[u] || []) if (GRAMMAR.has(i.kind) && !introduced(i.id) && !hidden(i.id)) gram.push(i);
   const out = [];
   const pattern = ['L', 'G', 'L', 'G', 'L'];
   let li = 0, gi = 0;
@@ -80,7 +82,7 @@ function pickReads(count) {
   const out = [];
   const seen = id => (s.reads[id] || []);
   const pool = [];
-  for (let u = s.unit; u >= 1; u--) for (const i of D.byUnit[u] || []) if (i.kind === 'micro') pool.push(i);
+  for (let u = s.unit; u >= 1; u--) for (const i of D.byUnit[u] || []) if (i.kind === 'micro' && !hidden(i.id)) pool.push(i);
   const repeats = pool.filter(i => seen(i.id).length === 1 && Date.now() - new Date(seen(i.id)[0]) >= 3 * DAY);
   const fresh = pool.filter(i => seen(i.id).length === 0);
   for (const i of [...repeats, ...fresh]) { if (out.length < count) out.push(i); }
@@ -89,7 +91,7 @@ function pickReads(count) {
 }
 
 function pickDecode(kind, count) {
-  return (D.byUnit[0] || []).filter(i => i.kind === kind && !S().decode[i.id]).slice(0, count);
+  return (D.byUnit[0] || []).filter(i => i.kind === kind && !S().decode[i.id] && !hidden(i.id)).slice(0, count);
 }
 
 function lessonsFor(newItems) {
@@ -103,8 +105,9 @@ function lessonsFor(newItems) {
 
 // ---------- UI ----------
 
-function stage(root, label) {
-  root.replaceChildren(h('div', { class: 'stage' }, h('button', { class: 'exit', onclick: () => window.dispatchEvent(new Event('exit-session')) }, 'Exit'), label));
+function stage(root, label, item) {
+  const rep = item ? h('button', { class: 'exit', onclick: async () => { if (await reportDialog(item, box)) box.__skip?.(); } }, 'Report') : null;
+  root.replaceChildren(h('div', { class: 'stage' }, rep, h('button', { class: 'exit', onclick: () => window.dispatchEvent(new Event('exit-session')) }, 'Exit'), label));
   const box = h('div', { class: 'card' });
   root.append(box);
   window.scrollTo(0, 0);
@@ -116,10 +119,15 @@ function wait(box, label) {
 }
 
 async function showItem(root, label, item, ctx) {
-  const box = stage(root, label);
-  const r = await present(item, box, ctx);
+  const box = stage(root, label, item);
+  const skip = new Promise(res => { box.__skip = () => res({ skipped: true }); });
+  const r = await Promise.race([present(item, box, ctx), skip]);
+  if (r.skipped) return { grade: null, ok: true, ms: 0, skipped: true };
   const s = S();
-  s.log.push({ t: Date.now(), id: item.id, k: item.kind, ok: r.ok, ms: Math.round(r.ms) });
+  const k = item.kind === 'form' && ctx.unitOf(item)?.parse.length ? 'parse' : item.kind;
+  const entry = { t: Date.now(), id: item.id, k, ok: r.ok, ms: Math.round(r.ms), nw: label === 'New' };
+  if (item.kind === 'micro') { entry.w = item.toks.length; entry.taps = (r.taps || []).length; }
+  s.log.push(entry);
   if (r.grade) {
     review(item.id, GRADE[r.grade]);
     s.intro[item.id] ??= new Date().toISOString();
@@ -152,13 +160,14 @@ export async function runSession(root) {
   const n = s.settings.fiveMin ? 0 : (unit === 0 ? (s.sessions.length >= 2 ? 2 : 0) : adaptN());
   const boxMs = s.settings.fiveMin ? 180e3 : REVIEW_BOX_MS;
   const stats = { reviewed: 0, newN: 0, read: 0, rsec: 0, over: false };
+  const started = Date.now();
 
   // new items and lessons first computed, shown in block order below
   const fresh = pickNew(n);
   const decodeNew = unit === 0 ? pickDecode('decode', 8) : [];
 
   // Block 1: reviews
-  const queue = Object.keys(s.cards).filter(id => isDue(id) && D.items.has(id) && !s.quarantine?.includes(id))
+  const queue = Object.keys(s.cards).filter(id => isDue(id) && D.items.has(id) && !hidden(id))
     .sort((a, b) => new Date(s.cards[a].d) - new Date(s.cards[b].d)).map(id => D.items.get(id));
   const retried = new Set();
   const t0 = Date.now();
@@ -192,7 +201,7 @@ export async function runSession(root) {
   await readBlock(root, ctx, stats, unit === 0 ? 5 : s.settings.fiveMin ? 1 : unit >= 3 ? 2 : 3);
 
   // Block 4: done
-  s.sessions.push({ d: new Date().toISOString(), rsec: stats.rsec, over: stats.over, newN: stats.newN, read: stats.read });
+  s.sessions.push({ d: new Date().toISOString(), rsec: stats.rsec, over: stats.over, newN: stats.newN, read: stats.read, sec: Math.round((Date.now() - started) / 1000) });
   if (!stats.over) delete s.settings.gap;
   advanceUnit();
   save();
@@ -222,7 +231,7 @@ async function doneLoop(root, ctx, stats) {
       await readBlock(root, ctx, stats, 2);
       if (stats.read === before) { const b = stage(root, 'Read'); b.append(h('div', { class: 'note' }, 'Nothing new to read right now.')); await wait(b, 'OK'); }
     } else {
-      const due = Object.keys(s.cards).filter(id => isDue(id) && D.items.has(id)).slice(0, 8).map(id => D.items.get(id));
+      const due = Object.keys(s.cards).filter(id => isDue(id) && D.items.has(id) && !hidden(id)).slice(0, 8).map(id => D.items.get(id));
       const items = due.length ? due : pickNew(2);
       if (!items.length) { const b = stage(root, 'Drill'); b.append(h('div', { class: 'note' }, 'Nothing to drill right now.')); await wait(b, 'OK'); continue; }
       for (const it of items) {

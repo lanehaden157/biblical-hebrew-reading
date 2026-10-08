@@ -45,3 +45,10 @@ Phase log for the v1 rebuild (see `BUILD_PLAN.md`). Pre-rebuild history: tag `v0
 - Kinds: lemma, morpheme, form (type 3; chip parse type 4 when the unit's `parse` is non-empty), name, decode, decode-read, micro. Unit 0: 8 decode + 5 read per day, lemmas from the third session at 2/day. Units advance when all grammar items are introduced (cap Unit 3).
 - Gate `verify_app.py`: no Hebrew in app, no root-absolute paths, JS parses, unlock/ref/example integrity.
 - Not yet (4b): report-a-problem, export/import, progress panel, M12 timing log, Unit 0 mastery check, pin queue.
+
+## Phase 4b — Reports, backup, progress (built 2026-10-08; Lane phone check pending)
+- Report on every card (reason + note): item is quarantined from all queues; Settings lists reported items with Restore and exports the list (`hebrew-reports-*.json`: id, kind, reason, note, token ids).
+- Export/import of the full store (Settings); import validates `v:1` and replaces after confirm.
+- Progress tab: Exod 3 / 14 word coverage (tap for distinct lemmas), narrative-corpus coverage, words introduced, parse accuracy (last 40), recall (last 100), decode checks, help taps per 100 words, verses read, M12 pace (median seconds per kind, session minutes, sessions per week; forecast after 30 days).
+- Log entries now carry `nw` (new vs review), word and tap counts; sessions carry `sec`.
+- Not built: Unit 0 mastery check, pin queue, Exodus passage reader, a converter from reports to `apply_review.py` input.
