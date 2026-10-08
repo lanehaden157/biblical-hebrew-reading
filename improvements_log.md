@@ -59,3 +59,7 @@
 - build_items.py: `SEGMENTS` + `segment_classes()` (noun endings, suffix shapes, directional -ah, story-tense markers) with `hlc` letter ranges; `build_names`; `pick_forms` (next wayyiqtol, one per lemma+parse, skips fully quarantined); form `facets`; verse readings (M8c); units.json `parse`.
 - glosses: lemmas 51-190, forms (61 more), names.json (10). lessons/unit2.md (9), unit3.md (5).
 - verify_content.py: re-classifies segment exemplars, letter ranges, short/long pairs, facets, names.
+
+## 2026-10-08 — Phase 4a (app core)
+- New: index.html, sw.js, app/{data,store,srs,render,cards,lessons,session,main}.js, app/style.css, pipeline/verify_app.py.
+- Removed legacy package.json, package-lock.json, morphology-reference.md, transliteration-reference.md.

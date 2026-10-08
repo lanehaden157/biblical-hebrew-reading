@@ -37,3 +37,11 @@ Phase log for the v1 rebuild (see `BUILD_PLAN.md`). Pre-rebuild history: tag `v0
 - Curated, unreviewed: lemma glosses 51-190, 61 form glosses, 10 name glosses (`glosses/names.json`). Segment meanings come from the `SEGMENTS` table.
 - Gate `verify_content.py` (~1.5 s) re-classifies every exemplar, checks letter ranges, short/long pairs (vayyar / yir'eh) and facets. Build ~35 s.
 - Next: Phase 4 app core.
+
+## Phase 4a — App core, first slice (built 2026-10-08; Lane phone check pending)
+- `index.html` + `app/` (data, store, srs, render, cards, lessons, session, main, style.css) + `sw.js` (network-first cache). Legacy root files removed (still at tag `v0-legacy`).
+- Store `hebrew.v1` in localStorage (cards, intro, lessons, reads, log, sessions, settings). ts-fsrs 4.7.0 via jsDelivr, retention 0.88.
+- Today: lessons -> review box (4 min, silent roll-over, Again re-queued once) -> new at adaptive N (3:2 lemma:grammar; N=0 after a 3+ day gap until the box stops overrunning) -> reading -> done line (Finish / More reading / More drill). Grades Again/Good/Easy.
+- Kinds: lemma, morpheme, form (type 3; chip parse type 4 when the unit's `parse` is non-empty), name, decode, decode-read, micro. Unit 0: 8 decode + 5 read per day, lemmas from the third session at 2/day. Units advance when all grammar items are introduced (cap Unit 3).
+- Gate `verify_app.py`: no Hebrew in app, no root-absolute paths, JS parses, unlock/ref/example integrity.
+- Not yet (4b): report-a-problem, export/import, progress panel, M12 timing log, Unit 0 mastery check, pin queue.
