@@ -1,6 +1,6 @@
 // One presenter per item kind. Each returns a Promise of {grade, ok, ms}:
 // grade is 'again'|'good'|'easy' for scheduled items, null for unscheduled ones.
-import { h, word, verseRow, glossText } from './render.js';
+import { h, word, verseRow, glossText, solo } from './render.js';
 import { D, verse } from './data.js';
 import { state } from './store.js';
 
@@ -98,7 +98,7 @@ async function formCard(box, it, unit) {
     box.append(kicker('Read the highlighted verb in its verse'), verseBox);
     await revealBtn(box);
     const ms = performance.now() - t0;
-    box.append(h('div', { class: 'ans' }, glossText(ex.g, ex.gr), h('span', { class: 'note' }, '  ' + it.tr)),
+    box.append(h('div', { class: 'ans' }, glossText(ex.g, ex.gr), h('span', { class: 'note' }, '  ' + solo(it.tr))),
       h('div', { class: 'note' }, it.parse), h('div', { class: 'en' }, v.en));
     const grade = await gradeBtns(box);
     return { grade, ok: grade !== 'again', ms };
@@ -149,12 +149,13 @@ function name(box, it) {
 async function decode(box, it) {
   const t0 = performance.now();
   box.append(kicker('How is this read?'), h('div', { class: 'big' }, word(it.tok, { tr: 'none' })));
-  const opts = shuffle([it.tok.tr, ...it.options]);
+  const tr = solo(it.tok.tr);
+  const opts = shuffle([tr, ...it.options]);
   const picked = await choose(box, opts.map(o => ({ label: o, value: o, cls: 'opt' })));
   const ms = performance.now() - t0;
-  const ok = picked === it.tok.tr;
-  box.append(h('div', { class: ok ? 'ans' : 'ans bad' }, ok ? 'Correct' : `Read: ${it.tok.tr}`),
-    h('div', { class: 'note' }, it.tok.g));
+  const ok = picked === tr;
+  box.append(h('div', { class: ok ? 'ans' : 'ans bad' }, ok ? 'Correct' : `Read: ${tr}`),
+    h('div', { class: 'note' }, solo(it.tok.g)));
   await choose(box, [{ label: 'Next', value: 1, cls: 'primary' }]);
   return { grade: null, ok, ms };
 }
@@ -164,7 +165,7 @@ async function decodeRead(box, it) {
   box.append(kicker('Read it aloud'), h('div', { class: 'big' }, word(it.tok, { tr: 'none' })));
   await revealBtn(box);
   const ms = performance.now() - t0;
-  box.append(h('div', { class: 'ans' }, it.tok.tr), h('div', { class: 'note' }, it.tok.g));
+  box.append(h('div', { class: 'ans' }, solo(it.tok.tr)), h('div', { class: 'note' }, solo(it.tok.g)));
   const v = await choose(box, [{ label: 'Missed it', value: false, cls: 'again' }, { label: 'Got it', value: true, cls: 'primary' }]);
   return { grade: null, ok: v, ms };
 }
@@ -175,7 +176,7 @@ async function micro(box, it, ctx) {
   const taps = [];
   const row = h('div', { class: 'verse', dir: 'rtl' }, it.toks.map(t => {
     const show = ctx.help !== 'unknown-only' || !ctx.known(t);
-    return word(t, { gloss: show, tr: 'tap', onTap: (tok, w) => {
+    return word(t, { gloss: show, inVerse: true, tr: 'tap', onTap: (tok, w) => {
       taps.push(tok.id);
       if (!w.querySelector('.gl')) w.append(h('span', { class: 'gl' + (tok.gr ? '' : ' unrev') }, tok.g));
     } });

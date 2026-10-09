@@ -115,13 +115,15 @@ def main():
     emptyg = [i for i, d in data.items() if not d[0]["g"]]
     divine = [i for i, d in data.items() if any(p[1].split(" ")[0] in ("3068", "3069") for p in d[0]["p"])
               and "YHWH (the LORD)" not in d[0]["g"]]
+    spanishq = [i for i, d in data.items() if "¿" in d[0]["g"]]
     unknown = set(src) - SOURCES
     over_bad = [k for k, o in overrides.items() if not k.startswith("_") and data[k][0]["g"] != o["gloss"]]
     share = src["TAHOT"] / max(1, len(data) - src["SPEC Q3"])
     print(f"gloss sources {dict(src)}; TAHOT share {100 * share:.2f}%")
     for cond, msg in ((share < 0.999, "TAHOT share below 99.9%"), (emptyg, f"empty glosses {emptyg[:5]}"),
                       (divine, f"divine name without the Q3 gloss {divine[:5]}"),
-                      (unknown, f"unknown gloss sources {unknown}"), (over_bad, f"overrides not applied {over_bad[:5]}")):
+                      (unknown, f"unknown gloss sources {unknown}"),
+                      (spanishq, f"TAHOT question mark left in glosses {spanishq[:5]}"), (over_bad, f"overrides not applied {over_bad[:5]}")):
         if cond:
             fails.append(msg)
 

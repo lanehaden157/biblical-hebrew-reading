@@ -44,6 +44,14 @@ def divine_gloss(g):
     return re.sub(r"\b(Yahweh|LORD|GOD)\b", DIVINE_GLOSS, g)
 
 
+def question_gloss(g):
+    """TAHOT opens a question with a Spanish-style mark ("¿ not"); show it as "not?" instead."""
+    if "¿" not in g:
+        return g
+    g = re.sub(r"¿\s*", "", g).strip()
+    return g[:-1] + "?-" if g.endswith("-") else g + "?"
+
+
 def token_gloss(t, tah, lm, tb, curated_lemmas, overrides):
     """(gloss, source, reviewed, sense) for one token."""
     if t["id"] in overrides:
@@ -54,9 +62,9 @@ def token_gloss(t, tah, lm, tb, curated_lemmas, overrides):
     main = lexicon.main_part(t)
     lem = main["lemma"] if main else None
     if any((p["lemma"] or "").split(" ")[0] in DIVINE for p in t["parts"]):
-        return (divine_gloss(tg["g"]) if tg else DIVINE_GLOSS), "SPEC Q3", 1, sense
+        return (question_gloss(divine_gloss(tg["g"])) if tg else DIVINE_GLOSS), "SPEC Q3", 1, sense
     if tg:
-        return tg["g"], "TAHOT", 0, sense
+        return question_gloss(tg["g"]), "TAHOT", 0, sense
     if lem and lem in lm and lm[lem]["key"] in tb:
         return tb[lm[lem]["key"]]["gloss"], "TBESH", 0, None
     num = "H%04d" % int(lem.split(" ")[0]) if lem else None

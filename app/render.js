@@ -38,7 +38,10 @@ function partRange(tok, i) {
   return [a, a + clusters(tok.p[i][0]).length];
 }
 
-// o: {hl (part index), hlc (cluster ranges), tr: 'tap'|'show'|'none', gloss: bool, mark: bool, onTap}
+// Maqqef hyphen ("kol-") only makes sense next to the following word; drop it on a word shown alone.
+export const solo = s => (s || '').replace(/-$/, '');
+
+// o: {hl (part index), hlc (cluster ranges), tr: 'tap'|'show'|'none', gloss: bool, mark: bool, inVerse: bool, onTap}
 export function word(tok, o = {}) {
   const ranges = o.hlc || (o.hl != null ? [partRange(tok, o.hl)] : []);
   const cl = clusters(tok.s).map(c => (state().settings.hideAccents ? stripAccents(c) : c));
@@ -54,7 +57,7 @@ export function word(tok, o = {}) {
     run.append(c);
   });
   const mode = o.tr || (state().settings.translit || state().unit === 0 ? 'show' : 'tap');
-  const tr = mode === 'none' ? null : h('span', { class: 'tr' + (mode === 'show' ? '' : ' hid') }, tok.tr);
+  const tr = mode === 'none' ? null : h('span', { class: 'tr' + (mode === 'show' ? '' : ' hid') }, o.inVerse ? tok.tr : solo(tok.tr));
   const gl = o.gloss ? h('span', { class: 'gl' + (tok.gr ? '' : ' unrev') }, tok.g) : null;
   const w = h('span', { class: 'w' + (o.target ? ' target' : ''), 'data-id': tok.id }, he, tr, gl);
   w.addEventListener('click', () => {
@@ -67,7 +70,7 @@ export function word(tok, o = {}) {
 // A verse as a row of words with the target token emphasised.
 export function verseRow(tokens, targetId, o = {}) {
   return h('div', { class: 'verse', dir: 'rtl' },
-    tokens.map(t => word(t, { ...o, target: t.id === targetId, tr: o.tr || 'tap' })));
+    tokens.map(t => word(t, { ...o, inVerse: true, target: t.id === targetId, tr: o.tr || 'tap' })));
 }
 
 export const glossText = (g, reviewed) => h('span', { class: reviewed ? '' : 'unrev' }, g);
