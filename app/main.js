@@ -104,7 +104,7 @@ function settingsScreen() {
     s.reports.length ? h('div', { class: 'bar' }, h('button', { onclick: () => download(`hebrew-reports-${stamp()}.json`, s.reports) }, 'Export reports')) : h('p', { class: 'note' }, 'None. Use Report on any card to hide an item and flag it.'),
     s.quarantine.map(id => h('div', { class: 'qrow' }, h('span', {}, id + ' ' + (s.reports.filter(r => r.id === id).at(-1)?.reason || '')),
       h('button', { class: 'link', onclick: () => { restore(id); settingsScreen(); bgSync(); } }, 'Restore'))),
-    syncSection());
+    ...syncSection());
 }
 
 function syncSection() {
@@ -123,7 +123,7 @@ function syncSection() {
     h('p', { class: 'note' }, m.at ? `Last synced ${new Date(m.at).toLocaleString()}.` : 'Not synced yet.'),
     m.err ? h('p', { class: 'note warn' }, 'Last attempt failed: ' + m.err) : null,
     h('div', { class: 'bar' }, now,
-      h('button', { onclick: () => { if (confirm('Stop syncing on this device? Progress here and in the gist stays as it is.')) { disconnect(); settingsScreen(); } } }, 'Disconnect'))];
+      h('button', { onclick: () => { if (confirm('Stop syncing on this device? Progress here and in the gist stays as it is.')) { disconnect(); settingsScreen(); } } }, 'Disconnect'))].filter(Boolean);
 }
 
 window.addEventListener('exit-session', () => { todayScreen(); bgSync(); });
