@@ -83,3 +83,4 @@
 - render.js `solo()`: maqqef hyphen hidden on words shown alone (decode, lemma, example cards); kept in verses. From Lane's reports D:01GYp, D:32wMq.
 - build_text.py `question_gloss`: TAHOT "¿ not" shown as "not?" (334 tokens); verify_text fails on any "¿". Rebuilt text/items/lessons; item ids unchanged.
 - glosses/tokens.json: 7 Unit 0 decode notes fixed per occurrence (ayékah, velámah, ve'elékha, haholekh, ferat, ba'ah, keshem); curated, unreviewed.
+- build_lessons.py: typed translit after a ref no longer swallows the next ref (L0.8 showed raw {Gen...}); build fails on unresolved refs. lessons.js: dropped backtick code spans (` is ayin). L0.8 pairs as a list.

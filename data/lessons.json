@@ -258,7 +258,7 @@
    "unit": 0,
    "title": "Look-alike letters",
    "unlocks": [],
-   "body": "Pairs that slow readers down. Look at the first letter of each word.\n\nBet and kaf: {0} and {Gen.1.7#17} khen.\nDalet and resh: {1} and {Gen.1.6#4} raqía`.\nHe, chet and tav: {2}, {3}, {4}.\nVav and zayin: {5} and {Gen.1.11#8} zéra`.\n\nWhen a word looks wrong, check these pairs first.",
+   "body": "Pairs that slow readers down. Look at the first letter of each word.\n\n- Bet and kaf: {0} and {1}.\n- Dalet and resh: {2} and {3}.\n- He, chet and tav: {4}, {5}, {6}.\n- Vav and zayin: {7} and {8}.\n\nWhen a word looks wrong, check these pairs first.",
    "refs": [
     {
      "ids": [
@@ -268,7 +268,19 @@
     },
     {
      "ids": [
+      "01n5f"
+     ],
+     "hl": null
+    },
+    {
+     "ids": [
       "01fPi"
+     ],
+     "hl": null
+    },
+    {
+     "ids": [
+      "01fsu"
      ],
      "hl": null
     },
@@ -295,9 +307,15 @@
       "01eYX"
      ],
      "hl": null
+    },
+    {
+     "ids": [
+      "01VA9"
+     ],
+     "hl": null
     }
    ],
-   "words": 47
+   "words": 48
   },
   {
    "id": "L0.9",
@@ -1774,6 +1792,22 @@
    ],
    "ref": "Gen.1.1"
   },
+  "01n5f": {
+   "id": "01n5f",
+   "s": "כֵֽן",
+   "tr": "khen",
+   "g": "so",
+   "gs": "TAHOT",
+   "gr": 0,
+   "p": [
+    [
+     "כֵֽן",
+     "3651 c",
+     "D"
+    ]
+   ],
+   "ref": "Gen.1.7"
+  },
   "01fPi": {
    "id": "01fPi",
    "s": "דֶּ֔שֶׁא",
@@ -1842,6 +1876,22 @@
     ]
    ],
    "ref": "Gen.1.2"
+  },
+  "01VA9": {
+   "id": "01VA9",
+   "s": "זֶ֔רַע",
+   "tr": "zéra`",
+   "g": "seed",
+   "gs": "TAHOT",
+   "gr": 0,
+   "p": [
+    [
+     "זֶ֔רַע",
+     "2233",
+     "Ncmsa"
+    ]
+   ],
+   "ref": "Gen.1.11"
   },
   "32TyA": {
    "id": "32TyA",

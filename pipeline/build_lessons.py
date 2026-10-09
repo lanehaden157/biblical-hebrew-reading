@@ -23,7 +23,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SRC = os.path.join(ROOT, "lessons")
 TEXT = os.path.join(ROOT, "data", "text")
 OUT = os.path.join(ROOT, "data", "lessons.json")
-REF = re.compile(r"\{(\w+)\.(\d+)\.(\d+)#(\d+)(?:-(\d+))?(?:/(\d+))?\}( [^\s,.;:\"(]+(?: [^\s,.;:\"(]+)*)?")
+REF = re.compile(r"\{(\w+)\.(\d+)\.(\d+)#(\d+)(?:-(\d+))?(?:/(\d+))?\}( [^\s,.;:\"({]+(?: [^\s,.;:\"({]+)*)?")
 HEBREW = re.compile("[%s-%s]" % (chr(0x591), chr(0x5F4)))
 MAX_WORDS = 150
 
@@ -86,6 +86,8 @@ def resolve(lesson, toks, errors):
         return out
 
     lesson["body"] = REF.sub(sub, lesson["body"])
+    if re.search(r"\{\w+\.\d+\.\d+#", lesson["body"]):   # a ref swallowed by the previous one's typed translit
+        errors.append(f"{lesson['id']}: unresolved corpus ref left in body")
     lesson["refs"] = refs
     words = len(re.sub(r"\{\d+\}", "", lesson["body"]).split())
     if words > MAX_WORDS:

@@ -82,10 +82,10 @@ Final pe: {Gen.1.21#18} kanaf. Final tsade: {Gen.1.1#7} ha'árets.
 
 Pairs that slow readers down. Look at the first letter of each word.
 
-Bet and kaf: {Gen.1.1#2} bara and {Gen.1.7#17} khen.
-Dalet and resh: {Gen.1.11#5} déshe and {Gen.1.6#4} raqía`.
-He, chet and tav: {Gen.1.2#2} hayetah, {Gen.1.20#7} chayah, {Gen.1.2#8} tehom.
-Vav and zayin: {Gen.1.2#4} vavóhu and {Gen.1.11#8} zéra`.
+- Bet and kaf: {Gen.1.1#2} bara and {Gen.1.7#17} khen.
+- Dalet and resh: {Gen.1.11#5} déshe and {Gen.1.6#4} raqía`.
+- He, chet and tav: {Gen.1.2#2} hayetah, {Gen.1.20#7} chayah, {Gen.1.2#8} tehom.
+- Vav and zayin: {Gen.1.2#4} vavóhu and {Gen.1.11#8} zéra`.
 
 When a word looks wrong, check these pairs first.
 

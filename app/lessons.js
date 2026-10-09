@@ -3,7 +3,8 @@ import { h, word } from './render.js';
 import { D } from './data.js';
 
 function inline(text, refs) {
-  return text.split(/(\{\d+\}|`[^`]+`)/).map(part => {
+  // No backtick code spans: ` is ayin in transliteration (raqía`).
+  return text.split(/(\{\d+\})/).map(part => {
     const m = part.match(/^\{(\d+)\}$/);
     if (m) {
       const ref = refs[+m[1]];
@@ -14,7 +15,6 @@ function inline(text, refs) {
         return t ? word(t, { hl, tr: 'tap' }) : '';
       }));
     }
-    if (part.startsWith('`') && part.length > 1) return h('code', {}, part.slice(1, -1));
     return part;
   });
 }

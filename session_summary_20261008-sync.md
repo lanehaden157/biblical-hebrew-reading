@@ -8,3 +8,4 @@
 - Sync confirmed live: gist bfcce068..., pull_sync.py read Lane's 2 reports (D:01GYp, D:32wMq, translit/English formatting).
 - Lane's 2 reports (pre-dedouble items, since removed): fixed trailing maqqef dash on solo words (gave away decode answers) and TAHOT "¿" glosses. Open: decode notes show TAHOT contextual glosses that can read oddly alone ("more than two plus").
 - Fixed 7 odd Unit 0 decode notes via glosses/tokens.json overrides (Tubal- left; solo() already shows 'Tubal').
+- L0.8 look-alike lesson showed raw refs/code: typed-translit regex swallowed following refs; backtick (ayin) triggered code spans. Fixed + gate.
