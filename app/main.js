@@ -102,7 +102,7 @@ function settingsScreen() {
     file,
     h('h3', {}, `Reported items (${s.reports.length})`),
     s.reports.length ? h('div', { class: 'bar' }, h('button', { onclick: () => download(`hebrew-reports-${stamp()}.json`, s.reports) }, 'Export reports')) : h('p', { class: 'note' }, 'None. Use Report on any card to hide an item and flag it.'),
-    s.quarantine.map(id => h('div', { class: 'qrow' }, h('span', {}, id + ' ' + (s.reports.filter(r => r.id === id).at(-1)?.reason || '')),
+    ...s.quarantine.map(id => h('div', { class: 'qrow' }, h('span', {}, id + ' ' + (s.reports.filter(r => r.id === id).at(-1)?.reason || '')),
       h('button', { class: 'link', onclick: () => { restore(id); settingsScreen(); bgSync(); } }, 'Restore'))),
     ...syncSection());
 }

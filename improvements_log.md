@@ -79,3 +79,4 @@
 - app/sync.js + Settings "Sync" section: opt-in private-gist sync of progress and reports; store.js stamps savedAt; sw.js skips api.github.com.
 - pipeline/pull_sync.py: fetches synced state, lists reports. SPEC sync decision, CLAUDE.md, BUILD_PLAN updated.
 - app/main.js: fixed Sync section rendering as raw text (array not spread into replaceChildren).
+- app/main.js: fixed reported-items list rendering as raw text (same array bug, from 4b).
