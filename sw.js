@@ -4,7 +4,8 @@ self.addEventListener('install', () => self.skipWaiting());
 self.addEventListener('activate', e => e.waitUntil(self.clients.claim()));
 self.addEventListener('fetch', e => {
   if (e.request.method !== 'GET' || e.request.url.startsWith('https://api.github.com/')) return; // sync: never cache
-  e.respondWith(fetch(e.request).then(r => {
+  // no-cache: revalidate with the server, so Pages' 10-minute HTTP cache can't serve an old version
+  e.respondWith(fetch(e.request, { cache: 'no-cache' }).then(r => {
     if (r.ok) { const c = r.clone(); caches.open(CACHE).then(k => k.put(e.request, c)); }
     return r;
   }).catch(() => caches.match(e.request)));
