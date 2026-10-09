@@ -38,9 +38,9 @@
   {
    "id": "L0.2",
    "unit": 0,
-   "title": "Dagesh: hard letter or doubled letter",
+   "title": "Dagesh: the dot inside a letter",
    "unlocks": [],
-   "body": "A dot inside a letter has two jobs.\n\nBet, kaf and pe are hard with the dot (b, k, p) and soft without it (v, kh, f):\n{0} has a hard b and a soft kh; {1} starts with a soft v.\n\nAfter a vowel, the dot doubles the letter. Doubled letters are written twice:\n{2}, {3}.\n\nBoth in one word: {4}, a doubled k and then a soft kh.",
+   "body": "A dot inside a letter has two jobs.\n\nBet, kaf and pe are hard with the dot (b, k, p) and soft without it (v, kh, f):\n{0} has a hard b and a soft kh; {1} starts with a soft v.\n\nAfter a vowel, the dot marks a doubled letter. Ancient readers held the sound a little longer;\ntoday it is read as one letter, so the transliteration writes it once: {2},\n{3}. The dot still matters as a grammar signal after ha-, va- and mi- (Units 1\nand 3).\n\nBoth in one word: {4}, a dot in the first kaf (hard k) and none in the\nsecond (soft kh).",
    "refs": [
     {
      "ids": [
@@ -73,7 +73,7 @@
      "hl": null
     }
    ],
-   "words": 68
+   "words": 109
   },
   {
    "id": "L0.3",
@@ -405,7 +405,7 @@
     "M:va",
     "M:vayy"
    ],
-   "body": "The vav prefix means \"and\" (sometimes \"but\", \"so\", \"then\").\n\nUsually ve-: {0}.\nBefore b, m, p or a shva it becomes u-: {1}, {2}.\nSometimes va-: {3}.\n\nOn story verbs it is va- with the next letter doubled: {4}. For now learn\nthose verbs as whole words; Unit 3 takes them apart.",
+   "body": "The vav prefix means \"and\" (sometimes \"but\", \"so\", \"then\").\n\nUsually ve-: {0}.\nBefore b, m, p or a shva it becomes u-: {1}, {2}.\nSometimes va-: {3}.\n\nOn story verbs it is va- with a dot in the next letter: {4}. For now learn\nthose verbs as whole words; Unit 3 takes them apart.",
    "refs": [
     {
      "ids": [
@@ -438,17 +438,17 @@
      "hl": 0
     }
    ],
-   "words": 52
+   "words": 54
   },
   {
    "id": "L1.3",
    "unit": 1,
-   "title": "The: ha- and a doubled letter",
+   "title": "The: ha- and a dot in the next letter",
    "unlocks": [
     "M:ha",
     "M:ha_g"
    ],
-   "body": "The article is ha- and the next letter is doubled: {0},\n{1}.\n\nAlef, ayin, he, chet and resh cannot double, so the vowel adjusts instead: {2},\n{3}, {4}.\n\nThere is no word for \"a\": a noun without ha- is usually indefinite.",
+   "body": "The article is ha- and the next letter takes a dot: {0},\n{1}.\n\nAlef, ayin, he, chet and resh cannot take the dot, so the vowel adjusts instead: {2},\n{3}, {4}.\n\nThere is no word for \"a\": a noun without ha- is usually indefinite.",
    "refs": [
     {
      "ids": [
@@ -481,7 +481,7 @@
      "hl": 0
     }
    ],
-   "words": 41
+   "words": 44
   },
   {
    "id": "L1.4",
@@ -544,7 +544,7 @@
     "M:mi",
     "M:me"
    ],
-   "body": "\"From\" stands alone as min- or attaches as mi- with the next letter doubled:\n{0} \"from under\".\n\nBefore a guttural it cannot double and becomes me-: {1} \"from above\".\n\nDoubled after mi- is the nun of min assimilating, the same way the article doubles.",
+   "body": "\"From\" stands alone as min- or attaches as mi- with a dot in the next letter:\n{0} \"from under\".\n\nBefore a guttural there is no dot and it becomes me-: {1} \"from above\".\n\nThe dot after mi- is the nun of min absorbed into the next letter.",
    "refs": [
     {
      "ids": [
@@ -559,7 +559,7 @@
      "hl": 0
     }
    ],
-   "words": 42
+   "words": 45
   },
   {
    "id": "L1.6",
@@ -849,7 +849,7 @@
    "unlocks": [
     "L:859_a"
    ],
-   "body": "Standalone pronouns: {0} \"and I\" (also anokhi), {1} \"you\",\nhu \"he\", {2} \"she\", {3} \"we\", attem \"you (pl.)\", hem \"they\".\n\nA pronoun often makes a sentence with no verb: {4} \"I [am] YHWH\".\n\nA story verb already shows who acts, so a pronoun beside a verb adds stress: \"I myself\".\n\nhu, hi and hem after a noun with \"the\" mean \"that, those\": {5} \"that\nman\".",
+   "body": "Standalone pronouns: {0} \"and I\" (also anokhi), {1} \"you\",\nhu \"he\", {2} \"she\", {3} \"we\", atem \"you (pl.)\", hem \"they\".\n\nA pronoun often makes a sentence with no verb: {4} \"I [am] YHWH\".\n\nA story verb already shows who acts, so a pronoun beside a verb adds stress: \"I myself\".\n\nhu, hi and hem after a noun with \"the\" mean \"that, those\": {5} \"that\nman\".",
    "refs": [
     {
      "ids": [
@@ -899,7 +899,7 @@
    "unlocks": [
     "L:428"
    ],
-   "body": "zeh \"this\" (masculine), zot \"this\" (feminine), élleh \"these\".\n\nAfter a noun with \"the\" they take \"the\" too: {0} \"this day\",\n{1} \"this woman\".\n\nWith no \"the\", they start a sentence: {2} \"and these [are] the\nnames of\".",
+   "body": "zeh \"this\" (masculine), zot \"this\" (feminine), éleh \"these\".\n\nAfter a noun with \"the\" they take \"the\" too: {0} \"this day\",\n{1} \"this woman\".\n\nWith no \"the\", they start a sentence: {2} \"and these [are] the\nnames of\".",
    "refs": [
     {
      "ids": [
@@ -1074,7 +1074,7 @@
    "unlocks": [
     "M:w_seq"
    ],
-   "body": "Biblical stories move forward with one verb form: va- plus a doubled letter.\n{0} \"and he said\", {1} \"and he saw\", {2}\n\"and he called\".\n\nRead it as \"and then he did X\". English uses a plain past tense, and the \"and\" often goes\nuntranslated.\n\nA run of these verbs is the backbone of a story: each is the next event. When a clause breaks\nthe run (a noun first, or another verb form), it usually gives background or starts a scene.\n\nThe doubling is the clue: vayy-, vatt-, vann-. Ve- plus a verb without doubling is a different\nform (Unit 4).",
+   "body": "Biblical stories move forward with one verb form: va- plus a dot in the next letter.\n{0} \"and he said\", {1} \"and he saw\", {2}\n\"and he called\".\n\nRead it as \"and then he did X\". English uses a plain past tense, and the \"and\" often goes\nuntranslated.\n\nA run of these verbs is the backbone of a story: each is the next event. When a clause breaks\nthe run (a noun first, or another verb form), it usually gives background or starts a scene.\n\nThe dot is the clue: vay-, vat-, van- with a dot in the y, t or n. Ve- plus a verb with no\ndot is a different form (Unit 4).",
    "refs": [
     {
      "ids": [
@@ -1095,7 +1095,7 @@
      "hl": null
     }
    ],
-   "words": 99
+   "words": 112
   },
   {
    "id": "L3.2",
@@ -1107,7 +1107,7 @@
     "M:a1cs",
     "M:n1cp"
    ],
-   "body": "After va- comes a letter that says who acted:\n- y- he: {0} \"and he said\"\n- t- she: {1} \"and she said\". The same t- can mean \"you\".\n- ' (alef) I: {2} \"and I said\". Alef cannot double, so va'- has no\n  doubling.\n- n- we: {3} \"and we said\"\n\nIn narrative, he and she do almost all the work. I and we appear when a character retells\nevents.",
+   "body": "After va- comes a letter that says who acted:\n- y- he: {0} \"and he said\"\n- t- she: {1} \"and she said\". The same t- can mean \"you\".\n- ' (alef) I: {2} \"and I said\". Alef cannot take the dot, so va'- has\n  none.\n- n- we: {3} \"and we said\"\n\nIn narrative, he and she do almost all the work. I and we appear when a character retells\nevents.",
    "refs": [
     {
      "ids": [
@@ -1134,7 +1134,7 @@
      "hl": null
     }
    ],
-   "words": 67
+   "words": 68
   },
   {
    "id": "L3.3",
@@ -1144,7 +1144,7 @@
     "M:y_u",
     "M:t_u"
    ],
-   "body": "A final -u makes the verb plural: {0} \"and they said\".\n\ny- with -u is \"they\"; t- with -u is \"you (pl.)\": {1} \"and you said\".\n\nSo check three things on a story verb: va- with doubling (story tense), the prefix letter\n(who), a final -u (more than one).\n\nThe subject noun usually follows the verb and matches it: {2}\n\"and the earth brought forth\". The t- agrees with the feminine noun \"earth\".",
+   "body": "A final -u makes the verb plural: {0} \"and they said\".\n\ny- with -u is \"they\"; t- with -u is \"you (pl.)\": {1} \"and you said\".\n\nSo check three things on a story verb: va- with the dot (story tense), the prefix letter\n(who), a final -u (more than one).\n\nThe subject noun usually follows the verb and matches it: {2}\n\"and the earth brought forth\". The t- agrees with the feminine noun \"earth\".",
    "refs": [
     {
      "ids": [
@@ -1166,7 +1166,7 @@
      "hl": null
     }
    ],
-   "words": 70
+   "words": 71
   },
   {
    "id": "L3.4",
@@ -1175,7 +1175,7 @@
    "unlocks": [
     "M:short"
    ],
-   "body": "Many common verbs end in -eh in their ordinary form: {0} \"he will see\",\n{1} \"he will do\". The story tense drops the ending: {2} \"and\nhe saw\", {3} \"and he made\".\n\nOthers shorten a vowel: {4} \"he will turn\", but {5} \"and\nhe returned\".\n\nvayehi (L1.9) is the short story form of yihyeh \"he will be\".\n\nDoubling and prefix letter are unchanged, so the story tense is still easy to spot.",
+   "body": "Many common verbs end in -eh in their ordinary form: {0} \"he will see\",\n{1} \"he will do\". The story tense drops the ending: {2} \"and\nhe saw\", {3} \"and he made\".\n\nOthers shorten a vowel: {4} \"he will turn\", but {5} \"and\nhe returned\".\n\nvayehi (L1.9) is the short story form of yihyeh \"he will be\".\n\nThe dot and the prefix letter are unchanged, so the story tense is still easy to spot.",
    "refs": [
     {
      "ids": [
@@ -1214,7 +1214,7 @@
      "hl": null
     }
    ],
-   "words": 66
+   "words": 68
   },
   {
    "id": "L3.5",
@@ -1374,7 +1374,7 @@
   "01wM5": {
    "id": "01wM5",
    "s": "הַמָּ֑יִם",
-   "tr": "hammáyim",
+   "tr": "hamáyim",
    "g": "the waters",
    "gs": "TAHOT",
    "gr": 0,
@@ -1395,7 +1395,7 @@
   "01thY": {
    "id": "01thY",
    "s": "וַיֹּ֥אמֶר",
-   "tr": "vayyómer",
+   "tr": "vayómer",
    "g": "and he said",
    "gs": "TAHOT",
    "gr": 0,
@@ -1416,7 +1416,7 @@
   "013yJ": {
    "id": "013yJ",
    "s": "הַכּוֹכָבִֽים",
-   "tr": "hakkokhavim",
+   "tr": "hakokhavim",
    "g": "the stars",
    "gs": "TAHOT",
    "gr": 0,
@@ -1506,7 +1506,7 @@
   "325SS": {
    "id": "325SS",
    "s": "אָנִיָּ֣ה",
-   "tr": "oniyyah",
+   "tr": "oniyah",
    "g": "a ship",
    "gs": "TAHOT",
    "gr": 0,
@@ -1809,7 +1809,7 @@
   "01ecS": {
    "id": "01ecS",
    "s": "חַיָּ֑ה",
-   "tr": "chayyah",
+   "tr": "chayah",
    "g": "living",
    "gs": "TAHOT",
    "gr": 0,
@@ -1904,7 +1904,7 @@
   "01TSc": {
    "id": "01TSc",
    "s": "הַשָּׁמַ֖יִם",
-   "tr": "hashshamáyim",
+   "tr": "hashamáyim",
    "g": "the heavens",
    "gs": "TAHOT",
    "gr": 0,
@@ -2067,7 +2067,7 @@
   "01a62": {
    "id": "01a62",
    "s": "הַיַּבָּשָׁ֑ה",
-   "tr": "hayyabbashah",
+   "tr": "hayabashah",
    "g": "the dry ground",
    "gs": "TAHOT",
    "gr": 0,
@@ -2214,7 +2214,7 @@
   "01gYe": {
    "id": "01gYe",
    "s": "בַּיּ֣וֹם",
-   "tr": "bayyom",
+   "tr": "bayom",
    "g": "over the day",
    "gs": "TAHOT",
    "gr": 0,
@@ -2235,7 +2235,7 @@
   "01L4k": {
    "id": "01L4k",
    "s": "מִתַּ֣חַת",
-   "tr": "mittáchat",
+   "tr": "mitáchat",
    "g": "were from under",
    "gs": "TAHOT",
    "gr": 0,
@@ -2309,7 +2309,7 @@
   "01A4a": {
    "id": "01A4a",
    "s": "הַמַּ֨יִם֙",
-   "tr": "hammáyim",
+   "tr": "hamáyim",
    "g": "the waters",
    "gs": "TAHOT",
    "gr": 0,
@@ -2633,7 +2633,7 @@
   "014Se": {
    "id": "014Se",
    "s": "לְאִשָּׁ֑ה",
-   "tr": "le'ishshah",
+   "tr": "le'ishah",
    "g": "to a wife",
    "gs": "TAHOT",
    "gr": 0,
@@ -2782,7 +2782,7 @@
   "02dzV": {
    "id": "02dzV",
    "s": "הַמִּדְבָּ֖ר",
-   "tr": "hammidbar",
+   "tr": "hamidbar",
    "g": "the wilderness",
    "gs": "TAHOT",
    "gr": 0,
@@ -2803,7 +2803,7 @@
   "01ddd": {
    "id": "01ddd",
    "s": "הַמָּא֤וֹר",
-   "tr": "hamma'or",
+   "tr": "hama'or",
    "g": "the luminary",
    "gs": "TAHOT",
    "gr": 0,
@@ -2824,7 +2824,7 @@
   "01hxo": {
    "id": "01hxo",
    "s": "הַגָּדֹל֙",
-   "tr": "haggadol",
+   "tr": "hagadol",
    "g": "great",
    "gs": "TAHOT",
    "gr": 0,
@@ -2861,7 +2861,7 @@
   "01sHf": {
    "id": "01sHf",
    "s": "הַמְּאֹרֹ֖ת",
-   "tr": "hamme'orot",
+   "tr": "hame'orot",
    "g": "the luminaries",
    "gs": "TAHOT",
    "gr": 0,
@@ -2882,7 +2882,7 @@
   "01iee": {
    "id": "01iee",
    "s": "הַגְּדֹלִ֑ים",
-   "tr": "haggedolim",
+   "tr": "hagedolim",
    "g": "great",
    "gs": "TAHOT",
    "gr": 0,
@@ -2924,7 +2924,7 @@
   "01aHo": {
    "id": "01aHo",
    "s": "אַתָּ֥ה",
-   "tr": "attah",
+   "tr": "atah",
    "g": "you",
    "gs": "TAHOT",
    "gr": 0,
@@ -3046,7 +3046,7 @@
   "01pY9": {
    "id": "01pY9",
    "s": "הַיּ֤וֹם",
-   "tr": "hayyom",
+   "tr": "hayom",
    "g": "the day",
    "gs": "TAHOT",
    "gr": 0,
@@ -3067,7 +3067,7 @@
   "01GAq": {
    "id": "01GAq",
    "s": "הַזֶּה֙",
-   "tr": "hazzeh",
+   "tr": "hazeh",
    "g": "this",
    "gs": "TAHOT",
    "gr": 0,
@@ -3088,7 +3088,7 @@
   "11ZMa": {
    "id": "11ZMa",
    "s": "הָאִשָּׁ֥ה",
-   "tr": "ha'ishshah",
+   "tr": "ha'ishah",
    "g": "the woman",
    "gs": "TAHOT",
    "gr": 0,
@@ -3109,7 +3109,7 @@
   "11K9n": {
    "id": "11K9n",
    "s": "הַזֹּ֖את",
-   "tr": "hazzot",
+   "tr": "hazot",
    "g": "this",
    "gs": "TAHOT",
    "gr": 0,
@@ -3130,7 +3130,7 @@
   "01Z5L": {
    "id": "01Z5L",
    "s": "וְאֵ֨לֶּה",
-   "tr": "ve'élleh",
+   "tr": "ve'éleh",
    "g": "and these",
    "gs": "TAHOT",
    "gr": 0,
@@ -3209,7 +3209,7 @@
   "01k6s": {
    "id": "01k6s",
    "s": "וַיֹּ֥אמֶר",
-   "tr": "vayyómer",
+   "tr": "vayómer",
    "g": "and he said",
    "gs": "TAHOT",
    "gr": 0,
@@ -3293,7 +3293,7 @@
   "01eVQ": {
    "id": "01eVQ",
    "s": "עִמּ֖וֹ",
-   "tr": "`immo",
+   "tr": "`imo",
    "g": "with him",
    "gs": "TAHOT",
    "gr": 0,
@@ -3508,7 +3508,7 @@
   "01USR": {
    "id": "01USR",
    "s": "וַיַּ֧רְא",
-   "tr": "vayyar",
+   "tr": "vayar",
    "g": "and he saw",
    "gs": "TAHOT",
    "gr": 0,
@@ -3529,7 +3529,7 @@
   "01nAB": {
    "id": "01nAB",
    "s": "וַיִּקְרָ֨א",
-   "tr": "vayyiqra",
+   "tr": "vayiqra",
    "g": "and he called",
    "gs": "TAHOT",
    "gr": 0,
@@ -3550,7 +3550,7 @@
   "01hvK": {
    "id": "01hvK",
    "s": "וַתֹּ֥אמֶר",
-   "tr": "vattómer",
+   "tr": "vatómer",
    "g": "and she said",
    "gs": "TAHOT",
    "gr": 0,
@@ -3592,7 +3592,7 @@
   "013xs": {
    "id": "013xs",
    "s": "וַנֹּ֥אמֶר",
-   "tr": "vannómer",
+   "tr": "vanómer",
    "g": "and we said",
    "gs": "TAHOT",
    "gr": 0,
@@ -3613,7 +3613,7 @@
   "013rQ": {
    "id": "013rQ",
    "s": "וַיֹּאמְר֞וּ",
-   "tr": "vayyomeru",
+   "tr": "vayomeru",
    "g": "and they said",
    "gs": "TAHOT",
    "gr": 0,
@@ -3634,7 +3634,7 @@
   "097pV": {
    "id": "097pV",
    "s": "וַתֹּ֣אמְרוּ",
-   "tr": "vattómeru",
+   "tr": "vatómeru",
    "g": "and you said",
    "gs": "TAHOT",
    "gr": 0,
@@ -3655,7 +3655,7 @@
   "01TXw": {
    "id": "01TXw",
    "s": "וַתּוֹצֵ֨א",
-   "tr": "vattotse",
+   "tr": "vatotse",
    "g": "and it brought forth",
    "gs": "TAHOT",
    "gr": 0,
@@ -3729,7 +3729,7 @@
   "01bmv": {
    "id": "01bmv",
    "s": "וַיַּ֣עַשׂ",
-   "tr": "vayyá`as",
+   "tr": "vayá`as",
    "g": "and he made",
    "gs": "TAHOT",
    "gr": 0,
@@ -3766,7 +3766,7 @@
   "01Cjf": {
    "id": "01Cjf",
    "s": "וַיָּ֤שָׁב",
-   "tr": "vayyáshov",
+   "tr": "vayáshov",
    "g": "and he returned",
    "gs": "TAHOT",
    "gr": 0,
@@ -3787,7 +3787,7 @@
   "01uTK": {
    "id": "01uTK",
    "s": "וַיִּשְׁלַ֗ח",
-   "tr": "vayyishlach",
+   "tr": "vayishlach",
    "g": "and he sent",
    "gs": "TAHOT",
    "gr": 0,
@@ -3808,7 +3808,7 @@
   "011Cu": {
    "id": "011Cu",
    "s": "וַיִּשְׁמַ֣ע",
-   "tr": "vayyishma`",
+   "tr": "vayishma`",
    "g": "and he heard",
    "gs": "TAHOT",
    "gr": 0,
@@ -3829,7 +3829,7 @@
   "01xVz": {
    "id": "01xVz",
    "s": "וַיִּמְלֹ֣ךְ",
-   "tr": "vayyimlokh",
+   "tr": "vayimlokh",
    "g": "and he reigned",
    "gs": "TAHOT",
    "gr": 0,

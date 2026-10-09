@@ -69,3 +69,10 @@
 
 ## 2026-10-08 - Phase 4b
 - New: app/report.js, app/progress.js; store reports/quarantine/replace; log nw/w/taps; sessions sec; Progress tab; Settings export/import/reports.
+
+## 2026-10-08 - Translit: dagesh forte not written
+- translit.py: doubled consonant no longer written (gem flag kept for qatan); golden 12 entries updated.
+- build_items.py: removed "double" distractor kind (dagesh_forte -> spirant test); morpheme/marker labels say "dot in the next letter".
+- lessons unit0-3: typed translits regenerated; L0.2, L1.2-1.5, L3.1-3.3 prose teaches the dot, not doubling.
+- app/session.js: due count ignores cards whose item no longer exists.
+- SPEC Q1, CLAUDE.md, BUILD_PLAN updated. Rebuilt measures, text, items, lessons; all gates pass.

@@ -13,7 +13,7 @@ Where it conflicts with the current CLAUDE.md, the spec wins; CLAUDE.md gets rew
 | Location | Same repo, replace on `main`; old state tagged `v0-legacy`; same Pages URL |
 | Decoding | Lane reads pointed text → Unit 0 is a 1-week calibration |
 | Transliteration display | Tap-to-show after Unit 0; setting for always-on |
-| Translit conventions (Q1) | b/v k/kh p/f by dagesh; doubled consonants written double; vocal shva = `e`; qamats qatan = `o` |
+| Translit conventions (Q1) | b/v k/kh p/f by dagesh; dagesh forte not written (2026-10-08); vocal shva = `e`; qamats qatan = `o` |
 | Divine name (Q3) | Pointed text as printed; translit `YHWH`; gloss "YHWH (the LORD)" |
 | Audio (R2) | Not in v1 |
 | Session | Spec's guided Today flow (~8 min, silent roll-over, no counters) |

@@ -15,13 +15,13 @@ The pairing is a tendency, not a rule: {Gen.4.19#5} nashim "wives" is feminine w
 ending tells you "plural"; the gender belongs to the word.
 
 A few words are plural in form but singular in sense: elohim "God", panim "face",
-{Gen.1.6#6} hammáyim "the water", {Gen.1.8#4} shamáyim "sky".
+{Gen.1.6#6} hamáyim "the water", {Gen.1.8#4} shamáyim "sky".
 
 ## L2.2 Feminine -ah and the pair ending -ayim
 unlocks: M:ah_f, M:ayim
 
 A stressed final -ah usually marks a feminine singular noun or adjective: {Gen.5.10#12} shanah
-"year", {Gen.12.19#8} le'ishshah "for a wife".
+"year", {Gen.12.19#8} le'ishah "for a wife".
 
 -ayim marks a pair, or "two of": {Exod.21.21#5} yomáyim "two days", {Gen.34.21#13} yadáyim
 "hands". Body parts that come in pairs use it: hands, eyes, feet, ears.
@@ -43,15 +43,15 @@ Cues on the first noun:
 - -im becomes -e: {Gen.42.5#2-3} bene yisra'el "the sons of Israel".
 - -ah becomes -at: {1Kgs.10.4#2} malkat- "the queen of".
 
-{Exod.13.18#5-6} dérekh hammidbar "the way of the wilderness".
+{Exod.13.18#5-6} dérekh hamidbar "the way of the wilderness".
 
 ## L2.4 Adjectives come after the noun
 unlocks: L:1419_a
 
 An adjective follows its noun and matches it in number, gender and "the":
-{Gen.1.16#8-9} hamma'or haggadol "the great light", literally "the light the great".
+{Gen.1.16#8-9} hama'or hagadol "the great light", literally "the light the great".
 
-{Gen.1.16#4-6} shene hamme'orot haggedolim "the two great lights": plural noun, plural
+{Gen.1.16#4-6} shene hame'orot hagedolim "the two great lights": plural noun, plural
 adjective.
 
 When the noun has "the" and the adjective does not, or the adjective comes first, it is
@@ -61,8 +61,8 @@ was] good" (L1.8).
 ## L2.5 Pronouns: I, you, he, they
 unlocks: L:859_a
 
-Standalone pronouns: {Gen.6.17#1} va'ani "and I" (also anokhi), {Gen.7.1#5} attah "you",
-hu "he", {Gen.3.12#7} hi "she", {Gen.42.11#7} anáchnu "we", attem "you (pl.)", hem "they".
+Standalone pronouns: {Gen.6.17#1} va'ani "and I" (also anokhi), {Gen.7.1#5} atah "you",
+hu "he", {Gen.3.12#7} hi "she", {Gen.42.11#7} anáchnu "we", atem "you (pl.)", hem "they".
 
 A pronoun often makes a sentence with no verb: {Gen.15.7#3-4} ani YHWH "I [am] YHWH".
 
@@ -74,12 +74,12 @@ man".
 ## L2.6 This and these
 unlocks: L:428
 
-zeh "this" (masculine), zot "this" (feminine), élleh "these".
+zeh "this" (masculine), zot "this" (feminine), éleh "these".
 
-After a noun with "the" they take "the" too: {Gen.7.13#2-3} hayyom hazzeh "this day",
-{1Kgs.3.19#3-4} ha'ishshah hazzot "this woman".
+After a noun with "the" they take "the" too: {Gen.7.13#2-3} hayom hazeh "this day",
+{1Kgs.3.19#3-4} ha'ishah hazot "this woman".
 
-With no "the", they start a sentence: {Gen.46.8#1-2} ve'élleh shemot "and these [are] the
+With no "the", they start a sentence: {Gen.46.8#1-2} ve'éleh shemot "and these [are] the
 names of".
 
 ## L2.7 Endings for my, your, his
@@ -88,8 +88,8 @@ unlocks: M:s_3ms, M:s_3fs, M:s_3mp, M:s_3fp, M:s_2ms, M:s_2fs, M:s_2mp, M:s_1cs,
 "His", "my" and "their" are endings on the noun: {Gen.12.17#8} beto "his house",
 {Gen.3.20#4} ishto "his wife".
 
-The same endings on a preposition give "to him", "with me": {Gen.3.9#6-7} vayyómer lo "and he
-said to him", {Gen.3.12#9} li "to me", {Gen.3.11#4} lekha "to you", {Gen.13.1#10} `immo "with
+The same endings on a preposition give "to him", "with me": {Gen.3.9#6-7} vayómer lo "and he
+said to him", {Gen.3.12#9} li "to me", {Gen.3.11#4} lekha "to you", {Gen.13.1#10} `imo "with
 him". On 'et they make the object: {Gen.5.2#5} otam "them".
 
 The core set: -i my/me, -kha your, -o his/him, -ah her, -nu our/us, -khem your (pl.),

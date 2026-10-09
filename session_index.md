@@ -18,3 +18,4 @@
 - 2026-10-08 (6): Phase 3 part 2: Units 2-3 content (24 suffix/ending cards, 8 story-tense markers, 61 forms, 10 names, 110 readings, 14 lessons, 140 lemma glosses). verify_content passes. Phase 3 done.
 - 2026-10-08 (7): Phase 4a app core: Today flow, 7 card kinds, lessons, FSRS, verify_app gate; legacy root files removed.
 - 2026-10-08 (8): Phase 4b: report-a-problem, export/import, progress tab, M12 timing.
+- 2026-10-08 (9): Dropped doubled consonants from translit (dagesh forte not written); removed doubling distractors; lessons reworded to teach the dot as a grammar signal. 29,247 tokens changed; Unit 0 picks shifted (42 ids).

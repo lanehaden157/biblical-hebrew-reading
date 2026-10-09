@@ -52,3 +52,4 @@ Phase log for the v1 rebuild (see `BUILD_PLAN.md`). Pre-rebuild history: tag `v0
 - Progress tab: Exod 3 / 14 word coverage (tap for distinct lemmas), narrative-corpus coverage, words introduced, parse accuracy (last 40), recall (last 100), decode checks, help taps per 100 words, verses read, M12 pace (median seconds per kind, session minutes, sessions per week; forecast after 30 days).
 - Log entries now carry `nw` (new vs review), word and tap counts; sessions carry `sec`.
 - Not built: Unit 0 mastery check, pin queue, Exodus passage reader, a converter from reports to `apply_review.py` input.
+- 2026-10-08: translit no longer writes dagesh forte (one consonant); doubling distractors removed; lessons teach the dot.

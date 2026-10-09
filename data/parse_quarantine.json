@@ -460,7 +460,7 @@
   {
    "id": "11ygU",
    "ref": "1Kgs.1.23",
-   "translit": "vayyishtáchu",
+   "translit": "vayishtáchu",
    "reasons": [
     "stem:Hithpael/hsht"
    ],
@@ -504,7 +504,7 @@
   {
    "id": "1162T",
    "ref": "1Kgs.1.47",
-   "translit": "vayyishtáchu",
+   "translit": "vayishtáchu",
    "reasons": [
     "stem:Hithpael/hsht"
    ],
@@ -526,7 +526,7 @@
   {
    "id": "11Svn",
    "ref": "1Kgs.1.53",
-   "translit": "vayyishtáchu",
+   "translit": "vayishtáchu",
    "reasons": [
     "stem:Hithpael/hsht"
    ],
@@ -548,7 +548,7 @@
   {
    "id": "11MGG",
    "ref": "1Kgs.2.19",
-   "translit": "vayyishtáchu",
+   "translit": "vayishtáchu",
    "reasons": [
     "stem:Hithpael/hsht"
    ],
@@ -570,7 +570,7 @@
   {
    "id": "11HQC",
    "ref": "1Kgs.2.20",
-   "translit": "me'ittakh",
+   "translit": "me'itakh",
    "reasons": [
     "suffix-pgn"
    ],
@@ -592,7 +592,7 @@
   {
    "id": "11xRR",
    "ref": "1Kgs.2.21",
-   "translit": "yuttan",
+   "translit": "yutan",
    "reasons": [
     "stem:Qal passive/hof"
    ],
@@ -637,7 +637,7 @@
   {
    "id": "11Gye",
    "ref": "1Kgs.2.32",
-   "translit": "mimménnu",
+   "translit": "miménu",
    "reasons": [
     "suffix-pgn"
    ],
@@ -681,7 +681,7 @@
   {
    "id": "114Th",
    "ref": "1Kgs.3.6",
-   "translit": "`immakh",
+   "translit": "`imakh",
    "reasons": [
     "suffix-pgn"
    ],
@@ -815,7 +815,7 @@
   {
    "id": "11tFS",
    "ref": "1Kgs.6.10",
-   "translit": "vayye'echoz",
+   "translit": "vaye'echoz",
    "reasons": [
     "verb-lemma"
    ],
@@ -837,7 +837,7 @@
   {
    "id": "11kAt",
    "ref": "1Kgs.6.12",
-   "translit": "ittakh",
+   "translit": "itakh",
    "reasons": [
     "suffix-pgn"
    ],
@@ -881,7 +881,7 @@
   {
    "id": "11f8e",
    "ref": "1Kgs.6.19",
-   "translit": "letitten",
+   "translit": "letiten",
    "reasons": [
     "conj:inf. cstr./impf"
    ],
@@ -1190,7 +1190,7 @@
   {
    "id": "11RHd",
    "ref": "1Kgs.8.65",
-   "translit": "millevo",
+   "translit": "milevo",
    "reasons": [
     "pos-is-verb:Np"
    ],
@@ -1256,7 +1256,7 @@
   {
    "id": "11J2d",
    "ref": "1Kgs.11.11",
-   "translit": "`immakh",
+   "translit": "`imakh",
    "reasons": [
     "suffix-pgn"
    ],
@@ -1300,7 +1300,7 @@
   {
    "id": "11vBx",
    "ref": "1Kgs.11.33",
-   "translit": "vayyishtachavu",
+   "translit": "vayishtachavu",
    "reasons": [
     "stem:Hithpael/hsht"
    ],
@@ -1344,7 +1344,7 @@
   {
    "id": "11uF9",
    "ref": "1Kgs.11.38",
-   "translit": "`immakh",
+   "translit": "`imakh",
    "reasons": [
     "suffix-pgn"
    ],
@@ -1366,7 +1366,7 @@
   {
    "id": "11LHh",
    "ref": "1Kgs.13.8",
-   "translit": "`immakh",
+   "translit": "`imakh",
    "reasons": [
     "suffix-pgn"
    ],
@@ -1388,7 +1388,7 @@
   {
    "id": "11dWz",
    "ref": "1Kgs.13.16",
-   "translit": "ittakh",
+   "translit": "itakh",
    "reasons": [
     "suffix-pgn"
    ],
@@ -1410,7 +1410,7 @@
   {
    "id": "1165B",
    "ref": "1Kgs.13.16",
-   "translit": "ittakh",
+   "translit": "itakh",
    "reasons": [
     "suffix-pgn"
    ],
@@ -1520,7 +1520,7 @@
   {
    "id": "116FS",
    "ref": "1Kgs.16.31",
-   "translit": "vayyishtáchu",
+   "translit": "vayishtáchu",
    "reasons": [
     "stem:Hithpael/hsht"
    ],
@@ -1652,7 +1652,7 @@
   {
    "id": "11hLM",
    "ref": "1Kgs.18.12",
-   "translit": "me'ittakh",
+   "translit": "me'itakh",
    "reasons": [
     "suffix-pgn"
    ],
@@ -1696,7 +1696,7 @@
   {
    "id": "11G6m",
    "ref": "1Kgs.18.26",
-   "translit": "hatstsohoráyim",
+   "translit": "hatsohoráyim",
    "reasons": [
     "noun-number"
    ],
@@ -1718,7 +1718,7 @@
   {
    "id": "11DWM",
    "ref": "1Kgs.18.27",
-   "translit": "vatstsohoráyim",
+   "translit": "vatsohoráyim",
    "reasons": [
     "noun-number"
    ],
@@ -1740,7 +1740,7 @@
   {
    "id": "11bQJ",
    "ref": "1Kgs.18.29",
-   "translit": "hatstsohoráyim",
+   "translit": "hatsohoráyim",
    "reasons": [
     "noun-number"
    ],
@@ -1806,7 +1806,7 @@
   {
    "id": "11kGL",
    "ref": "1Kgs.20.7",
-   "translit": "mimménnu",
+   "translit": "miménu",
    "reasons": [
     "suffix-pgn"
    ],
@@ -1828,7 +1828,7 @@
   {
    "id": "114sL",
    "ref": "1Kgs.20.16",
-   "translit": "batstsohoráyim",
+   "translit": "batsohoráyim",
    "reasons": [
     "noun-number"
    ],
@@ -1872,7 +1872,7 @@
   {
    "id": "116Hr",
    "ref": "1Kgs.20.33",
-   "translit": "vayyachletu",
+   "translit": "vayachletu",
    "reasons": [
     "stem:Hiphil/qal"
    ],
@@ -1894,7 +1894,7 @@
   {
    "id": "11DaS",
    "ref": "1Kgs.20.39",
-   "translit": "hippaqed",
+   "translit": "hipaqed",
    "reasons": [
     "conj:inf. abs./infc"
    ],
@@ -1916,7 +1916,7 @@
   {
    "id": "11gzn",
    "ref": "1Kgs.21.2",
-   "translit": "mimménnu",
+   "translit": "miménu",
    "reasons": [
     "suffix-pgn"
    ],
@@ -2027,7 +2027,7 @@
   {
    "id": "11pFw",
    "ref": "1Kgs.22.21",
-   "translit": "afatténnu",
+   "translit": "afaténu",
    "reasons": [
     "suffix-pgn"
    ],
@@ -2071,7 +2071,7 @@
   {
    "id": "11Kqz",
    "ref": "1Kgs.22.30",
-   "translit": "hitchappes",
+   "translit": "hitchapes",
    "reasons": [
     "conj:inf. abs./impv"
    ],
@@ -2115,7 +2115,7 @@
   {
    "id": "11YZ7",
    "ref": "1Kgs.22.43",
-   "translit": "mimménnu",
+   "translit": "miménu",
    "reasons": [
     "suffix-pgn"
    ],
@@ -2181,7 +2181,7 @@
   {
    "id": "0963G",
    "ref": "1Sam.1.19",
-   "translit": "vayyishtachavu",
+   "translit": "vayishtachavu",
    "reasons": [
     "stem:Hithpael/hsht"
    ],
@@ -2203,7 +2203,7 @@
   {
    "id": "09xp4",
    "ref": "1Sam.1.28",
-   "translit": "vayyishtáchu",
+   "translit": "vayishtáchu",
    "reasons": [
     "stem:Hithpael/hsht"
    ],
@@ -2225,7 +2225,7 @@
   {
    "id": "091Za",
    "ref": "1Sam.2.16",
-   "translit": "te'avveh",
+   "translit": "te'aveh",
    "reasons": [
     "verb-lemma"
    ],
@@ -2335,7 +2335,7 @@
   {
    "id": "09NH6",
    "ref": "1Sam.3.18",
-   "translit": "mimménnu",
+   "translit": "miménu",
    "reasons": [
     "suffix-pgn"
    ],
@@ -2401,7 +2401,7 @@
   {
    "id": "09veg",
    "ref": "1Sam.7.10",
-   "translit": "vayyar`em",
+   "translit": "vayar`em",
    "reasons": [
     "verb-lemma"
    ],
@@ -2467,7 +2467,7 @@
   {
    "id": "09VX8",
    "ref": "1Sam.9.2",
-   "translit": "mimménnu",
+   "translit": "miménu",
    "reasons": [
     "suffix-pgn"
    ],
@@ -2643,7 +2643,7 @@
   {
    "id": "09YnB",
    "ref": "1Sam.9.23",
-   "translit": "`immakh",
+   "translit": "`imakh",
    "reasons": [
     "suffix-pgn"
    ],
@@ -2709,7 +2709,7 @@
   {
    "id": "09hgx",
    "ref": "1Sam.10.7",
-   "translit": "`immakh",
+   "translit": "`imakh",
    "reasons": [
     "suffix-pgn"
    ],
@@ -2841,7 +2841,7 @@
   {
    "id": "09m49",
    "ref": "1Sam.13.13",
-   "translit": "tsivvakh",
+   "translit": "tsivakh",
    "reasons": [
     "suffix-pgn"
    ],
@@ -2885,7 +2885,7 @@
   {
    "id": "09agQ",
    "ref": "1Sam.14.24",
-   "translit": "vayyó'el",
+   "translit": "vayó'el",
    "reasons": [
     "verb-lemma"
    ],
@@ -2929,7 +2929,7 @@
   {
    "id": "09gpQ",
    "ref": "1Sam.15.5",
-   "translit": "vayyárev",
+   "translit": "vayárev",
    "reasons": [
     "verb-lemma"
    ],
@@ -2973,7 +2973,7 @@
   {
    "id": "09cbJ",
    "ref": "1Sam.15.26",
-   "translit": "`immakh",
+   "translit": "`imakh",
    "reasons": [
     "suffix-pgn"
    ],
@@ -2995,7 +2995,7 @@
   {
    "id": "09b16",
    "ref": "1Sam.15.31",
-   "translit": "vayyishtáchu",
+   "translit": "vayishtáchu",
    "reasons": [
     "stem:Hithpael/hsht"
    ],
@@ -3171,7 +3171,7 @@
   {
    "id": "09Dvr",
    "ref": "1Sam.17.25",
-   "translit": "ya`sherénnu",
+   "translit": "ya`sherénu",
    "reasons": [
     "suffix-pgn"
    ],
@@ -3193,7 +3193,7 @@
   {
    "id": "09k7y",
    "ref": "1Sam.17.37",
-   "translit": "`immakh",
+   "translit": "`imakh",
    "reasons": [
     "suffix-pgn"
    ],
@@ -3215,7 +3215,7 @@
   {
    "id": "09PpB",
    "ref": "1Sam.17.39",
-   "translit": "vayyó'el",
+   "translit": "vayó'el",
    "reasons": [
     "stem:Hiphil/qal",
     "verb-lemma"
@@ -3238,7 +3238,7 @@
   {
    "id": "09zxD",
    "ref": "1Sam.18.21",
-   "translit": "titchatten",
+   "translit": "titchaten",
    "reasons": [
     "conj:qatal/impf"
    ],
@@ -3326,7 +3326,7 @@
   {
    "id": "09HND",
    "ref": "1Sam.20.8",
-   "translit": "`immakh",
+   "translit": "`imakh",
    "reasons": [
     "suffix-pgn"
    ],
@@ -3392,7 +3392,7 @@
   {
    "id": "09dQE",
    "ref": "1Sam.20.13",
-   "translit": "`immakh",
+   "translit": "`imakh",
    "reasons": [
     "suffix-pgn"
    ],
@@ -3414,7 +3414,7 @@
   {
    "id": "09Ffh",
    "ref": "1Sam.20.41",
-   "translit": "vayyishtáchu",
+   "translit": "vayishtáchu",
    "reasons": [
     "stem:Hithpael/hsht"
    ],
@@ -3436,7 +3436,7 @@
   {
    "id": "09squ",
    "ref": "1Sam.21.2",
-   "translit": "ittakh",
+   "translit": "itakh",
    "reasons": [
     "suffix-pgn"
    ],
@@ -3480,7 +3480,7 @@
   {
    "id": "09tGq",
    "ref": "1Sam.24.9",
-   "translit": "vayyishtáchu",
+   "translit": "vayishtáchu",
    "reasons": [
     "stem:Hithpael/hsht"
    ],
@@ -3612,7 +3612,7 @@
   {
    "id": "09nKX",
    "ref": "1Sam.25.10",
-   "translit": "rabbu",
+   "translit": "rabu",
    "reasons": [
     "verb-lemma"
    ],
@@ -3722,7 +3722,7 @@
   {
    "id": "09mwJ",
    "ref": "1Sam.26.6",
-   "translit": "`immakh",
+   "translit": "`imakh",
    "reasons": [
     "suffix-pgn"
    ],
@@ -3744,7 +3744,7 @@
   {
    "id": "09hk6",
    "ref": "1Sam.26.10",
-   "translit": "yiggafénnu",
+   "translit": "yigafénu",
    "reasons": [
     "suffix-pgn"
    ],
@@ -3766,7 +3766,7 @@
   {
    "id": "09ByK",
    "ref": "1Sam.27.5",
-   "translit": "`immakh",
+   "translit": "`imakh",
    "reasons": [
     "suffix-pgn"
    ],
@@ -3810,7 +3810,7 @@
   {
    "id": "09c1d",
    "ref": "1Sam.28.14",
-   "translit": "vayyishtáchu",
+   "translit": "vayishtáchu",
    "reasons": [
     "stem:Hithpael/hsht"
    ],
@@ -3832,7 +3832,7 @@
   {
    "id": "09TWP",
    "ref": "1Sam.28.24",
-   "translit": "vattoféhu",
+   "translit": "vatoféhu",
    "reasons": [
     "verb-lemma"
    ],
@@ -3854,7 +3854,7 @@
   {
    "id": "09rES",
    "ref": "1Sam.29.10",
-   "translit": "ittakh",
+   "translit": "itakh",
    "reasons": [
     "suffix-pgn"
    ],
@@ -3920,7 +3920,7 @@
   {
    "id": "09tto",
    "ref": "1Sam.31.3",
-   "translit": "vayyáchel",
+   "translit": "vayáchel",
    "reasons": [
     "verb-lemma"
    ],
@@ -3942,7 +3942,7 @@
   {
    "id": "09Hiu",
    "ref": "1Sam.31.3",
-   "translit": "mehammorim",
+   "translit": "mehamorim",
    "reasons": [
     "pos-is-verb:Nc"
    ],
@@ -3986,7 +3986,7 @@
   {
    "id": "125Ja",
    "ref": "2Kgs.2.9",
-   "translit": "me`immakh",
+   "translit": "me`imakh",
    "reasons": [
     "suffix-pgn"
    ],
@@ -4008,7 +4008,7 @@
   {
    "id": "12x72",
    "ref": "2Kgs.2.10",
-   "translit": "me'ittakh",
+   "translit": "me'itakh",
    "reasons": [
     "suffix-pgn"
    ],
@@ -4030,7 +4030,7 @@
   {
    "id": "12PYJ",
    "ref": "2Kgs.2.15",
-   "translit": "vayyishtachavu",
+   "translit": "vayishtachavu",
    "reasons": [
     "stem:Hithpael/hsht"
    ],
@@ -4118,7 +4118,7 @@
   {
    "id": "12hnA",
    "ref": "2Kgs.3.26",
-   "translit": "mimménnu",
+   "translit": "miménu",
    "reasons": [
     "suffix-pgn"
    ],
@@ -4140,7 +4140,7 @@
   {
    "id": "12hpd",
    "ref": "2Kgs.4.16",
-   "translit": "tekhazzev",
+   "translit": "tekhazev",
    "reasons": [
     "verb-lemma"
    ],
@@ -4162,7 +4162,7 @@
   {
    "id": "125VT",
    "ref": "2Kgs.4.20",
-   "translit": "hatstsohoráyim",
+   "translit": "hatsohoráyim",
    "reasons": [
     "noun-number"
    ],
@@ -4206,7 +4206,7 @@
   {
    "id": "12uSP",
    "ref": "2Kgs.4.29",
-   "translit": "tevarekhénnu",
+   "translit": "tevarekhénu",
    "reasons": [
     "suffix-pgn"
    ],
@@ -4228,7 +4228,7 @@
   {
    "id": "12oQV",
    "ref": "2Kgs.4.29",
-   "translit": "ta`anennu",
+   "translit": "ta`anenu",
    "reasons": [
     "suffix-pgn"
    ],
@@ -4272,7 +4272,7 @@
   {
    "id": "12ZkJ",
    "ref": "2Kgs.4.39",
-   "translit": "mimménnu",
+   "translit": "miménu",
    "reasons": [
     "suffix-pgn"
    ],
@@ -4449,7 +4449,7 @@
   {
    "id": "12U2q",
    "ref": "2Kgs.9.30",
-   "translit": "vattásem",
+   "translit": "vatásem",
    "reasons": [
     "stem:Qal/hif",
     "verb-lemma"
@@ -4472,7 +4472,7 @@
   {
    "id": "12Udm",
    "ref": "2Kgs.10.18",
-   "translit": "ya`avdénnu",
+   "translit": "ya`avdénu",
    "reasons": [
     "suffix-pgn"
    ],
@@ -4538,7 +4538,7 @@
   {
    "id": "12iU5",
    "ref": "2Kgs.14.10",
-   "translit": "`immakh",
+   "translit": "`imakh",
    "reasons": [
     "suffix-pgn"
    ],
@@ -4560,7 +4560,7 @@
   {
    "id": "12vQR",
    "ref": "2Kgs.14.25",
-   "translit": "millevo",
+   "translit": "milevo",
    "reasons": [
     "pos-is-verb:Nc"
    ],
@@ -4582,7 +4582,7 @@
   {
    "id": "128nc",
    "ref": "2Kgs.17.16",
-   "translit": "vayyishtachavu",
+   "translit": "vayishtachavu",
    "reasons": [
     "stem:Hithpael/hsht"
    ],
@@ -4758,7 +4758,7 @@
   {
    "id": "12kpB",
    "ref": "2Kgs.19.9",
-   "translit": "ittakh",
+   "translit": "itakh",
    "reasons": [
     "suffix-pgn"
    ],
@@ -4802,7 +4802,7 @@
   {
    "id": "12yxF",
    "ref": "2Kgs.21.3",
-   "translit": "vayyishtáchu",
+   "translit": "vayishtáchu",
    "reasons": [
     "stem:Hithpael/hsht"
    ],
@@ -4824,7 +4824,7 @@
   {
    "id": "12b1k",
    "ref": "2Kgs.21.21",
-   "translit": "vayyishtáchu",
+   "translit": "vayishtáchu",
    "reasons": [
     "stem:Hithpael/hsht"
    ],
@@ -4846,7 +4846,7 @@
   {
    "id": "12MTm",
    "ref": "2Kgs.22.7",
-   "translit": "hannittan",
+   "translit": "hanitan",
    "reasons": [
     "conj:pass. participle/ptca"
    ],
@@ -4912,7 +4912,7 @@
   {
    "id": "12mV5",
    "ref": "2Kgs.23.12",
-   "translit": "vayyárots",
+   "translit": "vayárots",
    "reasons": [
     "verb-lemma"
    ],
@@ -4978,7 +4978,7 @@
   {
    "id": "10CsU",
    "ref": "2Sam.1.2",
-   "translit": "vayyishtáchu",
+   "translit": "vayishtáchu",
    "reasons": [
     "stem:Hithpael/hsht"
    ],
@@ -5022,7 +5022,7 @@
   {
    "id": "10ViB",
    "ref": "2Sam.2.9",
-   "translit": "kulloh",
+   "translit": "kuloh",
    "reasons": [
     "suffix-pgn"
    ],
@@ -5044,7 +5044,7 @@
   {
    "id": "105pP",
    "ref": "2Sam.3.12",
-   "translit": "`immakh",
+   "translit": "`imakh",
    "reasons": [
     "suffix-pgn"
    ],
@@ -5132,7 +5132,7 @@
   {
    "id": "102fb",
    "ref": "2Sam.4.5",
-   "translit": "hatstsohoráyim",
+   "translit": "hatsohoráyim",
    "reasons": [
     "noun-number"
    ],
@@ -5242,7 +5242,7 @@
   {
    "id": "10LKt",
    "ref": "2Sam.7.3",
-   "translit": "`immakh",
+   "translit": "`imakh",
    "reasons": [
     "suffix-pgn"
    ],
@@ -5264,7 +5264,7 @@
   {
    "id": "10pCR",
    "ref": "2Sam.7.15",
-   "translit": "mimménnu",
+   "translit": "miménu",
    "reasons": [
     "suffix-pgn"
    ],
@@ -5469,7 +5469,7 @@
   {
    "id": "10qeW",
    "ref": "2Sam.8.4",
-   "translit": "mimménnu",
+   "translit": "miménu",
    "reasons": [
     "suffix-pgn"
    ],
@@ -5491,7 +5491,7 @@
   {
    "id": "10TFW",
    "ref": "2Sam.8.4",
-   "translit": "mimménnu",
+   "translit": "miménu",
    "reasons": [
     "suffix-pgn"
    ],
@@ -5513,7 +5513,7 @@
   {
    "id": "10pVN",
    "ref": "2Sam.9.6",
-   "translit": "vayyishtáchu",
+   "translit": "vayishtáchu",
    "reasons": [
     "stem:Hithpael/hsht"
    ],
@@ -5535,7 +5535,7 @@
   {
    "id": "1063d",
    "ref": "2Sam.9.8",
-   "translit": "vayyishtáchu",
+   "translit": "vayishtáchu",
    "reasons": [
     "stem:Hithpael/hsht"
    ],
@@ -5602,7 +5602,7 @@
   {
    "id": "10iWa",
    "ref": "2Sam.12.20",
-   "translit": "vayyásekh",
+   "translit": "vayásekh",
    "reasons": [
     "stem:Qal/hif"
    ],
@@ -5624,7 +5624,7 @@
   {
    "id": "10owL",
    "ref": "2Sam.12.20",
-   "translit": "vayyishtáchu",
+   "translit": "vayishtáchu",
    "reasons": [
     "stem:Hithpael/hsht"
    ],
@@ -5668,7 +5668,7 @@
   {
    "id": "10agQ",
    "ref": "2Sam.13.26",
-   "translit": "`immakh",
+   "translit": "`imakh",
    "reasons": [
     "suffix-pgn"
    ],
@@ -5712,7 +5712,7 @@
   {
    "id": "10z1r",
    "ref": "2Sam.14.14",
-   "translit": "yiddach",
+   "translit": "yidach",
    "reasons": [
     "verb-lemma"
    ],
@@ -5734,7 +5734,7 @@
   {
    "id": "10qiE",
    "ref": "2Sam.14.14",
-   "translit": "mimménnu",
+   "translit": "miménu",
    "reasons": [
     "suffix-pgn"
    ],
@@ -5778,7 +5778,7 @@
   {
    "id": "107mG",
    "ref": "2Sam.14.17",
-   "translit": "`immakh",
+   "translit": "`imakh",
    "reasons": [
     "suffix-pgn"
    ],
@@ -5800,7 +5800,7 @@
   {
    "id": "10Ymi",
    "ref": "2Sam.14.22",
-   "translit": "vayyishtáchu",
+   "translit": "vayishtáchu",
    "reasons": [
     "stem:Hithpael/hsht"
    ],
@@ -5822,7 +5822,7 @@
   {
    "id": "10nYc",
    "ref": "2Sam.14.33",
-   "translit": "vayyishtáchu",
+   "translit": "vayishtáchu",
    "reasons": [
     "stem:Hithpael/hsht"
    ],
@@ -5888,7 +5888,7 @@
   {
    "id": "103VF",
    "ref": "2Sam.15.18",
-   "translit": "haggittim",
+   "translit": "hagitim",
    "reasons": [
     "noun-number"
    ],
@@ -5910,7 +5910,7 @@
   {
    "id": "10PwW",
    "ref": "2Sam.15.20",
-   "translit": "`immakh",
+   "translit": "`imakh",
    "reasons": [
     "suffix-pgn"
    ],
@@ -6020,7 +6020,7 @@
   {
    "id": "10b8z",
    "ref": "2Sam.16.21",
-   "translit": "ittakh",
+   "translit": "itakh",
    "reasons": [
     "suffix-pgn"
    ],
@@ -6064,7 +6064,7 @@
   {
    "id": "10nZ5",
    "ref": "2Sam.17.16",
-   "translit": "yevulla`",
+   "translit": "yevula`",
    "reasons": [
     "verb-lemma"
    ],
@@ -6130,7 +6130,7 @@
   {
    "id": "104cS",
    "ref": "2Sam.18.21",
-   "translit": "vayyishtáchu",
+   "translit": "vayishtáchu",
    "reasons": [
     "stem:Hithpael/hsht"
    ],
@@ -6175,7 +6175,7 @@
   {
    "id": "10mhm",
    "ref": "2Sam.18.28",
-   "translit": "vayyishtáchu",
+   "translit": "vayishtáchu",
    "reasons": [
     "stem:Hithpael/hsht"
    ],
@@ -6197,7 +6197,7 @@
   {
    "id": "108D6",
    "ref": "2Sam.19.4",
-   "translit": "hannikhlamim",
+   "translit": "hanikhlamim",
    "reasons": [
     "conj:pass. participle/ptca"
    ],
@@ -6285,7 +6285,7 @@
   {
    "id": "10H6s",
    "ref": "2Sam.19.43",
-   "translit": "nisset",
+   "translit": "niset",
    "reasons": [
     "conj:inf. abs./ptca"
    ],
@@ -6351,7 +6351,7 @@
   {
    "id": "10Mw5",
    "ref": "2Sam.23.8",
-   "translit": "hashshalishi",
+   "translit": "hashalishi",
    "reasons": [
     "noun-number"
    ],
@@ -6461,7 +6461,7 @@
   {
    "id": "10DYV",
    "ref": "2Sam.24.20",
-   "translit": "vayyishtáchu",
+   "translit": "vayishtáchu",
    "reasons": [
     "stem:Hithpael/hsht"
    ],
@@ -6483,7 +6483,7 @@
   {
    "id": "02zit",
    "ref": "Exod.3.12",
-   "translit": "`immakh",
+   "translit": "`imakh",
    "reasons": [
     "suffix-pgn"
    ],
@@ -6639,7 +6639,7 @@
   {
    "id": "02Jrt",
    "ref": "Exod.4.26",
-   "translit": "mimménnu",
+   "translit": "miménu",
    "reasons": [
     "suffix-pgn"
    ],
@@ -6683,7 +6683,7 @@
   {
    "id": "02yvH",
    "ref": "Exod.5.8",
-   "translit": "mimménnu",
+   "translit": "miménu",
    "reasons": [
     "suffix-pgn"
    ],
@@ -6860,7 +6860,7 @@
   {
    "id": "02ive",
    "ref": "Exod.8.25",
-   "translit": "me`immakh",
+   "translit": "me`imakh",
    "reasons": [
     "suffix-pgn"
    ],
@@ -6882,7 +6882,7 @@
   {
    "id": "02N1A",
    "ref": "Exod.10.26",
-   "translit": "mimménnu",
+   "translit": "miménu",
    "reasons": [
     "suffix-pgn"
    ],
@@ -6904,7 +6904,7 @@
   {
    "id": "02X5H",
    "ref": "Exod.12.9",
-   "translit": "mimménnu",
+   "translit": "miménu",
    "reasons": [
     "suffix-pgn"
    ],
@@ -6926,7 +6926,7 @@
   {
    "id": "02oym",
    "ref": "Exod.12.10",
-   "translit": "mimménnu",
+   "translit": "miménu",
    "reasons": [
     "suffix-pgn"
    ],
@@ -6948,7 +6948,7 @@
   {
    "id": "02MaF",
    "ref": "Exod.12.10",
-   "translit": "mimménnu",
+   "translit": "miménu",
    "reasons": [
     "suffix-pgn"
    ],
@@ -6992,7 +6992,7 @@
   {
    "id": "02tmJ",
    "ref": "Exod.12.27",
-   "translit": "vayyishtachavu",
+   "translit": "vayishtachavu",
    "reasons": [
     "stem:Hithpael/hsht"
    ],
@@ -7014,7 +7014,7 @@
   {
    "id": "026g8",
    "ref": "Exod.12.39",
-   "translit": "vayyofu",
+   "translit": "vayofu",
    "reasons": [
     "verb-lemma"
    ],
@@ -7080,7 +7080,7 @@
   {
    "id": "02dJf",
    "ref": "Exod.15.25",
-   "translit": "vayyoréhu",
+   "translit": "vayoréhu",
    "reasons": [
     "verb-lemma"
    ],
@@ -7102,7 +7102,7 @@
   {
    "id": "02t7c",
    "ref": "Exod.16.8",
-   "translit": "mallinim",
+   "translit": "malinim",
    "reasons": [
     "verb-lemma"
    ],
@@ -7124,7 +7124,7 @@
   {
    "id": "02y81",
    "ref": "Exod.16.16",
-   "translit": "mimménnu",
+   "translit": "miménu",
    "reasons": [
     "suffix-pgn"
    ],
@@ -7146,7 +7146,7 @@
   {
    "id": "02M7V",
    "ref": "Exod.16.19",
-   "translit": "mimménnu",
+   "translit": "miménu",
    "reasons": [
     "suffix-pgn"
    ],
@@ -7168,7 +7168,7 @@
   {
    "id": "02EWA",
    "ref": "Exod.16.20",
-   "translit": "mimménnu",
+   "translit": "miménu",
    "reasons": [
     "suffix-pgn"
    ],
@@ -7234,7 +7234,7 @@
   {
    "id": "02pjx",
    "ref": "Exod.16.32",
-   "translit": "mimménnu",
+   "translit": "miménu",
    "reasons": [
     "suffix-pgn"
    ],
@@ -7278,7 +7278,7 @@
   {
    "id": "02RrN",
    "ref": "Exod.17.6",
-   "translit": "mimménnu",
+   "translit": "miménu",
    "reasons": [
     "suffix-pgn"
    ],
@@ -7300,7 +7300,7 @@
   {
    "id": "02hib",
    "ref": "Exod.18.7",
-   "translit": "vayyishtáchu",
+   "translit": "vayishtáchu",
    "reasons": [
     "stem:Hithpael/hsht"
    ],
@@ -7322,7 +7322,7 @@
   {
    "id": "02ubw",
    "ref": "Exod.18.18",
-   "translit": "`immakh",
+   "translit": "`imakh",
    "reasons": [
     "suffix-pgn"
    ],
@@ -7344,7 +7344,7 @@
   {
    "id": "02p3t",
    "ref": "Exod.18.19",
-   "translit": "`immakh",
+   "translit": "`imakh",
    "reasons": [
     "suffix-pgn"
    ],
@@ -7366,7 +7366,7 @@
   {
    "id": "02W4q",
    "ref": "Exod.18.22",
-   "translit": "ittakh",
+   "translit": "itakh",
    "reasons": [
     "suffix-pgn"
    ],
@@ -7388,7 +7388,7 @@
   {
    "id": "02Ash",
    "ref": "Exod.19.9",
-   "translit": "`immakh",
+   "translit": "`imakh",
    "reasons": [
     "suffix-pgn"
    ],
@@ -7410,7 +7410,7 @@
   {
    "id": "02ZyC",
    "ref": "Exod.19.21",
-   "translit": "mimménnu",
+   "translit": "miménu",
    "reasons": [
     "suffix-pgn"
    ],
@@ -7432,7 +7432,7 @@
   {
    "id": "02qzt",
    "ref": "Exod.19.24",
-   "translit": "`immakh",
+   "translit": "`imakh",
    "reasons": [
     "suffix-pgn"
    ],
@@ -7498,7 +7498,7 @@
   {
    "id": "02nhh",
    "ref": "Exod.22.3",
-   "translit": "himmatse",
+   "translit": "himatse",
    "reasons": [
     "conj:inf. abs./infc"
    ],
@@ -7520,7 +7520,7 @@
   {
    "id": "021Qy",
    "ref": "Exod.22.24",
-   "translit": "`immakh",
+   "translit": "`imakh",
    "reasons": [
     "suffix-pgn"
    ],
@@ -7542,7 +7542,7 @@
   {
    "id": "02wVV",
    "ref": "Exod.23.21",
-   "translit": "tammer",
+   "translit": "tamer",
    "reasons": [
     "verb-lemma"
    ],
@@ -7564,7 +7564,7 @@
   {
    "id": "02aKU",
    "ref": "Exod.23.29",
-   "translit": "verabbah",
+   "translit": "verabah",
    "reasons": [
     "verb-lemma"
    ],
@@ -7608,7 +7608,7 @@
   {
    "id": "02HQy",
    "ref": "Exod.25.33",
-   "translit": "meshuqqadim",
+   "translit": "meshuqadim",
    "reasons": [
     "verb-pos:adjv"
    ],
@@ -7630,7 +7630,7 @@
   {
    "id": "02Yh5",
    "ref": "Exod.25.33",
-   "translit": "meshuqqadim",
+   "translit": "meshuqadim",
    "reasons": [
     "verb-pos:adjv"
    ],
@@ -7652,7 +7652,7 @@
   {
    "id": "024Zt",
    "ref": "Exod.25.34",
-   "translit": "meshuqqadim",
+   "translit": "meshuqadim",
    "reasons": [
     "verb-pos:adjv"
    ],
@@ -7740,7 +7740,7 @@
   {
    "id": "02u24",
    "ref": "Exod.27.2",
-   "translit": "mimménnu",
+   "translit": "miménu",
    "reasons": [
     "suffix-pgn"
    ],
@@ -7762,7 +7762,7 @@
   {
    "id": "029xW",
    "ref": "Exod.28.8",
-   "translit": "mimménnu",
+   "translit": "miménu",
    "reasons": [
     "suffix-pgn"
    ],
@@ -7784,7 +7784,7 @@
   {
    "id": "027HQ",
    "ref": "Exod.29.2",
-   "translit": "vechallot",
+   "translit": "vechalot",
    "reasons": [
     "noun-number"
    ],
@@ -7806,7 +7806,7 @@
   {
    "id": "02gNn",
    "ref": "Exod.30.2",
-   "translit": "mimménnu",
+   "translit": "miménu",
    "reasons": [
     "suffix-pgn"
    ],
@@ -7828,7 +7828,7 @@
   {
    "id": "02WA2",
    "ref": "Exod.30.19",
-   "translit": "mimménnu",
+   "translit": "miménu",
    "reasons": [
     "suffix-pgn"
    ],
@@ -7850,7 +7850,7 @@
   {
    "id": "027eS",
    "ref": "Exod.30.33",
-   "translit": "mimménnu",
+   "translit": "miménu",
    "reasons": [
     "suffix-pgn"
    ],
@@ -7872,7 +7872,7 @@
   {
    "id": "02TYq",
    "ref": "Exod.32.4",
-   "translit": "vayyátsar",
+   "translit": "vayátsar",
    "reasons": [
     "verb-lemma"
    ],
@@ -7894,7 +7894,7 @@
   {
    "id": "02P5j",
    "ref": "Exod.32.8",
-   "translit": "vayyishtachavu",
+   "translit": "vayishtachavu",
    "reasons": [
     "stem:Hithpael/hsht"
    ],
@@ -8026,7 +8026,7 @@
   {
    "id": "02Mgn",
    "ref": "Exod.34.3",
-   "translit": "`immakh",
+   "translit": "`imakh",
    "reasons": [
     "suffix-pgn"
    ],
@@ -8048,7 +8048,7 @@
   {
    "id": "02Fz5",
    "ref": "Exod.34.8",
-   "translit": "vayyishtáchu",
+   "translit": "vayishtáchu",
    "reasons": [
     "stem:Hithpael/hsht"
    ],
@@ -8116,7 +8116,7 @@
   {
    "id": "02K43",
    "ref": "Exod.34.10",
-   "translit": "`immakh",
+   "translit": "`imakh",
    "reasons": [
     "suffix-pgn"
    ],
@@ -8226,7 +8226,7 @@
   {
    "id": "024ow",
    "ref": "Exod.37.19",
-   "translit": "meshuqqadim",
+   "translit": "meshuqadim",
    "reasons": [
     "verb-pos:adjv"
    ],
@@ -8248,7 +8248,7 @@
   {
    "id": "02jXZ",
    "ref": "Exod.37.19",
-   "translit": "meshuqqadim",
+   "translit": "meshuqadim",
    "reasons": [
     "verb-pos:adjv"
    ],
@@ -8270,7 +8270,7 @@
   {
    "id": "02jun",
    "ref": "Exod.37.20",
-   "translit": "meshuqqadim",
+   "translit": "meshuqadim",
    "reasons": [
     "verb-pos:adjv"
    ],
@@ -8292,7 +8292,7 @@
   {
    "id": "02qsF",
    "ref": "Exod.37.25",
-   "translit": "mimménnu",
+   "translit": "miménu",
    "reasons": [
     "suffix-pgn"
    ],
@@ -8314,7 +8314,7 @@
   {
    "id": "02sGD",
    "ref": "Exod.38.2",
-   "translit": "mimménnu",
+   "translit": "miménu",
    "reasons": [
     "suffix-pgn"
    ],
@@ -8358,7 +8358,7 @@
   {
    "id": "02xNR",
    "ref": "Exod.39.5",
-   "translit": "mimménnu",
+   "translit": "miménu",
    "reasons": [
     "suffix-pgn"
    ],
@@ -8380,7 +8380,7 @@
   {
    "id": "02NHM",
    "ref": "Exod.40.31",
-   "translit": "mimménnu",
+   "translit": "miménu",
    "reasons": [
     "suffix-pgn"
    ],
@@ -8556,7 +8556,7 @@
   {
    "id": "019Yh",
    "ref": "Gen.2.17",
-   "translit": "mimménnu",
+   "translit": "miménu",
    "reasons": [
     "suffix-pgn"
    ],
@@ -8578,7 +8578,7 @@
   {
    "id": "01PuA",
    "ref": "Gen.2.17",
-   "translit": "mimménnu",
+   "translit": "miménu",
    "reasons": [
     "suffix-pgn"
    ],
@@ -8600,7 +8600,7 @@
   {
    "id": "01K78",
    "ref": "Gen.3.3",
-   "translit": "mimménnu",
+   "translit": "miménu",
    "reasons": [
     "suffix-pgn"
    ],
@@ -8622,7 +8622,7 @@
   {
    "id": "01don",
    "ref": "Gen.3.11",
-   "translit": "mimménnu",
+   "translit": "miménu",
    "reasons": [
     "suffix-pgn"
    ],
@@ -8644,7 +8644,7 @@
   {
    "id": "01GV7",
    "ref": "Gen.3.15",
-   "translit": "teshufénnu",
+   "translit": "teshufénu",
    "reasons": [
     "verb-lemma"
    ],
@@ -8666,7 +8666,7 @@
   {
    "id": "01ctR",
    "ref": "Gen.3.17",
-   "translit": "mimménnu",
+   "translit": "miménu",
    "reasons": [
     "suffix-pgn"
    ],
@@ -8798,7 +8798,7 @@
   {
    "id": "014Zw",
    "ref": "Gen.6.18",
-   "translit": "ittakh",
+   "translit": "itakh",
    "reasons": [
     "suffix-pgn"
    ],
@@ -8820,7 +8820,7 @@
   {
    "id": "01WLF",
    "ref": "Gen.6.18",
-   "translit": "ittakh",
+   "translit": "itakh",
    "reasons": [
     "suffix-pgn"
    ],
@@ -8842,7 +8842,7 @@
   {
    "id": "01a6i",
    "ref": "Gen.6.19",
-   "translit": "ittakh",
+   "translit": "itakh",
    "reasons": [
     "suffix-pgn"
    ],
@@ -8886,7 +8886,7 @@
   {
    "id": "01UcZ",
    "ref": "Gen.8.10",
-   "translit": "vayyáchel",
+   "translit": "vayáchel",
    "reasons": [
     "stem:Piel/qal",
     "verb-lemma"
@@ -8909,7 +8909,7 @@
   {
    "id": "012g9",
    "ref": "Gen.8.16",
-   "translit": "ittakh",
+   "translit": "itakh",
    "reasons": [
     "suffix-pgn"
    ],
@@ -8931,7 +8931,7 @@
   {
    "id": "018F2",
    "ref": "Gen.8.17",
-   "translit": "ittakh",
+   "translit": "itakh",
    "reasons": [
     "suffix-pgn"
    ],
@@ -8953,7 +8953,7 @@
   {
    "id": "01Zik",
    "ref": "Gen.11.4",
-   "translit": "vashshamáyim",
+   "translit": "vashamáyim",
    "reasons": [
     "noun-number"
    ],
@@ -8975,7 +8975,7 @@
   {
    "id": "01uGG",
    "ref": "Gen.11.6",
-   "translit": "yibbatser",
+   "translit": "yibatser",
    "reasons": [
     "verb-lemma"
    ],
@@ -8997,7 +8997,7 @@
   {
    "id": "01ubY",
    "ref": "Gen.12.15",
-   "translit": "vattuqqach",
+   "translit": "vatuqach",
    "reasons": [
     "stem:Qal passive/hof"
    ],
@@ -9041,7 +9041,7 @@
   {
    "id": "01u6M",
    "ref": "Gen.14.5",
-   "translit": "hazzuzim",
+   "translit": "hazuzim",
    "reasons": [
     "noun-number"
    ],
@@ -9241,7 +9241,7 @@
   {
    "id": "01nt3",
    "ref": "Gen.17.4",
-   "translit": "ittakh",
+   "translit": "itakh",
    "reasons": [
     "suffix-pgn"
    ],
@@ -9285,7 +9285,7 @@
   {
    "id": "01bdm",
    "ref": "Gen.18.2",
-   "translit": "vayyishtáchu",
+   "translit": "vayishtáchu",
    "reasons": [
     "stem:Hithpael/hsht"
    ],
@@ -9330,7 +9330,7 @@
   {
    "id": "01Wm8",
    "ref": "Gen.18.4",
-   "translit": "yuqqach",
+   "translit": "yuqach",
    "reasons": [
     "stem:Qal passive/hof"
    ],
@@ -9352,7 +9352,7 @@
   {
    "id": "01qCb",
    "ref": "Gen.18.20",
-   "translit": "rábbah",
+   "translit": "rábah",
    "reasons": [
     "verb-lemma"
    ],
@@ -9488,7 +9488,7 @@
   {
    "id": "01XqG",
    "ref": "Gen.19.1",
-   "translit": "vayyishtáchu",
+   "translit": "vayishtáchu",
    "reasons": [
     "stem:Hithpael/hsht"
    ],
@@ -9621,7 +9621,7 @@
   {
    "id": "01kew",
    "ref": "Gen.23.7",
-   "translit": "vayyishtáchu",
+   "translit": "vayishtáchu",
    "reasons": [
     "stem:Hithpael/hsht"
    ],
@@ -9687,7 +9687,7 @@
   {
    "id": "01tFm",
    "ref": "Gen.23.12",
-   "translit": "vayyishtáchu",
+   "translit": "vayishtáchu",
    "reasons": [
     "stem:Hithpael/hsht"
    ],
@@ -9709,7 +9709,7 @@
   {
    "id": "01m8G",
    "ref": "Gen.24.11",
-   "translit": "vayyavrekh",
+   "translit": "vayavrekh",
    "reasons": [
     "verb-lemma"
    ],
@@ -9731,7 +9731,7 @@
   {
    "id": "01HWG",
    "ref": "Gen.24.17",
-   "translit": "mikkaddekh",
+   "translit": "mikadekh",
    "reasons": [
     "suffix-pgn"
    ],
@@ -9775,7 +9775,7 @@
   {
    "id": "01qAN",
    "ref": "Gen.24.26",
-   "translit": "vayyishtáchu",
+   "translit": "vayishtáchu",
    "reasons": [
     "stem:Hithpael/hsht"
    ],
@@ -9797,7 +9797,7 @@
   {
    "id": "01RjS",
    "ref": "Gen.24.40",
-   "translit": "ittakh",
+   "translit": "itakh",
    "reasons": [
     "suffix-pgn"
    ],
@@ -9841,7 +9841,7 @@
   {
    "id": "01cFA",
    "ref": "Gen.24.52",
-   "translit": "vayyishtáchu",
+   "translit": "vayishtáchu",
    "reasons": [
     "stem:Hithpael/hsht"
    ],
@@ -9951,7 +9951,7 @@
   {
    "id": "01shv",
    "ref": "Gen.26.28",
-   "translit": "`immakh",
+   "translit": "`imakh",
    "reasons": [
     "suffix-pgn"
    ],
@@ -9973,7 +9973,7 @@
   {
    "id": "01nMq",
    "ref": "Gen.26.28",
-   "translit": "`immakh",
+   "translit": "`imakh",
    "reasons": [
     "suffix-pgn"
    ],
@@ -10039,7 +10039,7 @@
   {
    "id": "01D63",
    "ref": "Gen.28.4",
-   "translit": "ittakh",
+   "translit": "itakh",
    "reasons": [
     "suffix-pgn"
    ],
@@ -10061,7 +10061,7 @@
   {
    "id": "01ReZ",
    "ref": "Gen.28.15",
-   "translit": "`immakh",
+   "translit": "`imakh",
    "reasons": [
     "suffix-pgn"
    ],
@@ -10149,7 +10149,7 @@
   {
    "id": "01unZ",
    "ref": "Gen.29.25",
-   "translit": "`immakh",
+   "translit": "`imakh",
    "reasons": [
     "suffix-pgn"
    ],
@@ -10171,7 +10171,7 @@
   {
    "id": "01Uaj",
    "ref": "Gen.29.27",
-   "translit": "venittenah",
+   "translit": "venitenah",
    "reasons": [
     "conj:weqatal/impf",
     "number",
@@ -10240,7 +10240,7 @@
   {
    "id": "01zLw",
    "ref": "Gen.30.41",
-   "translit": "leyachménnah",
+   "translit": "leyachménah",
    "reasons": [
     "suffix-pgn"
    ],
@@ -10284,7 +10284,7 @@
   {
    "id": "018rg",
    "ref": "Gen.31.3",
-   "translit": "`immakh",
+   "translit": "`imakh",
    "reasons": [
     "suffix-pgn"
    ],
@@ -10328,7 +10328,7 @@
   {
    "id": "01b7J",
    "ref": "Gen.31.27",
-   "translit": "va'ashallechakha",
+   "translit": "va'ashalechakha",
    "reasons": [
     "conj:yiqtol/wayq"
    ],
@@ -10372,7 +10372,7 @@
   {
    "id": "01BZQ",
    "ref": "Gen.31.42",
-   "translit": "kappay",
+   "translit": "kapay",
    "reasons": [
     "suffix-pgn"
    ],
@@ -10394,7 +10394,7 @@
   {
    "id": "01xF3",
    "ref": "Gen.32.10",
-   "translit": "`immakh",
+   "translit": "`imakh",
    "reasons": [
     "suffix-pgn"
    ],
@@ -10438,7 +10438,7 @@
   {
    "id": "01HfQ",
    "ref": "Gen.32.13",
-   "translit": "`immakh",
+   "translit": "`imakh",
    "reasons": [
     "suffix-pgn"
    ],
@@ -10460,7 +10460,7 @@
   {
    "id": "01VGu",
    "ref": "Gen.33.3",
-   "translit": "vayyishtáchu",
+   "translit": "vayishtáchu",
    "reasons": [
     "stem:Hithpael/hsht"
    ],
@@ -10482,7 +10482,7 @@
   {
    "id": "01CZf",
    "ref": "Gen.33.4",
-   "translit": "tsavvarav",
+   "translit": "tsavarav",
    "reasons": [
     "noun-number"
    ],
@@ -10526,7 +10526,7 @@
   {
    "id": "01NJV",
    "ref": "Gen.33.7",
-   "translit": "vayyishtachavu",
+   "translit": "vayishtachavu",
    "reasons": [
     "stem:Hithpael/hsht"
    ],
@@ -10548,7 +10548,7 @@
   {
    "id": "01nD7",
    "ref": "Gen.33.7",
-   "translit": "vayyishtachavu",
+   "translit": "vayishtachavu",
    "reasons": [
     "stem:Hithpael/hsht"
    ],
@@ -10658,7 +10658,7 @@
   {
    "id": "018cz",
    "ref": "Gen.40.2",
-   "translit": "hammashqim",
+   "translit": "hamashqim",
    "reasons": [
     "pos-is-verb:Nc"
    ],
@@ -10702,7 +10702,7 @@
   {
    "id": "01tBF",
    "ref": "Gen.40.5",
-   "translit": "hammashqeh",
+   "translit": "hamashqeh",
    "reasons": [
     "pos-is-verb:Nc"
    ],
@@ -10746,7 +10746,7 @@
   {
    "id": "01AfT",
    "ref": "Gen.40.9",
-   "translit": "hammashqim",
+   "translit": "hamashqim",
    "reasons": [
     "pos-is-verb:Nc"
    ],
@@ -10834,7 +10834,7 @@
   {
    "id": "016hu",
    "ref": "Gen.40.20",
-   "translit": "hammashqim",
+   "translit": "hamashqim",
    "reasons": [
     "pos-is-verb:Nc"
    ],
@@ -10878,7 +10878,7 @@
   {
    "id": "01jer",
    "ref": "Gen.40.21",
-   "translit": "hammashqim",
+   "translit": "hamashqim",
    "reasons": [
     "pos-is-verb:Nc"
    ],
@@ -10922,7 +10922,7 @@
   {
    "id": "018uJ",
    "ref": "Gen.40.23",
-   "translit": "hammashqim",
+   "translit": "hamashqim",
    "reasons": [
     "pos-is-verb:Nc"
    ],
@@ -10944,7 +10944,7 @@
   {
    "id": "01hYw",
    "ref": "Gen.41.9",
-   "translit": "hammashqim",
+   "translit": "hamashqim",
    "reasons": [
     "pos-is-verb:Nc"
    ],
@@ -11164,7 +11164,7 @@
   {
    "id": "01N9E",
    "ref": "Gen.42.6",
-   "translit": "vayyishtachavu",
+   "translit": "vayishtachavu",
    "reasons": [
     "stem:Hithpael/hsht"
    ],
@@ -11208,7 +11208,7 @@
   {
    "id": "01RPK",
    "ref": "Gen.43.16",
-   "translit": "batstsohoráyim",
+   "translit": "batsohoráyim",
    "reasons": [
     "noun-number"
    ],
@@ -11230,7 +11230,7 @@
   {
    "id": "01XWr",
    "ref": "Gen.43.25",
-   "translit": "batstsohoráyim",
+   "translit": "batsohoráyim",
    "reasons": [
     "noun-number"
    ],
@@ -11252,7 +11252,7 @@
   {
    "id": "01dcP",
    "ref": "Gen.43.26",
-   "translit": "vayyishtachavu",
+   "translit": "vayishtachavu",
    "reasons": [
     "stem:Hithpael/hsht"
    ],
@@ -11539,7 +11539,7 @@
   {
    "id": "01ovK",
    "ref": "Gen.47.31",
-   "translit": "vayyishtáchu",
+   "translit": "vayishtáchu",
    "reasons": [
     "stem:Hithpael/hsht"
    ],
@@ -11561,7 +11561,7 @@
   {
    "id": "019Wr",
    "ref": "Gen.48.11",
-   "translit": "filláleti",
+   "translit": "filáleti",
    "reasons": [
     "verb-lemma"
    ],
@@ -11583,7 +11583,7 @@
   {
    "id": "01fAq",
    "ref": "Gen.48.12",
-   "translit": "vayyishtáchu",
+   "translit": "vayishtáchu",
    "reasons": [
     "stem:Hithpael/hsht"
    ],
@@ -11605,7 +11605,7 @@
   {
    "id": "01pdr",
    "ref": "Gen.48.19",
-   "translit": "mimménnu",
+   "translit": "miménu",
    "reasons": [
     "suffix-pgn"
    ],
@@ -11716,7 +11716,7 @@
   {
    "id": "32Qnr",
    "ref": "Jonah.1.15",
-   "translit": "mizza`po",
+   "translit": "miza`po",
    "reasons": [
     "verb-pos:subs"
    ],
@@ -11782,7 +11782,7 @@
   {
    "id": "32kCD",
    "ref": "Jonah.4.6",
-   "translit": "vayyá`al",
+   "translit": "vayá`al",
    "reasons": [
     "stem:Qal/hif"
    ],
@@ -11804,7 +11804,7 @@
   {
    "id": "32zAa",
    "ref": "Jonah.4.8",
-   "translit": "vattakh",
+   "translit": "vatakh",
    "reasons": [
     "gender"
    ],
@@ -11826,7 +11826,7 @@
   {
    "id": "06n5f",
    "ref": "Josh.1.5",
-   "translit": "`immakh",
+   "translit": "`imakh",
    "reasons": [
     "suffix-pgn"
    ],
@@ -11848,7 +11848,7 @@
   {
    "id": "06GK3",
    "ref": "Josh.1.7",
-   "translit": "mimménnu",
+   "translit": "miménu",
    "reasons": [
     "suffix-pgn"
    ],
@@ -11914,7 +11914,7 @@
   {
    "id": "06JZq",
    "ref": "Josh.1.17",
-   "translit": "`immakh",
+   "translit": "`imakh",
    "reasons": [
     "suffix-pgn"
    ],
@@ -11958,7 +11958,7 @@
   {
    "id": "06T85",
    "ref": "Josh.3.2",
-   "translit": "hashshoterim",
+   "translit": "hashoterim",
    "reasons": [
     "pos-is-verb:Nc"
    ],
@@ -12002,7 +12002,7 @@
   {
    "id": "06965",
    "ref": "Josh.3.7",
-   "translit": "`immakh",
+   "translit": "`imakh",
    "reasons": [
     "suffix-pgn"
    ],
@@ -12046,7 +12046,7 @@
   {
    "id": "06oQV",
    "ref": "Josh.5.14",
-   "translit": "vayyishtáchu",
+   "translit": "vayishtáchu",
    "reasons": [
     "stem:Hithpael/hsht"
    ],
@@ -12356,7 +12356,7 @@
   {
    "id": "06ZoA",
    "ref": "Josh.23.6",
-   "translit": "mimménnu",
+   "translit": "miménu",
    "reasons": [
     "suffix-pgn"
    ],
@@ -12378,7 +12378,7 @@
   {
    "id": "06u7Y",
    "ref": "Josh.23.14",
-   "translit": "mimménnu",
+   "translit": "miménu",
    "reasons": [
     "suffix-pgn"
    ],
@@ -12422,7 +12422,7 @@
   {
    "id": "07xva",
    "ref": "Judg.1.13",
-   "translit": "mimménnu",
+   "translit": "miménu",
    "reasons": [
     "suffix-pgn"
    ],
@@ -12444,7 +12444,7 @@
   {
    "id": "07qjY",
    "ref": "Judg.2.12",
-   "translit": "vayyishtachavu",
+   "translit": "vayishtachavu",
    "reasons": [
     "stem:Hithpael/hsht"
    ],
@@ -12466,7 +12466,7 @@
   {
    "id": "076Tj",
    "ref": "Judg.2.17",
-   "translit": "vayyishtachavu",
+   "translit": "vayishtachavu",
    "reasons": [
     "stem:Hithpael/hsht"
    ],
@@ -12532,7 +12532,7 @@
   {
    "id": "07C5b",
    "ref": "Judg.3.25",
-   "translit": "vayyachílu",
+   "translit": "vayachílu",
    "reasons": [
     "verb-lemma"
    ],
@@ -12554,7 +12554,7 @@
   {
    "id": "07qKL",
    "ref": "Judg.4.9",
-   "translit": "`immakh",
+   "translit": "`imakh",
    "reasons": [
     "suffix-pgn"
    ],
@@ -12643,7 +12643,7 @@
   {
    "id": "07bJx",
    "ref": "Judg.6.16",
-   "translit": "`immakh",
+   "translit": "`imakh",
    "reasons": [
     "suffix-pgn"
    ],
@@ -12710,7 +12710,7 @@
   {
    "id": "07FX1",
    "ref": "Judg.7.2",
-   "translit": "ittakh",
+   "translit": "itakh",
    "reasons": [
     "suffix-pgn"
    ],
@@ -12732,7 +12732,7 @@
   {
    "id": "07icY",
    "ref": "Judg.7.4",
-   "translit": "ittakh",
+   "translit": "itakh",
    "reasons": [
     "suffix-pgn"
    ],
@@ -12754,7 +12754,7 @@
   {
    "id": "07GEn",
    "ref": "Judg.7.4",
-   "translit": "ittakh",
+   "translit": "itakh",
    "reasons": [
     "suffix-pgn"
    ],
@@ -12776,7 +12776,7 @@
   {
    "id": "0776D",
    "ref": "Judg.7.4",
-   "translit": "`immakh",
+   "translit": "`imakh",
    "reasons": [
     "suffix-pgn"
    ],
@@ -12820,7 +12820,7 @@
   {
    "id": "07gFo",
    "ref": "Judg.7.15",
-   "translit": "vayyishtáchu",
+   "translit": "vayishtáchu",
    "reasons": [
     "stem:Hithpael/hsht"
    ],
@@ -12842,7 +12842,7 @@
   {
    "id": "07qZL",
    "ref": "Judg.8.11",
-   "translit": "hashshekhune",
+   "translit": "hashekhune",
    "reasons": [
     "conj:pass. participle/ptca"
    ],
@@ -12864,7 +12864,7 @@
   {
    "id": "07r2p",
    "ref": "Judg.9.6",
-   "translit": "mutstsav",
+   "translit": "mutsav",
    "reasons": [
     "verb-pos:subs"
    ],
@@ -12886,7 +12886,7 @@
   {
    "id": "074gS",
    "ref": "Judg.9.27",
-   "translit": "vayyivtseru",
+   "translit": "vayivtseru",
    "reasons": [
     "verb-lemma"
    ],
@@ -12908,7 +12908,7 @@
   {
    "id": "07WQf",
    "ref": "Judg.9.28",
-   "translit": "na`avdénnu",
+   "translit": "na`avdénu",
    "reasons": [
     "suffix-pgn"
    ],
@@ -12930,7 +12930,7 @@
   {
    "id": "07Xw7",
    "ref": "Judg.9.28",
-   "translit": "na`avdénnu",
+   "translit": "na`avdénu",
    "reasons": [
     "suffix-pgn"
    ],
@@ -12952,7 +12952,7 @@
   {
    "id": "07ttW",
    "ref": "Judg.9.32",
-   "translit": "ittakh",
+   "translit": "itakh",
    "reasons": [
     "suffix-pgn"
    ],
@@ -12996,7 +12996,7 @@
   {
    "id": "07B2L",
    "ref": "Judg.9.38",
-   "translit": "na`avdénnu",
+   "translit": "na`avdénu",
    "reasons": [
     "suffix-pgn"
    ],
@@ -13128,7 +13128,7 @@
   {
    "id": "07Hkb",
    "ref": "Judg.11.34",
-   "translit": "mimménnu",
+   "translit": "miménu",
    "reasons": [
     "suffix-pgn"
    ],
@@ -13150,7 +13150,7 @@
   {
    "id": "07sh2",
    "ref": "Judg.12.1",
-   "translit": "`immakh",
+   "translit": "`imakh",
    "reasons": [
     "suffix-pgn"
    ],
@@ -13261,7 +13261,7 @@
   {
    "id": "07Jv1",
    "ref": "Judg.13.14",
-   "translit": "tsivvitíha",
+   "translit": "tsivitíha",
    "reasons": [
     "verb-lemma"
    ],
@@ -13372,7 +13372,7 @@
   {
    "id": "07SNL",
    "ref": "Judg.15.19",
-   "translit": "mimménnu",
+   "translit": "miménu",
    "reasons": [
     "suffix-pgn"
    ],
@@ -13394,7 +13394,7 @@
   {
    "id": "07RnE",
    "ref": "Judg.15.19",
-   "translit": "haqqore",
+   "translit": "haqore",
    "reasons": [
     "pos-is-verb:Np"
    ],
@@ -13505,7 +13505,7 @@
   {
    "id": "07FvS",
    "ref": "Judg.18.26",
-   "translit": "mimménnu",
+   "translit": "miménu",
    "reasons": [
     "suffix-pgn"
    ],
@@ -13527,7 +13527,7 @@
   {
    "id": "071Rt",
    "ref": "Judg.19.2",
-   "translit": "vattizneh",
+   "translit": "vatizneh",
    "reasons": [
     "verb-lemma"
    ],
@@ -13638,7 +13638,7 @@
   {
    "id": "07nnW",
    "ref": "Judg.20.45",
-   "translit": "mimménnu",
+   "translit": "miménu",
    "reasons": [
     "suffix-pgn"
    ],
@@ -13682,7 +13682,7 @@
   {
    "id": "07ngQ",
    "ref": "Judg.21.7",
-   "translit": "lannotarim",
+   "translit": "lanotarim",
    "reasons": [
     "conj:pass. participle/ptca"
    ],
@@ -13704,7 +13704,7 @@
   {
    "id": "07G7M",
    "ref": "Judg.21.16",
-   "translit": "lannotarim",
+   "translit": "lanotarim",
    "reasons": [
     "conj:pass. participle/ptca"
    ],
@@ -14364,7 +14364,7 @@
   {
    "id": "04QxV",
    "ref": "Num.9.12",
-   "translit": "mimménnu",
+   "translit": "miménu",
    "reasons": [
     "suffix-pgn"
    ],
@@ -14496,7 +14496,7 @@
   {
    "id": "04kig",
    "ref": "Num.11.16",
-   "translit": "`immakh",
+   "translit": "`imakh",
    "reasons": [
     "suffix-pgn"
    ],
@@ -14607,7 +14607,7 @@
   {
    "id": "04g6B",
    "ref": "Num.15.28",
-   "translit": "hashshogéget",
+   "translit": "hashogéget",
    "reasons": [
     "verb-lemma"
    ],
@@ -14651,7 +14651,7 @@
   {
    "id": "04Gmz",
    "ref": "Num.15.31",
-   "translit": "hikkaret",
+   "translit": "hikaret",
    "reasons": [
     "conj:inf. abs./infc"
    ],
@@ -14717,7 +14717,7 @@
   {
    "id": "0457u",
    "ref": "Num.16.10",
-   "translit": "ittakh",
+   "translit": "itakh",
    "reasons": [
     "suffix-pgn"
    ],
@@ -14739,7 +14739,7 @@
   {
    "id": "04ipi",
    "ref": "Num.18.1",
-   "translit": "ittakh",
+   "translit": "itakh",
    "reasons": [
     "suffix-pgn"
    ],
@@ -14761,7 +14761,7 @@
   {
    "id": "04zvW",
    "ref": "Num.18.1",
-   "translit": "ittakh",
+   "translit": "itakh",
    "reasons": [
     "suffix-pgn"
    ],
@@ -14783,7 +14783,7 @@
   {
    "id": "04e96",
    "ref": "Num.18.2",
-   "translit": "ittakh",
+   "translit": "itakh",
    "reasons": [
     "suffix-pgn"
    ],
@@ -14805,7 +14805,7 @@
   {
    "id": "04MjR",
    "ref": "Num.18.2",
-   "translit": "ittakh",
+   "translit": "itakh",
    "reasons": [
     "suffix-pgn"
    ],
@@ -14915,7 +14915,7 @@
   {
    "id": "04Zir",
    "ref": "Num.18.19",
-   "translit": "ittakh",
+   "translit": "itakh",
    "reasons": [
     "suffix-pgn"
    ],
@@ -14937,7 +14937,7 @@
   {
    "id": "04jJJ",
    "ref": "Num.18.26",
-   "translit": "mimménnu",
+   "translit": "miménu",
    "reasons": [
     "suffix-pgn"
    ],
@@ -14959,7 +14959,7 @@
   {
    "id": "045AM",
    "ref": "Num.18.28",
-   "translit": "mimménnu",
+   "translit": "miménu",
    "reasons": [
     "suffix-pgn"
    ],
@@ -14981,7 +14981,7 @@
   {
    "id": "04ZSs",
    "ref": "Num.18.30",
-   "translit": "mimménnu",
+   "translit": "miménu",
    "reasons": [
     "suffix-pgn"
    ],
@@ -15003,7 +15003,7 @@
   {
    "id": "049FS",
    "ref": "Num.18.32",
-   "translit": "mimménnu",
+   "translit": "miménu",
    "reasons": [
     "suffix-pgn"
    ],
@@ -15091,7 +15091,7 @@
   {
    "id": "04jqf",
    "ref": "Num.21.1",
-   "translit": "mimménnu",
+   "translit": "miménu",
    "reasons": [
     "suffix-pgn"
    ],
@@ -15157,7 +15157,7 @@
   {
    "id": "04Jrh",
    "ref": "Num.22.9",
-   "translit": "`immakh",
+   "translit": "`imakh",
    "reasons": [
     "suffix-pgn"
    ],
@@ -15179,7 +15179,7 @@
   {
    "id": "04VuX",
    "ref": "Num.22.31",
-   "translit": "vayyishtáchu",
+   "translit": "vayishtáchu",
    "reasons": [
     "stem:Hithpael/hsht"
    ],
@@ -15267,7 +15267,7 @@
   {
    "id": "04Ncu",
    "ref": "Num.23.25",
-   "translit": "tiqqovénnu",
+   "translit": "tiqovénu",
    "reasons": [
     "verb-lemma"
    ],
@@ -15289,7 +15289,7 @@
   {
    "id": "04jqS",
    "ref": "Num.25.5",
-   "translit": "hannitsmadim",
+   "translit": "hanitsmadim",
    "reasons": [
     "conj:pass. participle/ptca"
    ],
@@ -15333,7 +15333,7 @@
   {
    "id": "04MKj",
    "ref": "Num.30.3",
-   "translit": "hishsháva`",
+   "translit": "hisháva`",
    "reasons": [
     "conj:inf. abs./infc"
    ],
@@ -15355,7 +15355,7 @@
   {
    "id": "04Nj8",
    "ref": "Num.31.49",
-   "translit": "mimménnu",
+   "translit": "miménu",
    "reasons": [
     "suffix-pgn"
    ],
@@ -15509,7 +15509,7 @@
   {
    "id": "08fp1",
    "ref": "Ruth.2.6",
-   "translit": "hashshávah",
+   "translit": "hashávah",
    "reasons": [
     "conj:participle/perf"
    ],
@@ -15575,7 +15575,7 @@
   {
    "id": "08G2d",
    "ref": "Ruth.2.20",
-   "translit": "miggo'alénu",
+   "translit": "migo'alénu",
    "reasons": [
     "number"
    ],

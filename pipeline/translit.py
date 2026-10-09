@@ -3,7 +3,8 @@ Transliterator: pointed corpus surface -> Lane's scheme. One function, `translit
 
 Scheme (SPEC Q1 + 2026-10-07 answers)
   consonants  alef ' (dropped word-initially and when quiescent), b/v g d h v z ch t y k/kh l m n
-              s ` p/f ts q r sh s t.  b/v k/kh p/f by dagesh; dagesh forte written double.
+              s ` p/f ts q r sh s t.  b/v k/kh p/f by dagesh; dagesh forte not shown
+              (consonant written once, 2026-10-08).
   vowels      a e i o u; vocal shva e; hatef a/e/o; qamats qatan o. Matres are absorbed.
   final he    written h (silent or mappiq)
   stress      acute on the stressed vowel only when it is not the last syllable (melekh -> m\u00e9lekh)
@@ -279,8 +280,7 @@ def _syllables(L):
             x.syl = len(syls) - 1
             continue
         if x.double and syls:
-            syls[-1]["coda"] += x.cons
-            syls[-1]["gem"] = True
+            syls[-1]["gem"] = True                       # closes the syllable; not written
         vs = [v for v in x.vowels if v != SHVA] or [SHVA]
         v = vs[0]
         s = _syl(x.cons, "e" if v == SHVA else VOWEL[v], v)

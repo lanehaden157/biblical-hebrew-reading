@@ -23,16 +23,16 @@ Usually ve-: {Gen.1.1#6/0} ve'et.
 Before b, m, p or a shva it becomes u-: {Gen.1.4#11/0} uven, {Gen.1.22#6/0} urevu.
 Sometimes va-: {Gen.1.2#4/0} vavóhu.
 
-On story verbs it is va- with the next letter doubled: {Gen.1.3#1/0} vayyómer. For now learn
+On story verbs it is va- with a dot in the next letter: {Gen.1.3#1/0} vayómer. For now learn
 those verbs as whole words; Unit 3 takes them apart.
 
-## L1.3 The: ha- and a doubled letter
+## L1.3 The: ha- and a dot in the next letter
 unlocks: M:ha, M:ha_g
 
-The article is ha- and the next letter is doubled: {Gen.1.1#5/0} hashshamáyim,
-{Gen.1.9#11/0} hayyabbashah.
+The article is ha- and the next letter takes a dot: {Gen.1.1#5/0} hashamáyim,
+{Gen.1.9#11/0} hayabashah.
 
-Alef, ayin, he, chet and resh cannot double, so the vowel adjusts instead: {Gen.1.1#7/0} ha'árets,
+Alef, ayin, he, chet and resh cannot take the dot, so the vowel adjusts instead: {Gen.1.1#7/0} ha'árets,
 {Gen.1.4#4/0} ha'or, {Jonah.1.2#5/0} ha`ir.
 
 There is no word for "a": a noun without ha- is usually indefinite.
@@ -46,17 +46,17 @@ Three one-letter prepositions: b- "in, with, by", l- "to, for", k- "like, as".
 {Jonah.1.14#21/0} ka'asher "as".
 
 When "the" follows, its h drops out and its vowel moves onto the preposition:
-{Gen.1.22#13/0} ba'árets "in the land", {Gen.1.5#3/0} la'or "to the light", {Gen.1.18#2/0} bayyom.
+{Gen.1.22#13/0} ba'árets "in the land", {Gen.1.5#3/0} la'or "to the light", {Gen.1.18#2/0} bayom.
 
 ## L1.5 From: min
 unlocks: M:mi, M:me
 
-"From" stands alone as min- or attaches as mi- with the next letter doubled:
-{Gen.1.7#9/0} mittáchat "from under".
+"From" stands alone as min- or attaches as mi- with a dot in the next letter:
+{Gen.1.7#9/0} mitáchat "from under".
 
-Before a guttural it cannot double and becomes me-: {Gen.1.7#14/0} me`al "from above".
+Before a guttural there is no dot and it becomes me-: {Gen.1.7#14/0} me`al "from above".
 
-Doubled after mi- is the nun of min assimilating, the same way the article doubles.
+The dot after mi- is the nun of min absorbed into the next letter.
 
 ## L1.6 The object marker 'et
 unlocks: L:853
@@ -64,7 +64,7 @@ unlocks: L:853
 'et marks a definite direct object: the thing done-to, when it is "the" thing or a name. It has
 no English equivalent; skip it when translating.
 
-{Gen.1.1#3-5} elohim et hashshamáyim, {Gen.1.4#2-4} elohim et- ha'or.
+{Gen.1.1#3-5} elohim et hashamáyim, {Gen.1.4#2-4} elohim et- ha'or.
 
 Watch for its twin 'et "with", spelled the same; context decides.
 
@@ -73,7 +73,7 @@ unlocks: L:834_a
 
 'asher links a clause to a noun, like English "who", "which", "that". It never changes form.
 
-{Gen.1.7#7-8} hammáyim asher, {Gen.1.31#4-6} kol- asher `asah "all that he made".
+{Gen.1.7#7-8} hamáyim asher, {Gen.1.31#4-6} kol- asher `asah "all that he made".
 
 ## L1.8 Clauses with no verb
 unlocks: L:1931
@@ -90,7 +90,7 @@ unlocks: F:559:HC/Vqw3ms:1d314b, F:1961:HC/Vqw3ms:aac579, F:559:HR/Vqc:3a4f92
 A few verb forms are so common that it pays to know them as words before learning how they are
 built.
 
-{Gen.1.3#1} vayyómer "and he said". {Jonah.1.1#1} vayehi "and it happened, and there was".
+{Gen.1.3#1} vayómer "and he said". {Jonah.1.1#1} vayehi "and it happened, and there was".
 {Jonah.1.1#8} lemor "saying", which introduces a quotation.
 
 Unit 3 shows how these are put together.

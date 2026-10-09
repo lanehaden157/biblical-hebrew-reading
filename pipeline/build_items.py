@@ -277,13 +277,13 @@ MORPHEMES = [  # id, label, meaning, unit
     ("ve", "ve- (with shva)", "and", 1),
     ("u", "u- (shureq; before b/m/p or a shva)", "and", 1),
     ("va", "va- (with a or a: vowel)", "and", 1),
-    ("vayy", "va- + doubled letter on a verb", "and (story form; Unit 3 explains)", 1),
-    ("ha", "ha- + doubled letter", "the", 1),
-    ("ha_g", "ha-/he- before a guttural (no doubling)", "the", 1),
+    ("vayy", "va- + dot in the next letter, on a verb", "and (story form; Unit 3 explains)", 1),
+    ("ha", "ha- + dot in the next letter", "the", 1),
+    ("ha_g", "ha-/he- before a guttural (no dot)", "the", 1),
     ("be", "be-/bi-/ba- (no article)", "in, with, by", 1),
     ("le", "le-/li-/la- (no article)", "to, for", 1),
     ("ke", "ke-/ki-/ka- (no article)", "like, as", 1),
-    ("mi", "mi- + doubled letter", "from", 1),
+    ("mi", "mi- + dot in the next letter", "from", 1),
     ("me", "me- before a guttural", "from", 1),
     ("ba", "ba- (b- + article)", "in the", 1),
     ("la", "la- (l- + article)", "to the, for the", 1),
@@ -386,14 +386,14 @@ SEGMENTS = [  # id, label, meaning, unit, group
     ("p_" + p, PLUR_LABEL[p] + " (yod before it: after a plural noun or 'el, `al)", PGN_MEANING[p], 2, "suffix")
     for p in PLUR_LABEL] + [
     ("dir", "-ah (unstressed, on a place)", "toward, to (direction)", 2, "suffix"),
-    ("w_seq", "va- + doubled first letter on a verb", "and (story tense: and then ... did)", 3, "marker"),
+    ("w_seq", "va- + dot in the prefix letter, on a verb", "and (story tense: and then ... did)", 3, "marker"),
     ("y3ms", "y- after va-", "he (it)", 3, "marker"),
     ("t3fs", "t- after va-", "she (it); the same t- also means you (m. sg.)", 3, "marker"),
-    ("a1cs", "'- after va- (no doubling)", "I", 3, "marker"),
+    ("a1cs", "'- after va- (alef takes no dot)", "I", 3, "marker"),
     ("n1cp", "n- after va-", "we", 3, "marker"),
     ("y_u", "y- ... -u", "they", 3, "marker"),
     ("t_u", "t- ... -u", "you (pl.)", 3, "marker"),
-    ("short", "short ending: the -eh of the root drops", "still the story tense (vayya`as beside ya`aseh)", 3, "marker"),
+    ("short", "short ending: the -eh of the root drops", "still the story tense (vaya`as beside ya`aseh)", 3, "marker"),
 ]
 
 
@@ -587,7 +587,7 @@ CONS = set("bdfghklmnpqrstvyz'`") | {"kh", "ch", "sh", "ts"}
 VOW = set("aeiou\u00e1\u00e9\u00ed\u00f3\u00fa")
 FEATURE_ORDER = ["shva_vocal", "shva_silent", "dagesh_forte", "dagesh_lene", "spirant", "qamats_qatan",
                  "qamats_a", "furtive", "vowel_letter", "hatef", "maqqef", "final", "divine"]
-FEATURE_KIND = {"spirant": "spirant", "dagesh_lene": "spirant", "dagesh_forte": "double",
+FEATURE_KIND = {"spirant": "spirant", "dagesh_lene": "spirant", "dagesh_forte": "spirant",
                 "shva_vocal": "shva", "shva_silent": "shva", "qamats_qatan": "qamats", "qamats_a": "qamats"}
 FINALS = {chr(c) for c in (0x5DA, 0x5DD, 0x5DF, 0x5E3, 0x5E5)}
 
@@ -613,10 +613,6 @@ def _variants(ph):
             out["lookalike"].append(ph[:i] + [LOOKALIKE[x]] + ph[i + 1:])
         if x in QAMATS_SWAP:
             out["qamats"].append(ph[:i] + [QAMATS_SWAP[x]] + ph[i + 1:])
-        if i + 1 < n and x in CONS and ph[i + 1] == x:
-            out["double"].append(ph[:i] + ph[i + 1:])
-        if 0 < i < n - 1 and x in CONS and ph[i - 1] in VOW and ph[i + 1] in VOW and x not in ("'", "`", "h", "ch", "r"):
-            out["double"].append(ph[:i + 1] + [x] + ph[i + 1:])
         if 0 < i < n - 1 and x == "e" and ph[i - 1] in CONS and ph[i + 1] in CONS:
             out["shva"].append(ph[:i] + ph[i + 1:])
         if i + 1 < n and x in CONS and ph[i + 1] in CONS and x != ph[i + 1] and i > 0:
@@ -626,7 +622,7 @@ def _variants(ph):
 
 def distractors(tr, feats, rng):
     """Three wrong transliterations, each one plausible misreading away; the first tests a
-    feature the word shows (spirant, doubling, shva, qamats), then look-alike letters."""
+    feature the word shows (spirant, shva, qamats; doubling is not written), then look-alike letters."""
     plain = tr.replace("-", "")
     var = _variants(PHON.findall(plain))
     kinds = []
@@ -634,7 +630,7 @@ def distractors(tr, feats, rng):
         k = FEATURE_KIND.get(f)
         if f in feats and k and k not in kinds:
             kinds.append(k)
-    kinds += [k for k in ("lookalike", "spirant", "double", "shva", "qamats") if k not in kinds]
+    kinds += [k for k in ("lookalike", "spirant", "shva", "qamats") if k not in kinds]
     out = []
     for k in kinds * 2:
         c = ["".join(v) for v in var.get(k, [])]

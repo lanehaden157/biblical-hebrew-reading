@@ -246,6 +246,6 @@ async function doneLoop(root, ctx, stats) {
 export function sessionInfo() {
   const s = S();
   advanceUnit();
-  const dueN = Object.keys(s.cards).filter(id => isDue(id)).length;
+  const dueN = Object.keys(s.cards).filter(id => isDue(id) && D.items.has(id)).length;
   return { unit: s.unit, title: unitDef(s.unit)?.title, due: dueN };
 }

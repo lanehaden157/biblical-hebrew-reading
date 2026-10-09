@@ -86,20 +86,20 @@ Top 50 (glosses are TBESH hints, unreviewed):
 | 29 | laqach 'to take: take' | 587 |
 | 30 | `ad 'till' | 577 |
 | 31 | ra'ah 'to see: see' | 557 |
-| 32 | dibber 'to speak: speak' | 542 |
+| 32 | diber 'to speak: speak' | 542 |
 | 33 | yatsa 'to come out: come' | 533 |
 | 34 | met 'to die' | 522 |
 | 35 | `ir 'city' | 521 |
 | 36 | et 'with' | 512 |
 | 37 | shanah 'year' | 505 |
 | 38 | `alah 'to ascend: rise' | 496 |
-| 39 | ishshah 'woman' | 481 |
+| 39 | ishah 'woman' | 481 |
 | 40 | `éved 'servant/slave' | 477 |
 | 41 | `im 'with' | 475 |
 | 42 | shalach 'to send: depart' | 472 |
 | 43 | shene 'two' | 469 |
 | 44 | min 'from' | 462 |
-| 45 | hinneh 'behold' | 446 |
+| 45 | hineh 'behold' | 446 |
 | 46 | sham 'there' | 431 |
 | 47 | achare 'after' | 430 |
 | 48 | yashav 'to dwell' | 425 |
@@ -132,7 +132,7 @@ Top 50 names (names track budget is 50; 18,071 name tokens):
 | 20 | avshalom 'Absalom' | 107 |
 | 21 | vinyamin 'Benjamin' | 104 |
 | 22 | yitschaq 'Isaac' | 94 |
-| 23 | menashsheh 'Manasseh' | 94 |
+| 23 | menasheh 'Manasseh' | 94 |
 | 24 | levi 'Levi' | 90 |
 | 25 | gil`ad 'Gilead' | 88 |
 | 26 | aram 'Aram' | 87 |
@@ -144,7 +144,7 @@ Top 50 names (names track budget is 50; 18,071 name tokens):
 | 32 | kená`an 'Canaan' | 74 |
 | 33 | mitsri 'Egyptian' | 68 |
 | 34 | shomeron 'Samaria' | 68 |
-| 35 | eliyyáhu 'Elijah' | 66 |
+| 35 | eliyáhu 'Elijah' | 66 |
 | 36 | avimélekh 'Abimelech' | 65 |
 | 37 | yehonatan 'Jonathan' | 64 |
 | 38 | emori 'Amorite' | 62 |
@@ -152,14 +152,14 @@ Top 50 names (names track budget is 50; 18,071 name tokens):
 | 40 | kena`ani 'Canaanite' | 60 |
 | 41 | avram 'Abram' | 59 |
 | 42 | elisha` 'Elisha' | 58 |
-| 43 | `ammon 'Ammon' | 57 |
+| 43 | `amon 'Ammon' | 57 |
 | 44 | re'uven 'Reuben' | 57 |
 | 45 | el 'Bethel' | 56 |
 | 46 | bet 'Bethel' | 56 |
 | 47 | shekhem 'Shechem' | 55 |
 | 48 | bil`am 'Balaam' | 54 |
 | 49 | lavan 'Laban' | 54 |
-| 50 | ashshur 'Assyria' | 53 |
+| 50 | ashur 'Assyria' | 53 |
 
 Names at rank 50 cover 56.9% of name tokens.
 
@@ -286,8 +286,8 @@ Weak class (primary; priority III-he > hollow > I-nun > I-yod/waw > I-alef > III
 | yarad 'to go down' | Hiphil | 38 | 223 |
 | halakh 'to go: went' | Qal | 195 | 221 |
 | halakh 'to go: went' | Hithpael | 25 | 221 |
-| higgid 'to tell' | Hiphil | 182 | 211 |
-| higgid 'to tell' | Hophal | 29 | 211 |
+| higid 'to tell' | Hiphil | 182 | 211 |
+| higid 'to tell' | Hophal | 29 | 211 |
 | malakh 'to reign' | Qal | 180 | 204 |
 | malakh 'to reign' | Hiphil | 24 | 204 |
 | matsa 'to find' | Qal | 146 | 201 |
@@ -316,8 +316,8 @@ Weak class (primary; priority III-he > hollow > I-nun > I-yod/waw > I-alef > III
 | asaf 'to gather' | Niphal | 41 | 90 |
 | nishba` 'to swear' | Niphal | 64 | 85 |
 | nishba` 'to swear' | Hiphil | 21 | 85 |
-| niggash 'to approach: approach' | Qal | 48 | 80 |
-| niggash 'to approach: approach' | Hiphil | 22 | 80 |
+| nigash 'to approach: approach' | Qal | 48 | 80 |
+| nigash 'to approach: approach' | Hiphil | 22 | 80 |
 | male 'to fill' | Piel | 47 | 79 |
 | male 'to fill' | Qal | 24 | 79 |
 | hirbah 'to multiply' | Hiphil | 44 | 67 |
@@ -343,66 +343,66 @@ Top 60:
 
 | # | Form | Parse | Lemma | Count | Example | Ambiguous |
 |---|---|---|---|---|---|---|
-| 1 | vayyómer | w Qal wayyiqtol 3ms | amar 'to say' | 1556 | Gen.1.3 |  |
+| 1 | vayómer | w Qal wayyiqtol 3ms | amar 'to say' | 1556 | Gen.1.3 |  |
 | 2 | vayehi | w Qal wayyiqtol 3ms | hayah 'to be' | 529 | Gen.1.3 |  |
 | 3 | lemor | prep Qal inf. cstr. | amar 'to say' | 467 | Gen.1.22 |  |
-| 4 | vayyomeru | w Qal wayyiqtol 3mp | amar 'to say' | 241 | Gen.11.3 |  |
+| 4 | vayomeru | w Qal wayyiqtol 3mp | amar 'to say' | 241 | Gen.11.3 |  |
 | 5 | `asah | Qal qatal 3ms | `asah 'to make: do' | 204 | Gen.1.31 | yes |
-| 6 | vayyávo | w Qal wayyiqtol 3ms | ba 'to come (in): come' | 192 | Gen.7.7 |  |
-| 7 | vayyélekh | w Qal wayyiqtol 3ms | holikh 'to walk' | 184 | Gen.12.4 |  |
-| 8 | vattómer | w Qal wayyiqtol 3fs | amar 'to say' | 175 | Gen.3.2 | yes |
-| 9 | vayyá`as | w Qal wayyiqtol 3ms | `asah 'to make: do' | 168 | Gen.1.7 |  |
-| 10 | vayyiqra | w Qal wayyiqtol 3ms | qára 'to call: call to' | 164 | Gen.1.5 |  |
+| 6 | vayávo | w Qal wayyiqtol 3ms | ba 'to come (in): come' | 192 | Gen.7.7 |  |
+| 7 | vayélekh | w Qal wayyiqtol 3ms | holikh 'to walk' | 184 | Gen.12.4 |  |
+| 8 | vatómer | w Qal wayyiqtol 3fs | amar 'to say' | 175 | Gen.3.2 | yes |
+| 9 | vayá`as | w Qal wayyiqtol 3ms | `asah 'to make: do' | 168 | Gen.1.7 |  |
+| 10 | vayiqra | w Qal wayyiqtol 3ms | qára 'to call: call to' | 164 | Gen.1.5 |  |
 | 11 | yihyeh | Qal yiqtol 3ms | hayah 'to be' | 160 | Gen.1.29 | yes |
 | 12 | hayah | Qal qatal 3ms | hayah 'to be' | 160 | Gen.3.1 |  |
-| 13 | vayyiqqach | w Qal wayyiqtol 3ms | laqach 'to take: take' | 159 | Gen.2.15 |  |
+| 13 | vayiqach | w Qal wayyiqtol 3ms | laqach 'to take: take' | 159 | Gen.2.15 |  |
 | 14 | amar | Qal qatal 3ms | amar 'to say' | 154 | Gen.3.1 |  |
-| 15 | vayyishlach | w Qal wayyiqtol 3ms | shalach 'to send: depart' | 140 | Gen.8.9 |  |
-| 16 | vayyavó'u | w Qal wayyiqtol 3mp | ba 'to come (in): come' | 137 | Gen.7.15 |  |
-| 17 | vayedabber | w Piel wayyiqtol 3ms | dibber 'to speak: speak' | 127 | Gen.8.15 |  |
-| 18 | tsivvah | Piel qatal 3ms | tsivvah 'to command' | 121 | Gen.6.22 |  |
-| 19 | dibber | Piel qatal 3ms | dibber 'to speak: speak' | 115 | Gen.12.4 |  |
+| 15 | vayishlach | w Qal wayyiqtol 3ms | shalach 'to send: depart' | 140 | Gen.8.9 |  |
+| 16 | vayavó'u | w Qal wayyiqtol 3mp | ba 'to come (in): come' | 137 | Gen.7.15 |  |
+| 17 | vayedaber | w Piel wayyiqtol 3ms | diber 'to speak: speak' | 127 | Gen.8.15 |  |
+| 18 | tsivah | Piel qatal 3ms | tsivah 'to command' | 121 | Gen.6.22 |  |
+| 19 | diber | Piel qatal 3ms | diber 'to speak: speak' | 115 | Gen.12.4 |  |
 | 20 | vehayah | w Qal weqatal 3ms | hayah 'to be' | 111 | Gen.4.14 | yes |
-| 21 | vayyar | w Qal wayyiqtol 3ms | ra'ah 'to see: see' | 107 | Gen.1.4 | yes |
-| 22 | vayyitten | w Qal wayyiqtol 3ms | natan 'to give: give' | 97 | Gen.1.17 |  |
-| 23 | vayyáqom | w Qal wayyiqtol 3ms | qam 'to arise: rise' | 94 | Gen.4.8 |  |
+| 21 | vayar | w Qal wayyiqtol 3ms | ra'ah 'to see: see' | 107 | Gen.1.4 | yes |
+| 22 | vayiten | w Qal wayyiqtol 3ms | natan 'to give: give' | 97 | Gen.1.17 |  |
+| 23 | vayáqom | w Qal wayyiqtol 3ms | qam 'to arise: rise' | 94 | Gen.4.8 |  |
 | 24 | natan | Qal qatal 3ms | natan 'to give: give' | 92 | Gen.24.53 |  |
-| 25 | vayyétse | w Qal wayyiqtol 3ms | yatsa 'to come out: come' | 91 | Gen.4.16 |  |
+| 25 | vayétse | w Qal wayyiqtol 3ms | yatsa 'to come out: come' | 91 | Gen.4.16 |  |
 | 26 | ba | Qal qatal 3ms | ba 'to come (in): come' | 81 | Gen.6.13 | yes |
-| 27 | vayyéshev | w Qal wayyiqtol 3ms | yashav 'to dwell' | 80 | Gen.4.16 |  |
+| 27 | vayéshev | w Qal wayyiqtol 3ms | yashav 'to dwell' | 80 | Gen.4.16 |  |
 | 28 | la`asot | prep Qal inf. cstr. | `asah 'to make: do' | 76 | Gen.2.3 |  |
-| 29 | vayyachanu | w Qal wayyiqtol 3mp | chanah 'to camp' | 76 | Exod.13.20 |  |
-| 30 | vayyihyu | w Qal wayyiqtol 3mp | hayah 'to be' | 72 | Gen.2.25 |  |
-| 31 | vayyelekhu | w Qal wayyiqtol 3mp | holikh 'to walk' | 70 | Gen.9.23 |  |
-| 32 | vayyá`al | w Qal wayyiqtol 3ms | `alah 'to ascend: rise' | 69 | Gen.13.1 | yes |
+| 29 | vayachanu | w Qal wayyiqtol 3mp | chanah 'to camp' | 76 | Exod.13.20 |  |
+| 30 | vayihyu | w Qal wayyiqtol 3mp | hayah 'to be' | 72 | Gen.2.25 |  |
+| 31 | vayelekhu | w Qal wayyiqtol 3mp | holikh 'to walk' | 70 | Gen.9.23 |  |
+| 32 | vayá`al | w Qal wayyiqtol 3ms | `alah 'to ascend: rise' | 69 | Gen.13.1 | yes |
 | 33 | ta`aseh | Qal yiqtol 2ms | `asah 'to make: do' | 68 | Gen.6.14 | yes |
 | 34 | ve`asita | w Qal weqatal 2ms | `asah 'to make: do' | 68 | Gen.40.14 |  |
 | 35 | malakh | Qal qatal 3ms | malakh 'to reign' | 68 | Josh.13.10 |  |
-| 36 | vayyá`an | w Qal wayyiqtol 3ms | `ánah 'to answer' | 67 | Gen.18.27 |  |
+| 36 | vayá`an | w Qal wayyiqtol 3ms | `ánah 'to answer' | 67 | Gen.18.27 |  |
 | 37 | hayu | Qal qatal 3cp | hayah 'to be' | 66 | Gen.6.4 |  |
-| 38 | vayyomar | w Qal wayyiqtol 3ms | amar 'to say' | 66 | Gen.14.19 |  |
-| 39 | vayyásem | w Qal wayyiqtol 3ms | sam 'to set: make' | 65 | Gen.2.8 |  |
+| 38 | vayomar | w Qal wayyiqtol 3ms | amar 'to say' | 66 | Gen.14.19 |  |
+| 39 | vayásem | w Qal wayyiqtol 3ms | sam 'to set: make' | 65 | Gen.2.8 |  |
 | 40 | `asu | Qal qatal 3cp | `asah 'to make: do' | 65 | Gen.12.5 |  |
-| 41 | vayyáshov | w Qal wayyiqtol 3ms | shav 'to return: return' | 64 | Gen.22.19 |  |
-| 42 | vayyis`u | w Qal wayyiqtol 3mp | nasa` 'to set out' | 60 | Gen.35.16 |  |
-| 43 | vayyámot | w Qal wayyiqtol 3ms | met 'to die' | 59 | Gen.11.28 |  |
-| 44 | vattehi | w Qal wayyiqtol 3fs | hayah 'to be' | 57 | Gen.10.10 |  |
-| 45 | vayyishma` | w Qal wayyiqtol 3ms | shama` 'to hear: hear' | 57 | Gen.14.14 |  |
+| 41 | vayáshov | w Qal wayyiqtol 3ms | shav 'to return: return' | 64 | Gen.22.19 |  |
+| 42 | vayis`u | w Qal wayyiqtol 3mp | nasa` 'to set out' | 60 | Gen.35.16 |  |
+| 43 | vayámot | w Qal wayyiqtol 3ms | met 'to die' | 59 | Gen.11.28 |  |
+| 44 | vatehi | w Qal wayyiqtol 3fs | hayah 'to be' | 57 | Gen.10.10 |  |
+| 45 | vayishma` | w Qal wayyiqtol 3ms | shama` 'to hear: hear' | 57 | Gen.14.14 |  |
 | 46 | lekh | Qal imperative 2ms | holikh 'to walk' | 56 | Gen.26.16 | yes |
-| 47 | vayyakh | w Hiphil wayyiqtol 3ms | hikkah 'to smite' | 53 | Exod.2.12 |  |
-| 48 | vayya`asu | w Qal wayyiqtol 3mp | `asah 'to make: do' | 52 | Gen.3.7 |  |
+| 47 | vayakh | w Hiphil wayyiqtol 3ms | hikah 'to smite' | 53 | Exod.2.12 |  |
+| 48 | vaya`asu | w Qal wayyiqtol 3mp | `asah 'to make: do' | 52 | Gen.3.7 |  |
 | 49 | hayetah | Qal qatal 3fs | hayah 'to be' | 51 | Gen.1.2 |  |
-| 50 | vayyimlokh | w Qal wayyiqtol 3ms | malakh 'to reign' | 51 | Gen.36.32 |  |
+| 50 | vayimlokh | w Qal wayyiqtol 3ms | malakh 'to reign' | 51 | Gen.36.32 |  |
 | 51 | lemor | prep Qal inf. cstr. | amar 'to say' | 50 | Exod.6.10 |  |
-| 52 | vattéled | w Qal wayyiqtol 3fs | yalad 'to beget' | 47 | Gen.4.1 |  |
+| 52 | vatéled | w Qal wayyiqtol 3fs | yalad 'to beget' | 47 | Gen.4.1 |  |
 | 53 | lalékhet | prep Qal inf. cstr. | holikh 'to walk' | 46 | Gen.11.31 |  |
 | 54 | vehayu | w Qal weqatal 3cp | hayah 'to be' | 43 | Gen.1.14 | yes |
 | 55 | e`eseh | Qal yiqtol 1cs | `asah 'to make: do' | 43 | Gen.18.29 |  |
 | 56 | met | Qal qatal 3ms | met 'to die' | 43 | Gen.44.20 | yes |
-| 57 | vayyiqchu | w Qal wayyiqtol 3mp | laqach 'to take: take' | 42 | Gen.6.2 |  |
+| 57 | vayiqchu | w Qal wayyiqtol 3mp | laqach 'to take: take' | 42 | Gen.6.2 |  |
 | 58 | qach | Qal imperative 2ms | laqach 'to take: take' | 42 | Gen.6.21 |  |
 | 59 | bá'u | Qal qatal 3cp | ba 'to come (in): come' | 42 | Gen.7.9 |  |
-| 60 | vayyishkav | w Qal wayyiqtol 3ms | shakhav 'to lie down: lay down' | 42 | Gen.28.11 |  |
+| 60 | vayishkav | w Qal wayyiqtol 3ms | shakhav 'to lie down: lay down' | 42 | Gen.28.11 |  |
 
 ## M7. Verb-token coverage by top forms
 
@@ -447,7 +447,7 @@ Top 25 by tokens:
 | na | 219 | HTe na (217); HTe na (1); HTe na (1) |
 | `asah | 205 | Qal qatal 3ms `asah (204); Qal qatal 3ms `asah (1) |
 | lekha | 195 | HR/Sp2ms l (193); HR/Sp2ms l/3772 (1); Qal imperative 2ms holikh (1) |
-| vattómer | 178 | w Qal wayyiqtol 3fs c/559 (175); w Qal wayyiqtol 2ms c/559 (3) |
+| vatómer | 178 | w Qal wayyiqtol 3fs c/559 (175); w Qal wayyiqtol 2ms c/559 (3) |
 
 ## M9b. Unseen weak-verb pool (forms outside the top 400)
 
@@ -455,13 +455,13 @@ Root-recovery test pool for Unit 7 (`data/measures/unseen_weak_pool.json`). Quar
 
 | Weak class | Forms | Tokens | Unambiguous forms | Examples |
 |---|---|---|---|---|
-| III-he | 1368 | 2441 | 1232 | vetsippita, vayyakkum, ve`alah, vayekhal |
-| hollow | 1076 | 2014 | 945 | uva, lehashiv, vayyaví'u, bá'ah |
+| III-he | 1368 | 2441 | 1232 | vetsipita, vayakum, ve`alah, vayekhal |
+| hollow | 1076 | 2014 | 945 | uva, lehashiv, vayaví'u, bá'ah |
 | I-yod/waw | 810 | 1468 | 745 | red, veyatsa, yeshev, yodéa` |
-| I-nun | 694 | 1209 | 641 | vayyiggeshu, yissa, nose, yissá`u |
+| I-nun | 694 | 1209 | 641 | vayigeshu, yisa, nose, yisá`u |
 | I-alef | 397 | 723 | 356 | aserah, arur, ye'akhel, amárta |
-| III-alef | 326 | 542 | 286 | chata, liqro, vayyimtse'u, mille |
-| geminate | 323 | 452 | 297 | hechel, vayyissov, vayyassev, vayyéra` |
+| III-alef | 326 | 542 | 286 | chata, liqro, vayimtse'u, mile |
+| geminate | 323 | 452 | 297 | hechel, vayisov, vayasev, vayéra` |
 
 ## M8. Micro-reading pools
 
@@ -478,47 +478,47 @@ Phrases split at king-level disjunctive accents (atnach, segolta, shalshelet, za
 M8a samples:
 
 - Exod.1.12: bene yisra'el (x80)
-- Gen.26.33: hayyom hazzeh (x53)
+- Gen.26.33: hayom hazeh (x53)
 - Gen.10.9: lifne YHWH (x50)
-- Exod.6.10: vayedabber YHWH (x49)
+- Exod.6.10: vayedaber YHWH (x49)
 - Exod.6.10: el-mosheh lemor (x47)
 - Exod.38.22: et-mosheh (x33)
 
 M8b samples:
 
 - Exod.1.12: bene yisra'el (x80)
-- Gen.26.33: hayyom hazzeh (x53)
+- Gen.26.33: hayom hazeh (x53)
 - Gen.10.9: lifne YHWH (x50)
-- Exod.6.10: vayedabber YHWH (x49)
+- Exod.6.10: vayedaber YHWH (x49)
 - Exod.6.10: el-mosheh lemor (x47)
 - Gen.6.8: be`ene YHWH (x44)
 
 M8c-wayyiqtol samples:
 
-- Gen.5.6: vayechi-shet chamesh shanim ume'at shanah vayyóled et-enosh
-- Gen.27.24: vayyómer attah zeh beni `esav vayyómer áni
-- Num.14.1: vattissa kol-ha`edah vayyittenu et-qolam vayyivku ha`am balláylah hahu
-- Josh.22.6: vayevarekhem yehoshúa` vayeshallechem vayyelekhu el-oholehem
-- 1Sam.15.4: vayeshamma` sha'ul et-ha`am vayyifqedem battela'im matáyim élef ragli va`aséret alafim et-ish yehudah
-- 1Kgs.16.10: vayyavo zimri vayyakkéhu vayemitéhu bishnat `esrim vashéva` le'asa mélekh yehudah vayyimlokh tachtav
+- Gen.5.6: vayechi-shet chamesh shanim ume'at shanah vayóled et-enosh
+- Gen.27.24: vayómer atah zeh beni `esav vayómer áni
+- Num.14.1: vatisa kol-ha`edah vayitenu et-qolam vayivku ha`am baláylah hahu
+- Josh.22.6: vayevarekhem yehoshúa` vayeshalechem vayelekhu el-oholehem
+- 1Sam.15.4: vayeshama` sha'ul et-ha`am vayifqedem batela'im matáyim élef ragli va`aséret alafim et-ish yehudah
+- 1Kgs.16.10: vayavo zimri vayakéhu vayemitéhu bishnat `esrim vashéva` le'asa mélekh yehudah vayimlokh tachtav
 
 M8c-qatal samples:
 
-- Gen.2.22: vayyíven YHWH elohim et-hatstsela` asher-laqach min-ha'adam le'ishshah vayevi'éha el-ha'adam
-- Gen.46.27: uvene yosef asher-yullad-lo vemitsráyim néfesh shenáyim kol-hannéfesh levet-ya`aqov habbá'ah mitsráymah shiv`im
-- Num.12.16: ve'achar nase`u ha`am mechatserot vayyachanu bemidbar paran
-- Judg.2.10: vegam kol-haddor hahu ne'esfu el-avotav vayyáqom dor acher acharehem asher lo-yade`u et-YHWH vegam et-hamma`aseh asher `asah leyisra'el
-- 2Sam.2.29: ve'avner va'anashav halekhu ba`aravah kol halláylah hahu vayya`avru et-hayyarden vayyelekhu kol-habbitron vayyavó'u machanáyim
-- 1Kgs.15.34: vayyá`as hara` be`ene YHWH vayyélekh bedérekh yarov`am uvechattato asher hecheti et-yisra'el
+- Gen.2.22: vayíven YHWH elohim et-hatsela` asher-laqach min-ha'adam le'ishah vayevi'éha el-ha'adam
+- Gen.46.27: uvene yosef asher-yulad-lo vemitsráyim néfesh shenáyim kol-hanéfesh levet-ya`aqov habá'ah mitsráymah shiv`im
+- Num.12.16: ve'achar nase`u ha`am mechatserot vayachanu bemidbar paran
+- Judg.2.10: vegam kol-hador hahu ne'esfu el-avotav vayáqom dor acher acharehem asher lo-yade`u et-YHWH vegam et-hama`aseh asher `asah leyisra'el
+- 2Sam.2.29: ve'avner va'anashav halekhu ba`aravah kol haláylah hahu vaya`avru et-hayarden vayelekhu kol-habitron vayavó'u machanáyim
+- 1Kgs.15.34: vayá`as hara` be`ene YHWH vayélekh bedérekh yarov`am uvechatato asher hecheti et-yisra'el
 
 M8d samples:
 
-- Gen.12.18: vayyiqra far`oh le'avram vayyómer mah-zot `asíta li lámmah lo-higgádta li ki ishtekha hi lamah amárta achóti hi va'eqqach otah li le'ishshah ve`attah hinneh ishtekha qach valekh vayetsav `alav par`oh anashim vayeshallechu oto ve'et-ishto ve'et-kol-asher-lo
-- Gen.44.8: hen késef asher matsánu befi amtechoténu heshivónu elékha me'érets kená`an ve'ekh nignov mibbet adonékha késef o zahav asher yimmatse itto me`avadékha vamet vegam-anáchnu nihyeh ladoni la`avadim vayyómer gam-`attah khedivrekhem ken-hu asher yimmatse itto yihyeh-li `áved ve'attem tihyu neqiyyim
-- Exod.20.22: vayyómer YHWH el-mosheh koh tomar el-bene yisra'el attem re'item ki min-hashshamáyim dibbárti `immakhem lo ta`asun itti elóhe khésef velohe zahav lo ta`asu lakhem mizbach adamah ta`aseh-li vezavachta `alav et-`olotékha ve'et-shelamékha et-tsonekha ve'et-beqarékha bekhol-hammaqom asher azkir et-shemi avo elékha uverakhtíkha
-- Num.16.24: dabber el-ha`edah lemor he`alu missaviv lemishkan-qórach datan va'aviram vayyáqom mosheh vayyélekh el-datan va'aviram vayyelekhu acharav ziqne yisra'el vayedabber el-ha`edah lemor súru na me`al ohole ha'anashim haresha`im ha'élleh ve'al-tigge`u bekhol-asher lahem pen-tissafu bekhol-chattotam
-- Num.34.5: venasav haggevul me`atsmon náchlah mitsráyim vehayu totse'otav hayyámmah ugevul yam vehayah lakhem hayyam haggadol ugevul zeh-yihyeh lakhem gevul yam vezeh-yihyeh lakhem gevul tsafon min-hayyam haggadol teta'u lakhem hor hahar
-- Judg.11.22: vayyireshu et kol-gevul ha'emori me'arnon ve`ad-hayyabboq umin-hammidbar ve`ad-hayyarden ve`attah YHWH elohe yisra'el horish et-ha'emori mippene `ammo yisra'el ve'attah tirashénnu halo et asher yorishekha kemosh elohékha oto tirash ve'et kol-asher horish YHWH elohénu mippanénu oto nirash
+- Gen.12.18: vayiqra far`oh le'avram vayómer mah-zot `asíta li lámah lo-higádta li ki ishtekha hi lamah amárta achóti hi va'eqach otah li le'ishah ve`atah hineh ishtekha qach valekh vayetsav `alav par`oh anashim vayeshalechu oto ve'et-ishto ve'et-kol-asher-lo
+- Gen.44.8: hen késef asher matsánu befi amtechoténu heshivónu elékha me'érets kená`an ve'ekh nignov mibet adonékha késef o zahav asher yimatse ito me`avadékha vamet vegam-anáchnu nihyeh ladoni la`avadim vayómer gam-`atah khedivrekhem ken-hu asher yimatse ito yihyeh-li `áved ve'atem tihyu neqiyim
+- Exod.20.22: vayómer YHWH el-mosheh koh tomar el-bene yisra'el atem re'item ki min-hashamáyim dibárti `imakhem lo ta`asun iti elóhe khésef velohe zahav lo ta`asu lakhem mizbach adamah ta`aseh-li vezavachta `alav et-`olotékha ve'et-shelamékha et-tsonekha ve'et-beqarékha bekhol-hamaqom asher azkir et-shemi avo elékha uverakhtíkha
+- Num.16.24: daber el-ha`edah lemor he`alu misaviv lemishkan-qórach datan va'aviram vayáqom mosheh vayélekh el-datan va'aviram vayelekhu acharav ziqne yisra'el vayedaber el-ha`edah lemor súru na me`al ohole ha'anashim haresha`im ha'éleh ve'al-tige`u bekhol-asher lahem pen-tisafu bekhol-chatotam
+- Num.34.5: venasav hagevul me`atsmon náchlah mitsráyim vehayu totse'otav hayámah ugevul yam vehayah lakhem hayam hagadol ugevul zeh-yihyeh lakhem gevul yam vezeh-yihyeh lakhem gevul tsafon min-hayam hagadol teta'u lakhem hor hahar
+- Judg.11.22: vayireshu et kol-gevul ha'emori me'arnon ve`ad-hayaboq umin-hamidbar ve`ad-hayarden ve`atah YHWH elohe yisra'el horish et-ha'emori mipene `amo yisra'el ve'atah tirashénu halo et asher yorishekha kemosh elohékha oto tirash ve'et kol-asher horish YHWH elohénu mipanénu oto nirash
 
 ## M10. Exodus 3 and 14 top-up
 
@@ -527,7 +527,7 @@ M8d samples:
 | Lemma | Rank | Corpus count | In Exod 3/14 |
 |---|---|---|---|
 | nihag 'to lead' | 775 | 12 | 2 |
-| mistatter 'to hide' | 779 | 12 | 1 |
+| mistater 'to hide' | 779 | 12 | 1 |
 | zavat 'to flow: flowing' | 801 | 11 | 2 |
 | 3004 'dry land' | 806 | 11 | 3 |
 | nishqefah 'to look' | 846 | 11 | 1 |
@@ -568,43 +568,43 @@ M8d samples:
 |---|---|---|---|
 | hiqriv | Exod.14.10 | Hiphil qatal 3ms | 952 |
 | noséa` | Exod.14.10 | Qal participle ms | 2234 |
-| vayyire'u | Exod.14.10 | w Qal wayyiqtol 3mp | 325 |
-| vayyits`aqu | Exod.14.10 | w Qal wayyiqtol 3mp | 1071 |
+| vayire'u | Exod.14.10 | w Qal wayyiqtol 3mp | 325 |
+| vayits`aqu | Exod.14.10 | w Qal wayyiqtol 3mp | 1071 |
 | leqachtánu | Exod.14.11 | Qal qatal 2ms +sfx 1cp | 4524 |
 | lehotsi'ánu | Exod.14.11 | prep Hiphil inf. cstr. +sfx 1cp | 4525 |
-| dibbárnu | Exod.14.12 | Piel qatal 1cp | 1479 |
+| dibárnu | Exod.14.12 | Piel qatal 1cp | 1479 |
 | chadal | Exod.14.12 | Qal imperative 2ms | 4526 |
 | vena`avdah | Exod.14.12 | w Qal cohortative 1cp | 4527 |
 | `avod | Exod.14.12 | Qal inf. cstr. | 4528 |
-| mimmuténu | Exod.14.12 | prep Qal inf. cstr. +sfx 1cp | 4529 |
+| mimuténu | Exod.14.12 | prep Qal inf. cstr. +sfx 1cp | 4529 |
 | tirá'u | Exod.14.13 | Qal jussive 2mp | 586 |
 | hityatsvu | Exod.14.13 | Hithpael imperative 2mp | 4530 |
 | ure'u | Exod.14.13 | w Qal imperative 2mp | 303 |
 | re'item | Exod.14.13 | Qal qatal 2mp | 678 |
 | tosífu | Exod.14.13 | Hiphil yiqtol 2mp | 4531 |
 | lir'otam | Exod.14.13 | prep Qal inf. cstr. +sfx 3mp | 4532 |
-| yillachem | Exod.14.14 | Niphal yiqtol 3ms | 4533 |
+| yilachem | Exod.14.14 | Niphal yiqtol 3ms | 4533 |
 | tacharishun | Exod.14.14 | Hiphil yiqtol 2mp +par. nun | 4534 |
 | tits`aq | Exod.14.15 | Qal yiqtol 2ms | 4535 |
-| veyissá`u | Exod.14.15 | w Qal jussive 3mp | 4536 |
+| veyisá`u | Exod.14.15 | w Qal jussive 3mp | 4536 |
 | harem | Exod.14.16 | Hiphil imperative 2ms | 4537 |
 | uneteh | Exod.14.16 | w Qal imperative 2ms | 2194 |
 | uveqa`éhu | Exod.14.16 | w Qal imperative 2ms +sfx 3ms | 4538 |
 | veyavó'u | Exod.14.16 | w Qal yiqtol 3mp | 1480 |
-| mechazzeq | Exod.14.17 | Piel participle ms | 4539 |
-| behikkavedi | Exod.14.18 | prep Niphal inf. cstr. +sfx 1cs | 4540 |
-| vayyissa` | Exod.14.19 | w Qal wayyiqtol 3ms | 371 |
+| mechazeq | Exod.14.17 | Piel participle ms | 4539 |
+| behikavedi | Exod.14.18 | prep Niphal inf. cstr. +sfx 1cs | 4540 |
+| vayisa` | Exod.14.19 | w Qal wayyiqtol 3ms | 371 |
 | haholekh | Exod.14.19 | Qal participle ms | 755 |
 | veyashúvu | Exod.14.2 | w Qal jussive 3mp | 2230 |
 | veyachanu | Exod.14.2 | w Qal jussive 3mp | 4515 |
 | tachanu | Exod.14.2 | Qal yiqtol 2mp | 4516 |
-| vayyá'er | Exod.14.20 | w Hiphil wayyiqtol 3ms | 4541 |
+| vayá'er | Exod.14.20 | w Hiphil wayyiqtol 3ms | 4541 |
 | qarav | Exod.14.20 | Qal qatal 3ms | 1294 |
-| vayyólekh | Exod.14.21 | w Hiphil wayyiqtol 3ms | 4542 |
-| vayyibbaqe`u | Exod.14.21 | w Niphal wayyiqtol 3mp | 4543 |
-| vayyashqef | Exod.14.24 | w Hiphil wayyiqtol 3ms | 970 |
-| vayyáhom | Exod.14.24 | w Qal wayyiqtol 3ms | 2235 |
-| vayyásar | Exod.14.25 | w Hiphil wayyiqtol 3ms | 477 |
+| vayólekh | Exod.14.21 | w Hiphil wayyiqtol 3ms | 4542 |
+| vayibaqe`u | Exod.14.21 | w Niphal wayyiqtol 3mp | 4543 |
+| vayashqef | Exod.14.24 | w Hiphil wayyiqtol 3ms | 970 |
+| vayáhom | Exod.14.24 | w Qal wayyiqtol 3ms | 2235 |
+| vayásar | Exod.14.25 | w Hiphil wayyiqtol 3ms | 477 |
 | vayenahagéhu | Exod.14.25 | w Piel wayyiqtol 3ms +sfx 3ms | 4544 |
 | anúsah | Exod.14.25 | Qal cohortative 1cs | 4545 |
 | nilcham | Exod.14.25 | Niphal participle ms | 856 |
@@ -612,34 +612,34 @@ M8d samples:
 | lifnot | Exod.14.27 | prep Qal inf. cstr. | 1319 |
 | nasim | Exod.14.27 | Qal participle mp | 2236 |
 | vayena`er | Exod.14.27 | w Piel wayyiqtol 3ms | 4546 |
-| vayekhassu | Exod.14.28 | w Piel wayyiqtol 3mp | 1858 |
-| habba'im | Exod.14.28 | Qal participle mp | 395 |
+| vayekhasu | Exod.14.28 | w Piel wayyiqtol 3mp | 1858 |
+| haba'im | Exod.14.28 | Qal participle mp | 395 |
 | nevukhim | Exod.14.3 | Niphal participle mp | 4517 |
 | sagar | Exod.14.3 | Qal qatal 3ms | 781 |
-| vayyósha` | Exod.14.30 | w Hiphil wayyiqtol 3ms | 1481 |
-| vayya'amínu | Exod.14.31 | w Hiphil wayyiqtol 3mp | 2237 |
-| vechizzaqti | Exod.14.4 | w Piel weqatal 1cs | 4518 |
+| vayósha` | Exod.14.30 | w Hiphil wayyiqtol 3ms | 1481 |
+| vaya'amínu | Exod.14.31 | w Hiphil wayyiqtol 3mp | 2237 |
+| vechizaqti | Exod.14.4 | w Piel weqatal 1cs | 4518 |
 | veradaf | Exod.14.4 | w Qal weqatal 3ms | 4519 |
-| ve'ikkavedah | Exod.14.4 | w Niphal cohortative 1cs | 2231 |
+| ve'ikavedah | Exod.14.4 | w Niphal cohortative 1cs | 2231 |
 | veyade`u | Exod.14.4 | w Qal weqatal 3cp | 843 |
 | varach | Exod.14.5 | Qal qatal 3ms | 1344 |
-| vayyehafekh | Exod.14.5 | w Niphal wayyiqtol 3ms | 4520 |
-| vayyomru | Exod.14.5 | w Qal wayyiqtol 3mp | 2232 |
+| vayehafekh | Exod.14.5 | w Niphal wayyiqtol 3ms | 4520 |
+| vayomru | Exod.14.5 | w Qal wayyiqtol 3mp | 2232 |
 | `asínu | Exod.14.5 | Qal qatal 1cp | 1324 |
-| shilláchnu | Exod.14.5 | Piel qatal 1cp | 4521 |
+| shiláchnu | Exod.14.5 | Piel qatal 1cp | 4521 |
 | me`ovdénu | Exod.14.5 | prep Qal inf. cstr. +sfx 1cp | 4522 |
-| vayye'sor | Exod.14.6 | w Qal wayyiqtol 3ms | 1420 |
+| vaye'sor | Exod.14.6 | w Qal wayyiqtol 3ms | 1420 |
 | bachur | Exod.14.7 | Qal pass. participle ms | 601 |
-| vayechazzeq | Exod.14.8 | w Piel wayyiqtol 3ms | 598 |
-| vayyirdof | Exod.14.8 | w Qal wayyiqtol 3ms | 423 |
+| vayechazeq | Exod.14.8 | w Piel wayyiqtol 3ms | 598 |
+| vayirdof | Exod.14.8 | w Qal wayyiqtol 3ms | 423 |
 | yotse'im | Exod.14.8 | Qal participle mp | 692 |
 | ramah | Exod.14.8 | Qal participle fs | 2233 |
-| vayyirdefu | Exod.14.9 | w Qal wayyiqtol 3mp | 302 |
-| vayyassígu | Exod.14.9 | w Hiphil wayyiqtol 3mp | 4523 |
+| vayirdefu | Exod.14.9 | w Qal wayyiqtol 3mp | 302 |
+| vayasígu | Exod.14.9 | w Hiphil wayyiqtol 3mp | 4523 |
 | chonim | Exod.14.9 | Qal participle mp | 855 |
 | ro`eh | Exod.3.1 | Qal participle ms | 581 |
 | choteno | Exod.3.1 | Qal participle ms +sfx 3ms | 518 |
-| vayyinhag | Exod.3.1 | w Qal wayyiqtol 3ms | 1342 |
+| vayinhag | Exod.3.1 | w Qal wayyiqtol 3ms | 1342 |
 | ve'eshlachakha | Exod.3.10 | w Qal yiqtol 1cs +sfx 2ms | 2051 |
 | vehotse | Exod.3.10 | w Hiphil imperative 2ms | 4288 |
 | elekh | Exod.3.11 | Qal yiqtol 1cs | 386 |
@@ -666,30 +666,30 @@ M8d samples:
 | venizbechah | Exod.3.18 | w Qal cohortative 1cp | 2168 |
 | lahalokh | Exod.3.19 | prep Qal inf. cstr. | 2169 |
 | bo`er | Exod.3.2 | Qal participle ms | 4275 |
-| ukkal | Exod.3.2 | Qal passive pass. participle ms | 4276 |
+| ukal | Exod.3.2 | Qal passive pass. participle ms | 4276 |
 | veshalachti | Exod.3.20 | w Qal weqatal 1cs | 1000 |
-| vehikketi | Exod.3.20 | w Hiphil weqatal 1cs | 1068 |
+| vehiketi | Exod.3.20 | w Hiphil weqatal 1cs | 1068 |
 | nifle'otay | Exod.3.20 | Niphal participle fp +sfx 1cs | 4292 |
-| yeshallach | Exod.3.20 | Piel yiqtol 3ms | 1443 |
+| yeshalach | Exod.3.20 | Piel yiqtol 3ms | 1443 |
 | telekhun | Exod.3.21 | Qal yiqtol 2mp +par. nun | 4293 |
 | telekhu | Exod.3.21 | Qal yiqtol 2mp | 4294 |
 | vesha'alah | Exod.3.22 | w Qal weqatal 3fs | 4295 |
-| umiggarat | Exod.3.22 | w+prep Qal participle fs | 4296 |
+| umigarat | Exod.3.22 | w+prep Qal participle fs | 4296 |
 | vesamtem | Exod.3.22 | w Qal weqatal 2mp | 1444 |
-| venitstsaltem | Exod.3.22 | w Piel weqatal 2mp | 4297 |
+| venitsaltem | Exod.3.22 | w Piel weqatal 2mp | 4297 |
 | asurah | Exod.3.3 | Qal cohortative 1cs | 4277 |
 | ve'er'eh | Exod.3.3 | w Qal cohortative 1cs | 1281 |
 | yiv`ar | Exod.3.3 | Qal yiqtol 3ms | 4278 |
 | tiqrav | Exod.3.5 | Qal jussive 2ms | 4279 |
 | shal | Exod.3.5 | Qal imperative 2ms | 2159 |
 | `omed | Exod.3.5 | Qal participle ms | 4280 |
-| vayyaster | Exod.3.6 | w Hiphil wayyiqtol 3ms | 4281 |
+| vayaster | Exod.3.6 | w Hiphil wayyiqtol 3ms | 4281 |
 | yare | Exod.3.6 | Qal qatal 3ms | 380 |
-| mehabbit | Exod.3.6 | prep Hiphil inf. cstr. | 4282 |
+| mehabit | Exod.3.6 | prep Hiphil inf. cstr. | 4282 |
 | ra'oh | Exod.3.7 | Qal inf. abs. | 2160 |
 | nogesav | Exod.3.7 | Qal participle mp +sfx 3ms | 4283 |
 | va'ered | Exod.3.8 | w Qal wayyiqtol 1cs | 4284 |
-| lehatstsilo | Exod.3.8 | prep Hiphil inf. cstr. +sfx 3ms | 4285 |
+| lehatsilo | Exod.3.8 | prep Hiphil inf. cstr. +sfx 3ms | 4285 |
 | uleha`aloto | Exod.3.8 | w+prep Hiphil inf. cstr. +sfx 3ms | 4286 |
 | zavat | Exod.3.8 | Qal participle fs | 444 |
 | bá'ah | Exod.3.9 | Qal qatal 3fs | 424 |
@@ -801,15 +801,15 @@ Samples per reason:
 | verb-lemma | 1Kgs.1.1 | yicham | HVqi3ms | 3179 | verb qal impf p3 m sg XMM[ |
 | verb-lemma | 1Kgs.1.40 | usemechim | HC/Vqrmpa | c/8056 | verb qal ptca unknown m pl FMX[ |
 | verb-lemma | 1Kgs.6.6 | achoz | HVqc | 270 | verb qal infc unknown unknown unknown >XZ=[ |
-| verb-lemma | 1Kgs.6.10 | vayye'echoz | HC/Vqw3ms | c/270 | verb qal wayq p3 m sg >XZ=[ |
-| stem | 1Kgs.1.23 | vayyishtáchu | HC/Vtw3ms | c/7812 | verb hsht wayq p3 m sg XWH[ |
-| stem | 1Kgs.1.47 | vayyishtáchu | HC/Vtw3ms | c/7812 | verb hsht wayq p3 m sg XWH[ |
-| stem | 1Kgs.1.53 | vayyishtáchu | HC/Vtw3ms | c/7812 | verb hsht wayq p3 m sg XWH[ |
-| stem | 1Kgs.2.19 | vayyishtáchu | HC/Vtw3ms | c/7812 | verb hsht wayq p3 m sg XWH[ |
-| suffix-pgn | 1Kgs.2.20 | me'ittakh | HR/R/Sp2fs | m/854 | prep NA NA NA NA NA MN |
-| suffix-pgn | 1Kgs.2.32 | mimménnu | HR/Sp1cp | 4480 a | prep NA NA NA NA NA MN |
+| verb-lemma | 1Kgs.6.10 | vaye'echoz | HC/Vqw3ms | c/270 | verb qal wayq p3 m sg >XZ=[ |
+| stem | 1Kgs.1.23 | vayishtáchu | HC/Vtw3ms | c/7812 | verb hsht wayq p3 m sg XWH[ |
+| stem | 1Kgs.1.47 | vayishtáchu | HC/Vtw3ms | c/7812 | verb hsht wayq p3 m sg XWH[ |
+| stem | 1Kgs.1.53 | vayishtáchu | HC/Vtw3ms | c/7812 | verb hsht wayq p3 m sg XWH[ |
+| stem | 1Kgs.2.19 | vayishtáchu | HC/Vtw3ms | c/7812 | verb hsht wayq p3 m sg XWH[ |
+| suffix-pgn | 1Kgs.2.20 | me'itakh | HR/R/Sp2fs | m/854 | prep NA NA NA NA NA MN |
+| suffix-pgn | 1Kgs.2.32 | miménu | HR/Sp1cp | 4480 a | prep NA NA NA NA NA MN |
 | suffix-pgn | 1Kgs.3.5 | lakh | HR/Sp2fs | l | prep NA NA NA NA NA L |
-| suffix-pgn | 1Kgs.3.6 | `immakh | HR/Sp2fs | 5973 a | prep NA NA NA NA NA <M |
+| suffix-pgn | 1Kgs.3.6 | `imakh | HR/Sp2fs | 5973 a | prep NA NA NA NA NA <M |
 | noun-number | 1Kgs.2.26 | adonay | HNcmpc/Sp1cs | 136 | nmpr NA NA NA m sg >DNJ/ |
 | noun-number | 1Kgs.3.10 | adonay | HNcmpc/Sp1cs | 136 | nmpr NA NA NA m sg >DNJ/ |
 | noun-number | 1Kgs.3.15 | adonay | HNcmpc/Sp1cs | 136 | nmpr NA NA NA m sg >DNJ/ |
@@ -820,9 +820,9 @@ Samples per reason:
 | suffix-missing | 1Kgs.8.53 | adonay | HNcmpc/Sp1cs | 136 | nmpr NA NA NA m sg >DNJ/ |
 | conj | 1Kgs.3.7 | vavo | HC/Vqc | c/935 | verb qal infa unknown unknown unknown BW>[ |
 | conj | 1Kgs.6.18 | nir'ah | HVNsfsa | 7200 | verb nif ptca unknown f sg R>H[ |
-| conj | 1Kgs.6.19 | letitten | HR/Vqc | l/5414 | verb qal impf p2 m sg NTN[ |
-| conj | 1Kgs.20.39 | hippaqed | HVNa | 6485 a | verb nif infc unknown unknown unknown PQD[ |
-| pos-is-verb | 1Kgs.8.65 | millevo | HR/Np | m/935 | verb qal infc unknown unknown unknown BW>[ |
+| conj | 1Kgs.6.19 | letiten | HR/Vqc | l/5414 | verb qal impf p2 m sg NTN[ |
+| conj | 1Kgs.20.39 | hipaqed | HVNa | 6485 a | verb nif infc unknown unknown unknown PQD[ |
+| pos-is-verb | 1Kgs.8.65 | milevo | HR/Np | m/935 | verb qal infc unknown unknown unknown BW>[ |
 | pos-is-verb | 1Kgs.11.22 | chaser | HAamsa | 2638 | verb qal ptca unknown m sg XSR[ |
 | pos-is-verb | 1Kgs.18.3 | yare | HAamsa | 3373 | verb qal ptca unknown m sg JR>[ |
 | pos-is-verb | 1Kgs.18.12 | yare | HAamsa | 3372 | verb qal ptca unknown m sg JR>[ |
@@ -832,14 +832,14 @@ Samples per reason:
 | verb-pos | 1Sam.2.26 | vegadel | HC/Vqrmsa | c/1432 | adjv NA NA NA m sg GDL=/ |
 | person | 1Kgs.13.22 | téshet | HVqj3ms | 8354 | verb qal impf p2 m sg CTH[ |
 | person | 2Sam.10.11 | vehayítah | HC/Vqq3fs | c/1961 | verb qal perf p2 m sg HJH[ |
-| person | Gen.29.27 | venittenah | HC/VNq3fs | c/5414 | verb qal impf p1 unknown pl NTN[ |
+| person | Gen.29.27 | venitenah | HC/VNq3fs | c/5414 | verb qal impf p1 unknown pl NTN[ |
 | person | Judg.19.8 | vehitmahmehu | HC/Vtv2mp | c/4102 | verb hit perf p3 unknown pl MHH[ |
 | segmentation | 2Kgs.5.18 | yislach | HVqj3ms | 5545 | verb qal impf p3 m sg SLX[ |
 | gender | 2Sam.10.11 | vehayítah | HC/Vqq3fs | c/1961 | verb qal perf p2 m sg HJH[ |
 | gender | Exod.5.16 | vechatat | HC/Vqq2ms | c/2398 | verb qal perf p2 f sg XV>[ |
-| gender | Jonah.4.8 | vattakh | HC/Vhw3ms | c/5221 | verb hif wayq p3 f sg NKH[ |
-| number | Gen.29.27 | venittenah | HC/VNq3fs | c/5414 | verb qal impf p1 unknown pl NTN[ |
-| number | Ruth.2.20 | miggo'alénu | HR/Vqrmsc/Sp1cp | m/1350 a | verb qal ptca unknown m pl G>L[ |
+| gender | Jonah.4.8 | vatakh | HC/Vhw3ms | c/5221 | verb hif wayq p3 f sg NKH[ |
+| number | Gen.29.27 | venitenah | HC/VNq3fs | c/5414 | verb qal impf p1 unknown pl NTN[ |
+| number | Ruth.2.20 | migo'alénu | HR/Vqrmsc/Sp1cp | m/1350 a | verb qal ptca unknown m pl G>L[ |
 
 ## Poem bounds (SPEC 0.1)
 

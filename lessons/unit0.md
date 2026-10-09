@@ -19,24 +19,27 @@ After the "and" of a story verb the shva is always vocal: {Jonah.1.1#1} vayehi.
 Rule of thumb: start of word, or after a long vowel, sound it; after a short vowel, stay silent.
 Tap any word to check yourself.
 
-## L0.2 Dagesh: hard letter or doubled letter
+## L0.2 Dagesh: the dot inside a letter
 
 A dot inside a letter has two jobs.
 
 Bet, kaf and pe are hard with the dot (b, k, p) and soft without it (v, kh, f):
 {Gen.1.6#5} betokh has a hard b and a soft kh; {Gen.1.5#11} vóqer starts with a soft v.
 
-After a vowel, the dot doubles the letter. Doubled letters are written twice:
-{Gen.1.6#6} hammáyim, {Gen.1.3#1} vayyómer.
+After a vowel, the dot marks a doubled letter. Ancient readers held the sound a little longer;
+today it is read as one letter, so the transliteration writes it once: {Gen.1.6#6} hamáyim,
+{Gen.1.3#1} vayómer. The dot still matters as a grammar signal after ha-, va- and mi- (Units 1
+and 3).
 
-Both in one word: {Gen.1.16#18} hakkokhavim, a doubled k and then a soft kh.
+Both in one word: {Gen.1.16#18} hakokhavim, a dot in the first kaf (hard k) and none in the
+second (soft kh).
 
 ## L0.3 Qamats: a or o
 
 The qamats (a small T under the letter) is usually a: {Gen.1.10#7} qara, {Gen.1.27#10} zakhar.
 
 In a closed syllable without stress it is a short o (qamats qatan): {Gen.1.21#7} kol-,
-{Gen.1.29#27} le'okhlah. A few words are o by tradition: {Jonah.1.3#10} oniyyah.
+{Gen.1.29#27} le'okhlah. A few words are o by tradition: {Jonah.1.3#10} oniyah.
 
 The printed text uses one sign for both. The app decides from syllables and stress, and the
 transliteration always shows which reading it chose.
@@ -72,7 +75,7 @@ The transliteration writes it as a hyphen.
 Five letters take a different shape at the end of a word: kaf, mem, nun, pe and tsade. The sound
 does not change.
 
-Final mem: {Gen.1.6#6} hammáyim. Final kaf: {Gen.1.6#5} betokh. Final nun: {Gen.1.4#9} ben.
+Final mem: {Gen.1.6#6} hamáyim. Final kaf: {Gen.1.6#5} betokh. Final nun: {Gen.1.4#9} ben.
 Final pe: {Gen.1.21#18} kanaf. Final tsade: {Gen.1.1#7} ha'árets.
 
 ## L0.8 Look-alike letters
@@ -81,7 +84,7 @@ Pairs that slow readers down. Look at the first letter of each word.
 
 Bet and kaf: {Gen.1.1#2} bara and {Gen.1.7#17} khen.
 Dalet and resh: {Gen.1.11#5} déshe and {Gen.1.6#4} raqía`.
-He, chet and tav: {Gen.1.2#2} hayetah, {Gen.1.20#7} chayyah, {Gen.1.2#8} tehom.
+He, chet and tav: {Gen.1.2#2} hayetah, {Gen.1.20#7} chayah, {Gen.1.2#8} tehom.
 Vav and zayin: {Gen.1.2#4} vavóhu and {Gen.1.11#8} zéra`.
 
 When a word looks wrong, check these pairs first.
