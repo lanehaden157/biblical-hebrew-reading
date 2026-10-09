@@ -19,3 +19,4 @@
 - 2026-10-08 (7): Phase 4a app core: Today flow, 7 card kinds, lessons, FSRS, verify_app gate; legacy root files removed.
 - 2026-10-08 (8): Phase 4b: report-a-problem, export/import, progress tab, M12 timing.
 - 2026-10-08 (9): Dropped doubled consonants from translit (dagesh forte not written); removed doubling distractors; lessons reworded to teach the dot as a grammar signal. 29,247 tokens changed; Unit 0 picks shifted (42 ids).
+- 2026-10-08 (9): Reopened sync: opt-in private-gist sync (app/sync.js) + pipeline/pull_sync.py so Claude reads reports directly. Lane phone check pending.

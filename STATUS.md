@@ -53,3 +53,8 @@ Phase log for the v1 rebuild (see `BUILD_PLAN.md`). Pre-rebuild history: tag `v0
 - Log entries now carry `nw` (new vs review), word and tap counts; sessions carry `sec`.
 - Not built: Unit 0 mastery check, pin queue, Exodus passage reader, a converter from reports to `apply_review.py` input.
 - 2026-10-08: translit no longer writes dagesh forte (one consonant); doubling distractors removed; lessons teach the dot.
+
+## Sync (built 2026-10-08; Lane phone check pending)
+- `app/sync.js`: opt-in, whole store to a private gist (`hebrew-v1-progress.json`). Token in its own localStorage key, never exported. Store stamps `savedAt` on save; sync compares it with the gist copy: pull, push, or ask on conflict. Runs on open, session end/exit, import, restore, "Sync now" (1-2 requests each).
+- `pipeline/pull_sync.py` (gh CLI): writes `build/progress.json` + `build/reports.json`, prints reports and quarantine.
+- Logic tested with two simulated devices against a fake API; not run against GitHub yet.

@@ -57,3 +57,6 @@ button.start { width:100%; padding:20px; font-size:1.2rem; }
 .statv { font-size:1.6rem; font-weight:600; } .statl { color:var(--mut); font-size:.85rem; }
 .hid2 { display:none; }
 .qrow { display:flex; justify-content:space-between; align-items:center; border-bottom:1px solid var(--line); padding:6px 0; font-size:.85rem; }
+.field { display:block; width:100%; font:inherit; background:var(--card); color:var(--fg); border:1px solid var(--line); border-radius:10px; padding:10px; margin-top:12px; }
+.warn { color:var(--bad); }
+a { color:var(--fg); }

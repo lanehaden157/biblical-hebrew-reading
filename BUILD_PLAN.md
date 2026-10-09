@@ -21,7 +21,7 @@ Where it conflicts with the current CLAUDE.md, the spec wins; CLAUDE.md gets rew
 | Glosses (Q4/Q5) | Seeded from STEPBible TBESH, curated per occurrence vs BDB, source + `reviewed` flag; no upfront review; Lane reports problems while studying (2026-10-08). Reveal shows gloss line + WEB translation |
 | Verb cards (Q6) | Card per lemma+stem when stem has ≥20 tokens and a distinct meaning |
 | Parse cross-check | OSHB vs ETCBC BHSA; disagreements quarantined |
-| Sync | Dropped. localStorage + export/import only |
+| Sync | Opt-in private gist (2026-10-08); export/import kept |
 
 ## Phases
 

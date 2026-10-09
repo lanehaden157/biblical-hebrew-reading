@@ -21,7 +21,7 @@ no deadline. Lane already decodes pointed text; Unit 0 is a 1-week calibration.
 | Parse check | OSHB vs ETCBC BHSA; disagreements quarantined |
 | Session | Guided Today flow, ~8 min, silent roll-over, no counters or streaks |
 | SRS | ts-fsrs, pinned CDN version. Do not reimplement |
-| Persistence | localStorage + JSON export/import. Versioned schema. No sync, no audio |
+| Persistence | localStorage + JSON export/import. Versioned schema. Opt-in gist sync (`app/sync.js`; `pipeline/pull_sync.py` reads reports). No audio |
 
 ## Trust rules (strongly suggested; they are the reason for the rebuild)
 
@@ -51,7 +51,7 @@ index.html
 ## App conventions
 
 Pages serves from a subpath: every fetch/src/href in `/app/` is relative (`../data/…`), never
-root-absolute. One module per concern. Only external request: the pinned ts-fsrs CDN URL.
+root-absolute. One module per concern. External requests: the pinned ts-fsrs CDN URL, plus api.github.com only when sync is turned on.
 
 ## Working style
 

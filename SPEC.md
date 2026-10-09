@@ -350,7 +350,7 @@ Original wording of R1–R3 and Q1–Q6 is replaced by the outcomes below. `BUIL
 - **Q4. Gloss source.** Seeded from STEPBible TBESH, curated per occurrence against BDB, each gloss carries a source and a `reviewed` flag. Changed 2026-10-08: no per-unit review batch (Lane cannot check Hebrew against BDB); Lane reports problems while studying and fixed glosses become reviewed. The app should mark unreviewed glosses subtly, since nearly all will be.
 - **Q5. Reveal translation.** Gloss line plus WEB translation (needs a verified Hebrew-to-English verse map).
 - **Q6. Verb cards.** One card per lemma+stem when the stem has at least 20 tokens (M5) and a distinct meaning.
-- **Sync.** Dropped. localStorage plus export/import only.
+- **Sync.** Changed 2026-10-08: opt-in sync of the whole store to a private GitHub gist (Lane's gist-scope token, kept outside the store). Runs on open and at session end; conflicts ask. `pipeline/pull_sync.py` fetches reports. Export/import stays.
 - **Phase 2 (2026-10-08, from MEASURES.md).** Core stays 750 lemmas. Unit 11 forms: rule-opaque ones only (see Unit 11). Gen 12:1–9 opens Unit 6. Poems 2 Sam 1:19–27 and 2 Kgs 19:21–28 removed; short couplets kept. Hishtachaveh (H7812): one lemma+stem card "bow down", stem facet not asked (OSHB and BHSA disagree).
 - **Phase 3 content (2026-10-08).** Unit 2's 6 whole forms are the next 6 wayyiqtol forms after Unit 1's 8 (not M6 ranks 9-14, which include qatal/yiqtol). Pronoun suffix cards split by PGN and spelling shape (after a singular noun vs after a plural noun or 'el/`al). Unit 3's 8 markers: va + doubling, y-, t-, '-, n-, y-...-u, t-...-u, short -eh-less forms.
 

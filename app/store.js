@@ -30,15 +30,21 @@ export function load() {
   return S;
 }
 
-export function save() {
+function write() {
   if (S.log.length > LOG_CAP) S.log = S.log.slice(-LOG_CAP);
   try { localStorage.setItem(KEY, JSON.stringify(S)); } catch (e) { /* ignore */ }
 }
 
+// savedAt marks a local change; sync.js compares it with the gist copy.
+export function save() {
+  S.savedAt = new Date().toISOString();
+  write();
+}
+
 export const state = () => S;
 
-// Replace everything (import). Caller validates.
+// Replace everything (import, sync pull), keeping the source's savedAt. Caller validates.
 export function replace(obj) {
   S = Object.assign(fresh(), obj);
-  save();
+  write();
 }
