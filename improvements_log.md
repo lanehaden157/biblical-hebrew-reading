@@ -82,3 +82,4 @@
 - app/main.js: fixed reported-items list rendering as raw text (same array bug, from 4b).
 - render.js `solo()`: maqqef hyphen hidden on words shown alone (decode, lemma, example cards); kept in verses. From Lane's reports D:01GYp, D:32wMq.
 - build_text.py `question_gloss`: TAHOT "¿ not" shown as "not?" (334 tokens); verify_text fails on any "¿". Rebuilt text/items/lessons; item ids unchanged.
+- glosses/tokens.json: 7 Unit 0 decode notes fixed per occurrence (ayékah, velámah, ve'elékha, haholekh, ferat, ba'ah, keshem); curated, unreviewed.

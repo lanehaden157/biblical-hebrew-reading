@@ -7,3 +7,4 @@
 - Follow-ups: Settings rendered sync section and reported-items list as raw text (arrays passed to replaceChildren; fixed). sw.js now revalidates (Pages' 10-min HTTP cache served stale files). Wait for the Pages deploy before telling Lane to check.
 - Sync confirmed live: gist bfcce068..., pull_sync.py read Lane's 2 reports (D:01GYp, D:32wMq, translit/English formatting).
 - Lane's 2 reports (pre-dedouble items, since removed): fixed trailing maqqef dash on solo words (gave away decode answers) and TAHOT "¿" glosses. Open: decode notes show TAHOT contextual glosses that can read oddly alone ("more than two plus").
+- Fixed 7 odd Unit 0 decode notes via glosses/tokens.json overrides (Tubal- left; solo() already shows 'Tubal').
